@@ -10,6 +10,6 @@
 | 3：人間の承認 | VERIFIEDをYuichiが確認 | 対象版・範囲の明示的承認を記録し、その範囲だけMASTERへ反映 |
 | 4：サイト検討 | 公開範囲と表示方法を設計 | 出典表示、利用条件、公開対象、技術構成をYuichiと合意 |
 
-今回の実施範囲は段階0の文書整備。段階1以降は未実施。data/raw、data/candidate、data/verified、data/master、scripts、siteは必要になる段階で作成する。
+現在は段階1のパイロット確認を進めている。公開画面を早期に検証するため、確認中の少数データを使うWebプロトタイプを並行して作成する。プロトタイプの表示データはVERIFIEDまたはMASTERを意味しない。data/raw、data/candidate、data/verified、data/master、scriptsは必要になる段階で作成する。
 
 Person / Career / Organization / Sourceを超えるスキーマ拡張や大規模実装は、目的と影響を説明し、Yuichiと合意してから行う。
