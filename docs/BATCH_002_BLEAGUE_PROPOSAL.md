@@ -6,6 +6,8 @@
 
 実施データ：[Batch 002](../data/candidate/batch_002/README.md)
 
+外部調査：[Felo・Gemini用リサーチ指示文](BATCH_002_RESEARCH_PROMPTS.md)
+
 ## 選定方法
 
 B.LEAGUE公式サイトの「出身高校：福岡第一高等学校」一覧を2026-09-19に確認した。一覧は11人で、Batch 001で扱ったジャン・ローレンス・ハーパージュニアを除く10人をBatch 002の対象とする。
