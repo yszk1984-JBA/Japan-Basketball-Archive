@@ -23,6 +23,7 @@ Governance v1.0に基づき、福岡第一高校パイロットの確認を進�
 - [ROADMAP](docs/ROADMAP.md)：進め方と完了条件
 - [FUTURE_ARCHITECTURE](docs/FUTURE_ARCHITECTURE.md)：検索・公開API・Data Factoryの将来方針
 - [PILOT_EXCEL_AUDIT_V0.1](docs/PILOT_EXCEL_AUDIT_V0.1.md)：福岡第一高校Excelの初回監査結果
+- [PILOT_CANDIDATE_P000027](docs/PILOT_CANDIDATE_P000027.md)：欠落している人物参照の候補整理
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置

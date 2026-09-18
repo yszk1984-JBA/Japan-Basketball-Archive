@@ -94,6 +94,8 @@ Careerの2行とEvidenceの1行が`P000027`を参照しているが、Personに`
 
 同名人物を推測してPersonを自動作成せず、CANDIDATE段階で人物候補と表記を確認する必要がある。
 
+初回の候補整理は[PILOT_CANDIDATE_P000027](PILOT_CANDIDATE_P000027.md)に記録した。
+
 ### 2. Excelテーブル範囲から外れたデータ
 
 CareerのExcelテーブルは`A4:N104`だが、入力は213行目まであり、後半データがテーブル範囲外にある。また追加列`O:S`もテーブル外である。
