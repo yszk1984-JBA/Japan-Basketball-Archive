@@ -17,3 +17,9 @@ OwnerのYuichiが最終判断、Human verification、Master approvalを担当す
 ## 成功条件
 
 出典から候補データを再確認でき、不明点と矛盾が可視化され、人間の明示的承認なしにMasterへ進まないこと。文書の承認と個別データの承認を区別する。
+
+## 長期的な方向性
+
+将来は、人物・所属・試合・時間の関係をたどれる日本バスケットボールの構造化アーカイブを目指す。人間向けWebページ、検索、機械向けJSON/APIは、別々に管理せず同じ承認済みデータから生成する。
+
+現在のPerson / Career / Organization / Sourceを土台とし、検索やData Factoryの方向性は[FUTURE_ARCHITECTURE](FUTURE_ARCHITECTURE.md)に整理する。Team / Competition / Game / Statsなどの追加は将来候補であり、この記載だけでスキーマ追加を承認したものではない。

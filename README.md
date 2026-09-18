@@ -21,6 +21,7 @@ Governance v1.0に基づき、福岡第一高校パイロットの確認を進�
 - [DATA_POLICY](docs/DATA_POLICY.md)：出典・検証・承認ルール
 - [AI_WORKFLOW](docs/AI_WORKFLOW.md)：AIと人間の担当
 - [ROADMAP](docs/ROADMAP.md)：進め方と完了条件
+- [FUTURE_ARCHITECTURE](docs/FUTURE_ARCHITECTURE.md)：検索・公開API・Data Factoryの将来方針
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置
