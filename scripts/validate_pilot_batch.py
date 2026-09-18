@@ -52,10 +52,25 @@ REQUIRED_FILES = {
         "description",
         "next_check",
     ],
+    "qa_decisions.csv": [
+        "decision_id",
+        "entity_type",
+        "entity_id",
+        "decision",
+        "eligible_fields",
+        "held_fields",
+        "reason",
+        "reviewed_at",
+    ],
 }
 
 ALLOWED_ASSESSMENTS = {"SUPPORTED", "PARTIAL", "CONFLICT", "UNVERIFIED"}
 ALLOWED_ENTITY_TYPES = {"Person", "Career", "Organization"}
+ALLOWED_DECISIONS = {
+    "READY_FOR_VERIFIED_REVIEW",
+    "HOLD_CANDIDATE",
+    "REJECT_CANDIDATE",
+}
 
 
 def read_csv(path: Path, expected_headers: list[str]) -> list[dict[str, str]]:
@@ -98,6 +113,7 @@ def main() -> int:
     sources = loaded["source_references.csv"]
     evidence = loaded["evidence_records.csv"]
     issues = loaded["issues.csv"]
+    decisions = loaded["qa_decisions.csv"]
 
     key_specs = [
         ("Person", persons, "person_id"),
@@ -106,6 +122,7 @@ def main() -> int:
         ("Source", sources, "source_id"),
         ("Evidence", evidence, "record_id"),
         ("Issue", issues, "issue_id"),
+        ("QA decision", decisions, "decision_id"),
     ]
     for label, rows, key in key_specs:
         blank = [index + 2 for index, row in enumerate(rows) if not row[key].strip()]
@@ -147,6 +164,7 @@ def main() -> int:
         "Career": career_ids,
         "Organization": organization_ids,
     }
+    supported_fields: set[tuple[str, str, str]] = set()
     for index, row in enumerate(evidence, start=2):
         entity_type = row["entity_type"]
         if entity_type not in ALLOWED_ENTITY_TYPES:
@@ -171,8 +189,52 @@ def main() -> int:
             errors.append(
                 f"Evidence row {index}: invalid assessment {row['assessment']}"
             )
+        elif row["assessment"] == "SUPPORTED":
+            supported_fields.add(
+                (entity_type, row["entity_id"], row["field_name"])
+            )
         if not row["checked_at"].strip():
             errors.append(f"Evidence row {index}: checked_at is blank")
+
+    decision_targets = [
+        f"{row['entity_type']}:{row['entity_id']}" for row in decisions
+    ]
+    duplicate_targets = duplicates(decision_targets)
+    if duplicate_targets:
+        errors.append(f"QA decision: duplicate targets: {duplicate_targets}")
+
+    for index, row in enumerate(decisions, start=2):
+        entity_type = row["entity_type"]
+        if entity_type not in ALLOWED_ENTITY_TYPES:
+            errors.append(
+                f"QA decision row {index}: invalid entity_type {entity_type}"
+            )
+        elif row["entity_id"] not in entity_ids[entity_type]:
+            errors.append(
+                f"QA decision row {index}: missing {entity_type} {row['entity_id']}"
+            )
+        if row["decision"] not in ALLOWED_DECISIONS:
+            errors.append(
+                f"QA decision row {index}: invalid decision {row['decision']}"
+            )
+        if (
+            row["decision"] == "READY_FOR_VERIFIED_REVIEW"
+            and not row["eligible_fields"].strip()
+        ):
+            errors.append(
+                f"QA decision row {index}: READY decision has no eligible_fields"
+            )
+        for field_name in filter(None, row["eligible_fields"].split("|")):
+            field_key = (entity_type, row["entity_id"], field_name)
+            if field_key not in supported_fields:
+                errors.append(
+                    f"QA decision row {index}: eligible field has no "
+                    f"SUPPORTED evidence: {field_name}"
+                )
+        if not row["reason"].strip():
+            errors.append(f"QA decision row {index}: reason is blank")
+        if not row["reviewed_at"].strip():
+            errors.append(f"QA decision row {index}: reviewed_at is blank")
 
     return write_report(batch_dir, loaded, errors)
 
@@ -185,6 +247,9 @@ def write_report(
     counts = {name: len(rows) for name, rows in loaded.items()}
     issue_rows = loaded.get("issues.csv", [])
     open_issues = sum(row.get("status") in {"OPEN", "HOLD"} for row in issue_rows)
+    decision_counts = Counter(
+        row.get("decision", "") for row in loaded.get("qa_decisions.csv", [])
+    )
     lines = [
         "# Pilot Batch 001 QA Report",
         "",
@@ -201,6 +266,17 @@ def write_report(
     ]
     for filename in REQUIRED_FILES:
         lines.append(f"- `{filename}`：{counts.get(filename, 0)}行")
+    lines.extend(
+        [
+            "",
+            "## 次段階レビュー判定",
+            "",
+            "- READY_FOR_VERIFIED_REVIEW："
+            f"{decision_counts['READY_FOR_VERIFIED_REVIEW']}件",
+            f"- HOLD_CANDIDATE：{decision_counts['HOLD_CANDIDATE']}件",
+            f"- REJECT_CANDIDATE：{decision_counts['REJECT_CANDIDATE']}件",
+        ]
+    )
     lines.extend(["", "## エラー", ""])
     if errors:
         lines.extend(f"- {error}" for error in errors)

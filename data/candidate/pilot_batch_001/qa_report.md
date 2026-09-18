@@ -16,6 +16,13 @@
 - `source_references.csv`：8行
 - `evidence_records.csv`：23行
 - `issues.csv`：8行
+- `qa_decisions.csv`：12行
+
+## 次段階レビュー判定
+
+- READY_FOR_VERIFIED_REVIEW：10件
+- HOLD_CANDIDATE：2件
+- REJECT_CANDIDATE：0件
 
 ## エラー
 

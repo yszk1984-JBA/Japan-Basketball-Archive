@@ -27,6 +27,8 @@ Governance v1.0に基づき、福岡第一高校パイロットの小規模なCA
 - [PILOT_SOURCE_URL_REVIEW](docs/PILOT_SOURCE_URL_REVIEW.md)：Source URLの確認結果
 - [PILOT_EVIDENCE_FORMAT_V0.1](docs/PILOT_EVIDENCE_FORMAT_V0.1.md)：項目別出典を記録する最小形式案
 - [PILOT_BATCH_001_PROPOSAL](docs/PILOT_BATCH_001_PROPOSAL.md)：最初の5人で行う小規模検証案
+- [DATA_SCALING_WORKFLOW_V0.1](docs/DATA_SCALING_WORKFLOW_V0.1.md)：データ量と品質を並行して高めるバッチ運用
+- [BATCH_002_BLEAGUE_PROPOSAL](docs/BATCH_002_BLEAGUE_PROPOSAL.md)：B.LEAGUE公式一覧から選んだ次の10人
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 

@@ -1,0 +1,13 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+QD000001,Person,P000012,READY_FOR_VERIFIED_REVIEW,name|birth_date,,公式プロフィールと公式登録名変更資料で確認,2026-09-19
+QD000002,Career,C000012,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,福岡第一所属と選手登録は公式資料で確認できるが期間は未確定,2026-09-19
+QD000003,Career,C000028,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,東海大学所属と選手活動を公式資料で確認できるが期間は未確定,2026-09-19
+QD000004,Person,P000013,READY_FOR_VERIFIED_REVIEW,name,,JBA公式試合記録で確認,2026-09-19
+QD000005,Career,C000013,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,福岡第一所属と選手登録は公式資料で確認できるが期間は未確定,2026-09-19
+QD000006,Career,C000029,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,中央大学公式部活動資料で2021年度新入生として確認,2026-09-19
+QD000007,Person,P000011,READY_FOR_VERIFIED_REVIEW,name|name_variant,,JBA公式資料内の表記関係を確認,2026-09-19
+QD000008,Career,C000011,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,福岡第一所属と選手登録は公式資料で確認できるが期間は未確定,2026-09-19
+QD000009,Person,P000017,READY_FOR_VERIFIED_REVIEW,name,,JBA公式チームページで確認,2026-09-19
+QD000010,Career,C000017,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,福岡第一のManager登録を公式資料で確認できるが期間は未確定,2026-09-19
+QD000011,Person,P000027,HOLD_CANDIDATE,,name|name_variant,公式な人物表記を確認できずExcel原本のPerson参照も欠落,2026-09-19
+QD000012,Career,C000027,HOLD_CANDIDATE,,organization_id|role|start|end,専門媒体のみで公式な選手登録と期間を確認できない,2026-09-19
