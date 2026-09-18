@@ -1,8 +1,10 @@
 # Batch 002 — B.LEAGUE福岡第一高校出身者
 
 作成日：2026-09-19
-状態：対象選定済み・CANDIDATE作成前
+状態：初期CANDIDATE・構造QA作成済み
 人数：10人
+
+実施データ：[Batch 002](../data/candidate/batch_002/README.md)
 
 ## 選定方法
 

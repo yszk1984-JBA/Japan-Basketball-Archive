@@ -244,6 +244,7 @@ def write_report(
     loaded: dict[str, list[dict[str, str]]],
     errors: list[str],
 ) -> int:
+    batch_label = batch_dir.name.replace("_", " ").title()
     counts = {name: len(rows) for name, rows in loaded.items()}
     issue_rows = loaded.get("issues.csv", [])
     open_issues = sum(row.get("status") in {"OPEN", "HOLD"} for row in issue_rows)
@@ -251,7 +252,7 @@ def write_report(
         row.get("decision", "") for row in loaded.get("qa_decisions.csv", [])
     )
     lines = [
-        "# Pilot Batch 001 QA Report",
+        f"# {batch_label} QA Report",
         "",
         "この検査は構造QAであり、史実の正しさ、VERIFIED、HUMAN APPROVAL、MASTERを意味しない。",
         "",

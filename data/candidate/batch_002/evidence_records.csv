@@ -1,0 +1,72 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B2E0001,Person,P000063,name,古野 拓巳,B2S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0002,Person,P000063,name_en,Takumi Furuno,B2S0001,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0003,Person,P000063,birth_date,1993-02-20,B2S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0004,Career,C000211,organization_id,ORG000091,B2S0001,クラブ所属履歴 > 最新掲載,愛媛オレンジバイキングスを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0005,Career,C000211,role,Player,B2S0001,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0006,Career,C000210,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0007,Career,C000210,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0008,Person,P000038,name,内尾 聡理,B2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0009,Person,P000038,name_en,Sori Uchio,B2S0002,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0010,Person,P000038,birth_date,2001-04-12,B2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0011,Career,C000107,organization_id,ORG000048,B2S0002,クラブ所属履歴 > 最新掲載,佐賀バルーナーズを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0012,Career,C000107,role,Player,B2S0002,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0013,Career,C000057,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0014,Career,C000057,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0015,Person,P000037,name,鵤 誠司,B2S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0016,Person,P000037,name_en,Seiji Ikaruga,B2S0003,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0017,Person,P000037,birth_date,1994-01-08,B2S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0018,Career,C000103,organization_id,ORG000047,B2S0003,クラブ所属履歴 > 最新掲載,宇都宮ブレックスを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0019,Career,C000103,role,Player,B2S0003,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0020,Career,C000056,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0021,Career,C000056,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0022,Person,P000041,name,狩野 祐介,B2S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0023,Person,P000041,name_en,Yusuke Karino,B2S0004,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0024,Person,P000041,birth_date,1990-04-18,B2S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0025,Career,C000129,organization_id,ORG000040,B2S0004,クラブ所属履歴 > 最新掲載,ライジングゼファー福岡を最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0026,Career,C000129,role,Player,B2S0004,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0027,Career,C000060,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0028,Career,C000060,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0029,Person,P000042,name,並里 成,B2S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0030,Person,P000042,name_en,Narito Namizato,B2S0005,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0031,Person,P000042,birth_date,1989-08-07,B2S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0032,Career,C000140,organization_id,ORG000055,B2S0005,クラブ所属履歴 > 最新掲載,横浜ビー・コルセアーズを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0033,Career,C000140,role,Player,B2S0005,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0034,Career,C000061,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0035,Career,C000061,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0036,Person,P000039,name,渡辺 竜之佑,B2S0006,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0037,Person,P000039,name_en,Ryunosuke Watanabe,B2S0006,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0038,Person,P000039,birth_date,1994-08-24,B2S0006,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0039,Career,C000117,organization_id,ORG000042,B2S0006,クラブ所属履歴 > 最新掲載,京都ハンナリーズを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0040,Career,C000117,role,Player,B2S0006,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0041,Career,C000058,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0042,Career,C000058,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0043,Person,P000043,name,松崎 裕樹,B2S0007,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0044,Person,P000043,name_en,Hiroki Matsuzaki,B2S0007,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0045,Person,P000043,birth_date,2000-06-02,B2S0007,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0046,Career,C000212,organization_id,ORG000092,B2S0007,クラブ所属履歴 > 最新掲載,レバンガ北海道を最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0047,Career,C000212,role,Player,B2S0007,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0048,Career,C000212,start,2026,B2S0011,本文冒頭 > 2026-27シーズンの選手契約,レバンガ北海道が2026-27シーズンの新規入団を発表,SUPPORTED,2026-09-19,
+B2E0049,Career,C000062,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0050,Career,C000062,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0051,Person,P000035,name,小川 麻斗,B2S0008,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0052,Person,P000035,name_en,Asato Ogawa,B2S0008,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0053,Person,P000035,birth_date,2001-08-23,B2S0008,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0054,Career,C000088,organization_id,ORG000043,B2S0008,クラブ所属履歴 > 最新掲載,神戸ストークスを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0055,Career,C000088,role,Player,B2S0008,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0056,Career,C000054,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0057,Career,C000054,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0058,Person,P000040,name,神田 壮一郎,B2S0009,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0059,Person,P000040,name_en,Soichiro Kanda,B2S0009,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0060,Person,P000040,birth_date,2001-06-16,B2S0009,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0061,Career,C000120,organization_id,ORG000050,B2S0009,クラブ所属履歴 > 最新掲載,ウォルガ湘南を最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0062,Career,C000120,role,Player,B2S0009,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0063,Career,C000059,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0064,Career,C000059,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0065,Person,P000036,name,井手 拓実,B2S0010,基本情報 > 選手名,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,
+B2E0066,Person,P000036,name_en,Takumi Ide,B2S0010,基本情報 > 英語表記,B.LEAGUE公式プロフィールの英語表記,SUPPORTED,2026-09-19,
+B2E0067,Person,P000036,birth_date,1999-10-12,B2S0010,基本情報 > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+B2E0068,Career,C000092,organization_id,ORG000046,B2S0010,クラブ所属履歴 > 最新掲載,アースフレンズ東京Zを最新の所属履歴として掲載,SUPPORTED,2026-09-19,開始・終了時期は今回の最小取込対象外
+B2E0069,Career,C000092,role,Player,B2S0010,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
+B2E0070,Career,C000055,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
+B2E0071,Career,C000055,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する

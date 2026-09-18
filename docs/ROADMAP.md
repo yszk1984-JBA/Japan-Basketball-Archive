@@ -14,7 +14,7 @@
 | 7：絞り込み・関係探索 | 年代、地域、所属経路等の検索を検討 | データ量と品質を確認し、採用する検索軸をYuichiと合意 |
 | 8：機械向け公開 | Webと同じ承認済みデータからJSON/APIを生成 | 仕様、公開範囲、利用条件、更新方法を合意し、出典へ追跡できる |
 
-現在は段階2の候補と検証を進めている。Batch 001で形式を確認し、次はB.LEAGUE公式プロフィールを入口に10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。プロトタイプの表示データはVERIFIEDまたはMASTERを意味しない。data/verifiedとdata/masterは必要になる段階まで作成しない。
+現在は段階2の候補と検証を進めている。Batch 001で形式を確認し、B.LEAGUE公式プロフィールを入口にしたBatch 002の10人分の初期CANDIDATEと構造QAを作成した。今後も10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。プロトタイプの表示データはVERIFIEDまたはMASTERを意味しない。data/verifiedとdata/masterは必要になる段階まで作成しない。
 
 Person / Career / Organization / Sourceを超えるスキーマ拡張や大規模実装は、目的と影響を説明し、Yuichiと合意してから行う。
 
