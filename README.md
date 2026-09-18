@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校パイロットの確認を進めています。データ取込・検証プログラム・Master Dataは未実装です。公開画面を早期に検証するため、確認中の少数データを使うWebプロトタイプを`site/`で並行開発しています。
+Governance v1.0に基づき、福岡第一高校パイロットの小規模なCANDIDATE・構造QAを進めています。VERIFIED、HUMAN APPROVAL、Master Dataは未実装です。公開画面を早期に検証するため、確認中の少数データを使うWebプロトタイプを`site/`で並行開発しています。
 
 ## 原則
 
@@ -27,6 +27,7 @@ Governance v1.0に基づき、福岡第一高校パイロットの確認を進�
 - [PILOT_SOURCE_URL_REVIEW](docs/PILOT_SOURCE_URL_REVIEW.md)：Source URLの確認結果
 - [PILOT_EVIDENCE_FORMAT_V0.1](docs/PILOT_EVIDENCE_FORMAT_V0.1.md)：項目別出典を記録する最小形式案
 - [PILOT_BATCH_001_PROPOSAL](docs/PILOT_BATCH_001_PROPOSAL.md)：最初の5人で行う小規模検証案
+- [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置
@@ -40,7 +41,7 @@ scripts/         自動検証など
 site/            公開サイト
 ```
 
-上記のデータ配置は予定です。`site/`にはMaster Dataと分離したWebプロトタイプを置きます。
+`data/candidate/`と`scripts/`はBatch 001から使用を開始しました。`data/verified/`と`data/master/`は未作成です。`site/`にはMaster Dataと分離したWebプロトタイプを置きます。
 
 ## GitHubでの基本操作
 

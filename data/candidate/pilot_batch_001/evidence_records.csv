@@ -1,0 +1,22 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+PE000001,Person,P000012,name,ジャン・ローレンス・ハーパージュニア,SRC000029,ページタイトル,B.LEAGUE公式プロフィールの選手名,SUPPORTED,2026-09-19,高校時資料には別表記あり
+PE000002,Person,P000012,birth_date,2003-02-09,SRC000029,QA > 生年月日,B.LEAGUE公式プロフィールの生年月日,SUPPORTED,2026-09-19,
+PE000003,Career,C000012,organization_id,ORG000010,SRC000029,QA > 出身校（高）,福岡第一高等学校を掲載,SUPPORTED,2026-09-19,在籍期間は示さない
+PE000004,Career,C000012,role,Player,SRC000013,福岡第一ボックススコア > No.31,選手として公式試合記録に掲載,SUPPORTED,2026-09-19,
+PE000005,Career,C000028,organization_id,ORG000015,SRC000029,QA > 出身校（大）,東海大学を掲載,SUPPORTED,2026-09-19,在籍期間は示さない
+PE000006,Career,C000028,role,Player,SRC000018,第75回インカレ > 個人賞,東海大学の選手として優秀選手賞に掲載,SUPPORTED,2026-09-19,
+PE000007,Person,P000013,name,松本 宗志,SRC000013,福岡第一ボックススコア > No.27,公式試合記録に氏名を掲載,SUPPORTED,2026-09-19,
+PE000008,Career,C000013,organization_id,ORG000010,SRC000013,福岡第一ボックススコア > No.27,福岡第一の選手欄に掲載,SUPPORTED,2026-09-19,
+PE000009,Career,C000013,role,Player,SRC000013,福岡第一ボックススコア > No.27,選手として公式試合記録に掲載,SUPPORTED,2026-09-19,
+PE000010,Career,C000029,organization_id,ORG000016,SRC000023,2021年度新入生紹介③ > #7 松本宗志,中央大学バスケットボール部の新入生として掲載,SUPPORTED,2026-09-19,
+PE000011,Career,C000029,role,Player,SRC000023,2021年度新入生紹介③ > ポジションG,選手紹介と4年間の目標を掲載,SUPPORTED,2026-09-19,
+PE000012,Career,C000029,start,2021,SRC000023,ページ名と公開日 > 2021年度新入生紹介,2021年度新入生として掲載,SUPPORTED,2026-09-19,月日は確定しない
+PE000013,Person,P000011,name,砂川 琉勇,SRC000013,福岡第一ボックススコア > No.23,公式試合記録に氏名を掲載,SUPPORTED,2026-09-19,別媒体に砂川流勇の表記あり
+PE000014,Career,C000011,organization_id,ORG000010,SRC000013,福岡第一ボックススコア > No.23,福岡第一の選手欄に掲載,SUPPORTED,2026-09-19,
+PE000015,Career,C000011,role,Player,SRC000013,福岡第一ボックススコア > No.23,選手として公式試合記録に掲載,SUPPORTED,2026-09-19,
+PE000016,Person,P000017,name,泉美 優知,SRC-CAND-B001-001,TEAM DATA > マネージャー,JBA公式チームページに氏名を掲載,SUPPORTED,2026-09-19,
+PE000017,Career,C000017,organization_id,ORG000010,SRC-CAND-B001-001,福岡第一高校 > TEAM DATA,福岡第一高校のチームデータに掲載,SUPPORTED,2026-09-19,
+PE000018,Career,C000017,role,Manager,SRC-CAND-B001-001,TEAM DATA > マネージャー,マネージャーとして掲載,SUPPORTED,2026-09-19,進学先での役割には適用しない
+PE000019,Person,P000027,name,ウッズジェリオ 翔,SRC000012,九州／男子 > 福岡第一,福岡第一欄に氏名を掲載,PARTIAL,2026-09-19,公式氏名表記は未確認
+PE000020,Career,C000027,organization_id,ORG000010,SRC000012,九州／男子 > 福岡第一,福岡第一欄に掲載,PARTIAL,2026-09-19,大会公式ロスター未確認
+PE000021,Career,C000027,role,Player,SRC000012,記事説明と九州／男子 > 福岡第一,出場選手の進路一覧として掲載,PARTIAL,2026-09-19,公式選手登録未確認

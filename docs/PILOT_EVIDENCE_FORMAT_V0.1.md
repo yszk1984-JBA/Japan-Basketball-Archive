@@ -1,12 +1,12 @@
 # 項目別出典記録 最小形式案 v0.1
 
 作成日：2026-09-19  
-状態：Draft  
+状態：Batch 001での試行をYuichiが承認（2026-09-19）
 目的：福岡第一高校パイロットのCANDIDATEとQAで、値と出典箇所を追跡できるようにする。
 
 ## 位置づけ
 
-この形式はPerson / Career / Organization / Sourceに続く新しい中心エンティティではない。Governance v1.0で求める出典対応、QA結果、不明点を記録する付随記録案である。
+この形式はPerson / Career / Organization / Sourceに続く新しい中心エンティティではない。Governance v1.0で求める出典対応、QA結果、不明点を記録する付随記録案である。承認範囲はBatch 001の試行に限り、正式SchemaやMasterの承認ではない。
 
 Excel原本のEvidenceシートを参考にするが、既存の`Confirmed`等をそのまま採用しない。この文書だけではデータ取込、Schema拡張、VERIFIED化、Master反映を許可しない。
 

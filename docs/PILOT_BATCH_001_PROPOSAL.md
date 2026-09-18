@@ -1,8 +1,10 @@
 # 福岡第一高校パイロット Batch 001案
 
 作成日：2026-09-19  
-状態：Draft  
+状態：小規模試行をYuichiが承認（2026-09-19）
 人数：5人
+
+実施データ：[Pilot Batch 001](../data/candidate/pilot_batch_001/README.md)
 
 ## 目的
 
