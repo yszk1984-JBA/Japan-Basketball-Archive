@@ -1,5 +1,5 @@
 issue_id,person_id,related_id,issue_type,status,description,next_check
-BI000001,P000012,P000012,NAME_VARIANT,OPEN,高校時と現在の公式プロフィールで氏名順序・区切りが異なる,別名の保持方法をQAで確認
+BI000001,P000012,P000012,NAME_VARIANT,RESOLVED,東京サンロッカーズ公式発表により2025年5月21日のBリーグ登録名変更を確認,旧登録名と高校時表記を別名・資料表記として保持
 BI000002,P000011,C000032,UNCONFIRMED_AFFILIATION,HOLD,専門媒体は明星大への進路を掲載するが実在籍・競技参加を公式資料で確認できない,大学・関東大学連盟の過年度一次資料を確認
 BI000003,P000011,P000011,NAME_VARIANT,OPEN,砂川琉勇と砂川流勇の表記関係を同一人物として確定できる一次資料が不足,学校またはJBAの追加資料を確認
 BI000004,P000017,C000035,ROLE_CARRYOVER_RISK,HOLD,中央工学校への進路情報はあるが入学事実と進学先での役割を確認できない,学校または本人の一次資料を確認

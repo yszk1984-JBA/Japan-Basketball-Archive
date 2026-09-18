@@ -6,15 +6,15 @@
 
 - 構造検査：PASS
 - エラー：0件
-- 未解決事項：8件
+- 未解決事項：7件
 
 ## 件数
 
 - `person_candidates.csv`：5行
 - `organization_candidates.csv`：3行
 - `career_candidates.csv`：7行
-- `source_references.csv`：6行
-- `evidence_records.csv`：21行
+- `source_references.csv`：7行
+- `evidence_records.csv`：22行
 - `issues.csv`：8行
 
 ## エラー
