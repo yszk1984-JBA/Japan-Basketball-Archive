@@ -2,7 +2,7 @@
 
 作成日：2026-09-19
 
-状態：調査対象選定、CANDIDATE未作成
+状態：CANDIDATE作成・構造QA完了
 
 ## 選定方針
 
@@ -50,12 +50,14 @@ B.LEAGUE公式の福岡第一高校出身者11人は、Pilot Batch 001とBatch 0
 
 主要な公式資料で追加情報が見つからなければ、その項目はHOLDとして例外キューへ送る。同じ検索語と同じ資料で調査を繰り返さない。
 
-## 次の工程
+## 実施結果
 
-1. Feloで公式資料候補を発見する。
-2. Geminiを5人ずつ使い、直接URLと資料内位置を確認する。
-3. CodexがURLと原文を再確認する。
-4. 確認できた項目だけでBatch 003のCANDIDATEを作る。
-5. 構造QA後、Yuichi向けレビュー資料を作る。
+1. FeloとGemini A・Bの回答をRAWとして保存した。
+2. Codexが公式URLと資料内位置を再確認した。
+3. 確認できた項目だけでBatch 003のCANDIDATEを作成した。
+4. Python構造QAはPASS、エラー0件だった。
+5. Claudeによる独立QAとYuichi向けレビューは未実施。
+
+次はEvidence、矛盾、HOLD項目を人間が確認しやすいレビュー資料へまとめる。
 
 VERIFIED、HUMAN APPROVAL、MASTER、公開サイトの更新はこの工程に含めない。

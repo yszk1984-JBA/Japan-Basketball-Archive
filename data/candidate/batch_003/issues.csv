@@ -1,0 +1,25 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B3I0001,P000028,C000046,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式の入学・卒業または複数年度ロスターを確認
+B3I0002,P000028,C000213,PERIOD_UNKNOWN,HOLD,白鷗大学で2024年2年を確認したが開始・終了年月は未確認,大学または競技団体の年度別資料を追加確認
+B3I0003,P000029,C000047,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0004,P000029,C000214,PERIOD_UNKNOWN,HOLD,日本体育大学で2025年4年を確認したが開始・終了年月は未確認,大学公式資料を確認
+B3I0005,P000030,C000048,PERIOD_UNKNOWN,HOLD,高校1年時と2021年大会登録を確認したが終了年月は未確認,高校公式資料を確認
+B3I0006,P000030,P000030,POST_HIGH_SCHOOL_UNKNOWN,HOLD,卒業後の実所属と競技参加を示す公式資料を確認できない,候補先を推測せず公式ロスターを待つ
+B3I0007,P000031,C000049,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0008,P000031,C000215,PERIOD_UNKNOWN,HOLD,青山学院大学で2024年3年を確認したが開始・終了年月は未確認,大学公式資料を確認
+B3I0009,P000032,C000050,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0010,P000032,C000216,PERIOD_UNKNOWN,HOLD,九州国際大学で2025年4年を確認したが開始・終了年月は未確認,大学公式資料を確認
+B3I0011,P000033,C000051,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0012,P000033,C000217,SOURCE_CONFLICT,HOLD,外部調査の2023年4年という記載はJUBF公式の2023年2年と不一致,JUBF公式値を候補とし外部回答値は採用しない
+B3I0013,P000033,C000217,PERIOD_UNKNOWN,HOLD,2022年1年から2025年4年の大会登録を確認したが入学・卒業年月は未確認,期間は公式な年月資料が見つかるまで空欄
+B3I0014,P000034,C000052,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0015,P000034,C000218,JERSEY_CONFLICT,HOLD,外部調査の大学背番号75はJUBF公式の70と不一致。2025年の75は別選手,年度別公式ロスターの70を候補とする
+B3I0016,P000034,C000218,PERIOD_UNKNOWN,HOLD,山梨学院大学で2024年3年・2025年4年を確認したが開始・終了年月は未確認,大学公式資料を確認
+B3I0017,P000010,C000010,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0018,P000010,C000031,GRADE_CONFLICT,HOLD,JUBF公式で2021年と2022年がともに2年と表示される,学年から在籍期間を逆算せず資料表示を年度別に保持
+B3I0019,P000010,C000031,PERIOD_UNKNOWN,HOLD,専修大学の開始・終了年月は未確認,大学公式資料を確認
+B3I0020,P000014,C000014,PERIOD_UNKNOWN,HOLD,高校Careerの開始・終了年月は未確認,高校公式資料を確認
+B3I0021,P000014,C000030,PERIOD_UNKNOWN,HOLD,2022年2年から2024年4年の大会登録を確認したが入学・卒業年月は未確認,期間は公式な年月資料が見つかるまで空欄
+B3I0022,P000016,P000016,HIGH_SCHOOL_ROLE_UNKNOWN,HOLD,福岡第一高校出身は大学資料から確認できるが高校バスケットボール部での役割は未確認,高校公式ロスターまたは部資料を確認
+B3I0023,P000016,C000033,ROLE_CORRECTION,RESOLVED,Excelの大学Player候補を採用せずJUBF公式のStudent Coachに修正,2023年・2024年の公式PROFILEで確認済み
+B3I0024,P000016,C000033,PERIOD_UNKNOWN,HOLD,日本体育大学で2023年・2024年に学生コーチを確認したが学籍期間は未確認,大学公式資料を確認
