@@ -101,3 +101,59 @@ B2E0099,Career,C000074,organization_id,ORG000032,B2S0021,略歴 > サウスケ�
 B2E0100,Career,C000074,role,Player,B2S0022,本文 > South KentでのPG・出場記録,同校チームでの競技参加を記載,SUPPORTED,2026-09-19,
 B2E0101,Career,C000074,start,2008,B2S0021,略歴 > 2008年3月入学,入学年月を掲載,SUPPORTED,2026-09-19,
 B2E0102,Career,C000074,end,2009,B2S0021,略歴 > 2009年5月卒業,卒業年月を掲載,SUPPORTED,2026-09-19,
+B2E0103,Career,C000058,organization_id,ORG000010,B2S0024,日本代表チーム > No.10 渡辺竜之佑,福岡第一高校3年として掲載,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0104,Career,C000058,role,Player,B2S0024,平成24年度男子U-18日本代表チーム > 選手,選手として掲載,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0105,Career,C000058,grade,1年,B2S0016,参加メンバー > 渡辺竜之佑,2011年2月時点の学年,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0106,Career,C000058,grade,3年,B2S0024,所属 > 福岡第一高校3年,2012年8月時点の学年,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0107,Career,C000058,position,SF,B2S0024,P > SF,高校3年時の登録ポジション,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0108,Career,C000058,height_cm,185,B2S0024,身長 > 185cm,高校3年時の登録身長,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0109,Career,C000071,organization_id,ORG000018,B2S0025,専修大学 ROSTER > No.6,専修大学ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0110,Career,C000071,role,Player,B2S0025,専修大学 ROSTER > No.6,登録選手として掲載,SUPPORTED,2026-09-19,
+B2E0111,Career,C000071,grade,3年,B2S0025,学年 > 3年,2015年大会時の学年,SUPPORTED,2026-09-19,大学の開始・終了年月は直接示さない
+B2E0112,Career,C000071,grade,4年,B2S0026,学年 > 4年,2016年大会時の学年,SUPPORTED,2026-09-19,大学の開始・終了年月は直接示さない
+B2E0113,Career,C000071,jersey_number,6,B2S0026,No. > 6,大学4年時の背番号,SUPPORTED,2026-09-19,
+B2E0114,Career,C000071,position,G,B2S0026,Pos. > G,大学4年時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0115,Career,C000071,height_cm,187,B2S0026,身長 > 187cm,大学4年時の登録身長,SUPPORTED,2026-09-19,
+B2E0116,Career,C000062,organization_id,ORG000010,B2S0027,選手 > 松崎裕樹,福岡第一高校1年として掲載,SUPPORTED,2026-09-19,
+B2E0117,Career,C000062,role,Player,B2S0027,男子U-18日本代表候補選手,選手として掲載,SUPPORTED,2026-09-19,
+B2E0118,Career,C000062,grade,1年,B2S0027,所属 > 福岡第一高校1年,2016年11月時点の学年,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0119,Career,C000062,grade,3年,B2S0028,選手 > 松崎裕樹,2018年6月時点の学年,SUPPORTED,2026-09-19,高校の開始・終了年月は直接示さない
+B2E0120,Career,C000062,position,SF,B2S0028,選手 > SF,高校3年時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0121,Career,C000062,height_cm,192,B2S0028,ダウンロード資料 > 身長,高校3年時の登録身長,SUPPORTED,2026-09-19,
+B2E0122,Career,C000075,organization_id,ORG000015,B2S0029,東海大学 ROSTER > No.24,東海大学ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0123,Career,C000075,role,Player,B2S0029,東海大学 ROSTER > No.24,登録選手として掲載,SUPPORTED,2026-09-19,
+B2E0124,Career,C000075,start,2019,B2S0029,学年 > 1年,2019年大会で1年生として登録,SUPPORTED,2026-09-19,
+B2E0125,Career,C000075,grade,4年,B2S0030,学年 > 4年,2022年大会時の学年,SUPPORTED,2026-09-19,大学の終了年月は直接示さない
+B2E0126,Career,C000075,jersey_number,24,B2S0030,No. > 24,大学4年時の背番号,SUPPORTED,2026-09-19,
+B2E0127,Career,C000075,position,F,B2S0030,Pos. > F,大学4年時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0128,Career,C000075,height_cm,192,B2S0030,身長 > 192cm,大学4年時の登録身長,SUPPORTED,2026-09-19,
+B2E0129,Career,C000054,organization_id,ORG000010,B2S0012,福岡第一高等学校 > プレーヤー > No.46 小川麻斗,福岡第一高等学校のプレーヤー一覧に掲載,SUPPORTED,2026-09-19,
+B2E0130,Career,C000054,role,Player,B2S0012,福岡第一高等学校 > プレーヤー > No.46 小川麻斗,福岡第一高等学校の選手として公式ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0131,Career,C000054,jersey_number,46,B2S0012,福岡第一高等学校 > プレーヤー > No.46 小川麻斗,高校時の公式ロスター背番号,SUPPORTED,2026-09-19,
+B2E0132,Career,C000054,height_cm,175,B2S0012,福岡第一高等学校 > プレーヤー > No.46 小川麻斗,高校時の公式ロスター登録身長,SUPPORTED,2026-09-19,
+B2E0133,Career,C000067,organization_id,ORG000020,B2S0031,日本体育大学 ROSTER > No.23,日本体育大学ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0134,Career,C000067,role,Player,B2S0031,日本体育大学 ROSTER > No.23,登録選手として掲載,SUPPORTED,2026-09-19,
+B2E0135,Career,C000067,start,2020,B2S0031,学年 > 1年,2020年大会で1年生として登録,SUPPORTED,2026-09-19,
+B2E0136,Career,C000067,jersey_number,23,B2S0031,No. > 23,大学1年時の背番号,SUPPORTED,2026-09-19,
+B2E0137,Career,C000067,position,PG,B2S0031,Pos. > PG,大学1年時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0138,Career,C000067,height_cm,175,B2S0031,身長 > 175cm,大学1年時の登録身長,SUPPORTED,2026-09-19,
+B2E0139,Career,C000067,end,2022,B2S0032,本文 > 2022年12月23日に男子部を退部,大学男子バスケットボール部からの退部を公式発表,SUPPORTED,2026-09-19,学籍は継続と明記。Career終了は男子部での競技活動を指す
+B2E0140,Career,C000059,organization_id,ORG000010,B2S0012,福岡第一高等学校 > プレーヤー > No.13 神田壮一郎,福岡第一高等学校のプレーヤー一覧に掲載,SUPPORTED,2026-09-19,
+B2E0141,Career,C000059,role,Player,B2S0012,福岡第一高等学校 > プレーヤー > No.13 神田壮一郎,福岡第一高等学校の選手として公式ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0142,Career,C000059,jersey_number,13,B2S0012,福岡第一高等学校 > プレーヤー > No.13 神田壮一郎,高校時の公式ロスター背番号,SUPPORTED,2026-09-19,
+B2E0143,Career,C000059,height_cm,190,B2S0012,福岡第一高等学校 > プレーヤー > No.13 神田壮一郎,高校時の公式ロスター登録身長,SUPPORTED,2026-09-19,
+B2E0144,Career,C000072,organization_id,ORG000031,B2S0033,拓殖大学 ROSTER > No.0,拓殖大学ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0145,Career,C000072,role,Player,B2S0033,拓殖大学 ROSTER > No.0,登録選手として掲載,SUPPORTED,2026-09-19,
+B2E0146,Career,C000072,grade,2年,B2S0033,学年 > 2年,2021年大会時の学年,SUPPORTED,2026-09-19,大学の開始・終了年月は直接示さない
+B2E0147,Career,C000072,grade,3年,B2S0034,学年 > 3年,2022年大会時の学年,SUPPORTED,2026-09-19,大学の開始・終了年月は直接示さない
+B2E0148,Career,C000072,jersey_number,0,B2S0034,No. > 0,大学3年時の背番号,SUPPORTED,2026-09-19,
+B2E0149,Career,C000072,position,PF,B2S0034,Pos. > PF,大学3年時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0150,Career,C000072,height_cm,190,B2S0034,身長 > 190cm,大学3年時の登録身長,SUPPORTED,2026-09-19,
+B2E0151,Career,C000055,organization_id,ORG000010,B2S0035,日本体育大学 ROSTER > No.30 井手拓実 > 出身校,JUBF公式ロスターに出身校を福岡第一高と掲載,SUPPORTED,2026-09-19,高校バスケットボール部の役割と期間は直接示さない
+B2E0152,Career,C000068,organization_id,ORG000020,B2S0035,日本体育大学 ROSTER > No.30,日本体育大学ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0153,Career,C000068,role,Player,B2S0035,日本体育大学 ROSTER > No.30,登録選手として掲載,SUPPORTED,2026-09-19,
+B2E0154,Career,C000068,start,2018,B2S0035,学年 > 1年,2018年大会で1年生として登録,SUPPORTED,2026-09-19,
+B2E0155,Career,C000068,grade,4年,B2S0036,学年 > 4年,2021年大会時の学年,SUPPORTED,2026-09-19,大学の終了年月は直接示さない
+B2E0156,Career,C000068,jersey_number,28,B2S0036,No. > 28,大学4年時の背番号,SUPPORTED,2026-09-19,
+B2E0157,Career,C000068,position,PG,B2S0036,Pos. > PG,大学4年時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0158,Career,C000068,height_cm,175,B2S0036,身長 > 175cm,大学4年時の登録身長,SUPPORTED,2026-09-19,

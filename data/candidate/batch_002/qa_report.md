@@ -6,22 +6,22 @@
 
 - 構造検査：PASS
 - エラー：0件
-- 未解決事項：20件
+- 未解決事項：19件
 
 ## 件数
 
 - `person_candidates.csv`：10行
-- `organization_candidates.csv`：15行
-- `career_candidates.csv`：24行
-- `source_references.csv`：24行
-- `evidence_records.csv`：102行
-- `issues.csv`：25行
-- `qa_decisions.csv`：34行
+- `organization_candidates.csv`：18行
+- `career_candidates.csv`：29行
+- `source_references.csv`：37行
+- `evidence_records.csv`：158行
+- `issues.csv`：29行
+- `qa_decisions.csv`：39行
 
 ## 次段階レビュー判定
 
-- READY_FOR_VERIFIED_REVIEW：28件
-- HOLD_CANDIDATE：6件
+- READY_FOR_VERIFIED_REVIEW：38件
+- HOLD_CANDIDATE：1件
 - REJECT_CANDIDATE：0件
 
 ## エラー

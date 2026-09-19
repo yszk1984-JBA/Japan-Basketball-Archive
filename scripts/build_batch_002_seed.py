@@ -156,6 +156,9 @@ RESEARCH_ORGANIZATIONS = {
     "ORG000030": "青山学院大学",
     "ORG000015": "東海大学",
     "ORG000032": "South Kent School",
+    "ORG000018": "専修大学",
+    "ORG000020": "日本体育大学",
+    "ORG000031": "拓殖大学",
 }
 
 RESEARCH_CAREERS = [
@@ -190,6 +193,46 @@ RESEARCH_CAREERS = [
         "role": "Player",
         "start": "2008",
         "end": "2009",
+    },
+    {
+        "career_id": "C000071",
+        "person_id": "P000039",
+        "organization_id": "ORG000018",
+        "role": "Player",
+        "start": "",
+        "end": "",
+    },
+    {
+        "career_id": "C000075",
+        "person_id": "P000043",
+        "organization_id": "ORG000015",
+        "role": "Player",
+        "start": "2019",
+        "end": "",
+    },
+    {
+        "career_id": "C000067",
+        "person_id": "P000035",
+        "organization_id": "ORG000020",
+        "role": "Player",
+        "start": "2020",
+        "end": "2022",
+    },
+    {
+        "career_id": "C000072",
+        "person_id": "P000040",
+        "organization_id": "ORG000031",
+        "role": "Player",
+        "start": "",
+        "end": "",
+    },
+    {
+        "career_id": "C000068",
+        "person_id": "P000036",
+        "organization_id": "ORG000020",
+        "role": "Player",
+        "start": "2018",
+        "end": "",
     },
 ]
 
@@ -276,6 +319,97 @@ RESEARCH_SOURCES = [
         "title": "オールジャパン2011 東海大学ボックススコア",
         "publisher": "日本バスケットボール協会",
         "url": "https://japanbasketball.jp/alljapan/2011/pbp_team-php-game_id%3D10222%26q%3D95.html",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0024",
+        "title": "第22回FIBA ASIA U-18男子日本代表チーム",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://japanbasketball.jp/event/fac_u18_men/2012/japan/",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0025",
+        "title": "第67回インカレ 専修大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/25/type/intercollege/y/2015/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0026",
+        "title": "第68回インカレ 専修大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/25/type/intercollege/y/2016/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0027",
+        "title": "平成28年度男子U-18日本代表候補メンバー表",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://www.japanbasketball.jp/wp-content/uploads/H28_U18men_member_camp_161122.pdf",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0028",
+        "title": "平成30年度男子U18日本代表 第3次強化合宿",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://japanbasketball.jp/japan/44945",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0029",
+        "title": "第71回インカレ 東海大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/44/type/intercollege/y/2019/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0030",
+        "title": "第74回インカレ 東海大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/44/type/intercollege/y/2022/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0031",
+        "title": "第72回インカレ 日本体育大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2020/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0032",
+        "title": "2022-23シーズン 小川麻斗選手 新加入のお知らせ",
+        "publisher": "千葉ジェッツ",
+        "url": "https://chibajets.jp/news/detail/id=21415",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0033",
+        "title": "第73回インカレ 拓殖大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/35/type/intercollege/y/2021/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0034",
+        "title": "第74回インカレ 拓殖大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/35/type/intercollege/y/2022/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0035",
+        "title": "第70回インカレ 日本体育大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2018/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0036",
+        "title": "第73回インカレ 日本体育大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2021/s/men",
         "accessed_at": ACCESSED_AT,
     },
 ]
@@ -625,11 +759,143 @@ def main() -> None:
             summary, "SUPPORTED",
         )
 
+    # 渡辺竜之佑：高校3年時と専修大学3・4年時を公式ロスターで確認。
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000010", "B2S0024", "日本代表チーム > No.10 渡辺竜之佑", "福岡第一高校3年として掲載"),
+        ("role", "Player", "B2S0024", "平成24年度男子U-18日本代表チーム > 選手", "選手として掲載"),
+        ("grade", "1年", "B2S0016", "参加メンバー > 渡辺竜之佑", "2011年2月時点の学年"),
+        ("grade", "3年", "B2S0024", "所属 > 福岡第一高校3年", "2012年8月時点の学年"),
+        ("position", "SF", "B2S0024", "P > SF", "高校3年時の登録ポジション"),
+        ("height_cm", "185", "B2S0024", "身長 > 185cm", "高校3年時の登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000058", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "高校の開始・終了年月は直接示さない",
+        )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000018", "B2S0025", "専修大学 ROSTER > No.6", "専修大学ロスターに掲載"),
+        ("role", "Player", "B2S0025", "専修大学 ROSTER > No.6", "登録選手として掲載"),
+        ("grade", "3年", "B2S0025", "学年 > 3年", "2015年大会時の学年"),
+        ("grade", "4年", "B2S0026", "学年 > 4年", "2016年大会時の学年"),
+        ("jersey_number", "6", "B2S0026", "No. > 6", "大学4年時の背番号"),
+        ("position", "G", "B2S0026", "Pos. > G", "大学4年時の登録ポジション"),
+        ("height_cm", "187", "B2S0026", "身長 > 187cm", "大学4年時の登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000071", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "大学の開始・終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
+    # 松崎裕樹：高校1・3年時と東海大学1・4年時を公式資料で確認。
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000010", "B2S0027", "選手 > 松崎裕樹", "福岡第一高校1年として掲載"),
+        ("role", "Player", "B2S0027", "男子U-18日本代表候補選手", "選手として掲載"),
+        ("grade", "1年", "B2S0027", "所属 > 福岡第一高校1年", "2016年11月時点の学年"),
+        ("grade", "3年", "B2S0028", "選手 > 松崎裕樹", "2018年6月時点の学年"),
+        ("position", "SF", "B2S0028", "選手 > SF", "高校3年時の登録ポジション"),
+        ("height_cm", "192", "B2S0028", "ダウンロード資料 > 身長", "高校3年時の登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000062", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "高校の開始・終了年月は直接示さない" if field_name == "grade" else "",
+        )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000015", "B2S0029", "東海大学 ROSTER > No.24", "東海大学ロスターに掲載"),
+        ("role", "Player", "B2S0029", "東海大学 ROSTER > No.24", "登録選手として掲載"),
+        ("start", "2019", "B2S0029", "学年 > 1年", "2019年大会で1年生として登録"),
+        ("grade", "4年", "B2S0030", "学年 > 4年", "2022年大会時の学年"),
+        ("jersey_number", "24", "B2S0030", "No. > 24", "大学4年時の背番号"),
+        ("position", "F", "B2S0030", "Pos. > F", "大学4年時の登録ポジション"),
+        ("height_cm", "192", "B2S0030", "身長 > 192cm", "大学4年時の登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000075", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "大学の終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
+    # 小川麻斗：高校公式ロスター、日体大登録、2022年12月の部活動退部を確認。
+    for field_name, value, summary in [
+        ("organization_id", "ORG000010", "福岡第一高等学校のプレーヤー一覧に掲載"),
+        ("role", "Player", "福岡第一高等学校の選手として公式ロスターに掲載"),
+        ("jersey_number", "46", "高校時の公式ロスター背番号"),
+        ("height_cm", "175", "高校時の公式ロスター登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000054", field_name, value, "B2S0012",
+            "福岡第一高等学校 > プレーヤー > No.46 小川麻斗",
+            summary, "SUPPORTED",
+        )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000020", "B2S0031", "日本体育大学 ROSTER > No.23", "日本体育大学ロスターに掲載"),
+        ("role", "Player", "B2S0031", "日本体育大学 ROSTER > No.23", "登録選手として掲載"),
+        ("start", "2020", "B2S0031", "学年 > 1年", "2020年大会で1年生として登録"),
+        ("jersey_number", "23", "B2S0031", "No. > 23", "大学1年時の背番号"),
+        ("position", "PG", "B2S0031", "Pos. > PG", "大学1年時の登録ポジション"),
+        ("height_cm", "175", "B2S0031", "身長 > 175cm", "大学1年時の登録身長"),
+        ("end", "2022", "B2S0032", "本文 > 2022年12月23日に男子部を退部", "大学男子バスケットボール部からの退部を公式発表"),
+    ]:
+        add_evidence(
+            "Career", "C000067", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "学籍は継続と明記。Career終了は男子部での競技活動を指す" if field_name == "end" else "",
+        )
+
+    # 神田壮一郎：高校公式ロスターと拓殖大学2・3年時を確認。
+    for field_name, value, summary in [
+        ("organization_id", "ORG000010", "福岡第一高等学校のプレーヤー一覧に掲載"),
+        ("role", "Player", "福岡第一高等学校の選手として公式ロスターに掲載"),
+        ("jersey_number", "13", "高校時の公式ロスター背番号"),
+        ("height_cm", "190", "高校時の公式ロスター登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000059", field_name, value, "B2S0012",
+            "福岡第一高等学校 > プレーヤー > No.13 神田壮一郎",
+            summary, "SUPPORTED",
+        )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000031", "B2S0033", "拓殖大学 ROSTER > No.0", "拓殖大学ロスターに掲載"),
+        ("role", "Player", "B2S0033", "拓殖大学 ROSTER > No.0", "登録選手として掲載"),
+        ("grade", "2年", "B2S0033", "学年 > 2年", "2021年大会時の学年"),
+        ("grade", "3年", "B2S0034", "学年 > 3年", "2022年大会時の学年"),
+        ("jersey_number", "0", "B2S0034", "No. > 0", "大学3年時の背番号"),
+        ("position", "PF", "B2S0034", "Pos. > PF", "大学3年時の登録ポジション"),
+        ("height_cm", "190", "B2S0034", "身長 > 190cm", "大学3年時の登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000072", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "大学の開始・終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
+    # 井手拓実：日体大1・4年時の公式ロスターと福岡第一出身を確認。
+    add_evidence(
+        "Career", "C000055", "organization_id", "ORG000010", "B2S0035",
+        "日本体育大学 ROSTER > No.30 井手拓実 > 出身校",
+        "JUBF公式ロスターに出身校を福岡第一高と掲載", "SUPPORTED",
+        "高校バスケットボール部の役割と期間は直接示さない",
+    )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000020", "B2S0035", "日本体育大学 ROSTER > No.30", "日本体育大学ロスターに掲載"),
+        ("role", "Player", "B2S0035", "日本体育大学 ROSTER > No.30", "登録選手として掲載"),
+        ("start", "2018", "B2S0035", "学年 > 1年", "2018年大会で1年生として登録"),
+        ("grade", "4年", "B2S0036", "学年 > 4年", "2021年大会時の学年"),
+        ("jersey_number", "28", "B2S0036", "No. > 28", "大学4年時の背番号"),
+        ("position", "PG", "B2S0036", "Pos. > PG", "大学4年時の登録ポジション"),
+        ("height_cm", "175", "B2S0036", "身長 > 175cm", "大学4年時の登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000068", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "大学の終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
     high_school_updates = {
         "C000057": ("organization_id|role|jersey_number|height_cm|activity_date", "start|end", "高校公式ロスターと大会公式レポートで確認"),
         "C000056": ("organization_id|role|grade", "start|end", "JBA公式U-18資料で高校2・3年時を確認"),
         "C000060": ("organization_id", "role|start|end", "学校公式パンフレットで卒業関係を確認"),
         "C000061": ("organization_id", "role|start|end", "学校公式パンフレットで卒業関係を確認"),
+        "C000058": ("organization_id|role|grade|position|height_cm", "start|end", "JBA公式U-18資料で高校3年時を確認"),
+        "C000062": ("organization_id|role|grade|position|height_cm", "start|end", "JBA公式U-18資料で高校1・3年時を確認"),
+        "C000054": ("organization_id|role|jersey_number|height_cm", "start|end", "JBA公式大会ロスターで確認"),
+        "C000059": ("organization_id|role|jersey_number|height_cm", "start|end", "JBA公式大会ロスターで確認"),
+        "C000055": ("organization_id", "role|start|end", "JUBF公式ロスターの出身校欄で確認"),
     }
     for career_id, (eligible, held, reason) in high_school_updates.items():
         decision = find_decision(career_id)
@@ -647,6 +913,11 @@ def main() -> None:
         ("C000069", "organization_id|role|grade", "start|end", "JBA公式の2013年度日本代表資料で確認"),
         ("C000073", "organization_id|role|grade|award|jersey_number", "start|end", "東海大学公式受賞記録とJBA公式戦記録で確認"),
         ("C000074", "organization_id|role|start|end", "", "スラムダンク奨学金公式の略歴と競技記録で確認"),
+        ("C000071", "organization_id|role|grade|jersey_number|position|height_cm", "start|end", "JUBF公式2015・2016年ロスターで確認"),
+        ("C000075", "organization_id|role|start|grade|jersey_number|position|height_cm", "end", "JUBF公式2019・2022年ロスターで確認"),
+        ("C000067", "organization_id|role|start|end|jersey_number|position|height_cm", "", "JUBF公式ロスターと千葉ジェッツ公式退部発表で確認"),
+        ("C000072", "organization_id|role|grade|jersey_number|position|height_cm", "start|end", "JUBF公式2021・2022年ロスターで確認"),
+        ("C000068", "organization_id|role|start|grade|jersey_number|position|height_cm", "end", "JUBF公式2018・2021年ロスターで確認"),
     ]
     for career_id, eligible, held, reason in university_decisions:
         decisions.append(
@@ -663,7 +934,7 @@ def main() -> None:
         )
         decision_number += 1
 
-    for person_id in ["P000038", "P000037", "P000041", "P000042"]:
+    for person_id in ["P000038", "P000037", "P000041", "P000042", "P000039", "P000043", "P000035", "P000040", "P000036"]:
         display_issue = next(
             row for row in issues
             if row["person_id"] == person_id
@@ -677,6 +948,10 @@ def main() -> None:
         ("P000037", "C000069", "青山学院大学2年時の所属を確認したが開始・終了年月は未確認"),
         ("P000041", "C000073", "東海大学3年時の所属を確認したが開始・終了年月は未確認"),
         ("P000042", "C000074", "2009年7月のプロ入りは確認したが、その後を含む大学Career不存在の包括的証明ではない"),
+        ("P000039", "C000071", "専修大学3・4年時の所属を確認したが開始・終了年月は未確認"),
+        ("P000043", "C000075", "東海大学1・4年時の所属を確認したが終了年月は未確認"),
+        ("P000040", "C000072", "拓殖大学2・3年時の所属を確認したが開始・終了年月は未確認"),
+        ("P000036", "C000068", "日本体育大学1・4年時の所属を確認したが終了年月は未確認"),
     ]:
         issues.append(
             {
