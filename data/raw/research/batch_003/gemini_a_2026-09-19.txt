@@ -1,0 +1,66 @@
+（専門領域：スポーツデータ分析、専門知識：競技者経歴の検証・OSINT調査、専門職：スポーツリサーチャー）
+
+福岡第一高校出身である5名の選手について、公式資料に基づく卒業後の競技キャリア検証を実施。ご提示いただいた条件のもと、推測やチーム成績からの自動計算を排除し、各資料から直接確認できた事実のみを整理。現状明らかになっている点と、まだ不確かな点を明確に区分。
+
+| 人物 | 対象項目 | 確認値 | 発行元 | ページ名・資料名 | 公開日・大会日 | 直接URL | ページ番号・資料内位置 | 資料内の具体的記載 | 判定 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 佐藤 涼成 | 正式氏名・英語表記・生年月日・身長 | 佐藤 涼成、SATO Ryosei、2003/07/09、173cm | 全日本大学バスケットボール連盟 | 2024年度第47回李相佰盃日・韓大学代表バスケットボール競技大会 | 2024-03-26 | [https://jubf.jp/index/show-pdf/url/aHR0cHM6Ly9kMmEwdjF4N3F2eGw2Yy5jbG91ZGZyb250Lm5ldC9maWxlcy9zcG9ocF9qdWJmL25ld3MvNjYwMjliODAwOTQ1ZC5wZGY=](https://jubf.jp/index/show-pdf/url/aHR0cHM6Ly9kMmEwdjF4N3F2eGw2Yy5jbG91ZGZyb250Lm5ldC9maWxlcy9zcG9ocF9qdWJmL25ld3MvNjYwMjliODAwOTQ1ZC5wZGY=?utm_source=gemini) | 1ページ目 リスト6番 | 6 佐藤 涼成 (SATO, Ryosei) PG 173 75 2003/07/09 (20) 白鷗大学 2年 福岡第一高等学校 | 公式資料で直接確認 |
+| 佐藤 涼成 | 卒業後の所属・ポジション | 白鷗大学、PG | 全日本大学バスケットボール連盟 | 2024年度第47回李相佰盃日・韓大学代表バスケットボール競技大会 | 2024-03-26 | [https://jubf.jp/index/show-pdf/url/aHR0cHM6Ly9kMmEwdjF4N3F2eGw2Yy5jbG91ZGZyb250Lm5ldC9maWxlcy9zcG9ocF9qdWJmL25ld3MvNjYwMjliODAwOTQ1ZC5wZGY=](https://jubf.jp/index/show-pdf/url/aHR0cHM6Ly9kMmEwdjF4N3F2eGw2Yy5jbG91ZGZyb250Lm5ldC9maWxlcy9zcG9ocF9qdWJmL25ld3MvNjYwMjliODAwOTQ1ZC5wZGY=?utm_source=gemini) | 1ページ目 リスト6番 | 6 佐藤 涼成 (SATO, Ryosei) PG 173 75 2003/07/09 (20) 白鷗大学 2年 福岡第一高等学校 | 公式資料で直接確認 |
+| 早田 流星 | 正式氏名・生年月日・高校 | 早田 流星、2003/07/18、福岡第一高等学校 | 日本バスケットボール協会 | 天皇杯・日本体育大学ロスター | 2025年大会期 | [https://zennihon2025-26.japanbasketball.jp/team/fin/m02/](https://zennihon2025-26.japanbasketball.jp/team/fin/m02/?utm_source=gemini) | 表内10番 | 早田 流星, 10, 早田 流星, 185, 2003年7月18日 (4年), 福岡第一高等学校 | 公式資料で直接確認 |
+| 早田 流星 | 卒業後の所属・ポジション・身長 | 日本体育大学、PF、185cm | 全日本大学バスケットボール連盟 | 日本体育大学 - 全日本大学バスケットボール連盟 | 2025年登録期 | [https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2025/s/men](https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2025/s/men?utm_source=gemini) | ROSTER表10番 | 10, 4年, PF, 早田 流星, 185cm, 福岡第一高 | 公式資料で直接確認 |
+| 鷹野 祐磨 | 正式氏名・英語表記・生年月日・身長 | 鷹野 祐磨、TAKANO Yuma、2003/11/28、185cm | 日本バスケットボール協会 | 2019年度バスケットボール 男子U16日本代表チーム（岩手県協会経由PDF） | 2019-04-15 | [https://iwate.japanbasketball.jp/manage/wp-content/uploads/2019/04/42d4fca113768eb1273ef8bdba5e06eb.pdf](https://iwate.japanbasketball.jp/manage/wp-content/uploads/2019/04/42d4fca113768eb1273ef8bdba5e06eb.pdf) | 1ページ目 リスト18番 | 18 鷹野 祐磨 (TAKANO, Yuma) SF 185 73 2003/11/28 (15) 福岡第一高等学校 1年 | 公式資料で直接確認 |
+| 鷹野 祐磨 | 卒業後の所属 | 福岡大学 | Basket Plus | 日本経済大学 - 試合詳細 | 2025-09-28 | [https://basket-plus.jp/ss_game_detail/topics_id=85375&id=85375&blog_id=4243&game_id=731998&show_theoretical_min=1](https://basket-plus.jp/ss_game_detail/topics_id=85375&id=85375&blog_id=4243&game_id=731998&show_theoretical_min=1?utm_source=gemini) | メンバーリスト | 福岡大学 ... 鷹野 祐磨 | 参考情報 |
+| 星賀 舞也 | 高校時の所属・身長 | 福岡第一高、190cm | 全日本大学バスケットボール連盟 | 青山学院大学 - 全日本大学バスケットボール連盟 | 2024年登録期 | [https://jubf.jp/game/university-detail/id/9/type/intercollege/y/2024/s/men](https://jubf.jp/game/university-detail/id/9/type/intercollege/y/2024/s/men?utm_source=gemini) | メンバーリスト | 星賀 舞也, 190cm, 福岡第一高 | 公式資料で直接確認 |
+| 星賀 舞也 | 卒業後の所属と競技参加 | 青山学院大学 | 全日本大学バスケットボール連盟 | BOX - 全日本大学バスケットボール連盟 | 2024-12-04 | [https://jubf.jp/game/detail/id/1194/type/intercollege/s/men](https://jubf.jp/game/detail/id/1194/type/intercollege/s/men?utm_source=gemini) | 青山学院大学メンバー表 | 星賀 舞也 | 公式資料で直接確認 |
+| 岡本 汰稀 | 高校時の所属・身長 | 福岡第一高、190cm | 全日本大学バスケットボール連盟 | 九州国際大学 - 全日本大学バスケットボール連盟 | 2025年登録期 | [https://jubf.jp/game/university-detail/id/230/type/intercollege/y/2025/s/men](https://jubf.jp/game/university-detail/id/230/type/intercollege/y/2025/s/men?utm_source=gemini) | メンバーリスト | 岡本 汰稀, 190cm, 福岡第一高 | 公式資料で直接確認 |
+| 岡本 汰稀 | 卒業後の所属 | 九州国際大学 | 全日本大学バスケットボール連盟 | 九州国際大学 - 全日本大学バスケットボール連盟 | 2025年登録期 | [https://jubf.jp/game/university-detail/id/230/type/intercollege/y/2025/s/men](https://jubf.jp/game/university-detail/id/230/type/intercollege/y/2025/s/men?utm_source=gemini) | メンバーリスト | 九州国際大学 ... 岡本 汰稀 | 公式資料で直接確認 |
+
+### 各人物の採用可能な項目とHOLD項目
+
+**1. 佐藤 涼成**
+
+* **採用可能**: 正式氏名、英語表記（SATO Ryosei）、生年月日（2003/07/09）、卒業後の所属（白鷗大学）、大学時ポジション（PG）、身長（173cm） [INDEX_1]。
+* **HOLD**: 福岡第一高校での最古・最新の活動年月日、高校時の学年・役割・背番号、表記揺れの有無。
+
+**2. 早田 流星**
+
+* **採用可能**: 正式氏名、生年月日（2003/07/18）、卒業後の所属（日本体育大学）、大学時ポジション（PF）、大学時身長（185cm） [INDEX_2]。
+* **HOLD**: 英語表記、福岡第一高校での最古・最新の活動年月日、高校時の学年・役割・背番号・ポジション。
+
+**3. 鷹野 祐磨**
+
+* **採用可能**: 正式氏名、英語表記（TAKANO Yuma）、生年月日（2003/11/28）、高校時ポジション（SF）、高校時身長（185cm）。
+* **HOLD**: 卒業後の正式な所属（Basket Plusでの福岡大学所属記録はあるが、JUBFなど大学連盟公式の個人ロスターページ未発見のため「参考情報」扱い）、大学でのポジション・背番号。
+
+**4. 星賀 舞也**
+
+* **採用可能**: 氏名、高校時所属（福岡第一高）、大学時身長（190cm）、卒業後の所属および競技参加（青山学院大学、2024年12月4日試合出場）。
+* **HOLD**: 英語表記、生年月日、高校での最古・最新活動日、大学でのポジション・役割。
+
+**5. 岡本 汰稀**
+
+* **採用可能**: 氏名、高校時所属（福岡第一高）、大学時身長（190cm）、卒業後の所属（九州国際大学）。
+* **HOLD**: 英語表記、生年月日、高校での最古・最新活動日、大学でのポジション・役割、具体的な競技参加記録。
+
+---
+
+**検索条件・調査概要**
+
+* 検索語："佐藤涼成", "早田流星", "鷹野祐磨", "星賀舞也", "岡本汰稀" AND "福岡第一" または各大学名
+* 検索した公式ドメイン：japanbasketball.jp, jubf.jp, zennihon2019-20〜2025-26.japanbasketball.jp, basket-plus.jp
+* 調査日：2026年9月19日
+
+### 回答の根拠
+
+* JBA（日本バスケットボール協会）の各年代代表合宿資料、および天皇杯ロスター資料の直接URLと該当記載
+* JUBF（全日本大学バスケットボール連盟）の公式ロスター資料、大会BOXスコアの直接URLと該当記載
+* 選手の実在証明および大学での出場記録における、大会ごとの発行元公式PDFならびにHTMLテーブルの記載内容
+
+### 回答に対する多角的な反証
+
+* 大学連盟（JUBF）に登録されている出身高校情報が、転校や特待生制度の都合で最終学歴と異なる記載になっている可能性
+* 同姓同名の別選手が同大学に進学している可能性（特に名前のみで生年月日が併記されていないロスター表の場合）
+* Basket Plus等の外部スタッツツールにおけるデータ入力ミスの可能性（手入力による選手名の誤字や所属チームの誤登録）
+
+**推論におけるバイアスの可能性と対処法**
+「確証バイアス」の影響を受ける可能性。特定の選手が特定の大学に進学したという事前情報（検索結果の要約など）に引きずられ、同姓同名の別人を同一人物と見なしたり、非公式のスタッツサイトを公式資料と同等に扱ってしまう危険性がある。これを中和するためには、JBAやJUBFの「生年月日」「出身校」「身長」の3点以上のキーが一致する資料のみを「公式確認」として厳格に分離し、それ以外を「参考情報」として疑い続けるアプローチが有効。
