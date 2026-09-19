@@ -1,7 +1,7 @@
 decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
 B2D0001,Person,P000063,READY_FOR_VERIFIED_REVIEW,name|name_en|birth_date,,B.LEAGUE公式選手プロフィールで直接確認,2026-09-19
 B2D0002,Career,C000211,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式のクラブ所属履歴で確認,2026-09-19
-B2D0003,Career,C000210,HOLD_CANDIDATE,,organization_id|role|start|end,高校時の登録を示す個別公式資料が未確認,2026-09-19
+B2D0003,Career,C000210,READY_FOR_VERIFIED_REVIEW,organization_id,role|start|end,JUBF公式学生選抜プロフィールの出身校欄で確認,2026-09-19
 B2D0004,Person,P000038,READY_FOR_VERIFIED_REVIEW,name|name_en|birth_date,,B.LEAGUE公式選手プロフィールで直接確認,2026-09-19
 B2D0005,Career,C000107,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式のクラブ所属履歴で確認,2026-09-19
 B2D0006,Career,C000057,READY_FOR_VERIFIED_REVIEW,organization_id|role|jersey_number|height_cm|activity_date,start|end,高校公式ロスターと大会公式レポートで確認,2026-09-19
@@ -38,3 +38,4 @@ B2D0036,Career,C000075,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|grad
 B2D0037,Career,C000067,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end|jersey_number|position|height_cm,,JUBF公式ロスターと千葉ジェッツ公式退部発表で確認,2026-09-19
 B2D0038,Career,C000072,READY_FOR_VERIFIED_REVIEW,organization_id|role|grade|jersey_number|position|height_cm,start|end,JUBF公式2021・2022年ロスターで確認,2026-09-19
 B2D0039,Career,C000068,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|grade|jersey_number|position|height_cm,end,JUBF公式2018・2021年ロスターで確認,2026-09-19
+B2D0040,Career,C000076,READY_FOR_VERIFIED_REVIEW,organization_id|role|grade|jersey_number|position|height_cm,start|end,JUBF公式の第17・18回学生選抜資料で確認,2026-09-19

@@ -159,6 +159,7 @@ RESEARCH_ORGANIZATIONS = {
     "ORG000018": "専修大学",
     "ORG000020": "日本体育大学",
     "ORG000031": "拓殖大学",
+    "ORG000019": "日本経済大学",
 }
 
 RESEARCH_CAREERS = [
@@ -232,6 +233,14 @@ RESEARCH_CAREERS = [
         "organization_id": "ORG000020",
         "role": "Player",
         "start": "2018",
+        "end": "",
+    },
+    {
+        "career_id": "C000076",
+        "person_id": "P000063",
+        "organization_id": "ORG000019",
+        "role": "Player",
+        "start": "",
         "end": "",
     },
 ]
@@ -410,6 +419,20 @@ RESEARCH_SOURCES = [
         "title": "第73回インカレ 日本体育大学ロスター",
         "publisher": "全日本大学バスケットボール連盟",
         "url": "https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2021/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0037",
+        "title": "第17回日本男子学生選抜バスケットボール大会 選手プロフィール",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/news/download/nc/79/fc/4/url/6YG45oqc5aSn5LyaIOeUt%2BWtkOODoeODs%2BODkOODvOihqFwucGRm",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0038",
+        "title": "第18回日本男子学生選抜バスケットボール大会 大会結果",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/news/download/nc/107/fc/1/url/55S35a2QMTjlm57pgbjmipzlpKfkvJrjgIDlpKfkvJrntZDmnpwucGRm",
         "accessed_at": ACCESSED_AT,
     },
 ]
@@ -886,6 +909,28 @@ def main() -> None:
             summary, "SUPPORTED", "大学の終了年月は直接示さない" if field_name == "grade" else "",
         )
 
+    # 古野拓巳：JUBF公式の九州学生選抜プロフィールで出身校と大学所属を確認。
+    add_evidence(
+        "Career", "C000210", "organization_id", "ORG000010", "B2S0037",
+        "PDF 8ページ > 九州選抜 > No.1 古野拓巳 > 出身校",
+        "JUBF公式資料に出身校を福岡第一高と掲載", "SUPPORTED",
+        "高校バスケットボール部の役割と期間は直接示さない",
+    )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000019", "B2S0037", "PDF 8ページ > 九州選抜 > No.1", "日本経済大学3年として掲載"),
+        ("role", "Player", "B2S0037", "PDF 8ページ > 選手プロフィール", "九州学生選抜の選手として掲載"),
+        ("grade", "3年", "B2S0037", "PDF 8ページ > 学年 > 3", "大会時の学年"),
+        ("jersey_number", "1", "B2S0037", "PDF 8ページ > No.1", "第17回大会の背番号"),
+        ("position", "SG", "B2S0037", "PDF 8ページ > P > SG", "大学3年時の登録ポジション"),
+        ("height_cm", "180", "B2S0037", "PDF 8ページ > 身長 > 180", "大学3年時の登録身長"),
+        ("grade", "4年", "B2S0038", "大会結果 > REBOUND TOP10 > 古野拓巳", "第18回大会時の学年"),
+        ("jersey_number", "10", "B2S0038", "大会結果 > REBOUND TOP10 > No.10", "第18回大会の背番号"),
+    ]:
+        add_evidence(
+            "Career", "C000076", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "大学の開始・終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
     high_school_updates = {
         "C000057": ("organization_id|role|jersey_number|height_cm|activity_date", "start|end", "高校公式ロスターと大会公式レポートで確認"),
         "C000056": ("organization_id|role|grade", "start|end", "JBA公式U-18資料で高校2・3年時を確認"),
@@ -896,6 +941,7 @@ def main() -> None:
         "C000054": ("organization_id|role|jersey_number|height_cm", "start|end", "JBA公式大会ロスターで確認"),
         "C000059": ("organization_id|role|jersey_number|height_cm", "start|end", "JBA公式大会ロスターで確認"),
         "C000055": ("organization_id", "role|start|end", "JUBF公式ロスターの出身校欄で確認"),
+        "C000210": ("organization_id", "role|start|end", "JUBF公式学生選抜プロフィールの出身校欄で確認"),
     }
     for career_id, (eligible, held, reason) in high_school_updates.items():
         decision = find_decision(career_id)
@@ -918,6 +964,7 @@ def main() -> None:
         ("C000067", "organization_id|role|start|end|jersey_number|position|height_cm", "", "JUBF公式ロスターと千葉ジェッツ公式退部発表で確認"),
         ("C000072", "organization_id|role|grade|jersey_number|position|height_cm", "start|end", "JUBF公式2021・2022年ロスターで確認"),
         ("C000068", "organization_id|role|start|grade|jersey_number|position|height_cm", "end", "JUBF公式2018・2021年ロスターで確認"),
+        ("C000076", "organization_id|role|grade|jersey_number|position|height_cm", "start|end", "JUBF公式の第17・18回学生選抜資料で確認"),
     ]
     for career_id, eligible, held, reason in university_decisions:
         decisions.append(
@@ -934,7 +981,7 @@ def main() -> None:
         )
         decision_number += 1
 
-    for person_id in ["P000038", "P000037", "P000041", "P000042", "P000039", "P000043", "P000035", "P000040", "P000036"]:
+    for person_id in ["P000038", "P000037", "P000041", "P000042", "P000039", "P000043", "P000035", "P000040", "P000036", "P000063"]:
         display_issue = next(
             row for row in issues
             if row["person_id"] == person_id
@@ -952,6 +999,7 @@ def main() -> None:
         ("P000043", "C000075", "東海大学1・4年時の所属を確認したが終了年月は未確認"),
         ("P000040", "C000072", "拓殖大学2・3年時の所属を確認したが開始・終了年月は未確認"),
         ("P000036", "C000068", "日本体育大学1・4年時の所属を確認したが終了年月は未確認"),
+        ("P000063", "C000076", "日本経済大学3・4年時の競技参加を確認したが開始・終了年月は未確認"),
     ]:
         issues.append(
             {

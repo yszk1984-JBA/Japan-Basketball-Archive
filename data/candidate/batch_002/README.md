@@ -7,15 +7,17 @@
 ## 現在の結果
 
 - Person候補：10件
-- Career候補：29件
-- Source：37件
-- 項目別Evidence：158件
-- 次段階レビュー待ち：38件
-- CANDIDATE保留：1件
+- Career候補：30件
+- Source：39件
+- 項目別Evidence：167件
+- 次段階レビュー待ち：40件
+- CANDIDATE保留：0件
 - 未解決事項：19件
 - 構造QA：PASS
 
-次段階レビュー待ちは、10人のPerson基本情報、10件のプロCareer、公式資料で項目を確認できた高校Career 9件、大学・留学Career 9件である。古野拓巳の高校Career 1件は、個別の公式登録資料をまだ確認していないため保留している。レビュー待ちのCareerでも、期間等の未確認項目は項目単位でHOLDしている。
+次段階レビュー待ちは、10人のPerson基本情報、10件のプロCareer、公式資料で項目を確認できた高校Career 10件、大学・留学Career 10件である。Career全体を保留する候補は0件になったが、期間や役割など19件の未解決事項は項目単位でHOLDしている。
+
+古野拓巳は、JUBF公式の第17回学生選抜大会プロフィールで日本経済大学3年の選手、出身校は福岡第一高と確認した。第18回大会結果では4年時の競技参加も確認した。日本経済大学Careerを追加したが、開始・終了年月は逆算せず空欄としている。
 
 松崎裕樹の2026-27所属について、Excel原本は滋賀としていたが、B.LEAGUE公式プロフィールとレバンガ北海道公式発表は北海道としている。原本を変更せず、Batch 002では新しいCareer候補`C000212`として2026年のレバンガ北海道加入を保持した。
 
@@ -34,6 +36,7 @@
 | `felo_intake_review.md` | Felo調査結果の採否と次の確認先 |
 | `gemini_a_intake_review.md` | Gemini調査AのURL再確認、採用・不採用理由 |
 | `gemini_b_intake_review.md` | Gemini調査BのURL再確認、採用・不採用理由 |
+| `furuno_followup_review.md` | 古野拓巳のJUBF公式資料による追加確認 |
 
 受領した外部調査の原文は、[`Felo回答`](../../raw/research/batch_002/felo_2026-09-19.txt)、[`Gemini調査A`](../../raw/research/batch_002/gemini_a_2026-09-19.txt)、[`Gemini調査B`](../../raw/research/batch_002/gemini_b_2026-09-19.txt)に変更せず保存している。
 
