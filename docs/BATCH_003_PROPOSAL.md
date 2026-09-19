@@ -2,7 +2,7 @@
 
 作成日：2026-09-19
 
-状態：CANDIDATE作成・構造QA完了
+状態：CANDIDATE・構造QA・VERIFIED作成完了、Master未承認
 
 ## 選定方針
 
@@ -56,8 +56,8 @@ B.LEAGUE公式の福岡第一高校出身者11人は、Pilot Batch 001とBatch 0
 2. Codexが公式URLと資料内位置を再確認した。
 3. 確認できた項目だけでBatch 003のCANDIDATEを作成した。
 4. Python構造QAはPASS、エラー0件だった。
-5. Claudeによる独立QAとYuichi向けレビューは未実施。
+5. Claudeによる独立QAは未実施。Yuichiが全Decision IDについてVERIFIED候補作成を明示的に許可し、VERIFIEDを作成した。
 
-次はEvidence、矛盾、HOLD項目を人間が確認しやすいレビュー資料へまとめる。
+次はVERIFIEDの差分、矛盾処理、HOLD項目を確認し、Masterへ進める対象をYuichiが別途指定する。
 
 VERIFIED、HUMAN APPROVAL、MASTER、公開サイトの更新はこの工程に含めない。

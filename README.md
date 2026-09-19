@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校パイロットの小規模なCANDIDATE・構造QAを進めています。VERIFIED、HUMAN APPROVAL、Master Dataは未実装です。公開画面を早期に検証するため、確認中の少数データを使うWebプロトタイプを`site/`で並行開発しています。
+Governance v1.0に基づき、福岡第一高校パイロットを小規模バッチで検証しています。Batch 003はCANDIDATE・構造QA・Yuichiによる範囲指定を経てVERIFIEDを作成しました。HUMAN APPROVALとMaster Dataは未実施です。公開画面を早期に検証するため、確認中の少数データを使うWebプロトタイプを`site/`で並行開発しています。
 
 ## 原則
 
@@ -34,7 +34,8 @@ Governance v1.0に基づき、福岡第一高校パイロットの小規模なCA
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [Batch 002](data/candidate/batch_002/README.md)：B.LEAGUE公式を入口にした10人分のCANDIDATEと初期QA
-- [Batch 003](data/candidate/batch_003/README.md)：次の10人の外部調査受領・URL監査状況
+- [Batch 003 CANDIDATE](data/candidate/batch_003/README.md)：次の10人の調査、CANDIDATE、QA、レビュー資料
+- [Batch 003 VERIFIED](data/verified/batch_003/README.md)：全28 Decision IDの確認済み項目とHOLD分離
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置
@@ -48,7 +49,7 @@ scripts/         自動検証など
 site/            公開サイト
 ```
 
-`data/candidate/`と`scripts/`はBatch 001から使用を開始しました。`data/verified/`と`data/master/`は未作成です。`site/`にはMaster Dataと分離したWebプロトタイプを置きます。
+`data/candidate/`と`scripts/`はBatch 001から、`data/verified/`はBatch 003から使用しています。`data/master/`は未作成です。`site/`にはMaster Dataと分離したWebプロトタイプを置きます。
 
 ## GitHubでの基本操作
 

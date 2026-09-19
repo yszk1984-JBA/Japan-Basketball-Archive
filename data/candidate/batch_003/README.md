@@ -2,7 +2,7 @@
 
 作成日：2026-09-19
 
-状態：CANDIDATE作成・構造QA・VERIFIED作成前レビュー資料まで完了
+状態：CANDIDATE作成・構造QA完了、全Decision IDからVERIFIED作成済み
 
 対象：[Batch 003の10人](../../../docs/BATCH_003_PROPOSAL.md)
 
@@ -23,7 +23,8 @@
 - Issue：24件（未解決23件、解決済み1件）
 - Python構造QA：PASS、エラー0件
 - Claudeによる独立QA：未実施
-- VERIFIED、HUMAN APPROVAL、MASTER、公開サイト：未変更
+- VERIFIED：2026-09-20に全28 Decision IDのeligible_fieldsから作成済み
+- HUMAN APPROVAL、MASTER、公開サイト：未変更
 
 ## ファイル
 
@@ -61,4 +62,4 @@ python3 scripts/validate_pilot_batch.py data/candidate/batch_003
 
 PASSはID、参照、必須項目、判定値の形式が規則に合うことだけを示す。史実の正しさ、VERIFIED、HUMAN APPROVAL、MASTERを意味しない。
 
-次は[`verified_review_packet.md`](verified_review_packet.md)を確認し、VERIFIED候補作成へ進めるDecision IDの範囲をYuichiが指定する。単なる「OK」はMaster承認として扱わない。
+VERIFIED出力は[`data/verified/batch_003`](../../verified/batch_003/README.md)に保存した。次はVERIFIEDの差分、HOLD項目、SourceをYuichiが確認し、Masterへ進める範囲を別途明示する。VERIFIED作成許可はMaster承認として扱わない。
