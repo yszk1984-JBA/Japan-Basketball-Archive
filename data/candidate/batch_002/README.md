@@ -31,6 +31,9 @@
 | `issues.csv` | 高校・大学・原本矛盾の確認状況 |
 | `qa_decisions.csv` | 次段階レビュー可否 |
 | `qa_report.md` | Python構造検査結果 |
+| `felo_intake_review.md` | Felo調査結果の採否と次の確認先 |
+
+受領したFelo回答の原文は[`data/raw/research/batch_002/felo_2026-09-19.txt`](../../raw/research/batch_002/felo_2026-09-19.txt)に変更せず保存している。
 
 ## 再生成と検証
 
