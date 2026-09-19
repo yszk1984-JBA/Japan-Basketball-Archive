@@ -34,6 +34,7 @@ Governance v1.0に基づき、福岡第一高校パイロットの小規模なCA
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [Batch 002](data/candidate/batch_002/README.md)：B.LEAGUE公式を入口にした10人分のCANDIDATEと初期QA
+- [Batch 003](data/candidate/batch_003/README.md)：次の10人の外部調査受領・URL監査状況
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置
