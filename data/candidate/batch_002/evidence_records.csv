@@ -70,3 +70,34 @@ B2E0068,Career,C000092,organization_id,ORG000046,B2S0010,クラブ所属履歴 >
 B2E0069,Career,C000092,role,Player,B2S0010,選手プロフィール,B.LEAGUE選手プロフィールとして掲載,SUPPORTED,2026-09-19,
 B2E0070,Career,C000055,organization_id,ORG000010,B2S0000,出身高校フィルターと選手カード,福岡第一高等学校の絞り込み結果に掲載,PARTIAL,2026-09-19,選手詳細または高校・大会公式資料で再確認する
 B2E0071,Career,C000055,role,Player,B2S0000,福岡第一高等学校の選手一覧,B.LEAGUE選手として公式一覧に掲載,PARTIAL,2026-09-19,高校時の選手登録を別資料で再確認する
+B2E0072,Career,C000057,organization_id,ORG000010,B2S0012,福岡第一高等学校 > プレーヤー > No.54 内尾聡理,福岡第一高等学校のプレーヤー一覧に掲載,SUPPORTED,2026-09-19,
+B2E0073,Career,C000057,role,Player,B2S0012,福岡第一高等学校 > プレーヤー > No.54 内尾聡理,福岡第一高等学校の選手として公式ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0074,Career,C000057,jersey_number,54,B2S0012,福岡第一高等学校 > プレーヤー > No.54 内尾聡理,公式ロスターの背番号,SUPPORTED,2026-09-19,
+B2E0075,Career,C000057,height_cm,183,B2S0012,福岡第一高等学校 > プレーヤー > No.54 内尾聡理,公式ロスターの登録身長,SUPPORTED,2026-09-19,
+B2E0076,Career,C000057,activity_date,2019-12-28,B2S0013,本文第2段落 > #54内尾聡理,ウインターカップ準決勝での活動を大会公式レポートが記載,SUPPORTED,2026-09-19,Career終了日を意味しない
+B2E0077,Career,C000070,organization_id,ORG000016,B2S0014,中央大学 ROSTER > No.2,中央大学ロスターに掲載,SUPPORTED,2026-09-19,
+B2E0078,Career,C000070,role,Player,B2S0014,中央大学 ROSTER > No.2,登録選手として掲載,SUPPORTED,2026-09-19,
+B2E0079,Career,C000070,start,2020,B2S0014,中央大学 ROSTER > 1年,2020年大会で1年生として登録,SUPPORTED,2026-09-19,
+B2E0080,Career,C000070,jersey_number,2,B2S0014,中央大学 ROSTER > No.2,大学時の背番号,SUPPORTED,2026-09-19,
+B2E0081,Career,C000070,position,SF,B2S0014,中央大学 ROSTER > Pos.,大学時の登録ポジション,SUPPORTED,2026-09-19,
+B2E0082,Career,C000070,height_cm,183,B2S0014,中央大学 ROSTER > 身長,大学時の登録身長,SUPPORTED,2026-09-19,
+B2E0083,Career,C000070,latest_activity_year,2023,B2S0015,中央大学 ROSTER > 4年 No.2,2023年大会で4年生として登録,SUPPORTED,2026-09-19,卒業・終了年月は別途確認
+B2E0084,Career,C000056,organization_id,ORG000010,B2S0016,参加選手 > 鵤誠司,福岡第一高校2年として掲載,SUPPORTED,2026-09-19,
+B2E0085,Career,C000056,role,Player,B2S0016,男子U-18日本代表強化合宿 > 選手,選手として掲載,SUPPORTED,2026-09-19,
+B2E0086,Career,C000056,grade,2年,B2S0016,参加選手 > 所属・学年,2011年2月時点の学年,SUPPORTED,2026-09-19,入学・卒業年月は直接示さない
+B2E0087,Career,C000056,grade,3年,B2S0017,日本代表選手 > #9 鵤誠司,2011年8月時点の学年,SUPPORTED,2026-09-19,入学・卒業年月は直接示さない
+B2E0088,Career,C000069,organization_id,ORG000030,B2S0018,男子日本代表選手 > #15 鵤誠司,青山学院大学2年として掲載,SUPPORTED,2026-09-19,
+B2E0089,Career,C000069,role,Player,B2S0018,男子日本代表選手 > #15 鵤誠司,男子日本代表選手として大学所属を掲載,SUPPORTED,2026-09-19,
+B2E0090,Career,C000069,grade,2年,B2S0018,男子日本代表選手 > #15 鵤誠司,2013年度時点の学年,SUPPORTED,2026-09-19,大学在籍開始・終了年月は直接示さない
+B2E0091,Career,C000060,organization_id,ORG000010,B2S0019,プロバスケットボール選手欄 > 狩野祐介,福岡第一高等学校普通科卒として掲載,SUPPORTED,2026-09-19,高校バスケットボール部での役割・期間は示さない
+B2E0092,Career,C000073,organization_id,ORG000015,B2S0020,バスケットボール部（男子）> 狩野祐介,東海大学公式資料に掲載,SUPPORTED,2026-09-19,
+B2E0093,Career,C000073,role,Player,B2S0020,バスケットボール部（男子）> 狩野祐介,男子バスケットボール部員として掲載,SUPPORTED,2026-09-19,
+B2E0094,Career,C000073,grade,3年,B2S0020,体育学部3年,2011年度の学年,SUPPORTED,2026-09-19,大学在籍開始・終了年月は直接示さない
+B2E0095,Career,C000073,award,第87回関東大学リーグ戦MIP賞,B2S0020,受領者一覧 > 狩野祐介,大学公式の受賞記録,SUPPORTED,2026-09-19,
+B2E0096,Career,C000073,jersey_number,33,B2S0023,東海大学ボックススコア > No.33,公式戦の背番号,SUPPORTED,2026-09-19,
+B2E0097,Career,C000061,organization_id,ORG000010,B2S0019,プロバスケットボール選手欄 > 並里成,福岡第一高等学校普通科卒として掲載,SUPPORTED,2026-09-19,高校在籍開始・終了年月と高校チームでの役割を直接示さない
+B2E0098,Career,C000061,role,Player,B2S0022,本文 > 福岡第一高校在籍時と日本での先発経験,福岡第一高校在籍時の競技経験を記載,PARTIAL,2026-09-19,高校在籍開始・終了年月と高校チームでの役割を直接示さない
+B2E0099,Career,C000074,organization_id,ORG000032,B2S0021,略歴 > サウスケントスクール,留学先を公式奨学金ページに掲載,SUPPORTED,2026-09-19,
+B2E0100,Career,C000074,role,Player,B2S0022,本文 > South KentでのPG・出場記録,同校チームでの競技参加を記載,SUPPORTED,2026-09-19,
+B2E0101,Career,C000074,start,2008,B2S0021,略歴 > 2008年3月入学,入学年月を掲載,SUPPORTED,2026-09-19,
+B2E0102,Career,C000074,end,2009,B2S0021,略歴 > 2009年5月卒業,卒業年月を掲載,SUPPORTED,2026-09-19,

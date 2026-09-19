@@ -11,17 +11,17 @@
 ## 件数
 
 - `person_candidates.csv`：10行
-- `organization_candidates.csv`：11行
-- `career_candidates.csv`：20行
-- `source_references.csv`：12行
-- `evidence_records.csv`：71行
-- `issues.csv`：21行
-- `qa_decisions.csv`：30行
+- `organization_candidates.csv`：15行
+- `career_candidates.csv`：24行
+- `source_references.csv`：24行
+- `evidence_records.csv`：102行
+- `issues.csv`：25行
+- `qa_decisions.csv`：34行
 
 ## 次段階レビュー判定
 
-- READY_FOR_VERIFIED_REVIEW：20件
-- HOLD_CANDIDATE：10件
+- READY_FOR_VERIFIED_REVIEW：28件
+- HOLD_CANDIDATE：6件
 - REJECT_CANDIDATE：0件
 
 ## エラー

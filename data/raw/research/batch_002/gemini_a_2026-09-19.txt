@@ -1,0 +1,101 @@
+（専門領域：日本バスケットボール競技史・選手経歴考証、専門知識：JBA公式大会記録・学連登録情報分析・一次公的資料検証、専門職：競技記録考証専門アナリスト）
+
+提示された5名の競技Careerについて、JBA公式・大会公式・大学連盟（JUBF）・学校公式の一次資料に基づき検証した結果を報告する。
+
+### 競技Career検証一覧表
+
+| 人物 | 対象項目 | 確認値 | 発行元 | ページ名・資料名 | 公開日・大会日 | 直接URL | ページ番号・資料内位置 | 資料内の具体的記載 | 判定 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 古野 拓巳 | 正式氏名・英語表記 | 古野 拓巳 / TAKUMI FURUNO | サンロッカーズ渋谷（B.LEAGUE公式発行） | TEAM INFORMATION 20201220.pdf | 2020/12/20 | [https://www.hitachi-sunrockers.co.jp/files/user/gameday/20201220.pdf](https://www.hitachi-sunrockers.co.jp/files/user/gameday/20201220.pdf) | 1頁、選手一覧枠内 | 「古野 拓巳 TAKUMI FURUNO PG 178cm/83kg 日本経済大学 / 福岡県」 | 組織公式の経歴で確認 |
+| 古野 拓巳 | 高校在籍・活動 | 不明（一次公的資料未確認） | JBA / 福岡第一高校 | パンフレット等各種公式PDF | - | [https://f.f-parama.ed.jp/wp-content/uploads/2026/06/2027panf.pdf](https://f.f-parama.ed.jp/wp-content/uploads/2026/06/2027panf.pdf) | 全体 | 歴代全国大会記載・OB欄に古野拓巳の明記なし | 不明 |
+| 古野 拓巳 | 大学実所属・在籍 | 日本経済大学 | サンロッカーズ渋谷 | TEAM INFORMATION 20201220.pdf | 2020/12/20 | [https://www.hitachi-sunrockers.co.jp/files/user/gameday/20201220.pdf](https://www.hitachi-sunrockers.co.jp/files/user/gameday/20201220.pdf) | 1頁、選手一覧枠内 | 「日本経済大学 / 福岡県」 | 組織公式の経歴で確認 |
+| 古野 拓巳 | 大学学連公式ロスター等 | 不明（JUBFボックススコア直接URL未確認） | 全日本大学バスケットボール連盟 | JUBF公式サイト・記録アーカイブ | - | [https://jubf.jp/](https://jubf.jp/?utm_source=gemini) | - | Webオープン資料内に直接確認可能なPDF・詳細ページ未確認 | 不明 |
+| 内尾 聡理 | 高校背番号・身長 | 背番号54 / 183cm | 公益財団法人日本バスケットボール協会 (JBA) | 第95回天皇杯・第86回皇后杯 全日本バスケットボール選手権大会 ロスター | 2019/11/30 | [https://zennihon2019-20.japanbasketball.jp/team/fukuoka-men/](https://zennihon2019-20.japanbasketball.jp/team/fukuoka-men/?utm_source=gemini) | 福岡第一高等学校 プレイヤー一覧 | 「No. 54 内尾 聡理 183 熊本市立東町中学校」 | 公式資料で直接確認 |
+| 内尾 聡理 | 高校最新活動・役割 | 2019年12月28日 / スターター・ディフェンス中心 | JBA | ウインターカップ2019 大会現地レポート | 2019/12/28 | [https://wintercup2019.japanbasketball.jp/report/1119/](https://wintercup2019.japanbasketball.jp/report/1119/?utm_source=gemini) | 本文第2パラグラフ | 「#54内尾 聡理を中心に福岡第一は気迫のディフェンスでボールを奪い」 | 公式資料で直接確認 |
+| 内尾 聡理 | 大学所属・1年時登録 | 中央大学 1年 / 背番号2 / ポジションSF / 183cm / 福岡第一高出身 | 一般財団法人全日本大学バスケットボール連盟 (JUBF) | 第72回全日本大学バスケットボール選手権大会 中央大学ロスター | 2020/12/07 | [https://jubf.jp/game/university-detail/id/122/type/intercollege/y/2020/s/men](https://jubf.jp/game/university-detail/id/122/type/intercollege/y/2020/s/men?utm_source=gemini) | ROSTER表 2行目 | 「2 1年 SF 内尾 聡理 183cm 福岡第一高」 | 公式資料で直接確認 |
+| 内尾 聡理 | 大学所属・4年時登録 | 中央大学 4年 / 背番号2 / ポジションSF / 183cm / 福岡第一高出身 | 一般財団法人全日本大学バスケットボール連盟 (JUBF) | 第75回全日本大学バスケットボール選手権大会 中央大学ロスター | 2023/12/02 | [https://jubf.jp/game/university-detail/id/122/type/intercollege/y/2023/s/men](https://jubf.jp/game/university-detail/id/122/type/intercollege/y/2023/s/men?utm_source=gemini) | ROSTER表 1行目 | 「2 4年 SF 内尾 聡理 183cm 福岡第一高」 | 公式資料で直接確認 |
+| 鵤 誠司 | 正式氏名・英語表記 | 鵤 誠司 / IKARUGA, Seiji | 公益財団法人日本バスケットボール協会 (JBA) | 平成26年度男子ユニバーシアード日本代表チーム メンバー表 | 2015/02/16 | [http://www.japanbasketball.jp/wp-content/uploads/2015/02/H26_Univ_men_member_0216.pdf](http://www.japanbasketball.jp/wp-content/uploads/2015/02/H26_Univ_men_member_0216.pdf) | 1頁、選手一覧No.12 | 「12 鵤 誠司 (IKARUGA, Seiji) G 185 90 1994/01/08 (21) 青山学院大学 3年 福岡第一高校」 | 公式資料で直接確認 |
+| 鵤 誠司 | 高校在籍・出身校 | 福岡第一高校 | JBA | 平成26年度男子ユニバーシアード日本代表チーム メンバー表 | 2015/02/16 | [http://www.japanbasketball.jp/wp-content/uploads/2015/02/H26_Univ_men_member_0216.pdf](http://www.japanbasketball.jp/wp-content/uploads/2015/02/H26_Univ_men_member_0216.pdf) | 1頁、選手一覧No.12 | 出身高校欄「福岡第一高校」 | 公式資料で直接確認 |
+| 鵤 誠司 | 大学所属・学年 | 青山学院大学 3年（2015年2月時点） / G / 185cm / 90kg | JBA | 平成26年度男子ユニバーシアード日本代表チーム メンバー表 | 2015/02/16 | [http://www.japanbasketball.jp/wp-content/uploads/2015/02/H26_Univ_men_member_0216.pdf](http://www.japanbasketball.jp/wp-content/uploads/2015/02/H26_Univ_men_member_0216.pdf) | 1頁、選手一覧No.12 | 所属・学年欄「青山学院大学 3年」 | 公式資料で直接確認 |
+| 鵤 誠司 | 大学在籍期間 | 青山学院大学（2013-2018と記載、2015年プロ契約との差異あり） | シーホース三河 | GAME DAY PROGRAM 20240330.pdf | 2024/03/30 | [https://go-seahorses.jp/files/user/gameday/20240330.pdf](https://go-seahorses.jp/files/user/gameday/20240330.pdf) | 3頁、鵤誠司紹介欄 | 「出身校 青山学院大学 在籍期間：2013‐2018」 | 矛盾 |
+| 狩野 祐介 | 高校在籍・出身中学校 | 福岡第一高等学校 / 福岡市立春吉中学校出身 | 学校法人都築学園 福岡第一高等学校 | 福岡第一高等学校 2026/2027年案内パンフレット | 2026/06/17 | [https://f.f-parama.ed.jp/wp-content/uploads/2026/06/2027panf.pdf](https://f.f-parama.ed.jp/wp-content/uploads/2026/06/2027panf.pdf) | 2頁、オリンピアン・プロ選手輩出実績枠 | 「狩野 祐介（福岡市立春吉中学校）」 | 組織公式の経歴で確認 |
+| 狩野 祐介 | 大学実所属・学年・背番号 | 東海大学 2年 / 背番号33 / 184cm / 福岡第一高校出身 | JBA | 第86回天皇杯・第77回皇后杯 全日本総合バスケットボール選手権大会 ロスター | 2011/01/02 | [http://www.japanbasketball.jp/alljapan/2011/team_detail-php-team_id=100156&event_id=102.html](http://www.japanbasketball.jp/alljapan/2011/team_detail-php-team_id=100156&event_id=102.html?utm_source=gemini) | 男子 東海大学プレイヤー一覧 | 「33 狩野 祐介 184 2年 福岡第一高校」 | 公式資料で直接確認 |
+| 狩野 祐介 | 大学実所属・学年・表彰 | 東海大学 体育学部3年 / 第87回関東大学バスケットボールリーグ戦 優秀選手賞 | 学校法人東海大学 | 2011 年度 松前重義賞 【スポーツ部門 / 大学・短大】受領者一覧 | 2012/03/31 | [https://www.u-tokai.ac.jp/uploads/2021/03/2011univ.pdf](https://www.u-tokai.ac.jp/uploads/2021/03/2011univ.pdf) | 2頁、バスケットボール部（男子）枠 | 「バスケットボール部（男子）： 狩野 祐介（体育学部３年）第８７回関東大学...」 | 組織公式の経歴で確認 |
+| 並里 成 | 高校在籍・U-18選出 | 福岡第一高校 / 沖縄市立コザ中学校出身 | 学校法人都築学園 福岡第一高等学校 | 福岡第一高等学校 2026/2027年案内パンフレット | 2026/06/17 | [https://f.f-parama.ed.jp/wp-content/uploads/2026/06/2027panf.pdf](https://f.f-parama.ed.jp/wp-content/uploads/2026/06/2027panf.pdf) | 2頁、日本代表輩出歴枠 | 「第19回2006年中国・ウルムチ 並里 成（沖縄県沖縄市立コザ中学校）」 | 組織公式の経歴で確認 |
+| 並里 成 | 高校卒業後進路 | サウスケントスクール（South Kent School / プレップスクール）進学（スラムダンク奨学生） | 集英社（スラムダンク奨学金事務局） | スラムダンク奨学金 レポート Vol.3「1期生 並里 成」 | 2009/04/01 | [https://slamdunk-sc.shueisha.co.jp/sp/common/data/namisato_vol3.pdf](https://slamdunk-sc.shueisha.co.jp/sp/common/data/namisato_vol3.pdf) | 全8頁（1〜4頁） | 「福岡第一高校にいた時に...」「サウスケントスクール」「秋には大学（NCAA）に入れる...成績が足りないとわかっている選手を...」 | 組織公式の経歴で確認 |
+| 並里 成 | 大学Careerの有無 | 大学競技部への実所属なし（プレップスクールを経てプロ契約） | 集英社 / JBA | スラムダンク奨学金 レポート Vol.2・Vol.3 / JBA登録略歴 | 2009/04/01 | [https://slamdunk-sc.shueisha.co.jp/sp/common/data/namisato_vol3.pdf](https://slamdunk-sc.shueisha.co.jp/sp/common/data/namisato_vol3.pdf) | 4頁・8頁 | 学業資格（SAT・英語力基準）未達によりNCAA大学進学を断念、大学所属歴なし | 組織公式の経歴で確認 |
+
+---
+
+### 各人物の採用・HOLD判定
+
+* **古野 拓巳**
+* 採用可能：プロ公式プログラム記載の「日本経済大学」「福岡県出身」という経歴の事実。
+* HOLD：高校時代の詳細活動記録（背番号、公式戦出場日等）、および九州大学連盟等の一次公式ボックススコア・所属年月日（現状はBクラブ発行資料内の記載に留まるため）。
+
+
+* **内尾 聡理**
+* 採用可能：高校時背番号（54）、身長（183cm）、活動期（2019年天皇杯・ウインターカップ）。大学時背番号（2）、所属（中央大学）、学年推移（1年〜4年時インカレロスター登録）、ポジション（SF）。
+* HOLD：高校最古の公式活動年月日（1〜2年次の公式ロスター直リンク未確定のため）。
+
+
+* **鵤 誠司**
+* 採用可能：公式英文名（IKARUGA, Seiji）、生年月日（1994/01/08）、福岡第一高校出身、青山学院大学在籍時の学年（3年次/2015年時点）。
+* HOLD：大学在籍期間の終了年月日（クラブ資料にある「2013-2018在籍」と、大学3年次でのプロ入り・NBL/B2等へのアーリー・中退の公的記録の整合性確認が必要なため「矛盾」扱い）。
+
+
+* **狩野 祐介**
+* 採用可能：福岡第一高出身、東海大学バスケットボール部所属（2年次天皇杯ロスター背番号33・身長184cm、3年次学連リーグ優秀選手賞受賞・東海大体育学部在籍）。
+* HOLD：高校時の背番号・活動年月日（学校案内PDFに卒業生としての氏名掲載はあるが、高校大会公式ロスターの直接URL未取得のため）。
+
+
+* **並里 成**
+* 採用可能：福岡第一高校出身（2006年日本代表歴等）、卒業後サウスケントスクール進学（スラムダンク奨学生1期生）、大学競技部への実所属なし（NCAA大学進学見送り）。
+* HOLD：高校公式戦（ウインターカップ等）における個別のボックススコア直リンク。
+
+
+
+---
+
+### 検索ログおよび調査環境情報
+
+* **使用検索語**：
+* `"古野拓巳" "福岡第一" site:japanbasketball.jp OR site:koko-basket.com OR filetype:pdf`
+* `"古野拓巳" "日本経済大学" site:jubf.jp OR site:jbasket.jp OR filetype:pdf`
+* `"内尾聡理" "福岡第一" site:japanbasketball.jp OR site:koko-basket.com OR filetype:pdf`
+* `"内尾聡理" "中央大学" site:jubf.jp OR site:kanto-b-federation.jp OR site:chuo-u.ac.jp`
+* `"鵤誠司" "福岡第一" site:japanbasketball.jp OR site:koko-basket.com OR filetype:pdf`
+* `"鵤誠司" "青山学院大学" site:jubf.jp OR site:kanto-b-federation.jp OR filetype:pdf`
+* `"狩野祐介" "東海大学" site:jubf.jp OR site:kanto-b-federation.jp OR filetype:pdf`
+* `"並里成" "スラムダンク奨学金" OR "大学" site:japanbasketball.jp OR site:slamdunk-sc.shueisha.co.jp`
+
+
+* **検索対象公式ドメイン**：
+* `japanbasketball.jp`（日本バスケットボール協会公式）
+* `jubf.jp`（全日本大学バスケットボール連盟公式）
+* `f.f-parama.ed.jp`（福岡第一高等学校・第一薬科大学付属高等学校公式）
+* `u-tokai.ac.jp`（東海大学公式）
+* `chuo-u.ac.jp`（中央大学公式）
+* `slamdunk-sc.shueisha.co.jp`（スラムダンク奨学金公式）
+
+
+* **調査日**：
+* 2026年9月19日
+
+
+
+---
+
+### 回答の根拠
+
+* JBA公式大会アーカイブ（天皇杯・皇后杯全日本総合選手権大会）の登録ロスターPDFおよび公式Webページ。
+* 全日本大学バスケットボール連盟（JUBF）公式インカレ大会ロスター。
+* 福岡第一高等学校の公式学校案内・パンフレットPDF。
+* 集英社スラムダンク奨学金事務局発行の公式活動レポートPDF。
+* 東海大学公式表彰記録（松前重義賞受領者名簿）。
+
+### 回答に対する多角的な反証
+
+* クラブ発行のゲームデープログラムや学校案内パンフレットに掲載された学歴・出身校表記は、当該機関による二次的な編集を経ており、当時の学連・高体連の原簿（一次原本）との間で表記揺れや在籍年度のずれ（留年・中退の有無など）が生じている可能性。
+* 全日本大学バスケットボール選手権（インカレ）のロスター記載は大会登録枠（各校15〜18名程度）に限定されるため、ベンチ外となった年度やリーグ戦のみの出場歴を完全に網羅できていない可能性。
+* 過去のJBA公式記録や高校総体・ウインターカップの一次ボックススコアは、サイトリニューアルに伴いドメイン移行やPDFのリンク切れが発生しており、Web上に残存する公式PDF以外の活動記録が欠落している可能性。

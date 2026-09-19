@@ -151,6 +151,135 @@ PLAYERS = [
     },
 ]
 
+RESEARCH_ORGANIZATIONS = {
+    "ORG000016": "中央大学",
+    "ORG000030": "青山学院大学",
+    "ORG000015": "東海大学",
+    "ORG000032": "South Kent School",
+}
+
+RESEARCH_CAREERS = [
+    {
+        "career_id": "C000070",
+        "person_id": "P000038",
+        "organization_id": "ORG000016",
+        "role": "Player",
+        "start": "2020",
+        "end": "",
+    },
+    {
+        "career_id": "C000069",
+        "person_id": "P000037",
+        "organization_id": "ORG000030",
+        "role": "Player",
+        "start": "",
+        "end": "",
+    },
+    {
+        "career_id": "C000073",
+        "person_id": "P000041",
+        "organization_id": "ORG000015",
+        "role": "Player",
+        "start": "",
+        "end": "",
+    },
+    {
+        "career_id": "C000074",
+        "person_id": "P000042",
+        "organization_id": "ORG000032",
+        "role": "Player",
+        "start": "2008",
+        "end": "2009",
+    },
+]
+
+RESEARCH_SOURCES = [
+    {
+        "source_id": "B2S0012",
+        "title": "第95回天皇杯 福岡第一高等学校ロスター",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://zennihon2019-20.japanbasketball.jp/team/fukuoka-men/",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0013",
+        "title": "ウインターカップ2019 現地レポート21",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://wintercup2019.japanbasketball.jp/report/1119/",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0014",
+        "title": "第72回インカレ 中央大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/122/type/intercollege/y/2020/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0015",
+        "title": "第75回インカレ 中央大学ロスター",
+        "publisher": "全日本大学バスケットボール連盟",
+        "url": "https://jubf.jp/game/university-detail/id/122/type/intercollege/y/2023/s/men",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0016",
+        "title": "平成22年度男子U-18日本代表 第4次強化合宿",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://japanbasketball.jp/event/news_detail-php-news_id%3D1029.html",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0017",
+        "title": "第19回日・韓・中ジュニア交流競技会 日本代表メンバー",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://japanbasketball.jp/event/news_detail-php-news_id%3D4735.html",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0018",
+        "title": "第6回東アジア競技大会 男子日本代表選手発表",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://japanbasketball.jp/japan/4853",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0019",
+        "title": "福岡第一高等学校 学校案内2022",
+        "publisher": "福岡第一高等学校",
+        "url": "https://f.f-parama.ed.jp/wp-content/uploads/2022/01/panf2022.pdf",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0020",
+        "title": "2011年度 松前重義賞 受領者一覧",
+        "publisher": "東海大学",
+        "url": "https://www.u-tokai.ac.jp/uploads/2021/03/2011univ.pdf",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0021",
+        "title": "第1回奨学生の近況報告 並里成",
+        "publisher": "スラムダンク奨学金事務局",
+        "url": "https://slamdunk-sc.shueisha.co.jp/report/report01.html",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0022",
+        "title": "並里レポート vol.3",
+        "publisher": "スラムダンク奨学金事務局",
+        "url": "https://slamdunk-sc.shueisha.co.jp/sp/common/data/namisato_vol3.pdf",
+        "accessed_at": ACCESSED_AT,
+    },
+    {
+        "source_id": "B2S0023",
+        "title": "オールジャパン2011 東海大学ボックススコア",
+        "publisher": "日本バスケットボール協会",
+        "url": "https://japanbasketball.jp/alljapan/2011/pbp_team-php-game_id%3D10222%26q%3D95.html",
+        "accessed_at": ACCESSED_AT,
+    },
+]
+
 
 def write_csv(filename: str, headers: list[str], rows: list[dict[str, str]]) -> None:
     with (OUTPUT_DIR / filename).open("w", encoding="utf-8", newline="") as handle:
@@ -170,6 +299,7 @@ def main() -> None:
 
     organizations = {"ORG000010": "福岡第一高等学校"}
     organizations.update({p["pro_org_id"]: p["pro_org_name"] for p in PLAYERS})
+    organizations.update(RESEARCH_ORGANIZATIONS)
     write_csv(
         "organization_candidates.csv",
         ["organization_id", "name"],
@@ -201,6 +331,7 @@ def main() -> None:
                 },
             ]
         )
+    careers.extend(RESEARCH_CAREERS)
     write_csv(
         "career_candidates.csv",
         ["career_id", "person_id", "organization_id", "role", "start", "end"],
@@ -235,6 +366,7 @@ def main() -> None:
             "accessed_at": ACCESSED_AT,
         }
     )
+    sources.extend(RESEARCH_SOURCES)
     write_csv(
         "source_references.csv",
         ["source_id", "title", "publisher", "url", "accessed_at"],
@@ -392,6 +524,172 @@ def main() -> None:
             ]
         )
         decision_number += 3
+
+    def find_issue(related_id: str) -> dict[str, str]:
+        return next(row for row in issues if row["related_id"] == related_id)
+
+    def find_decision(entity_id: str) -> dict[str, str]:
+        return next(row for row in decisions if row["entity_id"] == entity_id)
+
+    # 内尾聡理：高校ロスターと中央大学インカレ登録を直接確認。
+    for field_name, value, summary in [
+        ("organization_id", "ORG000010", "福岡第一高等学校のプレーヤー一覧に掲載"),
+        ("role", "Player", "福岡第一高等学校の選手として公式ロスターに掲載"),
+        ("jersey_number", "54", "公式ロスターの背番号"),
+        ("height_cm", "183", "公式ロスターの登録身長"),
+    ]:
+        add_evidence(
+            "Career", "C000057", field_name, value, "B2S0012",
+            "福岡第一高等学校 > プレーヤー > No.54 内尾聡理",
+            summary, "SUPPORTED",
+        )
+    add_evidence(
+        "Career", "C000057", "activity_date", "2019-12-28", "B2S0013",
+        "本文第2段落 > #54内尾聡理",
+        "ウインターカップ準決勝での活動を大会公式レポートが記載",
+        "SUPPORTED", "Career終了日を意味しない",
+    )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000016", "B2S0014", "中央大学 ROSTER > No.2", "中央大学ロスターに掲載"),
+        ("role", "Player", "B2S0014", "中央大学 ROSTER > No.2", "登録選手として掲載"),
+        ("start", "2020", "B2S0014", "中央大学 ROSTER > 1年", "2020年大会で1年生として登録"),
+        ("jersey_number", "2", "B2S0014", "中央大学 ROSTER > No.2", "大学時の背番号"),
+        ("position", "SF", "B2S0014", "中央大学 ROSTER > Pos.", "大学時の登録ポジション"),
+        ("height_cm", "183", "B2S0014", "中央大学 ROSTER > 身長", "大学時の登録身長"),
+        ("latest_activity_year", "2023", "B2S0015", "中央大学 ROSTER > 4年 No.2", "2023年大会で4年生として登録"),
+    ]:
+        add_evidence(
+            "Career", "C000070", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "卒業・終了年月は別途確認" if field_name == "latest_activity_year" else "",
+        )
+
+    # 鵤誠司：高校2・3年時と青山学院大学2年時をJBA公式発表で確認。
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000010", "B2S0016", "参加選手 > 鵤誠司", "福岡第一高校2年として掲載"),
+        ("role", "Player", "B2S0016", "男子U-18日本代表強化合宿 > 選手", "選手として掲載"),
+        ("grade", "2年", "B2S0016", "参加選手 > 所属・学年", "2011年2月時点の学年"),
+        ("grade", "3年", "B2S0017", "日本代表選手 > #9 鵤誠司", "2011年8月時点の学年"),
+    ]:
+        add_evidence(
+            "Career", "C000056", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "入学・卒業年月は直接示さない" if field_name == "grade" else "",
+        )
+    for field_name, value, summary in [
+        ("organization_id", "ORG000030", "青山学院大学2年として掲載"),
+        ("role", "Player", "男子日本代表選手として大学所属を掲載"),
+        ("grade", "2年", "2013年度時点の学年"),
+    ]:
+        add_evidence(
+            "Career", "C000069", field_name, value, "B2S0018",
+            "男子日本代表選手 > #15 鵤誠司",
+            summary, "SUPPORTED", "大学在籍開始・終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
+    # 狩野祐介：高校卒業関係と東海大学男子部所属を公式資料で確認。
+    add_evidence(
+        "Career", "C000060", "organization_id", "ORG000010", "B2S0019",
+        "プロバスケットボール選手欄 > 狩野祐介",
+        "福岡第一高等学校普通科卒として掲載", "SUPPORTED",
+        "高校バスケットボール部での役割・期間は示さない",
+    )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000015", "B2S0020", "バスケットボール部（男子）> 狩野祐介", "東海大学公式資料に掲載"),
+        ("role", "Player", "B2S0020", "バスケットボール部（男子）> 狩野祐介", "男子バスケットボール部員として掲載"),
+        ("grade", "3年", "B2S0020", "体育学部3年", "2011年度の学年"),
+        ("award", "第87回関東大学リーグ戦MIP賞", "B2S0020", "受領者一覧 > 狩野祐介", "大学公式の受賞記録"),
+        ("jersey_number", "33", "B2S0023", "東海大学ボックススコア > No.33", "公式戦の背番号"),
+    ]:
+        add_evidence(
+            "Career", "C000073", field_name, value, source_id, locator,
+            summary, "SUPPORTED", "大学在籍開始・終了年月は直接示さない" if field_name == "grade" else "",
+        )
+
+    # 並里成：福岡第一からSouth Kent Schoolを経て2009年にプロ入りした経路を確認。
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000010", "B2S0019", "プロバスケットボール選手欄 > 並里成", "福岡第一高等学校普通科卒として掲載"),
+        ("role", "Player", "B2S0022", "本文 > 福岡第一高校在籍時と日本での先発経験", "福岡第一高校在籍時の競技経験を記載"),
+    ]:
+        add_evidence(
+            "Career", "C000061", field_name, value, source_id, locator,
+            summary, "SUPPORTED" if field_name == "organization_id" else "PARTIAL",
+            "高校在籍開始・終了年月と高校チームでの役割を直接示さない",
+        )
+    for field_name, value, source_id, locator, summary in [
+        ("organization_id", "ORG000032", "B2S0021", "略歴 > サウスケントスクール", "留学先を公式奨学金ページに掲載"),
+        ("role", "Player", "B2S0022", "本文 > South KentでのPG・出場記録", "同校チームでの競技参加を記載"),
+        ("start", "2008", "B2S0021", "略歴 > 2008年3月入学", "入学年月を掲載"),
+        ("end", "2009", "B2S0021", "略歴 > 2009年5月卒業", "卒業年月を掲載"),
+    ]:
+        add_evidence(
+            "Career", "C000074", field_name, value, source_id, locator,
+            summary, "SUPPORTED",
+        )
+
+    high_school_updates = {
+        "C000057": ("organization_id|role|jersey_number|height_cm|activity_date", "start|end", "高校公式ロスターと大会公式レポートで確認"),
+        "C000056": ("organization_id|role|grade", "start|end", "JBA公式U-18資料で高校2・3年時を確認"),
+        "C000060": ("organization_id", "role|start|end", "学校公式パンフレットで卒業関係を確認"),
+        "C000061": ("organization_id", "role|start|end", "学校公式パンフレットで卒業関係を確認"),
+    }
+    for career_id, (eligible, held, reason) in high_school_updates.items():
+        decision = find_decision(career_id)
+        decision["decision"] = "READY_FOR_VERIFIED_REVIEW"
+        decision["eligible_fields"] = eligible
+        decision["held_fields"] = held
+        decision["reason"] = reason
+        issue = find_issue(career_id)
+        issue["status"] = "HOLD"
+        issue["description"] = f"確認済み項目は{eligible}。未確認項目は{held}"
+        issue["next_check"] = "高校の入学・卒業または大会登録期間を示す公式資料を確認"
+
+    university_decisions = [
+        ("C000070", "organization_id|role|start|jersey_number|position|height_cm|latest_activity_year", "end", "JUBF公式2020・2023年ロスターで確認"),
+        ("C000069", "organization_id|role|grade", "start|end", "JBA公式の2013年度日本代表資料で確認"),
+        ("C000073", "organization_id|role|grade|award|jersey_number", "start|end", "東海大学公式受賞記録とJBA公式戦記録で確認"),
+        ("C000074", "organization_id|role|start|end", "", "スラムダンク奨学金公式の略歴と競技記録で確認"),
+    ]
+    for career_id, eligible, held, reason in university_decisions:
+        decisions.append(
+            {
+                "decision_id": f"B2D{decision_number:04d}",
+                "entity_type": "Career",
+                "entity_id": career_id,
+                "decision": "READY_FOR_VERIFIED_REVIEW",
+                "eligible_fields": eligible,
+                "held_fields": held,
+                "reason": reason,
+                "reviewed_at": ACCESSED_AT,
+            }
+        )
+        decision_number += 1
+
+    for person_id in ["P000038", "P000037", "P000041", "P000042"]:
+        display_issue = next(
+            row for row in issues
+            if row["person_id"] == person_id
+            and row["issue_type"] == "EDUCATION_DISPLAY_ONLY"
+        )
+        display_issue["status"] = "RESOLVED"
+        display_issue["next_check"] = "個別Careerと公式資料へ置換済み"
+
+    for person_id, career_id, description in [
+        ("P000038", "C000070", "中央大学は2020年1年・2023年4年を確認したが終了年月は未確認"),
+        ("P000037", "C000069", "青山学院大学2年時の所属を確認したが開始・終了年月は未確認"),
+        ("P000041", "C000073", "東海大学3年時の所属を確認したが開始・終了年月は未確認"),
+        ("P000042", "C000074", "2009年7月のプロ入りは確認したが、その後を含む大学Career不存在の包括的証明ではない"),
+    ]:
+        issues.append(
+            {
+                "issue_id": f"B2I{issue_number:04d}",
+                "person_id": person_id,
+                "related_id": career_id,
+                "issue_type": "CAREER_PERIOD_OR_ABSENCE",
+                "status": "HOLD",
+                "description": description,
+                "next_check": "期間を直接示す公式資料がある場合のみ更新",
+            }
+        )
+        issue_number += 1
 
     issues.append(
         {

@@ -7,15 +7,15 @@
 ## 現在の結果
 
 - Person候補：10件
-- Career候補：20件
-- Source：12件
-- 項目別Evidence：71件
-- 次段階レビュー待ち：20件
-- CANDIDATE保留：10件
+- Career候補：24件
+- Source：24件
+- 項目別Evidence：102件
+- 次段階レビュー待ち：28件
+- CANDIDATE保留：6件
 - 未解決事項：20件
 - 構造QA：PASS
 
-次段階レビュー待ちは、10人のPerson基本情報と10件のプロCareerである。福岡第一高校Careerは、公式一覧の絞り込みでは関係を確認できるものの、高校時の個別登録資料をまだ確認していないため全件保留している。
+次段階レビュー待ちは、10人のPerson基本情報、10件のプロCareer、公式資料で確認できた高校Career 4件、大学・留学Career 4件である。残る高校Career 6件は、個別の公式登録資料をまだ確認していないため保留している。レビュー待ちのCareerでも、期間等の未確認項目は項目単位でHOLDしている。
 
 松崎裕樹の2026-27所属について、Excel原本は滋賀としていたが、B.LEAGUE公式プロフィールとレバンガ北海道公式発表は北海道としている。原本を変更せず、Batch 002では新しいCareer候補`C000212`として2026年のレバンガ北海道加入を保持した。
 
@@ -32,8 +32,9 @@
 | `qa_decisions.csv` | 次段階レビュー可否 |
 | `qa_report.md` | Python構造検査結果 |
 | `felo_intake_review.md` | Felo調査結果の採否と次の確認先 |
+| `gemini_a_intake_review.md` | Gemini調査AのURL再確認、採用・不採用理由 |
 
-受領したFelo回答の原文は[`data/raw/research/batch_002/felo_2026-09-19.txt`](../../raw/research/batch_002/felo_2026-09-19.txt)に変更せず保存している。
+受領した外部調査の原文は、[`Felo回答`](../../raw/research/batch_002/felo_2026-09-19.txt)と[`Gemini調査A`](../../raw/research/batch_002/gemini_a_2026-09-19.txt)に変更せず保存している。
 
 ## 再生成と検証
 
