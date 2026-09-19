@@ -69,4 +69,6 @@
 
 ## 次の実行単位
 
-Batch 001のQA判定を完了後、B.LEAGUE公式プロフィールから福岡第一高校出身者10人を選び、Batch 002として同じ形式で処理する。選定時点の所属や掲載状況は変わり得るため、公式ページを取得した日を必ず記録する。
+Batch 002は10人分のCANDIDATE、構造QA、次段階レビュー資料、例外キューを作成した。B.LEAGUE公式の福岡第一高校出身者はPilot Batch 001とBatch 002で全員を調査対象にした。
+
+次は[BATCH_003_PROPOSAL](BATCH_003_PROPOSAL.md)の10人を同じ形式で処理する。2021年度卒業世代を中心に同じ大会資料をまとめて確認し、外部調査には[BATCH_003_RESEARCH_PROMPTS](BATCH_003_RESEARCH_PROMPTS.md)を使う。

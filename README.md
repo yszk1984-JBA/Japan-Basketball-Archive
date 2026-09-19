@@ -29,6 +29,8 @@ Governance v1.0に基づき、福岡第一高校パイロットの小規模なCA
 - [PILOT_BATCH_001_PROPOSAL](docs/PILOT_BATCH_001_PROPOSAL.md)：最初の5人で行う小規模検証案
 - [DATA_SCALING_WORKFLOW_V0.1](docs/DATA_SCALING_WORKFLOW_V0.1.md)：データ量と品質を並行して高めるバッチ運用
 - [BATCH_002_BLEAGUE_PROPOSAL](docs/BATCH_002_BLEAGUE_PROPOSAL.md)：B.LEAGUE公式一覧から選んだ次の10人
+- [BATCH_003_PROPOSAL](docs/BATCH_003_PROPOSAL.md)：既存バッチと重複しない次の10人
+- [BATCH_003_RESEARCH_PROMPTS](docs/BATCH_003_RESEARCH_PROMPTS.md)：Felo・Gemini用の一括調査指示文
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [Batch 002](data/candidate/batch_002/README.md)：B.LEAGUE公式を入口にした10人分のCANDIDATEと初期QA
