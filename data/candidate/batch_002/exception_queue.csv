@@ -1,0 +1,20 @@
+queue_id,issue_id,person_id,person_name,career_id,organization,category,queue_state,confirmed_scope,held_scope,next_action,resume_condition
+B2Q0001,B2I0001,P000063,古野 拓巳,C000210,福岡第一高等学校,HIGH_SCHOOL_PERIOD_AND_ROLE,DEFERRED_UNTIL_NEW_SOURCE,organization_id,role|start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0002,B2I0003,P000038,内尾 聡理,C000057,福岡第一高等学校,HIGH_SCHOOL_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,organization_id|role|jersey_number|height_cm|activity_date,start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0003,B2I0005,P000037,鵤 誠司,C000056,福岡第一高等学校,HIGH_SCHOOL_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,organization_id|role|grade,start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0004,B2I0007,P000041,狩野 祐介,C000060,福岡第一高等学校,HIGH_SCHOOL_PERIOD_AND_ROLE,DEFERRED_UNTIL_NEW_SOURCE,organization_id,role|start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0005,B2I0009,P000042,並里 成,C000061,福岡第一高等学校,HIGH_SCHOOL_PERIOD_AND_ROLE,DEFERRED_UNTIL_NEW_SOURCE,organization_id,role|start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0006,B2I0011,P000039,渡辺 竜之佑,C000058,福岡第一高等学校,HIGH_SCHOOL_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,organization_id|role|grade|position|height_cm,start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0007,B2I0013,P000043,松崎 裕樹,C000062,福岡第一高等学校,HIGH_SCHOOL_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,organization_id|role|grade|position|height_cm,start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0008,B2I0015,P000035,小川 麻斗,C000054,福岡第一高等学校,HIGH_SCHOOL_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,organization_id|role|jersey_number|height_cm,start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0009,B2I0017,P000040,神田 壮一郎,C000059,福岡第一高等学校,HIGH_SCHOOL_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,organization_id|role|jersey_number|height_cm,start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0010,B2I0019,P000036,井手 拓実,C000055,福岡第一高等学校,HIGH_SCHOOL_PERIOD_AND_ROLE,DEFERRED_UNTIL_NEW_SOURCE,organization_id,role|start|end,高校の入学・卒業または大会登録期間を示す公式資料を確認,学校・JBA・大会主催者の新しい公式資料が見つかり、在籍期間または役割が本文で直接確認できる場合
+B2Q0011,B2I0021,P000038,内尾 聡理,C000070,中央大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,中央大学は2020年1年・2023年4年を確認した,end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0012,B2I0022,P000037,鵤 誠司,C000069,青山学院大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,青山学院大学2年時の所属を確認した,start|end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0013,B2I0023,P000041,狩野 祐介,C000073,東海大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,東海大学3年時の所属を確認した,start|end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0014,B2I0024,P000042,並里 成,C000074,South Kent School,CAREER_ABSENCE,DEFERRED_UNTIL_NEW_SOURCE,2009年7月のプロ入り,大学Career不存在の包括的確認,期間を直接示す公式資料がある場合のみ更新,本人・所属先等の公式経歴が、大学を経ずにプロ入りしたことを直接示す場合
+B2Q0015,B2I0025,P000039,渡辺 竜之佑,C000071,専修大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,専修大学3・4年時の所属を確認した,start|end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0016,B2I0026,P000043,松崎 裕樹,C000075,東海大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,東海大学1・4年時の所属を確認した,end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0017,B2I0027,P000040,神田 壮一郎,C000072,拓殖大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,拓殖大学2・3年時の所属を確認した,start|end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0018,B2I0028,P000036,井手 拓実,C000068,日本体育大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,日本体育大学1・4年時の所属を確認した,end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
+B2Q0019,B2I0029,P000063,古野 拓巳,C000076,日本経済大学,CAREER_PERIOD,DEFERRED_UNTIL_NEW_SOURCE,日本経済大学3・4年時の競技参加を確認した,start|end,期間を直接示す公式資料がある場合のみ更新,大学・競技団体・所属先の新しい公式資料が見つかり、入学・卒業・退部等の時期が本文で直接確認できる場合
