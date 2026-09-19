@@ -2,7 +2,7 @@
 
 作成日：2026-09-19
 
-状態：CANDIDATE作成・構造QA完了
+状態：CANDIDATE作成・構造QA・VERIFIED作成前レビュー資料まで完了
 
 対象：[Batch 003の10人](../../../docs/BATCH_003_PROPOSAL.md)
 
@@ -40,6 +40,7 @@
 | `issues.csv` | 期間不明、資料間矛盾、役割修正などの記録 |
 | `qa_decisions.csv` | 項目単位の次段階レビュー可否 |
 | `qa_report.md` | Python構造QAの結果 |
+| `verified_review_packet.md` | Yuichiが人物別・項目別に確認するためのレビュー資料 |
 
 外部調査の原文は[`Felo回答`](../../raw/research/batch_003/felo_2026-09-19.txt)、[`Gemini調査A`](../../raw/research/batch_003/gemini_a_2026-09-19.txt)、[`Gemini調査B`](../../raw/research/batch_003/gemini_b_2026-09-20.txt)へ保存している。
 
@@ -60,4 +61,4 @@ python3 scripts/validate_pilot_batch.py data/candidate/batch_003
 
 PASSはID、参照、必須項目、判定値の形式が規則に合うことだけを示す。史実の正しさ、VERIFIED、HUMAN APPROVAL、MASTERを意味しない。
 
-次はEvidenceとIssueのレビュー資料を作り、次段階へ進める項目とHOLDをYuichiが確認できる形に整理する。
+次は[`verified_review_packet.md`](verified_review_packet.md)を確認し、VERIFIED候補作成へ進めるDecision IDの範囲をYuichiが指定する。単なる「OK」はMaster承認として扱わない。

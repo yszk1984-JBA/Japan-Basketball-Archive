@@ -286,7 +286,9 @@ def main():
     decisions = []
     targets = [("Person", person_id) for person_id, _ in PEOPLE] + [("Career", row[0]) for row in CAREERS]
     for index, (entity_type, entity_id) in enumerate(targets, 1):
-        fields = supported.get((entity_type, entity_id), [])
+        fields = list(supported.get((entity_type, entity_id), []))
+        if entity_type == "Career" and entity_id == "C000031":
+            fields = [field for field in fields if field != "grade"]
         decision = "READY_FOR_VERIFIED_REVIEW" if fields else "HOLD_CANDIDATE"
         held = "start|end" if entity_type == "Career" else ""
         if entity_type == "Career" and entity_id == "C000031":
