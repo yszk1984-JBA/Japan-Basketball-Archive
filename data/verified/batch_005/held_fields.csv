@@ -1,0 +1,10 @@
+wave,decision_id,entity_type,entity_id,held_fields,reason
+wave_01,B5W1D0004,Career,C000259,end,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0005,Career,C000260,exact_end_date,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0007,Career,C000261,role|start|end,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0008,Career,C000262,start|end,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0010,Career,C000264,registration_type|exact_start_date|exact_end_date,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0011,Person,P000028,single_current_height,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0013,Career,C000266,end,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0014,Person,P000066,single_current_height,CANDIDATEの未確認・矛盾項目として保持
+wave_01,B5W1D0015,Career,C000229,exact_end_date,CANDIDATEの未確認・矛盾項目として保持

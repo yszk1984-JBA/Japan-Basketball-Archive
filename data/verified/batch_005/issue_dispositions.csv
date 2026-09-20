@@ -1,0 +1,10 @@
+wave,issue_id,person_id,related_id,issue_type,status,description,disposition
+wave_01,B5W1I0001,P000073,C000259,SCHOOL_END_DATE,HOLD,セントトーマス モア スクールの開始年は確認したが終了年は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0002,P000073,C000260,ACTIVITY_END_DATE,HOLD,活動終了と2024-26表記は確認したが終了日の日付はページ本文で確認できない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0003,P000074,C000261,HIGH_SCHOOL_PERIOD,HOLD,福岡第一高校出身は確認したが在籍開始年・終了年は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0004,P000074,C000262,UNIVERSITY_PERIOD,HOLD,2025年1月時点の東海大学2年は確認したがCareer開始・終了年は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0005,P000074,C000264,SAGA_CONTRACT_REGISTRATION,HOLD,B.LEAGUE公式プロフィールで佐賀所属と出場は確認したが、クラブ一次資料の契約・登録区分は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0006,P000028,P000028,HEIGHT_BY_DATE,HOLD,横浜BC発表は173cm、広島・B.LEAGUEは175cmで時点差がある,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0007,P000028,C000266,CAREER_END_DATE,HOLD,2026-27以降の複数年契約は確認したがCareer終了日は将来事象で未確定,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0008,P000066,C000229,ACTIVITY_END_DATE,HOLD,活動終了発表日とシーズン終了は確認したが実際の登録抹消日は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+wave_01,B5W1I0009,P000066,P000066,HEIGHT_BY_SOURCE,HOLD,B.LEAGUEは181cm、横浜EXは183cmで資料間差がある,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
