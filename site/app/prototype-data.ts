@@ -327,9 +327,70 @@ export const sources = [
     location: '男子バスケットボール部 新入生紹介欄',
     accessedAt: '2026-09-14',
   },
+  {
+    id: 'KWM-H001',
+    title: '平成29年度 バスケットボール男子U16日本代表チーム メンバー表',
+    publisher: '日本バスケットボール協会（JBA）',
+    url: 'https://www.japanbasketball.jp/wp-content/uploads/U16men-member_20180330.pdf',
+    location: '1ページ・選手欄「河村 勇輝」',
+    accessedAt: '2026-09-20',
+  },
+  {
+    id: 'KWM-H002',
+    title: 'SoftBank ウインターカップ2019 大会結果',
+    publisher: '日本バスケットボール協会（JBA）',
+    url: 'https://u18.japanbasketball.jp/convention-news/234/',
+    location: '男子ベストファイブ「河村 勇輝（福岡第一高等学校 3年、#8）」',
+    accessedAt: '2026-09-20',
+  },
+  {
+    id: 'KWM-N001',
+    title: 'FIBAバスケットボールワールドカップ2027 アジア地区予選 Window4 男子日本代表メンバー',
+    publisher: '日本バスケットボール協会（JBA）',
+    url: 'https://fibaworldcup2027-asianqualifiers.japanbasketball.jp/news/525/',
+    location: '選手一覧 #5 河村勇輝欄',
+    accessedAt: '2026-09-20',
+  },
+  {
+    id: 'KWM-NBA001',
+    title: 'Grizzlies promote Yuki Kawamura to two-way contract',
+    publisher: 'Memphis Grizzlies / NBA',
+    url: 'https://www.nba.com/grizzlies/news/grizzlies-promote-yuki-kawamura-to-two-way-contract',
+    location: 'Two-Way契約発表・経歴欄',
+    accessedAt: '2026-09-20',
+  },
+  {
+    id: 'KWM-NBA002',
+    title: 'Yuki Kawamura — LA Clippers player page',
+    publisher: 'LA Clippers / NBA',
+    url: 'https://www.nba.com/clippers/player/1642530/yuki-kawamura',
+    location: '選手プロフィール欄',
+    accessedAt: '2026-09-20',
+  },
 ] as const;
 
 export const players = [
+  {
+    id: 'P000064',
+    slug: 'yuki-kawamura',
+    name: '河村 勇輝',
+    cardContext: '2026年 · 日本代表 / NBA',
+    facts: [
+      { label: '英字表記', value: 'KAWAMURA, Yuki', context: 'U16日本代表公式資料', sourceIds: ['KWM-H001'] },
+      { label: 'ポジション', value: 'PG', context: '2026年・男子日本代表', sourceIds: ['KWM-N001'] },
+      { label: '身長', value: '172cm', context: '2026年・男子日本代表', sourceIds: ['KWM-N001'] },
+      { label: '生年月日', value: '2001年5月2日', context: 'U16日本代表公式資料', sourceIds: ['KWM-H001'] },
+    ],
+    careers: [
+      { period: '2017年度確認', organization: '福岡第一高等学校', detail: 'U16日本代表資料で高校1年として確認', status: 'candidate', sourceIds: ['KWM-H001'] },
+      { period: '2019年度', organization: '福岡第一高等学校', detail: 'ウインターカップ優勝、#8・3年・男子ベストファイブ', status: 'candidate', sourceIds: ['KWM-H002'] },
+      { period: '2019-24', organization: 'B.LEAGUE', detail: '三遠、横浜での所属歴をNBA公式発表の経歴欄で確認', status: 'candidate', sourceIds: ['KWM-NBA001'] },
+      { period: '2024-25', organization: 'メンフィス・グリズリーズ', detail: 'Two-Way契約をNBA公式発表で確認', status: 'candidate', sourceIds: ['KWM-NBA001'] },
+      { period: '2026年確認', organization: 'ロサンゼルス・クリッパーズ', detail: 'JBA代表資料とNBA選手ページで所属表記を確認', status: 'candidate', sourceIds: ['KWM-N001', 'KWM-NBA002'] },
+      { period: '2026年度', organization: '男子日本代表', detail: 'FIBAワールドカップ2027 アジア地区予選Window4登録メンバー', status: 'candidate', sourceIds: ['KWM-N001'] },
+    ],
+    aliases: [],
+  },
   {
     id: 'P000010',
     slug: 'shugo-toyama',
@@ -666,6 +727,7 @@ export const players = [
 // 将来、代表・NBA・B.LEAGUEの確認済み候補を追加するときは、根拠となるSource IDとともに登録します。
 // priorityの目安: 100番台=代表、200番台=NBA、300番台=B.LEAGUE。小さい数ほど先に表示します。
 export const homepagePlacements = [
+  { playerId: 'P000064', category: 'national-team', priority: 100, sourceIds: ['KWM-N001', 'KWM-NBA002'] },
   { playerId: 'P000012', category: 'b-league', priority: 300, sourceIds: ['SRC000016', 'SRC000017'] },
   { playerId: 'P000037', category: 'b-league', priority: 310, sourceIds: ['BLC-P001'] },
   { playerId: 'P000038', category: 'b-league', priority: 320, sourceIds: ['BLC-P002'] },
@@ -678,10 +740,10 @@ export const homepagePlacements = [
 ] as const;
 
 export function getHomepagePlayers() {
-  const placementByPlayerId = new Map(
+  const placementByPlayerId = new Map<string, (typeof homepagePlacements)[number]>(
     homepagePlacements.map((placement) => [placement.playerId, placement]),
   );
-  const originalOrder = new Map(players.map((player, index) => [player.id, index]));
+  const originalOrder = new Map<string, number>(players.map((player, index) => [player.id, index]));
 
   return [...players].sort((left, right) => {
     const leftPlacement = placementByPlayerId.get(left.id);
