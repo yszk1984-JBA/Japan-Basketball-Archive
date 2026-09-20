@@ -1,7 +1,20 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import './prototype-v002.css';
 
-export const metadata: Metadata = { title: 'Japan Basketball Archive', description: '日本バスケットボールの人物と所属を、出典とともに記録するアーカイブ。' };
+export const metadata: Metadata = {
+  metadataBase: new URL('https://japanbasketballarchive.com'),
+  title: {
+    default: 'Japan Basketball Archive',
+    template: '%s | Japan Basketball Archive',
+  },
+  description: '日本バスケットボールの人物と所属を、出典とともに記録するアーカイブ。',
+  openGraph: {
+    siteName: 'Japan Basketball Archive',
+    locale: 'ja_JP',
+    type: 'website',
+  },
+};
 
 const googleAnalyticsId = 'G-9QYZ1747RN';
 
