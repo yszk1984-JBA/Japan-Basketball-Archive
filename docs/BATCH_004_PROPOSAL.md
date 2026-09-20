@@ -33,8 +33,8 @@
 | 6 | 重冨 友希 | 所属クラブ、B.LEAGUE / B3、専修大学 | プロ経験 | 新規候補 |
 | 7 | キエキエ トピー アリ | B.LEAGUE、横浜エクセレンス、日本経済大学 | プロCareer更新 | `P000014`、Batch 003 VERIFIED候補あり |
 | 8 | 遥 天翼 | 熊本ヴォルターズ、過去所属クラブ、B.LEAGUE | 引退後コーチ・プロ経験 | 新規候補 |
-| 9 | 今泉 太陽 | B.LEAGUEドラフト2026、日本経済大学 | ドラフト候補 | 新規候補 |
-| 10 | 崎濱 秀真 | B.LEAGUEドラフト2026、新潟経営大学 | ドラフト候補 | 新規候補 |
+| 9 | 今泉 太陽 | B.LEAGUE DRAFT 2026、日本経済大学 | ドラフト候補・指名結果確認 | 新規候補 |
+| 10 | 崎濱 秀真 | B.LEAGUE DRAFT 2026、新潟経営大学 | ドラフト候補・指名結果確認 | 新規候補 |
 
 ## 選定時に確認した公式入口
 
@@ -44,6 +44,9 @@
 - [B.LEAGUE公式・河合瑠那加入記事](https://www.bleague.jp/media_news/detail/id=571875)：横浜EX特別指定、福岡第一、大阪学院大学を確認する入口
 - [B.LEAGUE公式・重冨周希契約記事](https://www.bleague.jp/media_news/detail/id=616530)：ウォルガ湘南との契約、福岡第一、専修大学を確認する入口
 - [B.LEAGUEドラフト2026候補一覧](https://www.bleague.jp/draft2026/prospects/list/)：今泉太陽、崎濱秀真等の経歴を確認する入口
+- [B.LEAGUEドラフト2026指名結果](https://www.bleague.jp/draft2026/result/)：候補者掲載と指名結果を分けて確認する入口
+
+最初のFelo回答は直接URLを提示できず、崎濱秀真の大学を日本経済大学としていた。公式ページでは今泉太陽が日本経済大学、崎濱秀真が新潟経営大学である。監査結果は[Batch 004 Felo回答の受領・URL監査](../data/candidate/batch_004/felo_intake_review.md)に記録した。
 
 B.LEAGUEのMEDIA NEWSは記事提供元が外部媒体の場合がある。調査時は各クラブの契約発表、大学、競技団体等の一次資料も探し、MEDIA NEWSだけで完結させない。
 
