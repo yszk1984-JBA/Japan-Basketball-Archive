@@ -10,8 +10,9 @@
 | Wave | 対象 | 状態 |
 | --- | --- | --- |
 | 1 | 河村勇輝、児玉ジュニア | CANDIDATE作成・構造QA PASS |
-| 2以降 | `docs/BATCH_004_RESEARCH_PROMPTS.md`記載の残り8人 | 未着手 |
+| 2 | 河合瑠那、長岡大杜 | Codex直接調査で公式Source候補を確認。CANDIDATE作成前 |
+| 3以降 | `docs/BATCH_004_RESEARCH_PROMPTS.md`記載の残り6人 | Codex直接調査方式で実施 |
 
-Wave 1の詳細は[`wave_01/README.md`](wave_01/README.md)を参照する。Felo・Geminiの回答は発見・精査の補助として使い、公式資料をCodexが直接確認してからCANDIDATEへ記録した。
+Wave 1の詳細は[`wave_01/README.md`](wave_01/README.md)を参照する。Wave 1ではFelo・Geminiの回答を補助に使用したが、Codexによる再確認との重複が大きかった。Wave 2以降はCodexが公式資料を直接確認し、解決しない項目だけを外部AIへ送る。
 
 HUMAN APPROVALとMASTER反映は行っていない。Webプロトタイプの表示データも変更していない。

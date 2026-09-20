@@ -4,7 +4,7 @@
 
 ## 状態
 
-調査対象案。データ取込、Schema拡張、VERIFIED、HUMAN APPROVAL、MASTERは未実施。
+Wave 1の2人はCANDIDATE・構造QA完了。Wave 2以降はCodex直接調査方式を採用する。Schema拡張、VERIFIED、HUMAN APPROVAL、MASTERは未実施。
 
 ## 目的
 
