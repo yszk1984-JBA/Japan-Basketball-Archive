@@ -2,6 +2,8 @@
 
 作成日：2026-09-21
 
+状態：Wave 1のCANDIDATE・QA・VERIFIED・HUMAN APPROVAL・MASTER反映完了。HOLDと公開サイト反映は未実施。
+
 ## 目的
 
 福岡第一高校をコアに、B.LEAGUE公式戦への出場を公式資料で確認できる人物を優先する。新規人物の追加と、既存人物のプロCareer更新を同じWaveで行い、データ量と品質を並行して高める。
@@ -32,7 +34,7 @@
 - 特別指定選手を通常契約選手と自動的に同一扱いしない。
 - 学校経歴の記載だけで、学校バスケットボール部の役割や全在籍期間を推定しない。
 - 既存Person IDがある佐藤涼成と河合瑠那は新規発番しない。
-- CANDIDATE、QAまでを作成し、VERIFIED・HUMAN APPROVAL・MASTERは別段階とする。
+- CANDIDATE、QA、VERIFIED、HUMAN APPROVAL、MASTERを段階ごとに分離し、承認済みのeligible fieldsだけをMasterへ反映した。
 
 ## 人数判断
 

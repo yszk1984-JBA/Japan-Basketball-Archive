@@ -1,0 +1,2 @@
+approval_id,batch,verified_commit,approved_scope,excluded_scope,approved_by,approved_at,approval_reference
+APP-B005-20260921-01,Batch 005 Wave 1,7093141,B5W1D0001-B5W1D0026 eligible_fields,held_fields 9件・HOLD Issue 9件,Yuichi,2026-09-21,data/verified/batch_005/master_approval.md

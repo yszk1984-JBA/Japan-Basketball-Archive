@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校パイロットを小規模バッチで検証しています。Batch 003はCANDIDATE・構造QA・Yuichiによる範囲指定を経てVERIFIEDを作成しました。Batch 004はプロ選手優先へ切り替え、Wave 1の2人についてCANDIDATE・構造QAまで完了しています。HUMAN APPROVALとMaster Dataは未実施です。公開画面を早期に検証するため、確認中の少数データを使うWebプロトタイプを`site/`で並行開発しています。
+Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 003〜005はVERIFIED候補を作成済みです。Batch 005 Wave 1はYuichiのHuman Approvalを記録し、承認された4人・11 Careerを最初のMaster Dataへ反映しました。HOLD項目はMasterに含めていません。公開画面を早期に検証するため、確認中データを使うWebプロトタイプを`site/`で並行開発していますが、今回のMasterはまだ公開サイトへ反映していません。
 
 ## 原則
 
@@ -41,6 +41,8 @@ Governance v1.0に基づき、福岡第一高校パイロットを小規模バ�
 - [Batch 002](data/candidate/batch_002/README.md)：B.LEAGUE公式を入口にした10人分のCANDIDATEと初期QA
 - [Batch 003 CANDIDATE](data/candidate/batch_003/README.md)：次の10人の調査、CANDIDATE、QA、レビュー資料
 - [Batch 003 VERIFIED](data/verified/batch_003/README.md)：全28 Decision IDの確認済み項目とHOLD分離
+- [Batch 005 VERIFIED](data/verified/batch_005/README.md)：プロCareer更新4人の確認済み項目とHOLD分離
+- [MASTER DATA](data/master/README.md)：Yuichiが明示的に承認したBatch 005 Wave 1の正式データ
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置
@@ -54,7 +56,7 @@ scripts/         自動検証など
 site/            公開サイト
 ```
 
-`data/candidate/`と`scripts/`はBatch 001から、`data/verified/`はBatch 003から使用しています。`data/master/`は未作成です。`site/`にはMaster Dataと分離したWebプロトタイプを置きます。
+`data/candidate/`と`scripts/`はBatch 001から、`data/verified/`はBatch 003から使用しています。`data/master/`はBatch 005 Wave 1の明示的承認を受けて作成しました。`site/`にはMaster Dataと分離したWebプロトタイプを置き、Masterから公開する工程は別途実施します。
 
 ## GitHubでの基本操作
 
