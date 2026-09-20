@@ -9,6 +9,10 @@ export const metadata: Metadata = {
     template: '%s | Japan Basketball Archive',
   },
   description: '日本バスケットボールの人物と所属を、出典とともに記録するアーカイブ。',
+  icons: {
+    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
+    shortcut: '/favicon.svg',
+  },
   openGraph: {
     siteName: 'Japan Basketball Archive',
     locale: 'ja_JP',
