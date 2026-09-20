@@ -63,6 +63,8 @@
 
 ## Wave 1 Gemini用：発見済みURLの精査
 
+直接URLを埋めた実行版は[BATCH_004_WAVE_01_GEMINI_PACKET](BATCH_004_WAVE_01_GEMINI_PACKET.md)を使用する。
+
 ```text
 河村勇輝と児玉ジュニアについて、下に貼るFeloのURLだけを最初に開いて精査してください。不足する場合に限り、同じ発行元の公式サイト内を追加検索してください。
 
