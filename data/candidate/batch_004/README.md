@@ -10,7 +10,7 @@
 | Wave | 対象 | 状態 |
 | --- | --- | --- |
 | 1 | 河村勇輝、児玉ジュニア | CANDIDATE作成・構造QA PASS |
-| 2 | 河合瑠那、長岡大杜 | Codex直接調査で公式Source候補を確認。CANDIDATE作成前 |
+| 2 | 河合瑠那、長岡大杜 | CANDIDATE作成・構造QA完了。7 Source、40 Evidence、8 HOLD、QA PASS |
 | 3 | 重冨周希、重冨友希、キエキエ トピー アリ、遥天翼 | 4人Waveで速度と再作業を測定予定 |
 | 4 | 今泉太陽、崎濱秀真 | 2人Waveでドラフト候補を確認予定 |
 

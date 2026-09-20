@@ -1,5 +1,5 @@
 wave,method,planned_people,actual_people,source_count,evidence_count,hold_count,qa_error_count,rework_count,elapsed_minutes,status,note
 1,Felo/Gemini/Codex,2,2,12,58,8,0,,,COMPLETE,外部AI回答をCodexが再確認する重複あり
-2,Codex direct,2,2,7,,,,,,SOURCE_REVIEWED,CANDIDATEとQAは未完了
+2,Codex direct,2,2,7,40,8,0,0,,COMPLETE,CANDIDATE作成・構造QA完了。長岡大杜の原本メモ不一致をHOLD
 3,Codex direct,4,,,,,,,,PLANNED,標準人数4人を試す
 4,Codex direct,2,,,,,,,,PLANNED,ドラフト候補2人

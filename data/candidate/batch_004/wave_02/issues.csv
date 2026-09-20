@@ -1,0 +1,9 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B4W2I0001,P000066,C000227,PERIOD_UNKNOWN,HOLD,福岡第一高校Careerの開始・終了年月は未確認,年度別公式ロスターを確認
+B4W2I0002,P000066,C000228,PERIOD_UNKNOWN,HOLD,大阪学院大学Careerの開始・終了年月は未確認,大学または競技団体の年度別公式資料を確認
+B4W2I0003,P000066,P000066,HEIGHT_VARIATION,HOLD,資料時点により180cm・181cm・183cmの登録値がある,値を上書き統合せずSource別・時点別で保持
+B4W2I0004,P000066,C000229,ACTIVITY_END_DATE,HOLD,活動終了の発表日は確認したが実際の終了日は日付特定できない,クラブまたはリーグの登録抹消日を確認
+B4W2I0005,P000067,P000067,EXCEL_MEMO_MISMATCH,HOLD,提案文書はExcel原本内の同名候補ありとするが、原本Personシートに長岡大杜は存在しない,提案文書の根拠となった別版または別ファイルを確認
+B4W2I0006,P000067,C000230,PERIOD_UNKNOWN,HOLD,福岡第一高校在学は確認したが入学・卒業年月は未確認,学校または大会の年度別公式資料を確認
+B4W2I0007,P000067,C000231,CAREER_START_DATE,HOLD,リーグエントリー発表日は契約・所属開始日とは限らない,クラブ公式契約発表またはリーグ登録日を確認
+B4W2I0008,P000067,P000067,NATIONALITY_FIELD_LAYOUT,HOLD,B.LEAGUE表示の「リーグ登録国籍特別指定」は画面項目の結合とみられ国籍値に採用できない,国籍を明記した公式プロフィールが見つかった場合のみ追加
