@@ -14,7 +14,7 @@
 - `organization_candidates.csv`：11行
 - `career_candidates.csv`：11行
 - `source_references.csv`：15行
-- `evidence_records.csv`：78行
+- `evidence_records.csv`：86行
 - `issues.csv`：9行
 - `qa_decisions.csv`：26行
 

@@ -7,13 +7,13 @@ B5W1D0005,Career,C000260,READY_FOR_VERIFIED_REVIEW,organization_id|role|registra
 B5W1D0006,Person,P000074,READY_FOR_VERIFIED_REVIEW,name|name_en|birth_date|height_cm|weight_kg|position,,クラブ公式とB.LEAGUE公式で確認,2026-09-21
 B5W1D0007,Career,C000261,READY_FOR_VERIFIED_REVIEW,organization_id,role|start|end,クラブ公式の出身校経歴で確認。高校での役割と期間は保留,2026-09-21
 B5W1D0008,Career,C000262,READY_FOR_VERIFIED_REVIEW,organization_id|role|grade,start|end,クラブ公式で大学所属と学年を確認,2026-09-21
-B5W1D0009,Career,C000263,READY_FOR_VERIFIED_REVIEW,organization_id|role|registration_type|league_registration|competition_participation|activity_end,,クラブ公式で加入・登録・出場・終了を確認,2026-09-21
-B5W1D0010,Career,C000264,READY_FOR_VERIFIED_REVIEW,organization_id|role|competition_participation,registration_type|exact_start_date|exact_end_date,B.LEAGUE公式で所属と出場を確認,2026-09-21
+B5W1D0009,Career,C000263,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end|registration_type|league_registration|competition_participation|activity_end,,クラブ公式で加入・登録・出場・終了を確認,2026-09-21
+B5W1D0010,Career,C000264,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end|competition_participation,registration_type|exact_start_date|exact_end_date,B.LEAGUE公式で所属と出場を確認,2026-09-21
 B5W1D0011,Person,P000028,READY_FOR_VERIFIED_REVIEW,name|name_en|birth_date,single_current_height,クラブ公式とB.LEAGUE公式で確認,2026-09-21
-B5W1D0012,Career,C000265,READY_FOR_VERIFIED_REVIEW,organization_id|role|registration_type|activity_period|competition_participation,,クラブ公式とB.LEAGUE公式で確認,2026-09-21
+B5W1D0012,Career,C000265,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end|registration_type|activity_period|competition_participation,,クラブ公式とB.LEAGUE公式で確認,2026-09-21
 B5W1D0013,Career,C000266,READY_FOR_VERIFIED_REVIEW,organization_id|role|contract_type|start|competition_participation|contract_continuation,end,広島公式とB.LEAGUE公式で確認,2026-09-21
 B5W1D0014,Person,P000066,READY_FOR_VERIFIED_REVIEW,name|name_en,single_current_height,B.LEAGUE公式で確認,2026-09-21
-B5W1D0015,Career,C000229,READY_FOR_VERIFIED_REVIEW,organization_id|role|registration_type|competition_participation|activity_end_announcement|free_agent_list_announcement,exact_end_date,クラブ公式とB.LEAGUE公式で確認,2026-09-21
+B5W1D0015,Career,C000229,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end|registration_type|competition_participation|activity_end_announcement|free_agent_list_announcement,exact_end_date,クラブ公式とB.LEAGUE公式で確認,2026-09-21
 B5W1D0016,Organization,ORG000010,READY_FOR_VERIFIED_REVIEW,name,,公式資料内表記を確認,2026-09-21
 B5W1D0017,Organization,ORG000015,READY_FOR_VERIFIED_REVIEW,name,,公式資料内表記を確認,2026-09-21
 B5W1D0018,Organization,ORG000048,READY_FOR_VERIFIED_REVIEW,name,,公式資料内表記を確認,2026-09-21

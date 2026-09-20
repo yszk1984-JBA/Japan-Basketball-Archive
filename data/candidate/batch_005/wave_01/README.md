@@ -13,7 +13,7 @@
 - Organization：11件（新規5件、既存6件）
 - Career：11件（新規10件、既存ID再利用1件）
 - Source：15件
-- Evidence：78件
+- Evidence：86件
 - Issue：9件
 - QA Decision：26件
 - Python構造QA：PASS、エラー0件

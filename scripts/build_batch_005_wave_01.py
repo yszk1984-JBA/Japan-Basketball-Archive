@@ -172,6 +172,15 @@ def main() -> None:
     for number, org_id, value, source, locator in org_evidence:
         ev(number, "Organization", org_id, "name", value, source, locator, "公式資料内の組織表記")
 
+    ev(79, "Career", "C000263", "start", "2025", "B5W1S0004", "公開日・加入発表本文", "2025年の加入を確認")
+    ev(80, "Career", "C000263", "end", "2025", "B5W1S0007", "活動終了本文 > 2025年3月5日", "2025年の活動終了を確認")
+    ev(81, "Career", "C000264", "start", "2025", "B5W1S0008", "クラブ所属履歴 > 2025-26 佐賀", "2025-26シーズン所属の開始年")
+    ev(82, "Career", "C000264", "end", "2026", "B5W1S0008", "クラブ所属履歴 > 2025-26 佐賀", "2025-26シーズン所属の終了年")
+    ev(83, "Career", "C000265", "start", "2025", "B5W1S0009", "活動期間 > 2025年1月1日", "活動開始年")
+    ev(84, "Career", "C000265", "end", "2025", "B5W1S0009", "活動期間 > 2025年3月5日", "活動終了年")
+    ev(85, "Career", "C000229", "start", "2026", "B5W1S0013", "特別指定選手登録発表", "2026年の登録開始を確認")
+    ev(86, "Career", "C000229", "end", "2026", "B5W1S0015", "2025-26シーズンをもって活動終了", "活動終了年")
+
     write("evidence_records.csv", ["record_id", "entity_type", "entity_id", "field_name", "candidate_value", "source_id", "source_locator", "evidence_summary", "assessment", "checked_at", "issue_note"], evidence)
 
     write("issues.csv", ["issue_id", "person_id", "related_id", "issue_type", "status", "description", "next_check"], [
@@ -195,13 +204,13 @@ def main() -> None:
         ["B5W1D0006", "Person", "P000074", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date|height_cm|weight_kg|position", "", "クラブ公式とB.LEAGUE公式で確認", CHECKED],
         ["B5W1D0007", "Career", "C000261", "READY_FOR_VERIFIED_REVIEW", "organization_id", "role|start|end", "クラブ公式の出身校経歴で確認。高校での役割と期間は保留", CHECKED],
         ["B5W1D0008", "Career", "C000262", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|grade", "start|end", "クラブ公式で大学所属と学年を確認", CHECKED],
-        ["B5W1D0009", "Career", "C000263", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|registration_type|league_registration|competition_participation|activity_end", "", "クラブ公式で加入・登録・出場・終了を確認", CHECKED],
-        ["B5W1D0010", "Career", "C000264", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|competition_participation", "registration_type|exact_start_date|exact_end_date", "B.LEAGUE公式で所属と出場を確認", CHECKED],
+        ["B5W1D0009", "Career", "C000263", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|end|registration_type|league_registration|competition_participation|activity_end", "", "クラブ公式で加入・登録・出場・終了を確認", CHECKED],
+        ["B5W1D0010", "Career", "C000264", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|end|competition_participation", "registration_type|exact_start_date|exact_end_date", "B.LEAGUE公式で所属と出場を確認", CHECKED],
         ["B5W1D0011", "Person", "P000028", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date", "single_current_height", "クラブ公式とB.LEAGUE公式で確認", CHECKED],
-        ["B5W1D0012", "Career", "C000265", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|registration_type|activity_period|competition_participation", "", "クラブ公式とB.LEAGUE公式で確認", CHECKED],
+        ["B5W1D0012", "Career", "C000265", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|end|registration_type|activity_period|competition_participation", "", "クラブ公式とB.LEAGUE公式で確認", CHECKED],
         ["B5W1D0013", "Career", "C000266", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|contract_type|start|competition_participation|contract_continuation", "end", "広島公式とB.LEAGUE公式で確認", CHECKED],
         ["B5W1D0014", "Person", "P000066", "READY_FOR_VERIFIED_REVIEW", "name|name_en", "single_current_height", "B.LEAGUE公式で確認", CHECKED],
-        ["B5W1D0015", "Career", "C000229", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|registration_type|competition_participation|activity_end_announcement|free_agent_list_announcement", "exact_end_date", "クラブ公式とB.LEAGUE公式で確認", CHECKED],
+        ["B5W1D0015", "Career", "C000229", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|end|registration_type|competition_participation|activity_end_announcement|free_agent_list_announcement", "exact_end_date", "クラブ公式とB.LEAGUE公式で確認", CHECKED],
     ] + [
         [f"B5W1D{number:04d}", "Organization", org_id, "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED]
         for number, org_id in enumerate([
