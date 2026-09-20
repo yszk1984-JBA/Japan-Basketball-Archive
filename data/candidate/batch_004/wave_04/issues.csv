@@ -1,0 +1,7 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B4W4I0001,P000071,C000253,HIGH_SCHOOL_ROLE,HOLD,B.LEAGUE候補者経歴は学校期間を示すが、高校大会ロスターでのPlayer役割は未確認,高校大会公式ロスターを確認
+B4W4I0002,P000071,P000071,DRAFT_OUTCOME,HOLD,候補選手一覧掲載は契約・登録・出場を意味しない。公式指名結果に氏名は確認できない,クラブ契約発表・リーグ登録を継続確認
+B4W4I0003,P000071,C000254,CURRENT_UNIVERSITY_END,HOLD,候補者ページの『現在』は基準日依存で、大学Career終了日は未確認,大学または次所属の公式発表を確認
+B4W4I0004,P000072,C000255,HIGH_SCHOOL_ROLE,HOLD,B.LEAGUE候補者経歴は学校期間を示すが、高校大会ロスターでのPlayer役割は未確認,高校大会公式ロスターを確認
+B4W4I0005,P000072,P000072,DRAFT_OUTCOME,HOLD,候補選手一覧掲載は契約・登録・出場を意味しない。公式指名結果に氏名は確認できない,クラブ契約発表・リーグ登録を継続確認
+B4W4I0006,P000072,C000256,CURRENT_UNIVERSITY_END,HOLD,候補者ページの『現在』は基準日依存で、大学Career終了日は未確認,大学または次所属の公式発表を確認

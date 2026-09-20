@@ -1,0 +1,10 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B4W4D0001,Person,P000071,READY_FOR_VERIFIED_REVIEW,name|birth_date|position|height_cm|weight_kg|draft_candidate_listing,professional_contract|league_registration|professional_appearance,B.LEAGUE候補選手一覧で確認,2026-09-21
+B4W4D0002,Person,P000072,READY_FOR_VERIFIED_REVIEW,name|birth_date|position|height_cm|weight_kg|draft_candidate_listing,professional_contract|league_registration|professional_appearance,B.LEAGUE候補選手一覧で確認,2026-09-21
+B4W4D0003,Career,C000253,READY_FOR_VERIFIED_REVIEW,organization_id|start|end,role,B.LEAGUE候補者経歴で期間を確認,2026-09-21
+B4W4D0004,Career,C000254,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|competition_participation,end,B.LEAGUEとJUBF公式で確認,2026-09-21
+B4W4D0005,Career,C000255,READY_FOR_VERIFIED_REVIEW,organization_id|start|end,role,B.LEAGUE候補者経歴で期間を確認,2026-09-21
+B4W4D0006,Career,C000256,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|competition_participation,end,B.LEAGUEとJUBF公式で確認,2026-09-21
+B4W4D0007,Organization,ORG000010,READY_FOR_VERIFIED_REVIEW,name,,B.LEAGUE公式資料内表記を確認,2026-09-21
+B4W4D0008,Organization,ORG000017,READY_FOR_VERIFIED_REVIEW,name,organization_id normalization,JUBF公式資料内表記を確認,2026-09-21
+B4W4D0009,Organization,ORG000105,READY_FOR_VERIFIED_REVIEW,name,,JUBF公式資料内表記を確認,2026-09-21
