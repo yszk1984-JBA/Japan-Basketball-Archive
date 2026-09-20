@@ -1,0 +1,12 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B4W3I0001,P000068,C000232,HIGH_SCHOOL_ROLE_AND_PERIOD,HOLD,専修大学公式は福岡第一高出身を示すが、高校部での役割と期間は直接示さない,高校大会公式ロスターを確認
+B4W3I0002,P000068,C000233,UNIVERSITY_END,HOLD,2017年度入部は確認したが終了時期は未確認,卒業・退部等の公式資料を確認
+B4W3I0003,P000068,C000235,CLUB_HISTORY_GAP,HOLD,B.LEAGUEプロフィールに2024-25・2025-26湘南の履歴が表示されず、2026-27のみ確認,クラブ公式の年度別契約発表を確認
+B4W3I0004,P000069,C000236,HIGH_SCHOOL_ROLE_AND_PERIOD,HOLD,専修大学公式は福岡第一高出身を示すが、高校部での役割と期間は直接示さない,高校大会公式ロスターを確認
+B4W3I0005,P000069,C000237,UNIVERSITY_END,HOLD,2017年度入部は確認したが終了時期は未確認,卒業・退部等の公式資料を確認
+B4W3I0006,P000069,C000239,TRANSFER_BOUNDARY,HOLD,2022-23途中の期限付き移籍日は未確認,福岡・山口の移籍発表日を確認
+B4W3I0007,P000014,C000240,DATE_PRECISION,HOLD,経歴は2021.01-03とするが各日付は未確認,鹿児島公式の契約・満了発表を確認
+B4W3I0008,P000014,C000241,POST_2025_AFFILIATION,HOLD,2025年契約満了後の所属は未確認,現行リーグ・クラブ公式を確認
+B4W3I0009,P000070,C000242,HIGH_SCHOOL_ROLE_AND_PERIOD,HOLD,熊本公式経歴は学校名のみで高校部の役割と期間は直接示さない,高校大会公式資料を確認
+B4W3I0010,P000070,C000243,UNIVERSITY_ROLE_AND_PERIOD,HOLD,熊本公式経歴は大学名のみで大学部の役割と期間は直接示さない,大学大会公式資料を確認
+B4W3I0011,P000070,P000070,CLUB_SUCCESSION,HOLD,三菱電機ダイヤモンドドルフィンズと名古屋ダイヤモンドドルフィンズの組織承継関係は未整理,OrganizationAlias・継承ルールで別途整理
