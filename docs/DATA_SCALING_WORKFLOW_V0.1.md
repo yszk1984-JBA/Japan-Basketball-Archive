@@ -71,4 +71,4 @@
 
 Batch 002は10人分のCANDIDATE、構造QA、次段階レビュー資料、例外キューを作成した。B.LEAGUE公式の福岡第一高校出身者はPilot Batch 001とBatch 002で全員を調査対象にした。
 
-次は[BATCH_003_PROPOSAL](BATCH_003_PROPOSAL.md)の10人を同じ形式で処理する。2021年度卒業世代を中心に同じ大会資料をまとめて確認し、外部調査には[BATCH_003_RESEARCH_PROMPTS](BATCH_003_RESEARCH_PROMPTS.md)を使う。
+Batch 003は10人・18 CareerのVERIFIED候補作成まで完了した。次は[BATCH_004_PROPOSAL](BATCH_004_PROPOSAL.md)の10人を処理する。福岡第一高校をコアに、B.LEAGUE、B3、B.NEXT、NBA等のプロCareerを確認できる人物を優先する。契約、登録、出場、ドラフト候補を分け、外部調査には[BATCH_004_RESEARCH_PROMPTS](BATCH_004_RESEARCH_PROMPTS.md)を使う。

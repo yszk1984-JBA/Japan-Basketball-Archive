@@ -32,6 +32,8 @@ Governance v1.0に基づき、福岡第一高校パイロットを小規模バ�
 - [BATCH_002_BLEAGUE_PROPOSAL](docs/BATCH_002_BLEAGUE_PROPOSAL.md)：B.LEAGUE公式一覧から選んだ次の10人
 - [BATCH_003_PROPOSAL](docs/BATCH_003_PROPOSAL.md)：既存バッチと重複しない次の10人
 - [BATCH_003_RESEARCH_PROMPTS](docs/BATCH_003_RESEARCH_PROMPTS.md)：Felo・Gemini用の一括調査指示文
+- [BATCH_004_PROPOSAL](docs/BATCH_004_PROPOSAL.md)：福岡第一からプロへ進んだ人物を優先する次の10人
+- [BATCH_004_RESEARCH_PROMPTS](docs/BATCH_004_RESEARCH_PROMPTS.md)：Batch 004のFelo・Gemini用調査指示文
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [Batch 002](data/candidate/batch_002/README.md)：B.LEAGUE公式を入口にした10人分のCANDIDATEと初期QA
