@@ -662,6 +662,38 @@ export const players = [
   },
 ] as const;
 
+// トップページだけで使う編集上の表示順です。Person / CareerやMaster Dataの値ではありません。
+// 将来、代表・NBA・B.LEAGUEの確認済み候補を追加するときは、根拠となるSource IDとともに登録します。
+// priorityの目安: 100番台=代表、200番台=NBA、300番台=B.LEAGUE。小さい数ほど先に表示します。
+export const homepagePlacements = [
+  { playerId: 'P000012', category: 'b-league', priority: 300, sourceIds: ['SRC000016', 'SRC000017'] },
+  { playerId: 'P000037', category: 'b-league', priority: 310, sourceIds: ['BLC-P001'] },
+  { playerId: 'P000038', category: 'b-league', priority: 320, sourceIds: ['BLC-P002'] },
+  { playerId: 'P000040', category: 'b-league', priority: 330, sourceIds: ['BLC-P003'] },
+  { playerId: 'P000036', category: 'b-league', priority: 340, sourceIds: ['BLC-P004'] },
+  { playerId: 'P000042', category: 'b-league', priority: 350, sourceIds: ['BLC-P005'] },
+  { playerId: 'P000041', category: 'b-league', priority: 360, sourceIds: ['BLC-P006'] },
+  { playerId: 'P000035', category: 'b-league', priority: 370, sourceIds: ['BLC-P007'] },
+  { playerId: 'P000039', category: 'b-league', priority: 380, sourceIds: ['BLC-P008'] },
+] as const;
+
+export function getHomepagePlayers() {
+  const placementByPlayerId = new Map(
+    homepagePlacements.map((placement) => [placement.playerId, placement]),
+  );
+  const originalOrder = new Map(players.map((player, index) => [player.id, index]));
+
+  return [...players].sort((left, right) => {
+    const leftPlacement = placementByPlayerId.get(left.id);
+    const rightPlacement = placementByPlayerId.get(right.id);
+
+    if (leftPlacement && rightPlacement) return leftPlacement.priority - rightPlacement.priority;
+    if (leftPlacement) return -1;
+    if (rightPlacement) return 1;
+    return (originalOrder.get(left.id) ?? 0) - (originalOrder.get(right.id) ?? 0);
+  });
+}
+
 export function getPlayer(slug: string) {
   return players.find((player) => player.slug === slug);
 }
