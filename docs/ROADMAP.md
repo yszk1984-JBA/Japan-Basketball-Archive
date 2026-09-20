@@ -13,9 +13,15 @@
 | 6：基本検索 | 人物名・組織名を対象に検索を実装 | 検索結果から人物・組織・出典へ移動でき、候補データの状態を表示する |
 | 7：絞り込み・関係探索 | 年代、地域、所属経路等の検索を検討 | データ量と品質を確認し、採用する検索軸をYuichiと合意 |
 | 8：機械向け公開 | Webと同じ承認済みデータからJSON/APIを生成 | 仕様、公開範囲、利用条件、更新方法を合意し、出典へ追跡できる |
+| 9：無料分析サンプル | Talent Pipelineの集計を1本試作 | 対象期間・母集団・欠損・集計条件を示し、使用データとSourceへ追跡できる |
+| 10：最初の商品検証 | 小規模レポートまたは支援導線を試験 | 商品、価格、販売方法、品質条件をYuichiと合意し、結果を測定できる |
+| 11：Sponsor / Premium検証 | スポンサー企画と高度分析を小規模に試す | 編集判断との分離、提供価値、表示、契約条件を確認できる |
+| 12：B2B Data / API | CSV、API、調査、ライセンスを検討 | 利用規約、公開範囲、更新・訂正方法、データ版を合意できる |
 
 段階2の候補と検証を継続しながら、Batch 003は段階3のMaster承認前まで進んでいる。Batch 001〜003で25人を調査し、Batch 003の10人・18 CareerはVERIFIEDを作成した。今後も10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。プロトタイプの表示データはVERIFIEDまたはMASTERを意味しない。MasterはYuichiの明示的な対象指定と承認後に作成する。
 
 Person / Career / Organization / Sourceを超えるスキーマ拡張や大規模実装は、目的と影響を説明し、Yuichiと合意してから行う。
 
 将来の検索・JSON/API・Data Factoryは[FUTURE_ARCHITECTURE](FUTURE_ARCHITECTURE.md)を設計上の方向性とする。実施順は固定日程ではなく、パイロットで得た品質・処理時間・未解決事項を確認して決める。
+
+収益化は広告PVを先に最大化する方式ではなく、B.LEAGUE現役・経験者から大学、高校、中学へ経路をつなぐ **Japanese Basketball Talent Pipeline** を最初の商用テーマ候補とする。無料Archive、独自分析、レポート、Sponsor / B2B / APIの順に小さく検証する。詳細は[MONETIZATION_DRAFT_V0.1](MONETIZATION_DRAFT_V0.1.md)に記録する。この検討案だけで商品、価格、スポンサー条件、スキーマ拡張を承認したものとは扱わない。

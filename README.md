@@ -22,6 +22,7 @@ Governance v1.0に基づき、福岡第一高校パイロットを小規模バ�
 - [AI_WORKFLOW](docs/AI_WORKFLOW.md)：AIと人間の担当
 - [ROADMAP](docs/ROADMAP.md)：進め方と完了条件
 - [FUTURE_ARCHITECTURE](docs/FUTURE_ARCHITECTURE.md)：検索・公開API・Data Factoryの将来方針
+- [MONETIZATION_DRAFT_V0.1](docs/MONETIZATION_DRAFT_V0.1.md)：Talent Pipelineを軸にした収益化の検討案
 - [PILOT_EXCEL_AUDIT_V0.1](docs/PILOT_EXCEL_AUDIT_V0.1.md)：福岡第一高校Excelの初回監査結果
 - [PILOT_CANDIDATE_P000027](docs/PILOT_CANDIDATE_P000027.md)：欠落している人物参照の候補整理
 - [PILOT_SOURCE_URL_REVIEW](docs/PILOT_SOURCE_URL_REVIEW.md)：Source URLの確認結果
