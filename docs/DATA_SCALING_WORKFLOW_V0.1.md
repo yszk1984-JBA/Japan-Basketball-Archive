@@ -71,4 +71,4 @@
 
 Batch 002は10人分のCANDIDATE、構造QA、次段階レビュー資料、例外キューを作成した。B.LEAGUE公式の福岡第一高校出身者はPilot Batch 001とBatch 002で全員を調査対象にした。
 
-Batch 003は10人・18 CareerのVERIFIED候補作成まで完了した。次は[BATCH_004_PROPOSAL](BATCH_004_PROPOSAL.md)の10人を処理する。福岡第一高校をコアに、B.LEAGUE、B3、B.NEXT、NBA等のプロCareerを確認できる人物を優先する。契約、登録、出場、ドラフト候補を分け、外部調査には[BATCH_004_RESEARCH_PROMPTS](BATCH_004_RESEARCH_PROMPTS.md)を使う。
+Batch 003は10人・18 CareerのVERIFIED候補作成まで完了した。次は[BATCH_004_PROPOSAL](BATCH_004_PROPOSAL.md)の10人を処理する。福岡第一高校をコアに、B.LEAGUE、B3、B.NEXT、NBA等のプロCareerを確認できる人物を優先する。10人一括検索は行わず2人ずつの5 Waveに分ける。Feloは公式URL発見、Geminiは指定URL精査、Codexは直接確認とCANDIDATE準備を担当する。契約、登録、出場、ドラフト候補を分け、外部調査には[BATCH_004_RESEARCH_PROMPTS](BATCH_004_RESEARCH_PROMPTS.md)を使う。
