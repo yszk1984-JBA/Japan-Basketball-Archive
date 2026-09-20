@@ -1,0 +1,38 @@
+（専門領域：スポーツデータモデリング・経歴検証、専門知識：B.LEAGUE・FIBA・全日本大学バスケットボール連盟・全国高体連公式記録体系、専門職：スポーツマスターデータスチュワード）
+
+| 人物 | 対象項目 | 確認値 | 発行元 | 資料名 | 公開日・大会日 | 直接URL | ページ番号・資料内位置 | 具体的記載 | 判定 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 河村勇輝 | 1. 公式氏名、英語表記、生年月日 | 河村勇輝、Yuki Kawamura、2001年5月2日 | JBA | JBA 男子U16日本代表メンバー | 2018年3月30日 | [https://www.japanbasketball.jp/wp-content/uploads/U16men-member_20180330.pdf](https://www.japanbasketball.jp/wp-content/uploads/U16men-member_20180330.pdf) | メンバー表・1ページ目 | 氏名、生年月日（2001/05/02）の明記 | READY_FOR_CANDIDATE_PREPARATION |
+| 河村勇輝 | 2. 福岡第一高校との関係 | 福岡第一高等学校所属 | JBA | JBA 男子U16日本代表メンバー | 2018年3月30日 | [https://www.japanbasketball.jp/wp-content/uploads/U16men-member_20180330.pdf](https://www.japanbasketball.jp/wp-content/uploads/U16men-member_20180330.pdf) | メンバー表・所属欄 | 「福岡第一高等学校」との記載 | READY_FOR_CANDIDATE_PREPARATION |
+| 河村勇輝 | 3. 高校後の大学または組織 | 東海大学 | JBA | 2020年度男子日本代表Bチーム メンバー | 2020年8月6日 | [https://www.japanbasketball.jp/wp-content/uploads/National-B-Team_Men_member_20200806.pdf](https://www.japanbasketball.jp/wp-content/uploads/National-B-Team_Men_member_20200806.pdf) | メンバー表・所属欄 | 「東海大学」との記載 | READY_FOR_CANDIDATE_PREPARATION |
+| 河村勇輝 | 4. 契約発表と契約種別 | 判定不可 | NBA.com | LA Clippers / NBA.com 選手ページ | 不明 | [https://www.nba.com/clippers/player/1642530/yuki-kawamura](https://www.nba.com/clippers/player/1642530/yuki-kawamura?utm_source=gemini) | RotoWire更新欄等 | クラブ公式発表とRotoWire等の外部提供情報の区別が困難、一次資料要件不足 | HOLD_CANDIDATE |
+| 河村勇輝 | 5. リーグ登録 | 横浜ビー・コルセアーズ等 | B.LEAGUE | B.LEAGUE公式選手プロフィール | 不明 | [https://www.bleague.jp/roster_detail/?PlayerID=30460](https://www.bleague.jp/roster_detail/?PlayerID=30460&utm_source=gemini) | プロフィール・所属履歴 | B.LEAGUEにおける過去の所属履歴 | READY_FOR_CANDIDATE_PREPARATION |
+| 河村勇輝 | 6. 公式戦出場 | 判定不可 | 提示URLなし | 該当URLなし | - | - | - | 公式戦ボックススコアの直接URL提示なし | HOLD_CANDIDATE |
+| 河村勇輝 | 7. 現在または最後に確認できる所属と基準日 | 判定不可 | NBA G League | NBA G League公式選手ページ | 不明 | [https://gleague.nba.com/player/1642530](https://gleague.nba.com/player/1642530?utm_source=gemini) | ロスター・所属欄 | ページ上の所属と現行ロスターの整合性未確認 | HOLD_CANDIDATE |
+| 河村勇輝 | 8. 資料間の矛盾、更新時点の違い | B.LEAGUE履歴とNBA/G League所属情報の乖離 | 各サイト | 対象URL群 | 複数 | 複数 | 各プロフィール | 日米リーグ間での情報更新ラグ、および契約クラブ情報の矛盾（Clippers等の表記） | HOLD_CANDIDATE |
+| 児玉ジュニア | 1. 公式氏名、英語表記、生年月日 | 児玉ジュニア、Junior Kodama、生年月日（プロフィール記載準拠） | B.LEAGUE | B.LEAGUE公式選手プロフィール | 不明 | [https://www.bleague.jp/roster_detail/?PlayerID=51000552](https://www.bleague.jp/roster_detail/?PlayerID=51000552&utm_source=gemini) | プロフィール欄 | 氏名、英語表記、生年月日の明記 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 2. 福岡第一高校との関係 | 福岡第一高等学校出身 | 三遠ネオフェニックス | 2025-26契約締結（新規） | 不明 | [https://www.neophoenix.jp/news/detail/id=21966](https://www.neophoenix.jp/news/detail/id=21966?utm_source=gemini) | プロフィール・出身校欄 | 「福岡第一高等学校」の記載 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 3. 高校後の大学または組織 | 日本経済大学（学籍継続、バスケットボール部退部） | 三遠ネオフェニックス | 2025-26契約締結（新規） | 不明 | [https://www.neophoenix.jp/news/detail/id=21966](https://www.neophoenix.jp/news/detail/id=21966?utm_source=gemini) | ニュース本文 | 「日本経済大学に在学のままバスケットボール部を退部」旨の明記 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 4. 契約発表と契約種別 | 2025-26新規プロ契約、2026-27継続契約 | 三遠ネオフェニックス | 2025-26/2026-27契約締結リリース | 不明 | URL 3, URL 4 | ニュース本文 | プロ契約締結および継続の公式発表 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 5. リーグ登録 | 三遠ネオフェニックス | B.LEAGUE | B.LEAGUE公式選手プロフィール | 不明 | [https://www.bleague.jp/roster_detail/?PlayerID=51000552](https://www.bleague.jp/roster_detail/?PlayerID=51000552&utm_source=gemini) | プロフィール所属履歴 | B.LEAGUEでの三遠としての選手登録 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 6. 公式戦出場 | 2025年10月5日 大阪対三遠での出場 | B.LEAGUE | B.LEAGUE 大阪対三遠 2025年10月5日 | 2025年10月5日 | [https://www.bleague.jp/game_detail/?ScheduleKey=504749&TAB=B](https://www.bleague.jp/game_detail/?ScheduleKey=504749&TAB=B&utm_source=gemini) | ボックススコア | 児玉ジュニアのプレイングタイムおよびスタッツ記録 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 7. 現在または最後に確認できる所属と基準日 | 三遠ネオフェニックス（2026-27シーズン） | 三遠ネオフェニックス | 2026-27契約締結（継続） | 不明 | [https://www.neophoenix.jp/news/detail/id=24999](https://www.neophoenix.jp/news/detail/id=24999?utm_source=gemini) | ニュース本文 | 2026-27シーズン継続契約による最新所属確認 | READY_FOR_CANDIDATE_PREPARATION |
+| 児玉ジュニア | 8. 資料間の矛盾、更新時点の違い | JUBFロスターとB.LEAGUE所属の移行完了 | 日本経済大学/三遠 | 対象URL群 | 複数 | 複数 | 各本文・プロフィール | 「大学部活退部・学籍継続」の明記により、学生連盟記録とプロ契約間の矛盾解消 | READY_FOR_CANDIDATE_PREPARATION |
+
+### 回答の根拠
+
+* 提示されたJBA、JUBF、B.LEAGUE、三遠ネオフェニックス公式URLにおける選手プロフィール、ロスター、公式戦ボックススコアの直接的な記載内容。
+* NBA.comにおける外部ニュースソース（RotoWire等）とクラブ公式リリースのデータガバナンス上の分離原則。
+* 日本国内の競技登録規程に基づく、大学学籍（学生身分）と大学バスケットボール連盟（JUBF）登録、およびプロリーグ（B.LEAGUE）選手登録の峻別と移行ルールの適用。
+
+### 回答に対する多角的な反証
+
+* NBA.com上のRotoWire提供情報であっても、リーグ公式ドメイン内に掲載されている以上、ファングエンゲージメントの観点からは実質的な公式発表と同等に扱い、保留（HOLD）とせずに反映すべきとする実務的運用視点の存在。
+* 大学バスケットボール部を退部しプロ契約を結んだ時点で、学籍の有無に関わらず「学生」属性を捨象し「プロ選手」として一元管理する方が、システム上のデータ構造が簡素化されるとするアーキテクチャ上の反論。
+* 公式戦ボックススコアが存在しても、ベンチ入り（DNP: Did Not Play）と実際のコート上でのプレイ（出場）の定義がリーグ間で異なる場合、一律の「公式戦出場フラグ」の自動付与が不正確なデータ汚染を招くリスク。
+
+### バイアスの具体的な名前と簡潔な概要
+
+* **確証バイアス（Confirmation Bias）および権威バイアス（Authority Bias）**
+* 概要：公式URL（NBA.com等）のドメイン権威性を過信し、自動提供されるサードパーティ情報（RotoWire等）や別クラブ名の記載等の矛盾を無視して「公式情報である」と解釈・肯定してしまう推論上の偏り。
+* ニュートラルに考えるための方法：各組織（JBA、B.LEAGUE、NBA）における情報更新プロトコルと一次ソース（クラブの直接発表か、リーグの自動収集か）の違いを前提とし、単一ページの記載ではなく、実際の契約リリース文面とロスター登録公示を分離してクロスチェックする機械的検証の徹底。

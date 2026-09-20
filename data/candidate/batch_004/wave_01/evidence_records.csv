@@ -1,0 +1,59 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B4W1E0001,Person,P000064,name,河村 勇輝,B4W1S0001,PDF 1ページ > 河村勇輝欄,JBA公式メンバー表の氏名,SUPPORTED,2026-09-20,
+B4W1E0002,Person,P000064,name_en,Yuki Kawamura,B4W1S0001,PDF 1ページ > KAWAMURA Yuki,JBA公式メンバー表の英語表記,SUPPORTED,2026-09-20,
+B4W1E0003,Person,P000064,birth_date,2001-05-02,B4W1S0001,PDF 1ページ > 生年月日,生年月日を掲載,SUPPORTED,2026-09-20,
+B4W1E0004,Career,C000219,organization_id,ORG000010,B4W1S0001,PDF 1ページ > 所属欄,福岡第一高等学校1年として掲載,SUPPORTED,2026-09-20,開始・終了年月は不明
+B4W1E0005,Career,C000219,role,Player,B4W1S0001,PDF 1ページ > 選手一覧,男子U16日本代表選手として掲載,SUPPORTED,2026-09-20,
+B4W1E0006,Career,C000219,grade,1年,B4W1S0001,PDF 1ページ > 学年欄,2018年3月時点の学年,SUPPORTED,2026-09-20,
+B4W1E0007,Career,C000219,activity_date,2018-03-30,B4W1S0001,PDF 1ページ > 発表日と選手欄,同校所属を確認した日付,SUPPORTED,2026-09-20,
+B4W1E0008,Career,C000220,organization_id,ORG000015,B4W1S0002,PDF 選手一覧 > 河村勇輝欄,東海大学1年として掲載,SUPPORTED,2026-09-20,開始・終了年月は不明
+B4W1E0009,Career,C000220,role,Player,B4W1S0002,PDF 選手一覧,男子日本代表Bチーム選手として掲載,SUPPORTED,2026-09-20,
+B4W1E0010,Career,C000220,grade,1年,B4W1S0002,PDF 選手一覧 > 学年欄,2020年8月時点の学年,SUPPORTED,2026-09-20,
+B4W1E0011,Career,C000220,activity_date,2020-08-06,B4W1S0002,PDF 発表日と選手欄,東海大学所属を確認した日付,SUPPORTED,2026-09-20,
+B4W1E0012,Career,C000221,organization_id,ORG000097,B4W1S0003,クラブ所属履歴 > 2019-20 三遠,B.LEAGUE公式の所属履歴,SUPPORTED,2026-09-20,
+B4W1E0013,Career,C000221,role,Player,B4W1S0003,選手プロフィール > クラブ所属履歴,B.LEAGUE選手として掲載,SUPPORTED,2026-09-20,
+B4W1E0014,Career,C000221,season,2019-20,B4W1S0003,クラブ所属履歴,三遠所属シーズン,SUPPORTED,2026-09-20,暦年の開始・終了日は不明
+B4W1E0015,Career,C000222,organization_id,ORG000055,B4W1S0003,クラブ所属履歴 > 横浜BC,2020-21から2023-24の所属履歴,SUPPORTED,2026-09-20,
+B4W1E0016,Career,C000222,role,Player,B4W1S0003,選手プロフィール > クラブ所属履歴,B.LEAGUE選手として掲載,SUPPORTED,2026-09-20,
+B4W1E0017,Career,C000222,seasons,2020-21|2021-22|2022-23|2023-24,B4W1S0003,クラブ所属履歴,横浜BC所属シーズン,SUPPORTED,2026-09-20,暦年の開始・終了日は不明
+B4W1E0018,Career,C000222,competition_participation,2023-24 B1 56試合,B4W1S0003,2023-24 B1 シーズン成績,56試合・56先発を掲載,SUPPORTED,2026-09-20,
+B4W1E0019,Career,C000223,organization_id,ORG000098,B4W1S0004,公式発表本文,Memphis GrizzliesがTwo-Way契約への昇格を発表,SUPPORTED,2026-09-20,終了時期は不明
+B4W1E0020,Career,C000223,role,Player,B4W1S0004,公式発表本文 > guard Yuki Kawamura,選手契約の対象として掲載,SUPPORTED,2026-09-20,
+B4W1E0021,Career,C000223,contract_type,Two-Way contract,B4W1S0004,公式発表本文,Two-Way契約への昇格,SUPPORTED,2026-09-20,
+B4W1E0022,Career,C000223,contract_announcement_date,2024-10-19,B4W1S0004,公式発表の公開日時,契約発表日,SUPPORTED,2026-09-20,
+B4W1E0023,Person,P000064,current_affiliation,LA Clippers,B4W1S0005,選手ページ見出し,Clippers選手ページに掲載,CONFLICT,2026-09-20,Clippers現行ロスターとNBA G Leagueページの所属表示を含め更新時点が一致しない
+B4W1E0024,Person,P000064,current_affiliation,Windy City Bulls,B4W1S0006,選手ページ見出し,NBA G Leagueページの所属表示,CONFLICT,2026-09-20,Clippers選手ページとの更新時点が一致しない
+B4W1E0025,Person,P000065,name,児玉 ジュニア,B4W1S0008,PDF 日本学生選抜 > 児玉ジュニア欄,JUBF公式資料の氏名,SUPPORTED,2026-09-20,
+B4W1E0026,Person,P000065,name_en,Junior Kodama,B4W1S0008,PDF 日本学生選抜 > KODAMA Junior,JUBF公式資料の英語表記,SUPPORTED,2026-09-20,
+B4W1E0027,Person,P000065,birth_date,2006-03-15,B4W1S0008,PDF 日本学生選抜 > 生年月日,生年月日を掲載,SUPPORTED,2026-09-20,
+B4W1E0028,Career,C000224,organization_id,ORG000010,B4W1S0009,選手プロフィール > 出身校・受賞歴,福岡第一高等学校とWC2023優勝を掲載,SUPPORTED,2026-09-20,開始・終了年月は不明
+B4W1E0029,Career,C000224,role,Player,B4W1S0009,選手プロフィール > WC2023優勝,選手プロフィールの高校大会受賞歴,SUPPORTED,2026-09-20,
+B4W1E0030,Career,C000224,activity_year,2023,B4W1S0009,選手プロフィール > 受賞歴,SoftBankウインターカップ2023優勝,SUPPORTED,2026-09-20,
+B4W1E0031,Career,C000225,organization_id,ORG000017,B4W1S0007,日本経済大学 ROSTER > No.3,日本経済大学の公式大会ロスター,SUPPORTED,2026-09-20,開始・終了年月は不明
+B4W1E0032,Career,C000225,role,Player,B4W1S0007,日本経済大学 ROSTER > No.3,登録選手として掲載,SUPPORTED,2026-09-20,
+B4W1E0033,Career,C000225,grade,1年,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会の学年,SUPPORTED,2026-09-20,
+B4W1E0034,Career,C000225,position,SG,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会のポジション,SUPPORTED,2026-09-20,
+B4W1E0035,Career,C000225,height_cm,180,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会の登録身長,SUPPORTED,2026-09-20,
+B4W1E0036,Career,C000225,activity_year,2024,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会登録,SUPPORTED,2026-09-20,
+B4W1E0037,Career,C000225,jersey_number,3,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会の背番号,SUPPORTED,2026-09-20,
+B4W1E0038,Career,C000225,grade,2年,B4W1S0008,PDF 日本学生選抜 > 児玉ジュニア欄,2025年の学年,SUPPORTED,2026-09-20,
+B4W1E0039,Career,C000225,activity_year,2025,B4W1S0008,PDF 日本学生選抜 > 児玉ジュニア欄,2025年の代表登録,SUPPORTED,2026-09-20,
+B4W1E0040,Career,C000225,basketball_club_status,退部を発表,B4W1S0009,ニュース本文,日本経済大学男子バスケットボール部を退部し三遠での活動に専念,SUPPORTED,2026-09-20,学籍は在学中と別欄に記載
+B4W1E0041,Career,C000225,status_announcement_date,2025-09-19,B4W1S0009,ニュース公開日,退部と契約を発表した日,SUPPORTED,2026-09-20,実際の退部日とは限らない
+B4W1E0042,Career,C000226,organization_id,ORG000097,B4W1S0009,ニュース本文と経歴欄,三遠との2025-26契約と2025-の経歴,SUPPORTED,2026-09-20,
+B4W1E0043,Career,C000226,role,Player,B4W1S0009,契約締結発表,三遠の選手契約,SUPPORTED,2026-09-20,
+B4W1E0044,Career,C000226,contract_season,2025-26,B4W1S0009,ニュース本文,2025-26シーズン選手契約,SUPPORTED,2026-09-20,
+B4W1E0045,Career,C000226,contract_announcement_date,2025-09-19,B4W1S0009,ニュース公開日,新規契約発表日,SUPPORTED,2026-09-20,
+B4W1E0046,Career,C000226,jersey_number,33,B4W1S0009,選手プロフィール欄,三遠での背番号,SUPPORTED,2026-09-20,
+B4W1E0047,Career,C000226,position,PG/SG,B4W1S0009,選手プロフィール欄,三遠での登録ポジション,SUPPORTED,2026-09-20,
+B4W1E0048,Career,C000226,competition_participation,2025-26 B1 44試合,B4W1S0010,2025-26 B1 シーズン成績,44試合・7先発を掲載,SUPPORTED,2026-09-20,個別初出場日は未確認
+B4W1E0049,Career,C000226,contract_season,2026-27,B4W1S0011,ニュース本文,2026-27シーズン継続契約,SUPPORTED,2026-09-20,
+B4W1E0050,Career,C000226,contract_announcement_date,2026-05-28,B4W1S0011,ニュース公開日,継続契約発表日,SUPPORTED,2026-09-20,
+B4W1E0051,Career,C000226,contract_term,2028-29シーズンまで,B4W1S0011,ニュース本文,2028-29シーズンまでの3年契約,SUPPORTED,2026-09-20,
+B4W1E0052,Career,C000226,specific_game_appearance,2025-10-05 大阪対三遠,B4W1S0012,試合ページ,試合は確認できるが本人の個別欄を再取得できない,UNVERIFIED,2026-09-20,初出場日または個別出場の根拠にしない
+B4W1E0053,Organization,ORG000010,name,福岡第一高等学校,B4W1S0001,PDF 1ページ > 所属欄,JBA公式資料の組織名,SUPPORTED,2026-09-20,
+B4W1E0054,Organization,ORG000015,name,東海大学,B4W1S0002,PDF 選手一覧 > 所属欄,JBA公式資料の組織名,SUPPORTED,2026-09-20,
+B4W1E0055,Organization,ORG000055,name,横浜ビー・コルセアーズ,B4W1S0003,クラブ所属履歴 > 横浜BC,B.LEAGUE公式のクラブ表記を正式名へ対応,SUPPORTED,2026-09-20,公式ページ内の履歴表示は略称・横浜BC
+B4W1E0056,Organization,ORG000017,name,日本経済大学,B4W1S0007,日本経済大学 ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-20,既存バッチの組織ID重複は別Issue
+B4W1E0057,Organization,ORG000097,name,三遠ネオフェニックス,B4W1S0009,ニュース本文,クラブ公式の組織名,SUPPORTED,2026-09-20,
+B4W1E0058,Organization,ORG000098,name,メンフィス・グリズリーズ,B4W1S0004,公式発表の発行元と本文,NBAクラブの日本語表記候補,SUPPORTED,2026-09-20,原資料の英語名はMemphis Grizzlies
