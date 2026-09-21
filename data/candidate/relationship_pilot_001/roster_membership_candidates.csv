@@ -1,7 +1,7 @@
-membership_id,person_id,name,organization_id,period_label,jersey_number,role,source_id,source_locator,assessment
-TRM0001,P000010,當山 修梧,ORG000010,ウインターカップ2018大会時点,1,Player,TRS0001,プレイヤー表 > No.1 當山 修梧,CANDIDATE
-TRM0002,P000064,河村 勇輝,ORG000010,ウインターカップ2018大会時点,8,Player,TRS0001,プレイヤー表 > No.8 河村 勇輝,CANDIDATE
-TRM0003,P000040,神田 壮一郎,ORG000010,ウインターカップ2018大会時点,13,Player,TRS0001,プレイヤー表 > No.13 神田 壮一郎,CANDIDATE
-TRM0004,P000043,松崎 裕樹,ORG000010,ウインターカップ2018大会時点,24,Player,TRS0001,プレイヤー表 > No.24 松崎 裕樹,CANDIDATE
-TRM0005,P000035,小川 麻斗,ORG000010,ウインターカップ2018大会時点,46,Player,TRS0001,プレイヤー表 > No.46 小川 麻斗,CANDIDATE
-TRM0006,P000038,内尾 聡理,ORG000010,ウインターカップ2018大会時点,54,Player,TRS0001,プレイヤー表 > No.54 内尾 聡理,CANDIDATE
+membership_id,person_id,name,organization_id,period_key,period_label,context_type,jersey_number,role,source_id,source_locator,assessment
+TRM0001,P000010,當山 修梧,ORG000010,competition:wc2018,ウインターカップ2018大会時点,official_team_roster,1,Player,TRS0001,プレイヤー表 > No.1 當山 修梧,CANDIDATE
+TRM0002,P000064,河村 勇輝,ORG000010,competition:wc2018,ウインターカップ2018大会時点,official_team_roster,8,Player,TRS0001,プレイヤー表 > No.8 河村 勇輝,CANDIDATE
+TRM0003,P000040,神田 壮一郎,ORG000010,competition:wc2018,ウインターカップ2018大会時点,official_team_roster,13,Player,TRS0001,プレイヤー表 > No.13 神田 壮一郎,CANDIDATE
+TRM0004,P000043,松崎 裕樹,ORG000010,competition:wc2018,ウインターカップ2018大会時点,official_team_roster,24,Player,TRS0001,プレイヤー表 > No.24 松崎 裕樹,CANDIDATE
+TRM0005,P000035,小川 麻斗,ORG000010,competition:wc2018,ウインターカップ2018大会時点,official_team_roster,46,Player,TRS0001,プレイヤー表 > No.46 小川 麻斗,CANDIDATE
+TRM0006,P000038,内尾 聡理,ORG000010,competition:wc2018,ウインターカップ2018大会時点,official_team_roster,54,Player,TRS0001,プレイヤー表 > No.54 内尾 聡理,CANDIDATE

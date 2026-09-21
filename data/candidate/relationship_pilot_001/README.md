@@ -2,7 +2,7 @@
 
 作成日：2026-09-21
 
-状態：CANDIDATE。QA前、VERIFIED・HUMAN APPROVAL・MASTER・公開は未実施。
+状態：CANDIDATE。構造QAはPASS。データ形式レビュー待ちで、VERIFIED・HUMAN APPROVAL・MASTER・公開は未実施。
 
 ## 目的
 
@@ -35,8 +35,18 @@
 
 関係は6件のMembership候補から組合せを自動生成する。手入力で人物同士を結び付けない。
 
+15件の関係候補は確認用の派生プレビューであり、将来の原本として保存する対象ではない。原本候補はSource付きのMembership 6件とし、関係は同じOrganizationとperiod_keyを持つMembershipから都度生成する。
+
 ## 判定できる範囲
 
 「ウインターカップ2018大会時点で、福岡第一高校の同じ公式ロスターに登録されていた」ことを候補化する。学校在籍期間全体、個別試合への出場、同時出場は対象にしない。
 
 このパイロットは中心スキーマを変更せず、将来設計の検証用ファイルとして保持する。
+
+## QA結果
+
+- Membership候補6件：人物ID、組織ID、Source、資料内位置を確認
+- 派生関係15件：重複・自己参照なし、人物ID順を正規化
+- 保存形式：Membershipを原本候補、関係ペアを派生データとする案を推奨
+- 詳細：[QAレポート](qa_report.md)
+- 設計案：[Membership Observation形式案](../../../docs/MEMBERSHIP_OBSERVATION_FORMAT_PROPOSAL_V0.1.md)

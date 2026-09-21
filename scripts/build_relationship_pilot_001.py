@@ -48,22 +48,36 @@ def main() -> int:
             errors.append(f"{row['membership_id']}: Source参照が不足")
         if row["assessment"] != "CANDIDATE":
             errors.append(f"{row['membership_id']}: CANDIDATEではない")
+        if row["period_key"] != "competition:wc2018":
+            errors.append(f"{row['membership_id']}: period_keyが不正")
+        if row["context_type"] != "official_team_roster":
+            errors.append(f"{row['membership_id']}: context_typeが不正")
+        if not row["source_locator"]:
+            errors.append(f"{row['membership_id']}: Source内の位置が不足")
 
     relationships: list[dict[str, str]] = []
-    for index, (left, right) in enumerate(combinations(memberships, 2), start=1):
+    canonical_memberships = sorted(memberships, key=lambda row: row["person_id"])
+    for index, (left, right) in enumerate(combinations(canonical_memberships, 2), start=1):
         if left["organization_id"] != right["organization_id"]:
             errors.append(f"Pair {index}: Organizationが不一致")
         if left["period_label"] != right["period_label"]:
             errors.append(f"Pair {index}: 期間ラベルが不一致")
+        if left["period_key"] != right["period_key"]:
+            errors.append(f"Pair {index}: period_keyが不一致")
         if left["source_id"] != right["source_id"]:
             errors.append(f"Pair {index}: Sourceが不一致")
         relationships.append({
             "relationship_candidate_id": f"TRC{index:04d}",
+            "relationship_key": (
+                f"{left['organization_id']}|{left['period_key']}|"
+                f"{left['person_id']}|{right['person_id']}"
+            ),
             "person_id_a": left["person_id"],
             "name_a": left["name"],
             "person_id_b": right["person_id"],
             "name_b": right["name"],
             "organization_id": left["organization_id"],
+            "period_key": left["period_key"],
             "period_label": left["period_label"],
             "relationship_type": "same_organization_same_roster_period",
             "membership_id_a": left["membership_id"],
@@ -74,12 +88,18 @@ def main() -> int:
 
     if len(relationships) != 15:
         errors.append(f"Relationship: expected 15, got {len(relationships)}")
+    if len({row["relationship_key"] for row in relationships}) != len(relationships):
+        errors.append("Relationship keyが重複")
+    for row in relationships:
+        if row["person_id_a"] >= row["person_id_b"]:
+            errors.append(f"{row['relationship_candidate_id']}: 人物ID順が非正規")
 
     write(
         BASE / "relationship_candidates.csv",
         [
-            "relationship_candidate_id", "person_id_a", "name_a", "person_id_b", "name_b",
-            "organization_id", "period_label", "relationship_type", "membership_id_a",
+            "relationship_candidate_id", "relationship_key", "person_id_a", "name_a",
+            "person_id_b", "name_b", "organization_id", "period_key", "period_label",
+            "relationship_type", "membership_id_a",
             "membership_id_b", "source_id", "assessment",
         ],
         relationships,
@@ -90,6 +110,7 @@ def main() -> int:
         "## 結果", "", f"- 検証：{'PASS' if not errors else 'FAIL'}",
         f"- エラー：{len(errors)}件", f"- Roster Membership候補：{len(memberships)}件",
         f"- 同時所属関係候補：{len(relationships)}件", f"- Source：{len(sources)}件",
+        "- 関係ペア：Membership候補から生成する派生プレビュー（原本ではない）",
         "- Master・公開サイト：未変更", "", "## エラー", "",
     ]
     report.extend(f"- {error}" for error in errors)

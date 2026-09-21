@@ -108,6 +108,8 @@
 
 2026年9月21日、[Relationship Pilot 001](../data/candidate/relationship_pilot_001/README.md)として、既存Masterの6人に対するRoster Membership候補6件と同時所属関係候補15件を生成した。構造検証はPASS。すべてCANDIDATEであり、中心スキーマ、Master、公開サイトには反映していない。
 
+QAの結果、保存対象は人物同士の15関係ではなく、Source付きMembership 6件とする案が適切と判断した。関係は同じ組織・時点のMembershipから派生生成する。詳細は[Membership Observation形式案 v0.1](MEMBERSHIP_OBSERVATION_FORMAT_PROPOSAL_V0.1.md)に記載する。正式採用は未承認。
+
 ## Governance
 
 関係データもRAW → CANDIDATE → QA → VERIFIED → HUMAN APPROVAL → MASTERの承認済みCareerを基礎にする。派生計算が正しくても、元Careerの未確認値を補う根拠にはしない。生成結果から使用したCareerとSourceへ戻れるようにする。
