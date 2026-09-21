@@ -12,7 +12,7 @@
 - Source：102件
 - Evidence：573件
 - Approval：4件
-- Publication：3件
+- Publication：4件
 
 ## エラー
 

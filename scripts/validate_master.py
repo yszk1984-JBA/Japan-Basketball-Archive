@@ -32,7 +32,7 @@ def main() -> int:
         "Source": (len(sources), 102),
         "Evidence": (len(evidence), 573),
         "Approval": (len(approvals), 4),
-        "Publication": (len(publications), 3),
+        "Publication": (len(publications), 4),
     }
     for label, (actual, count) in expected.items():
         if actual != count:
@@ -124,6 +124,13 @@ def main() -> int:
         "PUB-AS002-20260921-01": {
             "publication_id": "PUB-AS002-20260921-01",
             "approval_id": "APP-AS002-20260921-01",
+            "published_at": "2026-09-21",
+            "site_url": "https://japanbasketballarchive.com/",
+            "status": "LIVE",
+        },
+        "PUB-AS003-20260921-01": {
+            "publication_id": "PUB-AS003-20260921-01",
+            "approval_id": "APP-AS003-20260921-01",
             "published_at": "2026-09-21",
             "site_url": "https://japanbasketballarchive.com/",
             "status": "LIVE",

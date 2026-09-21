@@ -18,4 +18,4 @@
 - Evidence：573件
 - Approval：4件
 
-Approval Sprint 003の19件のHOLD IssueはMasterに含めていない。公開サイト反映は別工程で行う。
+Approval Sprint 003の19件のHOLD IssueはMasterに含めていない。承認済みの10人・30 Careerは2026年9月21日に公開サイトへ反映した。
