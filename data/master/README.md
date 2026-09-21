@@ -8,7 +8,7 @@
 - Approval ID：`APP-B005-20260921-01`
 - VERIFIED基準commit：`7093141`
 - HOLD項目・HOLD Issue：含まない
-- 公開サイト反映：未実施
+- 公開サイト反映：2026-09-21実施
 
 ## ファイル
 
@@ -18,6 +18,7 @@
 - `source.csv`
 - `evidence.csv`
 - `approval_records.csv`
+- `publication_records.csv`
 - `master_build_report.md`
 - `validation_report.md`
 

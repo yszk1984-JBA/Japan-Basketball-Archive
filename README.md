@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 003〜005はVERIFIED候補を作成済みです。Batch 005 Wave 1はYuichiのHuman Approvalを記録し、承認された4人・11 Careerを最初のMaster Dataへ反映しました。HOLD項目はMasterに含めていません。公開画面を早期に検証するため、確認中データを使うWebプロトタイプを`site/`で並行開発していますが、今回のMasterはまだ公開サイトへ反映していません。
+Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 003〜005はVERIFIED候補を作成済みです。Batch 005 Wave 1はYuichiのHuman Approvalを記録し、承認された4人・11 Careerを最初のMaster Dataへ反映しました。HOLD項目はMasterに含めていません。2026年9月21日に、このMasterを確認中データと区別して公開サイトへ反映しました。
 
 ## 原則
 
@@ -56,7 +56,7 @@ scripts/         自動検証など
 site/            公開サイト
 ```
 
-`data/candidate/`と`scripts/`はBatch 001から、`data/verified/`はBatch 003から使用しています。`data/master/`はBatch 005 Wave 1の明示的承認を受けて作成しました。`site/`にはMaster Dataと分離したWebプロトタイプを置き、Masterから公開する工程は別途実施します。
+`data/candidate/`と`scripts/`はBatch 001から、`data/verified/`はBatch 003から使用しています。`data/master/`はBatch 005 Wave 1の明示的承認を受けて作成しました。`site/`ではMaster Dataを公開用データへ生成し、確認中データと表示上も区別します。
 
 ## GitHubでの基本操作
 

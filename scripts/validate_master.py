@@ -23,6 +23,7 @@ def main() -> int:
     sources = read("source.csv")
     evidence = read("evidence.csv")
     approvals = read("approval_records.csv")
+    publications = read("publication_records.csv")
 
     expected = {
         "Person": (len(persons), 4),
@@ -31,6 +32,7 @@ def main() -> int:
         "Source": (len(sources), 15),
         "Evidence": (len(evidence), 84),
         "Approval": (len(approvals), 1),
+        "Publication": (len(publications), 1),
     }
     for label, (actual, count) in expected.items():
         if actual != count:
@@ -71,6 +73,19 @@ def main() -> int:
             if approval[field] != value:
                 errors.append(f"approval {field}: expected {value}, got {approval[field]}")
 
+    if len(publications) == 1:
+        publication = publications[0]
+        required = {
+            "publication_id": "PUB-B005-20260921-01",
+            "approval_id": "APP-B005-20260921-01",
+            "published_at": "2026-09-21",
+            "site_url": "https://japanbasketballarchive.com/",
+            "status": "LIVE",
+        }
+        for field, value in required.items():
+            if publication[field] != value:
+                errors.append(f"publication {field}: expected {value}, got {publication[field]}")
+
     report = [
         "# MASTER検証レポート", "", "作成日：2026-09-21", "",
         "## 結果", "",
@@ -81,7 +96,8 @@ def main() -> int:
         f"- Career：{len(careers)}件",
         f"- Source：{len(sources)}件",
         f"- Evidence：{len(evidence)}件",
-        f"- Approval：{len(approvals)}件", "", "## エラー", "",
+        f"- Approval：{len(approvals)}件",
+        f"- Publication：{len(publications)}件", "", "## エラー", "",
     ]
     report.extend(f"- {error}" for error in errors)
     if not errors:

@@ -9,7 +9,7 @@
 | 2：候補と検証 | 合意した小規模範囲で取込と検証を実装 | 進行中。Batch 001〜005で36人をCANDIDATE化。21人・66 CareerをVERIFIED候補として保持 |
 | 3：人間の承認 | VERIFIEDをYuichiが確認 | Batch 005 Wave 1の全eligible fieldsをYuichiが承認。HOLDは対象外 |
 | 3.5：Master反映 | 承認された範囲だけを正式データへ転記 | Batch 005 Wave 1の4人・11 Careerを初回Masterへ反映し、検証PASS |
-| 4：サイト検討 | 公開範囲と表示方法を設計 | 出典表示、利用条件、公開対象、技術構成をYuichiと合意 |
+| 4：サイト検討 | 公開範囲と表示方法を設計 | 進行中。初回Masterの4人・11 Careerを出典付きで公開し、候補データと表示を分離 |
 | 5：Data Factory小規模実証 | 合意した候補データで抽出・QA・自動検証の流れを試す | 各段階の入力・出力・差戻し理由を追跡でき、人間承認を迂回しない |
 | 6：基本検索 | 人物名・組織名を対象に検索を実装 | 検索結果から人物・組織・出典へ移動でき、候補データの状態を表示する |
 | 7：絞り込み・関係探索 | 年代、地域、所属経路等の検索を検討 | データ量と品質を確認し、採用する検索軸をYuichiと合意 |
@@ -19,7 +19,7 @@
 | 11：Sponsor / Premium検証 | スポンサー企画と高度分析を小規模に試す | 編集判断との分離、提供価値、表示、契約条件を確認できる |
 | 12：B2B Data / API | CSV、API、調査、ライセンスを検討 | 利用規約、公開範囲、更新・訂正方法、データ版を合意できる |
 
-段階2の候補と検証を継続しながら、Batch 003〜005で21人・66 CareerのVERIFIED候補を作成した。Batch 005 Wave 1は対象版・範囲を記録し、4人・11 Careerを初回Masterへ反映した。Batch 003・004のVERIFIED候補はHuman Approval前であり、Masterには含めていない。今後も10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。プロトタイプの表示データはVERIFIEDまたはMASTERを意味せず、今回のMasterも公開サイトには未反映である。
+段階2の候補と検証を継続しながら、Batch 003〜005で21人・66 CareerのVERIFIED候補を作成した。Batch 005 Wave 1は対象版・範囲を記録し、4人・11 Careerを初回Masterへ反映した。2026年9月21日に初回Masterを公開サイトへ反映し、承認IDとMaster状態を表示した。Batch 003・004のVERIFIED候補はHuman Approval前であり、Masterには含めていない。今後も10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。確認中データは公開画面でも正式承認前と明示する。
 
 Person / Career / Organization / Sourceを超えるスキーマ拡張や大規模実装は、目的と影響を説明し、Yuichiと合意してから行う。
 
