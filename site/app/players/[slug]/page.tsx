@@ -1,6 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { getPlayer, getSources, masterPublication, players } from '../../public-data';
 
 export function generateStaticParams() {
@@ -37,7 +38,8 @@ function EvidenceLinks({ sourceIds }: { sourceIds: readonly string[] }) {
 export default async function PlayerPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const player = getPlayer(slug);
-  if (!player) return <main className="detail-shell"><p>人物が見つかりません。</p></main>;
+  if (!player) notFound();
+  if (slug !== player.slug) permanentRedirect(`/players/${player.slug}`);
 
   const sourceIds = [...new Set([
     ...player.facts.flatMap((fact) => fact.sourceIds),

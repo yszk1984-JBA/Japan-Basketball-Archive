@@ -94,7 +94,7 @@ export function getHomepagePlayers() {
 }
 
 export function getPlayer(slug: string) {
-  return players.find((player) => player.slug === slug);
+  return players.find((player) => player.slug === slug || player.id.toLowerCase() === slug);
 }
 
 export function getSources(ids: readonly string[]) {

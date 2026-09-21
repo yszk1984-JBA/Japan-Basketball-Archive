@@ -39,6 +39,12 @@ CAREER_LABELS = {
     "free_agent_list_announcement": "自由交渉選手リスト発表",
 }
 
+# Preserve public URLs that were already published before a candidate became Master.
+PUBLIC_SLUGS = {
+    "P000010": "shugo-toyama",
+    "P000064": "yuki-kawamura",
+}
+
 
 def read_csv(name: str) -> list[dict[str, str]]:
     with (MASTER / name).open(encoding="utf-8-sig", newline="") as handle:
@@ -156,7 +162,7 @@ def main() -> None:
         )[-1]
         public_people.append({
             "id": person_id,
-            "slug": person_id.lower(),
+            "slug": PUBLIC_SLUGS.get(person_id, person_id.lower()),
             "name": person["name"],
             "cardContext": f"{latest['period']} · {latest['organization']}",
             "dataStatus": "master",

@@ -587,7 +587,7 @@ export const masterSources = [
 export const masterPlayers = [
   {
     "id": "P000010",
-    "slug": "p000010",
+    "slug": "shugo-toyama",
     "name": "當山 修梧",
     "cardContext": "期間未確認 · 専修大学",
     "dataStatus": "master",
@@ -987,7 +987,7 @@ export const masterPlayers = [
   },
   {
     "id": "P000064",
-    "slug": "p000064",
+    "slug": "yuki-kawamura",
     "name": "河村 勇輝",
     "cardContext": "期間未確認 · メンフィス・グリズリーズ",
     "dataStatus": "master",
