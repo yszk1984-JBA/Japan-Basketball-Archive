@@ -138,6 +138,8 @@ def main() -> None:
     ]:
         ev(number, "Organization", org_id, "name", value, source, locator, "公式資料内の組織表記")
 
+    ev(56, "Career", "C000269", "start", "2025", "B6W1S0002", "クラブ所属履歴 > 2025-26 山口", "所属開始年")
+
     write("evidence_records.csv", ["record_id", "entity_type", "entity_id", "field_name", "candidate_value", "source_id", "source_locator", "evidence_summary", "assessment", "checked_at", "issue_note"], evidence)
     write("issues.csv", ["issue_id", "person_id", "related_id", "issue_type", "status", "description", "next_check"], [
         ["B6W1I0001", "P000075", "C000267", "HIGH_SCHOOL_PERIOD", "HOLD", "2014年8月時点の福岡第一高校3年を確認したが入学・卒業年月は未確認", "期間を直接示す公式資料がある場合のみ更新"],
@@ -155,7 +157,7 @@ def main() -> None:
         ["B6W1D0001", "Person", "P000075", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date", "", "JBA・B.LEAGUE公式資料で確認", CHECKED],
         ["B6W1D0002", "Career", "C000267", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|activity_date", "start|end", "JBA公式U18メンバー表で確認", CHECKED],
         ["B6W1D0003", "Career", "C000268", "HOLD_CANDIDATE", "organization_id", "role|start|end", "B.LEAGUE出身校表示のみ", CHECKED],
-        ["B6W1D0004", "Career", "C000269", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|competition_participation", "end", "B.LEAGUE公式戦成績で確認", CHECKED],
+        ["B6W1D0004", "Career", "C000269", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|competition_participation", "end", "B.LEAGUE公式所属履歴と公式戦成績で確認", CHECKED],
         ["B6W1D0005", "Person", "P000076", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date", "", "B.LEAGUE公式資料で確認", CHECKED],
         ["B6W1D0006", "Career", "C000270", "READY_FOR_VERIFIED_REVIEW", "organization_id", "role|start|end", "B.LEAGUE公式の高校欄で確認", CHECKED],
         ["B6W1D0007", "Career", "C000271", "HOLD_CANDIDATE", "organization_id", "role|start|end", "B.LEAGUE出身校表示のみ", CHECKED],

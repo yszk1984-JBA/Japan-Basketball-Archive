@@ -43,7 +43,7 @@ MVPでは選手検索、経歴、出典表示に必要なデータ量を優先�
 - Person候補：4件
 - Career候補：11件
 - Source：9件
-- Evidence：55件
+- Evidence：56件
 - VERIFIEDレビュー可能判断：21件（Person 4、Career 9、Organization 8）
 - HOLD判断：2件
 - 構造QA：PASS（エラー0件）

@@ -2,7 +2,7 @@ decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,re
 B6W1D0001,Person,P000075,READY_FOR_VERIFIED_REVIEW,name|name_en|birth_date,,JBA・B.LEAGUE公式資料で確認,2026-09-21
 B6W1D0002,Career,C000267,READY_FOR_VERIFIED_REVIEW,organization_id|role|activity_date,start|end,JBA公式U18メンバー表で確認,2026-09-21
 B6W1D0003,Career,C000268,HOLD_CANDIDATE,organization_id,role|start|end,B.LEAGUE出身校表示のみ,2026-09-21
-B6W1D0004,Career,C000269,READY_FOR_VERIFIED_REVIEW,organization_id|role|competition_participation,end,B.LEAGUE公式戦成績で確認,2026-09-21
+B6W1D0004,Career,C000269,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|competition_participation,end,B.LEAGUE公式所属履歴と公式戦成績で確認,2026-09-21
 B6W1D0005,Person,P000076,READY_FOR_VERIFIED_REVIEW,name|name_en|birth_date,,B.LEAGUE公式資料で確認,2026-09-21
 B6W1D0006,Career,C000270,READY_FOR_VERIFIED_REVIEW,organization_id,role|start|end,B.LEAGUE公式の高校欄で確認,2026-09-21
 B6W1D0007,Career,C000271,HOLD_CANDIDATE,organization_id,role|start|end,B.LEAGUE出身校表示のみ,2026-09-21
