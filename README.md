@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001、Approval Sprint 002についてYuichiのHuman Approvalを記録し、合計20人・61 CareerをMaster Dataへ反映しました。HOLD項目はMasterに含めていません。承認済み範囲は2026年9月21日に公開サイトへ反映しました。
+Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 002は全40 Decision IDからVERIFIED候補を作成し、10人・30 Career・146件の根拠を保持しています。19件の不明点はHOLDのままです。Batch 005 Wave 1、Approval Sprint 001、Approval Sprint 002についてはYuichiのHuman Approvalを記録し、合計20人・61 CareerをMaster Dataへ反映しました。Batch 002はHuman Approval・Master反映・公開を行っていません。
 
 ## 原則
 
@@ -39,6 +39,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
 - [Batch 002](data/candidate/batch_002/README.md)：B.LEAGUE公式を入口にした10人分のCANDIDATEと初期QA
+- [Batch 002 VERIFIED](data/verified/batch_002/README.md)：全40 Decision IDの確認済み項目とHOLD分離
 - [Batch 003 CANDIDATE](data/candidate/batch_003/README.md)：次の10人の調査、CANDIDATE、QA、レビュー資料
 - [Batch 003 VERIFIED](data/verified/batch_003/README.md)：全28 Decision IDの確認済み項目とHOLD分離
 - [Batch 005 VERIFIED](data/verified/batch_005/README.md)：プロCareer更新4人の確認済み項目とHOLD分離
