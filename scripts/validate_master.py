@@ -26,12 +26,12 @@ def main() -> int:
     publications = read("publication_records.csv")
 
     expected = {
-        "Person": (len(persons), 12),
-        "Organization": (len(organizations), 19),
-        "Career": (len(careers), 29),
-        "Source": (len(sources), 43),
-        "Evidence": (len(evidence), 251),
-        "Approval": (len(approvals), 2),
+        "Person": (len(persons), 20),
+        "Organization": (len(organizations), 31),
+        "Career": (len(careers), 61),
+        "Source": (len(sources), 64),
+        "Evidence": (len(evidence), 427),
+        "Approval": (len(approvals), 3),
         "Publication": (len(publications), 2),
     }
     for label, (actual, count) in expected.items():
@@ -74,6 +74,14 @@ def main() -> int:
             "verified_commit": "2ac462c",
             "approved_scope": "8 persons, 18 careers, 167 supported evidence",
             "excluded_scope": "19 HOLD issues",
+            "approved_by": "Yuichi",
+            "approved_at": "2026-09-21",
+        },
+        "APP-AS002-20260921-01": {
+            "approval_id": "APP-AS002-20260921-01",
+            "verified_commit": "4c29a0a",
+            "approved_scope": "8 persons, 32 careers, 183 supported evidence",
+            "excluded_scope": "27 HOLD issues",
             "approved_by": "Yuichi",
             "approved_at": "2026-09-21",
         },

@@ -6,12 +6,13 @@
 
 - Batch 005 Wave 1：4人・11 Career
 - Approval Sprint 001：8人・18 Career
-- Approval ID：`APP-B005-20260921-01`、`APP-AS001-20260921-01`
-- Person：12件
-- Career：29件
-- Evidence：251件
+- Approval Sprint 002：8人・32 Career
+- Approval ID：`APP-B005-20260921-01`、`APP-AS001-20260921-01`、`APP-AS002-20260921-01`
+- Person：20件
+- Career：61件
+- Evidence：427件
 - HOLD項目・HOLD Issue：含まない
-- 公開サイト反映：両承認とも2026-09-21実施
+- 公開サイト反映：Batch 005 Wave 1とApproval Sprint 001は実施済み。Approval Sprint 002は反映作業中
 
 ## ファイル
 
