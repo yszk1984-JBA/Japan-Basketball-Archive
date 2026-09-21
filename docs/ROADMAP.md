@@ -7,7 +7,7 @@
 | 0：初期セットアップ | clone、ローカルプロジェクト登録、Governanceの7文書 | 差分・リンク・原則の整合性を確認し、commit・pushを確認 |
 | 1：パイロット確認 | 福岡第一高校の既存Excelを確認 | 完了。原本保全、列・出典・不整合を整理し、v0.1への対応と小規模試行範囲を合意 |
 | 2：候補と検証 | 合意した小規模範囲で取込と検証を実装 | 進行中。Batch 001〜005で36人をCANDIDATE化。21人・66 CareerをVERIFIED候補として保持 |
-| 3：人間の承認 | VERIFIEDをYuichiが確認 | Batch 005 Wave 1の全eligible fieldsをYuichiが承認。HOLDは対象外 |
+| 3：人間の承認 | VERIFIEDをYuichiが確認 | Batch 005 Wave 1を承認済み。公開中のVERIFIED候補8人についてApproval Sprint 001を準備し、承認待ち |
 | 3.5：Master反映 | 承認された範囲だけを正式データへ転記 | Batch 005 Wave 1の4人・11 Careerを初回Masterへ反映し、検証PASS |
 | 4：サイト検討 | 公開範囲と表示方法を設計 | 進行中。初回Masterの4人・11 Careerを出典付きで公開し、候補データと表示を分離 |
 | 5：Data Factory小規模実証 | 合意した候補データで抽出・QA・自動検証の流れを試す | 各段階の入力・出力・差戻し理由を追跡でき、人間承認を迂回しない |

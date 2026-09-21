@@ -1,0 +1,20 @@
+verified_batch,issue_id,person_id,name,related_id,issue_type,description,disposition
+Batch 003,B3I0003,P000029,早田 流星,C000047,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0004,P000029,早田 流星,C000214,PERIOD_UNKNOWN,日本体育大学で2025年4年を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0005,P000030,鷹野 祐磨,C000048,PERIOD_UNKNOWN,高校1年時と2021年大会登録を確認したが終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0006,P000030,鷹野 祐磨,P000030,POST_HIGH_SCHOOL_UNKNOWN,卒業後の実所属と競技参加を示す公式資料を確認できない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0007,P000031,星賀 舞也,C000049,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0008,P000031,星賀 舞也,C000215,PERIOD_UNKNOWN,青山学院大学で2024年3年を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0009,P000032,岡本 汰稀,C000050,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0010,P000032,岡本 汰稀,C000216,PERIOD_UNKNOWN,九州国際大学で2025年4年を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0011,P000033,岩下 周介,C000051,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0013,P000033,岩下 周介,C000217,PERIOD_UNKNOWN,2022年1年から2025年4年の大会登録を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0014,P000034,カマレ ムレマ フランシス,C000052,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0016,P000034,カマレ ムレマ フランシス,C000218,PERIOD_UNKNOWN,山梨学院大学で2024年3年・2025年4年を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0017,P000010,當山 修梧,C000010,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0018,P000010,當山 修梧,C000031,GRADE_CONFLICT,JUBF公式で2021年と2022年がともに2年と表示される,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0019,P000010,當山 修梧,C000031,PERIOD_UNKNOWN,専修大学の開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0001,P000064,河村 勇輝,C000219,PERIOD_UNKNOWN,福岡第一高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0002,P000064,河村 勇輝,C000220,PERIOD_UNKNOWN,東海大学Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0003,P000064,河村 勇輝,P000064,CURRENT_AFFILIATION_CONFLICT,Clippers選手ページとNBA G Leagueページの所属表示に更新時点の違いがある,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0004,P000064,河村 勇輝,C000223,NBA_CAREER_PERIOD,MemphisとのTwo-Way契約発表後の終了時期と公式戦実績はこの資料だけでは確定しない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留

@@ -1,0 +1,19 @@
+verified_batch,person_id,name,career_id,organization_id,role,start,end,organization_name,evidence_count,source_ids
+Batch 003,P000029,早田 流星,C000047,ORG000010,Player,,,福岡第一高等学校,10,B3S0001|B3S0002
+Batch 003,P000029,早田 流星,C000214,ORG000020,Player,,,日本体育大学,8,B3S0007
+Batch 003,P000030,鷹野 祐磨,C000048,ORG000010,Player,,,福岡第一高等学校,9,B3S0001|B3S0003
+Batch 003,P000031,星賀 舞也,C000049,ORG000010,Player,,,福岡第一高等学校,10,B3S0001|B3S0002
+Batch 003,P000031,星賀 舞也,C000215,ORG000030,Player,,,青山学院大学,8,B3S0008|B3S0009
+Batch 003,P000032,岡本 汰稀,C000050,ORG000010,Player,,,福岡第一高等学校,4,B3S0001
+Batch 003,P000032,岡本 汰稀,C000216,ORG000094,Player,,,九州国際大学,8,B3S0010
+Batch 003,P000033,岩下 周介,C000051,ORG000010,Player,,,福岡第一高等学校,4,B3S0001
+Batch 003,P000033,岩下 周介,C000217,ORG000095,Player,,,東海大学九州,23,B3S0011|B3S0012|B3S0013|B3S0014
+Batch 003,P000034,カマレ ムレマ フランシス,C000052,ORG000010,Player,,,福岡第一高等学校,5,B3S0001
+Batch 003,P000034,カマレ ムレマ フランシス,C000218,ORG000096,Player,,,山梨学院大学,13,B3S0015|B3S0016|B3S0017
+Batch 003,P000010,當山 修梧,C000010,ORG000010,Player,,,福岡第一高等学校,5,B3S0002
+Batch 003,P000010,當山 修梧,C000031,ORG000018,Player,,,専修大学,19,B3S0018|B3S0019|B3S0020|B3S0021
+Batch 004,P000064,河村 勇輝,C000219,ORG000010,Player,,,福岡第一高等学校,4,B4W1S0001
+Batch 004,P000064,河村 勇輝,C000220,ORG000015,Player,,,東海大学,4,B4W1S0002
+Batch 004,P000064,河村 勇輝,C000221,ORG000097,Player,,,三遠ネオフェニックス,3,B4W1S0003
+Batch 004,P000064,河村 勇輝,C000222,ORG000055,Player,,,横浜ビー・コルセアーズ,4,B4W1S0003
+Batch 004,P000064,河村 勇輝,C000223,ORG000098,Player,,,メンフィス・グリズリーズ,4,B4W1S0004
