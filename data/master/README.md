@@ -12,7 +12,7 @@
 - Career：61件
 - Evidence：427件
 - HOLD項目・HOLD Issue：含まない
-- 公開サイト反映：Batch 005 Wave 1とApproval Sprint 001は実施済み。Approval Sprint 002は反映作業中
+- 公開サイト反映：3件の承認を2026-09-21に反映済み
 
 ## ファイル
 
