@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getPlayer, getSources, players } from '../../prototype-data';
+import { getPlayer, getSources, masterPublication, players } from '../../public-data';
 
 export function generateStaticParams() {
   return players.map((player) => ({ slug: player.slug }));
@@ -48,11 +48,11 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
 
   return (
     <main className="detail-shell">
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><span>Prototype · 候補データ</span></nav>
+      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><span>{player.dataStatus === 'master' ? 'Master Data' : 'Prototype · 候補データ'}</span></nav>
       <header className="person-header">
         <p className="eyebrow">Person · {player.id}</p>
         <h1>{player.name}</h1>
-        <p className="candidate-status">候補データ · 出典あり · 正式承認前</p>
+        <p className={`candidate-status ${player.dataStatus === 'master' ? 'master-status' : ''}`}>{player.dataStatus === 'master' ? `Master · 承認済み · ${player.approvalId}` : '候補データ · 出典あり · 正式承認前'}</p>
       </header>
 
       <section className="fact-section">
@@ -107,7 +107,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             </a>
           ))}
         </div>
-        <p className="review-note">このページは公開表示を確認するためのプロトタイプです。掲載内容はGovernance v1.0のHuman approvalを受けたMaster Dataではありません。</p>
+        <p className={`review-note ${player.dataStatus === 'master' ? 'master-note' : ''}`}>{player.dataStatus === 'master' ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。` : 'このページは公開表示を確認するための候補データです。Governance v1.0のHuman approvalを受けたMaster Dataではありません。'}</p>
       </section>
     </main>
   );
