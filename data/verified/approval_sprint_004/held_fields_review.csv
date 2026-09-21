@@ -1,0 +1,11 @@
+verified_batch,decision_id,entity_type,entity_id,held_fields,reason
+Batch 006,B6W1D0002,Career,C000267,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0004,Career,C000269,end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0006,Career,C000270,role|start|end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0008,Career,C000272,end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0010,Career,C000273,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0011,Career,C000274,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0012,Career,C000275,end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0014,Career,C000276,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+Batch 006,B6W1D0003,Career,C000268,organization_id|role|start|end,HOLD_CANDIDATE判断のためEntity全体をVERIFIEDから除外
+Batch 006,B6W1D0007,Career,C000271,organization_id|role|start|end,HOLD_CANDIDATE判断のためEntity全体をVERIFIEDから除外
