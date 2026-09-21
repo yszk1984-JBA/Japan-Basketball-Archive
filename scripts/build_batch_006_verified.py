@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 WAVE = ROOT / "data" / "candidate" / "batch_006" / "wave_01"
 OUTPUT = ROOT / "data" / "verified" / "batch_006"
-SOURCE_COMMIT = "c728b68"
+SOURCE_COMMIT = "a3de894"
 CREATED_AT = "2026-09-21"
 
 

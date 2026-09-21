@@ -4,7 +4,7 @@
 
 ## 結果
 
-- CANDIDATEスナップショット：commit `c728b68`から変更なし
+- CANDIDATEスナップショット：commit `a3de894`から変更なし
 - READY Decision：21件
 - HOLD Decision：2件
 - Person：4件
