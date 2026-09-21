@@ -1,0 +1,20 @@
+verified_batch,issue_id,person_id,name,related_id,issue_type,description,disposition
+Batch 002,B2I0001,P000063,古野 拓巳,C000210,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id。未確認項目はrole|start|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0003,P000038,内尾 聡理,C000057,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id|role|jersey_number|height_cm|activity_date。未確認項目はstart|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0005,P000037,鵤 誠司,C000056,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id|role|grade。未確認項目はstart|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0007,P000041,狩野 祐介,C000060,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id。未確認項目はrole|start|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0009,P000042,並里 成,C000061,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id。未確認項目はrole|start|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0011,P000039,渡辺 竜之佑,C000058,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id|role|grade|position|height_cm。未確認項目はstart|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0013,P000043,松崎 裕樹,C000062,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id|role|grade|position|height_cm。未確認項目はstart|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0015,P000035,小川 麻斗,C000054,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id|role|jersey_number|height_cm。未確認項目はstart|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0017,P000040,神田 壮一郎,C000059,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id|role|jersey_number|height_cm。未確認項目はstart|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0019,P000036,井手 拓実,C000055,HIGH_SCHOOL_EVIDENCE,確認済み項目はorganization_id。未確認項目はrole|start|end,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0021,P000038,内尾 聡理,C000070,CAREER_PERIOD_OR_ABSENCE,中央大学は2020年1年・2023年4年を確認したが終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0022,P000037,鵤 誠司,C000069,CAREER_PERIOD_OR_ABSENCE,青山学院大学2年時の所属を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0023,P000041,狩野 祐介,C000073,CAREER_PERIOD_OR_ABSENCE,東海大学3年時の所属を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0024,P000042,並里 成,C000074,CAREER_PERIOD_OR_ABSENCE,2009年7月のプロ入りは確認したが、その後を含む大学Career不存在の包括的証明ではない,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0025,P000039,渡辺 竜之佑,C000071,CAREER_PERIOD_OR_ABSENCE,専修大学3・4年時の所属を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0026,P000043,松崎 裕樹,C000075,CAREER_PERIOD_OR_ABSENCE,東海大学1・4年時の所属を確認したが終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0027,P000040,神田 壮一郎,C000072,CAREER_PERIOD_OR_ABSENCE,拓殖大学2・3年時の所属を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0028,P000036,井手 拓実,C000068,CAREER_PERIOD_OR_ABSENCE,日本体育大学1・4年時の所属を確認したが終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
+Batch 002,B2I0029,P000063,古野 拓巳,C000076,CAREER_PERIOD_OR_ABSENCE,日本経済大学3・4年時の競技参加を確認したが開始・終了年月は未確認,VERIFIEDへ含めず、新しい公式資料が得られるまで保留
