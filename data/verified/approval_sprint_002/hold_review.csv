@@ -1,0 +1,28 @@
+verified_batch,issue_id,person_id,name,related_id,issue_type,description,disposition
+Batch 003,B3I0020,P000014,キエキエ トピー アリ,C000014,PERIOD_UNKNOWN,高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 003,B3I0021,P000014,キエキエ トピー アリ,C000030,PERIOD_UNKNOWN,2022年2年から2024年4年の大会登録を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0005,P000065,児玉 ジュニア,C000224,PERIOD_UNKNOWN,福岡第一高校Careerの開始・終了年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0006,P000065,児玉 ジュニア,C000225,ACADEMIC_AND_CLUB_STATUS,日本経済大学の学籍継続と男子部退部は別状態。入学日・退部日・学籍終了日は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0007,P000065,児玉 ジュニア,C000226,SPECIFIC_GAME_UNVERIFIED,2025年10月5日の試合ページで本人の個別欄を再取得できない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W1I0008,P000065,児玉 ジュニア,ORG000017,ORGANIZATION_ID_DUPLICATE,既存バッチで日本経済大学にORG000017とORG000019が混在する,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W2I0005,P000067,長岡 大杜,P000067,EXCEL_MEMO_MISMATCH,提案文書はExcel原本内の同名候補ありとするが、原本Personシートに長岡大杜は存在しない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W2I0006,P000067,長岡 大杜,C000230,PERIOD_UNKNOWN,福岡第一高校在学は確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W2I0007,P000067,長岡 大杜,C000231,CAREER_START_DATE,リーグエントリー発表日は契約・所属開始日とは限らない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W2I0008,P000067,長岡 大杜,P000067,NATIONALITY_FIELD_LAYOUT,B.LEAGUE表示の「リーグ登録国籍特別指定」は画面項目の結合とみられ国籍値に採用できない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0001,P000068,重冨 周希,C000232,HIGH_SCHOOL_ROLE_AND_PERIOD,専修大学公式は福岡第一高出身を示すが、高校部での役割と期間は直接示さない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0002,P000068,重冨 周希,C000233,UNIVERSITY_END,2017年度入部は確認したが終了時期は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0003,P000068,重冨 周希,C000235,CLUB_HISTORY_GAP,B.LEAGUEプロフィールに2024-25・2025-26湘南の履歴が表示されず、2026-27のみ確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0004,P000069,重冨 友希,C000236,HIGH_SCHOOL_ROLE_AND_PERIOD,専修大学公式は福岡第一高出身を示すが、高校部での役割と期間は直接示さない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0005,P000069,重冨 友希,C000237,UNIVERSITY_END,2017年度入部は確認したが終了時期は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0006,P000069,重冨 友希,C000239,TRANSFER_BOUNDARY,2022-23途中の期限付き移籍日は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0007,P000014,キエキエ トピー アリ,C000240,DATE_PRECISION,経歴は2021.01-03とするが各日付は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0008,P000014,キエキエ トピー アリ,C000241,POST_2025_AFFILIATION,2025年契約満了後の所属は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0009,P000070,遥 天翼,C000242,HIGH_SCHOOL_ROLE_AND_PERIOD,熊本公式経歴は学校名のみで高校部の役割と期間は直接示さない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0010,P000070,遥 天翼,C000243,UNIVERSITY_ROLE_AND_PERIOD,熊本公式経歴は大学名のみで大学部の役割と期間は直接示さない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W3I0011,P000070,遥 天翼,P000070,CLUB_SUCCESSION,三菱電機ダイヤモンドドルフィンズと名古屋ダイヤモンドドルフィンズの組織承継関係は未整理,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W4I0001,P000071,今泉 太陽,C000253,HIGH_SCHOOL_ROLE,B.LEAGUE候補者経歴は学校期間を示すが、高校大会ロスターでのPlayer役割は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W4I0002,P000071,今泉 太陽,P000071,DRAFT_OUTCOME,候補選手一覧掲載は契約・登録・出場を意味しない。公式指名結果に氏名は確認できない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W4I0003,P000071,今泉 太陽,C000254,CURRENT_UNIVERSITY_END,候補者ページの『現在』は基準日依存で、大学Career終了日は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W4I0004,P000072,崎濱 秀真,C000255,HIGH_SCHOOL_ROLE,B.LEAGUE候補者経歴は学校期間を示すが、高校大会ロスターでのPlayer役割は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W4I0005,P000072,崎濱 秀真,P000072,DRAFT_OUTCOME,候補選手一覧掲載は契約・登録・出場を意味しない。公式指名結果に氏名は確認できない,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 004,B4W4I0006,P000072,崎濱 秀真,C000256,CURRENT_UNIVERSITY_END,候補者ページの『現在』は基準日依存で、大学Career終了日は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留

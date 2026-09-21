@@ -43,6 +43,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [Batch 003 VERIFIED](data/verified/batch_003/README.md)：全28 Decision IDの確認済み項目とHOLD分離
 - [Batch 005 VERIFIED](data/verified/batch_005/README.md)：プロCareer更新4人の確認済み項目とHOLD分離
 - [Approval Sprint 001](data/verified/approval_sprint_001/README.md)：公開中のVERIFIED候補8人を対象にしたHuman Approval資料
+- [Approval Sprint 002](data/verified/approval_sprint_002/README.md)：プロ・B.LEAGUE優先8人のHuman Approval資料
 - [MASTER DATA](data/master/README.md)：Yuichiが明示的に承認した12人・29 Careerの正式データ
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
