@@ -2,7 +2,7 @@
 
 作成日：2026-09-21
 
-状態：将来設計案。スキーマ拡張・データ追加・公開実装は未承認。
+状態：将来設計案。Relationship Pilot 001でCANDIDATE生成まで実施。スキーマ拡張・VERIFIED・Master・公開実装は未承認。
 
 ## 目的
 
@@ -105,6 +105,8 @@
 5. 結果を見てスキーマ拡張と公開範囲を合意する。
 
 河村勇輝と小川麻斗は最初の試験対象とする。現在のMasterでは両者の福岡第一高校Careerの開始・終了年が空欄のため、在籍期間全体の重複は未確認である。一方、ウインターカップ2018公式ロスターに両者が掲載されているため、「同一大会・同一チーム登録」はCANDIDATEとして作成できる。個別データとして公開する場合は通常のGovernance工程を通す。
+
+2026年9月21日、[Relationship Pilot 001](../data/candidate/relationship_pilot_001/README.md)として、既存Masterの6人に対するRoster Membership候補6件と同時所属関係候補15件を生成した。構造検証はPASS。すべてCANDIDATEであり、中心スキーマ、Master、公開サイトには反映していない。
 
 ## Governance
 

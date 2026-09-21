@@ -1,0 +1,16 @@
+relationship_candidate_id,person_id_a,name_a,person_id_b,name_b,organization_id,period_label,relationship_type,membership_id_a,membership_id_b,source_id,assessment
+TRC0001,P000010,當山 修梧,P000064,河村 勇輝,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0001,TRM0002,TRS0001,CANDIDATE
+TRC0002,P000010,當山 修梧,P000040,神田 壮一郎,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0001,TRM0003,TRS0001,CANDIDATE
+TRC0003,P000010,當山 修梧,P000043,松崎 裕樹,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0001,TRM0004,TRS0001,CANDIDATE
+TRC0004,P000010,當山 修梧,P000035,小川 麻斗,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0001,TRM0005,TRS0001,CANDIDATE
+TRC0005,P000010,當山 修梧,P000038,内尾 聡理,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0001,TRM0006,TRS0001,CANDIDATE
+TRC0006,P000064,河村 勇輝,P000040,神田 壮一郎,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0002,TRM0003,TRS0001,CANDIDATE
+TRC0007,P000064,河村 勇輝,P000043,松崎 裕樹,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0002,TRM0004,TRS0001,CANDIDATE
+TRC0008,P000064,河村 勇輝,P000035,小川 麻斗,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0002,TRM0005,TRS0001,CANDIDATE
+TRC0009,P000064,河村 勇輝,P000038,内尾 聡理,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0002,TRM0006,TRS0001,CANDIDATE
+TRC0010,P000040,神田 壮一郎,P000043,松崎 裕樹,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0003,TRM0004,TRS0001,CANDIDATE
+TRC0011,P000040,神田 壮一郎,P000035,小川 麻斗,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0003,TRM0005,TRS0001,CANDIDATE
+TRC0012,P000040,神田 壮一郎,P000038,内尾 聡理,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0003,TRM0006,TRS0001,CANDIDATE
+TRC0013,P000043,松崎 裕樹,P000035,小川 麻斗,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0004,TRM0005,TRS0001,CANDIDATE
+TRC0014,P000043,松崎 裕樹,P000038,内尾 聡理,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0004,TRM0006,TRS0001,CANDIDATE
+TRC0015,P000035,小川 麻斗,P000038,内尾 聡理,ORG000010,ウインターカップ2018大会時点,same_organization_same_roster_period,TRM0005,TRM0006,TRS0001,CANDIDATE
