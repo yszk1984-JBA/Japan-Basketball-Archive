@@ -167,6 +167,14 @@ def main() -> None:
         ["B6W1D0013", "Person", "P000078", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date", "", "B.LEAGUE公式資料で確認", CHECKED],
         ["B6W1D0014", "Career", "C000276", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|activity_year", "start|end", "JBA公式大会記録で確認", CHECKED],
         ["B6W1D0015", "Career", "C000277", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|end", "", "B.LEAGUE公式所属履歴で確認", CHECKED],
+        ["B6W1D0016", "Organization", "ORG000010", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0017", "Organization", "ORG000015", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0018", "Organization", "ORG000018", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0019", "Organization", "ORG000020", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0020", "Organization", "ORG000040", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0021", "Organization", "ORG000100", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0022", "Organization", "ORG000111", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
+        ["B6W1D0023", "Organization", "ORG000114", "READY_FOR_VERIFIED_REVIEW", "name", "", "公式資料内表記を確認", CHECKED],
     ])
 
 

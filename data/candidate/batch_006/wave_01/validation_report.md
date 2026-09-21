@@ -10,7 +10,7 @@
 - Career候補：11件
 - Source：9件
 - Evidence：55件
-- READY判断：13件
+- READY判断：21件
 - HOLD判断：2件
 - Issue：10件
 - VERIFIED・Master・公開サイト：未変更
