@@ -4,11 +4,14 @@
 
 ## 現在の内容
 
-- Batch 005 Wave 1
-- Approval ID：`APP-B005-20260921-01`
-- VERIFIED基準commit：`7093141`
+- Batch 005 Wave 1：4人・11 Career
+- Approval Sprint 001：8人・18 Career
+- Approval ID：`APP-B005-20260921-01`、`APP-AS001-20260921-01`
+- Person：12件
+- Career：29件
+- Evidence：251件
 - HOLD項目・HOLD Issue：含まない
-- 公開サイト反映：2026-09-21実施
+- 公開サイト反映：Batch 005 Wave 1は2026-09-21実施。Approval Sprint 001は反映作業中
 
 ## ファイル
 

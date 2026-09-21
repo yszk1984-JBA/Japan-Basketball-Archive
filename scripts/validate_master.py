@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate MASTER references and the recorded Batch 005 approval."""
+"""Validate MASTER references and recorded human approvals."""
 
 from __future__ import annotations
 
@@ -26,12 +26,12 @@ def main() -> int:
     publications = read("publication_records.csv")
 
     expected = {
-        "Person": (len(persons), 4),
-        "Organization": (len(organizations), 11),
-        "Career": (len(careers), 11),
-        "Source": (len(sources), 15),
-        "Evidence": (len(evidence), 84),
-        "Approval": (len(approvals), 1),
+        "Person": (len(persons), 12),
+        "Organization": (len(organizations), 19),
+        "Career": (len(careers), 29),
+        "Source": (len(sources), 43),
+        "Evidence": (len(evidence), 251),
+        "Approval": (len(approvals), 2),
         "Publication": (len(publications), 1),
     }
     for label, (actual, count) in expected.items():
@@ -61,17 +61,33 @@ def main() -> int:
         if row["entity_id"] not in entity_ids.get(row["entity_type"], set()):
             errors.append(f"{row['record_id']}: unknown entity")
 
-    if len(approvals) == 1:
-        approval = approvals[0]
-        required = {
+    approvals_by_id = {row["approval_id"]: row for row in approvals}
+    required_approvals = {
+        "APP-B005-20260921-01": {
             "approval_id": "APP-B005-20260921-01",
             "verified_commit": "7093141",
             "approved_by": "Yuichi",
             "approved_at": "2026-09-21",
-        }
+        },
+        "APP-AS001-20260921-01": {
+            "approval_id": "APP-AS001-20260921-01",
+            "verified_commit": "2ac462c",
+            "approved_scope": "8 persons, 18 careers, 167 supported evidence",
+            "excluded_scope": "19 HOLD issues",
+            "approved_by": "Yuichi",
+            "approved_at": "2026-09-21",
+        },
+    }
+    for approval_id, required in required_approvals.items():
+        approval = approvals_by_id.get(approval_id)
+        if approval is None:
+            errors.append(f"approval missing: {approval_id}")
+            continue
         for field, value in required.items():
             if approval[field] != value:
-                errors.append(f"approval {field}: expected {value}, got {approval[field]}")
+                errors.append(
+                    f"approval {approval_id} {field}: expected {value}, got {approval[field]}"
+                )
 
     if len(publications) == 1:
         publication = publications[0]

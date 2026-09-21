@@ -2,21 +2,18 @@
 
 作成日：2026-09-21
 
-## 今回の反映
+## 反映済み承認
 
-- Approval ID：`APP-B005-20260921-01`
-- VERIFIED基準commit：`7093141`
-- Batch：Batch 005 Wave 1
-- 範囲：全26 Decisionの`eligible_fields`
-- 除外：9件の`held_fields`、9件のHOLD Issue
+- `APP-B005-20260921-01`：Batch 005 Wave 1
+- `APP-AS001-20260921-01`：Approval Sprint 001
 
 ## MASTER件数
 
-- Person：4件
-- Organization：11件
-- Career：11件
-- Source：15件
-- Evidence：84件
-- Approval：1件
+- Person：12件
+- Organization：19件
+- Career：29件
+- Source：43件
+- Evidence：251件
+- Approval：2件
 
-2026年9月21日に公開サイトへ反映した。Masterの4名は承認済み表示とし、HOLD項目は公開用データにも含めていない。
+Approval Sprint 001の19件のHOLD IssueはMasterに含めていない。公開サイト反映は別工程で行う。
