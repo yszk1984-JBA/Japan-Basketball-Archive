@@ -35,6 +35,20 @@ def main() -> int:
         errors.append(f"Person: expected 4, got {len(people)}")
     if person_ids & master_people:
         errors.append("新規Person IDがMasterと重複")
+    current_file = (BASE / "person_candidates.csv").resolve()
+    for path in (ROOT / "data" / "candidate").rglob("person_candidates.csv"):
+        if path.resolve() == current_file:
+            continue
+        for other in read_external(path):
+            for person in people:
+                if other["name"] == person["name"] and other["person_id"] != person["person_id"]:
+                    errors.append(
+                        f"{person['name']}: 既存候補{other['person_id']}とIDが不一致"
+                    )
+                if other["person_id"] == person["person_id"] and other["name"] != person["name"]:
+                    errors.append(
+                        f"{person['person_id']}: 既存候補と氏名が不一致"
+                    )
     for label, rows, key in [
         ("Person", people, "person_id"), ("Organization", orgs, "organization_id"),
         ("Career", careers, "career_id"), ("Source", sources, "source_id"),
@@ -83,6 +97,11 @@ def main() -> int:
 
 def read_master(name: str) -> list[dict[str, str]]:
     with (ROOT / "data" / "master" / name).open(encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def read_external(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
 
 

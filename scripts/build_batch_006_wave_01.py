@@ -23,7 +23,7 @@ def main() -> None:
     write("person_candidates.csv", ["person_id", "name"], [
         ["P000075", "井手 優希"],
         ["P000076", "クベマ スティーブ"],
-        ["P000077", "ジャン・ローレンス・ハーパージュニア"],
+        ["P000012", "ジャン・ローレンス・ハーパージュニア"],
         ["P000078", "長島 エマニエル"],
     ])
     write("organization_candidates.csv", ["organization_id", "name"], [
@@ -43,9 +43,9 @@ def main() -> None:
         ["C000270", "P000076", "ORG000010", "Player", "", ""],
         ["C000271", "P000076", "ORG000018", "Player", "", ""],
         ["C000272", "P000076", "ORG000111", "Player", "2024", ""],
-        ["C000273", "P000077", "ORG000010", "Player", "", ""],
-        ["C000274", "P000077", "ORG000015", "Player", "", ""],
-        ["C000275", "P000077", "ORG000114", "Player", "2023", ""],
+        ["C000273", "P000012", "ORG000010", "Player", "", ""],
+        ["C000274", "P000012", "ORG000015", "Player", "", ""],
+        ["C000275", "P000012", "ORG000114", "Player", "2023", ""],
         ["C000276", "P000078", "ORG000010", "Player", "", ""],
         ["C000277", "P000078", "ORG000040", "Player", "2016", "2018"],
     ])
@@ -99,9 +99,9 @@ def main() -> None:
     ev(23, "Career", "C000272", "contract_season", "2026-27", "B6W1S0004", "契約合意本文", "継続契約を発表")
 
     # ジャン・ローレンス・ハーパージュニア
-    ev(24, "Person", "P000077", "name", "ジャン・ローレンス・ハーパージュニア", "B6W1S0006", "基本情報 > 選手名", "B.LEAGUE公式の現行氏名")
-    ev(25, "Person", "P000077", "name_en", "John Lawrence Harper Jr.", "B6W1S0006", "基本情報 > 英語表記", "B.LEAGUE公式表記")
-    ev(26, "Person", "P000077", "birth_date", "2003-02-09", "B6W1S0006", "基本情報 > 生年月日", "B.LEAGUE公式表記")
+    ev(24, "Person", "P000012", "name", "ジャン・ローレンス・ハーパージュニア", "B6W1S0006", "基本情報 > 選手名", "B.LEAGUE公式の現行氏名")
+    ev(25, "Person", "P000012", "name_en", "John Lawrence Harper Jr.", "B6W1S0006", "基本情報 > 英語表記", "B.LEAGUE公式表記")
+    ev(26, "Person", "P000012", "birth_date", "2003-02-09", "B6W1S0006", "基本情報 > 生年月日", "B.LEAGUE公式表記")
     ev(27, "Career", "C000273", "organization_id", "ORG000010", "B6W1S0005", "プレイヤー表 > No.31", "福岡第一高校ロスターに掲載")
     ev(28, "Career", "C000273", "role", "Player", "B6W1S0005", "プレイヤー表 > No.31", "大会公式選手ロスター")
     ev(29, "Career", "C000273", "activity_year", "2020", "B6W1S0005", "第96回天皇杯チームページ", "大会時点の高校所属")
@@ -148,9 +148,9 @@ def main() -> None:
         ["B6W1I0004", "P000076", "P000076", "NAME_VARIATION", "HOLD", "B.LEAGUEはクベマ スティーブ、クラブはスティーブ・クベマ・ジョセフと表記", "正式名と登録名を別項目で保持する将来設計を検討"],
         ["B6W1I0005", "P000076", "C000270|C000271", "EDUCATION_PERIOD", "HOLD", "高校・大学の開始年と終了年は未確認", "大会・大学連盟の公式ロスターを確認"],
         ["B6W1I0006", "P000076", "C000272", "PRO_HISTORY_GAPS", "HOLD", "八王子以前の静岡・品川Careerは今回の最小経路に未収録", "後続Waveでクラブ別Careerを追加"],
-        ["B6W1I0007", "P000077", "P000077", "NAME_VARIATION", "HOLD", "高校資料とB.LEAGUEで氏名の空白・中黒・順序に表記差がある", "原文表記をSourceごとに保持"],
-        ["B6W1I0008", "P000077", "C000273|C000274", "EDUCATION_PERIOD", "HOLD", "高校・大学の開始年と終了年は未確認", "期間を直接示す公式資料がある場合のみ更新"],
-        ["B6W1I0009", "P000077", "C000275", "PRO_HISTORY_GAPS", "HOLD", "最小経路として東京SRを候補化し、琉球・群馬の個別Careerは未作成", "後続Waveで特別指定Careerを追加"],
+        ["B6W1I0007", "P000012", "P000012", "NAME_VARIATION", "HOLD", "高校資料とB.LEAGUEで氏名の空白・中黒・順序に表記差がある", "原文表記をSourceごとに保持"],
+        ["B6W1I0008", "P000012", "C000273|C000274", "EDUCATION_PERIOD", "HOLD", "高校・大学の開始年と終了年は未確認", "期間を直接示す公式資料がある場合のみ更新"],
+        ["B6W1I0009", "P000012", "C000275", "PRO_HISTORY_GAPS", "HOLD", "最小経路として東京SRを候補化し、琉球・群馬の個別Careerは未作成", "後続Waveで特別指定Careerを追加"],
         ["B6W1I0010", "P000078", "P000078", "POST_HIGH_SCHOOL_GAP", "HOLD", "高校と2016-18福岡の間の大学・所属は未確認", "本人・クラブ・大学の公式経歴を確認"],
     ])
     write("qa_decisions.csv", ["decision_id", "entity_type", "entity_id", "decision", "eligible_fields", "held_fields", "reason", "reviewed_at"], [
@@ -162,7 +162,7 @@ def main() -> None:
         ["B6W1D0006", "Career", "C000270", "READY_FOR_VERIFIED_REVIEW", "organization_id", "role|start|end", "B.LEAGUE公式の高校欄で確認", CHECKED],
         ["B6W1D0007", "Career", "C000271", "HOLD_CANDIDATE", "organization_id", "role|start|end", "B.LEAGUE出身校表示のみ", CHECKED],
         ["B6W1D0008", "Career", "C000272", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|competition_participation|contract_season", "end", "B.LEAGUEとクラブ公式で確認", CHECKED],
-        ["B6W1D0009", "Person", "P000077", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date", "", "B.LEAGUE公式資料で確認", CHECKED],
+        ["B6W1D0009", "Person", "P000012", "READY_FOR_VERIFIED_REVIEW", "name|name_en|birth_date", "", "B.LEAGUE公式資料で確認。Pilot Batch 001の既存Person IDを継続", CHECKED],
         ["B6W1D0010", "Career", "C000273", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|activity_year", "start|end", "JBA公式大会ロスターで確認", CHECKED],
         ["B6W1D0011", "Career", "C000274", "READY_FOR_VERIFIED_REVIEW", "organization_id|role", "start|end", "B.LEAGUE・クラブ公式で確認", CHECKED],
         ["B6W1D0012", "Career", "C000275", "READY_FOR_VERIFIED_REVIEW", "organization_id|role|start|competition_participation|award|contract_season", "end", "B.LEAGUEとクラブ公式で確認", CHECKED],
