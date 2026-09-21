@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "verified" / "batch_006"
 OUTPUT = ROOT / "data" / "verified" / "approval_sprint_004"
-VERIFIED_COMMIT = "6f205e9"
+VERIFIED_COMMIT = "865415a"
 CREATED_AT = "2026-09-21"
 
 

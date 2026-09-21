@@ -12,7 +12,7 @@ Batch 006でVERIFIED候補となり、まだMasterに含まれていない4名�
 
 ## 対象版
 
-- Batch 006 VERIFIED：`6f205e9`
+- Batch 006 VERIFIED：`865415a`
 
 ## 件数
 
