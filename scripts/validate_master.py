@@ -32,7 +32,7 @@ def main() -> int:
         "Source": (len(sources), 43),
         "Evidence": (len(evidence), 251),
         "Approval": (len(approvals), 2),
-        "Publication": (len(publications), 1),
+        "Publication": (len(publications), 2),
     }
     for label, (actual, count) in expected.items():
         if actual != count:
@@ -89,18 +89,33 @@ def main() -> int:
                     f"approval {approval_id} {field}: expected {value}, got {approval[field]}"
                 )
 
-    if len(publications) == 1:
-        publication = publications[0]
-        required = {
+    publications_by_id = {row["publication_id"]: row for row in publications}
+    required_publications = {
+        "PUB-B005-20260921-01": {
             "publication_id": "PUB-B005-20260921-01",
             "approval_id": "APP-B005-20260921-01",
             "published_at": "2026-09-21",
             "site_url": "https://japanbasketballarchive.com/",
             "status": "LIVE",
-        }
+        },
+        "PUB-AS001-20260921-01": {
+            "publication_id": "PUB-AS001-20260921-01",
+            "approval_id": "APP-AS001-20260921-01",
+            "published_at": "2026-09-21",
+            "site_url": "https://japanbasketballarchive.com/",
+            "status": "LIVE",
+        },
+    }
+    for publication_id, required in required_publications.items():
+        publication = publications_by_id.get(publication_id)
+        if publication is None:
+            errors.append(f"publication missing: {publication_id}")
+            continue
         for field, value in required.items():
             if publication[field] != value:
-                errors.append(f"publication {field}: expected {value}, got {publication[field]}")
+                errors.append(
+                    f"publication {publication_id} {field}: expected {value}, got {publication[field]}"
+                )
 
     report = [
         "# MASTER検証レポート", "", "作成日：2026-09-21", "",

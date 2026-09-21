@@ -19,7 +19,7 @@
 | 11：Sponsor / Premium検証 | スポンサー企画と高度分析を小規模に試す | 編集判断との分離、提供価値、表示、契約条件を確認できる |
 | 12：B2B Data / API | CSV、API、調査、ライセンスを検討 | 利用規約、公開範囲、更新・訂正方法、データ版を合意できる |
 
-段階2の候補と検証を継続しながら、Batch 003〜005で21人・66 CareerのVERIFIED候補を作成した。Batch 005 Wave 1の4人・11 CareerとApproval Sprint 001の8人・18 Careerは、対象版・範囲を記録してMasterへ反映した。Masterは合計12人・29 Careerとなり、Approval Sprint 001の19 HOLDは含めていない。Batch 005 Wave 1は2026年9月21日に公開済みで、Approval Sprint 001は公開サイトへの反映作業中。今後も10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。確認中データは公開画面でも正式承認前と明示する。
+段階2の候補と検証を継続しながら、Batch 003〜005で21人・66 CareerのVERIFIED候補を作成した。Batch 005 Wave 1の4人・11 CareerとApproval Sprint 001の8人・18 Careerは、対象版・範囲を記録してMasterへ反映した。Masterは合計12人・29 Careerとなり、Approval Sprint 001の19 HOLDは含めていない。承認済み範囲は2026年9月21日に公開サイトへ反映した。今後も10〜20人単位でデータ量と品質を並行して高める。詳細は[DATA_SCALING_WORKFLOW_V0.1](DATA_SCALING_WORKFLOW_V0.1.md)に記録する。確認中データは公開画面でも正式承認前と明示する。
 
 Person / Career / Organization / Sourceを超えるスキーマ拡張や大規模実装は、目的と影響を説明し、Yuichiと合意してから行う。
 

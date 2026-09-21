@@ -16,4 +16,4 @@
 - Evidence：251件
 - Approval：2件
 
-Approval Sprint 001の19件のHOLD IssueはMasterに含めていない。公開サイト反映は別工程で行う。
+Approval Sprint 001の19件のHOLD IssueはMasterに含めていない。承認済み範囲は2026-09-21に公開サイトへ反映した。
