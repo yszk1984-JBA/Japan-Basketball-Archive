@@ -7,14 +7,15 @@
 - `APP-B005-20260921-01`：Batch 005 Wave 1
 - `APP-AS001-20260921-01`：Approval Sprint 001
 - `APP-AS002-20260921-01`：Approval Sprint 002
+- `APP-AS003-20260921-01`：Approval Sprint 003
 
 ## MASTER件数
 
-- Person：20件
-- Organization：31件
-- Career：61件
-- Source：64件
-- Evidence：427件
-- Approval：3件
+- Person：30件
+- Organization：41件
+- Career：91件
+- Source：102件
+- Evidence：573件
+- Approval：4件
 
-Approval Sprint 002の27件のHOLD IssueはMasterに含めていない。承認済み範囲は2026-09-21に公開サイトへ反映した。
+Approval Sprint 003の19件のHOLD IssueはMasterに含めていない。公開サイト反映は別工程で行う。

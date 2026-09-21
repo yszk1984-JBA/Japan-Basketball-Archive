@@ -1,4 +1,5 @@
 approval_id,batch,verified_commit,approved_scope,excluded_scope,approved_by,approved_at,approval_reference
 APP-AS001-20260921-01,Approval Sprint 001,2ac462c,"8 persons, 18 careers, 167 supported evidence",19 HOLD issues,Yuichi,2026-09-21,data/verified/approval_sprint_001/master_approval.md
 APP-AS002-20260921-01,Approval Sprint 002,4c29a0a,"8 persons, 32 careers, 183 supported evidence",27 HOLD issues,Yuichi,2026-09-21,data/verified/approval_sprint_002/master_approval.md
+APP-AS003-20260921-01,Approval Sprint 003,a25eed93913e7bc40d43fd5cc672304a48a840cd,"10 persons, 30 careers, 146 supported evidence",19 HOLD issues,Yuichi,2026-09-21,data/verified/approval_sprint_002/master_approval.md
 APP-B005-20260921-01,Batch 005 Wave 1,7093141,B5W1D0001-B5W1D0026 eligible_fields,held_fields 9件・HOLD Issue 9件,Yuichi,2026-09-21,data/verified/batch_005/master_approval.md
