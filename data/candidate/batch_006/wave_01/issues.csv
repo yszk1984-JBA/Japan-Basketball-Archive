@@ -1,0 +1,11 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B6W1I0001,P000075,C000267,HIGH_SCHOOL_PERIOD,HOLD,2014年8月時点の福岡第一高校3年を確認したが入学・卒業年月は未確認,期間を直接示す公式資料がある場合のみ更新
+B6W1I0002,P000075,C000268,UNIVERSITY_PERIOD,HOLD,日本体育大学はB.LEAGUE出身校表示のみで競技登録期間は未確認,大学・JUBF公式ロスターを確認
+B6W1I0003,P000075,C000269,PRO_HISTORY_GAPS,HOLD,最小経路として現在の山口を候補化し、横浜EX・岩手等の過去Careerは未作成,後続Waveでクラブ別Careerを追加
+B6W1I0004,P000076,P000076,NAME_VARIATION,HOLD,B.LEAGUEはクベマ スティーブ、クラブはスティーブ・クベマ・ジョセフと表記,正式名と登録名を別項目で保持する将来設計を検討
+B6W1I0005,P000076,C000270|C000271,EDUCATION_PERIOD,HOLD,高校・大学の開始年と終了年は未確認,大会・大学連盟の公式ロスターを確認
+B6W1I0006,P000076,C000272,PRO_HISTORY_GAPS,HOLD,八王子以前の静岡・品川Careerは今回の最小経路に未収録,後続Waveでクラブ別Careerを追加
+B6W1I0007,P000077,P000077,NAME_VARIATION,HOLD,高校資料とB.LEAGUEで氏名の空白・中黒・順序に表記差がある,原文表記をSourceごとに保持
+B6W1I0008,P000077,C000273|C000274,EDUCATION_PERIOD,HOLD,高校・大学の開始年と終了年は未確認,期間を直接示す公式資料がある場合のみ更新
+B6W1I0009,P000077,C000275,PRO_HISTORY_GAPS,HOLD,最小経路として東京SRを候補化し、琉球・群馬の個別Careerは未作成,後続Waveで特別指定Careerを追加
+B6W1I0010,P000078,P000078,POST_HIGH_SCHOOL_GAP,HOLD,高校と2016-18福岡の間の大学・所属は未確認,本人・クラブ・大学の公式経歴を確認
