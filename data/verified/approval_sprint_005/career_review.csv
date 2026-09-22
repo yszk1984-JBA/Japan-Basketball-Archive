@@ -1,0 +1,13 @@
+verified_batch,person_id,name,career_id,organization_id,role,start,end,organization_name,evidence_count,source_ids
+Batch 006 Wave 2,P000079,秋山 皓太,C000278,ORG000010,Player,,,福岡第一高等学校,3,B6W2S0002
+Batch 006 Wave 2,P000079,秋山 皓太,C000279,ORG000015,Player,,,東海大学,3,B6W2S0003|B6W2S0012
+Batch 006 Wave 2,P000079,秋山 皓太,C000280,ORG000115,Player,,,立川ダイス,3,B6W2S0003
+Batch 006 Wave 2,P000080,大城 侑朔,C000281,ORG000010,Player,,,福岡第一高等学校,3,B6W2S0004
+Batch 006 Wave 2,P000080,大城 侑朔,C000282,ORG000020,Player,,,日本体育大学,3,B6W2S0005|B6W2S0013
+Batch 006 Wave 2,P000080,大城 侑朔,C000283,ORG000111,Player,2017,2026,東京八王子ビートレインズ,5,B6W2S0005
+Batch 006 Wave 2,P000081,土居 光,C000284,ORG000010,,,,福岡第一高等学校,1,B6W2S0006
+Batch 006 Wave 2,P000081,土居 光,C000285,ORG000020,Player,,,日本体育大学,3,B6W2S0006
+Batch 006 Wave 2,P000081,土居 光,C000286,ORG000046,Player,2025,2026,アースフレンズ東京Z,5,B6W2S0007
+Batch 006 Wave 2,P000082,松本 礼太,C000287,ORG000010,,,,福岡第一高等学校,1,B6W2S0001
+Batch 006 Wave 2,P000082,松本 礼太,C000288,ORG000015,Player,,,東海大学,3,B6W2S0008|B6W2S0014
+Batch 006 Wave 2,P000082,松本 礼太,C000289,ORG000116,Player,2025,2026,徳島ガンバロウズ,5,B6W2S0009|B6W2S0010

@@ -1,0 +1,11 @@
+verified_batch,issue_id,person_id,name,related_id,issue_type,description,disposition
+Batch 006 Wave 2,B6W2I0001,P000079,秋山 皓太,C000278,HIGH_SCHOOL_PERIOD,2014年6月時点の福岡第一高校3年を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0002,P000079,秋山 皓太,C000279,UNIVERSITY_PERIOD,2018年の東海大学4年・公式戦登録を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0003,P000079,秋山 皓太,C000280,PRO_PERIOD,立川でのB3公式戦出場は確認したがCareer開始年・終了年は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0004,P000080,大城 侑朔,C000281,HIGH_SCHOOL_PERIOD,2011年4月時点の福岡第一高校2年を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0005,P000080,大城 侑朔,C000282,UNIVERSITY_PERIOD,2015年の日本体育大学3年・公式戦登録を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0006,P000081,土居 光,C000284,HIGH_SCHOOL_PERIOD,JUBFの出身校欄で福岡第一を確認したが高校の在籍期間は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0007,P000081,土居 光,C000285,UNIVERSITY_PERIOD,2019年の日本体育大学3年を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0008,P000082,松本 礼太,C000287,HIGH_SCHOOL_PERIOD,学校公式で卒業生関係を確認したが高校在籍期間は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0009,P000082,松本 礼太,C000288,UNIVERSITY_PERIOD,2021年の東海大学4年・公式戦登録を確認したが入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 006 Wave 2,B6W2I0010,P000082,松本 礼太,C000289,CURRENT_STATUS,2025-26徳島での出場は確認したが2026-27の契約・所属は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
