@@ -2,7 +2,7 @@
 
 更新日：2026-09-22
 
-状態：Wave 1は2026年9月22日にHuman Approval・Master反映完了、公開未実施。Wave 2の4人はCANDIDATEと構造QAまで進め、VERIFIED・HUMAN APPROVAL・MASTER・公開は未実施。
+状態：Wave 1は2026年9月22日にHuman Approval・Master反映完了、公開未実施。Wave 2の4人はCANDIDATE・構造QA・VERIFIED候補化まで完了し、HUMAN APPROVAL・MASTER・公開は未実施。
 
 ## 目的
 

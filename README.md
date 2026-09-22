@@ -41,6 +41,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補
+- [Batch 006 Wave 2 VERIFIED](data/verified/batch_006_wave_02/README.md)：次のプロ経験者4人についてQA通過項目だけを抽出した確認済み候補
 - [Approval Sprint 004](data/verified/approval_sprint_004/README.md)：Batch 006の4人を対象にしたHuman Approval資料と承認記録
 - [Batch 004 CANDIDATE](data/candidate/batch_004/README.md)：プロ優先バッチ。Wave 1の2人はCANDIDATE・構造QA完了
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
