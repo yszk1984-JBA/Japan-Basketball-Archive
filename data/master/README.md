@@ -8,12 +8,13 @@
 - Approval Sprint 001：8人・18 Career
 - Approval Sprint 002：8人・32 Career
 - Approval Sprint 003：10人・30 Career
-- Approval ID：`APP-B005-20260921-01`、`APP-AS001-20260921-01`、`APP-AS002-20260921-01`、`APP-AS003-20260921-01`
-- Person：30件
-- Career：91件
+- Approval Sprint 004：4人・9 Career
+- Approval ID：`APP-B005-20260921-01`、`APP-AS001-20260921-01`、`APP-AS002-20260921-01`、`APP-AS003-20260921-01`、`APP-AS004-20260922-01`
+- Person：34件
+- Career：100件
 - Evidence：573件
 - HOLD項目・HOLD Issue：含まない
-- 公開サイト反映：4件の承認を2026-09-21に反映済み
+- 公開サイト反映：Approval Sprint 003までの4件を2026-09-21に反映済み。Approval Sprint 004は未反映
 
 ## ファイル
 

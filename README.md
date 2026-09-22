@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001〜003についてYuichiのHuman Approvalを記録し、合計30人・91 CareerをMaster Dataへ反映しました。HOLD項目はMasterに含めていません。4件の承認範囲は2026年9月21日に公開サイトへ反映しました。
+Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001〜004についてYuichiのHuman Approvalを記録し、合計34人・100 CareerをMaster Dataへ反映しました。HOLD項目はMasterに含めていません。公開サイトはApproval Sprint 003までの30人・91 Careerを反映済みで、Approval Sprint 004は未反映です。
 
 ## 原則
 
@@ -41,7 +41,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補
-- [Approval Sprint 004](data/verified/approval_sprint_004/README.md)：Batch 006のHuman Approval用資料
+- [Approval Sprint 004](data/verified/approval_sprint_004/README.md)：Batch 006の4人を対象にしたHuman Approval資料と承認記録
 - [Batch 004 CANDIDATE](data/candidate/batch_004/README.md)：プロ優先バッチ。Wave 1の2人はCANDIDATE・構造QA完了
 - [BATCH_002_RESEARCH_PROMPTS](docs/BATCH_002_RESEARCH_PROMPTS.md)：Feloによる資料発見とGeminiによる公式資料精査の指示文
 - [Pilot Batch 001](data/candidate/pilot_batch_001/README.md)：5人分のCANDIDATE、項目別出典、未解決事項、構造QA
@@ -53,7 +53,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [Approval Sprint 001](data/verified/approval_sprint_001/README.md)：公開中のVERIFIED候補8人を対象にしたHuman Approval資料
 - [Approval Sprint 002](data/verified/approval_sprint_002/README.md)：プロ・B.LEAGUE優先8人のHuman Approval資料
 - [Approval Sprint 003](data/verified/approval_sprint_003/README.md)：Batch 002の10人を対象にしたHuman Approval資料と承認記録
-- [MASTER DATA](data/master/README.md)：Yuichiが明示的に承認した30人・91 Careerの正式データ
+- [MASTER DATA](data/master/README.md)：Yuichiが明示的に承認した34人・100 Careerの正式データ
 - [AGENTS](AGENTS.md)：このリポジトリで作業するAIへの指示
 
 ## 将来の配置

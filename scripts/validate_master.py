@@ -26,12 +26,12 @@ def main() -> int:
     publications = read("publication_records.csv")
 
     expected = {
-        "Person": (len(persons), 30),
-        "Organization": (len(organizations), 41),
-        "Career": (len(careers), 91),
-        "Source": (len(sources), 102),
-        "Evidence": (len(evidence), 573),
-        "Approval": (len(approvals), 4),
+        "Person": (len(persons), 34),
+        "Organization": (len(organizations), 43),
+        "Career": (len(careers), 100),
+        "Source": (len(sources), 111),
+        "Evidence": (len(evidence), 624),
+        "Approval": (len(approvals), 5),
         "Publication": (len(publications), 4),
     }
     for label, (actual, count) in expected.items():
@@ -93,6 +93,14 @@ def main() -> int:
             "approved_by": "Yuichi",
             "approved_at": "2026-09-21",
         },
+        "APP-AS004-20260922-01": {
+            "approval_id": "APP-AS004-20260922-01",
+            "verified_commit": "df85da5a3c302ce674cb6062565aa83b527a0fa2",
+            "approved_scope": "4 persons, 9 careers, 51 supported evidence",
+            "excluded_scope": "10 HOLD issues, 10 held fields",
+            "approved_by": "Yuichi",
+            "approved_at": "2026-09-22",
+        },
     }
     for approval_id, required in required_approvals.items():
         approval = approvals_by_id.get(approval_id)
@@ -148,7 +156,7 @@ def main() -> int:
                 )
 
     report = [
-        "# MASTER検証レポート", "", "作成日：2026-09-21", "",
+        "# MASTER検証レポート", "", "作成日：2026-09-22", "",
         "## 結果", "",
         f"- 検証：{'PASS' if not errors else 'FAIL'}",
         f"- エラー：{len(errors)}件",

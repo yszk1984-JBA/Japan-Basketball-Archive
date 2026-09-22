@@ -2,7 +2,7 @@
 
 作成日：2026-09-21
 
-状態：HUMAN APPROVAL待ち。MASTER未反映・公開未実施。
+状態：2026年9月22日にYuichi承認済み。MASTER反映済み・公開未実施。
 
 ## 対象
 
@@ -28,4 +28,4 @@ Batch 006でVERIFIED候補となり、まだMasterに含まれていない4名�
 
 `evidence_review.csv`のSUPPORTED Evidenceと、対応するPerson・Career・Organizationだけが承認候補。`hold_review.csv`と`held_fields_review.csv`は対象外で、不明値を補わない。
 
-この資料の作成はHuman Approvalではない。Yuichiが対象版と範囲を明示して承認した後に限り、Masterへ反映できる。
+Human Approvalは[master_approval.md](master_approval.md)に記録した。承認対象外のHOLD Issueと保留フィールドはMasterに含めていない。

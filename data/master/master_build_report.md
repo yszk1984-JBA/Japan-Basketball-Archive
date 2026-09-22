@@ -1,6 +1,6 @@
 # MASTER反映レポート
 
-作成日：2026-09-21
+作成日：2026-09-22
 
 ## 反映済み承認
 
@@ -8,14 +8,15 @@
 - `APP-AS001-20260921-01`：Approval Sprint 001
 - `APP-AS002-20260921-01`：Approval Sprint 002
 - `APP-AS003-20260921-01`：Approval Sprint 003
+- `APP-AS004-20260922-01`：Approval Sprint 004
 
 ## MASTER件数
 
-- Person：30件
-- Organization：41件
-- Career：91件
-- Source：102件
-- Evidence：573件
-- Approval：4件
+- Person：34件
+- Organization：43件
+- Career：100件
+- Source：111件
+- Evidence：624件
+- Approval：5件
 
-Approval Sprint 003の19件のHOLD IssueはMasterに含めていない。承認済みの10人・30 Careerは2026年9月21日に公開サイトへ反映した。
+Approval Sprint 004の10件のHOLD Issueと10件の保留フィールドはMasterに含めていない。公開サイト反映は別工程で行う。
