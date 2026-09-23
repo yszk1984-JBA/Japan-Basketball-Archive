@@ -73,15 +73,6 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B6W2S0013",
-    "title": "第67回全日本大学バスケットボール選手権 日本体育大学ロスター",
-    "publisher": "全日本大学バスケットボール連盟",
-    "url": "https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2015/s/men",
-    "location": "日本体育大学ROSTER > No.14 大城侑朔 / ROSTER > 3年・大会年2015",
-    "accessedAt": "2026-09-22",
-    "dataStatus": "candidate"
-  },
-  {
     "id": "B6W2S0005",
     "title": "大城侑朔 B.LEAGUE公式選手プロフィール",
     "publisher": "B.LEAGUE",
@@ -96,6 +87,15 @@ export const candidateSources = [
     "publisher": "日本バスケットボール協会",
     "url": "https://www.japanbasketball.jp/wp-content/uploads/2ecfbc3e55987cf0d0eee45695bc35cf.pdf",
     "location": "PDF 選手表 > 大城侑朔 > 生年月日 / PDF 選手表 > 大城侑朔 > 所属 / PDF 選手表 > 大城侑朔 / PDF 注記 > 所属・年齢基準日",
+    "accessedAt": "2026-09-22",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B6W2S0013",
+    "title": "第67回全日本大学バスケットボール選手権 日本体育大学ロスター",
+    "publisher": "全日本大学バスケットボール連盟",
+    "url": "https://jubf.jp/game/university-detail/id/5/type/intercollege/y/2015/s/men",
+    "location": "日本体育大学ROSTER > No.14 大城侑朔 / ROSTER > 3年・大会年2015",
     "accessedAt": "2026-09-22",
     "dataStatus": "candidate"
   },
@@ -118,11 +118,11 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B6W2S0009",
-    "title": "松本礼太 B3所属選手プロフィール",
-    "publisher": "B.LEAGUE",
-    "url": "https://www.bleague.jp/roster_detail/?PlayerID=49711",
-    "location": "クラブ所属履歴 > 2025-26 徳島 / 2025-26シーズン終了時",
+    "id": "B6W2S0001",
+    "title": "福岡第一高等学校 学校案内2022",
+    "publisher": "福岡第一高等学校",
+    "url": "https://f.f-parama.ed.jp/wp-content/uploads/2022/01/panf2022.pdf",
+    "location": "学校案内 > Bリーグ所属卒業生 > 松本礼太 / 学校案内表紙・発行元",
     "accessedAt": "2026-09-22",
     "dataStatus": "candidate"
   },
@@ -136,24 +136,6 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B6W2S0008",
-    "title": "松本礼太 B.LEAGUE公式選手プロフィール",
-    "publisher": "B.LEAGUE",
-    "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000138",
-    "location": "基本情報 > 選手名 / 基本情報 > 英語表記 / 基本情報 > 生年月日 / 基本情報 > 出身校",
-    "accessedAt": "2026-09-22",
-    "dataStatus": "candidate"
-  },
-  {
-    "id": "B6W2S0001",
-    "title": "福岡第一高等学校 学校案内2022",
-    "publisher": "福岡第一高等学校",
-    "url": "https://f.f-parama.ed.jp/wp-content/uploads/2022/01/panf2022.pdf",
-    "location": "学校案内 > Bリーグ所属卒業生 > 松本礼太 / 学校案内表紙・発行元",
-    "accessedAt": "2026-09-22",
-    "dataStatus": "candidate"
-  },
-  {
     "id": "B6W2S0010",
     "title": "徳島ガンバロウズ 2025-26チーム成績",
     "publisher": "B3リーグ",
@@ -163,21 +145,21 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B7S0026",
-    "title": "富樫勇樹 - Wikipedia",
-    "publisher": "Wikipedia",
-    "url": "https://ja.wikipedia.org/wiki/富樫勇樹",
-    "location": "本文 > モントローズ・クリスチャン高校に進学 / 本文 > 9月28日にNBLの千葉ジェッツとの契約合意が発表 / 本文 > アーリーエントリー制度を用いて秋田ノーザンハピネッツに入団 / 本文 > 秋田ノーザンハピネッツ（2012年12月〜2014年6月） / 本文 > テキサス・レジェンズ（NBA傘下Dリーグ、2014年11月〜2015年2月） / 本文 > 2014年秋に契約し、11月17日に到着 / 本文 > 2月の足首捻挫後は回復が思わしくなかった / 経歴 > 新発田市立本丸中学校でミニバスから育ち、中学3年時に全国大会で優勝 / 経歴 > バスケットボール部に所属 / 経歴 > 中学卒業後にアメリカへ留学し、モントロス・クリスチャン高等学校（メリーランド州）に進学",
-    "accessedAt": "2026-09-23",
+    "id": "B6W2S0009",
+    "title": "松本礼太 B3所属選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=49711",
+    "location": "クラブ所属履歴 > 2025-26 徳島 / 2025-26シーズン終了時",
+    "accessedAt": "2026-09-22",
     "dataStatus": "candidate"
   },
   {
-    "id": "B7S0027",
-    "title": "富樫 勇樹｜指揮官の信頼も厚い男子日本代表キャプテン",
-    "publisher": "日本バスケットボール協会(JBA)",
-    "url": "https://okinawa-basketball.japanbasketball.jp/column/2023/08/785",
-    "location": "本文 > 渡米しワシントンDC郊外にあるモントロス・クリスチャン高校へ進学した",
-    "accessedAt": "2026-09-23",
+    "id": "B6W2S0008",
+    "title": "松本礼太 B.LEAGUE公式選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000138",
+    "location": "基本情報 > 選手名 / 基本情報 > 英語表記 / 基本情報 > 生年月日 / 基本情報 > 出身校",
+    "accessedAt": "2026-09-22",
     "dataStatus": "candidate"
   },
   {
@@ -208,11 +190,38 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
+    "id": "B7S0027",
+    "title": "富樫 勇樹｜指揮官の信頼も厚い男子日本代表キャプテン",
+    "publisher": "日本バスケットボール協会(JBA)",
+    "url": "https://okinawa-basketball.japanbasketball.jp/column/2023/08/785",
+    "location": "本文 > 渡米しワシントンDC郊外にあるモントロス・クリスチャン高校へ進学した",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0026",
+    "title": "富樫勇樹 - Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://ja.wikipedia.org/wiki/富樫勇樹",
+    "location": "本文 > モントローズ・クリスチャン高校に進学 / 本文 > 9月28日にNBLの千葉ジェッツとの契約合意が発表 / 本文 > アーリーエントリー制度を用いて秋田ノーザンハピネッツに入団 / 本文 > 秋田ノーザンハピネッツ（2012年12月〜2014年6月） / 本文 > テキサス・レジェンズ（NBA傘下Dリーグ、2014年11月〜2015年2月） / 本文 > 2014年秋に契約し、11月17日に到着 / 本文 > 2月の足首捻挫後は回復が思わしくなかった / 経歴 > 新発田市立本丸中学校でミニバスから育ち、中学3年時に全国大会で優勝 / 経歴 > バスケットボール部に所属 / 経歴 > 中学卒業後にアメリカへ留学し、モントロス・クリスチャン高等学校（メリーランド州）に進学",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
     "id": "B7S0002",
     "title": "比江島慎 B.LEAGUE公式選手プロフィール",
     "publisher": "B.LEAGUE",
     "url": "https://www.bleague.jp/roster_detail/?PlayerID=8589",
     "location": "選手プロフィール > 選手名 / 選手プロフィール > 英語表記 / 選手プロフィール > 生年月日 / プロフィール > 出身校（高） / プロフィール > 出身校（大） / クラブ所属履歴 > 2026-27シーズン 宇都宮ブレックス",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0008",
+    "title": "五十嵐圭や篠山竜青など名ポイントガードを多数輩出…Bリーグで活躍する北陸高校OB",
+    "publisher": "バスケットボールキング",
+    "url": "https://basketballking.jp/news/japan/highschool/20200713/239606.html",
+    "location": "本文 > 2004年に北陸に入学し / 本文 > 3年次のインターハイ優勝、ウインターカップベスト5",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -244,47 +253,11 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B7S0008",
-    "title": "五十嵐圭や篠山竜青など名ポイントガードを多数輩出…Bリーグで活躍する北陸高校OB",
-    "publisher": "バスケットボールキング",
-    "url": "https://basketballking.jp/news/japan/highschool/20200713/239606.html",
-    "location": "本文 > 2004年に北陸に入学し / 本文 > 3年次のインターハイ優勝、ウインターカップベスト5",
-    "accessedAt": "2026-09-23",
-    "dataStatus": "candidate"
-  },
-  {
-    "id": "B7S0006",
-    "title": "齋藤拓実 名古屋ダイヤモンドドルフィンズ公式選手プロフィール",
-    "publisher": "名古屋ダイヤモンドドルフィンズ",
-    "url": "https://nagoya-dolphins.jp/team/players/detail/id=14611?PlayerID=14301",
-    "location": "選手プロフィール > 出身校",
-    "accessedAt": "2026-09-23",
-    "dataStatus": "candidate"
-  },
-  {
     "id": "B7S0005",
     "title": "齋藤拓実 B.LEAGUE公式選手プロフィール",
     "publisher": "B.LEAGUE",
     "url": "https://www.bleague.jp/roster_detail/?PlayerID=14301",
     "location": "選手プロフィール > 選手名 / 選手プロフィール > 英語表記 / 選手プロフィール > 生年月日 / クラブ所属履歴 > 2026-27シーズン 名古屋ダイヤモンドドルフィンズ / 出身校欄 > 桐光学園高等学校 / 経歴概要 > 明治大学を経て2017年にアルバルク東京でプロバスケットボール人生をスタート",
-    "accessedAt": "2026-09-23",
-    "dataStatus": "candidate"
-  },
-  {
-    "id": "B7S0029",
-    "title": "（２）バスケットボール部 齋藤拓実",
-    "publisher": "明大スポーツ新聞部",
-    "url": "https://meisupo.net/news/8783/",
-    "location": "本文 > 2014年5月時点で1年生（営１）と明記",
-    "accessedAt": "2026-09-23",
-    "dataStatus": "candidate"
-  },
-  {
-    "id": "B7S0028",
-    "title": "齋藤拓実 - Wikipedia",
-    "publisher": "Wikipedia",
-    "url": "https://ja.wikipedia.org/wiki/齋藤拓実",
-    "location": "本文 > 桐光学園に進学",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -298,11 +271,29 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B7S0010",
-    "title": "田中大貴 東京サンロッカーズ公式選手プロフィール",
-    "publisher": "東京サンロッカーズ",
-    "url": "https://www.sunrockers.jp/team/players/detail/id=16564?PlayerID=9037",
-    "location": "所属クラブの変遷 > 東京サンロッカーズ渋谷（2023-24シーズン以降現在）",
+    "id": "B7S0029",
+    "title": "（２）バスケットボール部 齋藤拓実",
+    "publisher": "明大スポーツ新聞部",
+    "url": "https://meisupo.net/news/8783/",
+    "location": "本文 > 2014年5月時点で1年生（営１）と明記",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0006",
+    "title": "齋藤拓実 名古屋ダイヤモンドドルフィンズ公式選手プロフィール",
+    "publisher": "名古屋ダイヤモンドドルフィンズ",
+    "url": "https://nagoya-dolphins.jp/team/players/detail/id=14611?PlayerID=14301",
+    "location": "選手プロフィール > 出身校",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0028",
+    "title": "齋藤拓実 - Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://ja.wikipedia.org/wiki/齋藤拓実",
+    "location": "本文 > 桐光学園に進学",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -312,6 +303,15 @@ export const candidateSources = [
     "publisher": "B.LEAGUE",
     "url": "https://www.bleague.jp/roster_detail/?PlayerID=9037",
     "location": "基本情報 > 選手名 / 基本情報 > 生年月日 / プロフィール > 出身校",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0010",
+    "title": "田中大貴 東京サンロッカーズ公式選手プロフィール",
+    "publisher": "東京サンロッカーズ",
+    "url": "https://www.sunrockers.jp/team/players/detail/id=16564?PlayerID=9037",
+    "location": "所属クラブの変遷 > 東京サンロッカーズ渋谷（2023-24シーズン以降現在）",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -334,6 +334,15 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
+    "id": "B7S0013",
+    "title": "岸本隆一 B.LEAGUE公式選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8655",
+    "location": "選手プロフィール > 選手名 / 選手プロフィール > 生年月日",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
     "id": "B7S0015",
     "title": "ワタシノB.LEAGUE選手一覧 | 沖縄県立北中城高等学校",
     "publisher": "B.LEAGUE",
@@ -352,11 +361,11 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B7S0013",
-    "title": "岸本隆一 B.LEAGUE公式選手プロフィール",
-    "publisher": "B.LEAGUE",
-    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8655",
-    "location": "選手プロフィール > 選手名 / 選手プロフィール > 生年月日",
+    "id": "B7S0031",
+    "title": "西田優大 - Wikipedia",
+    "publisher": "Wikipedia",
+    "url": "https://ja.wikipedia.org/wiki/西田優大",
+    "location": "本文 > 3年次が2019年12月 / 本文 > 4年次が2020年12月",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -370,11 +379,11 @@ export const candidateSources = [
     "dataStatus": "candidate"
   },
   {
-    "id": "B7S0031",
-    "title": "西田優大 - Wikipedia",
-    "publisher": "Wikipedia",
-    "url": "https://ja.wikipedia.org/wiki/西田優大",
-    "location": "本文 > 3年次が2019年12月 / 本文 > 4年次が2020年12月",
+    "id": "B7S0021",
+    "title": "【トッププレーヤーの高校時代】金丸晃輔「バスケをはじめたきっかけは、ダイエット」（前編）",
+    "publisher": "バスケットボールキング",
+    "url": "https://basketballking.jp/news/japan/b1/20201124/298048.html",
+    "location": "本文 > 高校進学時、大濠高校への進学を決定 / 本文 > 高校では1年生からメンバー入り",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -402,15 +411,6 @@ export const candidateSources = [
     "publisher": "Meiji NOW（明治大学）",
     "url": "https://meijinow.jp/senior/interview/8831",
     "location": "記事本文 > 2011年政治経済学部卒 / 記事冒頭 > 明大在学時にはバスケットボール部主将を務め / 本文 > 金丸 晃輔さん〈2011年政治経済学部卒〉",
-    "accessedAt": "2026-09-23",
-    "dataStatus": "candidate"
-  },
-  {
-    "id": "B7S0021",
-    "title": "【トッププレーヤーの高校時代】金丸晃輔「バスケをはじめたきっかけは、ダイエット」（前編）",
-    "publisher": "バスケットボールキング",
-    "url": "https://basketballking.jp/news/japan/b1/20201124/298048.html",
-    "location": "本文 > 高校進学時、大濠高校への進学を決定 / 本文 > 高校では1年生からメンバー入り",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   },
@@ -492,6 +492,42 @@ export const candidateSources = [
     "publisher": "B.LEAGUE",
     "url": "https://www.bleague.jp/roster_detail/?PlayerID=8467",
     "location": "基本情報 > 選手名 / 基本情報 > 生年月日1992年7月15日 / Wikipedia > 経歴 > 出身高校：明成高校（仙台大学附属明成高等学校） / 同上 / Wikipedia > 経歴 > 出身大学：明治大学 / クラブ所属履歴 > 2026-27 A千葉",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0043",
+    "title": "水戸健史 B.LEAGUE公式選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8501",
+    "location": "基本情報 > 選手名 / 基本情報 > 生年月日1985年4月23日 / プロフィール > 出身校（大）：近畿大学 / プロフィール > 出身校（大） / クラブ所属履歴 > 2026-27 富山（2016-17シーズンより継続） / クラブ所属履歴 > 2026-27 富山",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0044",
+    "title": "古川孝敏 B.LEAGUE公式選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8500",
+    "location": "基本情報 > 選手名 / 基本情報 > 生年月日1987年10月20日 / プロフィール > 出身校（大）：東海大学 / プロフィール > 出身校（大） / クラブ所属履歴 > 2026-27 信州",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0045",
+    "title": "田原隆徳 B.LEAGUE公式選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=10297",
+    "location": "基本情報 > 選手名 / 基本情報 > 生年月日1994年4月25日 / プロフィール > 出身校（高）：北海道恵庭南高等学校 / プロフィール > 出身校（高） / プロフィール > 出身校（大）：札幌大学 / プロフィール > 出身校（大） / クラブ所属履歴 > 2026-27 滋賀（3年連続所属） / クラブ所属履歴 > 2026-27 滋賀",
+    "accessedAt": "2026-09-23",
+    "dataStatus": "candidate"
+  },
+  {
+    "id": "B7S0046",
+    "title": "白濱僚祐 B.LEAGUE公式選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8734",
+    "location": "基本情報 > 選手名 / 基本情報 > 生年月日1991年8月29日 / プロフィール > 出身校（高）：佐賀県立佐賀北高等学校 / プロフィール > 出身校（高） / プロフィール > 出身校（大）：白鴎大学 / プロフィール > 出身校（大） / クラブ所属履歴 > 2026-27 島根（2021-22シーズンより継続） / クラブ所属履歴 > 2026-27 島根",
     "accessedAt": "2026-09-23",
     "dataStatus": "candidate"
   }
@@ -1784,6 +1820,200 @@ export const candidatePlayers = [
         "status": "candidate",
         "sourceIds": [
           "B7S0042"
+        ]
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "P000099",
+    "slug": "p000099",
+    "name": "水戸健史",
+    "cardContext": "期間未確認 · 富山グラウジーズ",
+    "dataStatus": "candidate",
+    "approvalId": null,
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1985年4月23日",
+        "context": "B.LEAGUE公式の生年月日",
+        "sourceIds": [
+          "B7S0043"
+        ]
+      }
+    ],
+    "careers": [
+      {
+        "id": "C000343",
+        "period": "期間未確認",
+        "organization": "近畿大学",
+        "organizationId": "ORG000148",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0043"
+        ]
+      },
+      {
+        "id": "C000344",
+        "period": "期間未確認",
+        "organization": "富山グラウジーズ",
+        "organizationId": "ORG000149",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0043"
+        ]
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "P000100",
+    "slug": "p000100",
+    "name": "古川孝敏",
+    "cardContext": "期間未確認 · 信州ブレイブウォリアーズ",
+    "dataStatus": "candidate",
+    "approvalId": null,
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1987年10月20日",
+        "context": "B.LEAGUE公式の生年月日",
+        "sourceIds": [
+          "B7S0044"
+        ]
+      }
+    ],
+    "careers": [
+      {
+        "id": "C000345",
+        "period": "期間未確認",
+        "organization": "東海大学",
+        "organizationId": "ORG000015",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0044"
+        ]
+      },
+      {
+        "id": "C000346",
+        "period": "期間未確認",
+        "organization": "信州ブレイブウォリアーズ",
+        "organizationId": "ORG000150",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0044"
+        ]
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "P000101",
+    "slug": "p000101",
+    "name": "田原隆徳",
+    "cardContext": "期間未確認 · 滋賀レイクス",
+    "dataStatus": "candidate",
+    "approvalId": null,
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1994年4月25日",
+        "context": "B.LEAGUE公式の生年月日",
+        "sourceIds": [
+          "B7S0045"
+        ]
+      }
+    ],
+    "careers": [
+      {
+        "id": "C000347",
+        "period": "期間未確認",
+        "organization": "北海道恵庭南高等学校",
+        "organizationId": "ORG000151",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0045"
+        ]
+      },
+      {
+        "id": "C000348",
+        "period": "期間未確認",
+        "organization": "札幌大学",
+        "organizationId": "ORG000152",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0045"
+        ]
+      },
+      {
+        "id": "C000349",
+        "period": "期間未確認",
+        "organization": "滋賀レイクス",
+        "organizationId": "ORG000153",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0045"
+        ]
+      }
+    ],
+    "aliases": []
+  },
+  {
+    "id": "P000102",
+    "slug": "p000102",
+    "name": "白濱僚祐",
+    "cardContext": "期間未確認 · 島根スサノオマジック",
+    "dataStatus": "candidate",
+    "approvalId": null,
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1991年8月29日",
+        "context": "B.LEAGUE公式の生年月日",
+        "sourceIds": [
+          "B7S0046"
+        ]
+      }
+    ],
+    "careers": [
+      {
+        "id": "C000350",
+        "period": "期間未確認",
+        "organization": "佐賀県立佐賀北高等学校",
+        "organizationId": "ORG000154",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0046"
+        ]
+      },
+      {
+        "id": "C000351",
+        "period": "期間未確認",
+        "organization": "白鷗大学",
+        "organizationId": "ORG000093",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0046"
+        ]
+      },
+      {
+        "id": "C000352",
+        "period": "期間未確認",
+        "organization": "島根スサノオマジック",
+        "organizationId": "ORG000155",
+        "detail": "選手",
+        "status": "candidate",
+        "sourceIds": [
+          "B7S0046"
         ]
       }
     ],

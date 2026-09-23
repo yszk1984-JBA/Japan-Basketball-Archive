@@ -1,0 +1,2 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B7I0023,ALL,ALL,CLUB_HISTORY_SCOPE,HOLD,Wave 1・3・5と同様、本Waveでも各選手の現所属クラブのみをCareerとして記録し、過去の所属クラブ（例：田原隆徳の山形・群馬・大阪・宇都宮・栃木・北海道、白濱僚祐の秋田、古川孝敏の京都・秋田・琉球・栃木、水戸健史は富山一筋で該当なし）は対象外とした。OrganizationAlias・組織承継ルールの未解決自体はBatch 004のB4W3I0011・Batch 007のB7I0013・B7I0022から変わっていない。,OrganizationAlias・組織承継ルールをYuichiと合意してから過去クラブ経歴を追加する
