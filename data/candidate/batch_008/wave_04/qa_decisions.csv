@@ -1,0 +1,5 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B8W4D0001,Person,P000127,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-24
+B8W4D0002,Career,C000437,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィール・出身校タグ一覧の独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W4D0003,Career,C000438,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-24
+B8W4D0004,Career,C000439,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-24
