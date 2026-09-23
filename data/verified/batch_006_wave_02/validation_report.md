@@ -4,8 +4,8 @@
 
 ## 結果
 
-- 検証：PASS
-- エラー：0件
+- 検証：FAIL
+- エラー：1件
 - Person：4件
 - Career：12件
 - Organization：7件
@@ -17,4 +17,4 @@
 
 ## エラー
 
-- なし
+- Masterに存在するPersonが新規VERIFIEDへ混入

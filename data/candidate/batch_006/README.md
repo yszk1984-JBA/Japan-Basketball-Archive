@@ -2,7 +2,7 @@
 
 作成日：2026-09-22
 
-状態：Wave 1の4人は2026年9月22日にHuman Approval・Master反映完了、公開未実施。Wave 2の4人はCANDIDATE・構造QA・VERIFIED候補化まで完了し、HUMAN APPROVAL・MASTER・公開は未実施。
+状態：Wave 1の4人は2026年9月22日、Wave 2の4人は2026年9月23日（Approval Sprint 005、承認ID APP-AS005-20260923-01）にHuman Approval・Master反映完了、いずれも公開未実施。
 
 MVPの選手数拡充を優先し、福岡第一高校を経由したB.LEAGUE・プロ選手を追加する。
 

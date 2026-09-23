@@ -6,12 +6,12 @@
 
 - 検証：PASS
 - エラー：0件
-- Person：34件
-- Organization：42件
-- Career：100件
-- Source：111件
-- Evidence：624件
-- Approval：6件
+- Person：38件
+- Organization：44件
+- Career：112件
+- Source：124件
+- Evidence：681件
+- Approval：7件
 - Publication：4件
 
 ## エラー

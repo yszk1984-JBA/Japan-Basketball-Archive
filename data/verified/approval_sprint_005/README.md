@@ -2,7 +2,7 @@
 
 作成日：2026-09-22
 
-状態：HUMAN APPROVAL待ち。MASTER未反映・公開未実施。
+状態：2026-09-23にYuichiがHuman Approval（APP-AS005-20260923-01）。Masterへ反映済み。公開未実施。
 
 ## 対象
 
