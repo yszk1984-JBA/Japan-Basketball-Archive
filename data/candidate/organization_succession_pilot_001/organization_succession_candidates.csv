@@ -1,0 +1,3 @@
+succession_id,predecessor_organization_id,predecessor_name,successor_organization_id,successor_name,effective_date,effective_date_precision,reason,source_id,source_locator,assessment
+OSC0001,ORG000163,湘南ユナイテッドBC,ORG000050,ウォルガ湘南,2026,season,NAME_CHANGE,OSS0001,本文 > 「このたび、湘南ユナイテッドBCは、2026-27シーズンよりクラブ名称を「ウォルガ湘南」へ変更いたします」,SUPPORTED
+OSC0002,ORG000164,東芝ブレイブサンダース,ORG000122,川崎ブレイブサンダース,2016-07-01,day,NAME_CHANGE,OSS0002,沿革 > 「2016年7月1日、正式クラブ名を『東芝川崎ブレイブサンダース』、リーグでのチーム呼称を『川崎ブレイブサンダース』に変更した」,SUPPORTED

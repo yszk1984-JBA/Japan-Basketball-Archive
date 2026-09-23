@@ -2,7 +2,7 @@
 
 作成日：2026-09-23
 
-状態：将来設計案。スキーマ拡張・VERIFIED・Master・公開実装は未承認。Yuichiとの合意待ち。
+状態：将来設計案。2026-09-23、Yuichiと下記3点を合意（Option A採用、承継範囲は名称変更のみ、公開表示は保留）。CANDIDATE試験データを[organization_succession_pilot_001](../data/candidate/organization_succession_pilot_001/README.md)として作成。スキーマ正式採用・VERIFIED・HUMAN APPROVAL・Master反映・公開実装は未承認。
 
 ## 目的
 
@@ -65,15 +65,19 @@ Organization本体に`predecessor_organization_id`のような列を追加する
 **長所**：追加実装が不要。
 **短所**：上記の限界（横断検索不可、表示不可、書式不統一）が残り続け、深掘りを進めるほど問題が蓄積する。
 
-## 論点（Yuichiの判断が必要な点）
+## 論点（2026-09-23、Yuichiと合意した内容）
 
-1. **スキーマ拡張の方針**：Option A／B／Cのいずれで進めるか。（AI提案：Option A）
-2. **「改称」とみなす範囲**：単純な名称変更（同一運営主体・同一リーグ登録の連続性）に限定するか、事例3のような運営権の異動（東芝→DeNA）も同じ仕組みで扱うか。両者は法的性質が異なる可能性があるため、`reason`の分類（例：NAME_CHANGE / OWNERSHIP_TRANSFER）を分けるかどうかも論点。
-3. **公開サイトでの見せ方**：Option Aを採用した場合、承認（Master反映）後に「現在の名称（旧称：〜）」のような表示を追加するか、当面は内部管理のみに留めるか。
+1. **スキーマ拡張の方針**：Option Aを採用。中心4エンティティ（Person/Organization/Career/Source）は変更せず、`organization_successions.csv`を付随ファイルとして追加する。
+2. **「改称」とみなす範囲**：名称変更のみを対象とする。東芝→DeNAのような運営権の異動は今回のreason分類（`NAME_CHANGE`）には含めず、別途検討する（`OWNERSHIP_TRANSFER`等の扱いは未定義のまま保留）。
+3. **公開サイトでの見せ方**：今回は保留。スキーマ・Master反映の方針が固まった後、別途検討する。
 
-## 小規模試験（案）
+## 小規模試験（実施済み・2026-09-23）
 
-Option Aで合意が得られた場合、まず前掲の3事例（サンロッカーズ渋谷→東京サンロッカーズ、湘南ユナイテッドBC→ウォルガ湘南、東芝ブレイブサンダース→川崎ブレイブサンダース）を`organization_successions.csv`のCANDIDATE試験データとして作成し、構造検証（重複・出典・参照整合性）を行う。事例3の中間名称「東芝ブレイブサンダース神奈川」を別リンクとして追加するかどうかも、この試験の中で判断する。
+[organization_succession_pilot_001](../data/candidate/organization_succession_pilot_001/README.md)として、湘南ユナイテッドBC→ウォルガ湘南、東芝ブレイブサンダース→川崎ブレイブサンダースの2件をCANDIDATE試験データ化し、構造検証（重複・出典・参照整合性）はPASSした。
+
+サンロッカーズ渋谷→東京サンロッカーズは、改称前の名称「サンロッカーズ渋谷」がOrganizationとして一度も登録されていない（対応するCareerが存在しないため）ことが判明し、今回のPilotには含めていない。predecessor_organization_idの参照先を作るためだけにOrganizationを新規登録すべきかどうかは、新たな論点としてYuichiの判断を仰ぐ。
+
+事例3の中間名称「東芝ブレイブサンダース神奈川」（2013年）は、今回もPilotでは分離せず簡略化している。
 
 ## Governance
 
