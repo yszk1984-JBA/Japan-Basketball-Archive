@@ -10,6 +10,7 @@ import {
   organizationSlugAliases,
   organizations,
 } from '../../public-data';
+import { baseOpenGraph, JsonLd, organizationJsonLd, SiteLinks } from '../../seo';
 
 export function generateStaticParams() {
   return [
@@ -24,10 +25,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!organization) return {};
 
+  const playerCount = getOrganizationPlayers(organization.id).length;
+  const title = `${organization.name}の選手一覧（${playerCount}人）`;
+  const description = `${organization.name}に所属記録のある選手${playerCount}人の経歴・所属を、出典とともに掲載しています。`;
+
   return {
-    title: organization.name,
-    description: `${organization.name}に関する、出典付き候補データの一覧です。`,
+    title,
+    description,
     alternates: { canonical: `/organizations/${organization.slug}` },
+    openGraph: { ...baseOpenGraph, title, description, url: `/organizations/${organization.slug}` },
   };
 }
 
@@ -44,7 +50,8 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
 
   return (
     <main className="detail-shell">
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><span>Prototype · 確認中</span></nav>
+      <JsonLd data={organizationJsonLd(organization)} />
+      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><SiteLinks /><span>Prototype · 確認中</span></nav>
       <header className="organization-header"><p className="eyebrow">Organization · {organization.id}</p><h1>{organization.name}</h1></header>
       <section className="roster-section"><div className="section-heading"><div><p className="eyebrow">Approved Master</p><h2>承認済み人物</h2></div><span>{masterPlayers.length} records</span></div><div className="roster-list">{masterPlayers.map((player) => <a href={`/players/${player.slug}`} key={player.id}><span className="number">M</span><div><strong>{player.name}</strong><p>{player.cardContext} · {player.id} · Master</p></div><ArrowRight size={19} /></a>)}</div></section>
       <section className="roster-section"><div className="section-heading"><div><p className="eyebrow">Candidate records</p><h2>確認中の人物</h2></div><span>{candidatePlayers.length} records</span></div><div className="roster-list">{candidatePlayers.map((player) => <a href={`/players/${player.slug}`} key={player.id}><span className="number">{player.facts.find((fact) => fact.label === '背番号')?.value ?? '—'}</span><div><strong>{player.name}</strong><p>{player.cardContext} · {player.id}</p></div><ArrowRight size={19} /></a>)}</div></section>

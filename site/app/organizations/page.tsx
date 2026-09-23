@@ -2,6 +2,7 @@
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getOrganizationPlayers, organizations } from '../public-data';
+import { SiteLinks } from '../seo';
 
 export const metadata: Metadata = {
   title: '組織一覧',
@@ -21,7 +22,7 @@ export default function OrganizationsIndexPage() {
 
   return (
     <main className="detail-shell">
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><span>Prototype · 確認中</span></nav>
+      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><SiteLinks /><span>Prototype · 確認中</span></nav>
       <header className="organization-header"><p className="eyebrow">Organizations</p><h1>組織一覧</h1><p>現在、選手のCareerとして参照されている組織は{organizations.length}件です。学校種別（高校・大学等）による分類は未対応です。</p></header>
       <section className="roster-section">
         <div className="roster-list">
