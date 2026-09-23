@@ -1,0 +1,36 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B7E0001,Person,P000083,name,富樫勇樹,B7S0001,基本情報 > 選手名,B.LEAGUE公式の選手名,SUPPORTED,2026-09-23,
+B7E0002,Person,P000083,name_en,Yuki Togashi,B7S0001,基本情報 > 英語表記,B.LEAGUE公式の英語表記,SUPPORTED,2026-09-23,
+B7E0003,Person,P000083,birth_date,1993-07-30,B7S0001,基本情報 > 生年月日,B.LEAGUE公式の生年月日,SUPPORTED,2026-09-23,
+B7E0004,Career,C000299,organization_id,ORG000117,B7S0001,プロフィール > 出身校（高）,B.LEAGUE公式プロフィールの出身校欄,SUPPORTED,2026-09-23,開志国際高等学校との在籍関係（先後・重複の有無）は未確認。公式ページに記載があるのはモントロス・クリスチャン高等学校のみ
+B7E0005,Career,C000299,role,Player,B7S0001,プロフィール > 出身校（高）,選手として掲載,SUPPORTED,2026-09-23,
+B7E0006,Career,C000300,organization_id,ORG000118,B7S0001,クラブ所属履歴 > 2026-27シーズン 千葉J,B.LEAGUE公式のクラブ所属履歴,SUPPORTED,2026-09-23,
+B7E0007,Career,C000300,role,Player,B7S0001,クラブ所属履歴 > 2026-27シーズン 千葉J,選手として掲載,SUPPORTED,2026-09-23,
+B7E0008,Person,P000084,name,比江島慎,B7S0002,選手プロフィール > 選手名,B.LEAGUE公式の選手名,SUPPORTED,2026-09-23,
+B7E0009,Person,P000084,name_en,Makoto Hiejima,B7S0002,選手プロフィール > 英語表記,B.LEAGUE公式の英語表記,SUPPORTED,2026-09-23,
+B7E0010,Person,P000084,birth_date,1990-08-11,B7S0002,選手プロフィール > 生年月日,B.LEAGUE公式の生年月日,SUPPORTED,2026-09-23,
+B7E0011,Career,C000290,organization_id,ORG000119,B7S0002,プロフィール > 出身校（高）,B.LEAGUE公式プロフィールの出身校欄,SUPPORTED,2026-09-23,
+B7E0012,Career,C000290,role,Player,B7S0002,プロフィール > 出身校（高）,選手として掲載,SUPPORTED,2026-09-23,
+B7E0013,Career,C000291,organization_id,ORG000030,B7S0002,プロフィール > 出身校（大）,B.LEAGUE公式プロフィールの出身校欄,SUPPORTED,2026-09-23,
+B7E0014,Career,C000291,role,Player,B7S0002,プロフィール > 出身校（大）,選手として掲載,SUPPORTED,2026-09-23,
+B7E0015,Career,C000292,organization_id,ORG000047,B7S0002,クラブ所属履歴 > 2026-27シーズン 宇都宮ブレックス,B.LEAGUE公式のクラブ所属履歴,SUPPORTED,2026-09-23,
+B7E0016,Career,C000292,role,Player,B7S0002,クラブ所属履歴 > 2026-27シーズン 宇都宮ブレックス,選手として掲載,SUPPORTED,2026-09-23,
+B7E0017,Person,P000085,name,篠山竜青,B7S0003,プロフィール > 選手名,B.LEAGUE公式の選手名,SUPPORTED,2026-09-23,
+B7E0018,Person,P000085,name_en,Ryusei Shinoyama,B7S0003,プロフィール > 英語表記,B.LEAGUE公式の英語表記,SUPPORTED,2026-09-23,
+B7E0019,Person,P000085,birth_date,1988-07-20,B7S0003,プロフィール > 生年月日,B.LEAGUE公式の生年月日,SUPPORTED,2026-09-23,
+B7E0020,Career,C000296,organization_id,ORG000120,B7S0008,本文 > 2004年に北陸に入学し,専門媒体記事による北陸高校在籍の記述,SUPPORTED,2026-09-23,専門媒体単独。学校・大会公式資料による直接確認はまだ
+B7E0021,Career,C000296,role,Player,B7S0008,本文 > 3年次のインターハイ優勝、ウインターカップベスト5,専門媒体記事による在籍中の実績記述,SUPPORTED,2026-09-23,専門媒体単独。学校・大会公式資料による直接確認はまだ
+B7E0022,Career,C000296,start,2004,B7S0008,本文 > 2004年に北陸に入学し,入学年の明記,SUPPORTED,2026-09-23,卒業年は記事著者の推定であり、本人の卒業を直接示す資料ではないため記録していない
+B7E0023,Career,C000297,organization_id,ORG000121,B7S0004,選手プロフィール > 出身校,川崎ブレイブサンダース公式プロフィールの出身校欄,SUPPORTED,2026-09-23,
+B7E0024,Career,C000297,role,Player,B7S0004,選手プロフィール > 出身校,選手として掲載,SUPPORTED,2026-09-23,
+B7E0025,Career,C000298,organization_id,ORG000122,B7S0003,クラブ所属履歴 > 2026-27シーズン Kawasaki,B.LEAGUE公式のクラブ所属履歴,SUPPORTED,2026-09-23,
+B7E0026,Career,C000298,role,Player,B7S0003,クラブ所属履歴 > 2026-27シーズン Kawasaki,選手として掲載,SUPPORTED,2026-09-23,
+B7E0027,Person,P000086,name,齋藤拓実,B7S0005,選手プロフィール > 選手名,B.LEAGUE公式の選手名,SUPPORTED,2026-09-23,
+B7E0028,Person,P000086,name_en,Takumi Saito,B7S0005,選手プロフィール > 英語表記,B.LEAGUE公式の英語表記,SUPPORTED,2026-09-23,
+B7E0029,Person,P000086,birth_date,1995-08-11,B7S0005,選手プロフィール > 生年月日,B.LEAGUE公式の生年月日,SUPPORTED,2026-09-23,
+B7E0030,Career,C000293,organization_id,ORG000123,B7S0007,記事本文 > 桐光学園高校,専門媒体記事による桐光学園高校在籍の記述,SUPPORTED,2026-09-23,専門媒体単独。学校・大会公式資料による直接確認はまだ
+B7E0031,Career,C000293,role,Player,B7S0007,記事本文 > 高校2年次にインターハイ・ウインターカップ出場,専門媒体記事による在籍中の実績記述,SUPPORTED,2026-09-23,専門媒体単独。学校・大会公式資料による直接確認はまだ
+B7E0032,Career,C000294,organization_id,ORG000124,B7S0006,選手プロフィール > 出身校,名古屋ダイヤモンドドルフィンズ公式プロフィールの出身校欄,SUPPORTED,2026-09-23,
+B7E0033,Career,C000294,role,Player,B7S0006,選手プロフィール > 出身校,選手として掲載,SUPPORTED,2026-09-23,
+B7E0034,Career,C000295,organization_id,ORG000054,B7S0005,クラブ所属履歴 > 2026-27シーズン 名古屋ダイヤモンドドルフィンズ,B.LEAGUE公式のクラブ所属履歴,SUPPORTED,2026-09-23,
+B7E0035,Career,C000295,role,Player,B7S0005,クラブ所属履歴 > 2026-27シーズン 名古屋ダイヤモンドドルフィンズ,選手として掲載,SUPPORTED,2026-09-23,
