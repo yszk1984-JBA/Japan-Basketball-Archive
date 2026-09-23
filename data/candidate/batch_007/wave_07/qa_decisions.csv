@@ -1,0 +1,17 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0094,Person,P000103,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0095,Career,C000353,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身高校（尽誠学園高等学校）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0096,Career,C000354,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身大学（ジョージ・ワシントン大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0097,Career,C000355,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jp・千葉ジェッツ公式の独立した2ソースで現所属（千葉ジェッツ）を確認。開始日は資料なしのため保留,2026-09-23
+B7D0098,Person,P000104,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,Wikipediaで氏名・生年月日を確認,2026-09-23
+B7D0099,Career,C000356,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipediaで出身高校（明成高等学校、当時の校名）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0100,Career,C000357,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipediaで出身大学（ゴンザガ大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0101,Career,C000358,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,basketballking.jp（2026年7月7日付）でロサンゼルス・クリッパーズへの移籍・現所属を確認。Wikipediaは本移籍を反映しておらず古いため、日付の新しい一次情報を優先。開始日は資料なしのため保留,2026-09-23
+B7D0102,Person,P000105,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0103,Career,C000359,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jp選手プロフィールで出身高校を確認。改称後の現校名（秋田県立能代科学技術高等学校）ではなく、在籍当時の校名（秋田県立能代工業高等学校）で登録（歴史的組織名の保持ルールに従う）。在籍期間は資料なしのため保留,2026-09-23
+B7D0104,Career,C000360,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身大学（ブリガムヤング大学ハワイ校）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0105,Career,C000361,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpのクラブ所属履歴で現所属（宇都宮ブレックス）を確認。開始日は資料なしのため保留,2026-09-23
+B7D0106,Person,P000106,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0107,Career,C000362,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身高校（桜丘高等学校）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0108,Career,C000363,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身大学（ネブラスカ大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0109,Career,C000364,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpのクラブ所属履歴で現所属（レバンガ北海道）を確認。開始日は資料なしのため保留,2026-09-23
