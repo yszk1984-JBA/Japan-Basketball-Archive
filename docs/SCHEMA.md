@@ -11,7 +11,7 @@ Governance v1.0に付属する最小の論理設計。DBやCSVの実装仕様で
 | Career | 人物の組織への所属・経歴 | career_id、person_id、organization_id、role、start、end |
 | Source | 根拠資料 | source_id、title、publisher、urlまたは原資料の参照先、accessed_at |
 
-IDは一意で安定した内部識別子とし、氏名をIDにしない。CareerはPersonとOrganizationを参照する。同名人物は氏名一致だけで統合しない。組織名の変更や同名組織も自動統合しない。
+IDは一意で安定した内部識別子とし、氏名をIDにしない。CareerはPersonとOrganizationを参照する。同名人物は氏名一致だけで統合しない。組織名の変更や同名組織も自動統合しない。Organizationは、実際にCareerが参照を必要とした時点でのみ新規登録する（2026-09-23、Yuichiと合意）。組織の改称・承継関係の記録方法は[組織承継・改称関係機能案](ORGANIZATION_SUCCESSION_PROPOSAL_V0.1.md)を参照する。
 
 ## 出典の対応
 

@@ -70,12 +70,13 @@ Organization本体に`predecessor_organization_id`のような列を追加する
 1. **スキーマ拡張の方針**：Option Aを採用。中心4エンティティ（Person/Organization/Career/Source）は変更せず、`organization_successions.csv`を付随ファイルとして追加する。
 2. **「改称」とみなす範囲**：名称変更のみを対象とする。東芝→DeNAのような運営権の異動は今回のreason分類（`NAME_CHANGE`）には含めず、別途検討する（`OWNERSHIP_TRANSFER`等の扱いは未定義のまま保留）。
 3. **公開サイトでの見せ方**：今回は保留。スキーマ・Master反映の方針が固まった後、別途検討する。
+4. **承継チェーンを完全にするためのOrganization先回り登録の可否**：しない。Organizationは、実際にCareerが必要とした時点でのみ起票する（従来からの運用を維持）。承継リンクの完全性より、この既存原則を優先する。この結果、predecessor側の名称が一度もCareerに使われていない改称事例（サンロッカーズ渋谷→東京サンロッカーズ等）は、predecessor_organization_idを持たないため、承継リンクを作成できないまま保留となる。将来、その名称でのCareerが実際に必要になった時点で、Organization登録とあわせて承継リンクも作成する。
 
 ## 小規模試験（実施済み・2026-09-23）
 
 [organization_succession_pilot_001](../data/candidate/organization_succession_pilot_001/README.md)として、湘南ユナイテッドBC→ウォルガ湘南、東芝ブレイブサンダース→川崎ブレイブサンダースの2件をCANDIDATE試験データ化し、構造検証（重複・出典・参照整合性）はPASSした。
 
-サンロッカーズ渋谷→東京サンロッカーズは、改称前の名称「サンロッカーズ渋谷」がOrganizationとして一度も登録されていない（対応するCareerが存在しないため）ことが判明し、今回のPilotには含めていない。predecessor_organization_idの参照先を作るためだけにOrganizationを新規登録すべきかどうかは、新たな論点としてYuichiの判断を仰ぐ。
+サンロッカーズ渋谷→東京サンロッカーズは、改称前の名称「サンロッカーズ渋谷」がOrganizationとして一度も登録されていない（対応するCareerが存在しないため）ことが判明し、今回のPilotには含めていない。Yuichiの判断（上記論点4）により、この事例は保留のままとする。将来、サンロッカーズ渋谷名義のCareerが実際に必要になった時点で、あらためて承継リンクも作成する。
 
 事例3の中間名称「東芝ブレイブサンダース神奈川」（2013年）は、今回もPilotでは分離せず簡略化している。
 
