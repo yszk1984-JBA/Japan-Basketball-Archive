@@ -1,0 +1,2 @@
+issue_id,category,scope,description
+B4W6I0001,CLUB_SUCCESSION,P000068,湘南ユナイテッドBC（本Waveで新規登録、ORG000163）と、Master登録済みのORG000050（ウォルガ湘南）は、2026-27シーズンのクラブ名称変更（2026年5月23日発表）前後における同一組織である。サンロッカーズ渋谷->東京サンロッカーズ（batch_007/wave_02、issue B7I0013等）と同種の事例。OrganizationAlias/組織承継の仕組みが未整備のため、本Waveでは2つの独立したOrganizationとして登録し、重冨周希のCareerを名称ごとに分割した（C000365：湘南ユナイテッドBC 2024-2026、Master C000235：ウォルガ湘南 2026-）。Yuichiが組織承継ルールを決定した際に、両者の関係整理が必要。

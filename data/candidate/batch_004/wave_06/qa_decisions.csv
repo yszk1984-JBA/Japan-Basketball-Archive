@@ -1,0 +1,2 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B4W6D0001,Career,C000365,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,バスケットボールキング（2024-07-01移籍報道）と湘南ユナイテッドBC公式サイト（2025-06-03契約継続発表）の独立した2ソースにより、重冨周希が2024年から湘南ユナイテッドBC（当時の正式名称）に所属していたことを確認。issue B4W3I0003（2024-25・2025-26シーズンの履歴がB.LEAGUE公式プロフィールに表示されない問題）を解消。endはクラブの名称変更時期（2026-27シーズンより）からの導出でPARTIAL評価のため保留,2026-09-23
