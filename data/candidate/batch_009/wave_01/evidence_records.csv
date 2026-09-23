@@ -1,0 +1,39 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B9W1E0001,Person,P000128,name,納見 悠仁,B9W1S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B9W1E0002,Person,P000128,birth_date,1997-04-10,B9W1S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B9W1E0003,Career,C000440,organization_id,ORG000147,B9W1S0001,学歴 > 出身校（高）：明成高等学校(現・仙台大学附属明成高等学校),B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B9W1E0004,Career,C000440,organization_id,ORG000147,B9W1S0007,TagID=35掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載（独立した第2の公式確認）,SUPPORTED,2026-09-24,
+B9W1E0005,Career,C000441,organization_id,ORG000030,B9W1S0001,学歴 > 出身校（大）：青山学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B9W1E0006,Career,C000442,organization_id,ORG000155,B9W1S0001,クラブ経歴 > 「2024-25：島根」が初出（前年は川崎、その前は新潟・島根）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B9W1E0007,Career,C000442,start,2024,B9W1S0001,クラブ経歴 > 「2024-25：島根」が初出（今回の在籍）,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの現在の在籍開始を確認,SUPPORTED,2026-09-24,2019-20シーズンにも一度島根に在籍しており、同一クラブへの復帰である点に留意
+B9W1E0008,Person,P000129,name,白戸 大聖,B9W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B9W1E0009,Person,P000129,birth_date,1995-05-25,B9W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B9W1E0010,Career,C000443,organization_id,ORG000147,B9W1S0002,学歴 > 出身校（高）：明成高等学校（現・仙台大学附属明成高等学校）,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B9W1E0011,Career,C000443,organization_id,ORG000147,B9W1S0007,TagID=35掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載（独立した第2の公式確認）,SUPPORTED,2026-09-24,
+B9W1E0012,Career,C000444,organization_id,ORG000015,B9W1S0002,学歴 > 出身校（大）：東海大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B9W1E0013,Career,C000445,organization_id,ORG000181,B9W1S0002,クラブ経歴 > 「2023-24：山形」が初出（前年は福岡）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B9W1E0014,Career,C000445,start,2023,B9W1S0002,クラブ経歴 > 「2023-24：山形」が初出,B.LEAGUE公式のクラブ所属履歴で2023-24シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B9W1E0015,Person,P000130,name,菅野 ブルース,B9W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B9W1E0016,Person,P000130,birth_date,2003-05-06,B9W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B9W1E0017,Career,C000446,organization_id,ORG000147,B9W1S0009,TagID=35（仙台大学附属明成高等学校）掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,本人のB.LEAGUE公式プロフィールページには出身校（高）欄の記載がない。また2020年の校名改称後の在学と見られ、組織名は旧名（明成高等学校）で登録済みのため、ORG_NAME_HISTORY（issue B9W1I0007）を参照
+B9W1E0018,Career,C000447,organization_id,ORG000184,B9W1S0003,学歴 > 出身校（大）：ステッソン大学,B.LEAGUE公式プロフィールで出身大学（米国ステッソン大学）を確認,SUPPORTED,2026-09-24,
+B9W1E0019,Career,C000448,organization_id,ORG000118,B9W1S0003,クラブ経歴 > 「2024-25：千葉」が初出（唯一の記載）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B9W1E0020,Career,C000448,start,2024,B9W1S0003,クラブ経歴 > 「2024-25：千葉」が初出,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-24,
+B9W1E0021,Person,P000131,name,山内 ジャヘル琉人,B9W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B9W1E0022,Person,P000131,birth_date,2002-12-05,B9W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B9W1E0023,Career,C000449,organization_id,ORG000147,B9W1S0009,TagID=35（仙台大学附属明成高等学校）掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,本人のB.LEAGUE公式プロフィールページには出身校（高・大とも）欄の記載がない。大学は確認できる情報がないため今回のWaveではCareerを登録していない。また2020年の校名改称後の在学と見られ、組織名は旧名（明成高等学校）で登録済みのため、ORG_NAME_HISTORY（issue B9W1I0007）を参照
+B9W1E0024,Career,C000450,organization_id,ORG000122,B9W1S0004,クラブ経歴 > 「2024-25：川崎」が初出（唯一の記載）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B9W1E0025,Career,C000450,start,2024,B9W1S0004,クラブ経歴 > 「2024-25：川崎」が初出,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-24,
+B9W1E0026,Person,P000132,name,石川 海斗,B9W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B9W1E0027,Person,P000132,birth_date,1990-11-30,B9W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B9W1E0028,Career,C000451,organization_id,ORG000147,B9W1S0008,TagID=35（仙台大学附属明成高等学校(旧・明成高等学校)）掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,本人のB.LEAGUE公式プロフィールページには出身校（高）欄の記載がない
+B9W1E0029,Career,C000451,organization_id,ORG000147,B9W1S0010,選手一覧表 > 石川海斗,j-cbaske.comのバスケWikiで明成高校出身であることを確認（独立した第2の確認）,SUPPORTED,2026-09-24,
+B9W1E0030,Career,C000452,organization_id,ORG000121,B9W1S0010,選手一覧表 > 石川海斗、出身大学：日本大学,j-cbaske.comのバスケWikiで出身大学を確認,SUPPORTED,2026-09-24,本人のB.LEAGUE公式プロフィールページには出身校（大）欄の記載がなく、Wikiのみのソース
+B9W1E0031,Career,C000453,organization_id,ORG000067,B9W1S0005,クラブ経歴 > 「2025-26：熊本」が初出（今回の在籍。前年は信州）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B9W1E0032,Career,C000453,start,2025,B9W1S0005,クラブ経歴 > 「2025-26：熊本」が初出（今回の在籍）,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの現在の在籍開始を確認,SUPPORTED,2026-09-24,2019-20〜2020-21シーズンにも一度熊本に在籍しており、同一クラブへの復帰である点に留意
+B9W1E0033,Person,P000133,name,八村 阿蓮,B9W1S0006,基本情報 > 選手名,神戸ストークス公式サイトの選手プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B9W1E0034,Person,P000133,birth_date,1999-12-20,B9W1S0006,基本情報 > 生年月日,神戸ストークス公式サイトの選手プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B9W1E0035,Career,C000454,organization_id,ORG000147,B9W1S0006,学歴 > 出身高校：明成高等学校（現・仙台大学附属明成高等学校）,神戸ストークス公式サイトの選手プロフィールで出身高校を確認,SUPPORTED,2026-09-24,B.LEAGUE公式のTagID=35タグ一覧（3variantsとも）には本選手が掲載されておらず、タグ一覧のみに頼る発見手法の限界を示す事例（issue B9W1I0008参照）
+B9W1E0036,Career,C000455,organization_id,ORG000015,B9W1S0006,学歴 > 出身大学：東海大学,神戸ストークス公式サイトの選手プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B9W1E0037,Career,C000456,organization_id,ORG000043,B9W1S0011,本文 > 「群馬を退団した八村阿蓮、新天地は神戸に決定」,バスケットボールキング記事で神戸ストークスとの契約（2025年5月）を確認,SUPPORTED,2026-09-24,
+B9W1E0038,Career,C000456,start,2025,B9W1S0011,本文 > 2025年5月28日付記事,記事日付で2025-26シーズンからの加入を確認,SUPPORTED,2026-09-24,
