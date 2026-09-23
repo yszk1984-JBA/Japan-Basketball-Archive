@@ -1,0 +1,9 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B6W4D0001,Career,C000384,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,jbaske.com単独の記載でJR東日本秋田ペッカーズ在籍を確認。在籍年次は同サイト単独のためissueに記録した上でREADYとする,2026-09-23
+B6W4D0002,Career,C000385,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,アースフレンズ東京Z公式・jbaske.comの独立2ソースで山口ペイトリオッツ（現・山口パッツファイブ/ORG000100）在籍（2021-22）を確認,2026-09-23
+B6W4D0003,Career,C000386,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,アースフレンズ東京Z公式（加入発表）・横浜エクセレンス公式（直前所属記載）の独立2ソースでアースフレンズ東京Z在籍（2022-23）を確認,2026-09-23
+B6W4D0004,Career,C000387,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,横浜エクセレンス公式（加入発表）・岩手ビッグブルズ公式（直前所属記載）の独立2ソースで横浜エクセレンス在籍（2023-24）を確認,2026-09-23
+B6W4D0005,Career,C000388,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,岩手ビッグブルズ公式（加入発表・契約満了発表）・横浜エクセレンス公式（移籍先決定発表）で岩手ビッグブルズ在籍（2024-25、契約満了日2025-06-30）を確認,2026-09-23
+B6W4D0006,Career,C000389,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,しながわシティスポーツクラブ公式・バスケットボールキング・東京八王子ビートレインズ公式の複数ソースで、専修大学在学中のしながわ在籍（2023-24）を確認,2026-09-23
+B6W4D0007,Career,C000268,READY_FOR_VERIFIED_REVIEW,organization_id,start|end,"wave_01のHOLD_CANDIDATE（B6W1D0003, B.LEAGUE出身校表示のみ）を、jbaske.comという独立した第2ソースで裏付け、organization_idのみREADYへ更新。在籍期間は依然未確認のためHOLD継続",2026-09-23
+B6W4D0008,Career,C000271,READY_FOR_VERIFIED_REVIEW,organization_id,start|end,"wave_01のHOLD_CANDIDATE（B6W1D0007, B.LEAGUE出身校表示のみ）を、関東大学バスケットボール連盟・バスケットボールキング・東京八王子ビートレインズ公式という独立した複数ソースで裏付け、organization_idのみREADYへ更新。在籍期間は依然未確認のためHOLD継続",2026-09-23
