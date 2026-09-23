@@ -1,0 +1,4 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B6W3I0001,P000078,C000381,SOURCE_TIER,HOLD,白鷗大学在学（中退）はWikipedia単独の記載であり、jbaske.com・bleague.jp・バスケットボールキングいずれにも記載がない。,他媒体（大学公式・大会公式ロスター等）での裏付けを確認
+B6W3I0002,P000078,"C000382,C000383",SOURCE_TIER,HOLD,横浜ビー・コルセアーズ練習生（2012-2013年）・バンビシャス奈良（2013-2015年）の在籍年次は、組織名自体はjbaske.com・Wikipediaの2ソースで確認できるが、具体的な年次はjbaske.com（非公式データベース）単独の記載。,公式資料での年次の裏付けを確認
+B6W3I0003,P000078,P000078,POST_HIGH_SCHOOL_GAP,RESOLVED,wave_01で立てたissue B6W1I0010（高校と2016-18福岡の間の大学・所属が未確認）を、飛龍高等学校（転校前）・白鷗大学（中退）・横浜ビー・コルセアーズ練習生・バンビシャス奈良の4件追加により解消。,

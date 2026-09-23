@@ -1,0 +1,5 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B6W3D0001,Career,C000380,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,jbaske.com・Wikipediaの独立した2ソースで、福岡第一高校転校前の飛龍高等学校在学を確認。具体的な在学年次はいずれの資料にも記載がないため保留,2026-09-23
+B6W3D0002,Career,C000381,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia単独で白鷗大学進学（中退）を確認。他媒体での裏付けが取れていないためissueに記録した上でREADYとする,2026-09-23
+B6W3D0003,Career,C000382,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,組織参照（横浜ビー・コルセアーズ）はjbaske.com・Wikipediaの独立2ソースで確認。在籍年次（2012-2013）はjbaske.com単独のためissueに記録した上でREADYとする,2026-09-23
+B6W3D0004,Career,C000383,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,組織参照（バンビシャス奈良）はjbaske.com・Wikipediaの独立2ソースで確認。在籍年次（2013-2015）はjbaske.com単独のためissueに記録した上でREADYとする,2026-09-23

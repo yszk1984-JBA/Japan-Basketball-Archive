@@ -4,8 +4,8 @@
 
 ## 結果
 
-- 検証：PASS
-- エラー：0件
+- 検証：FAIL
+- エラー：1件
 - Person候補：4件
 - Career候補：11件
 - Source：9件
@@ -17,4 +17,4 @@
 
 ## エラー
 
-- なし
+- 新規Person IDがMasterと重複

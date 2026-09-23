@@ -1,0 +1,12 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B6W3E0001,Career,C000380,organization_id,ORG000170,B6W3S0001,経歴 > 高校：飛龍高校→福岡第一高校,jbaske.comのデータベースで、福岡第一高校へ転校する前に飛龍高校（静岡県）に在学していたことを確認,SUPPORTED,2026-09-23,
+B6W3E0002,Career,C000380,organization_id,ORG000170,B6W3S0002,経歴節 > 「飛龍高校に進学。2年時に福岡第一高校に転校」,Wikipediaでも飛龍高校在学（福岡第一高校への転校前）を確認（独立した第2ソース）,SUPPORTED,2026-09-23,
+B6W3E0003,Career,C000381,organization_id,ORG000093,B6W3S0002,経歴節 > 「福岡第一高校卒業後、白鷗大学に進学するも中退」,Wikipediaで白鷗大学への進学（中退）を確認。jbaske.com・bleague.jp・バスケットボールキングいずれにも大学進学の記載がなく、現時点でWikipedia以外の裏付けが取れていない,PARTIAL,2026-09-23,白鷗大学在学（中退）はWikipedia単独の記載。在籍期間・中退時期も不明
+B6W3E0004,Career,C000382,organization_id,ORG000055,B6W3S0001,クラブ経歴 > 「2012-2013年：横浜ビー・コルセアーズ練習生」,jbaske.comのデータベースで横浜ビー・コルセアーズへの練習生入団を確認,SUPPORTED,2026-09-23,
+B6W3E0005,Career,C000382,organization_id,ORG000055,B6W3S0002,経歴節 > 「横浜ビー・コルセアーズに練習生として入団」,Wikipediaでも横浜ビー・コルセアーズ練習生としての在籍を確認（独立した第2ソース）,SUPPORTED,2026-09-23,
+B6W3E0006,Career,C000382,start,2012,B6W3S0001,クラブ経歴 > 「2012-2013年：横浜ビー・コルセアーズ練習生」,jbaske.comの年次表記に基づく。他媒体に具体的な年次の記載はない,PARTIAL,2026-09-23,在籍年次はjbaske.com単独の記載
+B6W3E0007,Career,C000382,end,2013,B6W3S0001,クラブ経歴 > 「2012-2013年：横浜ビー・コルセアーズ練習生」,jbaske.comの年次表記に基づく。他媒体に具体的な年次の記載はない,PARTIAL,2026-09-23,在籍年次はjbaske.com単独の記載
+B6W3E0008,Career,C000383,organization_id,ORG000171,B6W3S0001,クラブ経歴 > 「2013-2015年：バンビシャス奈良」,jbaske.comのデータベースでバンビシャス奈良への移籍を確認,SUPPORTED,2026-09-23,
+B6W3E0009,Career,C000383,organization_id,ORG000171,B6W3S0002,経歴節 > 「その後バンビシャス奈良に移籍」,Wikipediaでもバンビシャス奈良在籍を確認（独立した第2ソース）,SUPPORTED,2026-09-23,
+B6W3E0010,Career,C000383,start,2013,B6W3S0001,クラブ経歴 > 「2013-2015年：バンビシャス奈良」,jbaske.comの年次表記に基づく。他媒体に具体的な年次の記載はない,PARTIAL,2026-09-23,在籍年次はjbaske.com単独の記載
+B6W3E0011,Career,C000383,end,2015,B6W3S0001,クラブ経歴 > 「2013-2015年：バンビシャス奈良」,jbaske.comの年次表記に基づく。他媒体に具体的な年次の記載はない,PARTIAL,2026-09-23,在籍年次はjbaske.com単独の記載
