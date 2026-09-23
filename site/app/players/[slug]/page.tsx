@@ -50,7 +50,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
 
   return (
     <main className="detail-shell">
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><span>{player.dataStatus === 'master' ? 'Master Data' : 'Prototype · 候補データ'}</span></nav>
+      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><span>{player.dataStatus === 'master' ? 'Master Data' : '候補データ'}</span></nav>
       <header className="person-header">
         <p className="eyebrow">Person · {player.id}</p>
         <h1>{player.name}</h1>
@@ -109,7 +109,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             </a>
           ))}
         </div>
-        <p className={`review-note ${player.dataStatus === 'master' ? 'master-note' : ''}`}>{player.dataStatus === 'master' ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。` : 'このページは公開表示を確認するための候補データです。Governance v1.0のHuman approvalを受けたMaster Dataではありません。'}</p>
+        <p className={`review-note ${player.dataStatus === 'master' ? 'master-note' : ''}`}>{player.dataStatus === 'master' ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。` : 'このページはCANDIDATE段階のデータです。出典を伴うREADY_FOR_VERIFIED_REVIEW判定の項目のみを表示していますが、Governance v1.0のVERIFIED・Human approvalを経たMaster Dataではありません。'}</p>
       </section>
     </main>
   );

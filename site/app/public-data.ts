@@ -1,9 +1,5 @@
 import { masterPlayers, masterPublication, masterSources } from './master-data';
-import {
-  homepagePlacements,
-  players as prototypePlayers,
-  sources as prototypeSources,
-} from './prototype-data';
+import { candidatePlayers, candidateSources } from './candidate-data';
 
 export type DataStatus = 'master' | 'candidate';
 
@@ -46,27 +42,15 @@ export type PublicPlayer = {
   }[];
 };
 
-const approvedIds = new Set<string>(masterPlayers.map((player) => player.id));
-
-const candidatePlayers: PublicPlayer[] = prototypePlayers
-  .filter((player) => !approvedIds.has(player.id))
-  .map((player) => ({
-    ...player,
-    dataStatus: 'candidate',
-    approvalId: null,
-  }));
-
 export const players: readonly PublicPlayer[] = [
   ...(masterPlayers as unknown as readonly PublicPlayer[]),
-  ...candidatePlayers,
+  ...(candidatePlayers as unknown as readonly PublicPlayer[]),
 ];
 
 const masterSourceIds = new Set<string>(masterSources.map((source) => source.id));
 export const sources: readonly PublicSource[] = [
   ...(masterSources as unknown as readonly PublicSource[]),
-  ...prototypeSources
-    .filter((source) => !masterSourceIds.has(source.id))
-    .map((source) => ({ ...source, dataStatus: 'candidate' as const })),
+  ...(candidateSources as unknown as readonly PublicSource[]).filter((source) => !masterSourceIds.has(source.id)),
 ];
 
 const publicationPriority: Record<string, number> = {
@@ -76,10 +60,6 @@ const publicationPriority: Record<string, number> = {
   P000073: 230,
   P000074: 240,
 };
-
-for (const placement of homepagePlacements) {
-  publicationPriority[placement.playerId] ??= placement.priority + 100;
-}
 
 export function getHomepagePlayers() {
   const originalOrder = new Map(players.map((player, index) => [player.id, index]));

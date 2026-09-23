@@ -36,3 +36,7 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# this project uses pnpm; don't commit a competing lockfile from npm
+/package-lock.json
+*.tsbuildinfo
