@@ -1,0 +1,5 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0110,Career,C000366,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipediaで2012年の東芝ブレイブサンダース入団を確認。endは組織自体の名称変更時期（2016年7月1日、川崎ブレイブサンダースへ改称）からの導出のためPARTIAL評価だが、辻直人本人の移籍を伴わない期間区切りであり、組織名変更という客観的事実に基づくためREADYとする。2013年の「神奈川」を含む一時改称は簡略化して未反映（issue参照）,2026-09-23
+B7D0111,Career,C000367,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,bleague.jp公式・バスケットボールキングの独立した2ソースで2016-17〜2020-21シーズンの川崎ブレイブサンダース在籍を確認。start(2016)はB.LEAGUE開幕時点の所属、end(2021)はWikipediaの退団日（2021年5月31日）で確認,2026-09-23
+B7D0112,Career,C000368,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipedia・bleague.jp公式の独立した2ソースで2021-22〜2022-23シーズンの広島ドラゴンフライズ在籍を確認。start(2021)・end(2023)ともWikipediaの移籍発表日・退団発表日で確認,2026-09-23
+B7D0113,Career,C000339,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,Wave5では確認できなかったstartを、Wikipediaの群馬クレインサンダーズ加入決定日（2023年6月8日）により補足。endは現所属のため未確定（保留継続）,2026-09-23
