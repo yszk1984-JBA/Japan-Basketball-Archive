@@ -1,0 +1,11 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B10W4E0001,Person,P000152,name,大西 一輝,B10W4S0002,基本情報 > 氏名,ヴィアティン三重公式サイトで氏名を確認,SUPPORTED,2026-09-24,
+B10W4E0002,Person,P000152,name,大西一輝（おおにし いつき）,B10W4S0004,基本情報,ファンサイトで氏名・読みを確認（同姓同名の環太平洋大学の別選手との混同でないことを、生年月日の一致で確認）,SUPPORTED,2026-09-24,
+B10W4E0003,Person,P000152,birth_date,2003-10-25,B10W4S0002,基本情報 > 生年月日,ヴィアティン三重公式サイトで生年月日を確認,SUPPORTED,2026-09-24,
+B10W4E0004,Person,P000152,birth_date,2003年10月25日,B10W4S0004,基本情報,ファンサイトでも同一の生年月日を確認（クラブ公式との一致で同一人物と確認）,SUPPORTED,2026-09-24,
+B10W4E0005,Career,C000511,organization_id,ORG000119,B10W4S0001,洛南高等学校タグ一覧内の選手カード,B.LEAGUE公式の出身校タグ一覧（TagID=35:洛南高等学校）に掲載されていることで在籍を確認,SUPPORTED,2026-09-24,
+B10W4E0006,Career,C000511,organization_id,ORG000119,B10W4S0004,経歴 > 高校,ファンサイトで洛南高等学校在籍（3年時にチームの中心選手に成長）を確認,SUPPORTED,2026-09-24,
+B10W4E0007,Career,C000512,organization_id,ORG000189,B10W4S0002,基本情報 > 出身大学,ヴィアティン三重公式サイトで中京大学出身であることを確認,SUPPORTED,2026-09-24,
+B10W4E0008,Career,C000512,organization_id,ORG000189,B10W4S0004,経歴 > 大学,ファンサイトで中京大学イーグルスでのプレー歴を確認,SUPPORTED,2026-09-24,
+B10W4E0009,Career,C000513,organization_id,ORG000191,B10W4S0002,基本情報 > 現所属,ヴィアティン三重公式サイト自身のロスターに背番号11として掲載されていることで現所属を確認,SUPPORTED,2026-09-24,
+B10W4E0010,Career,C000513,organization_id,ORG000191,B10W4S0003,選手一覧ロスター,ヴィアティン三重公式選手一覧ページにも掲載されていることを重ねて確認,SUPPORTED,2026-09-24,

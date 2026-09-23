@@ -1,0 +1,7 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B10W4D0001,Person,P000152,READY_FOR_VERIFIED_REVIEW,name|birth_date,,クラブ公式サイトとファンサイトの2系統で氏名・生年月日が一致し、同姓同名の別選手との混同でないことも生年月日で確認済み,2026-09-24
+B10W4D0002,Organization,ORG000189,READY_FOR_VERIFIED_REVIEW,name,,新規Organization、クラブ公式サイト・ファンサイト双方で中京大学出身であることを確認、既存Organizationとの重複なしを確認済み,2026-09-24
+B10W4D0003,Organization,ORG000191,READY_FOR_VERIFIED_REVIEW,name,,新規Organization、B.LEAGUE参入クラブとして既存資料多数、既存Organizationとの重複なしを確認済み,2026-09-24
+B10W4D0004,Career,C000511,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,出身校タグ一覧・ファンサイトで確認、在籍期間は未確認,2026-09-24
+B10W4D0005,Career,C000512,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,クラブ公式サイト・ファンサイトで確認、在籍期間は未確認,2026-09-24
+B10W4D0006,Career,C000513,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,クラブ公式サイト自身のロスターへの掲載で現所属を確認、加入年は未確認,2026-09-24
