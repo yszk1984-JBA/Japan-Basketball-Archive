@@ -42,6 +42,12 @@ export type PublicPlayer = {
   }[];
 };
 
+export type PublicOrganization = {
+  readonly id: string;
+  readonly slug: string;
+  readonly name: string;
+};
+
 export const players: readonly PublicPlayer[] = [
   ...(masterPlayers as unknown as readonly PublicPlayer[]),
   ...(candidatePlayers as unknown as readonly PublicPlayer[]),
@@ -79,6 +85,57 @@ export function getPlayer(slug: string) {
 
 export function getSources(ids: readonly string[]) {
   return sources.filter((source) => ids.includes(source.id));
+}
+
+// 既存の手作り組織ページのURLを維持するための別名。新規追加時は基本的に不要
+// （organization_idを小文字にしたスラッグが自動で割り当てられる）。
+export const organizationSlugAliases: Record<string, string> = {
+  'fukuoka-daiichi': 'ORG000010',
+};
+
+function canonicalOrganizationSlug(organizationId: string): string {
+  return organizationId.toLowerCase();
+}
+
+const organizationNamesById = new Map<string, string>();
+for (const player of players) {
+  for (const career of player.careers) {
+    if (career.organizationId && career.organization && !organizationNamesById.has(career.organizationId)) {
+      organizationNamesById.set(career.organizationId, career.organization);
+    }
+  }
+}
+
+export const organizations: readonly PublicOrganization[] = [...organizationNamesById.entries()]
+  .map(([id, name]) => ({ id, name, slug: canonicalOrganizationSlug(id) }))
+  .sort((left, right) => left.name.localeCompare(right.name, 'ja'));
+
+export function getOrganization(slug: string): PublicOrganization | undefined {
+  const resolvedId = organizationSlugAliases[slug] ?? slug.toUpperCase();
+  return organizations.find((organization) => organization.id === resolvedId);
+}
+
+export function organizationSlugFor(organizationId: string | undefined): string | undefined {
+  if (!organizationId) return undefined;
+  return organizations.find((organization) => organization.id === organizationId)?.slug;
+}
+
+export function getOrganizationPlayers(organizationId: string) {
+  return players.filter((player) =>
+    player.careers.some((career) => career.organizationId === organizationId),
+  );
+}
+
+export function getOrganizationSourceIds(organizationId: string): string[] {
+  return [
+    ...new Set(
+      getOrganizationPlayers(organizationId).flatMap((player) =>
+        player.careers
+          .filter((career) => career.organizationId === organizationId)
+          .flatMap((career) => career.sourceIds),
+      ),
+    ),
+  ];
 }
 
 export { masterPublication };

@@ -2,7 +2,7 @@
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
-import { getPlayer, getSources, masterPublication, players } from '../../public-data';
+import { getPlayer, getSources, masterPublication, organizationSlugFor, players } from '../../public-data';
 
 export function generateStaticParams() {
   return players.map((player) => ({ slug: player.slug }));
@@ -86,17 +86,28 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
       <section className="timeline-section">
         <p className="eyebrow">Career snapshot</p><h2>経歴</h2>
         <div className="timeline">
-          {player.careers.map((career) => (
-            <div key={`${career.period}-${career.organization ?? career.detail}`}>
-              <span className="year">{career.period}</span>
-              <span className={`timeline-dot ${career.status === 'hold' ? 'muted' : ''}`} />
-              <div>
-                {career.organization ? <strong>{career.organization}</strong> : <strong className="hold-label">確認中</strong>}
-                <p>{career.detail}</p>
-                <EvidenceLinks sourceIds={career.sourceIds} />
+          {player.careers.map((career) => {
+            const organizationSlug = organizationSlugFor(career.organizationId);
+            return (
+              <div key={`${career.period}-${career.organization ?? career.detail}`}>
+                <span className="year">{career.period}</span>
+                <span className={`timeline-dot ${career.status === 'hold' ? 'muted' : ''}`} />
+                <div>
+                  {career.organization ? (
+                    organizationSlug ? (
+                      <a href={`/organizations/${organizationSlug}`}><strong>{career.organization}</strong></a>
+                    ) : (
+                      <strong>{career.organization}</strong>
+                    )
+                  ) : (
+                    <strong className="hold-label">確認中</strong>
+                  )}
+                  <p>{career.detail}</p>
+                  <EvidenceLinks sourceIds={career.sourceIds} />
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
 
