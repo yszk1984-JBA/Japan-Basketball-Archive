@@ -3,3 +3,7 @@
 
 # Governance v1.0: keep the pilot source workbook local and unchanged.
 /Japan_Basketball_Archive_Phase2_WinterCup2020_FullStats_v0.22.xlsx
+
+# Python bytecode cache
+__pycache__/
+*.pyc

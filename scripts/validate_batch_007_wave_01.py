@@ -36,9 +36,6 @@ def main() -> int:
     if len(people) != EXPECTED_PERSON_COUNT:
         errors.append(f"Person: expected {EXPECTED_PERSON_COUNT}, got {len(people)}")
 
-    # Cross-batch collisions: same person_id used for a different name,
-    # or same name already claimed by a different person_id, anywhere
-    # else in data/candidate or data/master.
     master_people = {row["person_id"]: row["name"] for row in read_csv(ROOT / "data" / "master" / "person.csv")}
     person_ids = {row["person_id"] for row in people}
     if person_ids & master_people.keys():
@@ -54,9 +51,6 @@ def main() -> int:
                 if other["person_id"] == person["person_id"] and other["name"] != person["name"]:
                     errors.append(f"{person['person_id']}: 既存候補と氏名が不一致")
 
-    # Organization ID/name collisions against every other in-flight or
-    # master organization table -- this is the check that ORG000017/
-    # ORG000019 needed and did not have.
     all_orgs: dict[str, str] = {row["organization_id"]: row["name"] for row in read_csv(ROOT / "data" / "master" / "organization.csv")}
     for path in (ROOT / "data" / "candidate").rglob("organization_candidates.csv"):
         for row in read_csv(path):
@@ -124,3 +118,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

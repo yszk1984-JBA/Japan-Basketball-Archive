@@ -91,3 +91,4 @@ def find_possible_variants(organizations: dict[str, str]) -> dict[str, list[str]
         for normalized, names in by_normalized.items()
         if len(names) > 1
     }
+

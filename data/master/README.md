@@ -11,6 +11,7 @@
 - Approval Sprint 004：4人・9 Career
 - Approval ID：`APP-B005-20260921-01`、`APP-AS001-20260921-01`、`APP-AS002-20260921-01`、`APP-AS003-20260921-01`、`APP-AS004-20260922-01`
 - Person：34件
+- Organization：42件（2026-09-23、Organization ID重複[ORG000017/ORG000019]をORG000019へ統合。詳細は[`corrections/2026-09-23_org000017_org000019.md`](corrections/2026-09-23_org000017_org000019.md)）
 - Career：100件
 - Evidence：573件
 - HOLD項目・HOLD Issue：含まない
@@ -27,5 +28,7 @@
 - `publication_records.csv`
 - `master_build_report.md`
 - `validation_report.md`
+- `corrections/`：Master反映後に行った訂正の記録（対象・理由・変更前後）
 
-Masterへの追加・訂正は、CANDIDATEから同じGovernance工程を通し、承認済み範囲だけを反映する。
+Masterへの追加・訂正は、CANDIDATEから同じGovernance工程を通し、承認済み範囲だけを反映する。データ入力ミス等の訂正は`corrections/`に記録し、Yuichiの承認を明示する。
+

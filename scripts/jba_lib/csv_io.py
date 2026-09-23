@@ -80,3 +80,4 @@ def merge_into_csv(
     rows = [merged[identifier] for identifier in sorted(merged)]
     write_csv(path, headers, rows)
     return rows
+

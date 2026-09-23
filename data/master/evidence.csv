@@ -283,7 +283,7 @@ B3E0162,Career,C000031,position,PG,B3S0021,専修大学 ROSTER > No.3,2024年大
 B3E0163,Career,C000031,height_cm,180,B3S0021,専修大学 ROSTER > No.3,2024年大会の登録身長,SUPPORTED,2026-09-20,
 B3E0164,Career,C000031,activity_year,2024,B3S0021,専修大学 ROSTER > No.3,2024年大会の登録,SUPPORTED,2026-09-20,在籍開始・終了年月は直接示さない
 B3E0165,Career,C000031,jersey_number,3,B3S0021,専修大学 ROSTER > No.3,2024年大会の登録背番号,SUPPORTED,2026-09-20,
-B3E0166,Career,C000030,organization_id,ORG000017,B3S0023,日本経済大学 ROSTER > No.3,大学公式大会ロスターに掲載,SUPPORTED,2026-09-20,
+B3E0166,Career,C000030,organization_id,ORG000019,B3S0023,日本経済大学 ROSTER > No.3,大学公式大会ロスターに掲載,SUPPORTED,2026-09-20,
 B3E0167,Career,C000030,role,Player,B3S0023,日本経済大学 ROSTER > No.3,登録選手として掲載,SUPPORTED,2026-09-20,
 B3E0168,Career,C000030,grade,2年,B3S0023,日本経済大学 ROSTER > No.3,2022年大会の学年,SUPPORTED,2026-09-20,
 B3E0169,Career,C000030,position,C,B3S0023,日本経済大学 ROSTER > No.3,2022年大会の登録ポジション,SUPPORTED,2026-09-20,
@@ -335,7 +335,7 @@ B4W1E0027,Person,P000065,birth_date,2006-03-15,B4W1S0008,PDF 日本学生選抜 
 B4W1E0028,Career,C000224,organization_id,ORG000010,B4W1S0009,選手プロフィール > 出身校・受賞歴,福岡第一高等学校とWC2023優勝を掲載,SUPPORTED,2026-09-20,開始・終了年月は不明
 B4W1E0029,Career,C000224,role,Player,B4W1S0009,選手プロフィール > WC2023優勝,選手プロフィールの高校大会受賞歴,SUPPORTED,2026-09-20,
 B4W1E0030,Career,C000224,activity_year,2023,B4W1S0009,選手プロフィール > 受賞歴,SoftBankウインターカップ2023優勝,SUPPORTED,2026-09-20,
-B4W1E0031,Career,C000225,organization_id,ORG000017,B4W1S0007,日本経済大学 ROSTER > No.3,日本経済大学の公式大会ロスター,SUPPORTED,2026-09-20,開始・終了年月は不明
+B4W1E0031,Career,C000225,organization_id,ORG000019,B4W1S0007,日本経済大学 ROSTER > No.3,日本経済大学の公式大会ロスター,SUPPORTED,2026-09-20,開始・終了年月は不明
 B4W1E0032,Career,C000225,role,Player,B4W1S0007,日本経済大学 ROSTER > No.3,登録選手として掲載,SUPPORTED,2026-09-20,
 B4W1E0033,Career,C000225,grade,1年,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会の学年,SUPPORTED,2026-09-20,
 B4W1E0034,Career,C000225,position,SG,B4W1S0007,日本経済大学 ROSTER > No.3,2024年大会のポジション,SUPPORTED,2026-09-20,
@@ -359,7 +359,7 @@ B4W1E0051,Career,C000226,contract_term,2028-29シーズンまで,B4W1S0011,ニ�
 B4W1E0053,Organization,ORG000010,name,福岡第一高等学校,B4W1S0001,PDF 1ページ > 所属欄,JBA公式資料の組織名,SUPPORTED,2026-09-20,
 B4W1E0054,Organization,ORG000015,name,東海大学,B4W1S0002,PDF 選手一覧 > 所属欄,JBA公式資料の組織名,SUPPORTED,2026-09-20,
 B4W1E0055,Organization,ORG000055,name,横浜ビー・コルセアーズ,B4W1S0003,クラブ所属履歴 > 横浜BC,B.LEAGUE公式のクラブ表記を正式名へ対応,SUPPORTED,2026-09-20,公式ページ内の履歴表示は略称・横浜BC
-B4W1E0056,Organization,ORG000017,name,日本経済大学,B4W1S0007,日本経済大学 ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-20,既存バッチの組織ID重複は別Issue
+B4W1E0056,Organization,ORG000019,name,日本経済大学,B4W1S0007,日本経済大学 ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-20,既存バッチの組織ID重複は別Issue
 B4W1E0057,Organization,ORG000097,name,三遠ネオフェニックス,B4W1S0009,ニュース本文,クラブ公式の組織名,SUPPORTED,2026-09-20,
 B4W1E0058,Organization,ORG000098,name,メンフィス・グリズリーズ,B4W1S0004,公式発表の発行元と本文,NBAクラブの日本語表記候補,SUPPORTED,2026-09-20,原資料の英語名はMemphis Grizzlies
 B4W2E0022,Person,P000067,name,長岡 大杜,B4W2S0006,基本情報 > 選手名,B.LEAGUE公式プロフィールの氏名,SUPPORTED,2026-09-20,
@@ -468,7 +468,7 @@ B4W4E0006,Person,P000071,draft_candidate_listing,B.LEAGUE DRAFT 2026,B4W4S0001,�
 B4W4E0007,Career,C000253,organization_id,ORG000010,B4W4S0001,今泉 太陽 > 経歴 > 2019年4月-2022年3月,福岡第一高等学校の期間を掲載,SUPPORTED,2026-09-21,
 B4W4E0009,Career,C000253,start,2019,B4W4S0001,今泉 太陽 > 経歴,開始年月を2019年4月と掲載,SUPPORTED,2026-09-21,
 B4W4E0010,Career,C000253,end,2022,B4W4S0001,今泉 太陽 > 経歴,終了年月を2022年3月と掲載,SUPPORTED,2026-09-21,
-B4W4E0011,Career,C000254,organization_id,ORG000017,B4W4S0002,ROSTER > No.8 今泉 太陽,日本経済大学の大会ロスター,SUPPORTED,2026-09-21,
+B4W4E0011,Career,C000254,organization_id,ORG000019,B4W4S0002,ROSTER > No.8 今泉 太陽,日本経済大学の大会ロスター,SUPPORTED,2026-09-21,
 B4W4E0012,Career,C000254,role,Player,B4W4S0002,ROSTER・STATS > No.8,2025年大会で7試合出場,SUPPORTED,2026-09-21,
 B4W4E0013,Career,C000254,start,2022,B4W4S0001,今泉 太陽 > 経歴 > 2022年4月-現在,大学開始年月を掲載,SUPPORTED,2026-09-21,
 B4W4E0014,Career,C000254,competition_participation,2025インカレ 7試合,B4W4S0002,STATS > No.8 今泉 太陽,7試合・205分22秒の出場記録,SUPPORTED,2026-09-21,
@@ -486,7 +486,7 @@ B4W4E0026,Career,C000256,role,Player,B4W4S0004,ROSTER・STATS > No.23,2024年大
 B4W4E0027,Career,C000256,start,2022,B4W4S0001,崎濱 秀真 > 経歴 > 2022年4月-現在,大学開始年月を掲載,SUPPORTED,2026-09-21,
 B4W4E0028,Career,C000256,competition_participation,2024インカレ 2試合,B4W4S0004,STATS > No.23 崎濱 秀真,2試合・30分27秒の出場記録,SUPPORTED,2026-09-21,
 B4W4E0029,Organization,ORG000010,name,福岡第一高等学校,B4W4S0001,両選手の経歴欄,公式資料内の組織表記,SUPPORTED,2026-09-21,
-B4W4E0030,Organization,ORG000017,name,日本経済大学,B4W4S0002,大学名・ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-21,
+B4W4E0030,Organization,ORG000019,name,日本経済大学,B4W4S0002,大学名・ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-21,
 B4W4E0031,Organization,ORG000105,name,新潟経営大学,B4W4S0004,大学名・ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-21,
 B5W1E0001,Person,P000073,name,崎濱 秀斗,B5W1S0002,基本情報 > 選手名,B.LEAGUE公式の氏名,SUPPORTED,2026-09-21,
 B5W1E0002,Person,P000073,name_en,Shuto Sakihama,B5W1S0002,基本情報 > 英語表記,B.LEAGUE公式の英語表記,SUPPORTED,2026-09-21,

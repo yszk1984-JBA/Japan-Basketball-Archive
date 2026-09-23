@@ -46,3 +46,4 @@ def next_sequential_id(prefix: str, digits: int, *id_iterables: list[str]) -> st
 def ids_from_csv(path: Path, id_field: str) -> list[str]:
     """Convenience: pull one ID column out of a CSV file as a list."""
     return [row[id_field] for row in read_csv(path) if row.get(id_field)]
+

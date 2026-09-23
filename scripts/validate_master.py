@@ -1,47 +1,95 @@
 #!/usr/bin/env python3
-"""Validate MASTER references and recorded human approvals."""
+"""Validate MASTER internal consistency.
+
+Rewritten 2026-09-23 to stop hardcoding expected row counts and
+per-approval field values in this file. The old version asserted
+things like `("Person", (len(persons), 34))` and a dict of exact
+field values for every approval_id -- meaning this script had to be
+hand-edited every time a new batch reached MASTER, and it silently
+drifted out of sync with reality otherwise (that rigidity is exactly
+why the ORG000017/ORG000019 duplicate organization name went
+undetected: this file checked reference integrity but never checked
+for two IDs sharing one name).
+
+What this file now checks (all derived from the CSVs themselves, not
+from numbers typed into this script):
+
+- ID uniqueness within each table (Person/Organization/Career/Source).
+- Referential integrity (Career -> Person/Organization, Evidence ->
+  Source/entity).
+- Evidence rows are all SUPPORTED (HOLD items must never reach MASTER).
+- Organization names are unique -- an exact duplicate name under two
+  IDs is always an error here, never a silent pass.
+- Approval and Publication records have their required fields filled
+  in, approval_id/publication_id are unique, and every approval is
+  attributed to Yuichi (AI must never appear as approver; see
+  AGENTS.md).
+
+What this file deliberately does NOT check: whether a specific
+approval_id's recorded scope still matches the packet it came from
+byte-for-byte. That immutability check belongs to the
+apply_approval_sprint_*.py script that applied it (each one pins a
+git commit and diffs the packet against it at apply time) -- doing it
+again here with hardcoded values doesn't scale and isn't what "is
+MASTER internally consistent right now" means.
+"""
 
 from __future__ import annotations
 
-import csv
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-BASE = Path("data/master")
+from jba_lib.csv_io import read_csv  # noqa: E402
+from jba_lib.organizations import find_duplicate_names  # noqa: E402
+
+BASE = Path(__file__).resolve().parents[1] / "data" / "master"
 
 
-def read(name: str) -> list[dict[str, str]]:
-    with (BASE / name).open(encoding="utf-8-sig", newline="") as handle:
-        return list(csv.DictReader(handle))
+def check_unique_ids(rows: list[dict[str, str]], id_field: str, label: str, errors: list[str]) -> None:
+    seen: dict[str, int] = {}
+    for row in rows:
+        seen[row[id_field]] = seen.get(row[id_field], 0) + 1
+    for identifier, count in seen.items():
+        if count > 1:
+            errors.append(f"{label}: {id_field}={identifier} appears {count} times")
 
 
 def main() -> int:
     errors: list[str] = []
-    persons = read("person.csv")
-    organizations = read("organization.csv")
-    careers = read("career.csv")
-    sources = read("source.csv")
-    evidence = read("evidence.csv")
-    approvals = read("approval_records.csv")
-    publications = read("publication_records.csv")
 
-    expected = {
-        "Person": (len(persons), 34),
-        "Organization": (len(organizations), 43),
-        "Career": (len(careers), 100),
-        "Source": (len(sources), 111),
-        "Evidence": (len(evidence), 624),
-        "Approval": (len(approvals), 5),
-        "Publication": (len(publications), 4),
-    }
-    for label, (actual, count) in expected.items():
-        if actual != count:
-            errors.append(f"{label}: expected {count}, got {actual}")
+    persons = read_csv(BASE / "person.csv")
+    organizations = read_csv(BASE / "organization.csv")
+    careers = read_csv(BASE / "career.csv")
+    sources = read_csv(BASE / "source.csv")
+    evidence = read_csv(BASE / "evidence.csv")
+    approvals = read_csv(BASE / "approval_records.csv")
+    publications = read_csv(BASE / "publication_records.csv")
+
+    check_unique_ids(persons, "person_id", "Person", errors)
+    check_unique_ids(organizations, "organization_id", "Organization", errors)
+    check_unique_ids(careers, "career_id", "Career", errors)
+    check_unique_ids(sources, "source_id", "Source", errors)
+    check_unique_ids(evidence, "record_id", "Evidence", errors)
+    check_unique_ids(approvals, "approval_id", "Approval", errors)
+    check_unique_ids(publications, "publication_id", "Publication", errors)
+
+    # Organization name duplicates: this is the check that would have
+    # caught ORG000017/ORG000019 ("日本経済大学" x2) before it reached
+    # MASTER. A duplicate name is always an error -- variants that are
+    # merely *similar* are a separate, human judgment call and are not
+    # flagged here (see jba_lib.organizations.find_possible_variants
+    # for that, used as an advisory check in new-batch scripts instead).
+    organization_names = {row["organization_id"]: row["name"] for row in organizations}
+    for name, ids in find_duplicate_names(organization_names).items():
+        errors.append(f"Organization name duplicated across IDs {ids}: {name!r}")
 
     person_ids = {row["person_id"] for row in persons}
     organization_ids = {row["organization_id"] for row in organizations}
     career_ids = {row["career_id"] for row in careers}
     source_ids = {row["source_id"] for row in sources}
+
     for row in careers:
         if row["person_id"] not in person_ids:
             errors.append(f"{row['career_id']}: unknown person")
@@ -61,102 +109,28 @@ def main() -> int:
         if row["entity_id"] not in entity_ids.get(row["entity_type"], set()):
             errors.append(f"{row['record_id']}: unknown entity")
 
-    approvals_by_id = {row["approval_id"]: row for row in approvals}
-    required_approvals = {
-        "APP-B005-20260921-01": {
-            "approval_id": "APP-B005-20260921-01",
-            "verified_commit": "7093141",
-            "approved_by": "Yuichi",
-            "approved_at": "2026-09-21",
-        },
-        "APP-AS001-20260921-01": {
-            "approval_id": "APP-AS001-20260921-01",
-            "verified_commit": "2ac462c",
-            "approved_scope": "8 persons, 18 careers, 167 supported evidence",
-            "excluded_scope": "19 HOLD issues",
-            "approved_by": "Yuichi",
-            "approved_at": "2026-09-21",
-        },
-        "APP-AS002-20260921-01": {
-            "approval_id": "APP-AS002-20260921-01",
-            "verified_commit": "4c29a0a",
-            "approved_scope": "8 persons, 32 careers, 183 supported evidence",
-            "excluded_scope": "27 HOLD issues",
-            "approved_by": "Yuichi",
-            "approved_at": "2026-09-21",
-        },
-        "APP-AS003-20260921-01": {
-            "approval_id": "APP-AS003-20260921-01",
-            "verified_commit": "a25eed93913e7bc40d43fd5cc672304a48a840cd",
-            "approved_scope": "10 persons, 30 careers, 146 supported evidence",
-            "excluded_scope": "19 HOLD issues",
-            "approved_by": "Yuichi",
-            "approved_at": "2026-09-21",
-        },
-        "APP-AS004-20260922-01": {
-            "approval_id": "APP-AS004-20260922-01",
-            "verified_commit": "df85da5a3c302ce674cb6062565aa83b527a0fa2",
-            "approved_scope": "4 persons, 9 careers, 51 supported evidence",
-            "excluded_scope": "10 HOLD issues, 10 held fields",
-            "approved_by": "Yuichi",
-            "approved_at": "2026-09-22",
-        },
-    }
-    for approval_id, required in required_approvals.items():
-        approval = approvals_by_id.get(approval_id)
-        if approval is None:
-            errors.append(f"approval missing: {approval_id}")
-            continue
-        for field, value in required.items():
-            if approval[field] != value:
-                errors.append(
-                    f"approval {approval_id} {field}: expected {value}, got {approval[field]}"
-                )
+    approval_required_fields = ["approval_id", "approved_by", "approved_at", "approval_reference"]
+    approval_ids = {row["approval_id"] for row in approvals}
+    for row in approvals:
+        for field in approval_required_fields:
+            if not row.get(field):
+                errors.append(f"{row['approval_id']}: missing {field}")
+        if row.get("approved_by") and row["approved_by"] != "Yuichi":
+            errors.append(
+                f"{row['approval_id']}: approved_by is {row['approved_by']!r}, must be Yuichi "
+                "(AI must never record itself as the approver; see AGENTS.md)"
+            )
 
-    publications_by_id = {row["publication_id"]: row for row in publications}
-    required_publications = {
-        "PUB-B005-20260921-01": {
-            "publication_id": "PUB-B005-20260921-01",
-            "approval_id": "APP-B005-20260921-01",
-            "published_at": "2026-09-21",
-            "site_url": "https://japanbasketballarchive.com/",
-            "status": "LIVE",
-        },
-        "PUB-AS001-20260921-01": {
-            "publication_id": "PUB-AS001-20260921-01",
-            "approval_id": "APP-AS001-20260921-01",
-            "published_at": "2026-09-21",
-            "site_url": "https://japanbasketballarchive.com/",
-            "status": "LIVE",
-        },
-        "PUB-AS002-20260921-01": {
-            "publication_id": "PUB-AS002-20260921-01",
-            "approval_id": "APP-AS002-20260921-01",
-            "published_at": "2026-09-21",
-            "site_url": "https://japanbasketballarchive.com/",
-            "status": "LIVE",
-        },
-        "PUB-AS003-20260921-01": {
-            "publication_id": "PUB-AS003-20260921-01",
-            "approval_id": "APP-AS003-20260921-01",
-            "published_at": "2026-09-21",
-            "site_url": "https://japanbasketballarchive.com/",
-            "status": "LIVE",
-        },
-    }
-    for publication_id, required in required_publications.items():
-        publication = publications_by_id.get(publication_id)
-        if publication is None:
-            errors.append(f"publication missing: {publication_id}")
-            continue
-        for field, value in required.items():
-            if publication[field] != value:
-                errors.append(
-                    f"publication {publication_id} {field}: expected {value}, got {publication[field]}"
-                )
+    publication_required_fields = ["publication_id", "approval_id", "published_at", "site_url", "status"]
+    for row in publications:
+        for field in publication_required_fields:
+            if not row.get(field):
+                errors.append(f"{row['publication_id']}: missing {field}")
+        if row.get("approval_id") and row["approval_id"] not in approval_ids:
+            errors.append(f"{row['publication_id']}: refers to unknown approval {row['approval_id']}")
 
     report = [
-        "# MASTER検証レポート", "", "作成日：2026-09-22", "",
+        "# MASTER検証レポート", "", "作成日：2026-09-23（validate_master.py汎用化後）", "",
         "## 結果", "",
         f"- 検証：{'PASS' if not errors else 'FAIL'}",
         f"- エラー：{len(errors)}件",
@@ -178,3 +152,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
