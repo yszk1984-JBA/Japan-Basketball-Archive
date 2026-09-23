@@ -1,0 +1,17 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B8W1D0001,Person,P000111,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-24
+B8W1D0002,Career,C000390,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィール・出身校タグ一覧の独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W1D0003,Career,C000391,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィール・バスケWeb辞典の独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W1D0004,Career,C000392,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-24
+B8W1D0005,Person,P000112,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-24
+B8W1D0006,Career,C000393,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィール・出身校タグ一覧の独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W1D0007,Career,C000394,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィール・バスケWeb辞典の独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W1D0008,Career,C000395,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-24
+B8W1D0009,Person,P000113,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-24
+B8W1D0010,Career,C000396,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,出身校タグ一覧・Wikipediaの独立2ソースで確認（本人プロフィールページには出身校欄の記載なし）、在籍期間は未確認,2026-09-24
+B8W1D0011,Career,C000397,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,バスケWeb辞典・Wikipediaの独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W1D0012,Career,C000398,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-24
+B8W1D0013,Person,P000114,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-24
+B8W1D0014,Career,C000399,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,出身校タグ一覧・バスケWeb辞典の独立2ソースで確認（本人プロフィールページの出身校欄は大学名のみ表示）、在籍期間は未確認,2026-09-24
+B8W1D0015,Career,C000400,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィール・バスケWeb辞典の独立2ソースで確認、在籍期間は未確認,2026-09-24
+B8W1D0016,Career,C000401,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-24
