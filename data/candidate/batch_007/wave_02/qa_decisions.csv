@@ -1,0 +1,17 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0016,Person,P000087,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-23
+B7D0017,Career,C000301,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式「ワタシノB.LEAGUE」の出身校タグで確認、期間は未確認のためHOLD,2026-09-23
+B7D0018,Career,C000302,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの出身校欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0019,Career,C000303,READY_FOR_VERIFIED_REVIEW,organization_id|role,,クラブ公式のクラブ所属履歴で確認,2026-09-23
+B7D0020,Person,P000088,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-23
+B7D0021,Career,C000304,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式「ワタシノB.LEAGUE」の出身校タグで確認、期間は未確認のためHOLD,2026-09-23
+B7D0022,Career,C000305,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,移籍先クラブ公式の契約発表記事内の経歴紹介で確認、期間は未確認のためHOLD,2026-09-23
+B7D0023,Career,C000306,READY_FOR_VERIFIED_REVIEW,organization_id|role,,移籍先クラブ公式の契約発表で確認,2026-09-23
+B7D0024,Person,P000089,READY_FOR_VERIFIED_REVIEW,name|birth_date,,クラブ公式選手プロフィールで確認,2026-09-23
+B7D0025,Career,C000307,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,クラブ公式選手プロフィールの経歴概要で確認、期間は未確認のためHOLD,2026-09-23
+B7D0026,Career,C000308,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,クラブ公式選手プロフィールの経歴概要で確認、期間は未確認のためHOLD,2026-09-23
+B7D0027,Career,C000309,READY_FOR_VERIFIED_REVIEW,organization_id|role,,クラブ公式選手プロフィールの現所属欄で確認,2026-09-23
+B7D0028,Person,P000090,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式・クラブ公式プロフィールで確認,2026-09-23
+B7D0029,Career,C000310,HOLD_CANDIDATE,role,organization_id|start|end,専門媒体単独の情報のためHOLD,2026-09-23
+B7D0030,Career,C000311,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,大学公式インタビューサイト（Meiji NOW）で確認、期間は未確認のためHOLD,2026-09-23
+B7D0031,Career,C000312,READY_FOR_VERIFIED_REVIEW,organization_id|role,,クラブ公式選手プロフィールで現所属を確認,2026-09-23
