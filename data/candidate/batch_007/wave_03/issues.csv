@@ -1,0 +1,2 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B7I0013,ALL,ALL,CLUB_HISTORY_SCOPE,HOLD,Wave 1・Wave 2と同様、本Waveでも各選手の現所属クラブのみをCareerとして記録し、過去の所属クラブ（例：松脇圭志の三遠ネオフェニックス・富山グラウジーズ、片岡大晴の京都ハンナリーズ・埼玉ブロンコス等）は対象外とした。OrganizationAlias・組織承継ルールの未解決自体はBatch 004のB4W3I0011から変わっていない,OrganizationAlias・組織承継ルールをYuichiと合意してから過去クラブ経歴を追加する

@@ -2,7 +2,7 @@
 
 作成日：2026-09-23
 
-状態：Wave 1・Wave 2の計8人がCANDIDATE・構造QAまで完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
+状態：Wave 1・Wave 2・Wave 3の計12人がCANDIDATE・構造QAまで完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
 
 ## 背景・目的
 
@@ -53,3 +53,26 @@ Wave 1と同じくB.LEAGUE公式・クラブ公式を一次資料として優先
 構造QA実行中に、金丸晃輔の出身大学（明治大学）用に新規Organizationを作成しようとしたところ、`validate_batch_007_wave_02.py`が既存の`ORG000124`（Batch 007 Wave 1で齋藤拓実の出身大学として作成済み）との名称重複を検出し、二重登録を未然に防いだ。修正後は`ORG000124`を再利用している。
 
 検証結果は[`wave_02/validation_report.md`](wave_02/validation_report.md)を参照する。
+
+
+## Wave 3
+
+状態：Wave 3の4人はCANDIDATE・構造QA（`validate_batch_007_wave_03.py`）まで完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
+
+### 対象選定方針の変更（Yuichi、2026-09-23）
+
+Yuichiより「2026年B.LEAGUE PREMIERの所属チームの選手を優先してリサーチ対象にしたい。福岡第一高校の選手がいれば必ず含める。福岡第一高校以外の高校も含めたい」との指示を受け、[`docs/DATA_SCALING_WORKFLOW_V0.1.md`](../../docs/DATA_SCALING_WORKFLOW_V0.1.md)に恒久方針として追記した（「調査対象の優先順位（2026-09-23〜）」節）。
+
+対象選定にあたり、まず福岡第一高等学校出身の新規該当者の有無を確認した。B.LEAGUE公式「ワタシノB.LEAGUE」出身校タグ一覧（`https://www.bleague.jp/mybleague_list/?TagID=35:福岡第一高等学校`）で確認できる現役B.LEAGUE選手14人（うちB.PREMIER-26所属7人）は、2026-09-23時点で全員Masterに登録済みであることを確認した。新規候補は0人だったため、本Waveは福岡第一高校以外の高校から幅広く選定した。
+
+次に、B.LEAGUE PREMIER 2026-27シーズンの全26クラブ（`https://www.bleague.jp/news_detail/id=444118`で確認）について、Master（`data/master/career.csv`の現所属Career）およびBatch 007 Wave 1・Wave 2の候補データ（`career_candidates.csv`）の両方を突き合わせ、現所属選手が一人もカバーされていないクラブを洗い出した。アルバルク東京・仙台89ERS・琉球ゴールデンキングスは、Organization自体はMasterまたは候補データに存在するが、記録されているCareerが過去の所属（終了年あり）のみで現所属のカバーがないことも確認した。
+
+最終対象：安藤周人（アルバルク東京）、片岡大晴（仙台89ERS）、松脇圭志（琉球ゴールデンキングス）、星川堅信（長崎ヴェルカ）。いずれもB.LEAGUE公式選手プロフィール（`bleague.jp/roster_detail`）1件で氏名・生年月日・出身高校・大学・現所属クラブまで一次資料で確認できたため、Wave 2までと異なり1人あたり1件のSourceで完結している。
+
+### 資料の優先順位
+
+Wave 1・Wave 2と同じくB.LEAGUE公式選手プロフィールを一次資料として優先した。本Waveの4人は全員、同一の公式プロフィールページ内に出身高校・大学・現所属クラブの記載があり、専門媒体のみに依拠するSOURCE_TIER Issueは発生しなかった（HOLD判断は0件）。
+
+Organization IDは、青山学院大学（ORG000030）・白鷗大学（ORG000093）・アルバルク東京（ORG000109）・琉球ゴールデンキングス（ORG000106）・洛南高等学校（ORG000119、Wave 1で比江島慎の出身校として作成）・日本大学（ORG000121、Wave 1で篠山竜青の出身大学として作成）を、Master・既存Wave双方を確認したうえで再利用し、新規重複は発生しなかった（`validate_batch_007_wave_03.py`はエラー0件で初回PASS）。
+
+検証結果は[`wave_03/validation_report.md`](wave_03/validation_report.md)を参照する。

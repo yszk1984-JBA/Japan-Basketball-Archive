@@ -1,0 +1,17 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0032,Person,P000091,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-23
+B7D0033,Career,C000313,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの出身校欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0034,Career,C000314,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの大学欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0035,Career,C000315,READY_FOR_VERIFIED_REVIEW,organization_id|role,,B.LEAGUE公式プロフィールの現所属欄で確認,2026-09-23
+B7D0036,Person,P000092,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-23
+B7D0037,Career,C000316,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの出身校欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0038,Career,C000317,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの大学欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0039,Career,C000318,READY_FOR_VERIFIED_REVIEW,organization_id|role,,B.LEAGUE公式プロフィールの現所属欄で確認,2026-09-23
+B7D0040,Person,P000093,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-23
+B7D0041,Career,C000319,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの出身校欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0042,Career,C000320,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの大学欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0043,Career,C000321,READY_FOR_VERIFIED_REVIEW,organization_id|role,,B.LEAGUE公式プロフィールの現所属欄で確認,2026-09-23
+B7D0044,Person,P000094,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-23
+B7D0045,Career,C000322,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの出身校欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0046,Career,C000323,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールの大学欄で確認、期間は未確認のためHOLD,2026-09-23
+B7D0047,Career,C000324,READY_FOR_VERIFIED_REVIEW,organization_id|role,,B.LEAGUE公式プロフィールの現所属欄で確認,2026-09-23
