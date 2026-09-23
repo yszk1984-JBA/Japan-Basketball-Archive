@@ -1,0 +1,15 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0048,Career,C000299,READY_FOR_VERIFIED_REVIEW,organization_id|role,,Wikipedia及びJBA公式コラムの独立した2ソースでモントロス・クリスチャン高校在籍を確認。開志国際高等学校との関係はいずれの資料にも記載なく保留解除,2026-09-23
+B7D0049,Career,C000300,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,,Wikipediaにより2015年9月の千葉ジェッツ加入(start)を確認,2026-09-23
+B7D0050,Career,C000325,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,新規発見：Wikipediaにより2012年12月〜2014年6月の秋田ノーザンハピネッツ在籍を確認。CLUB_HISTORY_SCOPE(B7I0013)の一部を充足,2026-09-23
+B7D0051,Career,C000326,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,新規発見：Wikipediaにより2014年11月〜2015年2月のテキサス・レジェンズ(Dリーグ)在籍を確認。CLUB_HISTORY_SCOPE(B7I0013)の一部を充足,2026-09-23
+B7D0052,Career,C000293,READY_FOR_VERIFIED_REVIEW,organization_id|role|end,start,bleague.jp公式プロフィール(既存B7S0005)とWikipediaで桐光学園高校在籍を独立確認。大学入学(2014)確定より卒業(end)を2014年3月と導出。startは生年月日推定のみで保留継続,2026-09-23
+B7D0053,Career,C000294,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,明大スポーツ新聞部記事で2014年度入学(start)を直接確認。卒業年(end)は2017年プロ入り記載と標準4年制が整合しないため保留継続（B7I0014参照）,2026-09-23
+B7D0054,Career,C000296,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,Wikipediaにより北陸高等学校を独立ソースで再確認（専門媒体単独の懸念を解消）。卒業年(end)は直接資料なく保留継続,2026-09-23
+B7D0055,Career,C000297,READY_FOR_VERIFIED_REVIEW,organization_id|role|end,start,Wikipediaに卒業後2011年に東芝ブレイブサンダース加入と明記されており卒業年(end)を確認。入学年(start)は生年月日推定のみで保留継続,2026-09-23
+B7D0056,Career,C000301,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipediaに入学(2007年4月)・卒業に相当する大学進学(2010年4月)が明記されており両方を確認,2026-09-23
+B7D0057,Career,C000302,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipediaに入学(2010年4月)が明記され、4年次主将の記述から卒業(2014年3月)を導出,2026-09-23
+B7D0058,Career,C000308,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipediaの「3年次2019年12月・4年次2020年12月」の記述から入学(2017)・卒業(2021)を導出,2026-09-23
+B7D0059,Career,C000310,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jp公式選手プロフィール(既存B7S0018)により大濠高校在籍を独立確認。在籍期間は直接資料なく保留継続,2026-09-23
+B7D0060,Career,C000311,READY_FOR_VERIFIED_REVIEW,organization_id|role|end,start,Meiji NOW（明治大学公式、既存B7S0020）に卒業年(2011)の明記あり確認。入学年は生年月日推定のみで保留継続,2026-09-23
+B7D0061,Career,C000320,READY_FOR_VERIFIED_REVIEW,organization_id|role|end,start,日本大学公式スポーツニュース等を踏まえたWikipedia記述で4年次(2019年度)在籍を確認し卒業(2020年3月)を導出。入学年は生年月日推定のみで保留継続,2026-09-23

@@ -4,10 +4,22 @@
 Mirrors build_site_master_data.py's output shape (PublicPlayer / PublicSource)
 but reads every data/candidate/**/ wave directory instead of data/master, and
 only surfaces entities individually marked READY_FOR_VERIFIED_REVIEW in that
-wave's qa_decisions.csv. A HOLD_CANDIDATE Career is dropped entirely; a field
-outside a READY entity's eligible_fields is never surfaced, even if evidence
-for it exists (that evidence belongs to a field still on HOLD). A Person with
-no READY Career at all is dropped (nothing safe to show).
+entity's MOST RECENT qa_decisions.csv row. A HOLD_CANDIDATE Career is dropped
+entirely; a field outside a READY entity's eligible_fields is never surfaced,
+even if evidence for it exists (that evidence belongs to a field still on
+HOLD). A Person with no READY Career at all is dropped (nothing safe to show).
+
+Waves are grouped by BATCH (their parent directory), not read in isolation:
+an Enrichment Wave (深掘りWave) adds no new Person/Organization/Career rows of
+its own for existing entities, but supplies new evidence_records.csv and
+qa_decisions.csv rows that reference Career/Organization IDs defined in an
+EARLIER wave of the same batch. So within a batch, person/organization/career
+rows, evidence rows and source rows are all merged across every wave before
+building the public output; when more than one qa_decisions row exists for
+the same (entity_type, entity_id) across waves, the row with the latest
+reviewed_at (ties broken by wave directory name, i.e. the later wave) wins
+in full — an Enrichment Wave's decision rows are written as a complete
+restatement of eligible/held fields, not a delta, so "latest wins" is safe.
 
 This is CANDIDATE data: sourced, but not yet through VERIFIED or Human
 approval. It must never be confused with data/master/*.
@@ -91,45 +103,55 @@ def main() -> None:
     }
 
     wave_dirs = sorted({p.parent for p in (ROOT / "data" / "candidate").rglob("qa_decisions.csv")})
+    batches: dict[Path, list[Path]] = defaultdict(list)
+    for wave_dir in wave_dirs:
+        batches[wave_dir.parent].append(wave_dir)
 
     public_people = []
     public_sources: dict[str, dict[str, str]] = {}
 
-    for wave_dir in wave_dirs:
-        person_path = wave_dir / "person_candidates.csv"
-        if not person_path.exists():
-            continue
+    for batch_dir, batch_wave_dirs in sorted(batches.items()):
+        batch_wave_dirs = sorted(batch_wave_dirs)  # wave_01 < wave_02 < ... so later wave sorts last
 
-        people = read_csv(person_path)
-        orgs = read_csv(wave_dir / "organization_candidates.csv")
-        careers = read_csv(wave_dir / "career_candidates.csv")
-        sources = read_csv(wave_dir / "source_references.csv")
-        evidence = read_csv(wave_dir / "evidence_records.csv")
-        decisions = read_csv(wave_dir / "qa_decisions.csv")
-
-        for row in orgs:
-            organizations.setdefault(row["organization_id"], row["name"])
-
-        decision_by_entity = {(row["entity_type"], row["entity_id"]): row for row in decisions}
-
+        people: dict[str, dict[str, str]] = {}
+        careers_by_person: dict[str, list[dict[str, str]]] = defaultdict(list)
+        source_by_id: dict[str, dict[str, str]] = {}
         evidence_by_entity: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
         source_locators: dict[str, list[str]] = defaultdict(list)
-        for row in evidence:
-            evidence_by_entity[(row["entity_type"], row["entity_id"])].append(row)
-            source_locators[row["source_id"]].append(row["source_locator"])
+        # (entity_type, entity_id) -> (reviewed_at, wave_dir_name, decision_row); later wave / later
+        # reviewed_at wins outright, since an Enrichment Wave's decision row is a full restatement.
+        decision_by_entity: dict[tuple[str, str], tuple[str, str, dict[str, str]]] = {}
 
-        careers_by_person: dict[str, list[dict[str, str]]] = defaultdict(list)
-        for row in careers:
-            careers_by_person[row["person_id"]].append(row)
+        for wave_dir in batch_wave_dirs:
+            person_path = wave_dir / "person_candidates.csv"
+            if not person_path.exists():
+                continue
 
-        source_by_id = {row["source_id"]: row for row in sources}
+            for row in read_csv(person_path):
+                people.setdefault(row["person_id"], row)
+            for row in read_csv(wave_dir / "organization_candidates.csv"):
+                organizations.setdefault(row["organization_id"], row["name"])
+            for row in read_csv(wave_dir / "career_candidates.csv"):
+                careers_by_person[row["person_id"]].append(row)
+            for row in read_csv(wave_dir / "source_references.csv"):
+                source_by_id.setdefault(row["source_id"], row)
+            for row in read_csv(wave_dir / "evidence_records.csv"):
+                evidence_by_entity[(row["entity_type"], row["entity_id"])].append(row)
+                source_locators[row["source_id"]].append(row["source_locator"])
+            for row in read_csv(wave_dir / "qa_decisions.csv"):
+                key = (row["entity_type"], row["entity_id"])
+                candidate = (row.get("reviewed_at", ""), wave_dir.name, row)
+                existing = decision_by_entity.get(key)
+                if existing is None or candidate[:2] >= existing[:2]:
+                    decision_by_entity[key] = candidate
 
-        for person in people:
-            person_id = person["person_id"]
+        decisions_final = {key: value[2] for key, value in decision_by_entity.items()}
+
+        for person_id, person in people.items():
             if person_id in master_person_ids:
                 continue
 
-            person_decision = decision_by_entity.get(("Person", person_id))
+            person_decision = decisions_final.get(("Person", person_id))
             if not person_decision or person_decision["decision"] != "READY_FOR_VERIFIED_REVIEW":
                 continue
             person_eligible = eligible_set(person_decision)
@@ -156,7 +178,7 @@ def main() -> None:
 
             public_careers = []
             for career in careers_by_person.get(person_id, []):
-                career_decision = decision_by_entity.get(("Career", career["career_id"]))
+                career_decision = decisions_final.get(("Career", career["career_id"]))
                 if not career_decision or career_decision["decision"] != "READY_FOR_VERIFIED_REVIEW":
                     continue
                 career_eligible = eligible_set(career_decision)
@@ -174,6 +196,18 @@ def main() -> None:
                     if values:
                         details.append(f"{label}：{' / '.join(values)}")
 
+                # start/end may now come from either the career's own row (as originally
+                # recorded) or be confirmed later by an Enrichment Wave's evidence; prefer
+                # the career row's own values, falling back to eligible evidence values.
+                start = career["start"]
+                end = career["end"]
+                if not start and "start" in career_eligible:
+                    start_values = unique([row["candidate_value"] for row in career_evidence if row["field_name"] == "start"])
+                    start = start_values[0] if start_values else ""
+                if not end and "end" in career_eligible:
+                    end_values = unique([row["candidate_value"] for row in career_evidence if row["field_name"] == "end"])
+                    end = end_values[0] if end_values else ""
+
                 org_name = organizations.get(career["organization_id"], career["organization_id"])
                 career_source_ids = unique([
                     row["source_id"] for row in career_evidence if row["field_name"] in career_eligible
@@ -181,7 +215,7 @@ def main() -> None:
                 used_source_ids.update(career_source_ids)
                 public_careers.append({
                     "id": career["career_id"],
-                    "period": period(career["start"], career["end"]),
+                    "period": period(start, end),
                     "organization": org_name,
                     "organizationId": career["organization_id"],
                     "detail": " · ".join(details) or "所属を公式資料で確認",

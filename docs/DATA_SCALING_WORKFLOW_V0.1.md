@@ -30,6 +30,25 @@ Yuichiの指示（2026-09-23）により、今後のWave対象選定は以下を
 - 2026-09-23時点で、B.LEAGUE公式「ワタシノB.LEAGUE」高校タグ機能（`https://www.bleague.jp/mybleague_list/?TagID=35:福岡第一高等学校`）で確認できる福岡第一高等学校出身の現役B.LEAGUE選手14人（うちB.PREMIER-26所属7人）は、全員Master登録済み。新規の福岡第一高等学校出身候補（既存14人に含まれない人物）が確認できた場合は、他校出身者に優先してWaveへ組み込む。
 - Wave対象クラブの選定では、Master（現所属Career）とCANDIDATE（Batch/Waveの現所属Career）の両方を確認し、既にいずれかで現所属をカバー済みのクラブと重複しないよう調整する。
 
+## Wave種別とカデンス（2026-09-23〜）
+
+Yuichiの指示（2026-09-23）により、Waveを以下の2種類に分け、一定のカデンスで交互に実施する型を定める。
+
+- **新規開拓Wave（Acquisition Wave）**: 未収録の人物をCANDIDATEとして新規追加するWave。これまでのWave 1〜3はすべてこの型。
+- **深掘りWave（Enrichment Wave）**: 既存の公開済み人物（Master／CANDIDATE問わず）について、既存Careerレコードで保留（HOLD）になっているフィールドの追加調査、および「現所属クラブのみ」登録によって欠落している過去の所属歴（CLUB_HISTORY_SCOPE issue該当分）の追加調査を行うWave。新規人物の追加は行わない。
+
+**カデンス**: 新規開拓Waveを3回実施するごとに、深掘りWaveを1回挟む（3:1）。Batch 007はWave 1〜3が新規開拓3回連続だったため、Wave 4は深掘りWaveとし、Wave 5以降で新規開拓を再開する。
+
+**深掘りWaveのデータ構造**: 深掘りWaveは新しいWaveフォルダ（例: `wave_04`）として追加するが、対象は既存のPerson/Career/Organizationであり、既存レコードのIDや値は変更しない。追加調査で得た情報は以下のいずれかの形で追記する。
+
+1. 既存Career（他Waveのentity_id）に対する追加のevidence_records行と、新しいqa_decisions行（reviewed_atを新しくし、必要ならeligible_fieldsを拡張）。旧いqa_decisions行は削除・上書きしない。
+2. 新たに判明した所属歴（現所属クラブ以前の中間クラブ等）は、新規Career IDを採番してcareer_candidates.csvに追加する。
+
+**深掘りWaveの優先対象**:
+- HOLD_CANDIDATE判定のCareer（`organization_id`自体が単独の専門媒体情報のみで未確認のもの）を優先し、独立した第2ソースを探す。
+- READY_FOR_VERIFIED_REVIEWだが`start|end`が保留のCareer（高校・大学の卒業/在籍期間未確認）について、公式または準公式ソースでの期間確認を試みる。
+- CLUB_HISTORY_SCOPE issue（B7I0010→B7I0012→B7I0013）が立っている人物の、卒業後〜現所属クラブ加入までの中間所属歴。
+
 ## 1人あたりの最小確認範囲
 
 1. Personの氏名

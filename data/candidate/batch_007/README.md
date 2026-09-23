@@ -2,7 +2,7 @@
 
 作成日：2026-09-23
 
-状態：Wave 1・Wave 2・Wave 3の計12人がCANDIDATE・構造QAまで完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
+状態：Wave 1・Wave 2・Wave 3の計12人がCANDIDATE・構造QAまで完了。Wave 4（深掘りWave）で同12人の既存Careerレコードに追加調査を実施、構造QA完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
 
 ## 背景・目的
 
@@ -76,3 +76,29 @@ Wave 1・Wave 2と同じくB.LEAGUE公式選手プロフィールを一次資料
 Organization IDは、青山学院大学（ORG000030）・白鷗大学（ORG000093）・アルバルク東京（ORG000109）・琉球ゴールデンキングス（ORG000106）・洛南高等学校（ORG000119、Wave 1で比江島慎の出身校として作成）・日本大学（ORG000121、Wave 1で篠山竜青の出身大学として作成）を、Master・既存Wave双方を確認したうえで再利用し、新規重複は発生しなかった（`validate_batch_007_wave_03.py`はエラー0件で初回PASS）。
 
 検証結果は[`wave_03/validation_report.md`](wave_03/validation_report.md)を参照する。
+
+
+## Wave 4（深掘りWave / Enrichment Wave）
+
+状態：Wave 4はCANDIDATE構造QA（`validate_batch_007_wave_04.py`）まで完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
+
+### 位置づけ（カデンスルール、Yuichi、2026-09-23）
+
+Yuichiより「新規開拓Waveを3回実施するごとに、既存公開済み選手の深掘り（Enrichment）Waveを1回挟む」というカデンスルールの採用が決定された。[`docs/DATA_SCALING_WORKFLOW_V0.1.md`](../../docs/DATA_SCALING_WORKFLOW_V0.1.md)の「Wave種別とカデンス」節に恒久方針として記録した。Batch 007はWave 1〜3が新規開拓3回連続だったため、Wave 4を深掘りWaveとし、Wave 5以降で新規開拓を再開する。
+
+深掘りWaveは新規Personを追加しない。Wave 1〜3で登録済みの12人について、(1) HOLD_CANDIDATE判定だった出身校のorganization_id、(2) READY_FOR_VERIFIED_REVIEWだが`start`/`end`が保留の高校・大学在籍期間、(3) 現所属クラブ以前の所属歴の欠落（CLUB_HISTORY_SCOPE、issue B7I0010→B7I0012→B7I0013）を対象に追加調査した。既存Wave 1〜3のCSVファイル・レコードは一切変更せず、新しいevidence_records・qa_decisions（reviewed_at=2026-09-23）を追記する形式とした。
+
+### 主な成果
+
+- HOLD_CANDIDATE判定だった3件（富樫勇樹／モントロス・クリスチャン高校、齋藤拓実／桐光学園高校、金丸晃輔／福岡大学附属大濠高等学校）について、いずれもWikipediaまたはB.LEAGUE公式選手プロフィール（既存ソースの引用漏れ含む）による独立した第2ソースを確認し、organization_idの保留を解除した。
+- 富樫勇樹について、高校卒業後にbjリーグ秋田ノーザンハピネッツ（2012年12月〜2014年6月）およびNBA傘下Dリーグのテキサス・レジェンズ（2014年11月〜2015年2月）に在籍していたことをWikipediaで確認し、新規Career候補として追加した（CLUB_HISTORY_SCOPEの一部解消）。千葉ジェッツ加入時期（2015年9月）も追加確認した。
+- 篠山竜青・田中大貴・金丸晃輔・松脇圭志の大学卒業年、田中大貴・西田優大の大学在籍期間について、公式または大学発信の一次資料（Wikipedia経由の引用を含む）で直接確認または論理的導出ができたため、該当Careerのeligible_fieldsを拡張した。
+- 一方、比江島慎・岸本隆一・西田優大（高校）・安藤周人・片岡大晴・松脇圭志（高校）・星川堅信（高校）の在籍期間は、生年月日からの標準的な学年進行の推定に留まり直接資料が見つからなかったため、held_fields（保留）を維持した。
+
+### 新たに判明した課題（次回以降への持ち越し）
+
+- 齋藤拓実の明治大学卒業年について、入学年（2014年度、直接確認）と2017年のプロ入り記載（B.LEAGUE公式）が標準4年制と整合しない矛盾を検出した（issue B7I0014）。
+- 星川堅信の早稲田大学入学年について、2019年時点の「大学3年」記事と2024年の「令和5年度卒業」記事の間に食い違いを検出した（issue B7I0015）。
+- 齋藤拓実（アルバルク東京・滋賀）、松脇圭志（富山グラウジーズ・三遠ネオフェニックス）、星川堅信（宇都宮ブレックス特別指定・越谷アルファーズ）、岸本隆一（琉球ゴールデンキングス）、田中大貴（アルバルク東京）について、現所属クラブ以前の在籍歴を示唆する資料を発見したが、正確な時期・当時の正式チーム名の確認までは至らなかったため、それぞれissue（B7I0016〜B7I0020）として記録し、次回の深掘りWaveでの新規Career候補追加を課題とした。
+
+検証結果は[`wave_04/validation_report.md`](wave_04/validation_report.md)を参照する。
