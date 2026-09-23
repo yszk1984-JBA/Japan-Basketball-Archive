@@ -1,0 +1,15 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B4W5E0001,Career,C000327,organization_id,ORG000139,B4W5S0001,本文 > シカゴ・ブルズは「7月20日（現地時間19日）」に河村勇輝との2Way契約締結を発表,バスケットボールキングの公式発表報道,SUPPORTED,2026-09-23,
+B4W5E0002,Career,C000327,role,Player,B4W5S0001,本文 > 2Way契約締結,同上,SUPPORTED,2026-09-23,
+B4W5E0003,Career,C000327,contract_type,Two-Way contract,B4W5S0001,本文 > ブルズと2Way契約締結,同上,SUPPORTED,2026-09-23,
+B4W5E0004,Career,C000327,start,2025-07,B4W5S0001,本文 > 7月20日（現地時間19日）発表,同上,SUPPORTED,2026-09-23,
+B4W5E0005,Career,C000327,end,2025-10,B4W5S0003,本文 > 開幕直前の2025年10月17日に健康上の理由で契約を解除,すぽろぐ記事による契約解除日の記述,SUPPORTED,2026-09-23,
+B4W5E0006,Career,C000328,organization_id,ORG000139,B4W5S0002,本文 > シカゴ・ブルズは1月7日（現地時間6日）、河村勇輝と2ウェイ契約を結んだことを発表,バスケットボールキングの公式発表報道,SUPPORTED,2026-09-23,
+B4W5E0007,Career,C000328,role,Player,B4W5S0002,本文 > 2ウェイ契約,同上,SUPPORTED,2026-09-23,
+B4W5E0008,Career,C000328,contract_type,Two-Way contract,B4W5S0002,本文 > 再び2ウェイ契約締結,同上,SUPPORTED,2026-09-23,
+B4W5E0009,Career,C000328,start,2026-01,B4W5S0002,本文 > 1月7日（現地時間6日）発表,同上,SUPPORTED,2026-09-23,
+B4W5E0010,Career,C000328,end,2026-08,B4W5S0003,本文 > 2026年8月9日（現地時間）クリッパーズと契約,クリッパーズ移籍発表日をブルズ在籍終了の目安として記録,PARTIAL,2026-09-23,ブルズを正式に離れた具体的な日付そのものの記載はなく、クリッパーズ契約発表日から逆算
+B4W5E0011,Career,C000329,organization_id,ORG000140,B4W5S0003,本文 > 契約日：2026年8月9日（現地時間）契約先：ロサンゼルス・クリッパーズ,すぽろぐ記事による公式契約報道,SUPPORTED,2026-09-23,
+B4W5E0012,Career,C000329,role,Player,B4W5S0003,本文 > 契約先：ロサンゼルス・クリッパーズ,同上,SUPPORTED,2026-09-23,
+B4W5E0013,Career,C000329,contract_type,Exhibit 10 contract,B4W5S0003,本文 > 契約形態：エキシビット10契約,最低年俸で保証がなく、レギュラーシーズン出場も約束されない無保証契約と明記,SUPPORTED,2026-09-23,
+B4W5E0014,Career,C000329,start,2026-08,B4W5S0003,本文 > 契約日：2026年8月9日（現地時間）,同上,SUPPORTED,2026-09-23,

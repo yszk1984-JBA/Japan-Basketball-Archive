@@ -2,7 +2,7 @@
 
 作成日：2026-09-23
 
-状態：Wave 1・Wave 2・Wave 3の計12人がCANDIDATE・構造QAまで完了。Wave 4（深掘りWave）で同12人の既存Careerレコードに追加調査を実施、構造QA完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
+状態：Wave 1・Wave 2・Wave 3の計12人がCANDIDATE・構造QAまで完了。Wave 4（深掘りWave）で同12人の既存Careerレコードに追加調査を実施、構造QA完了。Wave 4b（深掘りWave追補）で富樫勇樹の中学校・高校情報を追加調査、構造QA完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
 
 ## 背景・目的
 
@@ -102,3 +102,17 @@ Yuichiより「新規開拓Waveを3回実施するごとに、既存公開済み
 - 齋藤拓実（アルバルク東京・滋賀）、松脇圭志（富山グラウジーズ・三遠ネオフェニックス）、星川堅信（宇都宮ブレックス特別指定・越谷アルファーズ）、岸本隆一（琉球ゴールデンキングス）、田中大貴（アルバルク東京）について、現所属クラブ以前の在籍歴を示唆する資料を発見したが、正確な時期・当時の正式チーム名の確認までは至らなかったため、それぞれissue（B7I0016〜B7I0020）として記録し、次回の深掘りWaveでの新規Career候補追加を課題とした。
 
 検証結果は[`wave_04/validation_report.md`](wave_04/validation_report.md)を参照する。
+
+
+## Wave 4b（深掘りWave追補）
+
+状態：CANDIDATE構造QA（`validate_batch_007_wave_04b.py`）まで完了。HUMAN APPROVAL・VERIFIED・MASTER・公開は未実施。
+
+Yuichiからの指示（2026-09-23）「富樫勇樹（高校や中学の情報）も情報が少ない」を受け、Wave 4のコミット（2593b45）後に追加調査した小規模な追補Wave。既存のWave 1〜4のファイルは一切変更せず、新しいWaveフォルダとしてのみ追加している（「深掘りWaveのデータ構造」ルールに準拠）。カデンス上のWave 5（新規開拓Wave）とは別枠であり、番号の重複を避けるため4bとした。
+
+### 主な成果
+
+- 出身中学校（新発田市立本丸中学校）を、Wikipedia・Yahoo!スポーツナビの独立した2ソースで確認し、新規Career候補（C000330）として追加した。在籍期間（start/end）を明示する資料は見つからず保留。
+- Wave 1でHOLD_CANDIDATEだった高校（C000299、開志国際高等学校との関係未確認）について追加調査した。Wikipedia・Yahoo!スポーツナビいずれにも開志国際高等学校への言及がなく、父・富樫英樹氏へのインタビュー記事（BASKET COUNT）から、開志国際高等学校バスケットボール部の強化開始時期が富樫勇樹本人の渡米後と推定されることも踏まえ、モントロス・クリスチャン高等学校（ORG000117）を出身高校としてREADY_FOR_VERIFIED_REVIEWに更新した。ただし開志国際との無関係を直接明言した一次資料はなく、時系列からの論理的推定（PARTIAL評価）に留まるため、issue（B7I0021）として残している。
+
+検証結果は[`wave_04b/validation_report.md`](wave_04b/validation_report.md)を参照する。
