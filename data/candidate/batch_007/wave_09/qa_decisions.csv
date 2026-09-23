@@ -1,0 +1,16 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0114,Person,P000107,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0115,Career,C000369,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身高校（富山第一高校）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0116,Career,C000370,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpで出身大学（筑波大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0117,Career,C000371,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpのクラブ所属履歴で現所属（長崎ヴェルカ）を確認。開始日は資料なしのため保留,2026-09-23
+B7D0118,Person,P000108,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0119,Career,C000372,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipediaで出身高校（山口県立豊浦高等学校）を確認。bleague.jp・バスケットボールキングいずれにも記載がなくWikipedia単独のためissueに記録した上でREADYとする,2026-09-23
+B7D0120,Career,C000373,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia・バスケットボールキングの独立した2ソースで出身大学（天理大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0121,Career,C000374,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpのクラブ所属履歴で現所属（三遠ネオフェニックス）を確認。開始日は資料なしのため保留,2026-09-23
+B7D0122,Person,P000109,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0123,Career,C000375,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia・jpsk.jpの独立した2ソースで出身大学（ジョージア工科大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0124,Career,C000376,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpのクラブ所属履歴で現所属（仙台89ERS）を確認。開始日は資料なしのため保留,2026-09-23
+B7D0125,Person,P000110,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,bleague.jp選手プロフィールで氏名・生年月日を確認,2026-09-23
+B7D0126,Career,C000377,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia・バスケットボールキングの独立した2ソースで出身高校（北陸高等学校）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0127,Career,C000378,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia・バスケットボールキングの独立した2ソースで出身大学（大東文化大学）を確認。在籍期間は資料なしのため保留,2026-09-23
+B7D0128,Career,C000379,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,bleague.jpのクラブ所属履歴で現所属（宇都宮ブレックス）を確認。開始日は資料なしのため保留,2026-09-23
