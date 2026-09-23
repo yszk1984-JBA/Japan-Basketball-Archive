@@ -139,7 +139,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             </a>
           ))}
         </div>
-        <p className={`review-note ${player.dataStatus === 'master' ? 'master-note' : ''}`}>{player.dataStatus === 'master' ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。` : 'このページはCANDIDATE段階のデータです。出典を伴うREADY_FOR_VERIFIED_REVIEW判定の項目のみを表示していますが、Governance v1.0のVERIFIED・Human approvalを経たMaster Dataではありません。'}</p>
+        <p className={`review-note ${player.dataStatus === 'master' ? 'master-note' : ''}`}>{player.dataStatus === 'master' ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。` : 'このページはCANDIDATE段階のデータです。出典を伴うREADY_FOR_VERIFIED_REVIEW判定の項目のみを表示していますが、Yuichiによる正式承認（Governance v1.0のVERIFIED・Human approvalを経たMaster化）前の情報です。'}</p>
       </section>
     </main>
   );

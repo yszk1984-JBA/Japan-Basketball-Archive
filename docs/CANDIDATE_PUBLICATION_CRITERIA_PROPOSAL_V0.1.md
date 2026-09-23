@@ -2,7 +2,7 @@
 
 作成日：2026-09-24
 
-状態：2026-09-24、Yuichiと下記①〜④の基準を合意（「Master、candidateの役割・線引きを考えたい」という相談を受けて起票）。ただし、既存バッチ（batch_002〜010）を含め、実装・適用は未実施。特に「既存の公開済みCANDIDATEデータをどう扱うか」（本文書末尾の要確認事項）が未確定のため、コード・スキーマへの反映はその回答を待って行う。
+状態：2026-09-24、Yuichiと下記①〜④の基準を合意（「Master、candidateの役割・線引きを考えたい」という相談を受けて起票）。同日中に実装完了。①は実データ検証の結果を踏まえ本数要件を撤廃、③は既存バッチに対し段階的移行（batch_004〜007と疑似バッチ`candidate`は経過措置、batch_008以降は`site_release.md`による確認必須）を採用。詳細は文末「決定事項」を参照。
 
 ## 目的
 
@@ -64,3 +64,32 @@ data/candidate/<batch>/site_release.md
 3. **段階的移行**：直近作成分（batch_008〜010、大濠・明成・洛南）は今回の相談のきっかけになった対象なので新基準の確認対象とし、それより前の既存バッチ（batch_002〜007）は経過措置で維持する。
 
 いずれを選ぶか、次のセッションで確認してから①③のコード実装に着手する。
+
+## 決定事項（2026-09-24、実装完了）
+
+要確認事項について、Yuichiが「段階的移行」を選択。既存バッチのうち直近作成分（batch_008〜010：大濠・明成・洛南、今回の相談のきっかけになった対象）は新基準（③のバッチ単位ゲート）の確認対象とし、それより前の既存バッチ（batch_002〜007、およびbatch_002/batch_003/pilot_batch_001をまとめて内部的に扱う疑似バッチ`candidate`）は経過措置として`site_release.md`なしで表示を維持する。
+
+①の出典条件についても、実装検証の過程で「独立した出典2件以上」を機械的に全データへ適用すると影響が想定よりはるかに大きいことが判明（詳細は次節）。Yuichiの判断で本数要件を撤廃し、「優先順位1〜3の公式資料が最低1件あること」のみを条件とする形に調整した。
+
+### 実装内容
+
+`scripts/build_site_candidate_data.py`に以下を追加：
+
+- `is_official_publisher(publisher)`：`docs/DATA_POLICY.md`の出典優先順位4〜5に該当する既知の非公式媒体（Wikipedia、バスケWiki、まとめサイト、ニュースポータル、専門メディア等）のdeny-listに基づく判定。新しい非公式媒体名が今後見つかった場合はこのリストへ追加する。
+- `meets_sourcing_bar(rows, source_by_id)`：対象フィールドの出典のうち最低1件が公式（優先順位1〜3）であること（本数要件なし）。Person名、Personの各任意項目（生年月日・身長・体重・ポジション等）、Careerの`organization_id`、Careerの各任意詳細項目それぞれに適用。いずれか満たさない項目はHOLD時と同様に非表示。
+- `GRANDFATHERED_BATCH_NAMES`：`{"candidate", "batch_004", "batch_005", "batch_006", "batch_007"}`（経過措置対象）。`batch_002`・`batch_003`・`pilot_batch_001`はいずれもWaveサブディレクトリを持たないフラット構成のため、ビルドスクリプトの集計ロジック上は`data/candidate`直下の疑似バッチ名`candidate`としてまとめて扱われる（今回の実装検証で判明した既存の仕様）。
+- `batch_is_released(batch_dir)`：経過措置対象はそのまま表示。それ以外（batch_008以降）は、そのバッチのディレクトリ直下に`site_release.md`があり、かつ`APPROVED_FOR_CANDIDATE_PUBLICATION`という文字列を含む場合のみ表示対象とする。
+- サイト側の免責表示（`site/app/players/[slug]/page.tsx`）は元々「CANDIDATE段階」「Governance v1.0のVERIFIED・Human approvalを経たMaster Dataではない」という趣旨を表示済みだったため、大きな変更はせず、「Yuichiによる正式承認（〜Master化）前」という文言を明示する程度の調整に留めた。
+
+### 検証結果（現在のdata/candidate全体に対して）
+
+- 新基準を何も適用しない場合：74人
+- ③（バッチ単位ゲート）のみ適用：32人（batch_008〜010の計42人が`site_release.md`未発行のため保留になる。42人という数はbatch_008（大濠17人）・batch_009（明成6人）・batch_010（洛南19人）の合計と一致）
+- ①（出典条件、本数要件なし版）を経過措置対象バッチに適用：31人（③のみの32人からさらに1人減少。出典が優先順位4〜5の媒体のみの項目が非表示になったため）
+- ①を「独立した出典2件以上」の版のまま全データへ適用した場合（不採用・参考値）：全体でわずか1人。今回新規登録した大濠・明成・洛南の44人で見ても大西一輝1人のみ。ほとんどの項目が公式資料1件のみで裏付けられているという、このプロジェクトのこれまでの標準的な運用と整合しなかったため不採用とした。
+
+`scripts/validate_*.py`全件・`scripts/validate_master.py`は本変更後も再実行しPASSを確認（batch_006関連の既存FAILはこの変更と無関係の既存事象で変化なし）。`scripts/build_site_master_data.py`の出力（Master Data、38人）も変更なし。
+
+### 今後、batch_008〜010を準公開する場合の手順
+
+対象バッチのディレクトリ直下（例：`data/candidate/batch_008/site_release.md`）に、Yuichiの確認日時と意思表示を記録したファイルを作成し、本文に`APPROVED_FOR_CANDIDATE_PUBLICATION`という文字列を含める。以後`scripts/build_site_candidate_data.py`を再実行すれば、そのバッチのREADY項目（①の出典条件を満たすもののみ）が`site/app/candidate-data.ts`に反映される。

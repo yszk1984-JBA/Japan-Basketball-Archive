@@ -58,6 +58,71 @@ CAREER_LABELS = {
 }
 
 
+# Rule ① (docs/CANDIDATE_PUBLICATION_CRITERIA_PROPOSAL_V0.1.md, agreed with Yuichi
+# 2026-09-24): a displayed fact needs >=2 distinct sources, at least one of which is an
+# "official" (DATA_POLICY.md priority 1-3) publisher. Most publisher strings in this
+# project already ARE the club/school/university/league/JBA/B.LEAGUE itself, per the
+# sourcing-priority discipline DATA_POLICY.md already asks waves to follow -- so a
+# deny-list of known NON-official (priority 4-5) publishers is far more maintainable
+# than an allow-list of every organization name. Add new non-official publisher strings
+# here as they show up in future waves.
+NON_OFFICIAL_PUBLISHER_MARKERS = (
+    "Wikipedia",
+    "スポーツナビ",
+    "経済新聞ネットワーク",
+    "j-cbaske.com",
+    "バスケWeb辞典",
+    "jbaske.com",
+    "すぽろぐ",
+    "ビビッとBリーグ",
+    "バスケットボールキング",
+    "バスケットカウント",
+    "BASKET COUNT",
+    "jpsk.jp",
+    "J SPORTS",
+    "スラムダンク奨学金事務局",
+)
+
+
+def is_official_publisher(publisher: str) -> bool:
+    return not any(marker in publisher for marker in NON_OFFICIAL_PUBLISHER_MARKERS)
+
+
+def meets_sourcing_bar(rows: list[dict[str, str]], source_by_id: dict[str, dict[str, str]]) -> bool:
+    """Rule ① (adjusted 2026-09-24 after finding the 2-source-minimum version dropped
+    nearly all existing data -- a single official primary source is this project's
+    normal, accepted level of rigor; see CANDIDATE_PUBLICATION_CRITERIA_PROPOSAL_V0.1.md):
+    at least one source must be an official (tier 1-3) publisher. No minimum count."""
+    source_ids = unique([row["source_id"] for row in rows])
+    if not source_ids:
+        return False
+    return any(is_official_publisher(source_by_id.get(sid, {}).get("publisher", "")) for sid in source_ids)
+
+
+# Rule ③ (same doc): batches created before this rule was agreed (2026-09-24) are
+# grandfathered in under the 段階的移行 transition Yuichi confirmed -- they keep
+# displaying without a site_release.md. Any batch from 2026-09-24 onward needs a
+# site_release.md in its own directory containing RELEASE_APPROVED_MARKER before its
+# READY entities are surfaced here.
+GRANDFATHERED_BATCH_NAMES = {
+    "candidate",  # pseudo-batch name for the flat legacy trio: batch_002, batch_003, pilot_batch_001
+    "batch_004",
+    "batch_005",
+    "batch_006",
+    "batch_007",
+}
+RELEASE_APPROVED_MARKER = "APPROVED_FOR_CANDIDATE_PUBLICATION"
+
+
+def batch_is_released(batch_dir: Path) -> bool:
+    if batch_dir.name in GRANDFATHERED_BATCH_NAMES:
+        return True
+    release_file = batch_dir / "site_release.md"
+    if not release_file.exists():
+        return False
+    return RELEASE_APPROVED_MARKER in release_file.read_text(encoding="utf-8")
+
+
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
@@ -110,7 +175,11 @@ def main() -> None:
     public_people = []
     public_sources: dict[str, dict[str, str]] = {}
 
+    skipped_unreleased_batches: list[str] = []
     for batch_dir, batch_wave_dirs in sorted(batches.items()):
+        if not batch_is_released(batch_dir):
+            skipped_unreleased_batches.append(batch_dir.name)
+            continue
         batch_wave_dirs = sorted(batch_wave_dirs)  # wave_01 < wave_02 < ... so later wave sorts last
 
         people: dict[str, dict[str, str]] = {}
@@ -157,12 +226,19 @@ def main() -> None:
             person_eligible = eligible_set(person_decision)
 
             person_evidence = evidence_by_entity[("Person", person_id)]
+
+            name_rows = [row for row in person_evidence if row["field_name"] == "name"]
+            if not meets_sourcing_bar(name_rows, source_by_id):
+                continue
+
             facts = []
             for field_name, label in FACT_LABELS.items():
                 if field_name not in person_eligible:
                     continue
                 rows = [row for row in person_evidence if row["field_name"] == field_name]
                 if not rows:
+                    continue
+                if not meets_sourcing_bar(rows, source_by_id):
                     continue
                 values = unique([display_value(field_name, row["candidate_value"]) for row in rows])
                 facts.append({
@@ -184,15 +260,20 @@ def main() -> None:
                 career_eligible = eligible_set(career_decision)
                 career_evidence = evidence_by_entity[("Career", career["career_id"])]
 
+                org_id_rows = [row for row in career_evidence if row["field_name"] == "organization_id"]
+                if not meets_sourcing_bar(org_id_rows, source_by_id):
+                    continue
+
                 details = []
                 if "role" in career_eligible and career["role"]:
                     details.append("選手" if career["role"] == "Player" else career["role"])
                 for field_name, label in CAREER_LABELS.items():
                     if field_name not in career_eligible:
                         continue
-                    values = unique([
-                        row["candidate_value"] for row in career_evidence if row["field_name"] == field_name
-                    ])
+                    detail_rows = [row for row in career_evidence if row["field_name"] == field_name]
+                    if not meets_sourcing_bar(detail_rows, source_by_id):
+                        continue
+                    values = unique([row["candidate_value"] for row in detail_rows])
                     if values:
                         details.append(f"{label}：{' / '.join(values)}")
 
@@ -266,6 +347,8 @@ def main() -> None:
     )
     OUTPUT.write_text(header + body, encoding="utf-8")
     print(f"Generated {OUTPUT.relative_to(ROOT)}: {len(public_people)} players, {len(public_sources)} sources")
+    if skipped_unreleased_batches:
+        print(f"Skipped (no site_release.md yet): {', '.join(sorted(skipped_unreleased_batches))}")
 
 
 if __name__ == "__main__":
