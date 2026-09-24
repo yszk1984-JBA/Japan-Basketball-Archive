@@ -1,8 +1,8 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
-import { ArrowLeft, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getOrganizationPlayers, organizations } from '../public-data';
-import { SiteLinks } from '../seo';
+import { organizationCategory } from '../organization-category';
+import { OrganizationsListView, type OrganizationRow } from './OrganizationsListView';
 
 export const metadata: Metadata = {
   title: '組織一覧',
@@ -11,30 +11,55 @@ export const metadata: Metadata = {
 };
 
 export default function OrganizationsIndexPage() {
-  const rows = organizations.map((organization) => {
+  const rows: OrganizationRow[] = organizations.map((organization) => {
     const relatedPlayers = getOrganizationPlayers(organization.id);
     return {
-      organization,
+      id: organization.id,
+      slug: organization.slug,
+      name: organization.name,
+      category: organizationCategory(organization.name),
       total: relatedPlayers.length,
       master: relatedPlayers.filter((player) => player.dataStatus === 'master').length,
     };
   });
 
   return (
-    <main className="detail-shell">
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><SiteLinks /><span>Prototype · 確認中</span></nav>
-      <header className="organization-header"><p className="eyebrow">Organizations</p><h1>組織一覧</h1><p>現在、選手のCareerとして参照されている組織は{organizations.length}件です。学校種別（高校・大学等）による分類は未対応です。</p></header>
-      <section className="roster-section">
-        <div className="roster-list">
-          {rows.map(({ organization, total, master }) => (
-            <a href={`/organizations/${organization.slug}`} key={organization.id}>
-              <span className="number">{organization.id.replace('ORG', '')}</span>
-              <div><strong>{organization.name}</strong><p>{total} records{master > 0 ? ` · うちMaster ${master}件` : ''}</p></div>
-              <ArrowRight size={19} />
-            </a>
-          ))}
+    <main className="jbaListB-page">
+      <header className="jbaListB-header">
+        <a href="/" className="jbaListB-brand">
+          <span className="jbaListB-brandMark">JB</span>
+          <span className="jbaListB-brandName">Japan Basketball Archive</span>
+        </a>
+        <nav className="jbaListB-nav">
+          <a href="/players">選手</a>
+          <a href="/organizations" aria-current="page">組織</a>
+        </nav>
+      </header>
+
+      <div className="jbaListB-breadcrumb">
+        <a href="/">TOP</a> ／ <span>組織一覧</span>
+      </div>
+
+      <div className="jbaListB-main">
+        <div>
+          <p className="jbaListB-eyebrow">Organizations</p>
+          <h1 className="jbaListB-h1">組織一覧</h1>
         </div>
-      </section>
+
+        <OrganizationsListView rows={rows} totalCount={organizations.length} />
+      </div>
+
+      <footer className="jbaListB-footer">
+        <div className="jbaListB-footerInner">
+          <div>
+            <div className="jbaListB-footerTitle">Japan Basketball Archive</div>
+            <div>日本バスケットボールの人物と所属を、出典とともに記録するアーカイブです。</div>
+          </div>
+          <div className="jbaListB-footerLinks">
+            <a href="/players">選手一覧</a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

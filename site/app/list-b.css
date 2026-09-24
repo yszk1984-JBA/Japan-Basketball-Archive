@@ -1,0 +1,387 @@
+/*
+ * 選手一覧・組織一覧（/players, /organizations）専用のB案（データベース調）スタイル。
+ * design-direction.md で採用決定したB案をこの2ページにのみ適用する（詳細ページ等は
+ * 引き続きA案＝アーカイブ調のまま。サイト全体のリスキンは別途）。
+ * 既存のA案クラス（.detail-shell, .roster-list 等）と衝突しないよう、
+ * このファイルのクラスはすべて "jbaListB-" プレフィックスを付けている。
+ */
+
+.jbaListB-page {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: #F3F5F7;
+  font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  color: #1A2330;
+  display: flex;
+  flex-direction: column;
+}
+
+.jbaListB-page * {
+  box-sizing: border-box;
+}
+
+.jbaListB-header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #E3E8ED;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.jbaListB-brandMark {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #1D5FD6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.jbaListB-brandName {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.jbaListB-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.jbaListB-nav a {
+  color: #5B6B7A;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.jbaListB-nav a:hover {
+  color: #1D5FD6;
+}
+
+.jbaListB-nav a[aria-current='page'] {
+  color: #1D5FD6;
+  font-weight: 800;
+}
+
+.jbaListB-breadcrumb {
+  padding: 14px 40px;
+  font-size: 12px;
+  color: #8A97A3;
+}
+
+.jbaListB-breadcrumb a {
+  color: #8A97A3;
+  text-decoration: none;
+}
+
+.jbaListB-breadcrumb span {
+  color: #1A2330;
+}
+
+.jbaListB-main {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6px 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  flex-grow: 1;
+}
+
+.jbaListB-eyebrow {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #1D5FD6;
+  text-transform: uppercase;
+}
+
+.jbaListB-h1 {
+  margin: 0 0 8px 0;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.jbaListB-lede {
+  margin: 0;
+  font-size: 13px;
+  color: #5B6B7A;
+}
+
+.jbaListB-filterCard {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 22px 24px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.jbaListB-filterGroup + .jbaListB-filterGroup {
+  border-top: 1px solid #F0F2F4;
+  padding-top: 14px;
+}
+
+.jbaListB-filterLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: #8A97A3;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.jbaListB-chipRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-chip {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #ffffff;
+  color: #5B6B7A;
+  border: 1px solid #DCE1E6;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.3;
+}
+
+.jbaListB-chip:hover {
+  border-color: #1D5FD6;
+  color: #1D5FD6;
+}
+
+.jbaListB-chipActive,
+.jbaListB-chipActive:hover {
+  background: #1D5FD6;
+  color: #ffffff;
+  border-color: #1D5FD6;
+  font-weight: 700;
+}
+
+.jbaListB-hint {
+  margin: 10px 0 0 0;
+  font-size: 11px;
+  color: #99A5B0;
+}
+
+.jbaListB-table {
+  background: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+}
+
+.jbaListB-tableHead {
+  display: grid;
+  background: #F7F9FA;
+  padding: 12px 20px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8A97A3;
+  border-bottom: 1px solid #E3E8ED;
+}
+
+.jbaListB-playersGrid {
+  grid-template-columns: 1fr 220px 110px 110px 70px;
+}
+
+.jbaListB-orgsGrid {
+  grid-template-columns: 24px 1fr 130px 200px;
+}
+
+.jbaListB-row {
+  display: grid;
+  padding: 13px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #F0F2F4;
+  align-items: center;
+  color: #1A2330;
+  text-decoration: none;
+}
+
+.jbaListB-row:last-child {
+  border-bottom: none;
+}
+
+.jbaListB-row:hover {
+  background: #FAFBFC;
+}
+
+.jbaListB-rowName {
+  font-weight: 700;
+}
+
+.jbaListB-rowMuted {
+  color: #5B6B7A;
+}
+
+.jbaListB-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.jbaListB-statusMaster {
+  background: #E6F6EC;
+  color: #12805C;
+}
+
+.jbaListB-statusCandidate {
+  background: #F3F5F7;
+  color: #5B6B7A;
+  border: 1px solid #DCE1E6;
+}
+
+.jbaListB-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.jbaListB-empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: #8A97A3;
+  font-size: 13px;
+}
+
+.jbaListB-note {
+  font-size: 11px;
+  color: #99A5B0;
+}
+
+.jbaListB-footer {
+  background: #1A2330;
+  color: #C6CDD4;
+  padding: 32px 40px;
+  margin-top: auto;
+}
+
+.jbaListB-footerInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-footerTitle {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.jbaListB-footerLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.jbaListB-footerLinks a {
+  color: #C6CDD4;
+  text-decoration: none;
+}
+
+/* --- モバイル（760px以下）：テーブルをカードのリストに切り替える --- */
+@media (max-width: 760px) {
+  .jbaListB-header {
+    padding: 12px 16px;
+  }
+
+  .jbaListB-brandName {
+    font-size: 13px;
+  }
+
+  .jbaListB-breadcrumb {
+    padding: 10px 16px;
+  }
+
+  .jbaListB-main {
+    padding: 4px 16px 40px;
+    gap: 16px;
+  }
+
+  .jbaListB-h1 {
+    font-size: 22px;
+  }
+
+  .jbaListB-filterCard {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .jbaListB-chipRow {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+
+  .jbaListB-chipRow::-webkit-scrollbar {
+    display: none;
+  }
+
+  .jbaListB-chip {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+
+  .jbaListB-tableHead {
+    display: none;
+  }
+
+  .jbaListB-table {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .jbaListB-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    border-bottom: none;
+  }
+}

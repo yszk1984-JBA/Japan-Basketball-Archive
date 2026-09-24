@@ -1,8 +1,9 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
-import { ArrowLeft, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
-import { players } from '../public-data';
-import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteLinks, siteUrl } from '../seo';
+import { getPrimaryCareer, players } from '../public-data';
+import { baseOpenGraph, breadcrumbJsonLd, JsonLd, siteUrl } from '../seo';
+import { organizationCategory } from '../organization-category';
+import { PlayersListView, type PlayerRow } from './PlayersListView';
 
 const title = `選手一覧（${players.length}人）`;
 const description = `日本バスケットボール選手${players.length}人の所属・経歴を、出典とともに掲載しています。高校・大学・プロの所属記録をたどれます。`;
@@ -14,17 +15,27 @@ export const metadata: Metadata = {
   openGraph: { ...baseOpenGraph, title, description, url: '/players' },
 };
 
-export default function PlayersIndexPage() {
-  const masterPlayers = players.filter((player) => player.dataStatus === 'master');
-  const candidatePlayers = players.filter((player) => player.dataStatus !== 'master');
+// 表示用の行データをサーバー側で作る。カテゴリーは組織名からの表示専用の
+// 推定であり（organization-category.ts参照）、Master/Candidateのデータ
+// スキーマそのものには手を入れていない。
+function toRow(player: (typeof players)[number]): PlayerRow {
+  const primary = getPrimaryCareer(player);
+  return {
+    id: player.id,
+    slug: player.slug,
+    name: player.name,
+    org: primary?.organization ?? null,
+    category: primary?.organization ? organizationCategory(primary.organization) : null,
+    status: player.dataStatus,
+    sources: new Set(player.careers.flatMap((career) => career.sourceIds)).size,
+  };
+}
 
-  const sections = [
-    { key: 'master', eyebrow: 'Approved Master', heading: '承認済み人物', rows: masterPlayers },
-    { key: 'candidate', eyebrow: 'Candidate records', heading: '確認中の人物', rows: candidatePlayers },
-  ].filter((section) => section.rows.length > 0);
+export default function PlayersIndexPage() {
+  const rows = players.map(toRow);
 
   return (
-    <main className="detail-shell">
+    <main className="jbaListB-page">
       <JsonLd
         data={{
           '@context': 'https://schema.org',
@@ -42,26 +53,47 @@ export default function PlayersIndexPage() {
           ],
         }}
       />
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><SiteLinks /><span>Prototype · 確認中</span></nav>
-      <header className="organization-header">
-        <p className="eyebrow">Players</p>
-        <h1>選手一覧</h1>
-        <p>現在、{players.length}人を掲載しています（承認済み{masterPlayers.length}人・確認中{candidatePlayers.length}人）。所属組織や年代による絞り込みは未対応です。</p>
+
+      <header className="jbaListB-header">
+        <a href="/" className="jbaListB-brand">
+          <span className="jbaListB-brandMark">JB</span>
+          <span className="jbaListB-brandName">Japan Basketball Archive</span>
+        </a>
+        <nav className="jbaListB-nav">
+          <a href="/players" aria-current="page">選手</a>
+          <a href="/organizations">組織</a>
+        </nav>
       </header>
-      {sections.map((section) => (
-        <section className="roster-section" key={section.key}>
-          <div className="section-heading"><div><p className="eyebrow">{section.eyebrow}</p><h2>{section.heading}</h2></div><span>{section.rows.length} records</span></div>
-          <div className="roster-list">
-            {section.rows.map((player) => (
-              <a href={`/players/${player.slug}`} key={player.id}>
-                <span className="number">{section.key === 'master' ? 'M' : '—'}</span>
-                <div><strong>{player.name}</strong><p>{player.cardContext} · {player.id}</p></div>
-                <ArrowRight size={19} />
-              </a>
-            ))}
+
+      <div className="jbaListB-breadcrumb">
+        <a href="/">TOP</a> ／ <span>選手一覧</span>
+      </div>
+
+      <div className="jbaListB-main">
+        <div>
+          <p className="jbaListB-eyebrow">Players</p>
+          <h1 className="jbaListB-h1">選手一覧</h1>
+        </div>
+
+        <PlayersListView rows={rows} totalCount={players.length} />
+
+        <p className="jbaListB-note">
+          ※ このページはCANDIDATE段階を含むデータを掲載しています。Yuichiによる正式承認（Governance
+          v1.0のVERIFIED・Human approvalを経たMaster化）前の情報が含まれます。
+        </p>
+      </div>
+
+      <footer className="jbaListB-footer">
+        <div className="jbaListB-footerInner">
+          <div>
+            <div className="jbaListB-footerTitle">Japan Basketball Archive</div>
+            <div>日本バスケットボールの人物と所属を、出典とともに記録するアーカイブです。</div>
           </div>
-        </section>
-      ))}
+          <div className="jbaListB-footerLinks">
+            <a href="/organizations">組織一覧</a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

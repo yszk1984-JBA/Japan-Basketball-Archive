@@ -138,4 +138,21 @@ export function getOrganizationSourceIds(organizationId: string): string[] {
   ];
 }
 
+
+// 選手一覧・組織カテゴリー表示のために「現在（または直近）の所属」を1件選ぶ。
+// build_site_candidate_data.py / build_site_master_data.py がcardContext生成時に
+// 使っているのと同じ並び替えロジック（(期間未確認かどうか, period文字列)の昇順で
+// 並べて最後の1件を取る）をフロント側でも再現し、cardContextの表示と矛盾しない
+// 組織を選ぶ。既存データやスキーマは変更していない。
+export function getPrimaryCareer(player: PublicPlayer) {
+  if (player.careers.length === 0) return undefined;
+  const sorted = [...player.careers].sort((left, right) => {
+    const leftUnknown = left.period === '期間未確認' ? 1 : 0;
+    const rightUnknown = right.period === '期間未確認' ? 1 : 0;
+    if (leftUnknown !== rightUnknown) return leftUnknown - rightUnknown;
+    return left.period < right.period ? -1 : left.period > right.period ? 1 : 0;
+  });
+  return sorted[sorted.length - 1];
+}
+
 export { masterPublication };
