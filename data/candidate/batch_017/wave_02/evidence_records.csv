@@ -1,0 +1,13 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B17W2E0001,Person,P000190,name,陳岡 燈生,B17W2S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B17W2E0002,Person,P000190,birth_date,2001-08-28,B17W2S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B17W2E0003,Career,C000623,organization_id,ORG000134,B17W2S0001,基本情報 > 出身校（高）：土浦日本大学高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B17W2E0004,Career,C000624,organization_id,ORG000121,B17W2S0001,基本情報 > 出身校（大）：日本大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B17W2E0005,Career,C000625,organization_id,ORG000181,B17W2S0001,クラブ経歴 > 「2025-26：山形」が初出（現所属への新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-25,越谷アルファーズ（2023-24）・「静岡」（2024-25、B.LEAGUE公式の略称表記のみで正式クラブ名未確認。B3所属の「ベルテックス静岡」の可能性があるが本Waveでは確定情報として扱わない）在籍は今回のWaveでは対象外。詳細はissue B17W2I0003を参照
+B17W2E0006,Career,C000625,start,2025,B17W2S0001,クラブ経歴 > 「2025-26：山形」が初出,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入を確認,SUPPORTED,2026-09-25,
+B17W2E0007,Person,P000191,name,平岩 玄,B17W2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B17W2E0008,Person,P000191,birth_date,1997-12-05,B17W2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B17W2E0009,Career,C000626,organization_id,ORG000134,B17W2S0002,基本情報 > 出身校（高）：土浦日本大学高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B17W2E0010,Career,C000627,organization_id,ORG000015,B17W2S0002,基本情報 > 出身校（大）：東海大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B17W2E0011,Career,C000628,organization_id,ORG000109,B17W2S0002,クラブ経歴 > 「2018-19：A東京」が初出（現所属への新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-25,琉球ゴールデンキングス（2017-18、1シーズン）在籍は今回のWaveでは対象外。詳細はissue B17W2I0004を参照
+B17W2E0012,Career,C000628,start,2018,B17W2S0002,クラブ経歴 > 「2018-19：A東京」が初出,B.LEAGUE公式のクラブ所属履歴で2018-19シーズンからの加入を確認,SUPPORTED,2026-09-25,
