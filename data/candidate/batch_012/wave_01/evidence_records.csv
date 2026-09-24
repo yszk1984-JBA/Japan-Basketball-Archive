@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B12W1E0001,Person,P000156,name,榎田 拓真,B12W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B12W1E0002,Person,P000156,birth_date,1998-05-22,B12W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B12W1E0003,Career,C000522,organization_id,ORG000194,B12W1S0001,TagID=35（延岡学園高等学校）掲載選手一覧 > 出身高校：延岡学園高等学校,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,
+B12W1E0004,Career,C000523,organization_id,ORG000148,B12W1S0002,基本情報 > 出身校：近畿大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B12W1E0005,Career,C000524,organization_id,ORG000100,B12W1S0002,クラブ経歴 > 「2026-27：山口」が最新,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,それ以前（2022-23〜2024-25）の長崎・越谷在籍、および2025-26の空白シーズンは今回のWaveでは対象外。詳細はissue B12W1I0003を参照
+B12W1E0006,Career,C000524,start,2026,B12W1S0002,クラブ経歴 > 「2026-27：山口」が最新,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入を確認,SUPPORTED,2026-09-24,

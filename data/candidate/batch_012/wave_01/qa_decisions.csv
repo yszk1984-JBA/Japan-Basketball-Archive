@@ -1,0 +1,5 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B12W1D0001,Person,P000156,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-24
+B12W1D0002,Career,C000522,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,出身校タグ一覧で確認、在籍期間は未確認,2026-09-24
+B12W1D0003,Career,C000523,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-24
+B12W1D0004,Career,C000524,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍・空白シーズンはissueに記録,2026-09-24
