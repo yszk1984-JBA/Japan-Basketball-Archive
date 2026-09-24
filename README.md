@@ -26,6 +26,9 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [MEMBERSHIP_OBSERVATION_FORMAT_PROPOSAL_V0.1](docs/MEMBERSHIP_OBSERVATION_FORMAT_PROPOSAL_V0.1.md)：同時所属の根拠を保存する最小形式案
 - [Relationship Pilot 001](data/candidate/relationship_pilot_001/README.md)：ウインターカップ2018公式ロスターによる6人・15関係のCANDIDATE試験
 - [MONETIZATION_DRAFT_V0.1](docs/MONETIZATION_DRAFT_V0.1.md)：Talent Pipelineを軸にした収益化の検討案
+- [APPROVAL_TIERING_PROPOSAL_V0.1](docs/APPROVAL_TIERING_PROPOSAL_V0.1.md)：Human Approvalの確認深さをリスク別2段階にする検討案
+- [BRAND_NAME_PROPOSAL_V0.1](docs/BRAND_NAME_PROPOSAL_V0.1.md)：「JBA」略称の回避、非公式表記、ブランド名候補（Rosterline）の検討案
+- [DESIGN_DIRECTION_V0.1](docs/DESIGN_DIRECTION_V0.1.md)：B案（データベース調）の採用とページ構成
 - [PILOT_EXCEL_AUDIT_V0.1](docs/PILOT_EXCEL_AUDIT_V0.1.md)：福岡第一高校Excelの初回監査結果
 - [PILOT_CANDIDATE_P000027](docs/PILOT_CANDIDATE_P000027.md)：欠落している人物参照の候補整理
 - [PILOT_SOURCE_URL_REVIEW](docs/PILOT_SOURCE_URL_REVIEW.md)：Source URLの確認結果
