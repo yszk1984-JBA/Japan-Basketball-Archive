@@ -1,0 +1,19 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B14W4E0001,Person,P000177,name,髙木 慎哉,B14W4S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W4E0002,Person,P000177,birth_date,1997-09-10,B14W4S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W4E0003,Career,C000584,organization_id,ORG000120,B14W4S0001,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W4E0004,Career,C000585,organization_id,ORG000128,B14W4S0001,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W4E0005,Career,C000586,organization_id,ORG000050,B14W4S0001,クラブ経歴 > 「2022-23：湘南」以降継続,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,アースフレンズ東京Z（2019-20〜2021-22）在籍は今回のWaveでは対象外。詳細はissue B14W4I0003を参照
+B14W4E0006,Career,C000586,start,2022,B14W4S0001,クラブ経歴 > 「2022-23：湘南」が初出,B.LEAGUE公式のクラブ所属履歴で2022-23シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W4E0007,Person,P000178,name,下地 秀一郎,B14W4S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W4E0008,Person,P000178,birth_date,2003-04-07,B14W4S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W4E0009,Career,C000587,organization_id,ORG000120,B14W4S0002,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W4E0010,Career,C000588,organization_id,ORG000121,B14W4S0002,基本情報 > 出身校（大）：日本大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W4E0011,Career,C000589,organization_id,ORG000174,B14W4S0002,クラブ経歴 > 「2025-26：品川」が初出（唯一の在籍クラブ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B14W4E0012,Career,C000589,start,2025,B14W4S0002,クラブ経歴 > 「2025-26：品川」が初出,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-24,
+B14W4E0013,Person,P000179,name,小川 翔矢,B14W4S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W4E0014,Person,P000179,birth_date,2002-10-13,B14W4S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W4E0015,Career,C000590,organization_id,ORG000120,B14W4S0003,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W4E0016,Career,C000591,organization_id,ORG000016,B14W4S0003,基本情報 > 出身校（大）：中央大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W4E0017,Career,C000592,organization_id,ORG000202,B14W4S0003,クラブ経歴 > 「2025-26：福島」が初出,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,2024-25シーズンの金沢在籍（正式クラブ名未確認、金沢武士団とみられる）は今回のWaveでは対象外。詳細はissue B14W4I0004を参照
+B14W4E0018,Career,C000592,start,2025,B14W4S0003,クラブ経歴 > 「2025-26：福島」が初出,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入を確認,SUPPORTED,2026-09-24,

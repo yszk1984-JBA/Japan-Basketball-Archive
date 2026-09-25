@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B17W1E0001,Person,P000186,name,松村 竜吾,B17W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B17W1E0002,Person,P000186,birth_date,2002-09-13,B17W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B17W1E0003,Career,C000611,organization_id,ORG000134,B17W1S0002,基本情報 > 出身校（高）：土浦日本大学高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B17W1E0004,Career,C000612,organization_id,ORG000121,B17W1S0002,基本情報 > 出身校（大）：日本大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B17W1E0005,Career,C000613,organization_id,ORG000111,B17W1S0002,クラブ経歴 > 「2026-27：八王子」が最新（新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-25,広島ドラゴンフライズ（2025-26）在籍は今回のWaveでは対象外。詳細はissue B17W1I0003を参照
+B17W1E0006,Career,C000613,start,2026,B17W1S0002,クラブ経歴 > 「2026-27：八王子」が最新,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入を確認,SUPPORTED,2026-09-25,
+B17W1E0007,Person,P000187,name,落合 知也,B17W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B17W1E0008,Person,P000187,birth_date,1987-06-18,B17W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B17W1E0009,Career,C000614,organization_id,ORG000134,B17W1S0003,基本情報 > 出身校（高）：土浦日本大学高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B17W1E0010,Career,C000615,organization_id,ORG000207,B17W1S0003,基本情報 > 出身校（大）：法政大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B17W1E0011,Career,C000616,organization_id,ORG000174,B17W1S0003,クラブ経歴 > 「2024-25：品川」が初出（現所属への新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-25,越谷アルファーズ（2017-18〜2022-23）・栃木ブレックス（2016-17〜2017-18、宇都宮ブレックスの当時の名称）在籍、および2023-24シーズンの空白は今回のWaveでは対象外。詳細はissue B17W1I0004を参照
+B17W1E0012,Career,C000616,start,2024,B17W1S0003,クラブ経歴 > 「2024-25：品川」が初出,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの加入を確認,SUPPORTED,2026-09-25,
+B17W1E0013,Person,P000188,name,陳岡 流羽,B17W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B17W1E0014,Person,P000188,birth_date,2003-02-01,B17W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B17W1E0015,Career,C000617,organization_id,ORG000134,B17W1S0004,基本情報 > 出身校（高）：土浦日本大学高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B17W1E0016,Career,C000618,organization_id,ORG000208,B17W1S0004,基本情報 > 出身校（大）：白鴎大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B17W1E0017,Career,C000619,organization_id,ORG000103,B17W1S0004,クラブ経歴 > 「2024-25：茨城」が初出（唯一の在籍クラブ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-25,
+B17W1E0018,Career,C000619,start,2024,B17W1S0004,クラブ経歴 > 「2024-25：茨城」が初出,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-25,
+B17W1E0019,Person,P000189,name,中野 広大,B17W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B17W1E0020,Person,P000189,birth_date,1994-05-08,B17W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B17W1E0021,Career,C000620,organization_id,ORG000134,B17W1S0005,基本情報 > 出身校（高）：土浦日本大学高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B17W1E0022,Career,C000621,organization_id,ORG000207,B17W1S0005,基本情報 > 出身校（大）：法政大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B17W1E0023,Career,C000622,organization_id,ORG000050,B17W1S0005,クラブ経歴 > 「2022-23：湘南」が初出（現所属への新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-25,群馬クレインサンダーズ（2016-17〜2018-19）・岩手ビッグブルズ（2018-19〜2019-20）・さいたまブロンコス（2020-21〜2021-22）在籍は今回のWaveでは対象外。詳細はissue B17W1I0005を参照
+B17W1E0024,Career,C000622,start,2022,B17W1S0005,クラブ経歴 > 「2022-23：湘南」が初出,B.LEAGUE公式のクラブ所属履歴で2022-23シーズンからの加入を確認,SUPPORTED,2026-09-25,

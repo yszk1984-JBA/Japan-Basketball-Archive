@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B18W1E0001,Person,P000192,name,多田 武史,B18W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-25,
+B18W1E0002,Person,P000192,birth_date,1997-11-25,B18W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-25,
+B18W1E0003,Career,C000629,organization_id,ORG000209,B18W1S0002,基本情報 > 出身校（高）：八王子学園八王子高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-25,
+B18W1E0004,Career,C000630,organization_id,ORG000031,B18W1S0002,基本情報 > 出身校（大）：拓殖大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-25,
+B18W1E0005,Career,C000631,organization_id,ORG000101,B18W1S0002,クラブ経歴 > 「2025-26：鹿児島」が最新（新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-25,秋田ノーザンハピネッツ（2019-20〜2022-23、4シーズン）・福島ファイヤーボンズ（2023-24〜2024-25、2シーズン）在籍は今回のWaveでは対象外。詳細はissue B18W1I0003を参照
+B18W1E0006,Career,C000631,start,2025,B18W1S0002,クラブ経歴 > 「2025-26：鹿児島」が最新,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入を確認,SUPPORTED,2026-09-25,

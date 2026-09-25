@@ -1,0 +1,18 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B11W1E0001,Person,P000153,name,介川 アンソニー翔,B11W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B11W1E0002,Person,P000153,birth_date,2004-03-30,B11W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B11W1E0003,Career,C000514,organization_id,ORG000192,B11W1S0001,TagID=35（開志国際高等学校）掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,
+B11W1E0004,Career,C000515,organization_id,ORG000018,B11W1S0002,基本情報 > 出身校：専修大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B11W1E0005,Career,C000516,organization_id,ORG000155,B11W1S0002,クラブ経歴 > 「2024-25：島根」が初出（唯一の在籍クラブ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B11W1E0006,Career,C000516,start,2024,B11W1S0002,クラブ経歴 > 「2024-25：島根」が初出,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-24,
+B11W1E0007,Person,P000154,name,小栗 瑛哉,B11W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B11W1E0008,Person,P000154,birth_date,2001-03-01,B11W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B11W1E0009,Career,C000517,organization_id,ORG000192,B11W1S0001,TagID=35（開志国際高等学校）掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,
+B11W1E0010,Career,C000518,organization_id,ORG000193,B11W1S0003,基本情報 > 出身校：大阪産業大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B11W1E0011,Career,C000519,organization_id,ORG000150,B11W1S0003,クラブ経歴 > 「2025-26：信州」が初出,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,それ以前（2022-23〜2024-25）の金沢・秋田在籍は今回のWaveでは対象外。詳細はissue B11W1I0004を参照
+B11W1E0012,Career,C000519,start,2025,B11W1S0003,クラブ経歴 > 「2025-26：信州」が初出,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B11W1E0013,Person,P000155,name,平良 宗龍,B11W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B11W1E0014,Person,P000155,birth_date,2006-05-26,B11W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B11W1E0015,Career,C000520,organization_id,ORG000192,B11W1S0001,TagID=35（開志国際高等学校）掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載,SUPPORTED,2026-09-24,
+B11W1E0016,Career,C000521,organization_id,ORG000173,B11W1S0004,クラブ経歴 > 「2025-26：岩手」が初出（唯一の現在の在籍クラブ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,2022-23シーズンに琉球ゴールデンキングスで練習生として1試合出場の記録があるが、今回のWaveでは現所属クラブのみを対象とした。詳細はissue B11W1I0005を参照
+B11W1E0017,Career,C000521,start,2025,B11W1S0004,クラブ経歴 > 「2025-26：岩手」が初出,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入を確認,SUPPORTED,2026-09-24,

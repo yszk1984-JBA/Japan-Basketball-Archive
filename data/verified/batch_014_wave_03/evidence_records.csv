@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B14W3E0001,Person,P000173,name,寺嶋 恭之介,B14W3S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W3E0002,Person,P000173,birth_date,1991-10-17,B14W3S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W3E0003,Career,C000572,organization_id,ORG000120,B14W3S0001,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W3E0004,Career,C000573,organization_id,ORG000203,B14W3S0001,基本情報 > 出身校（大）：国士舘大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W3E0005,Career,C000574,organization_id,ORG000182,B14W3S0001,クラブ経歴 > 「2020-21：青森」以降一貫して青森,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,2021-22シーズンの記載が同履歴に一切なく、空白理由は資料からは確認できず憶測で埋めていない。詳細はissue B14W3I0003を参照
+B14W3E0006,Career,C000574,start,2020,B14W3S0001,クラブ経歴 > 「2020-21：青森」が初出,B.LEAGUE公式のクラブ所属履歴で2020-21シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W3E0007,Person,P000174,name,岡田 泰希,B14W3S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W3E0008,Person,P000174,birth_date,1999-07-28,B14W3S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W3E0009,Career,C000575,organization_id,ORG000120,B14W3S0002,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W3E0010,Career,C000576,organization_id,ORG000199,B14W3S0002,基本情報 > 出身校（大）：明星大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W3E0011,Career,C000577,organization_id,ORG000153,B14W3S0002,クラブ経歴 > 「2024-25：滋賀」以降継続,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,愛媛（2018-19〜2020-21）、仙台89ERS（2021-22〜2023-24）在籍は今回のWaveでは対象外。詳細はissue B14W3I0004を参照
+B14W3E0012,Career,C000577,start,2024,B14W3S0002,クラブ経歴 > 「2024-25：滋賀」が初出,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W3E0013,Person,P000175,name,藤永 佳昭,B14W3S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W3E0014,Person,P000175,birth_date,1992-04-10,B14W3S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W3E0015,Career,C000578,organization_id,ORG000120,B14W3S0003,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W3E0016,Career,C000579,organization_id,ORG000015,B14W3S0003,基本情報 > 出身校（大）：東海大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W3E0017,Career,C000580,organization_id,ORG000200,B14W3S0003,クラブ経歴 > 「2026-27：福井」が最新（新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-24,名古屋ダイヤモンドドルフィンズ（2016-17・2017-18）、千葉（2018-19・2019-20）、千葉ジェッツ（2020-21・2021-22）、アルバルク東京（2022-23）、秋田（2023-24）、富山（2024-25・2025-26）在籍は今回のWaveでは対象外。詳細はissue B14W3I0005を参照
+B14W3E0018,Career,C000580,start,2026,B14W3S0003,クラブ経歴 > 「2026-27：福井」が最新,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W3E0019,Person,P000176,name,篠山 竜青,B14W3S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W3E0020,Person,P000176,birth_date,1988-07-20,B14W3S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W3E0021,Career,C000581,organization_id,ORG000120,B14W3S0004,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W3E0022,Career,C000582,organization_id,ORG000121,B14W3S0004,基本情報 > 出身校（大）：日本大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W3E0023,Career,C000583,organization_id,ORG000122,B14W3S0004,クラブ経歴 > 2016-17シーズン（B.LEAGUE初年度）から2026-27シーズンまで一貫して川崎,B.LEAGUE公式のクラブ所属履歴でB.LEAGUE初年度から現在まで移籍なしの一貫した在籍を確認,SUPPORTED,2026-09-24,
+B14W3E0024,Career,C000583,start,2016,B14W3S0004,クラブ経歴 > 「2016-17：川崎」が初出（B.LEAGUE初年度）,B.LEAGUE公式のクラブ所属履歴で2016-17シーズン（B.LEAGUEデビュー）からの加入を確認,SUPPORTED,2026-09-24,

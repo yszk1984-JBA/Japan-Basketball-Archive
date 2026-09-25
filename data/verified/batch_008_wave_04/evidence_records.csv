@@ -1,0 +1,8 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B8W4E0001,Person,P000127,name,島﨑 輝,B8W4S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B8W4E0002,Person,P000127,birth_date,2003-06-29,B8W4S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B8W4E0003,Career,C000437,organization_id,ORG000127,B8W4S0001,学歴 > 出身校（高）：福岡大学附属大濠高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B8W4E0004,Career,C000437,organization_id,ORG000127,B8W4S0002,TagID=35掲載選手一覧,B.LEAGUE公式の出身校タグ一覧に掲載（独立した第2の公式確認）,SUPPORTED,2026-09-24,
+B8W4E0005,Career,C000438,organization_id,ORG000016,B8W4S0001,学歴 > 出身校（大）：中央大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B8W4E0006,Career,C000439,organization_id,ORG000183,B8W4S0001,クラブ経歴 > 「2026-27：埼玉」のみ記載（B.LEAGUEデビューシーズン）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B8W4E0007,Career,C000439,start,2026,B8W4S0001,クラブ経歴 > 「2026-27：埼玉」が初出（唯一の記載）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-24,

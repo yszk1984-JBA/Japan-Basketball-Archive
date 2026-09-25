@@ -1,0 +1,13 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B15W2E0001,Person,P000184,name,角野 亮伍,B15W2S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B15W2E0002,Person,P000184,birth_date,1996-06-14,B15W2S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B15W2E0003,Career,C000605,organization_id,ORG000204,B15W2S0001,基本情報 > 出身校（高）：藤枝明誠高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B15W2E0004,Career,C000606,organization_id,ORG000206,B15W2S0001,基本情報 > 出身校（大）：サザンニューハンプシャー大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B15W2E0005,Career,C000607,organization_id,ORG000130,B15W2S0001,クラブ経歴 > 「2021-22：三河」以降継続,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,大阪エヴェッサ（2020-21）在籍は今回のWaveでは対象外。詳細はissue B15W2I0003を参照
+B15W2E0006,Career,C000607,start,2021,B15W2S0001,クラブ経歴 > 「2021-22：三河」が初出,B.LEAGUE公式のクラブ所属履歴で2021-22シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B15W2E0007,Person,P000185,name,赤間 賢人,B15W2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B15W2E0008,Person,P000185,birth_date,2005-06-19,B15W2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B15W2E0009,Career,C000608,organization_id,ORG000204,B15W2S0002,基本情報 > 出身校（高）：藤枝明誠高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B15W2E0010,Career,C000609,organization_id,ORG000015,B15W2S0002,基本情報 > 出身校（大）：東海大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B15W2E0011,Career,C000610,organization_id,ORG000103,B15W2S0002,クラブ経歴 > 「2025-26：茨城」が初出（唯一の在籍クラブ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,
+B15W2E0012,Career,C000610,start,2025,B15W2S0002,クラブ経歴 > 「2025-26：茨城」が初出,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの加入（B.LEAGUEデビュー）を確認,SUPPORTED,2026-09-24,

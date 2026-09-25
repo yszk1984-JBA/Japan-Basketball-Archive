@@ -1,0 +1,24 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B14W2E0001,Person,P000169,name,松山 駿,B14W2S0001,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W2E0002,Person,P000169,birth_date,1996-09-27,B14W2S0001,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W2E0003,Career,C000560,organization_id,ORG000120,B14W2S0001,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W2E0004,Career,C000561,organization_id,ORG000197,B14W2S0001,基本情報 > 出身校（大）：富山大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W2E0005,Career,C000562,organization_id,ORG000122,B14W2S0001,クラブ経歴 > 「2026-27：川崎」が最新（新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-24,富山（2018-19・2019-20）、FE名古屋（2019-20一部・2020-21）、越谷（2021-22〜2025-26）在籍は今回のWaveでは対象外。詳細はissue B14W2I0003を参照
+B14W2E0006,Career,C000562,start,2026,B14W2S0001,クラブ経歴 > 「2026-27：川崎」が最新,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W2E0007,Person,P000170,name,松本 健児リオン,B14W2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W2E0008,Person,P000170,birth_date,1994-05-30,B14W2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W2E0009,Career,C000563,organization_id,ORG000120,B14W2S0002,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W2E0010,Career,C000564,organization_id,ORG000198,B14W2S0002,基本情報 > 出身校（大）：名古屋経済大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W2E0011,Career,C000565,organization_id,ORG000135,B14W2S0002,クラブ経歴 > 「2021-22：長崎」以降継続,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-24,西宮（2016-17、現・神戸ストークスの前身の可能性があるが未確認）、奈良（2017-18〜2019-20）在籍、および2020-21シーズンの記載空白は今回のWaveでは対象外。詳細はissue B14W2I0004を参照
+B14W2E0012,Career,C000565,start,2021,B14W2S0002,クラブ経歴 > 「2021-22：長崎」が初出,B.LEAGUE公式のクラブ所属履歴で2021-22シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W2E0013,Person,P000171,name,二上 耀,B14W2S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W2E0014,Person,P000171,birth_date,1999-04-13,B14W2S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W2E0015,Career,C000566,organization_id,ORG000120,B14W2S0003,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W2E0016,Career,C000567,organization_id,ORG000166,B14W2S0003,基本情報 > 出身校（大）：筑波大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-24,
+B14W2E0017,Career,C000568,organization_id,ORG000097,B14W2S0003,クラブ経歴 > 「2026-27：三遠」が最新（新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-24,千葉ジェッツ（2021-22〜2025-26）在籍は今回のWaveでは対象外。詳細はissue B14W2I0005を参照
+B14W2E0018,Career,C000568,start,2026,B14W2S0003,クラブ経歴 > 「2026-27：三遠」が最新,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入を確認,SUPPORTED,2026-09-24,
+B14W2E0019,Person,P000172,name,中村 ジャズ,B14W2S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-24,
+B14W2E0020,Person,P000172,birth_date,1997-06-18,B14W2S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-24,
+B14W2E0021,Career,C000569,organization_id,ORG000120,B14W2S0004,基本情報 > 出身校（高）：北陸高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-24,
+B14W2E0023,Career,C000571,organization_id,ORG000173,B14W2S0004,クラブ経歴 > 「2026-27：岩手」が最新（新規加入）,B.LEAGUE公式のクラブ所属履歴で現所属クラブへの加入を確認,SUPPORTED,2026-09-24,東京エクセレンス（2019-20）、茨城（2023-24）、長崎（2024-25）在籍、および複数シーズンの記載空白は今回のWaveでは対象外。詳細はissue B14W2I0006を参照
+B14W2E0024,Career,C000571,start,2026,B14W2S0004,クラブ経歴 > 「2026-27：岩手」が最新,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの加入を確認,SUPPORTED,2026-09-24,
