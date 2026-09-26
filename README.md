@@ -41,6 +41,8 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [BATCH_003_RESEARCH_PROMPTS](docs/BATCH_003_RESEARCH_PROMPTS.md)：Felo・Gemini用の一括調査指示文
 - [BATCH_004_PROPOSAL](docs/BATCH_004_PROPOSAL.md)：福岡第一からプロへ進んだ人物を優先する次の10人
 - [BATCH_004_RESEARCH_PROMPTS](docs/BATCH_004_RESEARCH_PROMPTS.md)：Batch 004のFelo・Gemini用調査指示文
+- [BATCH_019_PROPOSAL](docs/BATCH_019_PROPOSAL.md)：強豪校横展開 第2弾（12校）の選定と進捗
+- [Batch 019 CANDIDATE](data/candidate/batch_019/README.md)：桐光学園高等学校出身の現役B.LEAGUE選手8人の候補データ
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補
