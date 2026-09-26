@@ -1,4 +1,4 @@
-import { masterPlayers, masterPublication, masterSources } from './master-data';
+import { masterApprovals, masterPlayers, masterPublication, masterSources } from './master-data';
 import { candidatePlayers, candidateSources } from './candidate-data';
 
 export type DataStatus = 'master' | 'candidate';
@@ -155,4 +155,4 @@ export function getPrimaryCareer(player: PublicPlayer) {
   return sorted[sorted.length - 1];
 }
 
-export { masterPublication };
+export { masterApprovals, masterPublication };
