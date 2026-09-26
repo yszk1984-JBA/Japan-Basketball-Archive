@@ -133,20 +133,27 @@ def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int =
         ev("Person", pid, "birth_date", p["birth_date"], sid, "基本情報 > 生年月日", "B.LEAGUE公式プロフィールで生年月日を確認")
         dec("Person", pid, "name|birth_date", "", "B.LEAGUE公式プロフィールで確認")
 
-        hs_cid, uni_cid, club_cid = next_career(), next_career(), next_career()
-        for org in (school_org[0], p["university"], p["club"]):
-            add_org(org)
-        careers.extend([
-            {"career_id": hs_cid, "person_id": pid, "organization_id": school_org[0], "role": "Player", "start": "", "end": ""},
-            {"career_id": uni_cid, "person_id": pid, "organization_id": p["university"], "role": "Player", "start": "", "end": ""},
-            {"career_id": club_cid, "person_id": pid, "organization_id": p["club"], "role": "Player", "start": p["club_start"], "end": ""},
-        ])
+        # university may be None when the official profile shows no
+        # usable university (e.g. "-" or a garbled name); then only the
+        # high-school and current-club Careers are registered.
+        has_uni = p.get("university") is not None
+        hs_cid = next_career()
+        uni_cid = next_career() if has_uni else ""
+        club_cid = next_career()
+        for org in (school_org[0], p.get("university"), p["club"]):
+            if org:
+                add_org(org)
+        careers.append({"career_id": hs_cid, "person_id": pid, "organization_id": school_org[0], "role": "Player", "start": "", "end": ""})
+        if has_uni:
+            careers.append({"career_id": uni_cid, "person_id": pid, "organization_id": p["university"], "role": "Player", "start": "", "end": ""})
+        careers.append({"career_id": club_cid, "person_id": pid, "organization_id": p["club"], "role": "Player", "start": p["club_start"], "end": ""})
 
-        gap_issue_id = f"{prefix}I{seq['i'] + 3:04d}" if p.get("pro_gaps") else ""
+        gap_issue_id = f"{prefix}I{seq['i'] + (3 if has_uni else 2):04d}" if p.get("pro_gaps") else ""
         ev("Career", hs_cid, "organization_id", school_org[0], sid,
            f"基本情報 > 出身校（高）：{school_tag}", "B.LEAGUE公式プロフィールで出身高校を確認")
-        ev("Career", uni_cid, "organization_id", p["university"], sid,
-           f"基本情報 > 出身校（大）：{org_names[p['university']]}", "B.LEAGUE公式プロフィールで出身大学を確認")
+        if has_uni:
+            ev("Career", uni_cid, "organization_id", p["university"], sid,
+               f"基本情報 > 出身校（大）：{org_names[p['university']]}", "B.LEAGUE公式プロフィールで出身大学を確認")
         ev("Career", club_cid, "organization_id", p["club"], sid,
            f"クラブ所属履歴 > {p['club_locator']}", "B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認",
            note=(f"{p['pro_gaps']}は今回のWaveでは対象外。詳細はissue {gap_issue_id}を参照" if gap_issue_id else ""))
@@ -154,7 +161,8 @@ def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int =
            f"クラブ所属履歴 > {p['club_locator']}", p["start_summary"])
 
         dec("Career", hs_cid, "organization_id|role", "start|end", "B.LEAGUE公式プロフィールで確認、在籍期間は未確認")
-        dec("Career", uni_cid, "organization_id|role", "start|end", "B.LEAGUE公式プロフィールで確認、在籍期間は未確認")
+        if has_uni:
+            dec("Career", uni_cid, "organization_id|role", "start|end", "B.LEAGUE公式プロフィールで確認、在籍期間は未確認")
         dec("Career", club_cid, "organization_id|role|start", "end",
             "B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定"
             + ("。過去クラブ在籍はissueに記録" if gap_issue_id else ""))
@@ -162,9 +170,10 @@ def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int =
         issue(pid, hs_cid, "HIGH_SCHOOL_PERIOD",
               f"{plain}の{school_tag}在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
               "高校公式・大会公式ロスターでの裏付けを確認")
-        issue(pid, uni_cid, "UNIVERSITY_PERIOD",
-              f"{plain}の{org_names[p['university']]}在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
-              "全日本大学バスケットボール連盟（JUBF）の年度別ロスターでの裏付けを確認")
+        if has_uni:
+            issue(pid, uni_cid, "UNIVERSITY_PERIOD",
+                  f"{plain}の{org_names[p['university']]}在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
+                  "全日本大学バスケットボール連盟（JUBF）の年度別ロスターでの裏付けを確認")
         if gap_issue_id:
             got = issue(pid, pid, "PRO_HISTORY_GAPS",
                         f"{plain}は現所属（{org_names[p['club']]}、{p['club_locator_short']}）以前に{p['pro_gaps']}の在籍がB.LEAGUE公式のクラブ所属履歴で確認できるが、今回のWaveでは現所属クラブのみを最小経路として登録し、過去クラブは対象外とした。",

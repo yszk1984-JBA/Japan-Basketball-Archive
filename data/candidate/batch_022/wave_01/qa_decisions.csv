@@ -1,0 +1,17 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B22W1D0001,Person,P000220,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B22W1D0002,Career,C000713,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0003,Career,C000714,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0004,Career,C000715,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26
+B22W1D0005,Person,P000221,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B22W1D0006,Career,C000716,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0007,Career,C000717,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0008,Career,C000718,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26
+B22W1D0009,Person,P000222,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B22W1D0010,Career,C000719,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0011,Career,C000720,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0012,Career,C000721,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26
+B22W1D0013,Person,P000223,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B22W1D0014,Career,C000722,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0015,Career,C000723,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B22W1D0016,Career,C000724,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26

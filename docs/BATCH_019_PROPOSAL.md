@@ -38,8 +38,20 @@ Batch 008と同じ（現役B.LEAGUE選手のみ、高校→大学→現所属ク
 | 1. 桐光学園高等学校 | Wave 1〜2完了（CANDIDATE段階、batch_019）。タグ9名のうち既存登録1名（齋藤拓実）を除く8名。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
 | 2. 船橋市立船橋高等学校 | Wave 1〜2完了（CANDIDATE段階、batch_020）。タグ8名全員が新規。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
 | 3. 中部大学第一高等学校 | Wave 1〜3完了（CANDIDATE段階、batch_021）。タグ11名全員が新規。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
-| 4〜12 | 未着手 |
+| 4. 尽誠学園高等学校 | 完了（CANDIDATE段階、batch_022、5名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 5. 前橋育英高等学校 | 完了（CANDIDATE段階、batch_023、4名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 6. 正智深谷高等学校 | 完了（CANDIDATE段階、batch_024、2名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 7. 帝京長岡高等学校 | 完了（CANDIDATE段階、batch_025、2名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 8. 桜丘高等学校 | 完了（CANDIDATE段階、batch_026、1名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 9. 秋田県立能代工業高等学校 | 完了（CANDIDATE段階、batch_027、2名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 10. 報徳学園高等学校 | 完了（CANDIDATE段階、batch_028、1名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 11. 大阪桐蔭高等学校 | 完了（CANDIDATE段階、batch_029、1名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 12. 近畿大学附属高等学校 | 完了（CANDIDATE段階、batch_030、1名）。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
 
 ## 調査手順の注意
 
 選手プロフィール上部の「出身校」には大学名のみが表示されることが多く、高校名はQ&A欄「出身校（高）」にある。要約型のWeb取得ツールは高校名や最新の所属履歴を取りこぼすことがあるため、値はブラウザで実ページから直接読み取る（詳細は`data/candidate/batch_019/README.md`）。
+
+## 第2弾12校の一次調査完了（2026-09-26）
+
+学校1〜12すべての一次調査が完了した（batch_019〜030、新規46名）。学校4〜12はYuichiの指示（「まとめてやって」）により一括で実施した。選定時の人数は要約型Web取得ツールによる暫定値で、実際の人数はブラウザ確認の結果（各batchのREADME）が正しい。能代工業については、関連する「秋田県立能代科学技術高等学校」タグの1名もbatch_027 Wave 2で別Organizationとして登録した。

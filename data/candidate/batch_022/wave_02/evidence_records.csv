@@ -1,0 +1,6 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B22W2E0001,Person,P000224,name,若狭 功希,B22W2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B22W2E0002,Person,P000224,birth_date,1997-03-20,B22W2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B22W2E0003,Career,C000725,organization_id,ORG000156,B22W2S0002,基本情報 > 出身校（高）：尽誠学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B22W2E0004,Career,C000726,organization_id,ORG000222,B22W2S0002,クラブ所属履歴 > 「2026-27 岡山」「2025-26 岡山」（直前は「2024-25 徳島」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,徳島（2023-24〜2024-25）・岡山（2019-20〜2022-23）は今回のWaveでは対象外。詳細はissue B22W2I0002を参照
+B22W2E0005,Career,C000726,start,2025,B22W2S0002,クラブ所属履歴 > 「2026-27 岡山」「2025-26 岡山」（直前は「2024-25 徳島」）,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンの岡山復帰を確認（既存の復帰時開始年方針により2025とする）,SUPPORTED,2026-09-26,

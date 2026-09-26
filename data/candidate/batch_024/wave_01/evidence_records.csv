@@ -1,0 +1,13 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B24W1E0001,Person,P000229,name,渡部 琉,B24W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B24W1E0002,Person,P000229,birth_date,2000-10-03,B24W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B24W1E0003,Career,C000739,organization_id,ORG000216,B24W1S0002,基本情報 > 出身校（高）：正智深谷高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B24W1E0004,Career,C000740,organization_id,ORG000016,B24W1S0002,基本情報 > 出身校（大）：中央大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B24W1E0005,Career,C000741,organization_id,ORG000110,B24W1S0002,クラブ所属履歴 > 「2026-27 広島」〜「2024-25 広島」（直前は「2023-24 仙台」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,仙台（2022-23〜2023-24）・広島（2021-22）・秋田（2020-21）は今回のWaveでは対象外。詳細はissue B24W1I0003を参照
+B24W1E0006,Career,C000741,start,2024,B24W1S0002,クラブ所属履歴 > 「2026-27 広島」〜「2024-25 広島」（直前は「2023-24 仙台」）,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンの広島復帰を確認（既存の復帰時開始年方針により2024とする）,SUPPORTED,2026-09-26,
+B24W1E0007,Person,P000230,name,常田 耕平,B24W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B24W1E0008,Person,P000230,birth_date,1999-11-06,B24W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B24W1E0009,Career,C000742,organization_id,ORG000216,B24W1S0003,基本情報 > 出身校（高）：正智深谷高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B24W1E0010,Career,C000743,organization_id,ORG000124,B24W1S0003,基本情報 > 出身校（大）：明治大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B24W1E0011,Career,C000744,organization_id,ORG000200,B24W1S0003,クラブ所属履歴 > 「2026-27 福井」（直前は「2025-26 滋賀」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,滋賀（2024-25〜2025-26）・青森（2022-23〜2023-24）・三遠（2020-21〜2021-22）は今回のWaveでは対象外。詳細はissue B24W1I0006を参照
+B24W1E0012,Career,C000744,start,2026,B24W1S0003,クラブ所属履歴 > 「2026-27 福井」（直前は「2025-26 滋賀」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,

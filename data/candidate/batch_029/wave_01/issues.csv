@@ -1,0 +1,4 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B29W1I0001,P000237,C000762,HIGH_SCHOOL_PERIOD,HOLD,金友蓮の大阪桐蔭高等学校在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。,高校公式・大会公式ロスターでの裏付けを確認
+B29W1I0002,P000237,C000763,UNIVERSITY_PERIOD,HOLD,金友蓮の大阪産業大学在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。,全日本大学バスケットボール連盟（JUBF）の年度別ロスターでの裏付けを確認
+B29W1I0003,P000237,P000237,PRO_HISTORY_GAPS,HOLD,金友蓮は現所属（金沢サムライズ、2026-27〜）以前に熊本（2025-26）の在籍がB.LEAGUE公式のクラブ所属履歴で確認できるが、今回のWaveでは現所属クラブのみを最小経路として登録し、過去クラブは対象外とした。,後続の深掘りWaveでクラブ別Careerを追加

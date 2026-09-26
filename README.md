@@ -45,6 +45,15 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [Batch 019 CANDIDATE](data/candidate/batch_019/README.md)：桐光学園高等学校出身の現役B.LEAGUE選手8人の候補データ
 - [Batch 020 CANDIDATE](data/candidate/batch_020/README.md)：船橋市立船橋高等学校出身の現役B.LEAGUE選手8人の候補データ
 - [Batch 021 CANDIDATE](data/candidate/batch_021/README.md)：中部大学第一高等学校出身の現役B.LEAGUE選手11人の候補データ
+- [Batch 022 CANDIDATE](data/candidate/batch_022/README.md)：尽誠学園高等学校出身の現役B.LEAGUE選手5人の候補データ
+- [Batch 023 CANDIDATE](data/candidate/batch_023/README.md)：前橋育英高等学校出身の現役B.LEAGUE選手4人の候補データ
+- [Batch 024 CANDIDATE](data/candidate/batch_024/README.md)：正智深谷高等学校出身の現役B.LEAGUE選手2人の候補データ
+- [Batch 025 CANDIDATE](data/candidate/batch_025/README.md)：帝京長岡高等学校出身の現役B.LEAGUE選手2人の候補データ
+- [Batch 026 CANDIDATE](data/candidate/batch_026/README.md)：桜丘高等学校出身の現役B.LEAGUE選手1人の候補データ
+- [Batch 027 CANDIDATE](data/candidate/batch_027/README.md)：秋田県立能代工業高等学校出身の現役B.LEAGUE選手2人の候補データ
+- [Batch 028 CANDIDATE](data/candidate/batch_028/README.md)：報徳学園高等学校出身の現役B.LEAGUE選手1人の候補データ
+- [Batch 029 CANDIDATE](data/candidate/batch_029/README.md)：大阪桐蔭高等学校出身の現役B.LEAGUE選手1人の候補データ
+- [Batch 030 CANDIDATE](data/candidate/batch_030/README.md)：近畿大学附属高等学校出身の現役B.LEAGUE選手1人の候補データ
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補
