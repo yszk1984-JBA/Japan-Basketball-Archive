@@ -85,13 +85,13 @@ def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int =
 
     seq = {"e": 0, "d": 0, "i": 0, "s": 1, "c": first_career_seq}
 
-    def ev(entity_type, entity_id, field, value, source_id, locator, summary, note=""):
+    def ev(entity_type, entity_id, field, value, source_id, locator, summary, note="", assessment="SUPPORTED"):
         seq["e"] += 1
         evidence.append({
             "record_id": f"{prefix}E{seq['e']:04d}", "entity_type": entity_type,
             "entity_id": entity_id, "field_name": field, "candidate_value": value,
             "source_id": source_id, "source_locator": locator,
-            "evidence_summary": summary, "assessment": "SUPPORTED",
+            "evidence_summary": summary, "assessment": assessment,
             "checked_at": CHECKED_AT, "issue_note": note,
         })
 
@@ -137,9 +137,15 @@ def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int =
         # usable university (e.g. "-" or a garbled name); then only the
         # high-school and current-club Careers are registered.
         has_uni = p.get("university") is not None
-        hs_cid = next_career()
-        uni_cid = next_career() if has_uni else ""
-        club_cid = next_career()
+        if "career_ids" in p:
+            # Explicit IDs keep already-issued Career IDs stable when a
+            # Career is added to a person after the wave was first built
+            # (the added one takes the next globally free ID).
+            hs_cid, uni_cid, club_cid = p["career_ids"]
+        else:
+            hs_cid = next_career()
+            uni_cid = next_career() if has_uni else ""
+            club_cid = next_career()
         for org in (school_org[0], p.get("university"), p["club"]):
             if org:
                 add_org(org)
@@ -152,8 +158,13 @@ def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int =
         ev("Career", hs_cid, "organization_id", school_org[0], sid,
            f"基本情報 > 出身校（高）：{school_tag}", "B.LEAGUE公式プロフィールで出身高校を確認")
         if has_uni:
+            # university_locator / university_summary / university_assessment
+            # override the defaults when the profile text differs from the
+            # registered name (e.g. a garbled name resolved by Yuichi).
             ev("Career", uni_cid, "organization_id", p["university"], sid,
-               f"基本情報 > 出身校（大）：{org_names[p['university']]}", "B.LEAGUE公式プロフィールで出身大学を確認")
+               p.get("university_locator", f"基本情報 > 出身校（大）：{org_names[p['university']]}"),
+               p.get("university_summary", "B.LEAGUE公式プロフィールで出身大学を確認"),
+               assessment=p.get("university_assessment", "SUPPORTED"))
         ev("Career", club_cid, "organization_id", p["club"], sid,
            f"クラブ所属履歴 > {p['club_locator']}", "B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認",
            note=(f"{p['pro_gaps']}は今回のWaveでは対象外。詳細はissue {gap_issue_id}を参照" if gap_issue_id else ""))

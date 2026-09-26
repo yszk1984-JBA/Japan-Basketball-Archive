@@ -12,7 +12,7 @@
 - Evidence：6件
 - READY判断：4件
 - HOLD判断：0件
-- Issue：2件
+- Issue：3件
 - VERIFIED・Master・公開サイト：未変更
 
 ## エラー

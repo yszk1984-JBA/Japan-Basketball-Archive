@@ -2,11 +2,12 @@ record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_loca
 B25W1E0001,Person,P000231,name,ブラ ブサナ グロリダ,B25W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
 B25W1E0002,Person,P000231,birth_date,1999-03-27,B25W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
 B25W1E0003,Career,C000745,organization_id,ORG000217,B25W1S0002,基本情報 > 出身校（高）：帝京長岡高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
-B25W1E0004,Career,C000746,organization_id,ORG000223,B25W1S0002,クラブ所属履歴 > 「2026-27 東京U」〜「2022-23 東京U」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,埼玉（2021-22）は今回のWaveでは対象外。詳細はissue B25W1I0002を参照
-B25W1E0005,Career,C000746,start,2022,B25W1S0002,クラブ所属履歴 > 「2026-27 東京U」〜「2022-23 東京U」,B.LEAGUE公式のクラブ所属履歴で2022-23シーズンからの在籍を確認,SUPPORTED,2026-09-26,
-B25W1E0006,Person,P000232,name,遠藤 善,B25W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
-B25W1E0007,Person,P000232,birth_date,1998-11-05,B25W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
-B25W1E0008,Career,C000747,organization_id,ORG000217,B25W1S0003,基本情報 > 出身校（高）：帝京長岡高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
-B25W1E0009,Career,C000748,organization_id,ORG000020,B25W1S0003,基本情報 > 出身校（大）：日本体育大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
-B25W1E0010,Career,C000749,organization_id,ORG000101,B25W1S0003,クラブ所属履歴 > 「2026-27 鹿児島」「2025-26 鹿児島」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,茨城（2024-25）・新潟（2021-22〜2023-24）・大阪（2020-21）は今回のWaveでは対象外。詳細はissue B25W1I0006を参照
-B25W1E0011,Career,C000749,start,2025,B25W1S0003,クラブ所属履歴 > 「2026-27 鹿児島」「2025-26 鹿児島」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B25W1E0004,Career,C000768,organization_id,ORG000093,B25W1S0002,基本情報 > 出身校（大）：「白?大学」（公式サイト側の文字化け表示）,B.LEAGUE公式プロフィールの出身大学は「白?大学」と文字化けして表示される。Yuichiの判断（2026-09-26）により白鷗大学（ORG000093）として登録,PARTIAL,2026-09-26,
+B25W1E0005,Career,C000746,organization_id,ORG000223,B25W1S0002,クラブ所属履歴 > 「2026-27 東京U」〜「2022-23 東京U」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,埼玉（2021-22）は今回のWaveでは対象外。詳細はissue B25W1I0003を参照
+B25W1E0006,Career,C000746,start,2022,B25W1S0002,クラブ所属履歴 > 「2026-27 東京U」〜「2022-23 東京U」,B.LEAGUE公式のクラブ所属履歴で2022-23シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B25W1E0007,Person,P000232,name,遠藤 善,B25W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B25W1E0008,Person,P000232,birth_date,1998-11-05,B25W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B25W1E0009,Career,C000747,organization_id,ORG000217,B25W1S0003,基本情報 > 出身校（高）：帝京長岡高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B25W1E0010,Career,C000748,organization_id,ORG000020,B25W1S0003,基本情報 > 出身校（大）：日本体育大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B25W1E0011,Career,C000749,organization_id,ORG000101,B25W1S0003,クラブ所属履歴 > 「2026-27 鹿児島」「2025-26 鹿児島」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,茨城（2024-25）・新潟（2021-22〜2023-24）・大阪（2020-21）は今回のWaveでは対象外。詳細はissue B25W1I0007を参照
+B25W1E0012,Career,C000749,start,2025,B25W1S0003,クラブ所属履歴 > 「2026-27 鹿児島」「2025-26 鹿児島」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,

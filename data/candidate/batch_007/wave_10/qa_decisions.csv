@@ -1,0 +1,9 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7D0129,Person,P000085,REJECT_CANDIDATE,,,MASTER P000176（篠山竜青）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0130,Career,C000296,REJECT_CANDIDATE,,,MASTER P000176（篠山竜青）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0131,Career,C000297,REJECT_CANDIDATE,,,MASTER P000176（篠山竜青）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0132,Career,C000298,REJECT_CANDIDATE,,,MASTER P000176（篠山竜青）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0133,Person,P000110,REJECT_CANDIDATE,,,MASTER P000165（高島紳司）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0134,Career,C000377,REJECT_CANDIDATE,,,MASTER P000165（高島紳司）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0135,Career,C000378,REJECT_CANDIDATE,,,MASTER P000165（高島紳司）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
+B7D0136,Career,C000379,REJECT_CANDIDATE,,,MASTER P000165（高島紳司）と同一人物の重複登録。Yuichiの指示（2026-09-26）によりMASTERのIDに統合し、本候補は取り下げ,2026-09-26
