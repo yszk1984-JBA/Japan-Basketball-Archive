@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B28W1E0001,Person,P000236,name,宇都宮 陸,B28W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B28W1E0002,Person,P000236,birth_date,2002-12-06,B28W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B28W1E0003,Career,C000759,organization_id,ORG000218,B28W1S0002,基本情報 > 出身校（高）：報徳学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B28W1E0004,Career,C000760,organization_id,ORG000188,B28W1S0002,基本情報 > 出身校（大）：京都産業大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B28W1E0005,Career,C000761,organization_id,ORG000180,B28W1S0002,クラブ所属履歴 > 「2026-27 FE名古屋」〜「2024-25 FE名古屋」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,A東京（2022-23）・愛媛（2021-22）は今回のWaveでは対象外。詳細はissue B28W1I0003を参照
+B28W1E0006,Career,C000761,start,2024,B28W1S0002,クラブ所属履歴 > 「2026-27 FE名古屋」〜「2024-25 FE名古屋」,B.LEAGUE公式のクラブ所属履歴で2024-25シーズンからの在籍を確認,SUPPORTED,2026-09-26,

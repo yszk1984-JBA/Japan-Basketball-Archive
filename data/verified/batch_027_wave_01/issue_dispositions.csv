@@ -1,0 +1,4 @@
+issue_id,person_id,related_id,issue_type,status,description,disposition
+B27W1I0001,P000234,C000753,HIGH_SCHOOL_PERIOD,HOLD,盛實海翔の秋田県立能代工業高等学校在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B27W1I0002,P000234,C000754,UNIVERSITY_PERIOD,HOLD,盛實海翔の専修大学在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B27W1I0003,P000234,P000234,PRO_HISTORY_GAPS,HOLD,盛實海翔は現所属（富山グラウジーズ、2026-27〜）以前に北海道（2024-25〜2025-26）・SR渋谷（2018-19〜2023-24）の在籍がB.LEAGUE公式のクラブ所属履歴で確認できるが、今回のWaveでは現所属クラブのみを最小経路として登録し、過去クラブは対象外とした。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留

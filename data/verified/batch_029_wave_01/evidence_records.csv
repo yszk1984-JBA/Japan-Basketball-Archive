@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B29W1E0001,Person,P000237,name,金友 蓮,B29W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B29W1E0002,Person,P000237,birth_date,2003-10-15,B29W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B29W1E0003,Career,C000762,organization_id,ORG000219,B29W1S0002,基本情報 > 出身校（高）：大阪桐蔭高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B29W1E0004,Career,C000763,organization_id,ORG000193,B29W1S0002,基本情報 > 出身校（大）：大阪産業大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B29W1E0005,Career,C000764,organization_id,ORG000205,B29W1S0002,クラブ所属履歴 > 「2026-27 金沢」（直前は「2025-26 熊本」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,熊本（2025-26）は今回のWaveでは対象外。詳細はissue B29W1I0003を参照
+B29W1E0006,Career,C000764,start,2026,B29W1S0002,クラブ所属履歴 > 「2026-27 金沢」（直前は「2025-26 熊本」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,

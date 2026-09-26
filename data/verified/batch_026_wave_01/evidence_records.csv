@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B26W1E0001,Person,P000233,name,モッチ ラミン,B26W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B26W1E0002,Person,P000233,birth_date,1997-09-11,B26W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B26W1E0003,Career,C000750,organization_id,ORG000161,B26W1S0002,基本情報 > 出身校（高）：桜丘高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B26W1E0004,Career,C000751,organization_id,ORG000128,B26W1S0002,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B26W1E0005,Career,C000752,organization_id,ORG000067,B26W1S0002,クラブ所属履歴 > 「2026-27 熊本」「2025-26 熊本」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,佐賀・三河（いずれも2024-25。シーズン途中の移籍とみられるが時期は未確認）・埼玉（2019-20）は今回のWaveでは対象外。詳細はissue B26W1I0003を参照
+B26W1E0006,Career,C000752,start,2025,B26W1S0002,クラブ所属履歴 > 「2026-27 熊本」「2025-26 熊本」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,

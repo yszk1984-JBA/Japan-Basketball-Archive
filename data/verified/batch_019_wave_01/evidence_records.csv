@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B19W1E0001,Person,P000193,name,伊藤 治輝,B19W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W1E0002,Person,P000193,birth_date,2002-09-15,B19W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W1E0003,Career,C000632,organization_id,ORG000123,B19W1S0002,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W1E0004,Career,C000633,organization_id,ORG000124,B19W1S0002,基本情報 > 出身校（大）：明治大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W1E0005,Career,C000634,organization_id,ORG000180,B19W1S0002,クラブ所属履歴 > 「2026-27 FE名古屋」「2025-26 FE名古屋」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,金沢（2024-25、1シーズン。クラブ正式名は所属履歴上の略称のみで未確認）は今回のWaveでは対象外。詳細はissue B19W1I0003を参照
+B19W1E0006,Career,C000634,start,2025,B19W1S0002,クラブ所属履歴 > 「2026-27 FE名古屋」「2025-26 FE名古屋」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B19W1E0007,Person,P000194,name,オドゲレル トルガ,B19W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W1E0008,Person,P000194,birth_date,2003-06-03,B19W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W1E0009,Career,C000635,organization_id,ORG000123,B19W1S0003,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W1E0010,Career,C000636,organization_id,ORG000030,B19W1S0003,基本情報 > 出身校（大）：青山学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W1E0011,Career,C000637,organization_id,ORG000090,B19W1S0003,クラブ所属履歴 > 「2026-27 横浜EX」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,
+B19W1E0012,Career,C000637,start,2026,B19W1S0003,クラブ所属履歴 > 「2026-27 横浜EX」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B19W1E0013,Person,P000195,name,小針 幸也,B19W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W1E0014,Person,P000195,birth_date,1999-05-18,B19W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W1E0015,Career,C000638,organization_id,ORG000123,B19W1S0004,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W1E0016,Career,C000639,organization_id,ORG000210,B19W1S0004,基本情報 > 出身校（大）：神奈川大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W1E0017,Career,C000640,organization_id,ORG000106,B19W1S0004,クラブ所属履歴 > 「2026-27 琉球」「2025-26 琉球」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,川崎（2024-25、1シーズン）・長崎（2022-23〜2023-24、2シーズン）は今回のWaveでは対象外。詳細はissue B19W1I0008を参照
+B19W1E0018,Career,C000640,start,2025,B19W1S0004,クラブ所属履歴 > 「2026-27 琉球」「2025-26 琉球」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B19W1E0019,Person,P000196,name,喜多川 修平,B19W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W1E0020,Person,P000196,birth_date,1985-10-01,B19W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W1E0021,Career,C000641,organization_id,ORG000123,B19W1S0005,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W1E0022,Career,C000642,organization_id,ORG000018,B19W1S0005,基本情報 > 出身校（大）：専修大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W1E0023,Career,C000643,organization_id,ORG000190,B19W1S0005,クラブ所属履歴 > 「2026-27 越谷」〜「2023-24 越谷」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,宇都宮（2019-20〜2022-23）・栃木（2017-18〜2018-19、所属履歴上の当時表記。batch_010で同一クラブと確認済みの宇都宮ブレックス改称前名称。深掘り時は既存方針どおり当時名称で記録）・琉球（2016-17）は今回のWaveでは対象外。詳細はissue B19W1I0011を参照
+B19W1E0024,Career,C000643,start,2023,B19W1S0005,クラブ所属履歴 > 「2026-27 越谷」〜「2023-24 越谷」,B.LEAGUE公式のクラブ所属履歴で2023-24シーズンからの在籍を確認,SUPPORTED,2026-09-26,

@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B27W2E0001,Person,P000235,name,中嶋 正尭,B27W2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B27W2E0002,Person,P000235,birth_date,2003-06-09,B27W2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B27W2E0003,Career,C000756,organization_id,ORG000159,B27W2S0002,基本情報 > 出身校（高）：秋田県立能代科学技術高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B27W2E0004,Career,C000757,organization_id,ORG000214,B27W2S0002,基本情報 > 出身校（大）：名古屋学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B27W2E0005,Career,C000758,organization_id,ORG000191,B27W2S0002,クラブ所属履歴 > 「2026-27 三重」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,
+B27W2E0006,Career,C000758,start,2026,B27W2S0002,クラブ所属履歴 > 「2026-27 三重」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,

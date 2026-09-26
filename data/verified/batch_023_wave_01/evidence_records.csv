@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B23W1E0001,Person,P000225,name,熊谷 航,B23W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B23W1E0002,Person,P000225,birth_date,1996-05-07,B23W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B23W1E0003,Career,C000727,organization_id,ORG000215,B23W1S0002,基本情報 > 出身校（高）：前橋育英高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B23W1E0004,Career,C000728,organization_id,ORG000128,B23W1S0002,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B23W1E0005,Career,C000729,organization_id,ORG000135,B23W1S0002,クラブ所属履歴 > 「2026-27 長崎」「2025-26 長崎」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,秋田（2023-24〜2024-25）・信州（2021-22〜2022-23）・三河（2018-19〜2020-21）は今回のWaveでは対象外。詳細はissue B23W1I0003を参照
+B23W1E0006,Career,C000729,start,2025,B23W1S0002,クラブ所属履歴 > 「2026-27 長崎」「2025-26 長崎」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B23W1E0007,Person,P000226,name,久岡 幸太郎,B23W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B23W1E0008,Person,P000226,birth_date,1997-01-04,B23W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B23W1E0009,Career,C000730,organization_id,ORG000215,B23W1S0003,基本情報 > 出身校（高）：前橋育英高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B23W1E0010,Career,C000731,organization_id,ORG000016,B23W1S0003,基本情報 > 出身校（大）：中央大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B23W1E0011,Career,C000732,organization_id,ORG000103,B23W1S0003,クラブ所属履歴 > 「2026-27 茨城」〜「2023-24 茨城」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,広島（2023-24）・香川（2022-23）・東京Z（2018-19〜2021-22）は今回のWaveでは対象外。詳細はissue B23W1I0006を参照
+B23W1E0012,Career,C000732,start,2023,B23W1S0003,クラブ所属履歴 > 「2026-27 茨城」〜「2023-24 茨城」,B.LEAGUE公式のクラブ所属履歴で2023-24シーズンからの在籍を確認（2023-24は広島の行もあり、シーズン途中の移籍とみられるが時期は未確認）,SUPPORTED,2026-09-26,
+B23W1E0013,Person,P000227,name,久岡 賢太郎,B23W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B23W1E0014,Person,P000227,birth_date,2003-07-02,B23W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B23W1E0015,Career,C000733,organization_id,ORG000215,B23W1S0004,基本情報 > 出身校（高）：前橋育英高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B23W1E0016,Career,C000734,organization_id,ORG000016,B23W1S0004,基本情報 > 出身校（大）：中央大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B23W1E0017,Career,C000735,organization_id,ORG000173,B23W1S0004,クラブ所属履歴 > 「2026-27 岩手」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,
+B23W1E0018,Career,C000735,start,2026,B23W1S0004,クラブ所属履歴 > 「2026-27 岩手」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B23W1E0019,Person,P000228,name,船生 誠也,B23W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B23W1E0020,Person,P000228,birth_date,1993-12-15,B23W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B23W1E0021,Career,C000736,organization_id,ORG000215,B23W1S0005,基本情報 > 出身校（高）：前橋育英高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B23W1E0022,Career,C000737,organization_id,ORG000030,B23W1S0005,基本情報 > 出身校（大）：青山学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B23W1E0023,Career,C000738,organization_id,ORG000132,B23W1S0005,クラブ所属履歴 > 「2026-27 仙台」「2025-26 仙台」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,SR渋谷（2024-25）・広島（2021-22〜2023-24）・琉球（2020-21）・富山（2018-19〜2019-20）・名古屋D（2016-17〜2017-18）は今回のWaveでは対象外。詳細はissue B23W1I0011を参照
+B23W1E0024,Career,C000738,start,2025,B23W1S0005,クラブ所属履歴 > 「2026-27 仙台」「2025-26 仙台」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,

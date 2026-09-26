@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B22W1E0001,Person,P000220,name,松尾 河秋,B22W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B22W1E0002,Person,P000220,birth_date,2002-10-12,B22W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B22W1E0003,Career,C000713,organization_id,ORG000156,B22W1S0002,基本情報 > 出身校（高）：尽誠学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B22W1E0004,Career,C000714,organization_id,ORG000128,B22W1S0002,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B22W1E0005,Career,C000715,organization_id,ORG000205,B22W1S0002,クラブ所属履歴 > 「2026-27 金沢」（直前の行は「2023-24 愛媛」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,愛媛（2023-24）は今回のWaveでは対象外。詳細はissue B22W1I0003を参照
+B22W1E0006,Career,C000715,start,2026,B22W1S0002,クラブ所属履歴 > 「2026-27 金沢」（直前の行は「2023-24 愛媛」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B22W1E0007,Person,P000221,name,髙岡 圭汰朗,B22W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B22W1E0008,Person,P000221,birth_date,1999-06-14,B22W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B22W1E0009,Career,C000716,organization_id,ORG000156,B22W1S0003,基本情報 > 出身校（高）：尽誠学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B22W1E0010,Career,C000717,organization_id,ORG000148,B22W1S0003,基本情報 > 出身校（大）：近畿大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B22W1E0011,Career,C000718,organization_id,ORG000111,B22W1S0003,クラブ所属履歴 > 「2026-27 八王子」（直前の行は「2022-23 奈良」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,奈良（2021-22〜2022-23）は今回のWaveでは対象外。詳細はissue B22W1I0007を参照
+B22W1E0012,Career,C000718,start,2026,B22W1S0003,クラブ所属履歴 > 「2026-27 八王子」（直前の行は「2022-23 奈良」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B22W1E0013,Person,P000222,name,上田 隼輔,B22W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B22W1E0014,Person,P000222,birth_date,1999-09-18,B22W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B22W1E0015,Career,C000719,organization_id,ORG000156,B22W1S0004,基本情報 > 出身校（高）：尽誠学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B22W1E0016,Career,C000720,organization_id,ORG000188,B22W1S0004,基本情報 > 出身校（大）：京都産業大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B22W1E0017,Career,C000721,organization_id,ORG000155,B22W1S0004,クラブ所属履歴 > 「2026-27 島根」「2025-26 島根」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,富山（2021-22〜2024-25、4シーズン）は今回のWaveでは対象外。詳細はissue B22W1I0011を参照
+B22W1E0018,Career,C000721,start,2025,B22W1S0004,クラブ所属履歴 > 「2026-27 島根」「2025-26 島根」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B22W1E0019,Person,P000223,name,笠井 康平,B22W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B22W1E0020,Person,P000223,birth_date,1993-08-12,B22W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B22W1E0021,Career,C000722,organization_id,ORG000156,B22W1S0005,基本情報 > 出身校（高）：尽誠学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B22W1E0022,Career,C000723,organization_id,ORG000030,B22W1S0005,基本情報 > 出身校（大）：青山学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B22W1E0023,Career,C000724,organization_id,ORG000222,B22W1S0005,クラブ所属履歴 > 「2026-27 岡山」（直前は「2025-26 福島」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,福島（2024-25〜2025-26）・奈良（2023-24）・宇都宮（2022-23）・群馬（2020-21〜2021-22）・名古屋D（2018-19〜2019-20）は今回のWaveでは対象外。詳細はissue B22W1I0014を参照
+B22W1E0024,Career,C000724,start,2026,B22W1S0005,クラブ所属履歴 > 「2026-27 岡山」（直前は「2025-26 福島」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,

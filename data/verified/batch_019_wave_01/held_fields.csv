@@ -1,0 +1,13 @@
+decision_id,entity_type,entity_id,held_fields,reason
+B19W1D0002,Career,C000632,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0003,Career,C000633,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0004,Career,C000634,end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0006,Career,C000635,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0007,Career,C000636,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0008,Career,C000637,end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0010,Career,C000638,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0011,Career,C000639,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0012,Career,C000640,end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0014,Career,C000641,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0015,Career,C000642,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B19W1D0016,Career,C000643,end,READY判断内の未確認項目としてVERIFIEDから除外

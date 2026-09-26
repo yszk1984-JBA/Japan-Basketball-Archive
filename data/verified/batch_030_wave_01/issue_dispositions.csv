@@ -1,0 +1,4 @@
+issue_id,person_id,related_id,issue_type,status,description,disposition
+B30W1I0001,P000238,C000765,HIGH_SCHOOL_PERIOD,HOLD,西野曜の近畿大学附属高等学校在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B30W1I0002,P000238,C000766,UNIVERSITY_PERIOD,HOLD,西野曜の専修大学在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B30W1I0003,P000238,P000238,PRO_HISTORY_GAPS,HOLD,西野曜は現所属（福井ブローウィンズ、2024-25〜）以前に横浜BC（2023-24）・SR渋谷（2020-21〜2022-23）・秋田（2019-20）の在籍がB.LEAGUE公式のクラブ所属履歴で確認できるが、今回のWaveでは現所属クラブのみを最小経路として登録し、過去クラブは対象外とした。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留

@@ -1,0 +1,7 @@
+decision_id,entity_type,entity_id,held_fields,reason
+B24W1D0002,Career,C000739,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B24W1D0003,Career,C000740,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B24W1D0004,Career,C000741,end,READY判断内の未確認項目としてVERIFIEDから除外
+B24W1D0006,Career,C000742,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B24W1D0007,Career,C000743,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B24W1D0008,Career,C000744,end,READY判断内の未確認項目としてVERIFIEDから除外

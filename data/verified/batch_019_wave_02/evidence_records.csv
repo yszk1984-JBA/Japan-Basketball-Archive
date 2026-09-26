@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B19W2E0001,Person,P000197,name,須藤 昂矢,B19W2S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W2E0002,Person,P000197,birth_date,1997-05-15,B19W2S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W2E0003,Career,C000644,organization_id,ORG000123,B19W2S0002,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W2E0004,Career,C000645,organization_id,ORG000124,B19W2S0002,基本情報 > 出身校（大）：明治大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W2E0005,Career,C000646,organization_id,ORG000055,B19W2S0002,クラブ所属履歴 > 「2026-27 横浜BC」〜「2020-21 横浜BC」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,西宮（2019-20、1シーズン）は今回のWaveでは対象外。詳細はissue B19W2I0003を参照
+B19W2E0006,Career,C000646,start,2020,B19W2S0002,クラブ所属履歴 > 「2026-27 横浜BC」〜「2020-21 横浜BC」,B.LEAGUE公式のクラブ所属履歴で2020-21シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B19W2E0007,Person,P000198,name,兪 龍海,B19W2S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W2E0008,Person,P000198,birth_date,2001-07-09,B19W2S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W2E0009,Career,C000647,organization_id,ORG000123,B19W2S0003,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W2E0010,Career,C000648,organization_id,ORG000136,B19W2S0003,基本情報 > 出身校（大）：早稲田大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W2E0011,Career,C000649,organization_id,ORG000097,B19W2S0003,クラブ所属履歴 > 「2026-27 三遠」（直前は「2025-26 横浜BC」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,横浜BC（2025-26）・三遠（2023-24〜2024-25、および2020-21）は今回のWaveでは対象外。詳細はissue B19W2I0006を参照
+B19W2E0012,Career,C000649,start,2026,B19W2S0003,クラブ所属履歴 > 「2026-27 三遠」（直前は「2025-26 横浜BC」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンの三遠復帰を確認（既存の復帰時開始年方針により2026とする）,SUPPORTED,2026-09-26,
+B19W2E0013,Person,P000199,name,植松 義也,B19W2S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W2E0014,Person,P000199,birth_date,1998-12-18,B19W2S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W2E0015,Career,C000650,organization_id,ORG000123,B19W2S0004,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W2E0016,Career,C000651,organization_id,ORG000124,B19W2S0004,基本情報 > 出身校（大）：明治大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W2E0017,Career,C000652,organization_id,ORG000142,B19W2S0004,クラブ所属履歴 > 「2026-27 大阪」「2025-26 大阪」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,琉球（2022-23〜2024-25、3シーズン）・福岡（2020-21〜2021-22、2シーズン）は今回のWaveでは対象外。詳細はissue B19W2I0010を参照
+B19W2E0018,Career,C000652,start,2025,B19W2S0004,クラブ所属履歴 > 「2026-27 大阪」「2025-26 大阪」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B19W2E0019,Person,P000200,name,宮本 一樹,B19W2S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B19W2E0020,Person,P000200,birth_date,1999-06-17,B19W2S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B19W2E0021,Career,C000653,organization_id,ORG000123,B19W2S0005,基本情報 > 出身校（高）：桐光学園高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B19W2E0022,Career,C000654,organization_id,ORG000136,B19W2S0005,基本情報 > 出身校（大）：早稲田大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B19W2E0023,Career,C000655,organization_id,ORG000149,B19W2S0005,クラブ所属履歴 > 「2026-27 富山」「2025-26 富山」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,滋賀（2023-24〜2024-25、2シーズン）・FE名古屋（2021-22〜2022-23、2シーズン）は今回のWaveでは対象外。詳細はissue B19W2I0013を参照
+B19W2E0024,Career,C000655,start,2025,B19W2S0005,クラブ所属履歴 > 「2026-27 富山」「2025-26 富山」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
