@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import { getPrimaryCareer, players } from '../public-data';
 import { baseOpenGraph, breadcrumbJsonLd, JsonLd, siteUrl } from '../seo';
-import { organizationCategory } from '../organization-category';
+import { organizationCategory, ORGANIZATION_CATEGORY_ORDER } from '../organization-category';
 import { PlayersListView, type PlayerRow } from './PlayersListView';
 
 const title = `選手一覧（${players.length}人）`;
@@ -18,14 +18,27 @@ export const metadata: Metadata = {
 // 表示用の行データをサーバー側で作る。カテゴリーは組織名からの表示専用の
 // 推定であり（organization-category.ts参照）、Master/Candidateのデータ
 // スキーマそのものには手を入れていない。
+//
+// categoriesは経歴に登場した組織すべてから推定する（現在の所属だけでなく、
+// 高校→大学→クラブのような経歴全体を対象にする）。これにより「高校」で
+// 絞り込んだときに、現在はプロ所属の選手も含めた出身校ベースの一覧になる。
 function toRow(player: (typeof players)[number]): PlayerRow {
   const primary = getPrimaryCareer(player);
+  const categories = [
+    ...new Set(
+      player.careers
+        .filter((career) => career.organization)
+        .map((career) => organizationCategory(career.organization as string)),
+    ),
+  ].sort((left, right) => ORGANIZATION_CATEGORY_ORDER.indexOf(left) - ORGANIZATION_CATEGORY_ORDER.indexOf(right));
+
   return {
     id: player.id,
     slug: player.slug,
     name: player.name,
     org: primary?.organization ?? null,
-    category: primary?.organization ? organizationCategory(primary.organization) : null,
+    primaryCategory: primary?.organization ? organizationCategory(primary.organization) : null,
+    categories,
     status: player.dataStatus,
     sources: new Set(player.careers.flatMap((career) => career.sourceIds)).size,
   };

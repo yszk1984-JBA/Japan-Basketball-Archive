@@ -27,23 +27,55 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
 ];
 
 export function OrganizationsListView({ rows, totalCount }: { rows: readonly OrganizationRow[]; totalCount: number }) {
+  const [searchQuery, setSearchQuery] = useState('');
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>('all');
   const [sortKey, setSortKey] = useState<SortKey>('count');
 
   const filtered = useMemo(() => {
-    const next = rows.filter((row) => categoryFilter === 'all' || row.category === categoryFilter);
+    const query = searchQuery.trim().toLowerCase();
+    const next = rows.filter(
+      (row) =>
+        (categoryFilter === 'all' || row.category === categoryFilter) &&
+        (query === '' || row.name.toLowerCase().includes(query)),
+    );
     return [...next].sort((left, right) =>
       sortKey === 'count' ? right.total - left.total : left.name.localeCompare(right.name, 'ja'),
     );
-  }, [rows, categoryFilter, sortKey]);
+  }, [rows, categoryFilter, sortKey, searchQuery]);
 
   return (
     <>
       <p className="jbaListB-lede">
-        {filtered.length} / {totalCount}件を表示中。カテゴリー・在籍者数で絞り込み・並び替えができます。
+        {filtered.length} / {totalCount}件を表示中。名前検索・カテゴリーで絞り込み、在籍者数・五十音順で並び替えができます。
       </p>
 
       <div className="jbaListB-filterCard">
+        <div className="jbaListB-filterGroup">
+          <div className="jbaListB-filterLabel">検索</div>
+          <div className="jbaListB-searchWrap">
+            <svg
+              className="jbaListB-searchIcon"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#8A97A3"
+              strokeWidth="2.2"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="search"
+              className="jbaListB-searchInput"
+              placeholder="組織名で検索"
+              aria-label="組織名で検索"
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+            />
+          </div>
+        </div>
         <div className="jbaListB-filterGroup">
           <div className="jbaListB-filterLabel">カテゴリー</div>
           <div className="jbaListB-chipRow">
@@ -87,7 +119,7 @@ export function OrganizationsListView({ rows, totalCount }: { rows: readonly Org
           <div>在籍者数</div>
         </div>
         {filtered.length === 0 ? (
-          <div className="jbaListB-empty">条件に一致する組織がありません。</div>
+          <div className="jbaListB-empty">条件に一致する組織がありません。検索キーワードや絞り込みを変えてみてください。</div>
         ) : (
           filtered.map((row) => {
             const categoryMeta = ORGANIZATION_CATEGORY_META[row.category];
