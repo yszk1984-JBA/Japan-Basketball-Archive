@@ -59,9 +59,14 @@ ORG_NAMES = {
 }
 
 
-def build(wave: int, players: list[dict], first_career_seq: int) -> None:
-    prefix = f"B19W{wave}"
-    base = ROOT / "data" / "candidate" / "batch_019" / f"wave_{wave:02d}"
+def build(wave: int, players: list[dict], first_career_seq: int, *, batch: int = 19,
+          school_org: tuple[str, str] = SCHOOL_ORG, school_tag: str = SCHOOL_TAG_NAME,
+          extra_orgs: dict[str, str] | None = None) -> None:
+    """Build one wave. Defaults reproduce Batch 019 (桐光学園); later
+    second-round schools pass their own batch/school/org parameters."""
+    org_names = {**ORG_NAMES, **(extra_orgs or {}), school_org[0]: school_org[1]}
+    prefix = f"B{batch}W{wave}"
+    base = ROOT / "data" / "candidate" / f"batch_{batch:03d}" / f"wave_{wave:02d}"
 
     persons, careers, sources, evidence, decisions, issues = [], [], [], [], [], []
     org_ids: list[str] = []
@@ -72,9 +77,9 @@ def build(wave: int, players: list[dict], first_career_seq: int) -> None:
 
     sources.append({
         "source_id": f"{prefix}S0001",
-        "title": f"ワタシノB.LEAGUE選手一覧 | {SCHOOL_TAG_NAME}",
+        "title": f"ワタシノB.LEAGUE選手一覧 | {school_tag}",
         "publisher": "B.LEAGUE",
-        "url": f"https://www.bleague.jp/mybleague_list/?TagID=35:{SCHOOL_TAG_NAME}",
+        "url": f"https://www.bleague.jp/mybleague_list/?TagID=35:{school_tag}",
         "accessed_at": CHECKED_AT,
     })
 
@@ -129,19 +134,19 @@ def build(wave: int, players: list[dict], first_career_seq: int) -> None:
         dec("Person", pid, "name|birth_date", "", "B.LEAGUE公式プロフィールで確認")
 
         hs_cid, uni_cid, club_cid = next_career(), next_career(), next_career()
-        for org in (SCHOOL_ORG[0], p["university"], p["club"]):
+        for org in (school_org[0], p["university"], p["club"]):
             add_org(org)
         careers.extend([
-            {"career_id": hs_cid, "person_id": pid, "organization_id": SCHOOL_ORG[0], "role": "Player", "start": "", "end": ""},
+            {"career_id": hs_cid, "person_id": pid, "organization_id": school_org[0], "role": "Player", "start": "", "end": ""},
             {"career_id": uni_cid, "person_id": pid, "organization_id": p["university"], "role": "Player", "start": "", "end": ""},
             {"career_id": club_cid, "person_id": pid, "organization_id": p["club"], "role": "Player", "start": p["club_start"], "end": ""},
         ])
 
         gap_issue_id = f"{prefix}I{seq['i'] + 3:04d}" if p.get("pro_gaps") else ""
-        ev("Career", hs_cid, "organization_id", SCHOOL_ORG[0], sid,
-           f"基本情報 > 出身校（高）：{SCHOOL_TAG_NAME}", "B.LEAGUE公式プロフィールで出身高校を確認")
+        ev("Career", hs_cid, "organization_id", school_org[0], sid,
+           f"基本情報 > 出身校（高）：{school_tag}", "B.LEAGUE公式プロフィールで出身高校を確認")
         ev("Career", uni_cid, "organization_id", p["university"], sid,
-           f"基本情報 > 出身校（大）：{ORG_NAMES[p['university']]}", "B.LEAGUE公式プロフィールで出身大学を確認")
+           f"基本情報 > 出身校（大）：{org_names[p['university']]}", "B.LEAGUE公式プロフィールで出身大学を確認")
         ev("Career", club_cid, "organization_id", p["club"], sid,
            f"クラブ所属履歴 > {p['club_locator']}", "B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認",
            note=(f"{p['pro_gaps']}は今回のWaveでは対象外。詳細はissue {gap_issue_id}を参照" if gap_issue_id else ""))
@@ -155,20 +160,20 @@ def build(wave: int, players: list[dict], first_career_seq: int) -> None:
             + ("。過去クラブ在籍はissueに記録" if gap_issue_id else ""))
 
         issue(pid, hs_cid, "HIGH_SCHOOL_PERIOD",
-              f"{plain}の桐光学園高等学校在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
+              f"{plain}の{school_tag}在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
               "高校公式・大会公式ロスターでの裏付けを確認")
         issue(pid, uni_cid, "UNIVERSITY_PERIOD",
-              f"{plain}の{ORG_NAMES[p['university']]}在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
+              f"{plain}の{org_names[p['university']]}在籍そのものはB.LEAGUE公式プロフィールで確認できたが、入学・卒業年月は資料に記載がなく未確認。",
               "全日本大学バスケットボール連盟（JUBF）の年度別ロスターでの裏付けを確認")
         if gap_issue_id:
             got = issue(pid, pid, "PRO_HISTORY_GAPS",
-                        f"{plain}は現所属（{ORG_NAMES[p['club']]}、{p['club_locator_short']}）以前に{p['pro_gaps']}の在籍がB.LEAGUE公式のクラブ所属履歴で確認できるが、今回のWaveでは現所属クラブのみを最小経路として登録し、過去クラブは対象外とした。",
+                        f"{plain}は現所属（{org_names[p['club']]}、{p['club_locator_short']}）以前に{p['pro_gaps']}の在籍がB.LEAGUE公式のクラブ所属履歴で確認できるが、今回のWaveでは現所属クラブのみを最小経路として登録し、過去クラブは対象外とした。",
                         "後続の深掘りWaveでクラブ別Careerを追加")
             assert got == gap_issue_id, (got, gap_issue_id)
         for extra in p.get("extra_issues", []):
             issue(pid, extra.get("related", pid), extra["type"], extra["description"], extra["next_check"])
 
-    orgs = [{"organization_id": o, "name": ORG_NAMES[o]} for o in org_ids]
+    orgs = [{"organization_id": o, "name": org_names[o]} for o in org_ids]
 
     write_csv(base / "person_candidates.csv", ["person_id", "name"], persons)
     write_csv(base / "organization_candidates.csv", ["organization_id", "name"], orgs)
@@ -186,6 +191,6 @@ def build(wave: int, players: list[dict], first_career_seq: int) -> None:
         "eligible_fields", "held_fields", "reason", "reviewed_at",
     ], decisions)
     print(
-        f"Wrote batch_019/wave_{wave:02d}: {len(persons)} persons, {len(orgs)} orgs, {len(careers)} careers, "
+        f"Wrote batch_{batch:03d}/wave_{wave:02d}: {len(persons)} persons, {len(orgs)} orgs, {len(careers)} careers, "
         f"{len(sources)} sources, {len(evidence)} evidence, {len(decisions)} decisions, {len(issues)} issues"
     )

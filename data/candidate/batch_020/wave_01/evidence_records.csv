@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B20W1E0001,Person,P000201,name,平良 彰吾,B20W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B20W1E0002,Person,P000201,birth_date,1997-04-02,B20W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B20W1E0003,Career,C000656,organization_id,ORG000211,B20W1S0002,基本情報 > 出身校（高）：船橋市立船橋高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B20W1E0004,Career,C000657,organization_id,ORG000031,B20W1S0002,基本情報 > 出身校（大）：拓殖大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B20W1E0005,Career,C000658,organization_id,ORG000130,B20W1S0002,クラブ所属履歴 > 「2026-27 三河」（直前は「2025-26 琉球」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,琉球（2024-25〜2025-26）・横浜EX（2023-24〜2024-25。2024-25は琉球と両方の行がありシーズン途中の移籍とみられるが時期は未確認）・湘南（2022-23）・品川（2021-22）・福岡（2019-20〜2020-21）。いずれも所属履歴上の略称で、正式クラブ名は未確認は今回のWaveでは対象外。詳細はissue B20W1I0003を参照
+B20W1E0006,Career,C000658,start,2026,B20W1S0002,クラブ所属履歴 > 「2026-27 三河」（直前は「2025-26 琉球」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B20W1E0007,Person,P000202,name,古牧 昌也,B20W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B20W1E0008,Person,P000202,birth_date,1993-06-19,B20W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B20W1E0009,Career,C000659,organization_id,ORG000211,B20W1S0003,基本情報 > 出身校（高）：船橋市立船橋高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B20W1E0010,Career,C000660,organization_id,ORG000121,B20W1S0003,基本情報 > 出身校（大）：日本大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B20W1E0011,Career,C000661,organization_id,ORG000183,B20W1S0003,クラブ所属履歴 > 「2026-27 埼玉」（直前は「2025-26 奈良」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,奈良（2022-23〜2025-26）・横浜BC（2021-22）・群馬（2018-19〜2020-21）・東京Z（2017-18）は今回のWaveでは対象外。詳細はissue B20W1I0006を参照
+B20W1E0012,Career,C000661,start,2026,B20W1S0003,クラブ所属履歴 > 「2026-27 埼玉」（直前は「2025-26 奈良」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認（所属履歴上の略称「埼玉」、選手一覧の現所属表記はさいたまブロンコス）,SUPPORTED,2026-09-26,
+B20W1E0013,Person,P000203,name,野﨑 由之,B20W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B20W1E0014,Person,P000203,birth_date,2000-02-08,B20W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B20W1E0015,Career,C000662,organization_id,ORG000211,B20W1S0004,基本情報 > 出身校（高）：船橋市立船橋高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B20W1E0016,Career,C000663,organization_id,ORG000018,B20W1S0004,基本情報 > 出身校（大）：専修大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B20W1E0017,Career,C000664,organization_id,ORG000149,B20W1S0004,クラブ所属履歴 > 「2026-27 富山」〜「2021-22 富山」（履歴は富山のみ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,
+B20W1E0018,Career,C000664,start,2021,B20W1S0004,クラブ所属履歴 > 「2026-27 富山」〜「2021-22 富山」（履歴は富山のみ）,B.LEAGUE公式のクラブ所属履歴で2021-22シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B20W1E0019,Person,P000204,name,赤穂 雷太,B20W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B20W1E0020,Person,P000204,birth_date,1998-08-28,B20W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B20W1E0021,Career,C000665,organization_id,ORG000211,B20W1S0005,基本情報 > 出身校（高）：船橋市立船橋高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B20W1E0022,Career,C000666,organization_id,ORG000030,B20W1S0005,基本情報 > 出身校（大）：青山学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B20W1E0023,Career,C000667,organization_id,ORG000137,B20W1S0005,クラブ所属履歴 > 「2026-27 秋田」〜「2023-24 秋田」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,横浜BC（2022-23）・千葉J（2020-21〜2021-22）・横浜（2019-20。所属履歴上は「横浜」のみで、どのクラブを指すかは未確認）は今回のWaveでは対象外。詳細はissue B20W1I0011を参照
+B20W1E0024,Career,C000667,start,2023,B20W1S0005,クラブ所属履歴 > 「2026-27 秋田」〜「2023-24 秋田」,B.LEAGUE公式のクラブ所属履歴で2023-24シーズンからの在籍を確認,SUPPORTED,2026-09-26,

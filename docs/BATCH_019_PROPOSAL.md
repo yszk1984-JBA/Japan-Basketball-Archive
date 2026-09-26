@@ -36,7 +36,8 @@ Batch 008と同じ（現役B.LEAGUE選手のみ、高校→大学→現所属ク
 | 学校 | 状態 |
 | --- | --- |
 | 1. 桐光学園高等学校 | Wave 1〜2完了（CANDIDATE段階、batch_019）。タグ9名のうち既存登録1名（齋藤拓実）を除く8名。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
-| 2〜12 | 未着手 |
+| 2. 船橋市立船橋高等学校 | Wave 1〜2完了（CANDIDATE段階、batch_020）。タグ8名全員が新規。HUMAN APPROVAL・VERIFIED・MASTERは未実施、Yuichiの指示待ち。 |
+| 3〜12 | 未着手 |
 
 ## 調査手順の注意
 
