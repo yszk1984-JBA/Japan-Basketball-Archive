@@ -1,0 +1,25 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B21W1E0001,Person,P000209,name,上澤 俊喜,B21W1S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W1E0002,Person,P000209,birth_date,1998-06-02,B21W1S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W1E0003,Career,C000680,organization_id,ORG000213,B21W1S0002,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W1E0004,Career,C000681,organization_id,ORG000121,B21W1S0002,基本情報 > 出身校（大）：日本大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W1E0005,Career,C000682,organization_id,ORG000110,B21W1S0002,クラブ所属履歴 > 「2026-27 広島」〜「2022-23 広島」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,富山（2020-21〜2021-22、2シーズン）は今回のWaveでは対象外。詳細はissue B21W1I0003を参照
+B21W1E0006,Career,C000682,start,2022,B21W1S0002,クラブ所属履歴 > 「2026-27 広島」〜「2022-23 広島」,B.LEAGUE公式のクラブ所属履歴で2022-23シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B21W1E0007,Person,P000210,name,中村 浩陸,B21W1S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W1E0008,Person,P000210,birth_date,1997-11-29,B21W1S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W1E0009,Career,C000683,organization_id,ORG000213,B21W1S0003,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W1E0010,Career,C000684,organization_id,ORG000128,B21W1S0003,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W1E0011,Career,C000685,organization_id,ORG000109,B21W1S0003,クラブ所属履歴 > 「2026-27 A東京」「2025-26 A東京」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,FE名古屋（2022-23〜2024-25、3シーズン）・大阪（2019-20〜2021-22、3シーズン）は今回のWaveでは対象外。詳細はissue B21W1I0006を参照
+B21W1E0012,Career,C000685,start,2025,B21W1S0003,クラブ所属履歴 > 「2026-27 A東京」「2025-26 A東京」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B21W1E0013,Person,P000211,name,小澤 飛悠,B21W1S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W1E0014,Person,P000211,birth_date,2004-10-04,B21W1S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W1E0015,Career,C000686,organization_id,ORG000213,B21W1S0004,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W1E0016,Career,C000687,organization_id,ORG000020,B21W1S0004,基本情報 > 出身校（大）：日本体育大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W1E0017,Career,C000688,organization_id,ORG000054,B21W1S0004,クラブ所属履歴 > 「2026-27 名古屋D」「2025-26 名古屋D」（履歴はこの2行のみ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,
+B21W1E0018,Career,C000688,start,2025,B21W1S0004,クラブ所属履歴 > 「2026-27 名古屋D」「2025-26 名古屋D」（履歴はこの2行のみ）,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B21W1E0019,Person,P000212,name,星野 京介,B21W1S0005,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W1E0020,Person,P000212,birth_date,1999-06-01,B21W1S0005,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W1E0021,Career,C000689,organization_id,ORG000213,B21W1S0005,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W1E0022,Career,C000690,organization_id,ORG000128,B21W1S0005,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W1E0023,Career,C000691,organization_id,ORG000150,B21W1S0005,クラブ所属履歴 > 「2026-27 信州」（直前は「2025-26 北海道」）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,北海道（2024-25〜2025-26）・信州（2023-24）・滋賀（2021-22〜2022-23）は今回のWaveでは対象外。詳細はissue B21W1I0011を参照
+B21W1E0024,Career,C000691,start,2026,B21W1S0005,クラブ所属履歴 > 「2026-27 信州」（直前は「2025-26 北海道」）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンの信州復帰を確認（既存の復帰時開始年方針により2026とする）,SUPPORTED,2026-09-26,

@@ -44,6 +44,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [BATCH_019_PROPOSAL](docs/BATCH_019_PROPOSAL.md)：強豪校横展開 第2弾（12校）の選定と進捗
 - [Batch 019 CANDIDATE](data/candidate/batch_019/README.md)：桐光学園高等学校出身の現役B.LEAGUE選手8人の候補データ
 - [Batch 020 CANDIDATE](data/candidate/batch_020/README.md)：船橋市立船橋高等学校出身の現役B.LEAGUE選手8人の候補データ
+- [Batch 021 CANDIDATE](data/candidate/batch_021/README.md)：中部大学第一高等学校出身の現役B.LEAGUE選手11人の候補データ
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補

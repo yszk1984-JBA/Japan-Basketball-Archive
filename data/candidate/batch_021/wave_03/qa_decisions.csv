@@ -1,0 +1,13 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B21W3D0001,Person,P000217,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W3D0002,Career,C000704,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W3D0003,Career,C000705,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W3D0004,Career,C000706,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-26
+B21W3D0005,Person,P000218,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W3D0006,Career,C000707,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W3D0007,Career,C000708,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W3D0008,Career,C000709,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26
+B21W3D0009,Person,P000219,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W3D0010,Career,C000710,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W3D0011,Career,C000711,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W3D0012,Career,C000712,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26

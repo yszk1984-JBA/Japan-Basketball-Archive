@@ -1,0 +1,19 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B21W3E0001,Person,P000217,name,吉本 大心,B21W3S0002,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W3E0002,Person,P000217,birth_date,2002-04-23,B21W3S0002,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W3E0003,Career,C000704,organization_id,ORG000213,B21W3S0002,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W3E0004,Career,C000705,organization_id,ORG000031,B21W3S0002,基本情報 > 出身校（大）：拓殖大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W3E0005,Career,C000706,organization_id,ORG000191,B21W3S0002,クラブ所属履歴 > 「2026-27 三重」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,
+B21W3E0006,Career,C000706,start,2026,B21W3S0002,クラブ所属履歴 > 「2026-27 三重」（履歴はこの1行のみ）,B.LEAGUE公式のクラブ所属履歴で2026-27シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B21W3E0007,Person,P000218,name,ワン ウェイジャ,B21W3S0003,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W3E0008,Person,P000218,birth_date,1998-09-03,B21W3S0003,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W3E0009,Career,C000707,organization_id,ORG000213,B21W3S0003,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W3E0010,Career,C000708,organization_id,ORG000214,B21W3S0003,基本情報 > 出身校（大）：名古屋学院大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W3E0011,Career,C000709,organization_id,ORG000182,B21W3S0003,クラブ所属履歴 > 「2026-27 青森」「2025-26 青森」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,福島（2024-25）・秋田（2020-21〜2023-24、4シーズン）は今回のWaveでは対象外。詳細はissue B21W3I0005を参照
+B21W3E0012,Career,C000709,start,2025,B21W3S0003,クラブ所属履歴 > 「2026-27 青森」「2025-26 青森」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,
+B21W3E0013,Person,P000219,name,中村 拓人,B21W3S0004,基本情報 > 選手名,B.LEAGUE公式プロフィールで氏名を確認,SUPPORTED,2026-09-26,
+B21W3E0014,Person,P000219,birth_date,2001-03-03,B21W3S0004,基本情報 > 生年月日,B.LEAGUE公式プロフィールで生年月日を確認,SUPPORTED,2026-09-26,
+B21W3E0015,Career,C000710,organization_id,ORG000213,B21W3S0004,基本情報 > 出身校（高）：中部大学第一高等学校,B.LEAGUE公式プロフィールで出身高校を確認,SUPPORTED,2026-09-26,
+B21W3E0016,Career,C000711,organization_id,ORG000128,B21W3S0004,基本情報 > 出身校（大）：大東文化大学,B.LEAGUE公式プロフィールで出身大学を確認,SUPPORTED,2026-09-26,
+B21W3E0017,Career,C000712,organization_id,ORG000143,B21W3S0004,クラブ所属履歴 > 「2026-27 群馬」「2025-26 群馬」,B.LEAGUE公式のクラブ所属履歴で現所属クラブを確認,SUPPORTED,2026-09-26,広島（2021-22〜2024-25、4シーズン）・北海道（2020-21）は今回のWaveでは対象外。詳細はissue B21W3I0008を参照
+B21W3E0018,Career,C000712,start,2025,B21W3S0004,クラブ所属履歴 > 「2026-27 群馬」「2025-26 群馬」,B.LEAGUE公式のクラブ所属履歴で2025-26シーズンからの在籍を確認,SUPPORTED,2026-09-26,

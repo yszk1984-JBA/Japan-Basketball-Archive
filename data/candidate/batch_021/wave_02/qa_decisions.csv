@@ -1,0 +1,17 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B21W2D0001,Person,P000213,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W2D0002,Career,C000692,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0003,Career,C000693,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0004,Career,C000694,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26
+B21W2D0005,Person,P000214,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W2D0006,Career,C000695,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0007,Career,C000696,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0008,Career,C000697,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定。過去クラブ在籍はissueに記録,2026-09-26
+B21W2D0009,Person,P000215,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W2D0010,Career,C000698,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0011,Career,C000699,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0012,Career,C000700,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-26
+B21W2D0013,Person,P000216,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-09-26
+B21W2D0014,Career,C000701,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0015,Career,C000702,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-26
+B21W2D0016,Career,C000703,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式プロフィールで確認、現在進行中の契約のため終了日は未定,2026-09-26
