@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001〜006についてYuichiのHuman Approvalを記録し、合計120人・354 CareerをMaster Dataへ反映しました。HOLD項目はMasterに含めていません。公開サイトのデータ生成はApproval Sprint 006まで反映済みです（サイトの実インターネット公開＝デプロイは別工程・別判断です）。
+Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001〜007についてYuichiのHuman Approvalを記録し、合計166人・491 CareerをMaster Dataへ反映しました。HOLD項目はMasterに含めていません。公開サイトのデータ生成はApproval Sprint 006まで反映済みで、Approval Sprint 007は未反映です（サイトの実インターネット公開＝デプロイは別工程・別判断です）。
 
 ## 原則
 
@@ -55,6 +55,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [Batch 029 CANDIDATE](data/candidate/batch_029/README.md)：大阪桐蔭高等学校出身の現役B.LEAGUE選手1人の候補データ
 - [Batch 030 CANDIDATE](data/candidate/batch_030/README.md)：近畿大学附属高等学校出身の現役B.LEAGUE選手1人の候補データ
 - [Batch 007 Wave 10](data/candidate/batch_007/wave_10/README.md)：重複登録（篠山竜青・高島紳司）の候補側取り下げとMASTERへの統合
+- [Approval Sprint 007](data/verified/approval_sprint_007/README.md)：強豪校第2弾（Batch 019〜030）46人のHuman Approval資料と承認記録
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補
