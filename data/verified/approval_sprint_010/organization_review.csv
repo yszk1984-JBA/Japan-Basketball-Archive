@@ -1,0 +1,246 @@
+organization_id,name,status
+ORG000015,東海大学,Master既存
+ORG000016,中央大学,Master既存
+ORG000018,専修大学,Master既存
+ORG000019,日本経済大学,Master既存
+ORG000020,日本体育大学,Master既存
+ORG000030,青山学院大学,Master既存
+ORG000031,拓殖大学,Master既存
+ORG000040,ライジングゼファー福岡,Master既存
+ORG000042,京都ハンナリーズ,Master既存
+ORG000043,神戸ストークス,Master既存
+ORG000046,アースフレンズ東京Z,Master既存
+ORG000047,宇都宮ブレックス,Master既存
+ORG000048,佐賀バルーナーズ,Master既存
+ORG000052,新潟アルビレックスBB,Master既存
+ORG000054,名古屋ダイヤモンドドルフィンズ,Master既存
+ORG000055,横浜ビー・コルセアーズ,Master既存
+ORG000067,熊本ヴォルターズ,Master既存
+ORG000090,横浜エクセレンス,Master既存
+ORG000091,愛媛オレンジバイキングス,Master既存
+ORG000092,レバンガ北海道,Master既存
+ORG000095,東海大学九州,Master既存
+ORG000096,山梨学院大学,Master既存
+ORG000097,三遠ネオフェニックス,Master既存
+ORG000099,大阪学院大学,Approval Sprint 009で承認待ち
+ORG000100,山口パッツファイブ,Master既存
+ORG000101,鹿児島レブナイズ,Master既存
+ORG000102,東京サンレーヴス,Master既存
+ORG000103,茨城ロボッツ,Master既存
+ORG000105,新潟経営大学,Master既存
+ORG000106,琉球ゴールデンキングス,Master既存
+ORG000108,セントトーマス モア スクール,Master既存
+ORG000109,アルバルク東京,Master既存
+ORG000110,広島ドラゴンフライズ,Master既存
+ORG000111,東京八王子ビートレインズ,Master既存
+ORG000114,東京サンロッカーズ,Master既存
+ORG000115,立川ダイス,Master既存
+ORG000116,徳島ガンバロウズ,Master既存
+ORG000118,千葉ジェッツ,Master既存
+ORG000121,日本大学,Master既存
+ORG000122,川崎ブレイブサンダース,Master既存
+ORG000124,明治大学,Master既存
+ORG000127,福岡大学附属大濠高等学校,Master既存
+ORG000128,大東文化大学,Master既存
+ORG000130,シーホース三河,Master既存
+ORG000132,仙台89ERS,Master既存
+ORG000134,土浦日本大学高等学校,Master既存
+ORG000135,長崎ヴェルカ,Master既存
+ORG000136,早稲田大学,Master既存
+ORG000137,秋田ノーザンハピネッツ,Master既存
+ORG000142,大阪エヴェッサ,Master既存
+ORG000143,群馬クレインサンダーズ,Master既存
+ORG000144,アルティーリ千葉,Master既存
+ORG000147,明成高等学校,Master既存
+ORG000148,近畿大学,Master既存
+ORG000149,富山グラウジーズ,Master既存
+ORG000150,信州ブレイブウォリアーズ,Master既存
+ORG000153,滋賀レイクス,Master既存
+ORG000155,島根スサノオマジック,Master既存
+ORG000163,湘南ユナイテッドBC,Master既存
+ORG000166,筑波大学,Master既存
+ORG000167,山口県立豊浦高等学校,Approval Sprint 009で承認待ち
+ORG000168,天理大学,Master既存
+ORG000170,飛龍高等学校,新規（Master未登録）
+ORG000171,バンビシャス奈良,Master既存
+ORG000173,岩手ビッグブルズ,Master既存
+ORG000174,しながわシティバスケットボールクラブ,Master既存
+ORG000180,ファイティングイーグルス名古屋,Master既存
+ORG000181,山形ワイヴァンズ,Master既存
+ORG000182,青森ワッツ,Master既存
+ORG000183,さいたまブロンコス,Master既存
+ORG000189,中京大学,Master既存
+ORG000190,越谷アルファーズ,Master既存
+ORG000194,延岡学園高等学校,Master既存
+ORG000196,関西学院大学,Master既存
+ORG000200,福井ブローウィンズ,Master既存
+ORG000202,福島ファイヤーボンズ,Master既存
+ORG000203,国士舘大学,Master既存
+ORG000205,金沢サムライズ,Master既存
+ORG000207,法政大学,Master既存
+ORG000208,白鴎大学,Master既存
+ORG000210,神奈川大学,Master既存
+ORG000213,中部大学第一高等学校,Master既存
+ORG000214,名古屋学院大学,Master既存
+ORG000222,トライフープ岡山,Master既存
+ORG000223,東京ユナイテッドバスケットボールクラブ,Master既存
+ORG000224,香川ファイブアローズ,Master既存
+ORG000225,豊田合成スコーピオンズ,Master既存
+ORG000226,岐阜スゥープス,Master既存
+ORG000227,ベルテックス静岡,Master既存
+ORG000229,アイシン アレイオンズ,Approval Sprint 009で承認待ち
+ORG000232,日本大学豊山高等学校,Approval Sprint 009で承認待ち
+ORG000233,福島県立福島南高等学校,Approval Sprint 009で承認待ち
+ORG000234,栃木県立宇都宮工業高等学校,Approval Sprint 009で承認待ち
+ORG000235,アレセイア湘南高等学校,Approval Sprint 009で承認待ち
+ORG000236,関東学院大学,Approval Sprint 009で承認待ち
+ORG000237,東海大学付属相模高等学校,Approval Sprint 009で承認待ち
+ORG000238,Rolling Hills Preparatory School,Approval Sprint 009で承認待ち
+ORG000240,北陸学院高等学校,Approval Sprint 009で承認待ち
+ORG000241,沼津中央高等学校,Approval Sprint 009で承認待ち
+ORG000242,國學院大學久我山高等学校,Approval Sprint 009で承認待ち
+ORG000243,東海大学付属札幌高等学校,Approval Sprint 009で承認待ち
+ORG000247,東洋大学,Approval Sprint 009で承認待ち
+ORG000250,鹿屋体育大学,Approval Sprint 009で承認待ち
+ORG000251,つくば秀英高等学校,Approval Sprint 009で承認待ち
+ORG000254,実践学園高等学校,Approval Sprint 009で承認待ち
+ORG000258,横浜清風高等学校,Approval Sprint 009で承認待ち
+ORG000262,昌平高等学校,Approval Sprint 009で承認待ち
+ORG000263,山形県立山形南高等学校,Approval Sprint 009で承認待ち
+ORG000264,大阪学院大学高等学校,Approval Sprint 009で承認待ち
+ORG000272,興南高等学校,Approval Sprint 009で承認待ち
+ORG000275,柏市立柏高等学校,Approval Sprint 009で承認待ち
+ORG000289,東海大学付属浦安高等学校,Approval Sprint 009で承認待ち
+ORG000293,京北高等学校,Approval Sprint 009で承認待ち
+ORG000297,東海大学付属諏訪高等学校,Approval Sprint 009で承認待ち
+ORG000301,関西大学,Approval Sprint 009で承認待ち
+ORG000309,上武大学,Approval Sprint 009で承認待ち
+ORG000316,光泉高等学校,Approval Sprint 009で承認待ち
+ORG000328,九州共立大学,Approval Sprint 009で承認待ち
+ORG000338,至学館高等学校,Approval Sprint 009で承認待ち
+ORG000340,大阪体育大学,Approval Sprint 009で承認待ち
+ORG000348,新潟県立新潟商業高等学校,Approval Sprint 009で承認待ち
+ORG000351,大阪教育大学,Approval Sprint 009で承認待ち
+ORG000356,御影工業高等学校,Approval Sprint 009で承認待ち
+ORG000357,静岡学園高等学校,新規（Master未登録）
+ORG000358,宇都宮短期大学附属高等学校,新規（Master未登録）
+ORG000359,桐生第一高等学校,新規（Master未登録）
+ORG000360,Lee Academy,新規（Master未登録）
+ORG000361,Patrick&Henry Community College,新規（Master未登録）
+ORG000362,浜松学院高等学校,新規（Master未登録）
+ORG000363,松本第一高等学校,新規（Master未登録）
+ORG000364,函館大学付属有斗高等学校,新規（Master未登録）
+ORG000365,白樺学園高等学校,新規（Master未登録）
+ORG000366,麻布高等学校,新規（Master未登録）
+ORG000367,羽黒高等学校,新規（Master未登録）
+ORG000368,西武学園文理高等学校,新規（Master未登録）
+ORG000369,宮崎県立小林高等学校,新規（Master未登録）
+ORG000370,Crossroads School for Arts and Sciences,新規（Master未登録）
+ORG000371,Oberlin College,新規（Master未登録）
+ORG000372,Sir Francis Drake High School,新規（Master未登録）
+ORG000373,カリフォルニア大学マーセド校,新規（Master未登録）
+ORG000374,祐誠高等学校,新規（Master未登録）
+ORG000375,桜宮高等学校,新規（Master未登録）
+ORG000376,American School in Japan,新規（Master未登録）
+ORG000377,Rhodes College,新規（Master未登録）
+ORG000378,関西学院高等学校,新規（Master未登録）
+ORG000379,沖縄県立小禄高等学校,新規（Master未登録）
+ORG000380,福島県立湯本高等学校,新規（Master未登録）
+ORG000381,Fairmont State University (フェアモント州立大学),新規（Master未登録）
+ORG000382,イースタン・イリノイ大学,新規（Master未登録）
+ORG000383,高岡工芸高等学校,新規（Master未登録）
+ORG000384,福島県立若松商業高等学校,新規（Master未登録）
+ORG000385,キニックハイスクール,新規（Master未登録）
+ORG000386,スコットランドプレップ,新規（Master未登録）
+ORG000387,海星学院高等学校,新規（Master未登録）
+ORG000388,アップルスポーツカレッジ,新規（Master未登録）
+ORG000389,守谷高等学校,新規（Master未登録）
+ORG000390,佐賀県立唐津東高等学校,新規（Master未登録）
+ORG000391,中央学院大学中央高等学校,新規（Master未登録）
+ORG000392,柳川高等学校,新規（Master未登録）
+ORG000393,中村学園三陽高等学校,新規（Master未登録）
+ORG000394,セント・イグナティウス大学進学準備校,新規（Master未登録）
+ORG000395,フットヒル・カレッジ,新規（Master未登録）
+ORG000396,クラーク記念国際高等学校,新規（Master未登録）
+ORG000397,FSG開志学園,新規（Master未登録）
+ORG000398,Marshalltown community college,新規（Master未登録）
+ORG000399,岐阜県立岐阜農林高等学校,新規（Master未登録）
+ORG000400,九州産業大学,新規（Master未登録）
+ORG000401,如水館高等学校,新規（Master未登録）
+ORG000402,鹿児島県立川内高等学校,新規（Master未登録）
+ORG000403,茨城県立水戸商業高等学校,新規（Master未登録）
+ORG000404,国際武道大学,新規（Master未登録）
+ORG000405,八千代松陰高等学校,新規（Master未登録）
+ORG000406,新田高等学校,新規（Master未登録）
+ORG000407,安城学園高等学校,新規（Master未登録）
+ORG000408,日本体育大学柏高等学校,新規（Master未登録）
+ORG000409,横浜高等学校,新規（Master未登録）
+ORG000410,Lakeside School,新規（Master未登録）
+ORG000411,Bellevue Senior High School,新規（Master未登録）
+ORG000412,University of California Santa Barbara (Bachelor),新規（Master未登録）
+ORG000413,University of British Columbia (Graduate,新規（Master未登録）
+ORG000414,Masters),新規（Master未登録）
+ORG000415,Utah Prep高等学校,新規（Master未登録）
+ORG000416,カリフォルニア州立大学サンマルコス校,新規（Master未登録）
+ORG000417,金沢学院大学附属高等学校,新規（Master未登録）
+ORG000418,セントジョセフ大学,新規（Master未登録）
+ORG000419,Kent-Meridian,新規（Master未登録）
+ORG000420,Layton Christian Academy,新規（Master未登録）
+ORG000421,Clark Atlanta University,新規（Master未登録）
+ORG000422,兵庫県立尼崎小田高等学校,新規（Master未登録）
+ORG000423,立命館大学,新規（Master未登録）
+ORG000424,江戸川大学,新規（Master未登録）
+ORG000425,高志高等学校,新規（Master未登録）
+ORG000426,新潟県立十日町高等学校,新規（Master未登録）
+ORG000427,Elmgreen(イングランド),新規（Master未登録）
+ORG000428,Canarias Basketball Academy(スペイン),新規（Master未登録）
+ORG000429,セントジョーンズスクール,新規（Master未登録）
+ORG000430,サンタクララ大学,新規（Master未登録）
+ORG000431,NHK学園高等学校,新規（Master未登録）
+ORG000432,旭川大学高等学校,新規（Master未登録）
+ORG000433,ボウドイン大学,新規（Master未登録）
+ORG000434,ノーテビスタ高等学校,新規（Master未登録）
+ORG000435,カリフォルニア大学リバーサイド校,新規（Master未登録）
+ORG000436,富田高等学校,新規（Master未登録）
+ORG000437,保善高等学校,新規（Master未登録）
+ORG000438,宮崎県立宮崎工業高等学校,新規（Master未登録）
+ORG000439,大阪商業大学高等学校,新規（Master未登録）
+ORG000440,高岡第一高等学校,新規（Master未登録）
+ORG000441,東京成徳大学,新規（Master未登録）
+ORG000442,甲南高等学校,新規（Master未登録）
+ORG000443,鳥取城北高等学校,新規（Master未登録）
+ORG000444,神戸医療未来大学,新規（Master未登録）
+ORG000445,都立日野高校高等学校,新規（Master未登録）
+ORG000446,日本工学院八王子専門学校,新規（Master未登録）
+ORG000447,愛媛県立松山工業高等学校,新規（Master未登録）
+ORG000448,徳島県立城東高等学校,新規（Master未登録）
+ORG000449,福岡大学,新規（Master未登録）
+ORG000450,北越高等学校,新規（Master未登録）
+ORG000451,新潟医療福祉大学,新規（Master未登録）
+ORG000452,滋賀県立瀬田工業高等学校,新規（Master未登録）
+ORG000453,福岡県立宗像高等学校,新規（Master未登録）
+ORG000454,Crenshaw high School,新規（Master未登録）
+ORG000455,University of Miami,新規（Master未登録）
+ORG000456,村野工業高等学校,新規（Master未登録）
+ORG000457,呉港高校,新規（Master未登録）
+ORG000458,龍谷大学,新規（Master未登録）
+ORG000459,札幌日本大学高等学校,新規（Master未登録）
+ORG000460,Adlai E. Stevenson High School,新規（Master未登録）
+ORG000461,Rose-Hulman Institute of Technology,新規（Master未登録）
+ORG000462,北海道札幌旭丘高等学校,新規（Master未登録）
+ORG000463,ドミニカン大学カリフォルニア校,新規（Master未登録）
+ORG000464,今治精華高等学校,新規（Master未登録）
+ORG000465,Clover Park,新規（Master未登録）
+ORG000466,エバーグリーン州立大学,新規（Master未登録）
+ORG000467,法政大学第二高等学校,新規（Master未登録）
+ORG000468,福岡県立直方高等学校,新規（Master未登録）
+ORG000469,九州学院高等学校,新規（Master未登録）
+ORG000470,鹿児島市立鹿児島商業高等学校,新規（Master未登録）
+ORG000471,日本大学山形高等学校,新規（Master未登録）
+ORG000472,ルーデス スクール オブ マンダルヨン( LSM ),新規（Master未登録）
+ORG000473,ナショナルユニバーシティ,新規（Master未登録）
+ORG000474,富山県立富山工業高等学校,新規（Master未登録）
+ORG000475,高知中央高等学校,新規（Master未登録）
+ORG000476,大分県立大分豊府高等学校,新規（Master未登録）
+ORG000477,育英高等学校,新規（Master未登録）
+ORG000478,神奈川県立秦野南が丘高等学校,新規（Master未登録）
