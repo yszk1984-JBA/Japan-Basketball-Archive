@@ -244,7 +244,144 @@
 }
 
 .jbaListB-playersGrid {
-  grid-template-columns: 1fr 200px 170px 100px 70px;
+  grid-template-columns: 32px 1fr 200px 170px 100px 70px;
+}
+
+.jbaListB-checkboxCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jbaListB-checkboxCell input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  accent-color: #1D5FD6;
+  cursor: pointer;
+}
+
+/* --- 選手比較：選択中バー --- */
+.jbaListB-compareBar {
+  background: #EAF1FD;
+  border: 1px solid #C7DBFA;
+  border-radius: 14px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-compareBarText {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1A2330;
+}
+
+.jbaListB-compareBarActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.jbaListB-compareBarButton {
+  background: #1D5FD6;
+  color: #ffffff;
+  border-radius: 999px;
+  padding: 9px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.jbaListB-compareBarButton[aria-disabled='true'] {
+  background: #B7C6DD;
+  pointer-events: none;
+}
+
+.jbaListB-compareBarClear {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  color: #5B6B7A;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+}
+
+/* --- 選手比較ページ --- */
+.jbaListB-compareTable {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.jbaListB-compareRow {
+  display: grid;
+  grid-template-columns: 140px repeat(2, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #F0F2F4;
+  align-items: center;
+}
+
+.jbaListB-compareRow.jbaListB-compareCols3 {
+  grid-template-columns: 140px repeat(3, minmax(160px, 1fr));
+}
+
+.jbaListB-compareRow.jbaListB-compareCols4 {
+  grid-template-columns: 140px repeat(4, minmax(160px, 1fr));
+}
+
+.jbaListB-compareRow:last-child {
+  border-bottom: none;
+}
+
+.jbaListB-compareHead {
+  border-bottom: 2px solid #E3E8ED;
+  padding-bottom: 16px;
+}
+
+.jbaListB-compareRowLabel {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8A97A3;
+}
+
+.jbaListB-compareCol {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  min-width: 0;
+}
+
+.jbaListB-compareCareers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 24px;
+  overflow-x: auto;
+}
+
+.jbaListB-compareCareers.jbaListB-compareCols3 {
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+}
+
+.jbaListB-compareCareers.jbaListB-compareCols4 {
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+}
+
+.jbaListB-compareCareerCol {
+  min-width: 0;
+}
+
+.jbaListB-compareCareerName {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 .jbaListB-pillWrap {
@@ -990,5 +1127,28 @@ a.jbaListB-timelineOrg:hover {
 
   .jbaListB-sourceId {
     grid-column: 1 / -1;
+  }
+
+  .jbaListB-checkboxCell {
+    align-self: flex-start;
+    justify-content: flex-start;
+  }
+
+  .jbaListB-compareBar {
+    padding: 12px 16px;
+    border-radius: 12px;
+  }
+
+  .jbaListB-compareBarActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .jbaListB-compareRow,
+  .jbaListB-compareRow.jbaListB-compareCols3,
+  .jbaListB-compareRow.jbaListB-compareCols4 {
+    grid-auto-flow: column;
+    grid-template-columns: 110px;
+    grid-auto-columns: minmax(140px, 1fr);
   }
 }
