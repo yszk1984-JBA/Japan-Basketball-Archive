@@ -247,6 +247,10 @@
   grid-template-columns: 32px 1fr 200px 170px 100px 70px;
 }
 
+.jbaListB-rowHead {
+  display: contents;
+}
+
 .jbaListB-checkboxCell {
   display: flex;
   align-items: center;
@@ -1129,9 +1133,19 @@ a.jbaListB-timelineOrg:hover {
     grid-column: 1 / -1;
   }
 
+  .jbaListB-row.jbaListB-playersGrid {
+    align-items: flex-start;
+  }
+
+  .jbaListB-rowHead {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+
   .jbaListB-checkboxCell {
-    align-self: flex-start;
-    justify-content: flex-start;
+    flex-shrink: 0;
   }
 
   .jbaListB-compareBar {

@@ -193,17 +193,19 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
             const isSelected = selected.has(row.slug);
             return (
               <div key={row.id} className="jbaListB-row jbaListB-playersGrid">
-                <span className="jbaListB-checkboxCell">
-                  <input
-                    type="checkbox"
-                    checked={isSelected}
-                    disabled={!isSelected && selected.size >= MAX_COMPARE}
-                    onChange={() => toggleSelected(row.slug)}
-                    aria-label={`${row.name}を比較に追加`}
-                  />
-                </span>
+                <div className="jbaListB-rowHead">
+                  <span className="jbaListB-checkboxCell">
+                    <input
+                      type="checkbox"
+                      checked={isSelected}
+                      disabled={!isSelected && selected.size >= MAX_COMPARE}
+                      onChange={() => toggleSelected(row.slug)}
+                      aria-label={`${row.name}を比較に追加`}
+                    />
+                  </span>
+                  <a href={`/players/${row.slug}`} className="jbaListB-rowName">{row.name}</a>
+                </div>
                 <a href={`/players/${row.slug}`} style={{ display: 'contents' }}>
-                  <div className="jbaListB-rowName">{row.name}</div>
                   <div className="jbaListB-rowMuted">{row.org ?? '所属未確認'}</div>
                   <div className="jbaListB-pillWrap">
                     {row.categories.length === 0 ? (
