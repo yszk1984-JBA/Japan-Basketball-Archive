@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
 import { getPlayer, getSources, masterApprovals, masterPublication, organizationSlugFor, players } from '../../public-data';
+import { CareerGantt } from './CareerGantt';
 import { baseOpenGraph, careerOrganizationNames, JsonLd, playerJsonLd, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
 export function generateStaticParams() {
@@ -124,6 +125,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             <p className="jbaListB-eyebrow">Career snapshot</p>
             <h2>経歴</h2>
           </div>
+          <CareerGantt careers={player.careers} />
           <div className="jbaListB-timeline">
             {player.careers.map((career) => {
               const organizationSlug = organizationSlugFor(career.organizationId);
@@ -150,6 +152,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
               );
             })}
           </div>
+          <p className="jbaListB-ganttUndated">クラブ名は現在の登録名で表示しています。改称前の名称（例：サンロッカーズ渋谷、西宮ストークス）は、在籍当時の表記と異なる場合があります。</p>
         </section>
 
         <section className="jbaListB-section">
@@ -171,7 +174,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
           </div>
           <p className={`jbaListB-reviewNote ${player.dataStatus === 'master' ? 'jbaListB-reviewNoteMaster' : ''}`}>
             {player.dataStatus === 'master'
-              ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${(masterApprovals as Record<string, { approvedAt: string }>)[player.approvalId ?? '']?.approvedAt ?? masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。`
+              ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${(masterApprovals as Record<string, { approvedAt: string }>)[player.approvalId ?? '']?.approvedAt ?? masterPublication.approvedAt}${(player.enrichmentApprovalIds ?? []).length > 0 ? `（経歴の追加承認 ${(player.enrichmentApprovalIds ?? []).map((id) => (masterApprovals as Record<string, { approvedAt: string }>)[id]?.approvedAt ?? id).join('、')}）` : ''}。未解決のHOLD項目は掲載していません。`
               : 'このページはCANDIDATE段階のデータです。出典を伴うREADY_FOR_VERIFIED_REVIEW判定の項目のみを表示していますが、Yuichiによる正式承認（Governance v1.0のVERIFIED・Human approvalを経たMaster化）前の情報です。'}
           </p>
         </section>

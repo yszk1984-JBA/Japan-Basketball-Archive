@@ -20,6 +20,8 @@ export type PublicPlayer = {
   readonly cardContext: string;
   readonly dataStatus: DataStatus;
   readonly approvalId: string | null;
+  // 人物を最初に登録した承認とは別に、経歴を追加した承認（例：深掘りのApproval Sprint 008）。
+  readonly enrichmentApprovalIds?: readonly string[];
   readonly facts: readonly {
     readonly label: string;
     readonly value: string;
@@ -30,6 +32,9 @@ export type PublicPlayer = {
     readonly period: string;
     readonly organization: string | null;
     readonly organizationId?: string;
+    // 年の数値（Master人物のみ。候補人物のデータには無い）。年表（ガントチャート）表示に使う。
+    readonly startYear?: number | null;
+    readonly endYear?: number | null;
     readonly detail: string;
     readonly status: string;
     readonly sourceIds: readonly string[];

@@ -115,6 +115,12 @@ def main() -> None:
     for approval_id in APPROVAL_PACKETS:
         if approval_id not in approvals_by_id:
             raise SystemExit(f"Missing Master approval record: {approval_id}")
+    enrichment_by_person: dict[str, list[str]] = defaultdict(list)
+    for approval_id, packet in ENRICHMENT_APPROVALS.items():
+        with packet.open(encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                if approval_id not in enrichment_by_person[row["person_id"]]:
+                    enrichment_by_person[row["person_id"]].append(approval_id)
     approval_by_person: dict[str, str] = {}
     for approval_id, packet in APPROVAL_PACKETS.items():
         with packet.open(encoding="utf-8-sig", newline="") as handle:
@@ -190,6 +196,8 @@ def main() -> None:
                 "id": career["career_id"],
                 "period": period(career["start"], career["end"]),
                 "organization": organizations[career["organization_id"]],
+                "startYear": int(career["start"][:4]) if career["start"] else None,
+                "endYear": int(career["end"][:4]) if career["end"] else None,
                 "organizationId": career["organization_id"],
                 "detail": " · ".join(details) or "所属を公式資料で確認",
                 "status": "master",
@@ -212,6 +220,7 @@ def main() -> None:
             "cardContext": f"{latest['period']} · {latest['organization']}",
             "dataStatus": "master",
             "approvalId": approval_by_person[person_id],
+            "enrichmentApprovalIds": enrichment_by_person.get(person_id, []),
             "facts": facts,
             "careers": public_careers,
             "aliases": [],

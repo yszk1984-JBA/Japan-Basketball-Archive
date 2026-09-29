@@ -1166,3 +1166,75 @@ a.jbaListB-timelineOrg:hover {
     grid-auto-columns: minmax(140px, 1fr);
   }
 }
+
+/* 選手詳細ページの横軸年表（B案：ガントチャート風）。モバイル幅では非表示にし、縦の一覧で読む。 */
+.jbaListB-gantt {
+  margin: 4px 0 28px;
+  padding: 16px 16px 12px;
+  border: 1px solid #E3E8ED;
+  border-radius: 12px;
+  background: #FAFBFC;
+}
+.jbaListB-ganttAxis,
+.jbaListB-ganttRow {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  gap: 12px;
+}
+.jbaListB-ganttAxis { height: 22px; margin-bottom: 6px; }
+.jbaListB-ganttRow { height: 30px; }
+.jbaListB-ganttLabelCol {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.jbaListB-ganttLabelCol a { color: inherit; text-decoration: none; }
+.jbaListB-ganttLabelCol a:hover { text-decoration: underline; }
+.jbaListB-ganttTrack {
+  position: relative;
+  height: 100%;
+  border-left: 1px solid #E3E8ED;
+  background-image: linear-gradient(to right, #EEF1F4 1px, transparent 1px);
+}
+.jbaListB-ganttTick {
+  position: absolute;
+  top: 2px;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: #6B7A89;
+  font-variant-numeric: tabular-nums;
+}
+.jbaListB-ganttBar {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  min-width: 6px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.jbaListB-ganttBarText {
+  padding: 0 6px;
+  font-size: 11px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.jbaListB-ganttLegend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #5B6B7A;
+}
+.jbaListB-ganttLegendItem { display: inline-flex; align-items: center; gap: 6px; }
+.jbaListB-ganttLegendSwatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.jbaListB-ganttLegendNote { margin-left: auto; }
+.jbaListB-ganttUndated { margin: 8px 0 0; font-size: 12px; color: #6B7A89; }
+@media (max-width: 640px) {
+  .jbaListB-gantt { display: none; }
+}

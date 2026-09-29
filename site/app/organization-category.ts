@@ -112,6 +112,16 @@ const KNOWN_CLUB_NAMES = new Set<string>([
   'ヴィアティン三重',
   '湘南ユナイテッドBC',
   '東芝ブレイブサンダース',
+  '福井ブローウィンズ',
+  '福島ファイヤーボンズ',
+  '金沢サムライズ',
+  'トライフープ岡山',
+  '東京ユナイテッドバスケットボールクラブ',
+  '香川ファイブアローズ',
+  '豊田合成スコーピオンズ',
+  '岐阜スゥープス',
+  'ベルテックス静岡',
+  '東京海上日動ビッグブルー',
 ]);
 
 export function organizationCategory(name: string): OrganizationCategory {
