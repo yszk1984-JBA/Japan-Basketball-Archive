@@ -4,7 +4,7 @@
 
 ## 現在の段階
 
-Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001〜007についてYuichiのHuman Approvalを記録し、合計166人・491 CareerをMaster Dataへ反映しました。HOLD項目はMasterに含めていません。公開サイトのデータ生成はApproval Sprint 006まで反映済みで、Approval Sprint 007は未反映です（サイトの実インターネット公開＝デプロイは別工程・別判断です）。
+Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選手を優先した小規模バッチを進めています。Batch 005 Wave 1、Approval Sprint 001〜008についてYuichiのHuman Approvalを記録し、合計166人・755 CareerをMaster Dataへ反映しました（Approval Sprint 008はB.LEAGUE期の過去所属クラブの深掘りで、2段階承認の初回）。HOLD項目はMasterに含めていません。公開サイトのデータ生成はApproval Sprint 006まで反映済みで、Approval Sprint 007・008は未反映です（サイトの実インターネット公開＝デプロイは別工程・別判断です）。
 
 ## 原則
 
