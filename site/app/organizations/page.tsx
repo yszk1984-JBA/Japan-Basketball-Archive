@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { getOrganizationPlayers, organizations } from '../public-data';
 import { organizationCategory } from '../organization-category';
 import { OrganizationsListView, type OrganizationRow } from './OrganizationsListView';
+import { SiteBreadcrumb, SiteFooter, SiteHeader } from '../seo';
 
 export const metadata: Metadata = {
   title: '組織一覧',
@@ -25,20 +26,9 @@ export default function OrganizationsIndexPage() {
 
   return (
     <main className="jbaListB-page">
-      <header className="jbaListB-header">
-        <a href="/" className="jbaListB-brand">
-          <span className="jbaListB-brandMark">JB</span>
-          <span className="jbaListB-brandName">Japan Basketball Archive</span>
-        </a>
-        <nav className="jbaListB-nav">
-          <a href="/players">選手</a>
-          <a href="/organizations" aria-current="page">組織</a>
-        </nav>
-      </header>
+      <SiteHeader active="organizations" />
 
-      <div className="jbaListB-breadcrumb">
-        <a href="/">TOP</a> ／ <span>組織一覧</span>
-      </div>
+      <SiteBreadcrumb crumbs={[{ label: '組織一覧' }]} />
 
       <div className="jbaListB-main">
         <div>
@@ -49,17 +39,7 @@ export default function OrganizationsIndexPage() {
         <OrganizationsListView rows={rows} totalCount={organizations.length} />
       </div>
 
-      <footer className="jbaListB-footer">
-        <div className="jbaListB-footerInner">
-          <div>
-            <div className="jbaListB-footerTitle">Japan Basketball Archive</div>
-            <div>日本バスケットボールの人物と所属を、出典とともに記録するアーカイブです。</div>
-          </div>
-          <div className="jbaListB-footerLinks">
-            <a href="/players">選手一覧</a>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

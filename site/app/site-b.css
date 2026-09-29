@@ -1,0 +1,994 @@
+/*
+ * 選手一覧・組織一覧（/players, /organizations）専用のB案（データベース調）スタイル。
+ * design-direction.md で採用決定したB案をこの2ページにのみ適用する（詳細ページ等は
+ * 引き続きA案＝アーカイブ調のまま。サイト全体のリスキンは別途）。
+ * 既存のA案クラス（.detail-shell, .roster-list 等）と衝突しないよう、
+ * このファイルのクラスはすべて "jbaListB-" プレフィックスを付けている。
+ */
+
+.jbaListB-page {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: #F3F5F7;
+  font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  color: #1A2330;
+  display: flex;
+  flex-direction: column;
+}
+
+.jbaListB-page * {
+  box-sizing: border-box;
+}
+
+.jbaListB-header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #E3E8ED;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.jbaListB-brandMark {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #1D5FD6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.jbaListB-brandName {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.jbaListB-nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.jbaListB-nav a {
+  color: #5B6B7A;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.jbaListB-nav a:hover {
+  color: #1D5FD6;
+}
+
+.jbaListB-nav a[aria-current='page'] {
+  color: #1D5FD6;
+  font-weight: 800;
+}
+
+.jbaListB-breadcrumb {
+  padding: 14px 40px;
+  font-size: 12px;
+  color: #8A97A3;
+}
+
+.jbaListB-breadcrumb a {
+  color: #8A97A3;
+  text-decoration: none;
+}
+
+.jbaListB-breadcrumb span {
+  color: #1A2330;
+}
+
+.jbaListB-main {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 6px 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  flex-grow: 1;
+}
+
+.jbaListB-eyebrow {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #1D5FD6;
+  text-transform: uppercase;
+}
+
+.jbaListB-h1 {
+  margin: 0 0 8px 0;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.jbaListB-lede {
+  margin: 0;
+  font-size: 13px;
+  color: #5B6B7A;
+}
+
+.jbaListB-filterCard {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 22px 24px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.jbaListB-filterGroup + .jbaListB-filterGroup {
+  border-top: 1px solid #F0F2F4;
+  padding-top: 14px;
+}
+
+.jbaListB-filterLabel {
+  font-size: 11px;
+  font-weight: 700;
+  color: #8A97A3;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.jbaListB-chipRow {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-chip {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #ffffff;
+  color: #5B6B7A;
+  border: 1px solid #DCE1E6;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: 1.3;
+}
+
+.jbaListB-chip:hover {
+  border-color: #1D5FD6;
+  color: #1D5FD6;
+}
+
+.jbaListB-chipActive,
+.jbaListB-chipActive:hover {
+  background: #1D5FD6;
+  color: #ffffff;
+  border-color: #1D5FD6;
+  font-weight: 700;
+}
+
+.jbaListB-hint {
+  margin: 10px 0 0 0;
+  font-size: 11px;
+  color: #99A5B0;
+}
+
+.jbaListB-searchWrap {
+  position: relative;
+  max-width: 320px;
+}
+
+.jbaListB-searchIcon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.jbaListB-searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 14px 9px 34px;
+  border: 1px solid #DCE1E6;
+  border-radius: 999px;
+  font-size: 13px;
+  font-family: inherit;
+  background: #F7F9FA;
+  color: #1A2330;
+}
+
+.jbaListB-searchInput::placeholder {
+  color: #99A5B0;
+}
+
+.jbaListB-searchInput:focus {
+  outline: none;
+  border-color: #1D5FD6;
+  background: #FFFFFF;
+}
+
+.jbaListB-table {
+  background: #FFFFFF;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+}
+
+.jbaListB-tableHead {
+  display: grid;
+  background: #F7F9FA;
+  padding: 12px 20px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8A97A3;
+  border-bottom: 1px solid #E3E8ED;
+}
+
+.jbaListB-playersGrid {
+  grid-template-columns: 1fr 200px 170px 100px 70px;
+}
+
+.jbaListB-pillWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.jbaListB-orgsGrid {
+  grid-template-columns: 24px 1fr 130px 200px;
+}
+
+.jbaListB-row {
+  display: grid;
+  padding: 13px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #F0F2F4;
+  align-items: center;
+  color: #1A2330;
+  text-decoration: none;
+}
+
+.jbaListB-row:last-child {
+  border-bottom: none;
+}
+
+.jbaListB-row:hover {
+  background: #FAFBFC;
+}
+
+.jbaListB-rowName {
+  font-weight: 700;
+}
+
+.jbaListB-rowMuted {
+  color: #5B6B7A;
+}
+
+.jbaListB-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.jbaListB-statusMaster {
+  background: #E6F6EC;
+  color: #12805C;
+}
+
+.jbaListB-statusCandidate {
+  background: #F3F5F7;
+  color: #5B6B7A;
+  border: 1px solid #DCE1E6;
+}
+
+.jbaListB-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.jbaListB-empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: #8A97A3;
+  font-size: 13px;
+}
+
+.jbaListB-note {
+  font-size: 11px;
+  color: #99A5B0;
+}
+
+.jbaListB-footer {
+  background: #1A2330;
+  color: #C6CDD4;
+  padding: 32px 40px;
+  margin-top: auto;
+}
+
+.jbaListB-footerInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-footerTitle {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.jbaListB-footerLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.jbaListB-footerLinks a {
+  color: #C6CDD4;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+ * トップページ・詳細ページ共通（B案 サイト全体リスキン）
+ * design-direction.md「Option 1」に基づき、一覧2ページで先行実装したB案の
+ * トーン（白カード＋角丸＋青アクセント＋Noto Sans JP）をトップ／選手詳細／
+ * 組織詳細にも展開する。経歴タイムラインは既存の縦型（年・ドット・線）の
+ * 構造を維持し、配色・フォントのみ更新する。
+ * ========================================================================== */
+
+/* --- トップページ：ヒーロー --- */
+.jbaListB-hero {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 48px 44px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 32px;
+}
+
+.jbaListB-heroTitle {
+  margin: 6px 0 14px 0;
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.jbaListB-heroLead {
+  margin: 0;
+  max-width: 560px;
+  font-size: 14px;
+  color: #5B6B7A;
+  line-height: 1.8;
+}
+
+.jbaListB-heroBadge {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  background: #1D5FD6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+/* --- トップページ：統計バー --- */
+.jbaListB-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #FFFFFF;
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  overflow: hidden;
+}
+
+.jbaListB-statItem {
+  padding: 20px 24px;
+  border-right: 1px solid #F0F2F4;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.jbaListB-statItem:last-child {
+  border-right: none;
+}
+
+.jbaListB-statValue {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1D5FD6;
+}
+
+.jbaListB-statLabel {
+  font-size: 12px;
+  color: #8A97A3;
+}
+
+.jbaListB-featuredSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* --- トップページ：セクション見出し --- */
+.jbaListB-sectionHeading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-sectionTitle {
+  margin: 4px 0 0 0;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.jbaListB-sectionLinks {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.jbaListB-textLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1D5FD6;
+  text-decoration: none;
+}
+
+.jbaListB-textLink:hover {
+  text-decoration: underline;
+}
+
+/* --- トップページ：注目選手カード --- */
+.jbaListB-cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.jbaListB-playerCard {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  text-decoration: none;
+  color: #1A2330;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.jbaListB-playerCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(16, 24, 40, 0.1);
+}
+
+.jbaListB-cardIndex {
+  font-size: 11px;
+  font-family: ui-monospace, monospace;
+  color: #99A5B0;
+}
+
+.jbaListB-cardMeta {
+  margin: 10px 0 4px 0;
+  font-size: 11px;
+  font-weight: 700;
+  color: #1D5FD6;
+}
+
+.jbaListB-cardName {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* --- トップページ：3つの特徴 --- */
+.jbaListB-principles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.jbaListB-principleCard {
+  background: #1A2330;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 22px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jbaListB-principleCard svg {
+  color: #6FA1F2;
+}
+
+.jbaListB-principleTitle {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.jbaListB-principleText {
+  margin: 0;
+  font-size: 13px;
+  color: #C6CDD4;
+  line-height: 1.7;
+}
+
+/* --- 詳細ページ（選手・組織）共通 --- */
+.jbaListB-detailHeader {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 36px 40px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jbaListB-detailTitle {
+  margin: 0;
+  font-size: clamp(26px, 4vw, 36px);
+  font-weight: 800;
+}
+
+.jbaListB-detailLede {
+  margin: 0;
+  font-size: 13px;
+  color: #5B6B7A;
+}
+
+.jbaListB-statusRow {
+  margin-top: 4px;
+}
+
+.jbaListB-section {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 32px 40px 36px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jbaListB-sectionHead h2 {
+  margin: 4px 0 0 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* --- 選手詳細：確認できた情報（fact grid） --- */
+.jbaListB-factGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.jbaListB-factCard {
+  border: 1px solid #E3E8ED;
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.jbaListB-factLabel {
+  font-size: 11px;
+  color: #8A97A3;
+}
+
+.jbaListB-factValue {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.jbaListB-factContext {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #5B6B7A;
+}
+
+/* --- 選手詳細：登録名の履歴 --- */
+.jbaListB-aliasCard {
+  border: 1px solid #E3E8ED;
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.jbaListB-aliasMeta {
+  font-size: 11px;
+  color: #8A97A3;
+}
+
+.jbaListB-aliasValue {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.jbaListB-aliasNote {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #5B6B7A;
+}
+
+/* --- 出典リンク（fact/alias/career共通の小さなチップ） --- */
+.jbaListB-evidenceLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.jbaListB-evidenceLinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #1D5FD6;
+  background: #EAF1FD;
+  border-radius: 999px;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+.jbaListB-evidenceLinks a:hover {
+  background: #DCE9FC;
+}
+
+/* --- 選手詳細：経歴タイムライン（縦型の構造は維持、配色のみ更新） --- */
+.jbaListB-timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.jbaListB-timelineRow {
+  display: grid;
+  grid-template-columns: 88px 20px 1fr;
+  gap: 0 16px;
+}
+
+.jbaListB-timelineYear {
+  padding-top: 2px;
+  font-size: 12px;
+  font-family: ui-monospace, monospace;
+  color: #8A97A3;
+}
+
+.jbaListB-timelineDotCol {
+  display: flex;
+  justify-content: center;
+}
+
+.jbaListB-timelineDot {
+  margin-top: 6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #1D5FD6;
+  position: relative;
+}
+
+.jbaListB-timelineDot::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 4px;
+  width: 2px;
+  bottom: -28px;
+  background: #E3E8ED;
+}
+
+.jbaListB-timelineRow:last-child .jbaListB-timelineDot::after {
+  display: none;
+}
+
+.jbaListB-timelineDot.jbaListB-timelineDotMuted {
+  background: #F3F5F7;
+  border: 2px solid #DCE1E6;
+}
+
+.jbaListB-timelineBody {
+  padding-bottom: 28px;
+}
+
+.jbaListB-timelineOrg {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #1A2330;
+}
+
+a.jbaListB-timelineOrg:hover {
+  color: #1D5FD6;
+}
+
+.jbaListB-timelineHold {
+  font-size: 16px;
+  font-weight: 800;
+  color: #8A97A3;
+}
+
+.jbaListB-timelineDetail {
+  margin: 4px 0 0 0;
+  font-size: 13px;
+  color: #5B6B7A;
+}
+
+/* --- 出典一覧（選手詳細・組織詳細・fact/career共通の資料リスト） --- */
+.jbaListB-sourceList {
+  display: flex;
+  flex-direction: column;
+}
+
+.jbaListB-sourceRow {
+  display: grid;
+  grid-template-columns: 56px 1fr 20px;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 4px;
+  border-bottom: 1px solid #F0F2F4;
+  text-decoration: none;
+  color: #1A2330;
+  transition: background 0.15s ease;
+}
+
+.jbaListB-sourceList a:last-child {
+  border-bottom: none;
+}
+
+.jbaListB-sourceRow:hover {
+  background: #FAFBFC;
+}
+
+.jbaListB-sourceId {
+  font-size: 11px;
+  font-family: ui-monospace, monospace;
+  font-weight: 700;
+  color: #1D5FD6;
+}
+
+.jbaListB-sourceTitle {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.jbaListB-sourceMeta {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #8A97A3;
+}
+
+/* --- 組織詳細：在籍者リスト --- */
+.jbaListB-rosterList {
+  display: flex;
+  flex-direction: column;
+}
+
+.jbaListB-rosterRow {
+  display: grid;
+  grid-template-columns: 44px 1fr 20px;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 4px;
+  border-bottom: 1px solid #F0F2F4;
+  text-decoration: none;
+  color: #1A2330;
+  transition: background 0.15s ease;
+}
+
+.jbaListB-rosterList a:last-child {
+  border-bottom: none;
+}
+
+.jbaListB-rosterRow:hover {
+  background: #FAFBFC;
+}
+
+.jbaListB-rosterNumber {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1D5FD6;
+  text-align: center;
+}
+
+.jbaListB-rosterName {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.jbaListB-rosterMeta {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #8A97A3;
+}
+
+/* --- レビューノート（Governance v1.0のステータス説明） --- */
+.jbaListB-reviewNote {
+  margin: 0;
+  padding: 16px 18px;
+  background: #F3F5F7;
+  color: #5B6B7A;
+  font-size: 13px;
+  line-height: 1.7;
+  border-radius: 12px;
+  border-left: 3px solid #1D5FD6;
+}
+
+.jbaListB-reviewNote.jbaListB-reviewNoteMaster {
+  border-left-color: #12805C;
+}
+
+/* --- モバイル（760px以下）：テーブルをカードのリストに切り替える --- */
+@media (max-width: 760px) {
+  .jbaListB-header {
+    padding: 12px 16px;
+  }
+
+  .jbaListB-brandName {
+    font-size: 13px;
+  }
+
+  .jbaListB-breadcrumb {
+    padding: 10px 16px;
+  }
+
+  .jbaListB-main {
+    padding: 4px 16px 40px;
+    gap: 16px;
+  }
+
+  .jbaListB-h1 {
+    font-size: 22px;
+  }
+
+  .jbaListB-filterCard {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .jbaListB-chipRow {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+
+  .jbaListB-chipRow::-webkit-scrollbar {
+    display: none;
+  }
+
+  .jbaListB-chip {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+
+  .jbaListB-searchWrap {
+    max-width: 100%;
+  }
+
+  .jbaListB-tableHead {
+    display: none;
+  }
+
+  .jbaListB-table {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .jbaListB-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 14px 16px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    border-bottom: none;
+  }
+}
+
+/* --- モバイル（760px以下）：トップページ・詳細ページ共通 --- */
+@media (max-width: 760px) {
+  .jbaListB-hero {
+    grid-template-columns: 1fr;
+    padding: 28px 24px;
+    border-radius: 16px;
+    gap: 20px;
+  }
+
+  .jbaListB-heroBadge {
+    display: none;
+  }
+
+  .jbaListB-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .jbaListB-statItem:nth-child(2) {
+    border-right: none;
+  }
+
+  .jbaListB-statItem:nth-child(-n+2) {
+    border-bottom: 1px solid #F0F2F4;
+  }
+
+  .jbaListB-cardGrid,
+  .jbaListB-principles,
+  .jbaListB-factGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .jbaListB-detailHeader,
+  .jbaListB-section {
+    padding: 24px 20px 28px;
+    border-radius: 16px;
+  }
+
+  .jbaListB-timelineRow {
+    grid-template-columns: 68px 18px 1fr;
+  }
+
+  .jbaListB-sourceRow,
+  .jbaListB-rosterRow {
+    grid-template-columns: 1fr 18px;
+  }
+
+  .jbaListB-sourceId {
+    grid-column: 1 / -1;
+  }
+}

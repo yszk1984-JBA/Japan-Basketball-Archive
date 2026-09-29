@@ -1,9 +1,9 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
-import { ArrowLeft, ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
 import { getPlayer, getSources, masterApprovals, masterPublication, organizationSlugFor, players } from '../../public-data';
-import { baseOpenGraph, careerOrganizationNames, JsonLd, playerJsonLd, SiteLinks } from '../../seo';
+import { baseOpenGraph, careerOrganizationNames, JsonLd, playerJsonLd, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
 export function generateStaticParams() {
   return players.map((player) => ({ slug: player.slug }));
@@ -43,10 +43,10 @@ function EvidenceLinks({ sourceIds }: { sourceIds: readonly string[] }) {
   const evidence = getSources(sourceIds);
   if (!evidence.length) return null;
   return (
-    <div className="evidence-links" aria-label="この項目の出典">
+    <div className="jbaListB-evidenceLinks" aria-label="この項目の出典">
       {evidence.map((source) => (
         <a href={source.url} target="_blank" rel="noreferrer" key={source.id}>
-          出典 {source.id} <ArrowUpRight size={13} />
+          出典 {source.id} <ArrowUpRight size={12} />
         </a>
       ))}
     </div>
@@ -67,80 +67,117 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
   const playerSources = getSources(sourceIds);
 
   return (
-    <main className="detail-shell">
+    <main className="jbaListB-page">
       <JsonLd data={playerJsonLd(player, organizationSlugFor)} />
-      <nav className="detail-nav"><a href="/"><ArrowLeft size={17} /> アーカイブへ戻る</a><SiteLinks /><span>{player.dataStatus === 'master' ? 'Master Data' : '候補データ'}</span></nav>
-      <header className="person-header">
-        <p className="eyebrow">Person · {player.id}</p>
-        <h1>{player.name}</h1>
-        <p className={`candidate-status ${player.dataStatus === 'master' ? 'master-status' : ''}`}>{player.dataStatus === 'master' ? `Master · 承認済み · ${player.approvalId}` : '候補データ · 出典あり · 正式承認前'}</p>
-      </header>
+      <SiteHeader active="players" />
+      <SiteBreadcrumb crumbs={[{ label: '選手一覧', href: '/players' }, { label: player.name }]} />
 
-      <section className="fact-section">
-        <p className="eyebrow">Source-based facts</p>
-        <h2>確認できた情報</h2>
-        <div className="fact-grid">
-          {player.facts.map((fact) => (
-            <article key={`${fact.label}-${fact.context}`}>
-              <span>{fact.label}</span><strong>{fact.value}</strong><p>{fact.context}</p>
-              <EvidenceLinks sourceIds={fact.sourceIds} />
-            </article>
-          ))}
-        </div>
-      </section>
+      <div className="jbaListB-main">
+        <header className="jbaListB-detailHeader">
+          <p className="jbaListB-eyebrow">Person · {player.id}</p>
+          <h1 className="jbaListB-detailTitle">{player.name}</h1>
+          <div className="jbaListB-statusRow">
+            <span className={`jbaListB-pill ${player.dataStatus === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}>
+              {player.dataStatus === 'master' ? `Master・承認済み・${player.approvalId}` : '候補データ・出典あり・正式承認前'}
+            </span>
+          </div>
+        </header>
 
-      {player.aliases.length > 0 && (
-        <section className="alias-section">
-          <p className="eyebrow">Name history</p><h2>登録名の履歴</h2>
-          {player.aliases.map((alias) => (
-            <article className="alias-card" key={`${alias.period}-${alias.value}`}>
-              <span>{alias.period} · {alias.label}</span><strong>{alias.value}</strong>
-              <p>過去の氏名は上書きせず、時点別に表示しています。</p>
-              <EvidenceLinks sourceIds={alias.sourceIds} />
-            </article>
-          ))}
+        <section className="jbaListB-section">
+          <div className="jbaListB-sectionHead">
+            <p className="jbaListB-eyebrow">Source-based facts</p>
+            <h2>確認できた情報</h2>
+          </div>
+          <div className="jbaListB-factGrid">
+            {player.facts.map((fact) => (
+              <article className="jbaListB-factCard" key={`${fact.label}-${fact.context}`}>
+                <span className="jbaListB-factLabel">{fact.label}</span>
+                <strong className="jbaListB-factValue">{fact.value}</strong>
+                <p className="jbaListB-factContext">{fact.context}</p>
+                <EvidenceLinks sourceIds={fact.sourceIds} />
+              </article>
+            ))}
+          </div>
         </section>
-      )}
 
-      <section className="timeline-section">
-        <p className="eyebrow">Career snapshot</p><h2>経歴</h2>
-        <div className="timeline">
-          {player.careers.map((career) => {
-            const organizationSlug = organizationSlugFor(career.organizationId);
-            return (
-              <div key={`${career.period}-${career.organization ?? career.detail}`}>
-                <span className="year">{career.period}</span>
-                <span className={`timeline-dot ${career.status === 'hold' ? 'muted' : ''}`} />
-                <div>
-                  {career.organization ? (
-                    organizationSlug ? (
-                      <a href={`/organizations/${organizationSlug}`}><strong>{career.organization}</strong></a>
+        {player.aliases.length > 0 && (
+          <section className="jbaListB-section">
+            <div className="jbaListB-sectionHead">
+              <p className="jbaListB-eyebrow">Name history</p>
+              <h2>登録名の履歴</h2>
+            </div>
+            <div className="jbaListB-factGrid">
+              {player.aliases.map((alias) => (
+                <article className="jbaListB-aliasCard" key={`${alias.period}-${alias.value}`}>
+                  <span className="jbaListB-aliasMeta">{alias.period} · {alias.label}</span>
+                  <strong className="jbaListB-aliasValue">{alias.value}</strong>
+                  <p className="jbaListB-aliasNote">過去の氏名は上書きせず、時点別に表示しています。</p>
+                  <EvidenceLinks sourceIds={alias.sourceIds} />
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <section className="jbaListB-section">
+          <div className="jbaListB-sectionHead">
+            <p className="jbaListB-eyebrow">Career snapshot</p>
+            <h2>経歴</h2>
+          </div>
+          <div className="jbaListB-timeline">
+            {player.careers.map((career) => {
+              const organizationSlug = organizationSlugFor(career.organizationId);
+              return (
+                <div className="jbaListB-timelineRow" key={`${career.period}-${career.organization ?? career.detail}`}>
+                  <span className="jbaListB-timelineYear">{career.period}</span>
+                  <div className="jbaListB-timelineDotCol">
+                    <span className={`jbaListB-timelineDot ${career.status === 'hold' ? 'jbaListB-timelineDotMuted' : ''}`} />
+                  </div>
+                  <div className="jbaListB-timelineBody">
+                    {career.organization ? (
+                      organizationSlug ? (
+                        <a href={`/organizations/${organizationSlug}`} className="jbaListB-timelineOrg">{career.organization}</a>
+                      ) : (
+                        <strong className="jbaListB-timelineOrg">{career.organization}</strong>
+                      )
                     ) : (
-                      <strong>{career.organization}</strong>
-                    )
-                  ) : (
-                    <strong className="hold-label">確認中</strong>
-                  )}
-                  <p>{career.detail}</p>
-                  <EvidenceLinks sourceIds={career.sourceIds} />
+                      <strong className="jbaListB-timelineHold">確認中</strong>
+                    )}
+                    <p className="jbaListB-timelineDetail">{career.detail}</p>
+                    <EvidenceLinks sourceIds={career.sourceIds} />
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
+              );
+            })}
+          </div>
+        </section>
 
-      <section className="source-section">
-        <p className="eyebrow">Sources</p><h2>この人物に使用した資料</h2>
-        <div className="source-list">
-          {playerSources.map((source) => (
-            <a href={source.url} target="_blank" rel="noreferrer" key={source.id}>
-              <span>{source.id}</span><div><strong>{source.title}</strong><p>{source.publisher} · {source.location} · 確認日 {source.accessedAt}</p></div><ArrowUpRight size={18} />
-            </a>
-          ))}
-        </div>
-        <p className={`review-note ${player.dataStatus === 'master' ? 'master-note' : ''}`}>{player.dataStatus === 'master' ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${(masterApprovals as Record<string, { approvedAt: string }>)[player.approvalId ?? '']?.approvedAt ?? masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。` : 'このページはCANDIDATE段階のデータです。出典を伴うREADY_FOR_VERIFIED_REVIEW判定の項目のみを表示していますが、Yuichiによる正式承認（Governance v1.0のVERIFIED・Human approvalを経たMaster化）前の情報です。'}</p>
-      </section>
+        <section className="jbaListB-section">
+          <div className="jbaListB-sectionHead">
+            <p className="jbaListB-eyebrow">Sources</p>
+            <h2>この人物に使用した資料</h2>
+          </div>
+          <div className="jbaListB-sourceList">
+            {playerSources.map((source) => (
+              <a href={source.url} target="_blank" rel="noreferrer" className="jbaListB-sourceRow" key={source.id}>
+                <span className="jbaListB-sourceId">{source.id}</span>
+                <div>
+                  <strong className="jbaListB-sourceTitle">{source.title}</strong>
+                  <p className="jbaListB-sourceMeta">{source.publisher} · {source.location} · 確認日 {source.accessedAt}</p>
+                </div>
+                <ArrowUpRight size={16} />
+              </a>
+            ))}
+          </div>
+          <p className={`jbaListB-reviewNote ${player.dataStatus === 'master' ? 'jbaListB-reviewNoteMaster' : ''}`}>
+            {player.dataStatus === 'master'
+              ? `このページはGovernance v1.0のHuman approvalを経たMaster Dataです。承認日 ${(masterApprovals as Record<string, { approvedAt: string }>)[player.approvalId ?? '']?.approvedAt ?? masterPublication.approvedAt}。未解決のHOLD項目は掲載していません。`
+              : 'このページはCANDIDATE段階のデータです。出典を伴うREADY_FOR_VERIFIED_REVIEW判定の項目のみを表示していますが、Yuichiによる正式承認（Governance v1.0のVERIFIED・Human approvalを経たMaster化）前の情報です。'}
+          </p>
+        </section>
+      </div>
+
+      <SiteFooter />
     </main>
   );
 }

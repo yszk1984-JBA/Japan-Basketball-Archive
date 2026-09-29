@@ -2,7 +2,7 @@
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getHomepagePlayers, players, sources } from './public-data';
-import { SiteLinks } from './seo';
+import { SiteFooter, SiteHeader } from './seo';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -15,26 +15,88 @@ export default function Home() {
   ).size;
 
   return (
-    <main>
-      <header className="site-header">
-        <a href="/" className="brand" aria-label="Japan Basketball Archive ホーム">
-          <span className="brand-mark">J</span><span>Japan Basketball Archive</span>
-        </a>
-        <div className="site-header-links"><SiteLinks /><span className="prototype-label">Archive preview</span></div>
-      </header>
-      <section className="hero">
-        <div><p className="eyebrow">日本バスケットボールの記録</p><h1>選手と所属を、<br />出典からたどる。</h1><p className="lead">承認済みMaster Dataと、公開画面の検証に使う確認中データを区別して掲載しています。</p></div>
-        <div className="hero-ball" aria-hidden="true"><span /></div>
-      </section>
-      <section className="stats" aria-label="プロトタイプの収録状況">
-        <div><strong>{players.length}</strong><span>人物</span></div><div><strong>{organizationCount}</strong><span>掲載組織</span></div><div><strong>{sources.length}</strong><span>参照資料</span></div><div><strong>複数</strong><span>対象年度</span></div>
-      </section>
-      <section className="content-section">
-        <div className="section-heading"><div><p className="eyebrow">Featured players</p><h2>注目選手</h2></div><div className="section-links"><a href="/players" className="text-link">選手一覧を見る <ArrowRight size={17} /></a><a href="/organizations" className="text-link">組織一覧を見る <ArrowRight size={17} /></a></div></div>
-        <div className="player-grid">{homepagePlayers.map((player, index) => <a href={`/players/${player.slug}`} className="player-card" key={player.id}><span className="card-index">{String(index + 1).padStart(2, '0')}</span><div><p className="card-meta">{player.cardContext}</p><h3>{player.name}</h3><p className={player.dataStatus === 'master' ? 'card-status master' : 'card-status'}>{player.dataStatus === 'master' ? 'Master · 承認済み' : '候補データ · 正式承認前'}</p></div><ArrowRight size={20} /></a>)}</div>
-      </section>
-      <section className="principles"><div><Database size={22} /><h3>つながる記録</h3><p>人物、学校、経歴をIDで結びます。</p></div><div><ShieldCheck size={22} /><h3>出典を表示</h3><p>掲載した事実から確認元へ移動できます。</p></div><div><School size={22} /><h3>育成経路</h3><p>学校やクラブを時系列でたどる設計です。</p></div></section>
-      <footer><span>Japan Basketball Archive</span><span>Data under review · 2026</span></footer>
+    <main className="jbaListB-page">
+      <SiteHeader />
+
+      <div className="jbaListB-main">
+        <section className="jbaListB-hero">
+          <div>
+            <p className="jbaListB-eyebrow">日本バスケットボールの記録</p>
+            <h1 className="jbaListB-heroTitle">選手と所属を、出典からたどる。</h1>
+            <p className="jbaListB-heroLead">
+              承認済みMaster Dataと、公開画面の検証に使う確認中データを区別して掲載しています。
+            </p>
+          </div>
+          <div className="jbaListB-heroBadge" aria-hidden="true">JB</div>
+        </section>
+
+        <section className="jbaListB-stats" aria-label="収録状況">
+          <div className="jbaListB-statItem">
+            <span className="jbaListB-statValue">{players.length}</span>
+            <span className="jbaListB-statLabel">人物</span>
+          </div>
+          <div className="jbaListB-statItem">
+            <span className="jbaListB-statValue">{organizationCount}</span>
+            <span className="jbaListB-statLabel">掲載組織</span>
+          </div>
+          <div className="jbaListB-statItem">
+            <span className="jbaListB-statValue">{sources.length}</span>
+            <span className="jbaListB-statLabel">参照資料</span>
+          </div>
+          <div className="jbaListB-statItem">
+            <span className="jbaListB-statValue">複数</span>
+            <span className="jbaListB-statLabel">対象年度</span>
+          </div>
+        </section>
+
+        <section className="jbaListB-featuredSection">
+          <div className="jbaListB-sectionHeading">
+            <div>
+              <p className="jbaListB-eyebrow">Featured players</p>
+              <h2 className="jbaListB-sectionTitle">注目選手</h2>
+            </div>
+            <div className="jbaListB-sectionLinks">
+              <a href="/players" className="jbaListB-textLink">選手一覧を見る <ArrowRight size={16} /></a>
+              <a href="/organizations" className="jbaListB-textLink">組織一覧を見る <ArrowRight size={16} /></a>
+            </div>
+          </div>
+          <div className="jbaListB-cardGrid">
+            {homepagePlayers.map((player, index) => (
+              <a href={`/players/${player.slug}`} className="jbaListB-playerCard" key={player.id}>
+                <div>
+                  <span className="jbaListB-cardIndex">{String(index + 1).padStart(2, '0')}</span>
+                  <p className="jbaListB-cardMeta">{player.cardContext}</p>
+                  <h3 className="jbaListB-cardName">{player.name}</h3>
+                  <span className={`jbaListB-pill ${player.dataStatus === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}>
+                    {player.dataStatus === 'master' ? 'Master・承認済み' : '候補データ・正式承認前'}
+                  </span>
+                </div>
+                <ArrowRight size={20} />
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <section className="jbaListB-principles">
+          <div className="jbaListB-principleCard">
+            <Database size={20} />
+            <h3 className="jbaListB-principleTitle">つながる記録</h3>
+            <p className="jbaListB-principleText">人物、学校、経歴をIDで結びます。</p>
+          </div>
+          <div className="jbaListB-principleCard">
+            <ShieldCheck size={20} />
+            <h3 className="jbaListB-principleTitle">出典を表示</h3>
+            <p className="jbaListB-principleText">掲載した事実から確認元へ移動できます。</p>
+          </div>
+          <div className="jbaListB-principleCard">
+            <School size={20} />
+            <h3 className="jbaListB-principleTitle">育成経路</h3>
+            <p className="jbaListB-principleText">学校やクラブを時系列でたどる設計です。</p>
+          </div>
+        </section>
+      </div>
+
+      <SiteFooter />
     </main>
   );
 }

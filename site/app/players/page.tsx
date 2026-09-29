@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import type { Metadata } from 'next';
 import { getPrimaryCareer, players } from '../public-data';
-import { baseOpenGraph, breadcrumbJsonLd, JsonLd, siteUrl } from '../seo';
+import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteBreadcrumb, SiteFooter, SiteHeader, siteUrl } from '../seo';
 import { organizationCategory, ORGANIZATION_CATEGORY_ORDER } from '../organization-category';
 import { PlayersListView, type PlayerRow } from './PlayersListView';
 
@@ -67,20 +67,9 @@ export default function PlayersIndexPage() {
         }}
       />
 
-      <header className="jbaListB-header">
-        <a href="/" className="jbaListB-brand">
-          <span className="jbaListB-brandMark">JB</span>
-          <span className="jbaListB-brandName">Japan Basketball Archive</span>
-        </a>
-        <nav className="jbaListB-nav">
-          <a href="/players" aria-current="page">選手</a>
-          <a href="/organizations">組織</a>
-        </nav>
-      </header>
+      <SiteHeader active="players" />
 
-      <div className="jbaListB-breadcrumb">
-        <a href="/">TOP</a> ／ <span>選手一覧</span>
-      </div>
+      <SiteBreadcrumb crumbs={[{ label: '選手一覧' }]} />
 
       <div className="jbaListB-main">
         <div>
@@ -96,17 +85,7 @@ export default function PlayersIndexPage() {
         </p>
       </div>
 
-      <footer className="jbaListB-footer">
-        <div className="jbaListB-footerInner">
-          <div>
-            <div className="jbaListB-footerTitle">Japan Basketball Archive</div>
-            <div>日本バスケットボールの人物と所属を、出典とともに記録するアーカイブです。</div>
-          </div>
-          <div className="jbaListB-footerLinks">
-            <a href="/organizations">組織一覧</a>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

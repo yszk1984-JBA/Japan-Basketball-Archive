@@ -1,10 +1,63 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
+import { Fragment } from 'react';
 import type { PublicOrganization, PublicPlayer } from './public-data';
 
 export const siteUrl = 'https://japanbasketballarchive.com';
 
 // ページ側でopenGraphを指定するとlayoutの値が丸ごと置き換わるため、共通項目をここから展開する。
 export const baseOpenGraph = { siteName: 'Japan Basketball Archive', locale: 'ja_JP', type: 'website' } as const;
+
+// サイト共通ヘッダー（B案）。全ページで同一の見た目・ナビゲーションにするため、
+// /players, /organizations で先行実装していたヘッダーをここに集約する。
+export function SiteHeader({ active }: { active?: 'players' | 'organizations' }) {
+  return (
+    <header className="jbaListB-header">
+      <a href="/" className="jbaListB-brand">
+        <span className="jbaListB-brandMark">JB</span>
+        <span className="jbaListB-brandName">Japan Basketball Archive</span>
+      </a>
+      <nav className="jbaListB-nav">
+        <a href="/players" aria-current={active === 'players' ? 'page' : undefined}>選手</a>
+        <a href="/organizations" aria-current={active === 'organizations' ? 'page' : undefined}>組織</a>
+      </nav>
+    </header>
+  );
+}
+
+type BreadcrumbItem = { label: string; href?: string };
+
+// サイト共通パンくず（B案）。最後の要素はリンクなし（現在ページ）として扱う。
+export function SiteBreadcrumb({ crumbs }: { crumbs: readonly BreadcrumbItem[] }) {
+  return (
+    <div className="jbaListB-breadcrumb">
+      <a href="/">TOP</a>
+      {crumbs.map((crumb) => (
+        <Fragment key={crumb.label}>
+          {' ／ '}
+          {crumb.href ? <a href={crumb.href}>{crumb.label}</a> : <span>{crumb.label}</span>}
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
+// サイト共通フッター（B案）。
+export function SiteFooter() {
+  return (
+    <footer className="jbaListB-footer">
+      <div className="jbaListB-footerInner">
+        <div>
+          <div className="jbaListB-footerTitle">Japan Basketball Archive</div>
+          <div>日本バスケットボールの人物と所属を、出典とともに記録するアーカイブです。</div>
+        </div>
+        <div className="jbaListB-footerLinks">
+          <a href="/players">選手一覧</a>
+          <a href="/organizations">組織一覧</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
 
 // JSON-LD（構造化データ）を<script type="application/ld+json">として出力する。
 // `<`をエスケープして、データ内の文字列がscriptタグを閉じないようにする。
@@ -15,16 +68,6 @@ export function JsonLd({ data }: { data: object }) {
       // oxlint-disable-next-line react/no-danger -- JSON-LD must be emitted as raw JSON text.
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, '\\u003c') }}
     />
-  );
-}
-
-// サイト共通の回遊リンク（選手一覧・組織一覧）。
-export function SiteLinks() {
-  return (
-    <div className="site-links">
-      <a href="/players">選手一覧</a>
-      <a href="/organizations">組織一覧</a>
-    </div>
   );
 }
 

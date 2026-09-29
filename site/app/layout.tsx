@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import './prototype-v002.css';
-import './list-b.css';
+import './site-b.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://japanbasketballarchive.com'),
