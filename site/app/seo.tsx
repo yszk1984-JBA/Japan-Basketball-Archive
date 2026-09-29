@@ -5,7 +5,7 @@ import type { PublicOrganization, PublicPlayer } from './public-data';
 export const siteUrl = 'https://japanbasketballarchive.com';
 
 // ページ側でopenGraphを指定するとlayoutの値が丸ごと置き換わるため、共通項目をここから展開する。
-export const baseOpenGraph = { siteName: 'Japan Basketball Archive', locale: 'ja_JP', type: 'website' } as const;
+export const baseOpenGraph = { siteName: 'Rosterline', locale: 'ja_JP', type: 'website' } as const;
 
 // サイト共通ヘッダー（B案）。全ページで同一の見た目・ナビゲーションにするため、
 // /players, /organizations で先行実装していたヘッダーをここに集約する。
@@ -13,8 +13,8 @@ export function SiteHeader({ active }: { active?: 'players' | 'organizations' })
   return (
     <header className="jbaListB-header">
       <a href="/" className="jbaListB-brand">
-        <span className="jbaListB-brandMark">JB</span>
-        <span className="jbaListB-brandName">Japan Basketball Archive</span>
+        <span className="jbaListB-brandMark">R</span>
+        <span className="jbaListB-brandName">Rosterline</span>
       </a>
       <nav className="jbaListB-nav">
         <a href="/players" aria-current={active === 'players' ? 'page' : undefined}>選手</a>
@@ -47,7 +47,7 @@ export function SiteFooter() {
     <footer className="jbaListB-footer">
       <div className="jbaListB-footerInner">
         <div>
-          <div className="jbaListB-footerTitle">Japan Basketball Archive</div>
+          <div className="jbaListB-footerTitle">Rosterline</div>
           <div>日本バスケットボールの人物と所属を、出典とともに記録するアーカイブです。</div>
         </div>
         <div className="jbaListB-footerLinks">

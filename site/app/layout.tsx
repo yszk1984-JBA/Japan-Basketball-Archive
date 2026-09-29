@@ -5,8 +5,8 @@ import './site-b.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://japanbasketballarchive.com'),
   title: {
-    default: 'Japan Basketball Archive',
-    template: '%s | Japan Basketball Archive',
+    default: 'Rosterline｜日本バスケ経歴アーカイブ',
+    template: '%s | Rosterline',
   },
   description: '日本バスケットボールの人物と所属を、出典とともに記録するアーカイブ。',
   icons: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon.svg',
   },
   openGraph: {
-    siteName: 'Japan Basketball Archive',
+    siteName: 'Rosterline',
     locale: 'ja_JP',
     type: 'website',
   },
