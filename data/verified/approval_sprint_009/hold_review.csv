@@ -1,0 +1,429 @@
+verified_batch,issue_id,person_id,related_id,issue_type,status,description,disposition
+Batch 32 Wave 01,B32W1I0001,P000239,C001033,HIGH_SCHOOL_PERIOD,HOLD,阿部真冴橙の宮城県利府高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0002,P000239,C001033,ENROLLED_STUDENT,HOLD,阿部真冴橙のプロフィールでは宮城県利府高等学校に「在学中」と表記されている（2026-09-30時点19歳）。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0003,P000240,C001035,HIGH_SCHOOL_PERIOD,HOLD,岡島和真のLakeland Senior High School在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0004,P000241,C001039,HIGH_SCHOOL_PERIOD,HOLD,新沼康生の日本大学豊山高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0005,P000241,C001040,UNIVERSITY_PERIOD,HOLD,新沼康生の日本大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0006,P000242,C001042,HIGH_SCHOOL_PERIOD,HOLD,半澤凌太の福島県立福島南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0007,P000242,C001043,UNIVERSITY_PERIOD,HOLD,半澤凌太の筑波大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0008,P000243,C001049,HIGH_SCHOOL_PERIOD,HOLD,渡辺翔太の栃木県立宇都宮工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0009,P000243,C001050,UNIVERSITY_PERIOD,HOLD,渡辺翔太の明治大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0010,P000244,C001052,HIGH_SCHOOL_PERIOD,HOLD,栗原翼のアレセイア湘南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0011,P000244,C001053,UNIVERSITY_PERIOD,HOLD,栗原翼の関東学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0012,P000245,C001057,HIGH_SCHOOL_PERIOD,HOLD,中山拓哉の東海大学付属相模高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0013,P000245,C001058,UNIVERSITY_PERIOD,HOLD,中山拓哉の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0014,P000245,P000245,PRE_BLEAGUE_HISTORY,HOLD,中山拓哉の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0015,P000246,C001060,HIGH_SCHOOL_PERIOD,HOLD,トロイ・マーフィージュニアのRolling Hills Preparatory School在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0016,P000246,C001061,UNIVERSITY_PERIOD,HOLD,トロイ・マーフィージュニアのDominican University of California在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0017,P000246,C001064,ORG_NAME_HISTORY,HOLD,C001064の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0018,P000247,C001066,HIGH_SCHOOL_PERIOD,HOLD,元田大陽の北陸学院高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0019,P000247,C001067,UNIVERSITY_PERIOD,HOLD,元田大陽の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0020,P000248,C001069,HIGH_SCHOOL_PERIOD,HOLD,新井楽人の沼津中央高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0021,P000248,C001070,UNIVERSITY_PERIOD,HOLD,新井楽人の日本大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0022,P000249,C001072,HIGH_SCHOOL_PERIOD,HOLD,ウィタカケンタの國學院大學久我山高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0023,P000249,C001073,UNIVERSITY_PERIOD,HOLD,ウィタカケンタの青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0024,P000250,C001079,HIGH_SCHOOL_PERIOD,HOLD,キング開のアレセイア湘南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0025,P000250,C001080,UNIVERSITY_PERIOD,HOLD,キング開の専修大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0026,P000251,C001082,HIGH_SCHOOL_PERIOD,HOLD,佐藤卓磨の東海大学付属札幌高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0027,P000251,C001082,ORG_NAME_HISTORY,HOLD,佐藤卓磨のプロフィールの出身校（高）は「東海大学付属第四高等学校」（現・東海大学付属札幌高等学校）。登録Organizationは「東海大学付属札幌高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0028,P000251,C001083,UNIVERSITY_PERIOD,HOLD,佐藤卓磨の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0029,P000251,C001084,ORG_NAME_HISTORY,HOLD,C001084の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0030,P000252,C001088,HIGH_SCHOOL_PERIOD,HOLD,前野幹太の東海大学付属札幌高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0031,P000252,C001089,UNIVERSITY_PERIOD,HOLD,前野幹太の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0032,P000253,C001091,HIGH_SCHOOL_PERIOD,HOLD,カイル・リチャードソンのMayfair在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0033,P000253,C001092,UNIVERSITY_PERIOD,HOLD,カイル・リチャードソンのポートランド州立大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0034,P000253,P000253,SAME_SEASON_TWO_CLUBS,HOLD,カイル・リチャードソンの所属履歴には2017-18に「大塚商会」「栃木」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0035,P000253,P000253,SAME_SEASON_TWO_CLUBS,HOLD,カイル・リチャードソンの所属履歴には2024-25に「越谷」「鹿児島」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0036,P000253,P000253,PRE_BLEAGUE_HISTORY,HOLD,カイル・リチャードソンの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0037,P000253,C001093,ORG_NAME_HISTORY,HOLD,C001093の在籍期間中の公式順位表上のクラブ名は「大塚商会アルファーズ」「大塚商会越谷アルファーズ」で、登録Organization名「越谷アルファーズ」と異なる。B.LEAGUE公式のTeamID（745）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0038,P000253,C001094,ORG_NAME_HISTORY,HOLD,C001094の在籍期間中の公式順位表上のクラブ名は「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0039,P000253,C001095,ORG_NAME_HISTORY,HOLD,C001095の在籍期間中の公式順位表上のクラブ名は「アイシン・エィ・ダブリュ アレイオンズ安城」で、登録Organization名「アイシン アレイオンズ」と異なる。B.LEAGUE公式のTeamID（751）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0040,P000254,C001102,HIGH_SCHOOL_PERIOD,HOLD,岡田雄三の沼津中央高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0041,P000254,C001103,UNIVERSITY_PERIOD,HOLD,岡田雄三の近畿大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0042,P000254,C001104,ORG_NAME_HISTORY,HOLD,C001104の在籍期間中の公式順位表上のクラブ名は「アイシン・エィ・ダブリュ アレイオンズ安城」で、登録Organization名「アイシン アレイオンズ」と異なる。B.LEAGUE公式のTeamID（751）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0043,P000255,C001107,HIGH_SCHOOL_PERIOD,HOLD,葛原大智の福岡大学附属大濠高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0044,P000255,C001108,UNIVERSITY_PERIOD,HOLD,葛原大智の大東文化大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0045,P000256,C001114,HIGH_SCHOOL_PERIOD,HOLD,ラシードファラーズの埼玉県立越谷西高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0046,P000256,C001115,UNIVERSITY_PERIOD,HOLD,ラシードファラーズの東洋大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0047,P000257,C001119,HIGH_SCHOOL_PERIOD,HOLD,浅井英矢の福岡県立北筑高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0048,P000257,C001120,UNIVERSITY_PERIOD,HOLD,浅井英矢の筑波大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0049,P000258,C001122,HIGH_SCHOOL_PERIOD,HOLD,菅澤紀行の沖縄県立石川高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0050,P000258,C001123,UNIVERSITY_PERIOD,HOLD,菅澤紀行の鹿屋体育大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0051,P000258,P000258,PRE_BLEAGUE_HISTORY,HOLD,菅澤紀行の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0052,P000259,C001134,HIGH_SCHOOL_PERIOD,HOLD,根本大のつくば秀英高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0053,P000259,C001135,UNIVERSITY_PERIOD,HOLD,根本大の白鴎大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0054,P000260,C001137,HIGH_SCHOOL_PERIOD,HOLD,ジョシュ・ハレルソンのセントチャールズ高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0055,P000260,C001138,UNIVERSITY_PERIOD,HOLD,ジョシュ・ハレルソンのケンタッキー大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0056,P000260,P000260,PRE_BLEAGUE_HISTORY,HOLD,ジョシュ・ハレルソンの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0057,P000260,C001140,ORG_NAME_HISTORY,HOLD,C001140の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0058,P000260,C001142,ORG_NAME_HISTORY,HOLD,C001142の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0059,P000261,C001146,HIGH_SCHOOL_PERIOD,HOLD,江原信太朗の実践学園高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0060,P000261,C001147,UNIVERSITY_PERIOD,HOLD,江原信太朗の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0061,P000262,C001149,HIGH_SCHOOL_PERIOD,HOLD,駒沢颯の八戸学院光星高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0062,P000262,C001150,UNIVERSITY_PERIOD,HOLD,駒沢颯の日本大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0063,P000263,C001156,HIGH_SCHOOL_PERIOD,HOLD,駒水大雅ジャックのNewington College在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0064,P000263,C001157,UNIVERSITY_PERIOD,HOLD,駒水大雅ジャックのバーモントテクニカル大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0065,P000264,C001164,HIGH_SCHOOL_PERIOD,HOLD,須藤タイレル拓の横浜清風高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0066,P000264,C001165,UNIVERSITY_PERIOD,HOLD,須藤タイレル拓のGardner Webb University在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0067,P000265,C001168,HIGH_SCHOOL_PERIOD,HOLD,野本大智の群馬県立高崎高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0068,P000265,C001169,UNIVERSITY_PERIOD,HOLD,野本大智の筑波大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0069,P000265,C001170,ORG_NAME_HISTORY,HOLD,C001170の在籍期間中の公式順位表上のクラブ名は「滋賀レイクス」「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0070,P000266,C001171,HIGH_SCHOOL_PERIOD,HOLD,澁田怜音の岩手県立盛岡南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0071,P000266,C001172,UNIVERSITY_PERIOD,HOLD,澁田怜音の駒澤大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0072,P000266,P000266,PRE_BLEAGUE_HISTORY,HOLD,澁田怜音の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0073,P000266,C001175,ORG_NAME_HISTORY,HOLD,C001175の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0074,P000267,C001178,HIGH_SCHOOL_PERIOD,HOLD,ホール百音アレックスの昌平高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0075,P000267,C001179,HIGH_SCHOOL_PERIOD,HOLD,ホール百音アレックスのセントトーマス モア スクール在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0076,P000268,C001184,HIGH_SCHOOL_PERIOD,HOLD,前田悟の山形県立山形南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0077,P000268,C001185,UNIVERSITY_PERIOD,HOLD,前田悟の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0078,P000269,C001189,HIGH_SCHOOL_PERIOD,HOLD,水野幹太の福島県立福島南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0079,P000269,C001190,UNIVERSITY_PERIOD,HOLD,水野幹太の法政大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0080,P000269,P000269,PRE_BLEAGUE_HISTORY,HOLD,水野幹太の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0081,P000270,C001198,HIGH_SCHOOL_PERIOD,HOLD,木下誠の大阪学院大学高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0082,P000270,C001199,UNIVERSITY_PERIOD,HOLD,木下誠の大阪学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0083,P000271,C001202,HIGH_SCHOOL_PERIOD,HOLD,合田怜の大阪府立淀川工科高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0084,P000271,C001203,UNIVERSITY_PERIOD,HOLD,合田怜の大阪学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0085,P000271,P000271,PRE_BLEAGUE_HISTORY,HOLD,合田怜の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0086,P000272,C001205,HIGH_SCHOOL_PERIOD,HOLD,高橋快成の私立富田高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0087,P000272,C001206,UNIVERSITY_PERIOD,HOLD,高橋快成の中京大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0088,P000273,C001209,HIGH_SCHOOL_PERIOD,HOLD,橋本拓哉の総合学園ヒューマンアカデミー バスケットボールカレッジ在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0089,P000273,C001210,UNIVERSITY_PERIOD,HOLD,橋本拓哉の芦屋大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0090,P000273,P000273,PRE_BLEAGUE_HISTORY,HOLD,橋本拓哉の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0091,P000274,C001213,HIGH_SCHOOL_PERIOD,HOLD,牧隼利の福岡大学附属大濠高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0092,P000274,C001214,UNIVERSITY_PERIOD,HOLD,牧隼利の筑波大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0093,P000275,C001217,HIGH_SCHOOL_PERIOD,HOLD,大浦颯太の広陵高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0094,P000275,C001218,UNIVERSITY_PERIOD,HOLD,大浦颯太の日本体育大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0095,P000276,C001222,HIGH_SCHOOL_PERIOD,HOLD,小野寺祥太の岩手県立盛岡南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0096,P000276,P000276,PRE_BLEAGUE_HISTORY,HOLD,小野寺祥太の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0097,P000277,C001226,HIGH_SCHOOL_PERIOD,HOLD,川真田紘也の徳島県立城南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0098,P000277,C001227,UNIVERSITY_PERIOD,HOLD,川真田紘也の天理大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0099,P000277,C001229,ORG_NAME_HISTORY,HOLD,C001229の在籍期間中の公式順位表上のクラブ名は「滋賀レイクス」「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 01,B32W1I0100,P000278,C001232,HIGH_SCHOOL_PERIOD,HOLD,佐取龍之介の豊見城高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0001,P000279,C001234,HIGH_SCHOOL_PERIOD,HOLD,佐土原遼の東海大学付属相模高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0002,P000279,C001235,UNIVERSITY_PERIOD,HOLD,佐土原遼の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0003,P000280,C001239,HIGH_SCHOOL_PERIOD,HOLD,山内盛久の興南高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0004,P000280,C001240,UNIVERSITY_PERIOD,HOLD,山内盛久の尚学院国際ビジネスアカデミー在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0005,P000280,P000280,PRE_BLEAGUE_HISTORY,HOLD,山内盛久の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0006,P000280,C001242,ORG_NAME_HISTORY,HOLD,C001242の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0007,P000280,C001244,ORG_NAME_HISTORY,HOLD,C001244の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0008,P000281,C001246,HIGH_SCHOOL_PERIOD,HOLD,脇真大の岡山商科大学附属高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0009,P000281,C001247,UNIVERSITY_PERIOD,HOLD,脇真大の白鴎大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0010,P000282,C001250,HIGH_SCHOOL_PERIOD,HOLD,大崎裕太の柏市立柏高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0011,P000282,C001251,UNIVERSITY_PERIOD,HOLD,大崎裕太の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0012,P000283,C001255,HIGH_SCHOOL_PERIOD,HOLD,島谷怜の東海大学付属札幌高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0013,P000283,C001256,UNIVERSITY_PERIOD,HOLD,島谷怜の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0014,P000284,C001258,HIGH_SCHOOL_PERIOD,HOLD,関野剛平の東海大学付属札幌高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0015,P000284,C001258,ORG_NAME_HISTORY,HOLD,関野剛平のプロフィールの出身校（高）は「東海大学付属第四高等学校」。登録Organizationは「東海大学付属札幌高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0016,P000284,C001259,UNIVERSITY_PERIOD,HOLD,関野剛平の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0017,P000284,P000284,PRE_BLEAGUE_HISTORY,HOLD,関野剛平の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0018,P000284,C001261,ORG_NAME_HISTORY,HOLD,C001261の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0019,P000285,C001263,HIGH_SCHOOL_PERIOD,HOLD,内藤耀悠の北海道文教大学附属高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0020,P000286,C001265,HIGH_SCHOOL_PERIOD,HOLD,西村優真の北海道文教大学附属高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0021,P000287,C001267,HIGH_SCHOOL_PERIOD,HOLD,石川裕大の東京都私立帝京高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0022,P000287,C001268,HIGH_SCHOOL_PERIOD,HOLD,石川裕大のCombine Academy (NC)在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0023,P000287,P000287,SAME_SEASON_TWO_CLUBS,HOLD,石川裕大の所属履歴には2025-26に「宇都宮」「山形」「信州」の3行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0024,P000288,C001272,HIGH_SCHOOL_PERIOD,HOLD,市岡ショーンのウエストトランス高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0025,P000288,C001273,UNIVERSITY_PERIOD,HOLD,市岡ショーンのサンディエゴ・ミラマー大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0026,P000288,P000288,PRE_BLEAGUE_HISTORY,HOLD,市岡ショーンの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0027,P000289,C001281,HIGH_SCHOOL_PERIOD,HOLD,ギャビン・エドワーズのメスキート高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0028,P000289,C001282,UNIVERSITY_PERIOD,HOLD,ギャビン・エドワーズのコネチカット大在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0029,P000289,P000289,PRE_BLEAGUE_HISTORY,HOLD,ギャビン・エドワーズの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0030,P000290,C001286,HIGH_SCHOOL_PERIOD,HOLD,渡邉裕規の世田谷学園高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0031,P000290,C001287,UNIVERSITY_PERIOD,HOLD,渡邉裕規の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0032,P000290,P000290,PRE_BLEAGUE_HISTORY,HOLD,渡邉裕規の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0033,P000290,C001288,ORG_NAME_HISTORY,HOLD,C001288の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0034,P000291,C001289,HIGH_SCHOOL_PERIOD,HOLD,荒尾岳の富山県立泊高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0035,P000291,C001290,UNIVERSITY_PERIOD,HOLD,荒尾岳の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0036,P000291,P000291,PRE_BLEAGUE_HISTORY,HOLD,荒尾岳の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0037,P000291,C001292,ORG_NAME_HISTORY,HOLD,C001292の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0038,P000292,P000292,SCHOOL_NOT_LISTED,HOLD,ウィリアムスニカのB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0039,P000292,C001296,UNIVERSITY_PERIOD,HOLD,ウィリアムスニカのパシフィック大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0040,P000292,P000292,SAME_SEASON_TWO_CLUBS,HOLD,ウィリアムスニカの所属履歴には2018-19に「福島」「秋田」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0041,P000292,P000292,PRE_BLEAGUE_HISTORY,HOLD,ウィリアムスニカの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0042,P000293,C001305,HIGH_SCHOOL_PERIOD,HOLD,金近廉の関西大学北陽高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0043,P000293,C001306,UNIVERSITY_PERIOD,HOLD,金近廉の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0044,P000294,C001308,HIGH_SCHOOL_PERIOD,HOLD,佐藤巧の埼玉県立大宮東高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0045,P000294,C001309,UNIVERSITY_PERIOD,HOLD,佐藤巧の国士舘大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0046,P000295,C001312,HIGH_SCHOOL_PERIOD,HOLD,菅原佳依の岩手県立一関工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0047,P000295,C001313,UNIVERSITY_PERIOD,HOLD,菅原佳依の大東文化大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0048,P000296,C001317,HIGH_SCHOOL_PERIOD,HOLD,田代直希の東海大学付属浦安高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0049,P000296,C001318,UNIVERSITY_PERIOD,HOLD,田代直希の専修大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0050,P000296,P000296,PRE_BLEAGUE_HISTORY,HOLD,田代直希の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0051,P000297,C001321,HIGH_SCHOOL_PERIOD,HOLD,原修太の習志野市立習志野高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0052,P000297,C001322,UNIVERSITY_PERIOD,HOLD,原修太の国士舘大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0053,P000297,P000297,PRE_BLEAGUE_HISTORY,HOLD,原修太の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0054,P000298,P000298,SCHOOL_NOT_LISTED,HOLD,深水虎太郎のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0055,P000299,C001325,HIGH_SCHOOL_PERIOD,HOLD,飯田遼の佐久長聖高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0056,P000299,C001326,UNIVERSITY_PERIOD,HOLD,飯田遼の拓殖大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0057,P000300,C001332,HIGH_SCHOOL_PERIOD,HOLD,大倉颯太の北陸学院高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0058,P000300,C001333,UNIVERSITY_PERIOD,HOLD,大倉颯太の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0059,P000301,C001336,HIGH_SCHOOL_PERIOD,HOLD,小酒部泰暉の神奈川県立山北高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0060,P000301,C001337,UNIVERSITY_PERIOD,HOLD,小酒部泰暉の神奈川大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0061,P000302,C001339,HIGH_SCHOOL_PERIOD,HOLD,テーブス海の京北高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0062,P000302,C001339,ORG_NAME_HISTORY,HOLD,テーブス海のプロフィールの出身校（高）は「京北高等学校」（現・東洋大学京北高等学校）。登録Organizationは「京北高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0063,P000302,C001340,HIGH_SCHOOL_PERIOD,HOLD,テーブス海のブリッジトンアカデミー・プレップスクール在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0064,P000302,C001341,HIGH_SCHOOL_PERIOD,HOLD,テーブス海のノースフィールド・マウント・ハーモン・プレップスクール在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0065,P000302,C001342,UNIVERSITY_PERIOD,HOLD,テーブス海のノースカロライナ大学ウィルミントン校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0066,P000303,C001346,HIGH_SCHOOL_PERIOD,HOLD,ザック・バランスキーの東海大学付属諏訪高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0067,P000303,C001346,ORG_NAME_HISTORY,HOLD,ザック・バランスキーのプロフィールの出身校（高）は「東海大学付属第三高等学校」（現・東海大学付属諏訪高等学校）。登録Organizationは「東海大学付属諏訪高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0068,P000303,C001347,UNIVERSITY_PERIOD,HOLD,ザック・バランスキーの東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0069,P000303,P000303,PRE_BLEAGUE_HISTORY,HOLD,ザック・バランスキーの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0070,P000304,C001349,HIGH_SCHOOL_PERIOD,HOLD,ライアン・ロシターのMonsignor Farrell High School在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0071,P000304,C001350,UNIVERSITY_PERIOD,HOLD,ライアン・ロシターのシエナ大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0072,P000304,P000304,PRE_BLEAGUE_HISTORY,HOLD,ライアン・ロシターの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0073,P000304,C001351,ORG_NAME_HISTORY,HOLD,C001351の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0074,P000305,C001353,HIGH_SCHOOL_PERIOD,HOLD,小島元基のつくば秀英高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0075,P000305,C001354,UNIVERSITY_PERIOD,HOLD,小島元基の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0076,P000305,P000305,PRE_BLEAGUE_HISTORY,HOLD,小島元基の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0077,P000305,C001357,ORG_NAME_HISTORY,HOLD,C001357の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0078,P000306,C001359,HIGH_SCHOOL_PERIOD,HOLD,中村功平の山口県立豊浦高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0079,P000306,C001360,UNIVERSITY_PERIOD,HOLD,中村功平の中央大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0080,P000306,C001361,ORG_NAME_HISTORY,HOLD,C001361の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0081,P000307,C001363,HIGH_SCHOOL_PERIOD,HOLD,長谷川暢の秋田県立能代工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0082,P000307,C001363,ORG_NAME_HISTORY,HOLD,長谷川暢のプロフィールの出身校（高）は「秋田県立能代工業高等学校」（現・秋田県立能代科学技術高等学校）。登録Organizationは「秋田県立能代工業高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0083,P000307,C001364,UNIVERSITY_PERIOD,HOLD,長谷川暢の早稲田大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0084,P000308,C001368,HIGH_SCHOOL_PERIOD,HOLD,平尾充庸の明徳義塾高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0085,P000308,C001369,UNIVERSITY_PERIOD,HOLD,平尾充庸の天理大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0086,P000308,P000308,PRE_BLEAGUE_HISTORY,HOLD,平尾充庸の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0087,P000309,C001372,HIGH_SCHOOL_PERIOD,HOLD,福澤晃平の東海大学付属諏訪高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0088,P000309,C001372,ORG_NAME_HISTORY,HOLD,福澤晃平のプロフィールの出身校（高）は「東海大学付属第三高等学校」（現・東海大学付属諏訪高等学校）。登録Organizationは「東海大学付属諏訪高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0089,P000309,C001373,UNIVERSITY_PERIOD,HOLD,福澤晃平の関西大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0090,P000309,P000309,PRE_BLEAGUE_HISTORY,HOLD,福澤晃平の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0091,P000309,C001374,ORG_NAME_HISTORY,HOLD,C001374の在籍期間中の公式順位表上のクラブ名は「Fイーグルス名古屋」で、登録Organization名「ファイティングイーグルス名古屋」と異なる。B.LEAGUE公式のTeamID（717）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0092,P000310,C001378,HIGH_SCHOOL_PERIOD,HOLD,前田怜緒の東北高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0093,P000310,C001379,UNIVERSITY_PERIOD,HOLD,前田怜緒の白鴎大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0094,P000310,C001380,ORG_NAME_HISTORY,HOLD,C001380の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0095,P000311,C001384,HIGH_SCHOOL_PERIOD,HOLD,吉井裕鷹の大阪学院大学高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0096,P000311,C001385,UNIVERSITY_PERIOD,HOLD,吉井裕鷹の大阪学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0097,P000312,C001390,HIGH_SCHOOL_PERIOD,HOLD,渡邉飛勇のIolani(Hawaii)在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0098,P000312,C001391,UNIVERSITY_PERIOD,HOLD,渡邉飛勇のPortland University在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0099,P000312,C001392,UNIVERSITY_PERIOD,HOLD,渡邉飛勇のUC Davis在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0100,P000313,C001396,HIGH_SCHOOL_PERIOD,HOLD,鶴巻啓太の千葉県立幕張総合高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0101,P000313,C001397,UNIVERSITY_PERIOD,HOLD,鶴巻啓太の中央大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0102,P000314,C001400,HIGH_SCHOOL_PERIOD,HOLD,コー・フリッピンのNorth Torrance high school在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0103,P000314,C001401,UNIVERSITY_PERIOD,HOLD,コー・フリッピンのドエイン大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0104,P000315,C001405,HIGH_SCHOOL_PERIOD,HOLD,細川一輝の岩手県立一関工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0105,P000315,C001406,UNIVERSITY_PERIOD,HOLD,細川一輝の上武大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0106,P000316,C001411,HIGH_SCHOOL_PERIOD,HOLD,加藤ダニエルのブリティッシュインターナショナルスクール在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0107,P000316,C001412,UNIVERSITY_PERIOD,HOLD,加藤ダニエルのハーフォード・コミュニティ大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0108,P000317,P000317,SCHOOL_NOT_LISTED,HOLD,河田チリジのB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0109,P000317,C001415,UNIVERSITY_PERIOD,HOLD,河田チリジのニューメキシコ州立大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0110,P000317,P000317,SAME_SEASON_TWO_CLUBS,HOLD,河田チリジの所属履歴には2020-21に「広島」「福島」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0111,P000317,P000317,PRE_BLEAGUE_HISTORY,HOLD,河田チリジの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0112,P000318,C001426,HIGH_SCHOOL_PERIOD,HOLD,東海林奨の昌平高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 02,B32W2I0113,P000318,C001427,UNIVERSITY_PERIOD,HOLD,東海林奨の白鴎大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0001,P000319,C001430,HIGH_SCHOOL_PERIOD,HOLD,トビンマーカス海舟のメリノール高等学校(USA-Hawai)在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0002,P000319,C001431,UNIVERSITY_PERIOD,HOLD,トビンマーカス海舟のマククック・コミュニティ・カレッジ(USA)在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0003,P000319,C001432,ORG_NAME_HISTORY,HOLD,C001432の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0004,P000320,C001437,HIGH_SCHOOL_PERIOD,HOLD,エリエット・ドンリーのモアナルア高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0005,P000320,P000320,SCHOOL_NAME_UNREADABLE,HOLD,エリエット・ドンリーの出身校（大）は公式サイト上「シャミナード?学」と表示され、一部の文字が読めない。Careerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0006,P000321,P000321,SCHOOL_NOT_LISTED,HOLD,金田龍弥のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0007,P000321,C001440,ORG_NAME_HISTORY,HOLD,C001440の在籍期間中の公式順位表上のクラブ名は「神戸ストークス」「西宮ストークス」で、登録Organization名「神戸ストークス」と異なる。B.LEAGUE公式のTeamID（718）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0008,P000322,P000322,SCHOOL_NOT_LISTED,HOLD,木村圭吾のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0009,P000323,P000323,SCHOOL_NOT_LISTED,HOLD,寺園脩斗のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0010,P000324,P000324,SCHOOL_NOT_LISTED,HOLD,道原紀晃のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0011,P000324,P000324,PRE_BLEAGUE_HISTORY,HOLD,道原紀晃の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0012,P000324,C001448,ORG_NAME_HISTORY,HOLD,C001448の在籍期間中の公式順位表上のクラブ名は「神戸ストークス」「西宮ストークス」で、登録Organization名「神戸ストークス」と異なる。B.LEAGUE公式のTeamID（718）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0013,P000325,P000325,SCHOOL_NOT_LISTED,HOLD,中島三千哉のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0014,P000326,P000326,SCHOOL_NOT_LISTED,HOLD,中野司のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0015,P000327,P000327,SCHOOL_NOT_LISTED,HOLD,山口颯斗のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0016,P000328,C001458,HIGH_SCHOOL_PERIOD,HOLD,新井翔太の実践学園高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0017,P000328,C001459,UNIVERSITY_PERIOD,HOLD,新井翔太の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0018,P000329,C001461,HIGH_SCHOOL_PERIOD,HOLD,井上宗一郎の福岡大学附属大濠高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0019,P000329,C001462,UNIVERSITY_PERIOD,HOLD,井上宗一郎の筑波大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0020,P000329,C001465,ORG_NAME_HISTORY,HOLD,C001465の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0021,P000330,C001469,HIGH_SCHOOL_PERIOD,HOLD,北川弘の光泉高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0022,P000330,C001469,ORG_NAME_HISTORY,HOLD,北川弘のプロフィールの出身校（高）は「光泉高等学校」（現・光泉カトリック高等学校）。登録Organizationは「光泉高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0023,P000330,C001470,UNIVERSITY_PERIOD,HOLD,北川弘の日本体育大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0024,P000330,P000330,PRE_BLEAGUE_HISTORY,HOLD,北川弘の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0025,P000331,C001473,HIGH_SCHOOL_PERIOD,HOLD,中村太地の福岡大学附属大濠高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0026,P000331,C001474,UNIVERSITY_PERIOD,HOLD,中村太地の法政大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0027,P000331,P000331,PRE_BLEAGUE_HISTORY,HOLD,中村太地の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0028,P000332,C001482,HIGH_SCHOOL_PERIOD,HOLD,晴山ケビンの盛岡市立高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0029,P000332,C001483,UNIVERSITY_PERIOD,HOLD,晴山ケビンの東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0030,P000332,P000332,PRE_BLEAGUE_HISTORY,HOLD,晴山ケビンの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0031,P000332,C001487,ORG_NAME_HISTORY,HOLD,C001487の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0032,P000333,P000333,SCHOOL_NOT_LISTED,HOLD,松野遥弥のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0033,P000334,C001493,HIGH_SCHOOL_PERIOD,HOLD,三谷桂司朗の広島皆実高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0034,P000334,C001494,UNIVERSITY_PERIOD,HOLD,三谷桂司朗の筑波大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0035,P000335,C001497,HIGH_SCHOOL_PERIOD,HOLD,メイヨニックのMessalonskee在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0036,P000335,C001498,UNIVERSITY_PERIOD,HOLD,メイヨニックのEastern Kentucky在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0037,P000336,C001502,HIGH_SCHOOL_PERIOD,HOLD,山崎稜の昌平高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0038,P000336,C001503,UNIVERSITY_PERIOD,HOLD,山崎稜のタコマ・コミュニティ大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0039,P000336,P000336,PRE_BLEAGUE_HISTORY,HOLD,山崎稜の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0040,P000336,C001505,ORG_NAME_HISTORY,HOLD,C001505の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0041,P000337,P000337,SCHOOL_NOT_LISTED,HOLD,ロバーツケインのB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0042,P000338,P000338,SCHOOL_NOT_LISTED,HOLD,大庭圭太郎のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0043,P000338,P000338,SAME_SEASON_TWO_CLUBS,HOLD,大庭圭太郎の所属履歴には2025-26に「SR渋谷」「滋賀」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0044,P000338,C001512,ORG_NAME_HISTORY,HOLD,C001512の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0045,P000339,P000339,SCHOOL_NOT_LISTED,HOLD,狩野富成のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0046,P000339,C001515,ORG_NAME_HISTORY,HOLD,C001515の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0047,P000340,C001516,HIGH_SCHOOL_PERIOD,HOLD,永吉佑也の延岡学園高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0048,P000340,C001517,UNIVERSITY_PERIOD,HOLD,永吉佑也の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0049,P000340,P000340,PRE_BLEAGUE_HISTORY,HOLD,永吉佑也の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0050,P000340,C001521,ORG_NAME_HISTORY,HOLD,C001521の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0051,P000341,P000341,SCHOOL_NOT_LISTED,HOLD,野﨑零也のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0052,P000341,P000341,PRE_BLEAGUE_HISTORY,HOLD,野﨑零也の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0053,P000341,C001522,ORG_NAME_HISTORY,HOLD,C001522の在籍期間中の公式順位表上のクラブ名は「Fイーグルス名古屋」で、登録Organization名「ファイティングイーグルス名古屋」と異なる。B.LEAGUE公式のTeamID（717）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0054,P000341,C001526,ORG_NAME_HISTORY,HOLD,C001526の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0055,P000342,P000342,SCHOOL_NOT_LISTED,HOLD,ベンドラメ礼生のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0056,P000342,P000342,PRE_BLEAGUE_HISTORY,HOLD,ベンドラメ礼生の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0057,P000342,C001527,ORG_NAME_HISTORY,HOLD,C001527の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0058,P000343,P000343,SCHOOL_NOT_LISTED,HOLD,ジョシュ・ホーキンソンのB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0059,P000343,C001528,ORG_NAME_HISTORY,HOLD,C001528の在籍期間中の公式順位表上のクラブ名は「Fイーグルス名古屋」で、登録Organization名「ファイティングイーグルス名古屋」と異なる。B.LEAGUE公式のTeamID（717）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0060,P000343,C001530,ORG_NAME_HISTORY,HOLD,C001530の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0061,P000344,P000344,SCHOOL_NOT_LISTED,HOLD,山際爽吾のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0062,P000345,P000345,SCHOOL_NOT_LISTED,HOLD,山﨑一渉のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0063,P000346,C001534,HIGH_SCHOOL_PERIOD,HOLD,荒谷裕秀の東北高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0064,P000346,C001535,UNIVERSITY_PERIOD,HOLD,荒谷裕秀の白鴎大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0065,P000346,P000346,SAME_SEASON_TWO_CLUBS,HOLD,荒谷裕秀の所属履歴には2024-25に「仙台」「長崎」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0066,P000347,C001540,HIGH_SCHOOL_PERIOD,HOLD,伊久江ロイ英輝のSt. Mary’s International School在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0067,P000347,P000347,NON_SCHOOL_ENTRY,HOLD,伊久江ロイ英輝の出身校（高）欄には「St. Mary’s International School / Tokyo Samurai」とあり、「Tokyo Samurai」は学校ではなくクラブチームとみられる。学校のCareerとしては登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0068,P000347,C001541,UNIVERSITY_PERIOD,HOLD,伊久江ロイ英輝のハワイ大学マノア校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0069,P000348,C001543,HIGH_SCHOOL_PERIOD,HOLD,アレックス・カークのLos Alamos High School在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0070,P000348,C001544,UNIVERSITY_PERIOD,HOLD,アレックス・カークのニューメキシコ大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0071,P000349,C001548,HIGH_SCHOOL_PERIOD,HOLD,津山尚大の福岡大学附属大濠高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0072,P000349,P000349,PRE_BLEAGUE_HISTORY,HOLD,津山尚大の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0073,P000350,C001555,HIGH_SCHOOL_PERIOD,HOLD,長谷川技の秋田県立能代工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0074,P000350,C001555,ORG_NAME_HISTORY,HOLD,長谷川技のプロフィールの出身校（高）は「秋田県立能代工業高等学校」（現・秋田県立能代科学技術高等学校）。登録Organizationは「秋田県立能代工業高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0075,P000350,C001556,UNIVERSITY_PERIOD,HOLD,長谷川技の拓殖大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0076,P000350,P000350,PRE_BLEAGUE_HISTORY,HOLD,長谷川技の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0077,P000351,C001558,HIGH_SCHOOL_PERIOD,HOLD,石井講祐の千葉県立八千代高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0078,P000351,C001559,UNIVERSITY_PERIOD,HOLD,石井講祐の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0079,P000351,P000351,PRE_BLEAGUE_HISTORY,HOLD,石井講祐の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0080,P000351,C001561,ORG_NAME_HISTORY,HOLD,C001561の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0081,P000352,C001563,HIGH_SCHOOL_PERIOD,HOLD,久保田義章の折尾愛真高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0082,P000352,C001564,UNIVERSITY_PERIOD,HOLD,久保田義章の九州共立大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0083,P000353,C001567,HIGH_SCHOOL_PERIOD,HOLD,トーマス・ケネディのサウスイースト高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0084,P000353,C001568,UNIVERSITY_PERIOD,HOLD,トーマス・ケネディのデトロイトメルシー大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0085,P000353,P000353,PRE_BLEAGUE_HISTORY,HOLD,トーマス・ケネディの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0086,P000354,C001574,HIGH_SCHOOL_PERIOD,HOLD,小阪彰久の大阪学院大学高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0087,P000354,C001575,UNIVERSITY_PERIOD,HOLD,小阪彰久の大阪学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0088,P000354,P000354,PRE_BLEAGUE_HISTORY,HOLD,小阪彰久の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0089,P000354,C001576,ORG_NAME_HISTORY,HOLD,C001576の在籍期間中の公式順位表上のクラブ名は「アイシン・エィ・ダブリュ アレイオンズ安城」で、登録Organization名「アイシン アレイオンズ」と異なる。B.LEAGUE公式のTeamID（751）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0090,P000355,C001583,HIGH_SCHOOL_PERIOD,HOLD,須田侑太郎の東海大学付属札幌高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0091,P000355,C001583,ORG_NAME_HISTORY,HOLD,須田侑太郎のプロフィールの出身校（高）は「東海大学付属第四高等学校」（現・東海大学付属札幌高等学校）。登録Organizationは「東海大学付属札幌高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0092,P000355,C001584,UNIVERSITY_PERIOD,HOLD,須田侑太郎の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0093,P000355,P000355,PRE_BLEAGUE_HISTORY,HOLD,須田侑太郎の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0094,P000355,C001585,ORG_NAME_HISTORY,HOLD,C001585の在籍期間中の公式順位表上のクラブ名は「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0095,P000356,C001590,HIGH_SCHOOL_PERIOD,HOLD,長野誠史の金沢高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0096,P000356,C001591,UNIVERSITY_PERIOD,HOLD,長野誠史の東海大学九州在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0097,P000357,C001594,HIGH_SCHOOL_PERIOD,HOLD,今村佳太の新潟県立長岡工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0098,P000357,C001595,UNIVERSITY_PERIOD,HOLD,今村佳太の新潟経営大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0099,P000358,C001599,HIGH_SCHOOL_PERIOD,HOLD,加藤嵩都の東北生活文化大学高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 03,B32W3I0100,P000358,C001600,UNIVERSITY_PERIOD,HOLD,加藤嵩都の明星大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0001,P000359,C001604,HIGH_SCHOOL_PERIOD,HOLD,中東泰斗の光泉高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0002,P000359,C001604,ORG_NAME_HISTORY,HOLD,中東泰斗のプロフィールの出身校（高）は「光泉高等学校」（現・光泉カトリック高等学校）。登録Organizationは「光泉高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0003,P000359,C001605,UNIVERSITY_PERIOD,HOLD,中東泰斗の明治大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0004,P000359,P000359,PRE_BLEAGUE_HISTORY,HOLD,中東泰斗の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0005,P000360,C001607,HIGH_SCHOOL_PERIOD,HOLD,ジェイク幸輝・ホルツのアメリカ・ハワイ州 Damien Memorial School在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0006,P000360,C001608,UNIVERSITY_PERIOD,HOLD,ジェイク幸輝・ホルツのアメリカ・ワシントン州 Whitworth University在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0007,P000361,C001610,HIGH_SCHOOL_PERIOD,HOLD,アイザイア・マーフィーのシェネガ高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0008,P000361,C001611,UNIVERSITY_PERIOD,HOLD,アイザイア・マーフィーのイースタン・ニューメキシコ大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0009,P000362,C001614,HIGH_SCHOOL_PERIOD,HOLD,若野瑛太の至学館高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0010,P000363,C001616,HIGH_SCHOOL_PERIOD,HOLD,井上諒汰の東海大学付属諏訪高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0011,P000363,C001616,ORG_NAME_HISTORY,HOLD,井上諒汰のプロフィールの出身校（高）は「東海大学付属第三高等学校」。登録Organizationは「東海大学付属諏訪高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0012,P000363,C001617,UNIVERSITY_PERIOD,HOLD,井上諒汰の関西大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0013,P000364,C001619,HIGH_SCHOOL_PERIOD,HOLD,岸田篤生の鳥取県立鳥取東高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0014,P000364,C001620,UNIVERSITY_PERIOD,HOLD,岸田篤生の大阪体育大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0015,P000364,C001622,ORG_NAME_HISTORY,HOLD,C001622の在籍期間中の公式順位表上のクラブ名は「西宮ストークス」で、登録Organization名「神戸ストークス」と異なる。B.LEAGUE公式のTeamID（718）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0016,P000365,C001624,HIGH_SCHOOL_PERIOD,HOLD,角田太輝の佐賀県立佐賀北高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0017,P000365,C001625,UNIVERSITY_PERIOD,HOLD,角田太輝の白鴎大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0018,P000366,C001627,HIGH_SCHOOL_PERIOD,HOLD,武富楓太の佐賀東高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0019,P000366,C001628,UNIVERSITY_PERIOD,HOLD,武富楓太の東海大学九州在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0020,P000367,C001630,HIGH_SCHOOL_PERIOD,HOLD,富山仁貴の兵庫県立淡路三原高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0021,P000367,C001631,UNIVERSITY_PERIOD,HOLD,富山仁貴の大東文化大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0022,P000368,C001633,HIGH_SCHOOL_PERIOD,HOLD,橋本晃佑の栃木県立宇都宮工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0023,P000368,C001634,UNIVERSITY_PERIOD,HOLD,橋本晃佑の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0024,P000368,P000368,PRE_BLEAGUE_HISTORY,HOLD,橋本晃佑の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0025,P000368,C001635,ORG_NAME_HISTORY,HOLD,C001635の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0026,P000369,C001640,HIGH_SCHOOL_PERIOD,HOLD,青木ブレイクのアーツ&テクノロジー高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0027,P000369,C001641,UNIVERSITY_PERIOD,HOLD,青木ブレイクのニューヨーク市立大学シティカレッジ在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0028,P000369,P000369,SAME_SEASON_TWO_CLUBS,HOLD,青木ブレイクの所属履歴には2023-24に「徳島」「豊田合成」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0029,P000369,C001645,ORG_NAME_HISTORY,HOLD,C001645の在籍期間中の公式順位表上のクラブ名は「金沢武士団」で、登録Organization名「金沢サムライズ」と異なる。B.LEAGUE公式のTeamID（750）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0030,P000370,C001651,HIGH_SCHOOL_PERIOD,HOLD,エヴァンスルークのエル・カミノ・ハイ・スクール在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0031,P000370,C001652,UNIVERSITY_PERIOD,HOLD,エヴァンスルークのカリフォルニアバプティスト大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0032,P000370,P000370,SAME_SEASON_TWO_CLUBS,HOLD,エヴァンスルークの所属履歴には2020-21に「静岡」「島根」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0033,P000370,P000370,PRE_BLEAGUE_HISTORY,HOLD,エヴァンスルークの公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0034,P000370,C001653,ORG_NAME_HISTORY,HOLD,C001653の在籍期間中の公式順位表上のクラブ名は「東京エクセレンス」で、登録Organization名「横浜エクセレンス」と異なる。B.LEAGUE公式のTeamID（714）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0035,P000370,C001655,ORG_NAME_HISTORY,HOLD,C001655の在籍期間中の公式順位表上のクラブ名は「大塚商会越谷アルファーズ」で、登録Organization名「越谷アルファーズ」と異なる。B.LEAGUE公式のTeamID（745）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0036,P000371,C001662,HIGH_SCHOOL_PERIOD,HOLD,木田貴明の金沢高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0037,P000371,C001663,UNIVERSITY_PERIOD,HOLD,木田貴明の青山学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0038,P000371,C001664,ORG_NAME_HISTORY,HOLD,C001664の在籍期間中の公式順位表上のクラブ名は「金沢武士団」で、登録Organization名「金沢サムライズ」と異なる。B.LEAGUE公式のTeamID（750）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0039,P000372,C001667,HIGH_SCHOOL_PERIOD,HOLD,熊谷尚也の九州産業大学付属九州産業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0040,P000372,C001668,UNIVERSITY_PERIOD,HOLD,熊谷尚也の日本体育大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0041,P000372,P000372,PRE_BLEAGUE_HISTORY,HOLD,熊谷尚也の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0042,P000372,C001669,ORG_NAME_HISTORY,HOLD,C001669の在籍期間中の公式順位表上のクラブ名は「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0043,P000373,C001673,HIGH_SCHOOL_PERIOD,HOLD,黒川虎徹の東海大学付属諏訪高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0044,P000373,C001674,UNIVERSITY_PERIOD,HOLD,黒川虎徹の東海大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0045,P000374,C001676,HIGH_SCHOOL_PERIOD,HOLD,杉本慶の光泉高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0046,P000374,C001676,ORG_NAME_HISTORY,HOLD,杉本慶のプロフィールの出身校（高）は「光泉高等学校」（現・光泉カトリック高等学校）。登録Organizationは「光泉高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0047,P000374,C001677,UNIVERSITY_PERIOD,HOLD,杉本慶の中京大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0048,P000374,P000374,PRE_BLEAGUE_HISTORY,HOLD,杉本慶の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0049,P000374,C001678,ORG_NAME_HISTORY,HOLD,C001678の在籍期間中の公式順位表上のクラブ名は「Fイーグルス名古屋」「ファイティングイーグルス名古屋」で、登録Organization名「ファイティングイーグルス名古屋」と異なる。B.LEAGUE公式のTeamID（717）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0050,P000375,C001680,HIGH_SCHOOL_PERIOD,HOLD,長谷川智也の新潟県立新潟商業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0051,P000375,C001681,UNIVERSITY_PERIOD,HOLD,長谷川智也の法政大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0052,P000375,P000375,PRE_BLEAGUE_HISTORY,HOLD,長谷川智也の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0053,P000375,C001683,ORG_NAME_HISTORY,HOLD,C001683の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0054,P000376,P000376,SCHOOL_NOT_LISTED,HOLD,大友隆太郎のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0055,P000376,P000376,PRE_BLEAGUE_HISTORY,HOLD,大友隆太郎の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0056,P000377,C001692,HIGH_SCHOOL_PERIOD,HOLD,髙比良寛治の福岡市立福岡西陵高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0057,P000377,C001693,UNIVERSITY_PERIOD,HOLD,髙比良寛治の芦屋大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0058,P000378,P000378,SCHOOL_NOT_LISTED,HOLD,田中流嘉州のB.LEAGUE公式プロフィールでは出身校（高）が「-」で、高校名を確認できない。高校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0059,P000379,C001700,HIGH_SCHOOL_PERIOD,HOLD,土屋アリスター時生の神戸市立葺合高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0060,P000379,C001701,UNIVERSITY_PERIOD,HOLD,土屋アリスター時生の大阪教育大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0061,P000379,P000379,PRE_BLEAGUE_HISTORY,HOLD,土屋アリスター時生の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0062,P000379,C001702,ORG_NAME_HISTORY,HOLD,C001702の在籍期間中の公式順位表上のクラブ名は「西宮ストークス」で、登録Organization名「神戸ストークス」と異なる。B.LEAGUE公式のTeamID（718）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0063,P000380,C001709,HIGH_SCHOOL_PERIOD,HOLD,永野威旺の長崎東高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0064,P000380,C001710,UNIVERSITY_PERIOD,HOLD,永野威旺の名古屋学院大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0065,P000381,C001715,HIGH_SCHOOL_PERIOD,HOLD,森川正明の福井県立福井商業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0066,P000381,C001716,UNIVERSITY_PERIOD,HOLD,森川正明の愛知学泉大学在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 32 Wave 04,B32W4I0067,P000381,P000381,PRE_BLEAGUE_HISTORY,HOLD,森川正明の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0001,P000083,C000299,SCHOOL_HISTORY_UNCONFIRMED,HOLD,開志国際高等学校在籍がコーチ本人（父・富樫英樹氏）へのインタビュー記事等で言及されるが、B.LEAGUE公式プロフィールにはモントロス・クリスチャン高等学校のみが記載され、開志国際とのCareer上の関係（在籍順・重複）を直接示す一次資料は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0002,P000084,C000290,PERIOD_UNKNOWN,HOLD,洛南高等学校Careerの入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0003,P000084,C000291,PERIOD_UNKNOWN,HOLD,青山学院大学Careerの入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0007,P000086,C000293,SOURCE_TIER,HOLD,桐光学園高校在籍を裏付ける一次資料（学校公式・大会公式ロスター等）が未確認、現状は専門媒体（バスケットボールキング）のみ,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0008,P000086,C000293,PERIOD_UNKNOWN,HOLD,桐光学園高校Careerの入学・卒業年月は未確認（記事から2015年頃の卒業と推定されるのみ）,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0009,P000086,C000294,PERIOD_UNKNOWN,HOLD,明治大学Careerの入学・卒業年月は未確認,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0011,P000090,C000310,SOURCE_TIER,HOLD,福岡大学附属大濠高等学校在籍を裏付ける一次資料（学校公式・大会公式ロスター等）が未確認。B.LEAGUE公式「ワタシノB.LEAGUE」の同校タグ一覧にも金丸晃輔は掲載されておらず（2026-09-23時点、9人中に該当なし）、現状は専門媒体（バスケットボールキング）のみ。ウインターカップ公式アーカイブ（wintercup.japanbasketball.jp）で該当年度（2005-2007年頃）のロスター確認を試みたが、レガシーサイトのため今回はツール側の技術的制約でアクセスできなかった,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0014,P000086,P000086,DATE_CONFLICT,HOLD,齋藤拓実：明治大学の入学年は2014年度（明大スポーツ新聞部記事で直接確認）だが、B.LEAGUE公式プロフィールは2017年にアルバルク東京でプロキャリア開始と記載。標準的な4年在籍なら卒業は2018年3月となり整合しない。卒業年(end)の確定にはYuichiによる追加判断または追加資料が必要。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0015,P000094,P000094,DATE_CONFLICT,HOLD,星川堅信：J SPORTSの2019年3月記事では「早稲田大学3年」と記載（2016年度入学を示唆）だが、Yahoo!スポーツの2024年2月記事は「令和5年度（2023年度）卒業記念特集」「スポ４」と記載（2020年度入学・2024年3月卒業を示唆）。入学年に食い違いがあり、Yuichiによる追加判断または追加資料が必要。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0016,P000086,P000086,CLUB_HISTORY_SCOPE,HOLD,齋藤拓実：B.LEAGUE公式選手プロフィール(既存B7S0005)の経歴概要に「2017年にアルバルク東京でプロスタート、2019年に滋賀へ移籍、2020年から名古屋ダイヤモンドドルフィンズ」との記述があり、現所属(名古屋)以前にアルバルク東京・滋賀（当時のクラブ名称の確認要）の在籍歴が欠落している。正確な移籍月と当時の正式チーム名を確認の上、次回深掘りWaveで新規Career候補として追加予定。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0017,P000093,P000093,CLUB_HISTORY_SCOPE,HOLD,松脇圭志：検索結果に「富山グラウジーズに特別指定選手として入団」「三遠ネオフェニックス選手契約(新規)」の記事タイトルが見られ、現所属(琉球ゴールデンキングス)以前に複数クラブでの在籍歴が示唆される。詳細な時期確認が次回深掘りWaveの課題。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0018,P000094,P000094,CLUB_HISTORY_SCOPE,HOLD,星川堅信：検索結果に「宇都宮ブレックス特別指定選手 活動終了」「越谷アルファーズでのプロデビュー（2024年1月）」の記述が見られ、現所属(長崎ヴェルカ)以前に複数クラブでの在籍歴が示唆される。詳細な時期確認が次回深掘りWaveの課題。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0019,P000088,P000088,CLUB_HISTORY_SCOPE,HOLD,岸本隆一：検索結果に「岸本隆一（琉球ゴールデンキングス）」と紹介する記事タイトルが見られ、現所属(京都ハンナリーズ)以前または関連して琉球ゴールデンキングスでの在籍歴が示唆される。詳細な時期確認が次回深掘りWaveの課題。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0020,P000087,P000087,CLUB_HISTORY_SCOPE,HOLD,田中大貴：検索結果に「#24 田中大貴選手 契約満了および移籍先決定のご報告｜アルバルク東京」の記事タイトルが見られ、現所属(東京サンロッカーズ)以前にアルバルク東京での在籍歴が示唆される。詳細な時期確認が次回深掘りWaveの課題。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0021,P000083,P000083,INFERENCE_CONFIDENCE,HOLD,富樫勇樹とORG000117（モントロス・クリスチャン高等学校）の関係はWikipedia・Yahoo!スポーツナビの2独立ソースでSUPPORTEDだが、開志国際高等学校との無関係については「開志国際高等学校の部活動強化開始が本人渡米後と推定される」という時系列からの論理的推定（PARTIAL）に留まり、開志国際側からの直接の否定・確認は取れていない。Yuichiの追加判断、または開志国際高等学校の公式沿革等での裏取りが望ましい。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0024,P000103|P000104|P000105|P000106,"P000103,P000104,P000105,P000106",CLUB_HISTORY_SCOPE,HOLD,本Waveでは各選手について「出身校（高・大）」および「現所属クラブ」のCareerのみを記録し、移籍履歴の全チェーン（例：田臥勇太のNBA挑戦期を含む過去所属クラブ、渡邊雄太のNBA所属歴、八村塁のNBA移籍履歴：ウィザーズ→レイカーズ→クリッパーズ等）は記録していない。OrganizationAlias/組織承継ルールの設計がYuichiの判断待ちであるため、従来のWave（B4W3I0011→B7I0013→B7I0022→B7I0023）と同様にスコープを限定した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0026,P000097,P000097,ORG_SUCCESSION,HOLD,東芝ブレイブサンダース（本Waveで新規登録、ORG000164）と、既存のORG000122（川崎ブレイブサンダース）は、2016年7月1日のリーグ呼称変更前後における同一組織である。サンロッカーズ渋谷->東京サンロッカーズ（batch_007/wave_02、B7I0013）、湘南ユナイテッドBC->ウォルガ湘南（batch_004/wave_06、B4W6I0001）に続く3件目の同種事例。さらに、東芝ブレイブサンダースは2013年に一時「東芝ブレイブサンダース神奈川」への改称も経ており、本Waveではこの中間名称を独立Organizationとして分離せず簡略化している（粒度の簡略化）。OrganizationAlias/組織承継ルールの設計時に、両論点（組織承継・改称の粒度）をあわせて整理する必要がある。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0027,P000097,P000097,CLUB_HISTORY_SCOPE_RESOLVED,HOLD,batch_007/wave_05のissue B7I0022（現所属クラブ以前の過去所属クラブは対象外）について、辻直人分を本Waveで解消した。東芝ブレイブサンダース(2012-2016)->川崎ブレイブサンダース(2016-2021)->広島ドラゴンフライズ(2021-2023)->群馬クレインサンダーズ(2023-、既存C000339のstartを補足)という全プロキャリアを記録済み。他の選手（渡邊雄太・八村塁のNBA移籍歴等）についてはB7I0024として引き続き未対応。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0028,P000107|P000108|P000109|P000110,"P000107,P000108,P000109,P000110",CLUB_HISTORY_SCOPE,HOLD,4人とも、現所属クラブ以前の過去所属クラブ（馬場雄大のNBA/G League挑戦期を含むアルバルク東京時代、佐々木隆成の熊本・大阪時代、シェーファーアヴィ幸樹のA東京・滋賀・三河時代、高島紳司の大阪時代）は対象外とした。Wave 1・3・5・6・7と同様のCLUB_HISTORY_SCOPE。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0029,P000108,P000108,SOURCE_TIER,HOLD,佐々木隆成の出身高校（山口県立豊浦高等学校）は、Wikipediaのみで確認できた情報であり、bleague.jp公式プロフィール・バスケットボールキングの選手ページいずれにも出身高校の記載がない。学校公式・大会公式ロスター等の一次資料での裏付けが望ましい。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7I0030,P000109,P000109,HIGH_SCHOOL_UNRECORDED,HOLD,シェーファーアヴィ幸樹の出身高校は今回登録していない。Wikipediaは『ブリュースターアカデミー』（米国の大学進学準備校）への進学に言及するが、jpsk.jpのインタビュー記事は「高校2年時にバスケを始めた」「東京へ転校した」とのみ述べ具体的な学校名を確認できず、両資料の関係も不明確なため、特定の高校名を確定できる状態ではないと判断し記録を見送った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0001,P000092,P000092,PRE_BLEAGUE_HISTORY,HOLD,片岡大晴の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0002,P000109,C001725,HIGH_SCHOOL_PERIOD,HOLD,シェーファーアヴィ幸樹のセントメリーズインターナショナルスクール在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0003,P000109,C001727,ORG_NAME_HISTORY,HOLD,C001727の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0004,P000095,P000095,PRE_BLEAGUE_HISTORY,HOLD,田口成浩の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0005,P000099,P000099,PRE_BLEAGUE_HISTORY,HOLD,水戸健史の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0006,P000101,P000101,SAME_SEASON_TWO_CLUBS,HOLD,田原隆徳の所属履歴には2019-20に「大阪」「宇都宮」の2行がある（シーズン途中の移籍とみられる）。該当するCareerに同じ年を用いた。移籍時期・理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0007,P000101,P000101,PRE_BLEAGUE_HISTORY,HOLD,田原隆徳の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0008,P000101,C001738,ORG_NAME_HISTORY,HOLD,C001738の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0009,P000088,P000088,PRE_BLEAGUE_HISTORY,HOLD,岸本隆一の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0010,P000096,P000096,PRE_BLEAGUE_HISTORY,HOLD,竹内譲次の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0011,P000105,P000105,PRE_BLEAGUE_HISTORY,HOLD,田臥勇太の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0012,P000105,C001751,ORG_NAME_HISTORY,HOLD,C001751の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0013,P000084,P000084,PRE_BLEAGUE_HISTORY,HOLD,比江島慎の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0014,P000084,C001753,ORG_NAME_HISTORY,HOLD,C001753の在籍期間中の公式順位表上のクラブ名は「宇都宮ブレックス」「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0015,P000083,P000083,PRE_BLEAGUE_HISTORY,HOLD,富樫勇樹の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0016,P000091,P000091,PRE_BLEAGUE_HISTORY,HOLD,安藤周人の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0017,P000097,P000097,PRE_BLEAGUE_HISTORY,HOLD,辻直人の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0018,P000100,C001759,HIGH_SCHOOL_PERIOD,HOLD,古川孝敏の御影工業高等学校在籍はB.LEAGUE公式プロフィールで確認できたが、入学・卒業年は資料に記載がなく未確認。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0019,P000100,C001759,ORG_NAME_HISTORY,HOLD,古川孝敏のプロフィールの出身校（高）は「御影工業高等学校」（現・神戸市立科学技術高等学校）。登録Organizationは「御影工業高等学校」。改称前後の名称を1つのOrganizationとして扱った。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0020,P000100,P000100,PRE_BLEAGUE_HISTORY,HOLD,古川孝敏の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0021,P000100,C001760,ORG_NAME_HISTORY,HOLD,C001760の在籍期間中の公式順位表上のクラブ名は「栃木ブレックス」で、登録Organization名「宇都宮ブレックス」と異なる。B.LEAGUE公式のTeamID（703）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0022,P000102,P000102,PRE_BLEAGUE_HISTORY,HOLD,白濱僚祐の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0023,P000087,P000087,PRE_BLEAGUE_HISTORY,HOLD,田中大貴の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0024,P000087,C001768,ORG_NAME_HISTORY,HOLD,C001768の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」「東京サンロッカーズ」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0025,P000086,C001773,ORG_NAME_HISTORY,HOLD,C001773の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0026,P000090,P000090,PRE_BLEAGUE_HISTORY,HOLD,金丸晃輔の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+Batch 7（再確認）,B7W11I0027,P000098,P000098,PRE_BLEAGUE_HISTORY,HOLD,安藤誓哉の公式所属履歴はB.LEAGUE開幕の2016-17シーズンから始まる。開幕前（NBL・bjリーグ等）の在籍は公式所属履歴の対象外のため未確認で、記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
