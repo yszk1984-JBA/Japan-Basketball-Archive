@@ -9,8 +9,18 @@ import {
   getSources,
   organizationSlugAliases,
   organizations,
+  type PublicPlayer,
 } from '../../public-data';
 import { baseOpenGraph, JsonLd, organizationJsonLd, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+
+// この組織での在籍期間（複数回在籍した場合は並べる）。一覧の「現在の所属」ではなく、
+// このページの組織との関係を示す。
+function periodsAt(player: PublicPlayer, organizationId: string): string {
+  const periods = player.careers
+    .filter((career) => career.organizationId === organizationId)
+    .map((career) => career.period);
+  return periods.length > 0 ? `在籍 ${periods.join('、')}` : player.cardContext;
+}
 
 export function generateStaticParams() {
   return [
@@ -74,7 +84,7 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
                 <span className="jbaListB-rosterNumber">M</span>
                 <div>
                   <strong className="jbaListB-rosterName">{player.name}</strong>
-                  <p className="jbaListB-rosterMeta">{player.cardContext} · {player.id} · Master</p>
+                  <p className="jbaListB-rosterMeta">{periodsAt(player, organization.id)} · {player.id} · Master</p>
                 </div>
                 <ArrowUpRight size={16} />
               </a>
@@ -96,7 +106,7 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
                 <span className="jbaListB-rosterNumber">{player.facts.find((fact) => fact.label === '背番号')?.value ?? '—'}</span>
                 <div>
                   <strong className="jbaListB-rosterName">{player.name}</strong>
-                  <p className="jbaListB-rosterMeta">{player.cardContext} · {player.id}</p>
+                  <p className="jbaListB-rosterMeta">{periodsAt(player, organization.id)} · {player.id}</p>
                 </div>
                 <ArrowUpRight size={16} />
               </a>

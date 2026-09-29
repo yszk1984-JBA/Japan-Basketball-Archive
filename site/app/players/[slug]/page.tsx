@@ -163,7 +163,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
                 <span className="jbaListB-sourceId">{source.id}</span>
                 <div>
                   <strong className="jbaListB-sourceTitle">{source.title}</strong>
-                  <p className="jbaListB-sourceMeta">{source.publisher} · {source.location} · 確認日 {source.accessedAt}</p>
+                  <p className="jbaListB-sourceMeta">{source.publisher} · {player.sourceLocations?.[source.id] ?? source.location} · 確認日 {source.accessedAt}</p>
                 </div>
                 <ArrowUpRight size={16} />
               </a>

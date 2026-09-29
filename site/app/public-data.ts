@@ -40,6 +40,8 @@ export type PublicPlayer = {
     readonly value: string;
     readonly sourceIds: readonly string[];
   }[];
+  // 人物ごとの出典内位置（共有される出典、例：順位表で他の選手の位置まで並ばないように）。Master人物のみ。
+  readonly sourceLocations?: Readonly<Record<string, string>>;
 };
 
 export type PublicOrganization = {
@@ -140,12 +142,14 @@ export function getOrganizationSourceIds(organizationId: string): string[] {
 
 
 // 選手一覧・組織カテゴリー表示のために「現在（または直近）の所属」を1件選ぶ。
-// build_site_candidate_data.py / build_site_master_data.py がcardContext生成時に
-// 使っているのと同じ並び替えロジック（(期間未確認かどうか, period文字列)の昇順で
-// 並べて最後の1件を取る）をフロント側でも再現し、cardContextの表示と矛盾しない
-// 組織を選ぶ。既存データやスキーマは変更していない。
+// Master人物は生成済みの並び順の最後の1件、候補人物はbuild_site_candidate_data.pyと
+// 同じ並び替えロジック（(期間未確認かどうか, period文字列)の昇順で並べて最後の1件）で、
+// cardContextの表示と矛盾しない組織を選ぶ。
 export function getPrimaryCareer(player: PublicPlayer) {
   if (player.careers.length === 0) return undefined;
+  // Master人物の経歴はbuild_site_master_data.pyが時系列順（学校→クラブの開始年順）に
+  // 並べ、cardContextも最後の1件から作っているため、同じく最後の1件を使う。
+  if (player.dataStatus === 'master') return player.careers[player.careers.length - 1];
   const sorted = [...player.careers].sort((left, right) => {
     const leftUnknown = left.period === '期間未確認' ? 1 : 0;
     const rightUnknown = right.period === '期間未確認' ? 1 : 0;
