@@ -1,0 +1,10 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B31W4I0001,P000205,C000973,ORG_NAME_HISTORY,HOLD,C000973の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W4I0002,P000205,C000976,ORG_NAME_HISTORY,HOLD,C000976の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W4I0003,P000212,C000981,ORG_NAME_HISTORY,HOLD,C000981の在籍期間中の公式順位表上のクラブ名は「滋賀レイクス」「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W4I0004,P000226,P000226,SAME_SEASON_TWO_CLUBS,HOLD,久岡幸太郎の所属履歴には2023-24に「広島」「茨城」の2行がある（シーズン途中の移籍とみられる）。両方のCareerに同じ年を用いた。移籍時期・理由は記録しない。,クラブ公式の加入・退団発表で時期を確認
+B31W4I0005,P000228,C001011,ORG_NAME_HISTORY,HOLD,C001011の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W4I0006,P000233,P000233,SAME_SEASON_TWO_CLUBS,HOLD,モッチラミンの所属履歴には2024-25に「三河」「佐賀」の2行がある（シーズン途中の移籍とみられる）。両方のCareerに同じ年を用いた。移籍時期・理由は記録しない。,クラブ公式の加入・退団発表で時期を確認
+B31W4I0007,P000233,C001022,ORG_NAME_HISTORY,HOLD,C001022の在籍期間中の公式順位表上のクラブ名は「埼玉ブロンコス」で、登録Organization名「さいたまブロンコス」と異なる。B.LEAGUE公式のTeamID（744）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W4I0008,P000234,C001025,ORG_NAME_HISTORY,HOLD,C001025の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W4I0009,P000238,C001031,ORG_NAME_HISTORY,HOLD,C001031の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討

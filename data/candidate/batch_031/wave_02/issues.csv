@@ -1,0 +1,8 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B31W2I0001,P000144,P000144,SAME_SEASON_TWO_CLUBS,HOLD,谷口光貴の所属履歴には2020-21に「滋賀」「香川」の2行がある（シーズン途中の移籍とみられる）。両方のCareerに同じ年を用いた。移籍時期・理由は記録しない。,クラブ公式の加入・退団発表で時期を確認
+B31W2I0002,P000144,C000861,ORG_NAME_HISTORY,HOLD,C000861の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W2I0003,P000148,C000874,ORG_NAME_HISTORY,HOLD,C000874の在籍期間中の公式順位表上のクラブ名は「サンロッカーズ渋谷」で、登録Organization名「東京サンロッカーズ」と異なる。B.LEAGUE公式のTeamID（726）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W2I0004,P000150,C000875,ORG_NAME_HISTORY,HOLD,C000875の在籍期間中の公式順位表上のクラブ名は「滋賀レイクスターズ」で、登録Organization名「滋賀レイクス」と異なる。B.LEAGUE公式のTeamID（698）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
+B31W2I0005,P000152,C000513,MASTER_PERIOD_DIFFERENCE,HOLD,大西一輝の既存Master Career C000513（ヴィアティン三重、start=空・end=空）は、B.LEAGUE公式所属履歴から導いた期間（2026-27〜2026-27、start=2026・end=空）と異なる、または期間が未記録。Masterの値は変更していない。,差異の理由（特別指定・契約時期等）を確認し、必要なら訂正経路で扱う
+B31W2I0006,P000154,P000154,SAME_SEASON_TWO_CLUBS,HOLD,小栗瑛哉の所属履歴には2022-23に「秋田」「金沢」の2行がある（シーズン途中の移籍とみられる）。両方のCareerに同じ年を用いた。移籍時期・理由は記録しない。,クラブ公式の加入・退団発表で時期を確認
+B31W2I0007,P000154,C000885,ORG_NAME_HISTORY,HOLD,C000885の在籍期間中の公式順位表上のクラブ名は「金沢武士団」で、登録Organization名「金沢サムライズ」と異なる。B.LEAGUE公式のTeamID（750）が同一のため、Yuichiの判断（2026-09-29、栃木→宇都宮ブレックスと同じ扱い）により同一Organizationとして登録した。,Organization名称の時系列表現（改称履歴）のスキーマ整備を検討
