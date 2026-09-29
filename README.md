@@ -58,6 +58,7 @@ Governance v1.0に基づき、福岡第一高校をコアにB.LEAGUE・プロ選
 - [Approval Sprint 007](data/verified/approval_sprint_007/README.md)：強豪校第2弾（Batch 019〜030）46人のHuman Approval資料と承認記録
 - [DEEPENING_BLEAGUE_ERA_PLAN](docs/DEEPENING_BLEAGUE_ERA_PLAN.md)：Master既存選手のB.LEAGUE期の過去所属クラブを深掘りする計画
 - [Batch 031 CANDIDATE](data/candidate/batch_031/README.md)：上記の深掘り結果（新規Career 264件、108名分）
+- [Approval Sprint 008](data/verified/approval_sprint_008/README.md)：batch_031（過去所属Career 264件）とORG000222名称訂正のHuman Approval資料（2段階承認の初回）
 - [BATCH_006_PROPOSAL](docs/BATCH_006_PROPOSAL.md)：B.LEAGUE・プロ選手を優先する次の4人Wave
 - [Batch 006 CANDIDATE](data/candidate/batch_006/README.md)：Master未登録のプロ選手4人を対象にした候補データ
 - [Batch 006 VERIFIED](data/verified/batch_006/README.md)：QA通過項目だけを抽出した確認済み候補
