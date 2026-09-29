@@ -38,11 +38,26 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
   { key: 'sources', label: '出典数順' },
 ];
 
+const MAX_COMPARE = 4;
+
 export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow[]; totalCount: number }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('all');
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>('all');
   const [sortKey, setSortKey] = useState<SortKey>('default');
+  const [selected, setSelected] = useState<ReadonlySet<string>>(new Set());
+
+  const toggleSelected = (slug: string) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(slug)) {
+        next.delete(slug);
+      } else if (next.size < MAX_COMPARE) {
+        next.add(slug);
+      }
+      return next;
+    });
+  };
 
   const filtered = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
@@ -140,8 +155,31 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
         </div>
       </div>
 
+      {selected.size > 0 && (
+        <div className="jbaListB-compareBar">
+          <span className="jbaListB-compareBarText">
+            {selected.size}人選択中{selected.size >= MAX_COMPARE ? `（最大${MAX_COMPARE}人まで）` : ''}
+          </span>
+          <div className="jbaListB-compareBarActions">
+            <button type="button" className="jbaListB-compareBarClear" onClick={() => setSelected(new Set())}>
+              選択を解除
+            </button>
+            {selected.size >= 2 ? (
+              <a href={`/players/compare?slugs=${[...selected].join(',')}`} className="jbaListB-compareBarButton">
+                比較する（{selected.size}人）
+              </a>
+            ) : (
+              <span className="jbaListB-compareBarButton" aria-disabled="true">
+                あと1人選んでください
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+
       <div className="jbaListB-table">
         <div className="jbaListB-tableHead jbaListB-playersGrid">
+          <div />
           <div>氏名</div>
           <div>所属</div>
           <div>カテゴリー</div>
@@ -152,41 +190,57 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
           <div className="jbaListB-empty">条件に一致する選手がいません。検索キーワードや絞り込みを変えてみてください。</div>
         ) : (
           filtered.map((row) => {
+            const isSelected = selected.has(row.slug);
             return (
-              <a href={`/players/${row.slug}`} key={row.id} className="jbaListB-row jbaListB-playersGrid">
-                <div className="jbaListB-rowName">{row.name}</div>
-                <div className="jbaListB-rowMuted">{row.org ?? '所属未確認'}</div>
-                <div className="jbaListB-pillWrap">
-                  {row.categories.length === 0 ? (
-                    <span className="jbaListB-rowMuted">—</span>
-                  ) : (
-                    row.categories.map((category) => {
-                      const categoryMeta = ORGANIZATION_CATEGORY_META[category];
-                      return (
-                        <span
-                          key={category}
-                          className="jbaListB-pill"
-                          style={{ background: categoryMeta.bg, color: categoryMeta.color }}
-                        >
-                          {categoryMeta.label}
-                        </span>
-                      );
-                    })
-                  )}
-                </div>
-                <div>
-                  <span
-                    className={`jbaListB-pill ${row.status === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}
-                  >
-                    {row.status === 'master' ? '承認済み' : '確認中'}
-                  </span>
-                </div>
-                <div className="jbaListB-rowMuted">{row.sources}件</div>
-              </a>
+              <div key={row.id} className="jbaListB-row jbaListB-playersGrid">
+                <span className="jbaListB-checkboxCell">
+                  <input
+                    type="checkbox"
+                    checked={isSelected}
+                    disabled={!isSelected && selected.size >= MAX_COMPARE}
+                    onChange={() => toggleSelected(row.slug)}
+                    aria-label={`${row.name}を比較に追加`}
+                  />
+                </span>
+                <a href={`/players/${row.slug}`} style={{ display: 'contents' }}>
+                  <div className="jbaListB-rowName">{row.name}</div>
+                  <div className="jbaListB-rowMuted">{row.org ?? '所属未確認'}</div>
+                  <div className="jbaListB-pillWrap">
+                    {row.categories.length === 0 ? (
+                      <span className="jbaListB-rowMuted">—</span>
+                    ) : (
+                      row.categories.map((category) => {
+                        const categoryMeta = ORGANIZATION_CATEGORY_META[category];
+                        return (
+                          <span
+                            key={category}
+                            className="jbaListB-pill"
+                            style={{ background: categoryMeta.bg, color: categoryMeta.color }}
+                          >
+                            {categoryMeta.label}
+                          </span>
+                        );
+                      })
+                    )}
+                  </div>
+                  <div>
+                    <span
+                      className={`jbaListB-pill ${row.status === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}
+                    >
+                      {row.status === 'master' ? '承認済み' : '確認中'}
+                    </span>
+                  </div>
+                  <div className="jbaListB-rowMuted">{row.sources}件</div>
+                </a>
+              </div>
             );
           })
         )}
       </div>
+
+      <p className="jbaListB-hint">
+        ※ 選手名の左のチェックボックスで2〜{MAX_COMPARE}人を選ぶと、経歴・確認できた情報を並べて比較できます。
+      </p>
     </>
   );
 }
