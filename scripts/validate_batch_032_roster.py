@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Validate Batch 032 (roster-based expansion) and batch_007/wave_11 (re-check)."""
+"""Validate a roster-based batch: 032 (+ batch_007/wave_11 re-check) or 033.
+
+Run: validate_batch_032_roster.py [32|33]
+"""
 
 from __future__ import annotations
 
@@ -13,18 +16,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from jba_lib.csv_io import read_csv  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = ROOT / "data" / "candidate" / "batch_032"
-RECHECK = ROOT / "data" / "candidate" / "batch_007" / "wave_11"
 B7 = ROOT / "data" / "candidate" / "batch_007"
 CHECK_DATE = date(2026, 9, 30)
+BATCH = int(sys.argv[1]) if len(sys.argv) > 1 else 32
+BASE = ROOT / "data" / "candidate" / f"batch_{BATCH:03d}"
+RECHECK = B7 / "wave_11" if BATCH == 32 else None
+LATER = [ROOT / "data" / "candidate" / f"batch_{b:03d}" for b in (33,) if b > BATCH]
 
 
 def main() -> int:
     errors: list[str] = []
-    ours = [*sorted(BASE.glob("wave_*")), RECHECK]
+    ours = [*sorted(BASE.glob("wave_*")), *([RECHECK] if RECHECK else [])]
 
     def is_ours(path: Path) -> bool:
-        return any(w == path.parent for w in ours)
+        return any(w == path.parent for w in ours) or any(l in path.parents for l in LATER)
 
     other_people, other_careers, other_orgs = set(), {}, {}
     for r in read_csv(ROOT / "data/master/person.csv"):
@@ -70,7 +75,7 @@ def main() -> int:
         issues = read_csv(wave / "issues.csv")
         decisions = read_csv(wave / "qa_decisions.csv")
         recheck = wave == RECHECK
-        name = "batch_007/wave_11" if recheck else f"batch_032/{wave.name}"
+        name = "batch_007/wave_11" if recheck else f"batch_{BATCH:03d}/{wave.name}"
 
         for oid, oname in orgs.items():
             known = other_orgs.get(oid, new_org_names.get(oid))
@@ -157,11 +162,12 @@ def main() -> int:
             errors.append(f"同じ人物・所属・開始年のCareerが{v}件 {key}")
 
     report = [
-        "# Batch 032（ロスター起点の横展開）・batch_007 wave_11（再確認）検証レポート", "", "作成日：2026-09-30", "",
+        ("# Batch 032（ロスター起点の横展開）・batch_007 wave_11（再確認）検証レポート" if RECHECK else
+         f"# Batch {BATCH:03d}（ロスター起点の横展開）検証レポート"), "", "作成日：2026-09-30", "",
         f"- 検証：{'PASS' if not errors else 'FAIL'}", f"- エラー：{len(errors)}件",
         f"- Person：{totals['persons']}件（新規）", f"- Career：{totals['careers']}件", f"- Evidence：{totals['evidence']}件",
         f"- Source：{totals['sources']}件", f"- Issue：{totals['issues']}件",
-        f"- 取り下げ（REJECT_CANDIDATE）：{len(rejected)}件（batch_007の期間未記録Career）",
+        *([f"- 取り下げ（REJECT_CANDIDATE）：{len(rejected)}件（batch_007の期間未記録Career）"] if RECHECK else []),
         "- VERIFIED・Master・公開サイト：未変更", "",
         "| Wave | Person | Career | Evidence | Source | Issue |", "| --- | ---: | ---: | ---: | ---: | ---: |", *lines,
         "", "## エラー", "",

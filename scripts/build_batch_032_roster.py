@@ -53,17 +53,47 @@ from jba_lib.bleague_history import (  # noqa: E402
 )
 from jba_lib.csv_io import write_csv  # noqa: E402
 
-CHECKED_AT = "2026-09-30"
-CHECK_DATE = date(2026, 9, 30)
 CURRENT_SEASON = 2026
 WAVE_SIZE = 40
-FIRST_PERSON = 239
-FIRST_CAREER = 1033
-FIRST_ORG = 229
-ROSTER_FILE = RAW / "bleague_roster_premier_2026-09-29.tsv"
-PROFILE_FILE = RAW / "bleague_profiles_roster_2026-09-29.txt"
-OUT = ROOT / "data" / "candidate" / "batch_032"
-RECHECK_OUT = ROOT / "data" / "candidate" / "batch_007" / "wave_11"
+# One entry per roster-based batch. Run: build_batch_032_roster.py [32|33].
+# Earlier batches must keep producing byte-identical output (their
+# CANDIDATE snapshot is fixed by VERIFIED), so a new league level is a new
+# entry, never an edit of an existing one.
+CONFIGS = {
+    32: {  # B.PREMIER 2026-27 (Yuichi, 2026-09-29)
+        "checked_at": "2026-09-30", "check_date": date(2026, 9, 30),
+        "first_person": 239, "first_career": 1033, "first_org": 229,
+        "roster": "bleague_roster_premier_2026-09-29.tsv",
+        "profiles": "bleague_profiles_roster_2026-09-29.txt",
+        "recheck_out": ROOT / "data" / "candidate" / "batch_007" / "wave_11",
+        "roster_label": "",
+    },
+    33: {  # B.ONE 2026-27 (Yuichi, 2026-09-30: 「B.ONEの25クラブについても進める」)
+        "checked_at": "2026-09-30", "check_date": date(2026, 9, 30),
+        "first_person": 382, "first_career": 1789, "first_org": 357,
+        "roster": "bleague_roster_bone_2026-09-30.tsv",
+        "profiles": "bleague_profiles_roster_bone_2026-09-30.txt",
+        "recheck_out": None,
+        "roster_label": "tab=2&",
+    },
+}
+BATCH = 32
+CHECKED_AT = CHECK_DATE = FIRST_PERSON = FIRST_CAREER = FIRST_ORG = None
+ROSTER_FILE = PROFILE_FILE = OUT = RECHECK_OUT = None
+ROSTER_QUERY = ""
+
+
+def configure(batch: int) -> None:
+    global BATCH, CHECKED_AT, CHECK_DATE, FIRST_PERSON, FIRST_CAREER, FIRST_ORG
+    global ROSTER_FILE, PROFILE_FILE, OUT, RECHECK_OUT, ROSTER_QUERY
+    c = CONFIGS[batch]
+    BATCH = batch
+    CHECKED_AT, CHECK_DATE = c["checked_at"], c["check_date"]
+    FIRST_PERSON, FIRST_CAREER, FIRST_ORG = c["first_person"], c["first_career"], c["first_org"]
+    ROSTER_FILE, PROFILE_FILE = RAW / c["roster"], RAW / c["profiles"]
+    OUT = ROOT / "data" / "candidate" / f"batch_{batch:03d}"
+    RECHECK_OUT = c["recheck_out"]
+    ROSTER_QUERY = c["roster_label"]
 
 # TeamIDs that are not yet an Organization -> (org_id, name). Filled from the
 # unresolved list the first run prints; names are the latest spelling on the
@@ -77,20 +107,36 @@ NEW_TEAMS: dict[str, str] = {
 RENAMED_SCHOOLS = {
     "東海大学付属第四高等学校": "東海大学付属札幌高等学校",
     "東海大学付属第三高等学校": "東海大学付属諏訪高等学校",
+    # batch_007/wave_11 registered the former name 「御影工業高等学校」
+    # (古川孝敏's profile: 御影工業(現・神戸市立科学技術)). That snapshot is
+    # fixed, so later batches map the current name onto it.
+    "神戸市立科学技術高等学校": "御影工業高等学校",
 }
 # Different spellings of an already registered school (no rename involved).
 SPELLING_ALIASES = {
     "桐光学園高等学校": "桐光学園高校",
     "私立延岡学園高等学校": "延岡学園高等学校",
     "学校法人土浦日本大学学園土浦日本大学高等学校": "土浦日本大学高等学校",
+    # batch_033 (B.ONE): prefix / abbreviation differences only
+    "宇都宮工業高等学校": "栃木県立宇都宮工業高等学校",
+    "東海大付属浦安高等学校": "東海大学付属浦安高等学校",
+    "大阪市立桜宮高校": "桜宮高等学校",
+    "小林高等学校": "宮崎県立小林高等学校",
+    "松山工業高等学校": "愛媛県立松山工業高等学校",
+    "静岡県沼津私立飛龍高等学校": "飛龍高等学校",
+    "宮崎県私立延岡学園高等学校": "延岡学園高等学校",
+    "愛知県中部大学第一高等学校": "中部大学第一高等学校",
 }
 SCHOOL_ALIASES = {**RENAMED_SCHOOLS, **SPELLING_ALIASES}
 # Two Organizations already registered for the same university under
 # different glyphs (白鷗/白鴎). Unifying them is Yuichi's call; until then a
 # person who already has one of them is not given the other.
 EQUIVALENT_ORGS = {"ORG000093": "ORG000208", "ORG000208": "ORG000093"}
+# Organization IDs merged away by a MASTER correction; never matched again
+# (data/master/corrections/2026-09-23_org000017_org000019.md).
+RETIRED_ORGS = {"ORG000017"}
 # Entries printed in a school field that are not schools (a club team).
-NON_SCHOOL_ENTRIES = {"Tokyo Samurai"}
+NON_SCHOOL_ENTRIES = {"Tokyo Samurai", "千葉ジェッツふなばしU18"}
 
 CAREER_HEADERS = ["career_id", "person_id", "organization_id", "role", "start", "end"]
 SOURCE_HEADERS = ["source_id", "title", "publisher", "url", "accessed_at"]
@@ -111,7 +157,7 @@ def split_schools(text: str) -> list[dict[str, str]]:
     if text in ("", "-"):
         return []
     out = []
-    for part in re.split(r"、|, | / ", text):
+    for part in re.split(r"、|, | / | - |/", text):
         part = part.strip()
         if not part:
             continue
@@ -198,7 +244,11 @@ class Writer:
 
 
 def main() -> None:
-    orgs = all_organizations(exclude=("batch_032", "wave_11"))
+    own = (f"batch_{BATCH:03d}",) + (("wave_11",) if RECHECK_OUT else ())
+    # A later batch may reuse Organizations created by an earlier (not yet
+    # approved) roster batch; it never reads its own output.
+    later = tuple(f"batch_{b:03d}" for b in CONFIGS if b > BATCH)
+    orgs = all_organizations(exclude=own + later)
     profiles = load_profiles()
     roster = [dict(zip(["club", "abbr", "pid", "name"], line.split("\t")))
               for line in ROSTER_FILE.read_text(encoding="utf-8").splitlines()
@@ -209,7 +259,7 @@ def main() -> None:
     master_names = {r["name"].replace(" ", ""): r["person_id"] for r in read(ROOT / "data/master/person.csv")}
     known_names = set(master_names)
     for path in (ROOT / "data" / "candidate").rglob("person_candidates.csv"):
-        if "batch_032" in path.parts or "wave_11" in path.parts:
+        if any(part in path.parts for part in own + later):
             continue
         known_names |= {r["name"].replace(" ", "") for r in read(path)}
 
@@ -245,12 +295,17 @@ def main() -> None:
         new_orgs[oid] = name
         return oid
 
-    extra_teams = {tid: add_org(name) for tid, name in NEW_TEAMS.items()}
+    # A club already created by an earlier roster batch is reused.
+    extra_teams = {}
+    for tid, name in NEW_TEAMS.items():
+        existing = [oid for oid, n in orgs.items() if n == name]
+        extra_teams[tid] = existing[0] if existing else add_org(name)
     resolver = Resolver(orgs, extra_teams)
 
     by_key = defaultdict(set)
     for oid, name in orgs.items():
-        by_key[school_key(name)].add(oid)
+        if oid not in RETIRED_ORGS:
+            by_key[school_key(name)].add(oid)
     printed_variants = defaultdict(list)
     for p in new_targets + recheck:
         for field in ("hs", "uni"):
@@ -401,7 +456,7 @@ def main() -> None:
             rc = roster_club.get(w.current_bid)
             if rc:
                 roster_sid = w.source(("roster", rc["club"]), f"B.LEAGUE 選手一覧 2026-27（{rc['abbr']}、日本、在籍中）",
-                                      f"https://www.bleague.jp/roster/?year=2026&club={rc['club']}&c=日本&e=在籍中&o=sort")
+                                      f"https://www.bleague.jp/roster/?{ROSTER_QUERY}year=2026&club={rc['club']}&c=日本&e=在籍中&o=sort")
                 w.ev("Career", cid, "organization_id", org, roster_sid, f"選手一覧 > {rc['abbr']} > {rc['name']}",
                      "2026-27シーズンの公式選手一覧で現所属を確認")
         return cid
@@ -411,7 +466,7 @@ def main() -> None:
     waves = [new_targets[i:i + WAVE_SIZE] for i in range(0, len(new_targets), WAVE_SIZE)]
     report = []
     for wave_no, chunk in enumerate(waves, 1):
-        w = Writer(f"B32W{wave_no}")
+        w = Writer(f"B{BATCH}W{wave_no}")
         for p in chunk:
             pid = f"P{person_seq:06d}"
             person_seq += 1
@@ -430,110 +485,112 @@ def main() -> None:
             for org, items in club_rows(w, pid, plain, p, prof_sid):
                 add_club_career(w, pid, org, items, prof_sid)
         w.write(OUT / f"wave_{wave_no:02d}")
-        report.append((f"batch_032/wave_{wave_no:02d}", len(w.persons), len(w.careers), len(w.evidence), len(w.issues)))
+        report.append((f"batch_{BATCH:03d}/wave_{wave_no:02d}", len(w.persons), len(w.careers), len(w.evidence), len(w.issues)))
 
-    # ---- Re-check of unapproved batch_007 persons -----------------------
-    old_people, old_careers, old_dec = {}, defaultdict(list), {}
-    old_sources_pid = {}
-    for wdir in sorted((ROOT / "data/candidate/batch_007").glob("wave_*")):
-        if wdir.name == "wave_11":
-            continue
-        for r in read(wdir / "person_candidates.csv"):
-            old_people[r["person_id"]] = r["name"]
-        for r in read(wdir / "career_candidates.csv"):
-            old_careers[r["person_id"]].append(r)
-        for r in read(wdir / "qa_decisions.csv"):
-            old_dec[r["entity_id"]] = r["decision"]
-        for r in read(wdir / "source_references.csv"):
-            m = re.search(r"PlayerID=(\d+)|/player/(\d+)/", r["url"] + " " + r["publisher"])
-            if m:
-                old_sources_pid.setdefault(m.group(1) or m.group(2), set())
     pid_by_bid = {}
-    for wdir in sorted((ROOT / "data/candidate/batch_007").glob("wave_*")):
-        if wdir.name == "wave_11":
-            continue
-        srcs = {r["source_id"]: r for r in read(wdir / "source_references.csv")}
-        for r in read(wdir / "evidence_records.csv"):
-            s = srcs.get(r["source_id"])
-            if not s:
+    if RECHECK_OUT is not None:
+        # ---- Re-check of unapproved batch_007 persons -----------------------
+        old_people, old_careers, old_dec = {}, defaultdict(list), {}
+        old_sources_pid = {}
+        for wdir in sorted((ROOT / "data/candidate/batch_007").glob("wave_*")):
+            if wdir.name == "wave_11":
                 continue
-            m = re.search(r"PlayerID=(\d+)|/player/(\d+)/", s["url"] + " " + s["publisher"])
-            if not m:
+            for r in read(wdir / "person_candidates.csv"):
+                old_people[r["person_id"]] = r["name"]
+            for r in read(wdir / "career_candidates.csv"):
+                old_careers[r["person_id"]].append(r)
+            for r in read(wdir / "qa_decisions.csv"):
+                old_dec[r["entity_id"]] = r["decision"]
+            for r in read(wdir / "source_references.csv"):
+                m = re.search(r"PlayerID=(\d+)|/player/(\d+)/", r["url"] + " " + r["publisher"])
+                if m:
+                    old_sources_pid.setdefault(m.group(1) or m.group(2), set())
+        pid_by_bid = {}
+        for wdir in sorted((ROOT / "data/candidate/batch_007").glob("wave_*")):
+            if wdir.name == "wave_11":
                 continue
-            bid = m.group(1) or m.group(2)
-            person = r["entity_id"] if r["entity_type"] == "Person" else next(
-                (c["person_id"] for cs in old_careers.values() for c in cs if c["career_id"] == r["entity_id"]), None)
-            if person and old_dec.get(person) != "REJECT_CANDIDATE":
-                pid_by_bid.setdefault(bid, person)
-
-    w = Writer("B7W11")
-    for p in recheck:
-        bid = p["pid"]
-        pid = pid_by_bid.get(bid)
-        if not pid:
-            raise SystemExit(f"no batch_007 person for PlayerID {bid} ({p['title']})")
-        plain = old_people[pid].replace(" ", "")
-        w.current_pid, w.current_bid = pid, bid
-        prof_sid = w.source(("profile", bid), f"{plain} 選手プロフィール（再確認）",
-                            f"https://www.bleague.jp/roster_detail/?PlayerID={bid}")
-        mine = [c for c in old_careers[pid] if old_dec.get(c["career_id"]) != "REJECT_CANDIDATE"]
-        by_org = {c["organization_id"]: c for c in mine}
-        # Schools: keep existing ones, add schools the profile lists that are missing.
-        register_schools(w, pid, plain, p, prof_sid, by_org)
-        for field, label in (("hs", "出身校（高）"), ("uni", "出身校（大）")):
-            listed = {school_org[school_key(SCHOOL_ALIASES.get(s["printed"], s["printed"]))]
-                      for s in split_schools(p[field]) if "?" not in s["printed"] and s["printed"] not in NON_SCHOOL_ENTRIES}
-            for c in mine:
-                if not c["start"] and (c["organization_id"] in listed or EQUIVALENT_ORGS.get(c["organization_id"]) in listed):
-                    w.ev("Career", c["career_id"], "organization_id", c["organization_id"], prof_sid,
-                         f"基本情報 > {label}：{p[field]}", f"最新のB.LEAGUE公式プロフィールでも{label}を確認（再確認）")
-        # Clubs.
-        club_stints = club_rows(w, pid, plain, p, prof_sid)
-        latest = {}
-        for i, (org, _) in enumerate(club_stints):
-            latest[org] = i
-        school_orgs = by_org_schools(p, school_org)
-        used = set()
-        for i, (org, items) in enumerate(club_stints):
-            s, last = items[0][0], items[-1][0]
-            e = "" if last >= CURRENT_SEASON else str(last + 1)
-            match = None
-            for c in mine:
-                if c["organization_id"] != org or c["career_id"] in used:
+            srcs = {r["source_id"]: r for r in read(wdir / "source_references.csv")}
+            for r in read(wdir / "evidence_records.csv"):
+                s = srcs.get(r["source_id"])
+                if not s:
                     continue
-                if not c["start"] and not c["end"]:
-                    # batch_007 registered only the then-current club, without
-                    # dates: it corresponds to the latest stay at that club.
-                    if i == latest[org]:
+                m = re.search(r"PlayerID=(\d+)|/player/(\d+)/", s["url"] + " " + s["publisher"])
+                if not m:
+                    continue
+                bid = m.group(1) or m.group(2)
+                person = r["entity_id"] if r["entity_type"] == "Person" else next(
+                    (c["person_id"] for cs in old_careers.values() for c in cs if c["career_id"] == r["entity_id"]), None)
+                if person and old_dec.get(person) != "REJECT_CANDIDATE":
+                    pid_by_bid.setdefault(bid, person)
+
+        w = Writer("B7W11")
+        for p in recheck:
+            bid = p["pid"]
+            pid = pid_by_bid.get(bid)
+            if not pid:
+                raise SystemExit(f"no batch_007 person for PlayerID {bid} ({p['title']})")
+            plain = old_people[pid].replace(" ", "")
+            w.current_pid, w.current_bid = pid, bid
+            prof_sid = w.source(("profile", bid), f"{plain} 選手プロフィール（再確認）",
+                                f"https://www.bleague.jp/roster_detail/?PlayerID={bid}")
+            mine = [c for c in old_careers[pid] if old_dec.get(c["career_id"]) != "REJECT_CANDIDATE"]
+            by_org = {c["organization_id"]: c for c in mine}
+            # Schools: keep existing ones, add schools the profile lists that are missing.
+            register_schools(w, pid, plain, p, prof_sid, by_org)
+            for field, label in (("hs", "出身校（高）"), ("uni", "出身校（大）")):
+                listed = {school_org[school_key(SCHOOL_ALIASES.get(s["printed"], s["printed"]))]
+                          for s in split_schools(p[field]) if "?" not in s["printed"] and s["printed"] not in NON_SCHOOL_ENTRIES}
+                for c in mine:
+                    if not c["start"] and (c["organization_id"] in listed or EQUIVALENT_ORGS.get(c["organization_id"]) in listed):
+                        w.ev("Career", c["career_id"], "organization_id", c["organization_id"], prof_sid,
+                             f"基本情報 > {label}：{p[field]}", f"最新のB.LEAGUE公式プロフィールでも{label}を確認（再確認）")
+            # Clubs.
+            club_stints = club_rows(w, pid, plain, p, prof_sid)
+            latest = {}
+            for i, (org, _) in enumerate(club_stints):
+                latest[org] = i
+            school_orgs = by_org_schools(p, school_org)
+            used = set()
+            for i, (org, items) in enumerate(club_stints):
+                s, last = items[0][0], items[-1][0]
+                e = "" if last >= CURRENT_SEASON else str(last + 1)
+                match = None
+                for c in mine:
+                    if c["organization_id"] != org or c["career_id"] in used:
+                        continue
+                    if not c["start"] and not c["end"]:
+                        # batch_007 registered only the then-current club, without
+                        # dates: it corresponds to the latest stay at that club.
+                        if i == latest[org]:
+                            match = c
+                            break
+                        continue
+                    lo = int(c["start"]) if c["start"] else -1
+                    hi = int(c["end"]) if c["end"] else 9999
+                    if lo <= last + 1 and hi >= s:
                         match = c
                         break
+                if match and match["start"] == str(s) and match["end"] == e:
+                    used.add(match["career_id"])
                     continue
-                lo = int(c["start"]) if c["start"] else -1
-                hi = int(c["end"]) if c["end"] else 9999
-                if lo <= last + 1 and hi >= s:
-                    match = c
-                    break
-            if match and match["start"] == str(s) and match["end"] == e:
-                used.add(match["career_id"])
-                continue
-            new_cid = add_club_career(w, pid, org, items, prof_sid)
-            if match:
-                used.add(match["career_id"])
-                w.decide("Career", match["career_id"], "REJECT_CANDIDATE", "", "",
-                         f"最新のB.LEAGUE公式所属履歴（{CHECKED_AT}）から期間付きのCareer {new_cid}（{season_label(s)}〜{season_label(last)}）を作成したため、期間が未記録または異なる旧Career（start={match['start'] or '空'}・end={match['end'] or '空'}）を取り下げ")
-        club_orgs = club_like_orgs(resolver)
-        for c in mine:
-            if c["career_id"] in used or c["organization_id"] in school_orgs or EQUIVALENT_ORGS.get(c["organization_id"]) in school_orgs:
-                continue
-            if c["organization_id"] in club_orgs and not c["start"] and not c["end"]:
-                w.issue(pid, c["career_id"], "CANDIDATE_NOT_IN_HISTORY",
-                        f"{plain}の候補Career {c['career_id']}（{orgs[c['organization_id']]}、期間未記録）は、最新のB.LEAGUE公式所属履歴に該当する行がない。取り下げはせず、確認待ちとした。",
-                        "クラブ公式発表で在籍の有無・時期を確認")
-                w.decide("Career", c["career_id"], "HOLD_CANDIDATE", "", "organization_id|role|start|end",
-                         "最新の公式所属履歴に該当行がないため保留")
-    w.persons = []
-    w.write(RECHECK_OUT)
-    report.append(("batch_007/wave_11", len(recheck), len(w.careers), len(w.evidence), len(w.issues)))
+                new_cid = add_club_career(w, pid, org, items, prof_sid)
+                if match:
+                    used.add(match["career_id"])
+                    w.decide("Career", match["career_id"], "REJECT_CANDIDATE", "", "",
+                             f"最新のB.LEAGUE公式所属履歴（{CHECKED_AT}）から期間付きのCareer {new_cid}（{season_label(s)}〜{season_label(last)}）を作成したため、期間が未記録または異なる旧Career（start={match['start'] or '空'}・end={match['end'] or '空'}）を取り下げ")
+            club_orgs = club_like_orgs(resolver)
+            for c in mine:
+                if c["career_id"] in used or c["organization_id"] in school_orgs or EQUIVALENT_ORGS.get(c["organization_id"]) in school_orgs:
+                    continue
+                if c["organization_id"] in club_orgs and not c["start"] and not c["end"]:
+                    w.issue(pid, c["career_id"], "CANDIDATE_NOT_IN_HISTORY",
+                            f"{plain}の候補Career {c['career_id']}（{orgs[c['organization_id']]}、期間未記録）は、最新のB.LEAGUE公式所属履歴に該当する行がない。取り下げはせず、確認待ちとした。",
+                            "クラブ公式発表で在籍の有無・時期を確認")
+                    w.decide("Career", c["career_id"], "HOLD_CANDIDATE", "", "organization_id|role|start|end",
+                             "最新の公式所属履歴に該当行がないため保留")
+        w.persons = []
+        w.write(RECHECK_OUT)
+        report.append(("batch_007/wave_11", len(recheck), len(w.careers), len(w.evidence), len(w.issues)))
 
     for r in report:
         print("%s: persons=%d careers=%d evidence=%d issues=%d" % r)
@@ -570,7 +627,8 @@ def write_summary(new_targets, recheck, excluded, new_orgs, pid_by_bid) -> None:
     wc(OUT / "targets.csv", ["person_id", "bleague_player_id", "name", "club_abbr", "birth_date", "wave"],
        [{"person_id": p["person_id"], "bleague_player_id": p["pid"], "name": p["rname"], "club_abbr": p["abbr"],
          "birth_date": p["birth_iso"], "wave": f"wave_{i // WAVE_SIZE + 1:02d}"} for i, p in enumerate(new_targets)])
-    wc(OUT / "recheck_targets.csv", ["person_id", "bleague_player_id", "name", "club_abbr"],
+    if RECHECK_OUT is not None:
+        wc(OUT / "recheck_targets.csv", ["person_id", "bleague_player_id", "name", "club_abbr"],
        [{"person_id": pid_by_bid[p["pid"]], "bleague_player_id": p["pid"], "name": p["rname"], "club_abbr": p["abbr"]}
         for p in recheck])
     wc(OUT / "excluded.csv", ["bleague_player_id", "name", "club_abbr", "reason"],
@@ -580,4 +638,5 @@ def write_summary(new_targets, recheck, excluded, new_orgs, pid_by_bid) -> None:
 
 
 if __name__ == "__main__":
+    configure(int(sys.argv[1]) if len(sys.argv) > 1 else 32)
     main()
