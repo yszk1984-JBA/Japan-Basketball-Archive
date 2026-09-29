@@ -1124,13 +1124,30 @@ a.jbaListB-timelineOrg:hover {
     grid-template-columns: 68px 18px 1fr;
   }
 
-  .jbaListB-sourceRow,
-  .jbaListB-rosterRow {
+  .jbaListB-sourceRow {
     grid-template-columns: 1fr 18px;
   }
 
   .jbaListB-sourceId {
     grid-column: 1 / -1;
+  }
+
+  /* 組織詳細の在籍者リストは列数がsourceRowと異なるため、grid流用ではなくflexで組み直す。
+     （numberバッジの列にname/metaが押し込まれ、日本語名が1文字ずつ縦積みになる不具合の修正） */
+  .jbaListB-rosterRow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .jbaListB-rosterNumber {
+    flex: 0 0 auto;
+    min-width: 24px;
+  }
+
+  .jbaListB-rosterRow > div {
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .jbaListB-row.jbaListB-playersGrid {
