@@ -1,0 +1,95 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7W11D0001,Career,C001720,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0002,Career,C001721,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0003,Career,C001722,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0004,Career,C001723,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0005,Career,C001724,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0006,Career,C000318,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001724（2026-27〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0007,Career,C001725,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-30
+B7W11D0008,Career,C001726,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0009,Career,C001727,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0010,Career,C001728,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0011,Career,C001729,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0012,Career,C000376,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001729（2026-27〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0013,Career,C001730,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0014,Career,C001731,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0015,Career,C001732,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0016,Career,C000333,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001732（2021-22〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0017,Career,C001733,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0018,Career,C000344,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001733（2016-17〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0019,Career,C001734,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0020,Career,C001735,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0021,Career,C001736,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0022,Career,C000374,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001736（2022-23〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0023,Career,C001737,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0024,Career,C001738,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0025,Career,C001739,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0026,Career,C001740,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0027,Career,C001741,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0028,Career,C001742,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0029,Career,C000349,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001742（2023-24〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0030,Career,C001743,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0031,Career,C001744,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0032,Career,C000306,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001744（2026-27〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0033,Career,C001745,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0034,Career,C001746,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0035,Career,C000336,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001746（2021-22〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0036,Career,C001747,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0037,Career,C001748,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0038,Career,C001749,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0039,Career,C000321,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001749（2022-23〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0040,Career,C001750,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0041,Career,C000364,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001750（2025-26〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0042,Career,C001751,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0043,Career,C000361,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001751（2016-17〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0044,Career,C001752,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0045,Career,C001753,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0046,Career,C000292,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001753（2018-19〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0047,Career,C001754,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0048,Career,C000300,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001754（2016-17〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0049,Career,C001755,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0050,Career,C000355,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001755（2024-25〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0051,Career,C001756,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0052,Career,C001757,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0053,Career,C000315,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001757（2021-22〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0054,Career,C001758,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0055,Career,C000339,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001758（2023-24〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0056,Career,C001759,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE公式プロフィールで確認、在籍期間は未確認,2026-09-30
+B7W11D0057,Career,C001760,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0058,Career,C001761,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0059,Career,C001762,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0060,Career,C001763,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0061,Career,C001764,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0062,Career,C000346,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001764（2026-27〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0063,Career,C001765,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0064,Career,C001766,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0065,Career,C000352,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001766（2020-21〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0066,Career,C001767,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0067,Career,C001768,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0068,Career,C000303,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001768（2023-24〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0069,Career,C001769,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0070,Career,C001770,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0071,Career,C001771,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0072,Career,C000309,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001771（2021-22〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0073,Career,C001772,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0074,Career,C001773,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0075,Career,C001774,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0076,Career,C000295,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001774（2020-21〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0077,Career,C001775,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0078,Career,C001776,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0079,Career,C001777,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0080,Career,C001778,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0081,Career,C000312,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001778（2024-25〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0082,Career,C001779,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0083,Career,C001780,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0084,Career,C001781,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0085,Career,C001782,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0086,Career,C001783,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0087,Career,C000342,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001783（2026-27〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0088,Career,C001784,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0089,Career,C001785,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0090,Career,C000371,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001785（2023-24〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
+B7W11D0091,Career,C001786,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0092,Career,C001787,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴と公式順位表で確認,2026-09-30
+B7W11D0093,Career,C001788,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴と公式順位表で確認。2026-27在籍中のため終了年なし,2026-09-30
+B7W11D0094,Career,C000324,REJECT_CANDIDATE,,,最新のB.LEAGUE公式所属履歴（2026-09-30）から期間付きのCareer C001788（2025-26〜2026-27）を作成したため、期間が未記録または異なる旧Career（start=空・end=空）を取り下げ,2026-09-30
