@@ -27,6 +27,8 @@ APPROVAL_PACKETS = {
     "APP-AS005-20260923-01": ROOT / "data" / "verified" / "approval_sprint_005" / "person_review.csv",
     "APP-AS006-20260925-01": ROOT / "data" / "verified" / "approval_sprint_006" / "person_review.csv",
     "APP-AS007-20260926-01": ROOT / "data" / "verified" / "approval_sprint_007" / "person_review.csv",
+    "APP-AS009-20260930-01": ROOT / "data" / "verified" / "approval_sprint_009" / "person_review.csv",
+    "APP-AS010-20260930-01": ROOT / "data" / "verified" / "approval_sprint_010" / "person_review.csv",
 }
 # Approvals that only ADDED careers to persons already introduced by one of
 # the packets above (no new persons). They are listed in masterApprovals and
