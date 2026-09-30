@@ -34,8 +34,8 @@ Yuichiの指示（2026-09-29）「公開サイトにデプロイしてから、�
 
 | League | Batch | 新規人物 | 状態 |
 | --- | --- | ---: | --- |
-| B.PREMIER（26クラブ） | batch_032（＋batch_007 wave_11の再確認25名） | 143 | Approval Sprint 009 承認待ち |
-| B.ONE（25クラブ） | batch_033（Yuichiの指示、2026-09-30） | 182 | Approval Sprint 010 承認待ち |
+| B.PREMIER（26クラブ） | batch_032（＋batch_007 wave_11の再確認25名） | 143 | Approval Sprint 009 承認・Master反映済み（2026-09-30） |
+| B.ONE（25クラブ） | batch_033（Yuichiの指示、2026-09-30） | 182 | Approval Sprint 010 承認・Master反映済み（2026-09-30） |
 | B.NEXT | 未着手 | — | — |
 
 ## 再利用のための型

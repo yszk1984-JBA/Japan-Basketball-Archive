@@ -1,20 +1,21 @@
 # MASTER反映レポート
 
-作成日：2026-09-29
+作成日：2026-09-30
 
 ## 反映済み承認
 
 - `APP-B005-20260921-01`：Batch 005 Wave 1
-- `APP-AS001-20260921-01`〜`APP-AS007-20260926-01`：Approval Sprint 001〜007
-- `APP-AS008-20260929-01`：Approval Sprint 008（B.LEAGUE期の過去所属クラブ深掘り、batch_031、2段階承認の初回）、ORG000222名称訂正を含む
+- `APP-AS001-20260921-01`〜`APP-AS008-20260929-01`：Approval Sprint 001〜008
+- `APP-AS009-20260930-01`：Approval Sprint 009（B.PREMIERロスター起点の横展開、batch_032＋batch_007再確認、168名）
+- `APP-AS010-20260930-01`：Approval Sprint 010（B.ONEロスター起点の横展開、batch_033、182名）
 
 ## MASTER件数
 
-- Person：166件
-- Organization：124件
-- Career：755件
-- Source：478件
-- Evidence：2525件
-- Approval：10件
+- Person：516件
+- Organization：395件
+- Career：2459件
+- Source：1213件
+- Evidence：8317件
+- Approval：12件
 
-Approval Sprint 008の82件のHOLD Issueはmasterに含めていない。公開サイト反映は別工程で行う。
+Approval Sprint 009・010のHOLD Issueはmasterに含めていない。公開サイト反映は別工程で行う。
