@@ -7,7 +7,7 @@
 - 検証：PASS
 - エラー：0件
 - Person：516件
-- Organization：395件
+- Organization：393件
 - Career：2459件
 - Source：1213件
 - Evidence：8317件

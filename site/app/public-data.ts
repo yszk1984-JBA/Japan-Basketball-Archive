@@ -98,6 +98,9 @@ export function getSources(ids: readonly string[]) {
 // （organization_idを小文字にしたスラッグが自動で割り当てられる）。
 export const organizationSlugAliases: Record<string, string> = {
   'fukuoka-daiichi': 'ORG000010',
+  // Merged into the kept ID (data/master/corrections/2026-10-01_org_merge_hakuoh_tomita.md)
+  org000208: 'ORG000093',
+  org000436: 'ORG000266',
 };
 
 function canonicalOrganizationSlug(organizationId: string): string {

@@ -24092,10 +24092,10 @@ export const masterPlayers = [
       {
         "id": "C000618",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -30849,10 +30849,10 @@ export const masterPlayers = [
       {
         "id": "C001135",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -33039,10 +33039,10 @@ export const masterPlayers = [
       {
         "id": "C001247",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -35691,10 +35691,10 @@ export const masterPlayers = [
       {
         "id": "C001379",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -36595,10 +36595,10 @@ export const masterPlayers = [
       {
         "id": "C001427",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -38925,10 +38925,10 @@ export const masterPlayers = [
       {
         "id": "C001535",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -40716,10 +40716,10 @@ export const masterPlayers = [
       {
         "id": "C001625",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -42848,10 +42848,10 @@ export const masterPlayers = [
       {
         "id": "C001805",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -43459,10 +43459,10 @@ export const masterPlayers = [
       {
         "id": "C001835",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -43527,10 +43527,10 @@ export const masterPlayers = [
       {
         "id": "C001838",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -45988,10 +45988,10 @@ export const masterPlayers = [
       {
         "id": "C001965",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -46534,10 +46534,10 @@ export const masterPlayers = [
       {
         "id": "C001991",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -46617,10 +46617,10 @@ export const masterPlayers = [
       {
         "id": "C001995",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -49043,10 +49043,10 @@ export const masterPlayers = [
       {
         "id": "C002118",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -49730,10 +49730,10 @@ export const masterPlayers = [
       {
         "id": "C002151",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -54346,10 +54346,10 @@ export const masterPlayers = [
       {
         "id": "C002379",
         "period": "期間未確認",
-        "organization": "富田高等学校",
+        "organization": "私立富田高等学校",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000436",
+        "organizationId": "ORG000266",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -57082,10 +57082,10 @@ export const masterPlayers = [
       {
         "id": "C002520",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
@@ -59749,10 +59749,10 @@ export const masterPlayers = [
       {
         "id": "C002659",
         "period": "期間未確認",
-        "organization": "白鴎大学",
+        "organization": "白鷗大学",
         "startYear": null,
         "endYear": null,
-        "organizationId": "ORG000208",
+        "organizationId": "ORG000093",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
