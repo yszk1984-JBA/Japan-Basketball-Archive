@@ -15,11 +15,17 @@ export type PlayerRow = {
   readonly categories: readonly OrganizationCategory[];
   readonly status: 'master' | 'candidate';
   readonly sources: number;
+  /** 「YYYY-MM-DD」形式の生年月日（文字列比較で年齢順に並べられる）。未確認の場合はnull。 */
+  readonly birthDate: string | null;
+  /** Masterデータの承認日（「YYYY-MM-DD」）。Candidateデータや承認日が特定できない場合はnull。 */
+  readonly approvedAt: string | null;
+  /** 経歴（Career）の登録件数。 */
+  readonly careerCount: number;
 };
 
 type StatusFilter = 'all' | 'master' | 'candidate';
 type CategoryFilter = 'all' | OrganizationCategory;
-type SortKey = 'default' | 'name' | 'sources';
+type SortKey = 'default' | 'name' | 'sources' | 'birthdate' | 'approvedAt' | 'careerCount';
 
 const STATUS_OPTIONS: { key: StatusFilter; label: string }[] = [
   { key: 'all', label: 'すべて' },
@@ -36,7 +42,18 @@ const SORT_OPTIONS: { key: SortKey; label: string }[] = [
   { key: 'default', label: '登録順' },
   { key: 'name', label: '五十音順' },
   { key: 'sources', label: '出典数順' },
+  { key: 'birthdate', label: '生年月日順（若い順）' },
+  { key: 'approvedAt', label: '承認日順（新着順）' },
+  { key: 'careerCount', label: '経歴件数順' },
 ];
+
+// null（未確認・未承認）は並び替え軸に関わらず常に末尾に送る比較関数。
+function compareNullableDesc(left: string | null, right: string | null): number {
+  if (left === null && right === null) return 0;
+  if (left === null) return 1;
+  if (right === null) return -1;
+  return right.localeCompare(left);
+}
 
 const MAX_COMPARE = 4;
 
@@ -69,6 +86,9 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
     );
     if (sortKey === 'name') return [...next].sort((left, right) => left.name.localeCompare(right.name, 'ja'));
     if (sortKey === 'sources') return [...next].sort((left, right) => right.sources - left.sources);
+    if (sortKey === 'birthdate') return [...next].sort((left, right) => compareNullableDesc(left.birthDate, right.birthDate));
+    if (sortKey === 'approvedAt') return [...next].sort((left, right) => compareNullableDesc(left.approvedAt, right.approvedAt));
+    if (sortKey === 'careerCount') return [...next].sort((left, right) => right.careerCount - left.careerCount);
     return next;
   }, [rows, statusFilter, categoryFilter, searchQuery, sortKey]);
 
@@ -152,6 +172,9 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
               </button>
             ))}
           </div>
+          <p className="jbaListB-hint">
+            ※ 生年月日・承認日が確認できていない選手（主にCandidateデータ）は、該当の並び替えでは一覧の末尾に表示されます。
+          </p>
         </div>
       </div>
 

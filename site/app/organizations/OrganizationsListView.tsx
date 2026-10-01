@@ -14,7 +14,7 @@ export type OrganizationRow = {
 };
 
 type CategoryFilter = 'all' | OrganizationCategory;
-type SortKey = 'count' | 'name';
+type SortKey = 'count' | 'name' | 'candidate' | 'category';
 
 const CATEGORY_OPTIONS: { key: CategoryFilter; label: string }[] = [
   { key: 'all', label: 'すべて' },
@@ -24,6 +24,8 @@ const CATEGORY_OPTIONS: { key: CategoryFilter; label: string }[] = [
 const SORT_OPTIONS: { key: SortKey; label: string }[] = [
   { key: 'count', label: '在籍者数順' },
   { key: 'name', label: '五十音順' },
+  { key: 'candidate', label: '確認中件数順' },
+  { key: 'category', label: 'カテゴリー順' },
 ];
 
 export function OrganizationsListView({ rows, totalCount }: { rows: readonly OrganizationRow[]; totalCount: number }) {
@@ -38,15 +40,23 @@ export function OrganizationsListView({ rows, totalCount }: { rows: readonly Org
         (categoryFilter === 'all' || row.category === categoryFilter) &&
         (query === '' || row.name.toLowerCase().includes(query)),
     );
-    return [...next].sort((left, right) =>
-      sortKey === 'count' ? right.total - left.total : left.name.localeCompare(right.name, 'ja'),
-    );
+    if (sortKey === 'count') return [...next].sort((left, right) => right.total - left.total);
+    if (sortKey === 'candidate') {
+      return [...next].sort((left, right) => (right.total - right.master) - (left.total - left.master));
+    }
+    if (sortKey === 'category') {
+      return [...next].sort((left, right) => {
+        const categoryDiff = ORGANIZATION_CATEGORY_ORDER.indexOf(left.category) - ORGANIZATION_CATEGORY_ORDER.indexOf(right.category);
+        return categoryDiff !== 0 ? categoryDiff : left.name.localeCompare(right.name, 'ja');
+      });
+    }
+    return [...next].sort((left, right) => left.name.localeCompare(right.name, 'ja'));
   }, [rows, categoryFilter, sortKey, searchQuery]);
 
   return (
     <>
       <p className="jbaListB-lede">
-        {filtered.length} / {totalCount}件を表示中。名前検索・カテゴリーで絞り込み、在籍者数・五十音順で並び替えができます。
+        {filtered.length} / {totalCount}件を表示中。名前検索・カテゴリーで絞り込み、並び替えができます。
       </p>
 
       <div className="jbaListB-filterCard">

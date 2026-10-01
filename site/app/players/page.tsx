@@ -1,9 +1,29 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import type { Metadata } from 'next';
-import { getPrimaryCareer, players } from '../public-data';
+import { getPrimaryCareer, masterApprovals, masterPublication, players } from '../public-data';
 import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteBreadcrumb, SiteFooter, SiteHeader, siteUrl } from '../seo';
 import { organizationCategory, ORGANIZATION_CATEGORY_ORDER } from '../organization-category';
 import { PlayersListView, type PlayerRow } from './PlayersListView';
+
+// 「YYYY年M月D日」形式の生年月日を、文字列比較でそのまま年齢順に並べられる
+// 「YYYY-MM-DD」形式に変換する。形式外の値（未確認等）はnullを返し、並び替え対象から除外する。
+function parseBirthDate(value: string | undefined): string | null {
+  const match = value?.match(/^(\d{4})年(\d{1,2})月(\d{1,2})日$/);
+  if (!match) return null;
+  const [, year, month, day] = match;
+  return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+}
+
+// Masterデータの承認日（新着順の並び替えに使用）。経歴追加の承認（enrichmentApprovalIds）も
+// 含めた最新日を採用する。Candidateデータは承認日を持たないためnull（並び替え時は末尾）。
+function latestApprovedAt(player: (typeof players)[number]): string | null {
+  if (player.dataStatus !== 'master') return null;
+  const approvals = masterApprovals as Record<string, { approvedAt: string }>;
+  const ids = [player.approvalId, ...(player.enrichmentApprovalIds ?? [])].filter((id): id is string => Boolean(id));
+  const dates = ids.map((id) => approvals[id]?.approvedAt).filter((date): date is string => Boolean(date));
+  if (dates.length === 0) return masterPublication.approvedAt;
+  return dates.reduce((latest, date) => (date > latest ? date : latest));
+}
 
 const title = `選手一覧（${players.length}人）`;
 const description = `日本バスケットボール選手${players.length}人の所属・経歴を、出典とともに掲載しています。高校・大学・プロの所属記録をたどれます。`;
@@ -41,6 +61,9 @@ function toRow(player: (typeof players)[number]): PlayerRow {
     categories,
     status: player.dataStatus,
     sources: new Set(player.careers.flatMap((career) => career.sourceIds)).size,
+    birthDate: parseBirthDate(player.facts.find((fact) => fact.label === '生年月日')?.value),
+    approvedAt: latestApprovedAt(player),
+    careerCount: player.careers.length,
   };
 }
 
