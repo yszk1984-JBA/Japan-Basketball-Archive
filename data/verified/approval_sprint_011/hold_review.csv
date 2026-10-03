@@ -1,0 +1,4 @@
+issue_id,person_id,related_id,issue_type,status,description,disposition
+B4W7I0001,P000064,C002685,CONTRACT_HISTORY,HOLD,シカゴ・ブルズとは2025-26シーズン中に2回two-way契約を結んでいる（2025-07-19、2026-01-06。NBA G League公式ニュース）。間の2025-10-17に契約解除（Basketball-Referenceの記録。公式発表は未確認）。シーズン単位の登録ルールにより1件のCareer（2025〜2026）とした。解除の理由は記録しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B4W7I0002,P000064,C002686,STATUS_VOLATILE,HOLD,ロサンゼルス・クリッパーズとの契約はExhibit 10契約（報道：NBC Sports 2026-08-09、バスケットボールキング 2026-09-28）。2026-09-30からトレーニングキャンプで、レギュラーシーズン開幕までにtwo-way契約への転換や契約解除がありうる。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B4W7I0003,P000064,P000064,G_LEAGUE_ASSIGNMENTS,HOLD,グリズリーズ・ブルズ在籍中のGリーグ（メンフィス・ハッスル、ウィンディシティ・ブルズ）への派遣は、NBAクラブとの契約の一部のため別Careerにしていない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留

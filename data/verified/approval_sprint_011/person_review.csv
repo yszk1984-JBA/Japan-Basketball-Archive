@@ -1,0 +1,2 @@
+person_id,name,tier_proposal,tier_reasons,added_careers,corrections,verified_commit
+P000064,河村 勇輝,Tier 2,既存Masterの値（期間）を変更する訂正を含む／一部の項目（ブルズの契約解除日）は公式以外の記録のみ（issueとして保留、承認対象外）,2,3,5b98773

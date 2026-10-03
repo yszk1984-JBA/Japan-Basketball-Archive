@@ -1,0 +1,3 @@
+career_id,person_id,name,organization_id,organization_name,role,start,end,evidence_count
+C002685,P000064,河村 勇輝,ORG000139,シカゴ・ブルズ,Player,2025,2026,7
+C002686,P000064,河村 勇輝,ORG000140,ロサンゼルス・クリッパーズ,Player,2026,,4
