@@ -36,6 +36,7 @@ APPROVAL_PACKETS = {
 # approval id (that stays the approval that introduced the person).
 ENRICHMENT_APPROVALS = {
     "APP-AS008-20260929-01": ROOT / "data" / "verified" / "approval_sprint_008" / "career_review.csv",
+    "APP-AS011-20261003-01": ROOT / "data" / "verified" / "approval_sprint_011" / "career_review.csv",
 }
 EDUCATION_MARKERS = ("高等学校", "高校", "大学", "中学校", "中学", "小学校")
 

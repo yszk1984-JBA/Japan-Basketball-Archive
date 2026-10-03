@@ -7483,6 +7483,23 @@ B4W4E0028,Career,C000256,competition_participation,2024インカレ 2試合,B4W4
 B4W4E0029,Organization,ORG000010,name,福岡第一高等学校,B4W4S0001,両選手の経歴欄,公式資料内の組織表記,SUPPORTED,2026-09-21,
 B4W4E0030,Organization,ORG000019,name,日本経済大学,B4W4S0002,大学名・ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-21,
 B4W4E0031,Organization,ORG000105,name,新潟経営大学,B4W4S0004,大学名・ROSTER,JUBF公式資料の組織名,SUPPORTED,2026-09-21,
+B4W7E0001,Career,C002685,organization_id,ORG000139,B4W7S0001,SEASON_ID 2025-26 / TEAM_ABBREVIATION CHI / GP 18,NBA公式の通算成績で2025-26シーズンのシカゴ・ブルズ在籍（18試合出場）を確認,SUPPORTED,2026-10-03,
+B4W7E0002,Career,C002685,organization_id,ORG000139,B4W7S0003,PLAYER Yuki Kawamura / NUM 8 / HOW_ACQUIRED Signed on 07/19/25,NBA公式の2025-26ロスターに掲載,SUPPORTED,2026-10-03,
+B4W7E0003,Career,C002685,role,Player,B4W7S0005,本文：has signed guard Yuki Kawamura … to a two-way contract,NBA G League公式ニュースで選手契約（two-way契約）を確認,SUPPORTED,2026-10-03,
+B4W7E0004,Career,C002685,start,2025,B4W7S0003,HOW_ACQUIRED：Signed on 07/19/25,2025年7月19日（現地）の契約で2025-26シーズンから在籍,SUPPORTED,2026-10-03,
+B4W7E0005,Career,C002685,start,2025,B4W7S0005,公開日2025-07-19・本文：signed … to a two-way contract,NBA G League公式ニュースで契約を確認,SUPPORTED,2026-10-03,
+B4W7E0006,Career,C002685,end,2026,B4W7S0001,SEASON_ID 2025-26がCHIの最後の行,2025-26シーズンの終了年,SUPPORTED,2026-10-03,
+B4W7E0007,Career,C002685,end,2026,B4W7S0004,2026-27はLA Clippersのロスター（Signed on 08/08/26）,次シーズンは別クラブに在籍,SUPPORTED,2026-10-03,
+B4W7E0008,Career,C002686,organization_id,ORG000140,B4W7S0004,PLAYER Yuki Kawamura / NUM 8 / HOW_ACQUIRED Signed on 08/08/26,NBA公式の2026-27ロスターに掲載,SUPPORTED,2026-10-03,
+B4W7E0009,Career,C002686,organization_id,ORG000140,B4W7S0008,選手ページ見出し：LA Clippers,NBA公式の選手ページの現所属,SUPPORTED,2026-10-03,
+B4W7E0010,Career,C002686,role,Player,B4W7S0004,POSITION G,選手として掲載,SUPPORTED,2026-10-03,
+B4W7E0011,Career,C002686,start,2026,B4W7S0004,HOW_ACQUIRED：Signed on 08/08/26,2026年8月8日（現地）の契約で2026-27シーズンから在籍,SUPPORTED,2026-10-03,
+B4W7E0012,Career,C000221,start,2019,B4W7S0009,クラブ所属履歴 >「2019-20 三遠」（この1行のみ）,B.LEAGUE公式の所属履歴は2019-20の1シーズン（batch_031 issue B31W1I0019）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0013,Career,C000221,end,2020,B4W7S0009,クラブ所属履歴 >「2019-20 三遠」（この1行のみ）,B.LEAGUE公式の所属履歴は2019-20の1シーズン（batch_031 issue B31W1I0019）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0014,Career,C000222,start,2020,B4W7S0009,クラブ所属履歴 >「2020-21 横浜BC」〜「2023-24 横浜BC」,B.LEAGUE公式の所属履歴は2020-21〜2023-24（batch_031 issue B31W1I0020）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0015,Career,C000222,end,2024,B4W7S0009,クラブ所属履歴 >「2020-21 横浜BC」〜「2023-24 横浜BC」,B.LEAGUE公式の所属履歴は2020-21〜2023-24（batch_031 issue B31W1I0020）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0016,Career,C000223,start,2024,B4W7S0001,SEASON_ID 2024-25 / TEAM_ABBREVIATION MEM / GP 22,NBA公式の通算成績で2024-25シーズンのみ在籍（22試合出場）。2024-25ロスター（S0002）にも掲載,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0017,Career,C000223,end,2025,B4W7S0001,SEASON_ID 2024-25 / TEAM_ABBREVIATION MEM / GP 22,NBA公式の通算成績で2024-25シーズンのみ在籍（22試合出場）。2024-25ロスター（S0002）にも掲載,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
 B5W1E0001,Person,P000073,name,崎濱 秀斗,B5W1S0002,基本情報 > 選手名,B.LEAGUE公式の氏名,SUPPORTED,2026-09-21,
 B5W1E0002,Person,P000073,name_en,Shuto Sakihama,B5W1S0002,基本情報 > 英語表記,B.LEAGUE公式の英語表記,SUPPORTED,2026-09-21,
 B5W1E0003,Person,P000073,birth_date,2005-05-08,B5W1S0001,選手プロフィール > 生年月日,クラブ公式プロフィール,SUPPORTED,2026-09-21,
