@@ -1,0 +1,7 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B4W7E0012,Career,C000221,start,2019,B4W7S0009,クラブ所属履歴 >「2019-20 三遠」（この1行のみ）,B.LEAGUE公式の所属履歴は2019-20の1シーズン（batch_031 issue B31W1I0019）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0013,Career,C000221,end,2020,B4W7S0009,クラブ所属履歴 >「2019-20 三遠」（この1行のみ）,B.LEAGUE公式の所属履歴は2019-20の1シーズン（batch_031 issue B31W1I0019）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0014,Career,C000222,start,2020,B4W7S0009,クラブ所属履歴 >「2020-21 横浜BC」〜「2023-24 横浜BC」,B.LEAGUE公式の所属履歴は2020-21〜2023-24（batch_031 issue B31W1I0020）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0015,Career,C000222,end,2024,B4W7S0009,クラブ所属履歴 >「2020-21 横浜BC」〜「2023-24 横浜BC」,B.LEAGUE公式の所属履歴は2020-21〜2023-24（batch_031 issue B31W1I0020）,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0016,Career,C000223,start,2024,B4W7S0001,SEASON_ID 2024-25 / TEAM_ABBREVIATION MEM / GP 22,NBA公式の通算成績で2024-25シーズンのみ在籍（22試合出場）。2024-25ロスター（S0002）にも掲載,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B4W7E0017,Career,C000223,end,2025,B4W7S0001,SEASON_ID 2024-25 / TEAM_ABBREVIATION MEM / GP 22,NBA公式の通算成績で2024-25シーズンのみ在籍（22試合出場）。2024-25ロスター（S0002）にも掲載,SUPPORTED,2026-10-03,既存MASTER Careerの期間の訂正案（master_corrections.csv）

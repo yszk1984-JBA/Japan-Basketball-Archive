@@ -1,0 +1,4 @@
+career_id,person_id,organization_name,old_start,old_end,new_start,new_end,reason
+C000221,P000064,三遠ネオフェニックス,,,2019,2020,B.LEAGUE公式の所属履歴は2019-20の1シーズン（batch_031 issue B31W1I0019）
+C000222,P000064,横浜ビー・コルセアーズ,,,2020,2024,B.LEAGUE公式の所属履歴は2020-21〜2023-24（batch_031 issue B31W1I0020）
+C000223,P000064,メンフィス・グリズリーズ,,,2024,2025,NBA公式の通算成績で2024-25シーズンのみ在籍（22試合出場）。2024-25ロスター（S0002）にも掲載
