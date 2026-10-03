@@ -1,0 +1,6 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B4W7D0001,Career,C002685,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式の通算成績・ロスターとNBA G League公式ニュースで確認,2026-10-03
+B4W7D0002,Career,C002686,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,NBA公式の2026-27ロスターと選手ページで確認。在籍中のため終了年なし,2026-10-03
+B4W7D0003,Career,C000327,REJECT_CANDIDATE,,,wave_05のCareer（報道・個人サイトが出典、年月形式の期間）を、NBA公式資料によるシーズン単位のCareer（C002685・C002686）に置き換えたため取り下げ,2026-10-03
+B4W7D0004,Career,C000328,REJECT_CANDIDATE,,,wave_05のCareer（報道・個人サイトが出典、年月形式の期間）を、NBA公式資料によるシーズン単位のCareer（C002685・C002686）に置き換えたため取り下げ,2026-10-03
+B4W7D0005,Career,C000329,REJECT_CANDIDATE,,,wave_05のCareer（報道・個人サイトが出典、年月形式の期間）を、NBA公式資料によるシーズン単位のCareer（C002685・C002686）に置き換えたため取り下げ,2026-10-03
