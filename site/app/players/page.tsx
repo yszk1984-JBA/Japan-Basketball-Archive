@@ -57,6 +57,7 @@ function toRow(player: (typeof players)[number]): PlayerRow {
     slug: player.slug,
     name: player.name,
     org: primary?.organization ?? null,
+    primaryOrganizationId: primary?.organizationId,
     primaryCategory: primary?.organization ? organizationCategory(primary.organization) : null,
     categories,
     status: player.dataStatus,

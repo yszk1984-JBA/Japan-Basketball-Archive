@@ -450,6 +450,15 @@
   display: inline-block;
 }
 
+.jbaListB-clubDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
 .jbaListB-empty {
   padding: 40px 20px;
   text-align: center;

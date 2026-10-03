@@ -3,12 +3,15 @@
 
 import { useMemo, useState } from 'react';
 import { ORGANIZATION_CATEGORY_META, ORGANIZATION_CATEGORY_ORDER, type OrganizationCategory } from '../organization-category';
+import { clubColor } from '../club-colors';
 
 export type PlayerRow = {
   readonly id: string;
   readonly slug: string;
   readonly name: string;
   readonly org: string | null;
+  /** 現在（直近）の所属の組織ID。プロクラブのワンポイントカラー表示に使う（club-colors.ts参照）。 */
+  readonly primaryOrganizationId: string | undefined;
   /** 現在（直近）の所属から推定した1件のカテゴリー。表示（所属欄の隣の主要バッジ用）に使う。 */
   readonly primaryCategory: OrganizationCategory | null;
   /** 経歴に登場した組織すべてから推定したカテゴリーの集合。絞り込みに使う（例：現役プロでも高校時代の経歴があれば「高校」に含める）。 */
@@ -229,7 +232,16 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
                   <a href={`/players/${row.slug}`} className="jbaListB-rowName">{row.name}</a>
                 </div>
                 <a href={`/players/${row.slug}`} style={{ display: 'contents' }}>
-                  <div className="jbaListB-rowMuted">{row.org ?? '所属未確認'}</div>
+                  <div className="jbaListB-rowMuted">
+                    {clubColor(row.primaryOrganizationId) ? (
+                      <span
+                        className="jbaListB-clubDot"
+                        style={{ background: clubColor(row.primaryOrganizationId) }}
+                        aria-hidden="true"
+                      />
+                    ) : null}
+                    {row.org ?? '所属未確認'}
+                  </div>
                   <div className="jbaListB-pillWrap">
                     {row.categories.length === 0 ? (
                       <span className="jbaListB-rowMuted">—</span>
