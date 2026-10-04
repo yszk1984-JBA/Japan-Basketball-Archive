@@ -1,0 +1,27 @@
+# クラブ公式サイトの選手プロフィール（出身校）読み取り結果 — B.LEAGUE公式プロフィールの出身校欄が「-」だったB.PREMIER選手
+# 取得日：2026-10-04（JST）／Claudeのブラウザ（Yuichiの端末）で各クラブ公式サイトの選手ページを取得し、「出身校」欄（神戸・広島・長崎は .p-profile__label/.p-profile__value、東京サンロッカーズは選手紹介文）をそのまま記録。
+# 形式：PlayerID|氏名|クラブ|URL|ページ上の表記（原文）
+5100000031|金田 龍弥|神戸ストークス|https://www.storks.jp/team/players/detail/id=16352?PlayerID=5100000031|出身校=大阪学院大学（出身地=大阪府、生年月日=2000年9月29日）
+5100000066|木村 圭吾|神戸ストークス|https://www.storks.jp/team/players/detail/id=18800?PlayerID=5100000066|出身校=セントジョセフ大学（出身地=東京都、生年月日=2000年11月8日）
+18148|寺園 脩斗|神戸ストークス|https://www.storks.jp/team/players/detail/id=18801?PlayerID=18148|出身校=東海大学（出身地=宮崎県、生年月日=1994年6月28日）
+8538|道原 紀晃|神戸ストークス|https://www.storks.jp/team/players/detail/id=8805?PlayerID=8538|出身校=大阪商業大学（出身地=兵庫県、生年月日=1989年9月7日）
+51000547|中島 三千哉|神戸ストークス|https://www.storks.jp/team/players/detail/id=18957?PlayerID=51000547|出身校=神奈川大（出身地=兵庫県、生年月日=2002年10月11日）
+20031|中野 司|神戸ストークス|https://www.storks.jp/team/players/detail/id=21870?PlayerID=20031|出身校=関西学院大学（出身地=兵庫県、生年月日=1996年10月28日）
+30437|山口 颯斗|神戸ストークス|https://www.storks.jp/team/players/detail/id=21871?PlayerID=30437|出身校=筑波大学（出身地=栃木県、生年月日=1998年10月1日）
+5100000016|八村 阿蓮|神戸ストークス|https://www.storks.jp/team/players/detail/id=18802?PlayerID=5100000016|出身校=東海大学（出身地=富山県、生年月日=1999年12月20日）
+49493|山際 爽吾|東京サンロッカーズ|https://www.sunrockers.jp/lp/sogo-yamagiwa/|新潟県出身、関西学院大学出身のポイントガード。岩手ビッグブルズを経て、2026年から東京サンロッカーズへ。
+12598|ジョシュ・ホーキンソン|東京サンロッカーズ|https://www.sunrockers.jp/lp/josh-hawkinson/|出身校・所属U18チーム=ワシントン州立大学（出身地=アメリカ合衆国ワシントン州、国籍=日本(帰化)）
+8447|ベンドラメ 礼生|東京サンロッカーズ|https://www.sunrockers.jp/lp/leo-vendrame/|福岡県出身、東海大学出身のPG/SG。2016年からサンロッカーズでプレー。
+15853|野﨑 零也|東京サンロッカーズ|https://www.sunrockers.jp/lp/reiya-nozaki/|佐賀県出身、白鷗大学出身のシューティングガード。2025年からサンロッカーズへ。
+9037|田中 大貴|東京サンロッカーズ|https://www.sunrockers.jp/lp/daiki-tanaka/|長崎県出身、東海大学出身のシューティングガード。
+42616|狩野 富成|東京サンロッカーズ|https://www.sunrockers.jp/lp/toyoshige-kano/|東京都出身、スカイラインカレッジ出身のセンター。
+51000311|大庭 圭太郎|東京サンロッカーズ|https://www.sunrockers.jp/lp/keitaro-ohba/|福岡県出身のポイントガード。九州共立大学を経て、2026年から東京サンロッカーズへ。
+11309|山﨑 一渉|東京サンロッカーズ|https://www.sunrockers.jp/lp/ibu-yamazaki/|千葉県出身、ノーザンコロラド大学出身のスモールフォワード。2026年から東京サンロッカーズでプレー。
+33040|ロバーツ ケイン|広島ドラゴンフライズ|https://hiroshimadragonflies.com/team/players/detail/id=18701?PlayerID=33040|出身校=サンタマルガリータ・カトリック高校（出身地=神奈川県）
+51000563|松野 遥弥|広島ドラゴンフライズ|https://hiroshimadragonflies.com/team/players/detail/id=24563?PlayerID=51000563|出身校=専修大学（出身地=愛知県）
+10872|大友 隆太郎|長崎ヴェルカ|https://www.velca.jp/team/players/detail/id=50906?PlayerID=10872|出身校=筑波大学（出身地=茨城県）
+51000590|田中 流嘉州|長崎ヴェルカ|https://www.velca.jp/team/players/detail/id=48057?PlayerID=51000590|出身校=大東文化大学（出身地=三重県）
+51000564|深水 虎太郎|千葉ジェッツ|https://chibajets.jp/team/players/detail/id=23995?PlayerID=51000564|出身校=千葉ジェッツU18
+9345|ウィリアムス ニカ|千葉ジェッツ|https://chibajets.jp/team/players/detail/id=26992?PlayerID=9345|出身校=パシフィック大学
+9369|河田 チリジ|信州ブレイブウォリアーズ|https://www.b-warriors.net/team/players/detail/id=20415?PlayerID=9369|出身校=ニューメキシコ州立大学
+8501|水戸 健史|富山グラウジーズ|https://grouses.jp/team/players/detail/id=12504?PlayerID=8501|出身校=近畿大学（出身地=富山県、生年月日=1985年4月23日）
