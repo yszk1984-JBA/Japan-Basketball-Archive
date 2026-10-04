@@ -11039,6 +11039,60 @@ export const masterSources = [
     "location": "本文 > 「群馬を退団した八村阿蓮、新天地は神戸に決定」 / 本文 > 2025年5月28日付記事",
     "accessedAt": "2026-09-24",
     "dataStatus": "master"
+  },
+  {
+    "id": "COR1S0001",
+    "title": "小川麻斗 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000033",
+    "location": "クラブ所属履歴 > 「2026-27 神戸」",
+    "accessedAt": "2026-10-04",
+    "dataStatus": "master"
+  },
+  {
+    "id": "COR1S0002",
+    "title": "鵤誠司 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8529",
+    "location": "クラブ所属履歴 > 「2017-18 栃木」〜「2026-27 宇都宮」（栃木＝宇都宮ブレックスの改称前、TeamID 703）",
+    "accessedAt": "2026-10-04",
+    "dataStatus": "master"
+  },
+  {
+    "id": "COR1S0003",
+    "title": "内尾聡理 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000353",
+    "location": "クラブ所属履歴 > 「2025-26 佐賀」〜「2026-27 佐賀」",
+    "accessedAt": "2026-10-04",
+    "dataStatus": "master"
+  },
+  {
+    "id": "COR1S0004",
+    "title": "渡辺竜之佑 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=9329",
+    "location": "クラブ所属履歴 > 「2025-26 京都」〜「2026-27 京都」",
+    "accessedAt": "2026-10-04",
+    "dataStatus": "master"
+  },
+  {
+    "id": "COR1S0005",
+    "title": "並里成 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=9489",
+    "location": "クラブ所属履歴 > 「2026-27 横浜BC」",
+    "accessedAt": "2026-10-04",
+    "dataStatus": "master"
+  },
+  {
+    "id": "COR1S0006",
+    "title": "児玉ジュニア 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000552",
+    "location": "クラブ所属履歴 > 「2025-26 三遠」〜「2026-27 三遠」",
+    "accessedAt": "2026-10-04",
+    "dataStatus": "master"
   }
 ] as const;
 
@@ -11660,7 +11714,7 @@ export const masterPlayers = [
     "id": "P000035",
     "slug": "p000035",
     "name": "小川 麻斗",
-    "cardContext": "期間未確認 · 神戸ストークス",
+    "cardContext": "2026年〜 · 神戸ストークス",
     "dataStatus": "master",
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
@@ -11770,15 +11824,16 @@ export const masterPlayers = [
       },
       {
         "id": "C000088",
-        "period": "期間未確認",
+        "period": "2026年〜",
         "organization": "神戸ストークス",
-        "startYear": null,
+        "startYear": 2026,
         "endYear": null,
         "organizationId": "ORG000043",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B2S0008"
+          "B2S0008",
+          "COR1S0001"
         ]
       }
     ],
@@ -11788,6 +11843,7 @@ export const masterPlayers = [
       "B2S0012": "福岡第一高等学校 > プレーヤー > No.46 小川麻斗",
       "B2S0031": "日本体育大学 ROSTER > No.23 / 学年 > 1年 / No. > 23 / Pos. > PG / 身長 > 175cm",
       "B2S0032": "本文 > 2022年12月23日に男子部を退部",
+      "COR1S0001": "クラブ所属履歴 > 「2026-27 神戸」",
       "B31W1S0006": "クラブ所属履歴 > 「2020-21 福岡」 / クラブ所属履歴 > 「2021-22 SR渋谷」 / クラブ所属履歴 > 「2022-23 千葉J」〜「2024-25 千葉J」 / クラブ所属履歴 > 「2022-23 千葉J」 / クラブ所属履歴 > 「2024-25 千葉J」 / クラブ所属履歴 > 「2025-26 京都」",
       "B31W1S0007": "順位表 > クラブ「ライジングゼファー福岡」（略称「福岡」、club_detail TeamID=753）",
       "B31W1S0008": "順位表 > クラブ「サンロッカーズ渋谷」（略称「SR渋谷」、club_detail TeamID=726）",
@@ -11922,7 +11978,7 @@ export const masterPlayers = [
     "id": "P000037",
     "slug": "p000037",
     "name": "鵤 誠司",
-    "cardContext": "期間未確認 · 宇都宮ブレックス",
+    "cardContext": "2017年〜 · 宇都宮ブレックス",
     "dataStatus": "master",
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
@@ -11990,15 +12046,16 @@ export const masterPlayers = [
       },
       {
         "id": "C000103",
-        "period": "期間未確認",
+        "period": "2017年〜",
         "organization": "宇都宮ブレックス",
-        "startYear": null,
+        "startYear": 2017,
         "endYear": null,
         "organizationId": "ORG000047",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B2S0003"
+          "B2S0003",
+          "COR1S0002"
         ]
       }
     ],
@@ -12008,6 +12065,7 @@ export const masterPlayers = [
       "B2S0016": "参加選手 > 鵤誠司 / 男子U-18日本代表強化合宿 > 選手 / 参加選手 > 所属・学年",
       "B2S0017": "日本代表選手 > #9 鵤誠司",
       "B2S0018": "男子日本代表選手 > #15 鵤誠司",
+      "COR1S0002": "クラブ所属履歴 > 「2017-18 栃木」〜「2026-27 宇都宮」（栃木＝宇都宮ブレックスの改称前、TeamID 703）",
       "B31W1S0012": "クラブ所属履歴 > 「2016-17 広島」",
       "B31W1S0013": "順位表 > クラブ「広島ドラゴンフライズ」（略称「広島」、club_detail TeamID=721）"
     }
@@ -12016,7 +12074,7 @@ export const masterPlayers = [
     "id": "P000038",
     "slug": "p000038",
     "name": "内尾 聡理",
-    "cardContext": "期間未確認 · 佐賀バルーナーズ",
+    "cardContext": "2025年〜 · 佐賀バルーナーズ",
     "dataStatus": "master",
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
@@ -12099,15 +12157,16 @@ export const masterPlayers = [
       },
       {
         "id": "C000107",
-        "period": "期間未確認",
+        "period": "2025年〜",
         "organization": "佐賀バルーナーズ",
-        "startYear": null,
+        "startYear": 2025,
         "endYear": null,
         "organizationId": "ORG000048",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B2S0002"
+          "B2S0002",
+          "COR1S0003"
         ]
       }
     ],
@@ -12118,6 +12177,7 @@ export const masterPlayers = [
       "B2S0013": "本文第2段落 > #54内尾聡理",
       "B2S0014": "中央大学 ROSTER > No.2 / 中央大学 ROSTER > 1年 / 中央大学 ROSTER > Pos. / 中央大学 ROSTER > 身長",
       "B2S0015": "中央大学 ROSTER > 4年 No.2",
+      "COR1S0003": "クラブ所属履歴 > 「2025-26 佐賀」〜「2026-27 佐賀」",
       "B31W1S0014": "クラブ所属履歴 > 「2023-24 千葉J」 / クラブ所属履歴 > 「2024-25 FE名古屋」",
       "B31W1S0015": "順位表 > クラブ「千葉ジェッツ」（略称「千葉J」、club_detail TeamID=704）",
       "B31W1S0016": "順位表 > クラブ「ファイティングイーグルス名古屋」（略称「FE名古屋」、club_detail TeamID=717）"
@@ -12127,7 +12187,7 @@ export const masterPlayers = [
     "id": "P000039",
     "slug": "p000039",
     "name": "渡辺 竜之佑",
-    "cardContext": "期間未確認 · 京都ハンナリーズ",
+    "cardContext": "2025年〜 · 京都ハンナリーズ",
     "dataStatus": "master",
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
@@ -12238,15 +12298,16 @@ export const masterPlayers = [
       },
       {
         "id": "C000117",
-        "period": "期間未確認",
+        "period": "2025年〜",
         "organization": "京都ハンナリーズ",
-        "startYear": null,
+        "startYear": 2025,
         "endYear": null,
         "organizationId": "ORG000042",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B2S0006"
+          "B2S0006",
+          "COR1S0004"
         ]
       }
     ],
@@ -12257,6 +12318,7 @@ export const masterPlayers = [
       "B2S0016": "参加メンバー > 渡辺竜之佑",
       "B2S0025": "専修大学 ROSTER > No.6 / 学年 > 3年",
       "B2S0026": "学年 > 4年 / No. > 6 / Pos. > G / 身長 > 187cm",
+      "COR1S0004": "クラブ所属履歴 > 「2025-26 京都」〜「2026-27 京都」",
       "B31W1S0017": "クラブ所属履歴 > 「2016-17 琉球」〜「2017-18 琉球」 / クラブ所属履歴 > 「2016-17 琉球」 / クラブ所属履歴 > 「2017-18 琉球」 / クラブ所属履歴 > 「2018-19 新潟」 / クラブ所属履歴 > 「2019-20 SR渋谷」〜「2022-23 SR渋谷」 / クラブ所属履歴 > 「2019-20 SR渋谷」 / クラブ所属履歴 > 「2022-23 SR渋谷」 / クラブ所属履歴 > 「2023-24 福井」〜「2024-25 福井」 / クラブ所属履歴 > 「2023-24 福井」 / クラブ所属履歴 > 「2024-25 福井」",
       "B31W1S0018": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B31W1S0019": "順位表 > クラブ「新潟アルビレックスBB」（略称「新潟」、club_detail TeamID=695）",
@@ -12501,7 +12563,7 @@ export const masterPlayers = [
     "id": "P000042",
     "slug": "p000042",
     "name": "並里 成",
-    "cardContext": "期間未確認 · 横浜ビー・コルセアーズ",
+    "cardContext": "2026年〜 · 横浜ビー・コルセアーズ",
     "dataStatus": "master",
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
@@ -12611,15 +12673,16 @@ export const masterPlayers = [
       },
       {
         "id": "C000140",
-        "period": "期間未確認",
+        "period": "2026年〜",
         "organization": "横浜ビー・コルセアーズ",
-        "startYear": null,
+        "startYear": 2026,
         "endYear": null,
         "organizationId": "ORG000055",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B2S0005"
+          "B2S0005",
+          "COR1S0005"
         ]
       }
     ],
@@ -12629,6 +12692,7 @@ export const masterPlayers = [
       "B2S0019": "プロバスケットボール選手欄 > 並里成",
       "B2S0021": "略歴 > サウスケントスクール / 略歴 > 2008年3月入学 / 略歴 > 2009年5月卒業",
       "B2S0022": "本文 > South KentでのPG・出場記録",
+      "COR1S0005": "クラブ所属履歴 > 「2026-27 横浜BC」",
       "B31W1S0024": "クラブ所属履歴 > 「2016-17 滋賀」〜「2017-18 滋賀」 / クラブ所属履歴 > 「2016-17 滋賀」 / クラブ所属履歴 > 「2017-18 滋賀」 / クラブ所属履歴 > 「2018-19 琉球」〜「2021-22 琉球」 / クラブ所属履歴 > 「2018-19 琉球」 / クラブ所属履歴 > 「2021-22 琉球」 / クラブ所属履歴 > 「2022-23 群馬」〜「2023-24 群馬」 / クラブ所属履歴 > 「2022-23 群馬」 / クラブ所属履歴 > 「2023-24 群馬」 / クラブ所属履歴 > 「2024-25 FE名古屋」〜「2025-26 FE名古屋」 / クラブ所属履歴 > 「2024-25 FE名古屋」 / クラブ所属履歴 > 「2025-26 FE名古屋」",
       "B31W1S0018": "順位表 > クラブ「滋賀レイクスターズ」（略称「滋賀」、club_detail TeamID=698）",
       "B31W1S0019": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
@@ -13003,7 +13067,7 @@ export const masterPlayers = [
     "id": "P000065",
     "slug": "p000065",
     "name": "児玉 ジュニア",
-    "cardContext": "期間未確認 · 三遠ネオフェニックス",
+    "cardContext": "2025年〜 · 三遠ネオフェニックス",
     "dataStatus": "master",
     "approvalId": "APP-AS002-20260921-01",
     "enrichmentApprovalIds": [],
@@ -13056,9 +13120,9 @@ export const masterPlayers = [
       },
       {
         "id": "C000226",
-        "period": "期間未確認",
+        "period": "2025年〜",
         "organization": "三遠ネオフェニックス",
-        "startYear": null,
+        "startYear": 2025,
         "endYear": null,
         "organizationId": "ORG000097",
         "detail": "選手 · 公式戦記録：2025-26 B1 44試合",
@@ -13066,7 +13130,8 @@ export const masterPlayers = [
         "sourceIds": [
           "B4W1S0009",
           "B4W1S0010",
-          "B4W1S0011"
+          "B4W1S0011",
+          "COR1S0006"
         ]
       }
     ],
@@ -13076,7 +13141,8 @@ export const masterPlayers = [
       "B4W1S0009": "選手プロフィール > 出身校・受賞歴 / 選手プロフィール > WC2023優勝 / 選手プロフィール > 受賞歴 / ニュース本文 / ニュース公開日 / ニュース本文と経歴欄 / 契約締結発表 / 選手プロフィール欄",
       "B4W1S0007": "日本経済大学 ROSTER > No.3",
       "B4W1S0010": "2025-26 B1 シーズン成績",
-      "B4W1S0011": "ニュース本文 / ニュース公開日"
+      "B4W1S0011": "ニュース本文 / ニュース公開日",
+      "COR1S0006": "クラブ所属履歴 > 「2025-26 三遠」〜「2026-27 三遠」"
     }
   },
   {

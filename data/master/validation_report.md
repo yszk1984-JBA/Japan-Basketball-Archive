@@ -9,9 +9,9 @@
 - Person：516件
 - Organization：395件
 - Career：2461件
-- Source：1219件
-- Evidence：8334件
-- Approval：13件
+- Source：1225件
+- Evidence：8340件
+- Approval：14件
 - Publication：4件
 
 ## エラー
