@@ -7,7 +7,7 @@
 最新の件数と反映済み承認の一覧は[`master_build_report.md`](master_build_report.md)を参照（2026-10-04時点：Person 516件、Organization 395件、Career 2,461件、Evidence 8,340件、Approval 14件）。
 
 - 反映済み承認：Batch 005 Wave 1、Approval Sprint 001〜012（各Sprintの`data/verified/approval_sprint_NNN/master_approval.md`に承認記録）
-- 訂正記録：[`corrections/`](corrections/)（ORG000017/ORG000019の統合、ORG000222の名称訂正、白鷗大学・富田高校の統合、河村勇輝のCareer期間、B.PREMIER選手6名の現所属Career期間）
+- 訂正記録：[`corrections/`](corrections/)（ORG000017/ORG000019の統合、ORG000222の名称訂正、白鷗大学・富田高校の統合、河村勇輝のCareer期間、B.PREMIER選手6名の現所属Career期間、ORG000445の名称訂正と東海大学九州を統合しない判断）
 - HOLD項目・HOLD Issue：含まない
 
 ## ファイル

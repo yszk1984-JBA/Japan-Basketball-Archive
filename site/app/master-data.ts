@@ -55690,7 +55690,7 @@ export const masterPlayers = [
       {
         "id": "C002439",
         "period": "期間未確認",
-        "organization": "都立日野高校高等学校",
+        "organization": "東京都立日野高等学校",
         "startYear": null,
         "endYear": null,
         "organizationId": "ORG000445",
