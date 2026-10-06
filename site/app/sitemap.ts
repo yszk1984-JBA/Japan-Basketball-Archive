@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
-import { organizations, players } from './public-data';
+import { getOrganizationPlayers, organizations, players } from './public-data';
+import { isOrganizationIndexable } from './seo';
 import { siteUrl } from './site-url';
 
 const baseUrl = siteUrl;
@@ -12,12 +13,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const organizationPages: MetadataRoute.Sitemap = organizations.map((organization) => ({
-    url: `${baseUrl}/organizations/${organization.slug}`,
-    lastModified: '2026-09-23',
-    changeFrequency: 'weekly',
-    priority: 0.6,
-  }));
+  // noindexの組織ページ（所属選手が少ないページ）はサイトマップに載せない。
+  const organizationPages: MetadataRoute.Sitemap = organizations
+    .filter((organization) => isOrganizationIndexable(getOrganizationPlayers(organization.id).length))
+    .map((organization) => ({
+      url: `${baseUrl}/organizations/${organization.slug}`,
+      lastModified: '2026-09-23',
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    }));
 
   return [
     {

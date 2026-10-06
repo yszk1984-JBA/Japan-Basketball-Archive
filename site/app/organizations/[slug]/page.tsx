@@ -11,7 +11,7 @@ import {
   organizations,
   type PublicPlayer,
 } from '../../public-data';
-import { baseOpenGraph, JsonLd, organizationJsonLd, organizationPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import { baseOpenGraph, isOrganizationIndexable, JsonLd, organizationJsonLd, organizationPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
 // この組織での在籍期間（複数回在籍した場合は並べる）。一覧の「現在の所属」ではなく、
 // このページの組織との関係を示す。
@@ -42,6 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     alternates: { canonical: `/organizations/${organization.slug}` },
+    ...(isOrganizationIndexable(playerCount) ? {} : { robots: { index: false, follow: true } }),
     openGraph: { ...baseOpenGraph, title, description, url: `/organizations/${organization.slug}` },
   };
 }

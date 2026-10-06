@@ -64,23 +64,38 @@ export function SiteFooter() {
   );
 }
 
+// 組織の種類（表示文言と構造化データの型に使う）。
+// 学校の区分は組織名からの自動判定（organization-category.ts）。海外の学校は区分が「海外」「その他」に
+// なるため、名前からも学校かどうかを見る。
+export type OrganizationKind = 'highSchool' | 'university' | 'school' | 'club' | 'unknown';
+
+export function organizationKind(organization: PublicOrganization): OrganizationKind {
+  const category = organizationCategory(organization.name);
+  if (category === 'hs') return 'highSchool';
+  if (category === 'univ') return 'university';
+  if (category === 'club') return 'club';
+  const looksLikeSchool =
+    /(大学|大$|高校|高等学校|中学校|学園|学院|専門学校|カレッジ|スクール|ユニバーシティ|アカデミー|College|University|School|Academy|Institute|Prep)/i.test(
+      organization.name,
+    );
+  return looksLikeSchool ? 'school' : 'unknown';
+}
+
+// 組織ページをindexする最低人数（SEO_SPEC_V1.0「ページ品質ゲーティング」：所属選手3名以上）。
+// 未満のページはnoindex（リンクはたどらせる）にし、サイトマップにも載せない。
+export const ORGANIZATION_INDEX_MIN_PLAYERS = 3;
+
+export function isOrganizationIndexable(playerCount: number): boolean {
+  return playerCount >= ORGANIZATION_INDEX_MIN_PLAYERS;
+}
+
 // 組織ページのtitle・description。
 // 学校は「〇〇高校 Bリーガー」「〇〇大学 出身 選手」のような検索に合わせて「出身」を使い、
 // クラブ等は「所属選手」とする。網羅していると誤解されないよう「記録のある」「確認できた」と書き、
 // 「歴代」「全員」などの表現は使わない。
 export function organizationPageMeta(organization: PublicOrganization, playerCount: number) {
-  const category = organizationCategory(organization.name);
-  // 海外の学校は区分が「海外」「その他」になるため、名前からも学校かどうかを見る。
-  const looksLikeSchool =
-    /(大学|大$|高校|高等学校|中学校|学園|学院|専門学校|カレッジ|スクール|ユニバーシティ|アカデミー|College|University|School|Academy|Institute|Prep)/i.test(
-      organization.name,
-    );
-  const kind: 'school' | 'club' | 'unknown' =
-    category === 'hs' || category === 'univ' || (category !== 'club' && looksLikeSchool)
-      ? 'school'
-      : category === 'club'
-        ? 'club'
-        : 'unknown';
+  const kind = organizationKind(organization);
+  const group = kind === 'club' ? 'club' : kind === 'unknown' ? 'unknown' : 'school';
   const titles = {
     school: `${organization.name}出身のバスケ選手一覧（${playerCount}人）`,
     club: `${organization.name}の所属選手一覧（${playerCount}人）`,
@@ -91,7 +106,7 @@ export function organizationPageMeta(organization: PublicOrganization, playerCou
     club: `${organization.name}に所属記録のある選手${playerCount}人の出身校・経歴を、出典とともに掲載しています。`,
     unknown: `${organization.name}に在籍記録のある選手${playerCount}人の経歴を、出典とともに掲載しています。`,
   };
-  return { title: titles[kind], description: `${descriptions[kind]}掲載は本サイトに登録済みの選手のみです。` };
+  return { title: titles[group], description: `${descriptions[group]}掲載は本サイトに登録済みの選手のみです。` };
 }
 
 // JSON-LD（構造化データ）を<script type="application/ld+json">として出力する。
@@ -175,12 +190,29 @@ export function playerJsonLd(
   return { '@context': 'https://schema.org', '@graph': graph };
 }
 
+// 組織の種類に応じたschema.orgの型（SEO_SPEC_V1.0：学校はEducationalOrganization、クラブはSportsTeam）。
+// 高校・大学はEducationalOrganizationの下位型（HighSchool・CollegeOrUniversity）を使う。
+const ORGANIZATION_SCHEMA_TYPE: Record<OrganizationKind, string> = {
+  highSchool: 'HighSchool',
+  university: 'CollegeOrUniversity',
+  school: 'EducationalOrganization',
+  club: 'SportsTeam',
+  unknown: 'Organization',
+};
+
 export function organizationJsonLd(organization: PublicOrganization) {
   const path = `/organizations/${organization.slug}`;
+  const kind = organizationKind(organization);
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Organization', '@id': `${siteUrl}${path}#organization`, name: organization.name, url: `${siteUrl}${path}` },
+      {
+        '@type': ORGANIZATION_SCHEMA_TYPE[kind],
+        '@id': `${siteUrl}${path}#organization`,
+        name: organization.name,
+        url: `${siteUrl}${path}`,
+        ...(kind === 'club' ? { sport: 'Basketball' } : {}),
+      },
       breadcrumbJsonLd([
         { name: 'ホーム', path: '/' },
         { name: '組織一覧', path: '/organizations' },
