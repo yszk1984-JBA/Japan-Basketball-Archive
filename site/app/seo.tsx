@@ -44,6 +44,12 @@ export function SiteBreadcrumb({ crumbs }: { crumbs: readonly BreadcrumbItem[] }
   );
 }
 
+// 非公式であることの注記（docs/BRAND_NAME_PROPOSAL_V0.1.mdの免責表記案）。フッターとAboutページで使う。
+export const DISCLAIMER_JA =
+  '本サイトは、公益財団法人日本バスケットボール協会（JBA）、B.LEAGUE、その他の競技団体とは関係のない、個人が運営する非公式アーカイブです。掲載情報は公開資料に基づいており、出典を各ページに記載しています。';
+export const DISCLAIMER_EN =
+  'This is an independent, unofficial archive and is not affiliated with the Japan Basketball Association (JBA), B.LEAGUE, or any other governing body.';
+
 // サイト共通フッター（B案）。
 export function SiteFooter() {
   return (
@@ -58,8 +64,10 @@ export function SiteFooter() {
           <a href="/organizations">組織一覧</a>
           <a href="/rankings/high-school">出身高校ランキング</a>
           <a href="/rankings/university">出身大学ランキング</a>
+          <a href="/about">このサイトについて</a>
         </div>
       </div>
+      <p className="jbaListB-footerDisclaimer">{DISCLAIMER_JA}</p>
     </footer>
   );
 }

@@ -28,7 +28,7 @@
 
 > This is an independent, unofficial archive and is not affiliated with the Japan Basketball Association (JBA), B.LEAGUE, or any other governing body.
 
-公開サイトへの反映は、公開範囲・表示の判断と合わせてYuichiが決める。
+2026-10-06：Yuichiの指示により公開サイトへ反映した。全ページ共通のフッターに日本語文、Aboutページ（/about）に日本語文と英語文を掲載（文言は`site/app/seo.tsx`の`DISCLAIMER_JA`・`DISCLAIMER_EN`）。
 
 ## ブランド名の第一候補：Rosterline（ロスターライン）
 

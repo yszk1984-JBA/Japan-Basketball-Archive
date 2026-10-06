@@ -541,6 +541,42 @@
   flex-wrap: wrap;
 }
 
+.jbaListB-footerDisclaimer {
+  max-width: 1120px;
+  margin: 20px auto 0;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 11px;
+  line-height: 1.7;
+  color: #8A97A3;
+}
+
+.jbaListB-about {
+  max-width: 760px;
+  font-size: 14px;
+  line-height: 1.9;
+  color: #1A2330;
+}
+
+.jbaListB-about p,
+.jbaListB-about ul {
+  margin: 0;
+}
+
+.jbaListB-about ul {
+  padding-left: 1.2em;
+  list-style: disc;
+}
+
+.jbaListB-about li + li {
+  margin-top: 6px;
+}
+
+.jbaListB-aboutEn {
+  font-size: 13px;
+  color: #5B6B7A;
+}
+
 .jbaListB-footerTitle {
   color: #ffffff;
   font-weight: 700;
