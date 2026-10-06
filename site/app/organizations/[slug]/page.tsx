@@ -11,7 +11,7 @@ import {
   organizations,
   type PublicPlayer,
 } from '../../public-data';
-import { baseOpenGraph, JsonLd, organizationJsonLd, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import { baseOpenGraph, JsonLd, organizationJsonLd, organizationPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
 // この組織での在籍期間（複数回在籍した場合は並べる）。一覧の「現在の所属」ではなく、
 // このページの組織との関係を示す。
@@ -36,8 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!organization) return {};
 
   const playerCount = getOrganizationPlayers(organization.id).length;
-  const title = `${organization.name}の選手一覧（${playerCount}人）`;
-  const description = `${organization.name}に所属記録のある選手${playerCount}人の経歴・所属を、出典とともに掲載しています。`;
+  const { title, description } = organizationPageMeta(organization, playerCount);
 
   return {
     title,

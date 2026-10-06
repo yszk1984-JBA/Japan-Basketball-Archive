@@ -1,15 +1,17 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { Fragment } from 'react';
+import { organizationCategory } from './organization-category';
 import type { PublicOrganization, PublicPlayer } from './public-data';
+import { siteUrl } from './site-url';
 
-export const siteUrl = 'https://japanbasketballarchive.com';
+export { siteUrl };
 
 // ページ側でopenGraphを指定するとlayoutの値が丸ごと置き換わるため、共通項目をここから展開する。
 export const baseOpenGraph = { siteName: 'Rosterline', locale: 'ja_JP', type: 'website' } as const;
 
 // サイト共通ヘッダー（B案）。全ページで同一の見た目・ナビゲーションにするため、
 // /players, /organizations で先行実装していたヘッダーをここに集約する。
-export function SiteHeader({ active }: { active?: 'players' | 'organizations' }) {
+export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' }) {
   return (
     <header className="jbaListB-header">
       <a href="/" className="jbaListB-brand">
@@ -19,6 +21,7 @@ export function SiteHeader({ active }: { active?: 'players' | 'organizations' })
       <nav className="jbaListB-nav">
         <a href="/players" aria-current={active === 'players' ? 'page' : undefined}>選手</a>
         <a href="/organizations" aria-current={active === 'organizations' ? 'page' : undefined}>組織</a>
+        <a href="/rankings" aria-current={active === 'rankings' ? 'page' : undefined}>ランキング</a>
       </nav>
     </header>
   );
@@ -53,10 +56,42 @@ export function SiteFooter() {
         <div className="jbaListB-footerLinks">
           <a href="/players">選手一覧</a>
           <a href="/organizations">組織一覧</a>
+          <a href="/rankings/high-school">出身高校ランキング</a>
+          <a href="/rankings/university">出身大学ランキング</a>
         </div>
       </div>
     </footer>
   );
+}
+
+// 組織ページのtitle・description。
+// 学校は「〇〇高校 Bリーガー」「〇〇大学 出身 選手」のような検索に合わせて「出身」を使い、
+// クラブ等は「所属選手」とする。網羅していると誤解されないよう「記録のある」「確認できた」と書き、
+// 「歴代」「全員」などの表現は使わない。
+export function organizationPageMeta(organization: PublicOrganization, playerCount: number) {
+  const category = organizationCategory(organization.name);
+  // 海外の学校は区分が「海外」「その他」になるため、名前からも学校かどうかを見る。
+  const looksLikeSchool =
+    /(大学|大$|高校|高等学校|中学校|学園|学院|専門学校|カレッジ|スクール|ユニバーシティ|アカデミー|College|University|School|Academy|Institute|Prep)/i.test(
+      organization.name,
+    );
+  const kind: 'school' | 'club' | 'unknown' =
+    category === 'hs' || category === 'univ' || (category !== 'club' && looksLikeSchool)
+      ? 'school'
+      : category === 'club'
+        ? 'club'
+        : 'unknown';
+  const titles = {
+    school: `${organization.name}出身のバスケ選手一覧（${playerCount}人）`,
+    club: `${organization.name}の所属選手一覧（${playerCount}人）`,
+    unknown: `${organization.name}の在籍選手一覧（${playerCount}人）`,
+  };
+  const descriptions = {
+    school: `${organization.name}に在籍記録のある選手${playerCount}人の進路（大学・クラブ）と経歴を、出典とともに掲載しています。`,
+    club: `${organization.name}に所属記録のある選手${playerCount}人の出身校・経歴を、出典とともに掲載しています。`,
+    unknown: `${organization.name}に在籍記録のある選手${playerCount}人の経歴を、出典とともに掲載しています。`,
+  };
+  return { title: titles[kind], description: `${descriptions[kind]}掲載は本サイトに登録済みの選手のみです。` };
 }
 
 // JSON-LD（構造化データ）を<script type="application/ld+json">として出力する。
