@@ -1,12 +1,20 @@
 import { CLUB_COLORS } from '../club-colors';
 import { organizationCategory } from '../organization-category';
-import { getPrimaryCareer, masterApprovals, masterPublication, organizationSlugFor, players } from '../public-data';
+import {
+  getOrganizationById,
+  getPrimaryCareer,
+  masterApprovals,
+  masterPublication,
+  organizationSlugFor,
+  players,
+} from '../public-data';
 
 // 出身校ランキングの集計。
 // - 対象はMaster Dataの選手と、Master承認済みのCareerだけ（Candidateは含めない）。
 // - 「現役」は、現在（直近）の所属が現行のB.PREMIER・B.ONEの51クラブ（club-colors.ts）である選手。
 // - 学校の区分（高校・大学）は組織名からの自動判定（organization-category.ts）を使う。
-// - 改称・統合した学校は、組織データ上で別の組織として登録されていれば別々に数える。
+// - 改称・統合した学校は資料に書かれた当時の名称で数え、現在の名称（Masterの付随データ）を併記する。
+//   組織データ上で別の組織として登録されていれば別々に数える。
 export type RankingKind = 'high-school' | 'university';
 
 export type RankingRow = {
@@ -14,6 +22,8 @@ export type RankingRow = {
   readonly organizationId: string;
   readonly slug: string | undefined;
   readonly name: string;
+  // 改称・統合した学校の現在の名称（例：「現：仙台大学附属明成高等学校」）。
+  readonly currentNameNote?: string;
   // 現在B.PREMIER・B.ONEのクラブに所属している出身者の数（並び順の基準）。
   readonly active: number;
   // 本サイトに登録されている出身者の延べ人数（引退者・B3以下・海外などを含む）。
@@ -31,6 +41,11 @@ export const RANKING_META: Record<
 function isActiveTopLeaguePlayer(player: (typeof players)[number]): boolean {
   const organizationId = getPrimaryCareer(player)?.organizationId;
   return Boolean(organizationId && CLUB_COLORS[organizationId]);
+}
+
+function currentNameNote(organizationId: string): string | undefined {
+  const current = getOrganizationById(organizationId)?.currentName;
+  return current ? `${current.label}：${current.currentName}` : undefined;
 }
 
 export function buildRanking(kind: RankingKind): RankingRow[] {
@@ -59,6 +74,7 @@ export function buildRanking(kind: RankingKind): RankingRow[] {
       organizationId,
       slug: organizationSlugFor(organizationId),
       name: entry.name,
+      currentNameNote: currentNameNote(organizationId),
       active: entry.active.size,
       total: entry.total.size,
     }))

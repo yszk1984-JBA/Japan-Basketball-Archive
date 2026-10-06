@@ -22,6 +22,11 @@ function periodsAt(player: PublicPlayer, organizationId: string): string {
   return periods.length > 0 ? `在籍 ${periods.join('、')}` : player.cardContext;
 }
 
+function formatYearMonth(value: string): string {
+  const [year, month] = value.split('-');
+  return month ? `${year}年${Number(month)}月` : `${year}年`;
+}
+
 export function generateStaticParams() {
   return [
     ...organizations.map((organization) => ({ slug: organization.slug })),
@@ -68,6 +73,17 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
         <header className="jbaListB-detailHeader">
           <p className="jbaListB-eyebrow">Organization · {organization.id}</p>
           <h1 className="jbaListB-detailTitle">{organization.name}</h1>
+          {organization.currentName ? (
+            <p className="jbaListB-currentName">
+              {organization.currentName.label}：<strong>{organization.currentName.currentName}</strong>
+              （{formatYearMonth(organization.currentName.effectiveDate)}
+              {organization.currentName.changeType === 'SCHOOL_MERGER' ? 'に統合により開校' : 'に改称'}。出典：
+              <a href={organization.currentName.source.url} target="_blank" rel="noreferrer">
+                {organization.currentName.source.publisher}
+              </a>
+              ）。このページでは、資料に書かれた当時の名称で掲載しています。
+            </p>
+          ) : null}
         </header>
 
         <section className="jbaListB-section">

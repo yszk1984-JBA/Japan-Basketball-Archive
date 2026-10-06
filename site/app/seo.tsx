@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { Fragment } from 'react';
 import { organizationCategory } from './organization-category';
-import type { PublicOrganization, PublicPlayer } from './public-data';
+import { organizationDisplayName, type PublicOrganization, type PublicPlayer } from './public-data';
 import { siteUrl } from './site-url';
 
 export { siteUrl };
@@ -104,10 +104,11 @@ export function isOrganizationIndexable(playerCount: number): boolean {
 export function organizationPageMeta(organization: PublicOrganization, playerCount: number) {
   const kind = organizationKind(organization);
   const group = kind === 'club' ? 'club' : kind === 'unknown' ? 'unknown' : 'school';
+  const name = organizationDisplayName(organization);
   const titles = {
-    school: `${organization.name}出身のバスケ選手一覧（${playerCount}人）`,
-    club: `${organization.name}の所属選手一覧（${playerCount}人）`,
-    unknown: `${organization.name}の在籍選手一覧（${playerCount}人）`,
+    school: `${name}出身のバスケ選手一覧（${playerCount}人）`,
+    club: `${name}の所属選手一覧（${playerCount}人）`,
+    unknown: `${name}の在籍選手一覧（${playerCount}人）`,
   };
   const descriptions = {
     school: `${organization.name}に在籍記録のある選手${playerCount}人の進路（大学・クラブ）と経歴を、出典とともに掲載しています。`,
@@ -218,6 +219,7 @@ export function organizationJsonLd(organization: PublicOrganization) {
         '@type': ORGANIZATION_SCHEMA_TYPE[kind],
         '@id': `${siteUrl}${path}#organization`,
         name: organization.name,
+        ...(organization.currentName ? { alternateName: organization.currentName.currentName } : {}),
         url: `${siteUrl}${path}`,
         ...(kind === 'club' ? { sport: 'Basketball' } : {}),
       },

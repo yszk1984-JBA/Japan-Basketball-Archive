@@ -18,6 +18,9 @@ export default function OrganizationsIndexPage() {
       id: organization.id,
       slug: organization.slug,
       name: organization.name,
+      ...(organization.currentName
+        ? { currentNameNote: `${organization.currentName.label}：${organization.currentName.currentName}` }
+        : {}),
       category: organizationCategory(organization.name),
       total: relatedPlayers.length,
       master: relatedPlayers.filter((player) => player.dataStatus === 'master').length,
