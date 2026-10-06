@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './site-b.css';
+import { siteUrl } from './site-url';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://japanbasketballarchive.com'),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'Rosterline｜日本バスケ経歴アーカイブ',
     template: '%s | Rosterline',

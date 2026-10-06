@@ -1,7 +1,8 @@
 import type { MetadataRoute } from 'next';
 import { organizations, players } from './public-data';
+import { siteUrl } from './site-url';
 
-const baseUrl = 'https://japanbasketballarchive.com';
+const baseUrl = siteUrl;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const playerPages: MetadataRoute.Sitemap = players.map((player) => ({
