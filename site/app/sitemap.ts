@@ -38,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    ...['/rankings', '/rankings/high-school', '/rankings/university'].map((path) => ({
+      url: `${baseUrl}${path}`,
+      lastModified: '2026-10-06',
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    })),
     ...organizationPages,
     ...playerPages,
   ];

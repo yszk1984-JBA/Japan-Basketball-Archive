@@ -11,7 +11,7 @@ export const baseOpenGraph = { siteName: 'Rosterline', locale: 'ja_JP', type: 'w
 
 // サイト共通ヘッダー（B案）。全ページで同一の見た目・ナビゲーションにするため、
 // /players, /organizations で先行実装していたヘッダーをここに集約する。
-export function SiteHeader({ active }: { active?: 'players' | 'organizations' }) {
+export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' }) {
   return (
     <header className="jbaListB-header">
       <a href="/" className="jbaListB-brand">
@@ -21,6 +21,7 @@ export function SiteHeader({ active }: { active?: 'players' | 'organizations' })
       <nav className="jbaListB-nav">
         <a href="/players" aria-current={active === 'players' ? 'page' : undefined}>選手</a>
         <a href="/organizations" aria-current={active === 'organizations' ? 'page' : undefined}>組織</a>
+        <a href="/rankings" aria-current={active === 'rankings' ? 'page' : undefined}>ランキング</a>
       </nav>
     </header>
   );
@@ -55,6 +56,8 @@ export function SiteFooter() {
         <div className="jbaListB-footerLinks">
           <a href="/players">選手一覧</a>
           <a href="/organizations">組織一覧</a>
+          <a href="/rankings/high-school">出身高校ランキング</a>
+          <a href="/rankings/university">出身大学ランキング</a>
         </div>
       </div>
     </footer>

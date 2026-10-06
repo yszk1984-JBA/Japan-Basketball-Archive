@@ -398,6 +398,58 @@
   grid-template-columns: 24px 1fr 130px 200px;
 }
 
+.jbaListB-rankGrid {
+  grid-template-columns: 48px 1fr 96px 96px;
+  column-gap: 12px;
+}
+
+.jbaListB-rankNum {
+  text-align: right;
+}
+
+.jbaListB-rankPos {
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: #1A2330;
+}
+
+.jbaListB-rankIndexGrid {
+  grid-template-columns: 1fr;
+  row-gap: 6px;
+  align-items: start;
+}
+
+.jbaListB-rankOther {
+  margin: 6px 0 0;
+  font-size: 13px;
+}
+
+.jbaListB-rankOther a {
+  color: #1D5FD6;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.jbaListB-rankOther a:hover {
+  text-decoration: underline;
+}
+
+.jbaListB-rankNotes {
+  font-size: 12px;
+  color: #5B6B7A;
+  line-height: 1.7;
+}
+
+.jbaListB-rankNotes p {
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.jbaListB-rankNotes ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
 .jbaListB-row {
   display: grid;
   padding: 13px 20px;
@@ -497,12 +549,14 @@
 
 .jbaListB-footerLinks {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 8px 24px;
 }
 
 .jbaListB-footerLinks a {
   color: #C6CDD4;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 /* ==========================================================================
@@ -1264,3 +1318,35 @@ a.jbaListB-timelineOrg:hover {
 @media (max-width: 640px) {
   .jbaListB-gantt { display: none; }
 }
+
+/* --- ランキング：モバイルでも1行（順位・校名・人数）のまま表示する --- */
+@media (max-width: 760px) {
+  .jbaListB-row.jbaListB-rankGrid {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    grid-template-areas: 'pos name active' 'pos total total';
+    column-gap: 10px;
+    row-gap: 2px;
+    padding: 12px 14px;
+  }
+
+  .jbaListB-row.jbaListB-rankIndexGrid {
+    align-items: stretch;
+  }
+
+  .jbaListB-rankGrid > :nth-child(1) { grid-area: pos; }
+  .jbaListB-rankGrid > :nth-child(2) { grid-area: name; }
+  .jbaListB-rankGrid > :nth-child(3) { grid-area: active; }
+  .jbaListB-rankGrid > :nth-child(4) { grid-area: total; text-align: left; font-size: 11px; }
+
+  .jbaListB-rankGrid > :nth-child(4)::before {
+    content: '登録出身者 ';
+  }
+
+  .jbaListB-rankGrid > :nth-child(3)::before {
+    content: '現役 ';
+    font-size: 11px;
+    color: #5B6B7A;
+  }
+}
+
