@@ -1,0 +1,3 @@
+decision_id,entity_type,entity_id,held_fields,reason
+B7W13D0002,Career,C002731,start|end,READY判断内の未確認項目としてVERIFIEDから除外
+B7W13D0006,Career,C002735,end,READY判断内の未確認項目としてVERIFIEDから除外
