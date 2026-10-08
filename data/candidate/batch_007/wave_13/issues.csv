@@ -1,0 +1,6 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B7W13I0001,P000104,P000104,NAME_SOURCE,HOLD,八村塁の日本語の氏名はWikipediaでのみ確認（NBA公式は英語表記「Rui Hachimura」）。JBA公式サイトはブラウザで閲覧できなかった（「ただいまサイトを閲覧できません」）。,JBA公式の日本代表名簿などで日本語表記を確認
+B7W13I0002,P000104,C002733,SAME_SEASON_TWO_CLUBS,HOLD,2022-23シーズンはウィザーズ（30試合）とレイカーズ（33試合）の2クラブ（2023-01-23のトレード）。シーズン単位のルールで両方に同じ年を用いた。,—
+B7W13I0003,P000107,C002738,SAME_SEASON_TWO_CLUBS,HOLD,2021-22シーズンはテキサス・レジェンズ（Gリーグ、Showcase 8試合）とメルボルン・ユナイテッド（NBL22、2022-03に再加入）の2クラブ。,—
+B7W13I0004,P000107,P000107,GLEAGUE_SEASON_TYPES,HOLD,Gリーグの出場はNBA公式で「Showcase」（2021-22 8試合、2022-23 16試合）と「Regular Season」に分かれて記録されている。2021-22はShowcaseのみ。,—
+B7W13I0005,P000084,C002741,SAME_SEASON_TWO_CLUBS,HOLD,2018-19シーズンはブリスベン・ブレッツ（NBL）と栃木ブレックス（B.LEAGUE）の2クラブ（シーズン途中の帰国）。ブリスベンでの試合数・退団日はNBL公式で未確認。,NBL公式の記録で出場と退団時期を確認
