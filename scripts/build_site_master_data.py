@@ -39,6 +39,7 @@ ENRICHMENT_APPROVALS = {
     "APP-AS008-20260929-01": ROOT / "data" / "verified" / "approval_sprint_008" / "career_review.csv",
     "APP-AS011-20261003-01": ROOT / "data" / "verified" / "approval_sprint_011" / "career_review.csv",
     "APP-AS018-20261008-01": ROOT / "data" / "verified" / "approval_sprint_018" / "career_review_enrichment_only.csv",
+    "APP-AS015-20261008-01": ROOT / "data" / "verified" / "approval_sprint_015" / "career_review.csv",
 }
 EDUCATION_MARKERS = ("高等学校", "高校", "大学", "中学校", "中学", "小学校")
 
