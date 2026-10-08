@@ -88,6 +88,7 @@ export const sources: readonly PublicSource[] = [
 // （MONETIZATION_DRAFTの「ランキングで非掲載者の存在を否定しない」方針と同じ考え方）。
 const FEATURED_PLAYER_IDS: readonly string[] = [
   'P000064', // 河村勇輝（ロサンゼルス・クリッパーズ）
+  'P000104', // 八村塁（ロサンゼルス・クリッパーズ、NBA経歴あり）
   'P000103', // 渡邊雄太（千葉ジェッツ、NBA経歴あり）
   'P000105', // 田臥勇太（宇都宮ブレックス、日本人初のNBA選手）
   'P000106', // 富永啓生（レバンガ北海道）

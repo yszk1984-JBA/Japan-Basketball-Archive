@@ -8174,7 +8174,7 @@ B7W11E0313,Career,C001788,organization_id,ORG000135,B7W11S0032,順位表 > ク�
 B7W11E0314,Career,C001788,start,2025,B7W11S0062,クラブ所属履歴 > 「2025-26 長崎」,所属履歴の最初のシーズン2025-26の開始年,SUPPORTED,2026-09-30,
 B7W11E0315,Career,C001788,organization_id,ORG000135,B7W11S0061,選手一覧 > 長崎 > 星川 堅信,2026-27シーズンの公式選手一覧で現所属を確認,SUPPORTED,2026-09-30,
 B7W13E0001,Person,P000104,name,八村塁,B7W13S0007,冒頭,Wikipediaで日本語の氏名を確認（公式の日本語表記は未確認）,SUPPORTED,2026-10-08,
-B7W13E0002,Person,P000104,date_of_birth,1998-02-08,B7W13S0001,BIRTHDATE 1998-02-08T00:00:00 / DISPLAY_FIRST_LAST Rui Hachimura / COUNTRY Japan,NBA公式の選手情報で生年月日を確認（Wikipediaの1998年2月8日と一致）,SUPPORTED,2026-10-08,
+B7W13E0002,Person,P000104,birth_date,1998-02-08,B7W13S0001,BIRTHDATE 1998-02-08T00:00:00 / DISPLAY_FIRST_LAST Rui Hachimura / COUNTRY Japan,NBA公式の選手情報で生年月日を確認（Wikipediaの1998年2月8日と一致）,SUPPORTED,2026-10-08,
 B7W13E0003,Career,C002731,organization_id,ORG000147,B7W13S0006,"2017-18・2018-19：Toyama, Japan / Meisei",ゴンザガ大学公式ロスターの出身校欄（Meisei）,SUPPORTED,2026-10-08,
 B7W13E0004,Career,C002731,role,Player,B7W13S0007,経歴 > 出身高校：明成高等学校（宮城県）,高校の選手として在籍,SUPPORTED,2026-10-08,
 B7W13E0005,Career,C002732,organization_id,ORG000158,B7W13S0006,21 Rui Hachimura（2016-17 Fr.／2017-18 So.／2018-19 Jr.）,大学公式の年度別ロスターで在籍を確認,SUPPORTED,2026-10-08,

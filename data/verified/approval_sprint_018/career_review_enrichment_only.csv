@@ -1,0 +1,7 @@
+career_id,person_id,person_name,organization_id,organization_name,organization_status,role,start,end,held_fields,evidence_count
+C002736,P000107,馬場雄大,ORG000138,テキサス・レジェンズ,Master既存,Player,2019,2020,,5
+C002737,P000107,馬場雄大,ORG000495,メルボルン・ユナイテッド,新規,Player,2020,2021,,4
+C002738,P000107,馬場雄大,ORG000138,テキサス・レジェンズ,Master既存,Player,2021,2022,,5
+C002739,P000107,馬場雄大,ORG000495,メルボルン・ユナイテッド,新規,Player,2021,2022,,4
+C002740,P000107,馬場雄大,ORG000138,テキサス・レジェンズ,Master既存,Player,2022,2023,,4
+C002741,P000084,比江島慎,ORG000496,ブリスベン・ブレッツ,新規,Player,2018,2019,,4
