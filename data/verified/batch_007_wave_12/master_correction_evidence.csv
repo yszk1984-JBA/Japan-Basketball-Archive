@@ -1,0 +1,5 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B7W12E0054,Career,C000354,start,2014,B7W12S0012,2014-15 Fr. / 2015-16 So. / 2016-17 Jr. / 2017-18 Sr.（2013-14・2018-19は掲載なし）,大学公式の年度別ロスターで2014-15〜2017-18の4シーズン在籍,SUPPORTED,2026-10-08,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B7W12E0055,Career,C000354,end,2018,B7W12S0012,2014-15 Fr. / 2015-16 So. / 2016-17 Jr. / 2017-18 Sr.（2013-14・2018-19は掲載なし）,大学公式の年度別ロスターで2014-15〜2017-18の4シーズン在籍,SUPPORTED,2026-10-08,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B7W12E0056,Career,C000363,start,2021,B7W12S0013,2021-22 Sophomore / 2022-23 Junior / 2023-24 Senior（2020-21・2024-25は掲載なし）,大学公式の年度別ロスターで2021-22〜2023-24の3シーズン在籍,SUPPORTED,2026-10-08,既存MASTER Careerの期間の訂正案（master_corrections.csv）
+B7W12E0057,Career,C000363,end,2024,B7W12S0013,2021-22 Sophomore / 2022-23 Junior / 2023-24 Senior（2020-21・2024-25は掲載なし）,大学公式の年度別ロスターで2021-22〜2023-24の3シーズン在籍,SUPPORTED,2026-10-08,既存MASTER Careerの期間の訂正案（master_corrections.csv）
