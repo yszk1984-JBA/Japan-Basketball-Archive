@@ -90,7 +90,10 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
             const cells = (
               <>
                 <div className="jbaListB-rankPos">{row.rank}</div>
-                <div className="jbaListB-rowName">{row.name}</div>
+                <div>
+                  <div className="jbaListB-rowName">{row.name}</div>
+                  {row.currentNameNote ? <div className="jbaListB-rankCurrent">{row.currentNameNote}</div> : null}
+                </div>
                 <div className="jbaListB-rankNum">
                   <strong>{row.active}</strong>人
                 </div>
@@ -115,7 +118,7 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
             <li>本サイトに登録済み（確認済みのデータ）の選手だけを数えています。登録されていない選手は含まれないため、実際の人数より少ない場合があります。</li>
             <li>「現役選手」は、現在の所属が2026-27シーズンのB.PREMIER・B.ONEのクラブである選手です。</li>
             <li>「登録出身者」は、その{label}の在籍記録がある選手の人数で、引退した選手やB3・海外などでプレーする選手も含みます。</li>
-            <li>改称や統合をした{label}は、記録上の名称ごとに別々に数えている場合があります。</li>
+            <li>改称や統合をした{label}は、資料に書かれた当時の名称で掲載し、現在の名称を書き添えています。</li>
           </ul>
         </div>
       </div>

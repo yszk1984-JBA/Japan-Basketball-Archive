@@ -8,6 +8,8 @@ export type OrganizationRow = {
   readonly id: string;
   readonly slug: string;
   readonly name: string;
+  // 改称・統合した学校の現在の名称の注記（例：「現：仙台大学附属明成高等学校」）。
+  readonly currentNameNote?: string;
   readonly category: OrganizationCategory;
   readonly total: number;
   readonly master: number;
@@ -38,7 +40,9 @@ export function OrganizationsListView({ rows, totalCount }: { rows: readonly Org
     const next = rows.filter(
       (row) =>
         (categoryFilter === 'all' || row.category === categoryFilter) &&
-        (query === '' || row.name.toLowerCase().includes(query)),
+        (query === '' ||
+          row.name.toLowerCase().includes(query) ||
+          (row.currentNameNote ?? '').toLowerCase().includes(query)),
     );
     if (sortKey === 'count') return [...next].sort((left, right) => right.total - left.total);
     if (sortKey === 'candidate') {
@@ -136,7 +140,10 @@ export function OrganizationsListView({ rows, totalCount }: { rows: readonly Org
             return (
               <a href={`/organizations/${row.slug}`} key={row.id} className="jbaListB-row jbaListB-orgsGrid">
                 <span className="jbaListB-dot" style={{ background: categoryMeta.color }} />
-                <div className="jbaListB-rowName">{row.name}</div>
+                <div>
+                  <div className="jbaListB-rowName">{row.name}</div>
+                  {row.currentNameNote ? <div className="jbaListB-rankCurrent">{row.currentNameNote}</div> : null}
+                </div>
                 <div>
                   <span className="jbaListB-pill" style={{ background: categoryMeta.bg, color: categoryMeta.color }}>
                     {categoryMeta.label}

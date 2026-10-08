@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
 import { getPlayer, getSources, masterApprovals, masterPublication, organizationSlugFor, players } from '../../public-data';
 import { CareerGantt } from './CareerGantt';
-import { baseOpenGraph, careerOrganizationNames, JsonLd, playerJsonLd, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import { baseOpenGraph, JsonLd, playerJsonLd, playerPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
 export function generateStaticParams() {
   return players.map((player) => ({ slug: player.slug }));
@@ -16,21 +16,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!player) return {};
 
-  const organizationNames = careerOrganizationNames(player);
-  const organizationsLabel = organizationNames.join('・');
-  const title = organizationNames.length ? `${player.name}の経歴・所属（${organizationsLabel}）` : `${player.name}の経歴・所属`;
-  const englishName = player.facts.find((fact) => fact.label === '英字表記')?.value;
   const sourceCount = new Set([
     ...player.facts.flatMap((fact) => fact.sourceIds),
     ...player.careers.flatMap((career) => career.sourceIds),
     ...player.aliases.flatMap((alias) => alias.sourceIds),
   ]).size;
-  const description = [
-    `${player.name}${englishName ? `（${englishName}）` : ''}の所属・経歴。`,
-    organizationNames.length ? `${organizationsLabel}などの所属記録を、` : '',
-    `出典${sourceCount > 0 ? `${sourceCount}件` : ''}とともに掲載しています。`,
-    player.dataStatus === 'master' ? '' : '（正式承認前の候補データ）',
-  ].join('');
+  const { title, description } = playerPageMeta(player, sourceCount);
 
   return {
     title,

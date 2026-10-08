@@ -413,6 +413,27 @@
   color: #1A2330;
 }
 
+.jbaListB-rankCurrent {
+  font-size: 11px;
+  color: #5B6B7A;
+  margin-top: 2px;
+}
+
+.jbaListB-currentName {
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #5B6B7A;
+}
+
+.jbaListB-currentName strong {
+  color: #1A2330;
+}
+
+.jbaListB-currentName a {
+  color: #1D5FD6;
+}
+
 .jbaListB-rankIndexGrid {
   grid-template-columns: 1fr;
   row-gap: 6px;

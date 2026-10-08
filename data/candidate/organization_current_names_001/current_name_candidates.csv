@@ -1,0 +1,8 @@
+current_name_id,organization_id,recorded_name,current_name,effective_date,effective_date_precision,change_type,source_id,source_locator,assessment,note
+OCN0001,ORG000147,明成高等学校,仙台大学附属明成高等学校,2020-04,month,NAME_CHANGE,OCS0001,沿革 > 「2020年(令和2年)4月 - 校名を仙台大学附属明成高等学校と改称」,SUPPORTED,出典は探索用（Wikipedia）。学校公式サイトでの改称日の確認は未了
+OCN0002,ORG000159,秋田県立能代工業高等学校,秋田県立能代科学技術高等学校,2021-04,month,SCHOOL_MERGER,OCS0002,トップ > 「秋田県立能代工業高等学校と秋田県立能代西高等学校が統合して、令和3年4月に新たに開校した県立高校です」,SUPPORTED,改称ではなく2校の統合による新設校。表示の文言はYuichiの判断事項
+OCN0003,ORG000293,京北高等学校,東洋大学京北高等学校,2015,year,NAME_CHANGE,OCS0003,沿革 > 「2015年- 白山(東洋大学白山第2キャンパス)へ再移転。学校名を「東洋大学京北中学・高等学校」に変更し、共学化。」,SUPPORTED,出典は探索用（Wikipedia）。学校公式の沿革ページは取得できず未確認
+OCN0004,ORG000432,旭川大学高等学校,旭川志峯高等学校,2023-04,month,NAME_CHANGE,OCS0004,トップ > 「令和5年4月より、学校名の変更とともにホームページの移転をしました」「旭川大学高等学校は 旭川志峯高等学校としてリスタートします。」,SUPPORTED,学校公式（旧サイトの告知）
+OCN0005,ORG000146,明桜高等学校,ノースアジア大学明桜高等学校,2020-04,month,NAME_CHANGE,OCS0005,沿革 > 「2020年4月 - 「ノースアジア大学明桜高等学校」に改称」,SUPPORTED,改称日の出典は探索用（Wikipedia）。現在の名称は学校公式サイトでも確認（OCS0006）
+OCN0006,ORG000456,村野工業高等学校,彩星工科高等学校,2023,year,NAME_CHANGE,OCS0007,令和5年度（名称変更）> 旧名称「神戸村野工業高等学校」→新名称「彩星工科高等学校」,SUPPORTED,兵庫県公式（私立学校の名称変更一覧）。登録名は資料の表記「村野工業高等学校」のまま
+OCN0007,ORG000316,光泉高等学校,光泉カトリック高等学校,2020-04,month,NAME_CHANGE,OCS0008,沿革 > 「2020年(令和2年) - 校名を光泉カトリック中学校、光泉カトリック高等学校に変更」,SUPPORTED,出典は探索用（Wikipedia）。学校公式サイトでの確認は未了

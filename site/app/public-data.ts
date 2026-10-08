@@ -1,4 +1,4 @@
-import { masterApprovals, masterPlayers, masterPublication, masterSources } from './master-data';
+import { masterApprovals, masterOrganizationCurrentNames, masterPlayers, masterPublication, masterSources } from './master-data';
 import { candidatePlayers, candidateSources } from './candidate-data';
 
 export type DataStatus = 'master' | 'candidate';
@@ -49,10 +49,24 @@ export type PublicPlayer = {
   readonly sourceLocations?: Readonly<Record<string, string>>;
 };
 
+export type OrganizationCurrentName = {
+  readonly currentName: string;
+  // 「現」（改称）または「統合後」（統合による新設校）。
+  readonly label: string;
+  readonly effectiveDate: string;
+  readonly changeType: string;
+  // この現在名を承認した日（サイトマップのlastmodに使う）。
+  readonly approvedAt: string;
+  readonly source: { readonly title: string; readonly publisher: string; readonly url: string };
+};
+
 export type PublicOrganization = {
   readonly id: string;
   readonly slug: string;
+  // 資料に書かれた当時の名称（Masterのorganization.csv）。
   readonly name: string;
+  // 改称・統合した学校の現在の名称（Masterの付随データ。該当しない組織はundefined）。
+  readonly currentName?: OrganizationCurrentName;
 };
 
 export const players: readonly PublicPlayer[] = [
@@ -117,12 +131,25 @@ for (const player of players) {
 }
 
 export const organizations: readonly PublicOrganization[] = [...organizationNamesById.entries()]
-  .map(([id, name]) => ({ id, name, slug: canonicalOrganizationSlug(id) }))
+  .map(([id, name]) => {
+    const currentName = (masterOrganizationCurrentNames as Record<string, OrganizationCurrentName>)[id];
+    return { id, name, slug: canonicalOrganizationSlug(id), ...(currentName ? { currentName } : {}) };
+  })
   .sort((left, right) => left.name.localeCompare(right.name, 'ja'));
 
 export function getOrganization(slug: string): PublicOrganization | undefined {
   const resolvedId = organizationSlugAliases[slug] ?? slug.toUpperCase();
   return organizations.find((organization) => organization.id === resolvedId);
+}
+
+// 「明成高等学校（現：仙台大学附属明成高等学校）」のように、当時の名称に現在の名称を書き添えた表示名。
+export function organizationDisplayName(organization: PublicOrganization): string {
+  const current = organization.currentName;
+  return current ? `${organization.name}（${current.label}：${current.currentName}）` : organization.name;
+}
+
+export function getOrganizationById(organizationId: string): PublicOrganization | undefined {
+  return organizations.find((organization) => organization.id === organizationId);
 }
 
 export function organizationSlugFor(organizationId: string | undefined): string | undefined {
@@ -168,3 +195,33 @@ export function getPrimaryCareer(player: PublicPlayer) {
 }
 
 export { masterApprovals, masterPublication };
+
+// Masterデータの承認日（新着順の並び替え・サイトマップのlastmodに使用）。経歴追加の承認
+// （enrichmentApprovalIds）も含めた最新日を採用する。Candidateデータは承認日を持たないためnull。
+export function latestApprovedAt(player: PublicPlayer): string | null {
+  if (player.dataStatus !== 'master') return null;
+  const approvals = masterApprovals as Record<string, { approvedAt: string }>;
+  const ids = [player.approvalId, ...(player.enrichmentApprovalIds ?? [])].filter((id): id is string => Boolean(id));
+  const dates = ids.map((id) => approvals[id]?.approvedAt).filter((date): date is string => Boolean(date));
+  if (dates.length === 0) return masterPublication.approvedAt;
+  return dates.reduce((latest, date) => (date > latest ? date : latest));
+}
+
+// 組織ページの最終更新日：所属するMaster選手の承認日と、現在名の承認日のうち最新のもの。
+export function organizationUpdatedAt(organization: PublicOrganization): string | null {
+  const dates = getOrganizationPlayers(organization.id)
+    .map((player) => latestApprovedAt(player))
+    .filter((date): date is string => Boolean(date));
+  if (organization.currentName) dates.push(organization.currentName.approvedAt);
+  return dates.length ? dates.reduce((latest, date) => (date > latest ? date : latest)) : null;
+}
+
+// サイト全体のデータの最終更新日（一覧・ランキング・トップページのlastmodに使用）。
+export function siteDataUpdatedAt(): string {
+  const dates = players.map((player) => latestApprovedAt(player)).filter((date): date is string => Boolean(date));
+  for (const organization of organizations) {
+    if (organization.currentName) dates.push(organization.currentName.approvedAt);
+  }
+  return dates.reduce((latest, date) => (date > latest ? date : latest), masterPublication.approvedAt);
+}
+

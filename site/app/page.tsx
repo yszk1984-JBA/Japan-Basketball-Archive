@@ -2,7 +2,7 @@
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getHomepagePlayers, players, sources, type PublicPlayer } from './public-data';
-import { SiteFooter, SiteHeader } from './seo';
+import { JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { clubColor } from './club-colors';
 
@@ -42,6 +42,7 @@ export default function Home() {
 
   return (
     <main className="jbaListB-page">
+      <JsonLd data={websiteJsonLd()} />
       <SiteHeader />
 
       <div className="jbaListB-main">

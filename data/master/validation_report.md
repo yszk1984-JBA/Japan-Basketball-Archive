@@ -11,7 +11,7 @@
 - Career：2461件
 - Source：1225件
 - Evidence：8340件
-- Approval：14件
+- Approval：15件
 - Publication：4件
 
 ## エラー

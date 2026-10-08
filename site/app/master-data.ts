@@ -60401,3 +60401,90 @@ export const masterPlayers = [
     }
   }
 ] as const;
+
+export const masterOrganizationCurrentNames = {
+  "ORG000147": {
+    "currentName": "仙台大学附属明成高等学校",
+    "label": "現",
+    "effectiveDate": "2020-04",
+    "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "仙台大学附属明成高等学校",
+      "publisher": "Wikipedia日本語版",
+      "url": "https://ja.wikipedia.org/wiki/仙台大学附属明成高等学校"
+    }
+  },
+  "ORG000159": {
+    "currentName": "秋田県立能代科学技術高等学校",
+    "label": "統合後",
+    "effectiveDate": "2021-04",
+    "changeType": "SCHOOL_MERGER",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "秋田県立能代科学技術高等学校 公式サイト",
+      "publisher": "秋田県立能代科学技術高等学校",
+      "url": "https://nst-h.school/"
+    }
+  },
+  "ORG000293": {
+    "currentName": "東洋大学京北高等学校",
+    "label": "現",
+    "effectiveDate": "2015",
+    "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "東洋大学京北中学高等学校",
+      "publisher": "Wikipedia日本語版",
+      "url": "https://ja.wikipedia.org/wiki/東洋大学京北中学高等学校"
+    }
+  },
+  "ORG000432": {
+    "currentName": "旭川志峯高等学校",
+    "label": "現",
+    "effectiveDate": "2023-04",
+    "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "旭川大学高等学校 公式サイト（旧サイト）",
+      "publisher": "旭川志峯高等学校",
+      "url": "https://www.asahikawa-uhs.ed.jp/"
+    }
+  },
+  "ORG000146": {
+    "currentName": "ノースアジア大学明桜高等学校",
+    "label": "現",
+    "effectiveDate": "2020-04",
+    "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "ノースアジア大学明桜高等学校",
+      "publisher": "Wikipedia日本語版",
+      "url": "https://ja.wikipedia.org/wiki/ノースアジア大学明桜高等学校"
+    }
+  },
+  "ORG000456": {
+    "currentName": "彩星工科高等学校",
+    "label": "現",
+    "effectiveDate": "2023",
+    "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "学校名の変更について",
+      "publisher": "兵庫県",
+      "url": "https://web.pref.hyogo.lg.jp/kk35/gakkoenmeinohenkou.html"
+    }
+  },
+  "ORG000316": {
+    "currentName": "光泉カトリック高等学校",
+    "label": "現",
+    "effectiveDate": "2020-04",
+    "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
+    "source": {
+      "title": "光泉カトリック中学校・高等学校",
+      "publisher": "Wikipedia日本語版",
+      "url": "https://ja.wikipedia.org/wiki/光泉カトリック中学校・高等学校"
+    }
+  }
+} as const;
