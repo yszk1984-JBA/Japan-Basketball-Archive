@@ -1,0 +1,5 @@
+issue_id,person_id,related_id,issue_type,status,description,disposition
+B33W6I0001,P000415,C002742,SCHOOL_AMBIGUOUS,HOLD,ダマ ムッサ：「Maranatha High School」は米国に同名校が複数あり、所在地はページに書かれていない。所在地未確認のまま1つのOrganizationとして登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B33W6I0002,P000452,C002753,SCHOOL_FROM_PROSE,HOLD,宮本 龍世：学校名を紹介文・コメントの記述から読み取った（出身校欄ではない）。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B33W6I0003,P000465,C002762,SCHOOL_NOT_ON_TEAM,HOLD,濱田 貴流馬：近畿大学には在籍したが、2019-20の熊本ヴォルターズの発表（https://www.volters.jp/news/detail/id=13030）に「男子バスケットボール部には所属せず」とある。学校Careerの役割はPlayerで登録しているため、扱いを確認する。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B33W6I0004,P000468,C002768,SCHOOL_NAME_VARIANT,HOLD,松井 啓十郎：ページの表記は「モントローズ・クリスチャン高校」。既存の「モントロス・クリスチャン高等学校」（ORG000117、同じ米国の学校）として登録した。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
