@@ -1,0 +1,37 @@
+career_id,person_id,name,organization_id,organization_name,organization_status,role,start,end,evidence_count
+C002742,P000415,ダマ ムッサ,ORG000497,Maranatha High School,新規,Player,,,2
+C002743,P000415,ダマ ムッサ,ORG000498,William Jewell College,新規,Player,,,2
+C002744,P000415,ダマ ムッサ,ORG000499,Moberly Area Community College,新規,Player,,,2
+C002745,P000418,栗原 ルイス,ORG000500,パリサデス高校,新規,Player,,,2
+C002746,P000418,栗原 ルイス,ORG000501,ウィッティア大学,新規,Player,,,2
+C002747,P000419,小西 聖也,ORG000119,洛南高等学校,Master既存,Player,,,2
+C002748,P000419,小西 聖也,ORG000196,関西学院大学,Master既存,Player,,,2
+C002749,P000420,鈴木 悠介,ORG000119,洛南高等学校,Master既存,Player,,,2
+C002750,P000420,鈴木 悠介,ORG000207,法政大学,Master既存,Player,,,2
+C002751,P000421,長島 蓮,ORG000093,白鷗大学,Master既存,Player,,,2
+C002752,P000447,エドワード・モリス,ORG000502,ピッツバーグ州立大学,新規,Player,,,2
+C002753,P000452,宮本 龍世,ORG000297,東海大学付属諏訪高等学校,Master既存,Player,,,2
+C002754,P000452,宮本 龍世,ORG000203,国士舘大学,Master既存,Player,,,2
+C002755,P000461,五十嵐 圭,ORG000016,中央大学,Master既存,Player,,,2
+C002756,P000462,大森 尊之,ORG000369,宮崎県立小林高等学校,Master既存,Player,,,2
+C002757,P000462,大森 尊之,ORG000020,日本体育大学,Master既存,Player,,,2
+C002758,P000463,長谷川 智伸,ORG000031,拓殖大学,Master既存,Player,,,2
+C002759,P000464,濵高 康明,ORG000503,金沢市立工業高等学校,新規,Player,,,2
+C002760,P000464,濵高 康明,ORG000148,近畿大学,Master既存,Player,,,2
+C002761,P000465,濱田 貴流馬,ORG000156,尽誠学園高等学校,Master既存,Player,,,2
+C002762,P000465,濱田 貴流馬,ORG000148,近畿大学,Master既存,Player,,,2
+C002763,P000466,星野 曹樹,ORG000217,帝京長岡高等学校,Master既存,Player,,,2
+C002764,P000466,星野 曹樹,ORG000093,白鷗大学,Master既存,Player,,,2
+C002765,P000467,堀内 星夜,ORG000475,高知中央高等学校,Master既存,Player,2014,2017,4
+C002766,P000467,堀内 星夜,ORG000214,名古屋学院大学,Master既存,Player,2017,2019,4
+C002767,P000467,堀内 星夜,ORG000019,日本経済大学,Master既存,Player,2019,2021,4
+C002768,P000468,松井 啓十郎,ORG000117,モントロス・クリスチャン高等学校,Master既存,Player,,,2
+C002769,P000468,松井 啓十郎,ORG000504,コロンビア大学,新規,Player,,,2
+C002770,P000469,丸山 賢人,ORG000218,報徳学園高等学校,Master既存,Player,2018,2021,4
+C002771,P000469,丸山 賢人,ORG000121,日本大学,Master既存,Player,2021,2025,4
+C002772,P000482,内藤 英真,ORG000505,IMGアカデミー,新規,Player,,,2
+C002773,P000483,満田 丈太郎,ORG000120,北陸高等学校,Master既存,Player,,,2
+C002774,P000483,満田 丈太郎,ORG000166,筑波大学,Master既存,Player,,,2
+C002775,P000495,ジャンバルボ 海斗,ORG000148,近畿大学,Master既存,Player,,,2
+C002776,P000553,ニモ 正義,ORG000506,Haines City HS,新規,Player,,,2
+C002777,P000553,ニモ 正義,ORG000507,Northeast Mississippi Community College,新規,Player,2025,2026,4
