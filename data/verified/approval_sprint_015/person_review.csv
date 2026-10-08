@@ -1,0 +1,4 @@
+person_id,name,tier_proposal,tier_reasons,added_careers,corrections,verified_commit
+P000103,渡邊雄太,Tier 2,既存Masterの値（学校の在学期間）を訂正する案を含む,5,1,188db92
+P000105,田臥勇太,Tier 1,Careerの追加のみ（NBA公式の記録）,4,0,188db92
+P000106,富永啓生,Tier 2,既存Masterの値（学校の在学期間）を訂正する案を含む,2,1,188db92
