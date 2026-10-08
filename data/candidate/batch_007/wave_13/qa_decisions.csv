@@ -1,0 +1,16 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B7W13D0001,Person,P000104,READY_FOR_VERIFIED_REVIEW,name|date_of_birth,,NBA公式で生年月日、Wikipediaで日本語氏名を確認,2026-10-08
+B7W13D0002,Career,C002731,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0003,Career,C002732,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0004,Career,C002733,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0005,Career,C002734,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0006,Career,C002735,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0007,Career,C002736,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0008,Career,C002737,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0009,Career,C002738,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0010,Career,C002739,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0011,Career,C002740,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0012,Career,C002741,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,NBA公式・NBL公式・大学公式・クラブ公式の記録で確認,2026-10-08
+B7W13D0013,Career,C000356,REJECT_CANDIDATE,,,wave_07のCareer（Wikipedia・報道が出典、期間なし）を、公式資料による期間付きCareer（C002731〜C002735）に置き換えたため取り下げ,2026-10-08
+B7W13D0014,Career,C000357,REJECT_CANDIDATE,,,wave_07のCareer（Wikipedia・報道が出典、期間なし）を、公式資料による期間付きCareer（C002731〜C002735）に置き換えたため取り下げ,2026-10-08
+B7W13D0015,Career,C000358,REJECT_CANDIDATE,,,wave_07のCareer（Wikipedia・報道が出典、期間なし）を、公式資料による期間付きCareer（C002731〜C002735）に置き換えたため取り下げ,2026-10-08
