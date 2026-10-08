@@ -80,24 +80,37 @@ export const sources: readonly PublicSource[] = [
   ...(candidateSources as unknown as readonly PublicSource[]).filter((source) => !masterSourceIds.has(source.id)),
 ];
 
-const publicationPriority: Record<string, number> = {
-  P000064: 100,
-  P000028: 210,
-  P000066: 220,
-  P000073: 230,
-  P000074: 240,
-};
+// トップページ「注目選手」の選定方針（2026-10-08、Yuichiと検討の上「ハイブリッド方式」で決定）。
+// 固定枠：海外（NBA等）経歴の出典が確認できている、知名度の高い選手を常に先頭に表示。
+// 自動枠：固定枠以外のMaster人物から、承認日が新しい順に残り枠を自動で埋める（データが
+// 増えるほど新着選手が自然に反映され、手動メンテナンスの手間を抑える）。
+// あくまで編集上のスポットライトであり、実力・知名度の順位付けを意図したものではない
+// （MONETIZATION_DRAFTの「ランキングで非掲載者の存在を否定しない」方針と同じ考え方）。
+const FEATURED_PLAYER_IDS: readonly string[] = [
+  'P000064', // 河村勇輝（ロサンゼルス・クリッパーズ）
+  'P000103', // 渡邊雄太（千葉ジェッツ、NBA経歴あり）
+  'P000105', // 田臥勇太（宇都宮ブレックス、日本人初のNBA選手）
+  'P000106', // 富永啓生（レバンガ北海道）
+  'P000107', // 馬場雄大（長崎、NBA経歴あり）
+  'P000084', // 比江島慎（宇都宮ブレックス、日本代表）
+];
+
+const HOMEPAGE_FEATURED_COUNT = 20;
 
 export function getHomepagePlayers() {
-  const originalOrder = new Map(players.map((player, index) => [player.id, index]));
-  return [...players].sort((left, right) => {
-    const leftPriority = publicationPriority[left.id];
-    const rightPriority = publicationPriority[right.id];
-    if (leftPriority !== undefined && rightPriority !== undefined) return leftPriority - rightPriority;
-    if (leftPriority !== undefined) return -1;
-    if (rightPriority !== undefined) return 1;
-    return (originalOrder.get(left.id) ?? 0) - (originalOrder.get(right.id) ?? 0);
-  });
+  const featuredIds = new Set(FEATURED_PLAYER_IDS);
+  const fixed = FEATURED_PLAYER_IDS.map((id) => players.find((player) => player.id === id)).filter(
+    (player): player is PublicPlayer => player !== undefined,
+  );
+
+  const remainingSlots = Math.max(HOMEPAGE_FEATURED_COUNT - fixed.length, 0);
+  // 承認日の新しい順（latestApprovedAtは本ファイル下部で定義、サイトマップのlastmod計算と共通。候補データはnullのため対象外）。
+  const autoFilled = players
+    .filter((player) => player.dataStatus === 'master' && !featuredIds.has(player.id))
+    .sort((left, right) => (latestApprovedAt(right) ?? '').localeCompare(latestApprovedAt(left) ?? ''))
+    .slice(0, remainingSlots);
+
+  return [...fixed, ...autoFilled];
 }
 
 export function getPlayer(slug: string) {
