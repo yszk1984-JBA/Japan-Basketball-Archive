@@ -4,7 +4,7 @@
 - 承認者：Yuichi
 - 承認日：2026-10-08
 - VERIFIED対象版：`cc7fbc1`（batch_007 wave_13、CANDIDATE/QA commit `0956d97`）
-- 承認対象レビューcommit：（このファイルと同じコミットでレビュー資料一式をpush。commitハッシュは`docs`/git履歴で確認）
+- 承認対象レビューcommit：`014da83`（Approval Sprint 018のレビュー資料一式のコミット。本ファイル自身はこのコミットには含まれず、承認後に追記）
 
 ## 承認の経緯（チャットでの実際のやり取り、原文）
 
