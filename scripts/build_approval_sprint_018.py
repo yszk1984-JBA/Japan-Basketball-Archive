@@ -3,7 +3,7 @@
 
 Scope: data/verified/batch_007_wave_13 VERIFIED (八村塁・馬場雄大・比江島慎の
 海外経歴、CANDIDATE/QA commit `0956d97`、VERIFIED commit `cc7fbc1`) --
-1 new Person (八村塁 P000104) + 11 Careers (5 for P000104, 3 for P000107, 1
+1 new Person (八村塁 P000104) + 11 Careers (5 for P000104, 5 for P000107, 1
 for P000084, all already READY/eligible in VERIFIED) + 8 Organizations
 (4 new: ORG000493-496) + 12 Sources + 49 SUPPORTED Evidence.
 
