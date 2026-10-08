@@ -60408,6 +60408,7 @@ export const masterOrganizationCurrentNames = {
     "label": "現",
     "effectiveDate": "2020-04",
     "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "仙台大学附属明成高等学校",
       "publisher": "Wikipedia日本語版",
@@ -60419,6 +60420,7 @@ export const masterOrganizationCurrentNames = {
     "label": "統合後",
     "effectiveDate": "2021-04",
     "changeType": "SCHOOL_MERGER",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "秋田県立能代科学技術高等学校 公式サイト",
       "publisher": "秋田県立能代科学技術高等学校",
@@ -60430,6 +60432,7 @@ export const masterOrganizationCurrentNames = {
     "label": "現",
     "effectiveDate": "2015",
     "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "東洋大学京北中学高等学校",
       "publisher": "Wikipedia日本語版",
@@ -60441,6 +60444,7 @@ export const masterOrganizationCurrentNames = {
     "label": "現",
     "effectiveDate": "2023-04",
     "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "旭川大学高等学校 公式サイト（旧サイト）",
       "publisher": "旭川志峯高等学校",
@@ -60452,6 +60456,7 @@ export const masterOrganizationCurrentNames = {
     "label": "現",
     "effectiveDate": "2020-04",
     "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "ノースアジア大学明桜高等学校",
       "publisher": "Wikipedia日本語版",
@@ -60463,6 +60468,7 @@ export const masterOrganizationCurrentNames = {
     "label": "現",
     "effectiveDate": "2023",
     "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "学校名の変更について",
       "publisher": "兵庫県",
@@ -60474,6 +60480,7 @@ export const masterOrganizationCurrentNames = {
     "label": "現",
     "effectiveDate": "2020-04",
     "changeType": "NAME_CHANGE",
+    "approvedAt": "2026-10-06",
     "source": {
       "title": "光泉カトリック中学校・高等学校",
       "publisher": "Wikipedia日本語版",

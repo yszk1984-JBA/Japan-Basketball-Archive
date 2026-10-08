@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { Fragment } from 'react';
 import { organizationCategory } from './organization-category';
-import { organizationDisplayName, type PublicOrganization, type PublicPlayer } from './public-data';
+import { getPrimaryCareer, organizationDisplayName, type PublicOrganization, type PublicPlayer } from './public-data';
 import { siteUrl } from './site-url';
 
 export { siteUrl };
@@ -130,14 +130,41 @@ export function JsonLd({ data }: { data: object }) {
   );
 }
 
-// 経歴に登場する組織名を、登録順・重複なしで最大limit件返す。
-// 期間未確認のCareerが多いため、時系列を断定する「→」ではなく「・」で並べる。
-export function careerOrganizationNames(player: PublicPlayer, limit = 3): string[] {
-  const names: string[] = [];
+// 選手ページのtitle・description（SEO_SPEC_V1.0：「選手名（現所属あるいは直近所属）」）。
+// titleは選手名＋現在（直近）の所属に絞り、出身校はdescriptionに入れる。
+// 「現所属」と断定しないのは、引退した選手や、所属の終了を確認できていない選手がいるため。
+export function playerPageMeta(player: PublicPlayer, sourceCount: number) {
+  const latest = getPrimaryCareer(player)?.organization ?? undefined;
+  const schools: string[] = [];
   for (const career of player.careers) {
-    if (career.organization && !names.includes(career.organization)) names.push(career.organization);
+    const name = career.organization;
+    if (!name || schools.includes(name) || name === latest) continue;
+    const category = organizationCategory(name);
+    if (category === 'hs' || category === 'univ') schools.push(name);
   }
-  return names.slice(0, limit);
+  const englishName = player.facts.find((fact) => fact.label === '英字表記')?.value;
+  const title = latest ? `${player.name}（${latest}）の経歴・所属` : `${player.name}の経歴・所属`;
+  const description = [
+    `${player.name}${englishName ? `（${englishName}）` : ''}の経歴・所属。`,
+    latest ? `直近の所属は${latest}。` : '',
+    schools.length ? `出身校は${schools.slice(0, 3).join('・')}。` : '',
+    `所属記録を出典${sourceCount > 0 ? `${sourceCount}件` : ''}とともに掲載しています。`,
+    player.dataStatus === 'master' ? '' : '（正式承認前の候補データ）',
+  ].join('');
+  return { title, description };
+}
+
+// トップページのJSON-LD（SEO_SPEC_V1.0：WebSite。検索機能が未実装のためpotentialActionは付けない）。
+export function websiteJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${siteUrl}/#website`,
+    name: 'Rosterline',
+    alternateName: 'Rosterline｜日本バスケ経歴アーカイブ',
+    url: `${siteUrl}/`,
+    inLanguage: 'ja',
+  };
 }
 
 type Crumb = { name: string; path: string };

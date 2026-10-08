@@ -2,7 +2,7 @@
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getHomepagePlayers, players, sources } from './public-data';
-import { SiteFooter, SiteHeader } from './seo';
+import { JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -16,6 +16,7 @@ export default function Home() {
 
   return (
     <main className="jbaListB-page">
+      <JsonLd data={websiteJsonLd()} />
       <SiteHeader />
 
       <div className="jbaListB-main">

@@ -268,6 +268,7 @@ def main() -> None:
     )
     # 改称した学校の現在の名称（付随データ）。organization.csvの名称は当時のまま表示し、これを書き添える。
     approval_ids = {row["approval_id"] for row in approvals}
+    approved_at_by_id = {row["approval_id"]: row["approved_at"] for row in approvals}
     organization_current_names = {}
     for row in current_names:
         if row["organization_id"] not in organizations:
@@ -282,6 +283,7 @@ def main() -> None:
             "label": row["display_label"],
             "effectiveDate": row["effective_date"],
             "changeType": row["change_type"],
+            "approvedAt": approved_at_by_id[row["approval_id"]],
             "source": {"title": source["title"], "publisher": source["publisher"], "url": source["url"]},
         }
 

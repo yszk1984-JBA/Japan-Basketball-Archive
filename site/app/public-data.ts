@@ -55,6 +55,8 @@ export type OrganizationCurrentName = {
   readonly label: string;
   readonly effectiveDate: string;
   readonly changeType: string;
+  // この現在名を承認した日（サイトマップのlastmodに使う）。
+  readonly approvedAt: string;
   readonly source: { readonly title: string; readonly publisher: string; readonly url: string };
 };
 
@@ -193,3 +195,33 @@ export function getPrimaryCareer(player: PublicPlayer) {
 }
 
 export { masterApprovals, masterPublication };
+
+// Masterデータの承認日（新着順の並び替え・サイトマップのlastmodに使用）。経歴追加の承認
+// （enrichmentApprovalIds）も含めた最新日を採用する。Candidateデータは承認日を持たないためnull。
+export function latestApprovedAt(player: PublicPlayer): string | null {
+  if (player.dataStatus !== 'master') return null;
+  const approvals = masterApprovals as Record<string, { approvedAt: string }>;
+  const ids = [player.approvalId, ...(player.enrichmentApprovalIds ?? [])].filter((id): id is string => Boolean(id));
+  const dates = ids.map((id) => approvals[id]?.approvedAt).filter((date): date is string => Boolean(date));
+  if (dates.length === 0) return masterPublication.approvedAt;
+  return dates.reduce((latest, date) => (date > latest ? date : latest));
+}
+
+// 組織ページの最終更新日：所属するMaster選手の承認日と、現在名の承認日のうち最新のもの。
+export function organizationUpdatedAt(organization: PublicOrganization): string | null {
+  const dates = getOrganizationPlayers(organization.id)
+    .map((player) => latestApprovedAt(player))
+    .filter((date): date is string => Boolean(date));
+  if (organization.currentName) dates.push(organization.currentName.approvedAt);
+  return dates.length ? dates.reduce((latest, date) => (date > latest ? date : latest)) : null;
+}
+
+// サイト全体のデータの最終更新日（一覧・ランキング・トップページのlastmodに使用）。
+export function siteDataUpdatedAt(): string {
+  const dates = players.map((player) => latestApprovedAt(player)).filter((date): date is string => Boolean(date));
+  for (const organization of organizations) {
+    if (organization.currentName) dates.push(organization.currentName.approvedAt);
+  }
+  return dates.reduce((latest, date) => (date > latest ? date : latest), masterPublication.approvedAt);
+}
+
