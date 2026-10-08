@@ -1,0 +1,4 @@
+person_id,name,tier_proposal,tier_reasons,added_careers,existing_in_master,verified_commit
+P000104,八村塁,Tier 2,氏名の根拠がWikipediaのみ（出典優先順位5、エスカレーション条件に該当）。NBA公式はRui Hachimuraの英字表記のみ,5,No (new),cc7fbc1
+P000107,馬場雄大,Tier 2,本Waveの一体承認（P000104のエスカレーションに合わせてTier 2で確認）,5,Yes,cc7fbc1
+P000084,比江島慎,Tier 2,本Waveの一体承認（P000104のエスカレーションに合わせてTier 2で確認）,1,Yes,cc7fbc1
