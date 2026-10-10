@@ -101,13 +101,14 @@ export function isOrganizationIndexable(playerCount: number): boolean {
 // 学校は「〇〇高校 Bリーガー」「〇〇大学 出身 選手」のような検索に合わせて「出身」を使い、
 // クラブ等は「所属選手」とする。網羅していると誤解されないよう「記録のある」「確認できた」と書き、
 // 「歴代」「全員」などの表現は使わない。
-export function organizationPageMeta(organization: PublicOrganization, playerCount: number) {
+// highlights：「主な出身高校：〇〇（3人）、…」のような、ページ固有の要約（descriptionの末尾に付ける）。
+export function organizationPageMeta(organization: PublicOrganization, playerCount: number, highlights?: string) {
   const kind = organizationKind(organization);
   const group = kind === 'club' ? 'club' : kind === 'unknown' ? 'unknown' : 'school';
   const name = organizationDisplayName(organization);
   const titles = {
     school: `${name}出身のバスケ選手一覧（${playerCount}人）`,
-    club: `${name}の所属選手一覧（${playerCount}人）`,
+    club: `${name}の所属選手と出身校一覧（${playerCount}人）`,
     unknown: `${name}の在籍選手一覧（${playerCount}人）`,
   };
   const descriptions = {
@@ -115,7 +116,8 @@ export function organizationPageMeta(organization: PublicOrganization, playerCou
     club: `${organization.name}に所属記録のある選手${playerCount}人の出身校・経歴を、出典とともに掲載しています。`,
     unknown: `${organization.name}に在籍記録のある選手${playerCount}人の経歴を、出典とともに掲載しています。`,
   };
-  return { title: titles[group], description: `${descriptions[group]}掲載は本サイトに登録済みの選手のみです。` };
+  const summary = highlights ? `${highlights}。` : '';
+  return { title: titles[group], description: `${descriptions[group]}${summary}掲載は本サイトに登録済みの選手のみです。` };
 }
 
 // JSON-LD（構造化データ）を<script type="application/ld+json">として出力する。

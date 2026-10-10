@@ -1407,3 +1407,56 @@ a.jbaListB-timelineOrg:hover {
   }
 }
 
+
+/* --- 組織ページ：出身校・所属クラブの内訳 --- */
+.jbaListB-breakdown {
+  margin-top: 12px;
+}
+
+.jbaListB-breakdownTitle {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #5B6B7A;
+}
+
+.jbaListB-breakdownList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jbaListB-breakdownItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid #DDE3E9;
+  border-radius: 999px;
+  background: #FFFFFF;
+  color: #1A2330;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.jbaListB-breakdownItem:hover {
+  border-color: #1D5FD6;
+  color: #1D5FD6;
+}
+
+.jbaListB-breakdownCount {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1D5FD6;
+}
+
+.jbaListB-rosterRelation {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #5B6B7A;
+}

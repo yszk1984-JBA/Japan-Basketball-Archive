@@ -7,11 +7,22 @@ import {
   getOrganizationPlayers,
   getOrganizationSourceIds,
   getSources,
+  organizationDisplayName,
   organizationSlugAliases,
   organizations,
+  type PublicOrganization,
   type PublicPlayer,
 } from '../../public-data';
-import { baseOpenGraph, isOrganizationIndexable, JsonLd, organizationJsonLd, organizationPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import {
+  clubBreakdown,
+  isSchoolOrganization,
+  latestClubOf,
+  organizationNames,
+  schoolBreakdown,
+  schoolsOf,
+  type OrganizationCount,
+} from '../../organization-relations';
+import { baseOpenGraph, isOrganizationIndexable, JsonLd, organizationJsonLd, organizationKind, organizationPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
 // この組織での在籍期間（複数回在籍した場合は並べる）。一覧の「現在の所属」ではなく、
 // このページの組織との関係を示す。
@@ -20,6 +31,58 @@ function periodsAt(player: PublicPlayer, organizationId: string): string {
     .filter((career) => career.organizationId === organizationId)
     .map((career) => career.period);
   return periods.length > 0 ? `在籍 ${periods.join('、')}` : player.cardContext;
+}
+
+// 名簿の1行に添える関係情報。クラブページでは出身校、学校ページでは直近の所属クラブ。
+function relationNote(player: PublicPlayer, organization: PublicOrganization, isSchool: boolean): string | null {
+  if (isSchool) {
+    const club = latestClubOf(player);
+    return club && club.id !== organization.id ? `直近の所属：${organizationNames([club])}` : null;
+  }
+  const schools = schoolsOf(player).filter((school) => school.id !== organization.id);
+  return schools.length > 0 ? `出身：${organizationNames(schools)}` : null;
+}
+
+// 「福岡第一高等学校（3人）、…」のような上位の要約（descriptionに使う）。
+function topList(counts: readonly OrganizationCount[], limit = 3): string {
+  return counts
+    .slice(0, limit)
+    .map(({ organization, count }) => `${organization.name}（${count}人）`)
+    .join('、');
+}
+
+function pageHighlights(organization: PublicOrganization, relatedPlayers: readonly PublicPlayer[]): string | undefined {
+  if (isSchoolOrganization(organization)) {
+    const { clubs } = clubBreakdown(relatedPlayers);
+    return clubs.length > 0 ? `主な所属クラブ：${topList(clubs)}` : undefined;
+  }
+  if (organizationKind(organization) !== 'club') return undefined;
+  const { highSchools, universities } = schoolBreakdown(relatedPlayers, organization.id);
+  const parts = [
+    highSchools.length > 0 ? `主な出身高校：${topList(highSchools)}` : '',
+    universities.length > 0 ? `主な出身大学：${topList(universities)}` : '',
+  ].filter(Boolean);
+  return parts.length > 0 ? parts.join('。') : undefined;
+}
+
+// 出身校・所属クラブの内訳（人数つきのリンク一覧）。
+function BreakdownList({ title, counts }: { title: string; counts: readonly OrganizationCount[] }) {
+  if (counts.length === 0) return null;
+  return (
+    <div className="jbaListB-breakdown">
+      <h3 className="jbaListB-breakdownTitle">{title}</h3>
+      <ul className="jbaListB-breakdownList">
+        {counts.map(({ organization, count }) => (
+          <li key={organization.id}>
+            <a href={`/organizations/${organization.slug}`} className="jbaListB-breakdownItem">
+              <span>{organizationDisplayName(organization)}</span>
+              <span className="jbaListB-breakdownCount">{count}人</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 function formatYearMonth(value: string): string {
@@ -40,8 +103,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!organization) return {};
 
-  const playerCount = getOrganizationPlayers(organization.id).length;
-  const { title, description } = organizationPageMeta(organization, playerCount);
+  const relatedPlayers = getOrganizationPlayers(organization.id);
+  const playerCount = relatedPlayers.length;
+  const { title, description } = organizationPageMeta(organization, playerCount, pageHighlights(organization, relatedPlayers));
 
   return {
     title,
@@ -62,6 +126,10 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
   const masterPlayers = relatedPlayers.filter((player) => player.dataStatus === 'master');
   const candidatePlayers = relatedPlayers.filter((player) => player.dataStatus === 'candidate');
   const organizationSources = getSources(getOrganizationSourceIds(organization.id));
+  const isSchool = isSchoolOrganization(organization);
+  const isClub = organizationKind(organization) === 'club';
+  const schools = isClub ? schoolBreakdown(relatedPlayers, organization.id) : null;
+  const clubs = isSchool ? clubBreakdown(relatedPlayers) : null;
 
   return (
     <main className="jbaListB-page">
@@ -86,6 +154,37 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
           ) : null}
         </header>
 
+        {schools && schools.playersWithSchool > 0 ? (
+          <section className="jbaListB-section">
+            <div className="jbaListB-sectionHeading">
+              <div className="jbaListB-sectionHead">
+                <p className="jbaListB-eyebrow">Schools</p>
+                <h2>出身校</h2>
+              </div>
+              <span className="jbaListB-note">
+                {relatedPlayers.length}人中{schools.playersWithSchool}人の出身校を収録
+              </span>
+            </div>
+            <BreakdownList title="出身高校" counts={schools.highSchools} />
+            <BreakdownList title="出身大学・その他の学校" counts={schools.universities} />
+          </section>
+        ) : null}
+
+        {clubs && clubs.playersWithClub > 0 ? (
+          <section className="jbaListB-section">
+            <div className="jbaListB-sectionHeading">
+              <div className="jbaListB-sectionHead">
+                <p className="jbaListB-eyebrow">Clubs</p>
+                <h2>直近の所属クラブ</h2>
+              </div>
+              <span className="jbaListB-note">
+                {relatedPlayers.length}人中{clubs.playersWithClub}人の所属を収録
+              </span>
+            </div>
+            <BreakdownList title="直近の所属クラブ" counts={clubs.clubs} />
+          </section>
+        ) : null}
+
         <section className="jbaListB-section">
           <div className="jbaListB-sectionHeading">
             <div className="jbaListB-sectionHead">
@@ -101,6 +200,9 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
                 <div>
                   <strong className="jbaListB-rosterName">{player.name}</strong>
                   <p className="jbaListB-rosterMeta">{periodsAt(player, organization.id)} · {player.id} · Master</p>
+                  {relationNote(player, organization, isSchool) ? (
+                    <p className="jbaListB-rosterRelation">{relationNote(player, organization, isSchool)}</p>
+                  ) : null}
                 </div>
                 <ArrowUpRight size={16} />
               </a>
@@ -123,6 +225,9 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
                 <div>
                   <strong className="jbaListB-rosterName">{player.name}</strong>
                   <p className="jbaListB-rosterMeta">{periodsAt(player, organization.id)} · {player.id}</p>
+                  {relationNote(player, organization, isSchool) ? (
+                    <p className="jbaListB-rosterRelation">{relationNote(player, organization, isSchool)}</p>
+                  ) : null}
                 </div>
                 <ArrowUpRight size={16} />
               </a>
@@ -149,6 +254,8 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
           </div>
           <p className="jbaListB-reviewNote">
             この一覧は{organization.name}とのCareerが収録済みの人物だけを表示します。全関係者を示す名簿ではありません。
+            {isClub ? '出身校・人数は、本サイトに登録済みの経歴から集計したものです。' : null}
+            {isSchool ? '直近の所属クラブは、本サイトに登録済みの経歴のうち最も新しい所属です。現在の所属と異なる場合があります。' : null}
           </p>
         </section>
       </div>
