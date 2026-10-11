@@ -7,7 +7,14 @@ import { siteUrl } from './site-url';
 export { siteUrl };
 
 // ページ側でopenGraphを指定するとlayoutの値が丸ごと置き換わるため、共通項目をここから展開する。
-export const baseOpenGraph = { siteName: 'Rosterline', locale: 'ja_JP', type: 'website' } as const;
+// 共通のシェア画像（1200×630、public/og-default.png）。ページ固有の画像を作るまでは全ページでこれを使う。
+export const defaultOgImage = { url: '/og-default.png', width: 1200, height: 630, alt: 'Rosterline｜選手と所属を、出典からたどる。' };
+export const baseOpenGraph = {
+  siteName: 'Rosterline',
+  locale: 'ja_JP',
+  type: 'website' as const,
+  images: [defaultOgImage],
+};
 
 // サイト共通ヘッダー（B案）。全ページで同一の見た目・ナビゲーションにするため、
 // /players, /organizations で先行実装していたヘッダーをここに集約する。

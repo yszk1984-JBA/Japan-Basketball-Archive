@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './site-b.css';
+import { defaultOgImage } from './seo';
 import { siteUrl } from './site-url';
 
 export const metadata: Metadata = {
@@ -18,6 +19,13 @@ export const metadata: Metadata = {
     siteName: 'Rosterline',
     locale: 'ja_JP',
     type: 'website',
+    images: [defaultOgImage],
+  },
+  // Xでのリンク表示を大きな画像のカードにする。@rosterline_jp は公式Xアカウント。
+  twitter: {
+    card: 'summary_large_image',
+    site: '@rosterline_jp',
+    images: [defaultOgImage.url],
   },
 };
 
