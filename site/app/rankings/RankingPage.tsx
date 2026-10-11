@@ -1,7 +1,8 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import type { Metadata } from 'next';
 import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteBreadcrumb, SiteFooter, SiteHeader, siteUrl } from '../seo';
-import { activeTopLeaguePlayerCount, buildRanking, RANKING_META, rankingAsOf, type RankingKind } from './ranking-data';
+import { ShareButtons } from '../ShareButtons';
+import { activeTopLeaguePlayerCount, buildRanking, RANKING_META, rankingAsOf, type RankingKind, type RankingRow } from './ranking-data';
 
 function texts(kind: RankingKind) {
   const { label } = RANKING_META[kind];
@@ -19,6 +20,14 @@ export function rankingMetadata(kind: RankingKind): Metadata {
     alternates: { canonical: path },
     openGraph: { ...baseOpenGraph, title, description, url: path },
   };
+}
+
+// シェア文言：「B.LEAGUE選手の出身高校ランキング｜1位は〇〇（現役N人）」。同率1位は「・」でつなぐ。
+function shareText(kind: RankingKind, rows: readonly RankingRow[]): string {
+  const { title } = texts(kind);
+  const leaders = rows.filter((row) => row.rank === 1);
+  if (!leaders.length) return title;
+  return `${title}｜1位は${leaders.map((row) => row.name).join('・')}（現役${leaders[0].active}人）`;
 }
 
 function formatDate(isoDate: string): string {
@@ -74,6 +83,7 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
             現在B.PREMIER・B.ONEのクラブに所属している選手（本サイトに登録済みの{activeTopLeaguePlayerCount()}
             人）が、どの{label}の出身かを数えました。{rows.length}校を、現役選手の多い順に掲載しています。
           </p>
+          <ShareButtons url={`${siteUrl}${path}`} text={shareText(kind, rows)} hashtags={['Bリーグ']} />
           <p className="jbaListB-rankOther">
             <a href={RANKING_META[otherKind].path}>出身{RANKING_META[otherKind].label}ランキングを見る →</a>
           </p>

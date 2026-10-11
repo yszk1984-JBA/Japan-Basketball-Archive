@@ -1507,3 +1507,45 @@ a.jbaListB-timelineOrg:hover {
 #corrections {
   scroll-margin-top: 80px;
 }
+
+/* シェアボタン（X・LINE・URLコピー） */
+.jbaListB-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.jbaListB-shareLabel {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5B6775;
+  margin-right: 2px;
+}
+
+.jbaListB-shareButton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 14px;
+  border: 1px solid #D5DCE3;
+  border-radius: 999px;
+  background: #FFFFFF;
+  color: #1A2330;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.jbaListB-shareButton:hover {
+  border-color: #1A2330;
+}
+
+.jbaListB-shareButton:focus-visible {
+  outline: 2px solid #1A2330;
+  outline-offset: 2px;
+}

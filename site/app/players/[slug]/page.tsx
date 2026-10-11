@@ -15,6 +15,8 @@ import {
 import { schoolmatesOf, schoolsOf } from '../../organization-relations';
 import { CareerGantt } from './CareerGantt';
 import { baseOpenGraph, JsonLd, playerJsonLd, playerPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import { ShareButtons } from '../../ShareButtons';
+import { siteUrl } from '../../site-url';
 
 export function generateStaticParams() {
   return players.map((player) => ({ slug: player.slug }));
@@ -89,6 +91,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
               {player.dataStatus === 'master' ? `Master・承認済み・${player.approvalId}` : '候補データ・出典あり・正式承認前'}
             </span>
           </div>
+          <ShareButtons url={`${siteUrl}/players/${player.slug}`} text={playerPageMeta(player, playerSources.length).title} />
         </header>
 
         <section className="jbaListB-section">

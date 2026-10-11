@@ -24,6 +24,8 @@ import {
   type OrganizationCount,
 } from '../../organization-relations';
 import { baseOpenGraph, isOrganizationIndexable, JsonLd, organizationJsonLd, organizationKind, organizationPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import { ShareButtons } from '../../ShareButtons';
+import { siteUrl } from '../../site-url';
 
 // この組織での在籍期間（複数回在籍した場合は並べる）。一覧の「現在の所属」ではなく、
 // このページの組織との関係を示す。
@@ -153,6 +155,10 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
               ）。このページでは、資料に書かれた当時の名称で掲載しています。
             </p>
           ) : null}
+          <ShareButtons
+            url={`${siteUrl}/organizations/${organization.slug}`}
+            text={organizationPageMeta(organization, relatedPlayers.length).title}
+          />
         </header>
 
         {schools && schools.playersWithSchool > 0 ? (

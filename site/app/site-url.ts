@@ -4,3 +4,7 @@ export const siteUrl = 'https://rosterline.jp';
 
 // 訂正・削除依頼の受付フォーム（Googleフォーム）。Aboutページとフッターからリンクする。
 export const correctionFormUrl = 'https://docs.google.com/forms/d/1hoHcPwxy_aybMB1ML9Vgng78s_xZH8fJurYHQZbSJ-0/viewform';
+
+// 公式Xアカウントのユーザー名（@なし）。シェア文言の「via @〜」に使う。
+// アカウント作成前は空文字のままにする（空なら via を付けない）。
+export const xHandle = '';
