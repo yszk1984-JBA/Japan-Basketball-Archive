@@ -131,3 +131,15 @@ export function organizationCategory(name: string): OrganizationCategory {
   if (KNOWN_CLUB_NAMES.has(name)) return 'club';
   return 'other';
 }
+
+// 名前から学校と判定できるか（高校・大学に加え、海外の学校など区分が「海外」「その他」になるものも含む）。
+// 表示用のヒューリスティック。選手の「直近の所属」から学校を除くときや、組織ページの種類判定に使う。
+const SCHOOL_NAME_PATTERN =
+  /(大学|大$|高校|高等学校|中学校|学園|学院|専門学校|カレッジ|スクール|ユニバーシティ|アカデミー|College|University|School|Academy|Institute|Prep)/i;
+
+export function isSchoolName(name: string): boolean {
+  const category = organizationCategory(name);
+  if (category === 'hs' || category === 'univ') return true;
+  if (category === 'club') return false;
+  return SCHOOL_NAME_PATTERN.test(name);
+}

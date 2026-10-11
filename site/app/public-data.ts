@@ -1,5 +1,6 @@
 import { masterApprovals, masterOrganizationCurrentNames, masterPlayers, masterPublication, masterSources } from './master-data';
 import { candidatePlayers, candidateSources } from './candidate-data';
+import { isSchoolName } from './organization-category';
 
 export type DataStatus = 'master' | 'candidate';
 
@@ -196,9 +197,15 @@ export function getOrganizationSourceIds(organizationId: string): string[] {
 // cardContextの表示と矛盾しない組織を選ぶ。
 export function getPrimaryCareer(player: PublicPlayer) {
   if (player.careers.length === 0) return undefined;
-  // Master人物の経歴はbuild_site_master_data.pyが時系列順（学校→クラブの開始年順）に
-  // 並べ、cardContextも最後の1件から作っているため、同じく最後の1件を使う。
-  if (player.dataStatus === 'master') return player.careers[player.careers.length - 1];
+  // Master人物の経歴はbuild_site_master_data.pyが時系列順（学校→クラブの開始年順、期間未確認の
+  // クラブは最後）に並べている。期間未確認のクラブは「開始年が未確認の現在の所属」であることが多いため、
+  // 並び順の最後のクラブを直近とする。ただし同スクリプトは海外の学校（セントメリーズインターナショナル
+  // スクール、Lakeland Senior High School等）を学校と判定できず、期間未確認のクラブとして最後に
+  // 並べてしまうため、学校名と判定できる経歴は除いて選ぶ（学校しか無い選手は最後の1件）。
+  if (player.dataStatus === 'master') {
+    const latestNonSchool = [...player.careers].reverse().find((career) => !isSchoolName(career.organization ?? ''));
+    return latestNonSchool ?? player.careers[player.careers.length - 1];
+  }
   const sorted = [...player.careers].sort((left, right) => {
     const leftUnknown = left.period === '期間未確認' ? 1 : 0;
     const rightUnknown = right.period === '期間未確認' ? 1 : 0;
@@ -239,3 +246,11 @@ export function siteDataUpdatedAt(): string {
   return dates.reduce((latest, date) => (date > latest ? date : latest), masterPublication.approvedAt);
 }
 
+
+// カード・一覧に添える「期間 · 所属」。Master人物は直近の所属（getPrimaryCareer）から作る
+// （生成済みのcardContextは並び順の最後の1件から作られており、海外の学校が入ることがあるため）。
+export function playerContext(player: PublicPlayer): string {
+  if (player.dataStatus !== 'master') return player.cardContext;
+  const primary = getPrimaryCareer(player);
+  return primary?.organization ? `${primary.period} · ${primary.organization}` : player.cardContext;
+}

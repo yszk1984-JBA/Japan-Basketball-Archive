@@ -10,6 +10,7 @@ import {
   organizationDisplayName,
   organizationSlugAliases,
   organizations,
+  playerContext,
   type PublicOrganization,
   type PublicPlayer,
 } from '../../public-data';
@@ -30,7 +31,7 @@ function periodsAt(player: PublicPlayer, organizationId: string): string {
   const periods = player.careers
     .filter((career) => career.organizationId === organizationId)
     .map((career) => career.period);
-  return periods.length > 0 ? `在籍 ${periods.join('、')}` : player.cardContext;
+  return periods.length > 0 ? `在籍 ${periods.join('、')}` : playerContext(player);
 }
 
 // 名簿の1行に添える関係情報。クラブページでは出身校、学校ページでは直近の所属クラブ。

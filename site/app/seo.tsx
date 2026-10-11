@@ -1,6 +1,6 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { Fragment } from 'react';
-import { organizationCategory } from './organization-category';
+import { isSchoolName, organizationCategory } from './organization-category';
 import { getPrimaryCareer, organizationDisplayName, type PublicOrganization, type PublicPlayer } from './public-data';
 import { siteUrl } from './site-url';
 
@@ -82,11 +82,7 @@ export function organizationKind(organization: PublicOrganization): Organization
   if (category === 'hs') return 'highSchool';
   if (category === 'univ') return 'university';
   if (category === 'club') return 'club';
-  const looksLikeSchool =
-    /(大学|大$|高校|高等学校|中学校|学園|学院|専門学校|カレッジ|スクール|ユニバーシティ|アカデミー|College|University|School|Academy|Institute|Prep)/i.test(
-      organization.name,
-    );
-  return looksLikeSchool ? 'school' : 'unknown';
+  return isSchoolName(organization.name) ? 'school' : 'unknown';
 }
 
 // 組織ページをindexする最低人数（SEO_SPEC_V1.0「ページ品質ゲーティング」：所属選手3名以上）。
@@ -141,8 +137,7 @@ export function playerPageMeta(player: PublicPlayer, sourceCount: number) {
   for (const career of player.careers) {
     const name = career.organization;
     if (!name || schools.includes(name) || name === latest) continue;
-    const category = organizationCategory(name);
-    if (category === 'hs' || category === 'univ') schools.push(name);
+    if (isSchoolName(name)) schools.push(name);
   }
   const englishName = player.facts.find((fact) => fact.label === '英字表記')?.value;
   const title = latest ? `${player.name}（${latest}）の経歴・所属` : `${player.name}の経歴・所属`;

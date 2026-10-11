@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getHomepagePlayers, players, sources, type PublicPlayer } from './public-data';
+import { getHomepagePlayers, playerContext, players, sources, type PublicPlayer } from './public-data';
 import { JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { clubColor } from './club-colors';
@@ -92,7 +92,7 @@ export default function Home() {
               <a href={`/players/${player.slug}`} className="jbaListB-playerCard" key={player.id}>
                 <div>
                   <span className="jbaListB-cardIndex">{String(index + 1).padStart(2, '0')}</span>
-                  <p className="jbaListB-cardMeta">{player.cardContext}</p>
+                  <p className="jbaListB-cardMeta">{playerContext(player)}</p>
                   <h3 className="jbaListB-cardName">{player.name}</h3>
                   <span className={`jbaListB-pill ${player.dataStatus === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}>
                     {player.dataStatus === 'master' ? 'Master・承認済み' : '候補データ・正式承認前'}

@@ -4,6 +4,7 @@
 // どちらも登録済みの経歴（Career）から機械的に集計するだけで、新しい事実は作らない。
 import {
   getOrganizationById,
+  getPrimaryCareer,
   organizationDisplayName,
   type PublicOrganization,
   type PublicPlayer,
@@ -31,34 +32,18 @@ export function schoolsOf(player: PublicPlayer): PublicOrganization[] {
   return schools;
 }
 
-// 選手の直近の所属（学校以外）。期間が分かる経歴を優先し、終了年（継続中は開始年を使って最も新しい扱い）、
-// 開始年の順で最も新しいものを選ぶ。期間未確認の経歴は、期間の分かる所属が1件も無いときだけ使う
-// （期間未確認の経歴は並び順の最後に来るため、並び順の最後の1件を直近とみなすと誤ることがある）。
+// 選手の直近の所属（学校以外）。選手ページのtitle・ランキングと同じgetPrimaryCareerの判定を使う
+// （期間未確認のクラブは「開始年が未確認の現在の所属」とみなす、データ生成時の方針に合わせる）。
+// 直近の経歴が学校のとき（候補人物など）は、学校以外の最後の経歴を使う。
 export function latestClubOf(player: PublicPlayer): PublicOrganization | undefined {
-  type Candidate = { organization: PublicOrganization; dated: boolean; end: number; start: number; index: number };
-  const candidates: Candidate[] = [];
-  player.careers.forEach((career, index) => {
+  const primary = getPrimaryCareer(player);
+  const primaryOrganization = primary?.organizationId ? getOrganizationById(primary.organizationId) : undefined;
+  if (primaryOrganization && !isSchoolOrganization(primaryOrganization)) return primaryOrganization;
+  for (const career of [...player.careers].reverse()) {
     const organization = career.organizationId ? getOrganizationById(career.organizationId) : undefined;
-    if (!organization || isSchoolOrganization(organization)) return;
-    const start = career.startYear ?? null;
-    const end = career.endYear ?? null;
-    const dated = start !== null || end !== null;
-    candidates.push({
-      organization,
-      dated,
-      end: end ?? (start !== null ? Number.POSITIVE_INFINITY : Number.NEGATIVE_INFINITY),
-      start: start ?? Number.NEGATIVE_INFINITY,
-      index,
-    });
-  });
-  const ranked = candidates.sort(
-    (left, right) =>
-      Number(right.dated) - Number(left.dated) ||
-      right.end - left.end ||
-      right.start - left.start ||
-      right.index - left.index,
-  );
-  return ranked[0]?.organization;
+    if (organization && !isSchoolOrganization(organization)) return organization;
+  }
+  return undefined;
 }
 
 export type OrganizationCount = { readonly organization: PublicOrganization; readonly count: number };
