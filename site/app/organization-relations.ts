@@ -4,6 +4,7 @@
 // どちらも登録済みの経歴（Career）から機械的に集計するだけで、新しい事実は作らない。
 import {
   getOrganizationById,
+  getOrganizationPlayers,
   getPrimaryCareer,
   organizationDisplayName,
   type PublicOrganization,
@@ -84,4 +85,36 @@ export function clubBreakdown(players: readonly PublicPlayer[]) {
 // 「福岡第一高等学校、日本体育大学」のような表示用の文字列。
 export function organizationNames(organizations: readonly PublicOrganization[]): string {
   return organizations.map((organization) => organizationDisplayName(organization)).join('、');
+}
+
+// 同じ学校に在籍記録のある他の選手（選手ページの「同じ出身校の選手」に使う）。
+// 並び順：承認済み（Master）を先に、その中で世代の近い順。世代は、この学校での在籍開始年が双方に
+// あればその差、無ければ生年の差で比べる（高校の在籍年は未確認のことが多いため）。どちらも分からない
+// 選手は後ろ、最後に名前順。
+function birthYearOf(player: PublicPlayer): number | null {
+  const value = player.facts.find((fact) => fact.label === '生年月日')?.value;
+  const match = value?.match(/(\d{4})年/);
+  return match ? Number(match[1]) : null;
+}
+
+export function schoolmatesOf(player: PublicPlayer, school: PublicOrganization) {
+  const startAt = (target: PublicPlayer) =>
+    target.careers.find((career) => career.organizationId === school.id && career.startYear != null)?.startYear ?? null;
+  const ownStart = startAt(player);
+  const ownBirth = birthYearOf(player);
+  const distance = (target: PublicPlayer) => {
+    const start = startAt(target);
+    if (ownStart != null && start != null) return Math.abs(start - ownStart);
+    const birth = birthYearOf(target);
+    if (ownBirth != null && birth != null) return Math.abs(birth - ownBirth);
+    return Number.POSITIVE_INFINITY;
+  };
+  return getOrganizationPlayers(school.id)
+    .filter((other) => other.id !== player.id)
+    .sort(
+      (left, right) =>
+        Number(right.dataStatus === 'master') - Number(left.dataStatus === 'master') ||
+        distance(left) - distance(right) ||
+        left.name.localeCompare(right.name, 'ja'),
+    );
 }

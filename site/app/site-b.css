@@ -1460,3 +1460,30 @@ a.jbaListB-timelineOrg:hover {
   font-size: 12px;
   color: #5B6B7A;
 }
+
+/* --- 選手ページ：同じ出身校の選手 --- */
+.jbaListB-schoolmates {
+  margin-bottom: 20px;
+}
+
+.jbaListB-schoolmates .jbaListB-breakdownTitle a {
+  color: #1A2330;
+  text-decoration: none;
+}
+
+.jbaListB-schoolmates .jbaListB-breakdownTitle a:hover {
+  color: #1D5FD6;
+}
+
+.jbaListB-moreLink {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #1D5FD6;
+  text-decoration: none;
+}
+
+.jbaListB-moreLink:hover {
+  text-decoration: underline;
+}

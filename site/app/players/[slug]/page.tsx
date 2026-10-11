@@ -2,7 +2,17 @@
 import { ArrowUpRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound, permanentRedirect } from 'next/navigation';
-import { getPlayer, getSources, masterApprovals, masterPublication, organizationSlugFor, players } from '../../public-data';
+import {
+  getPlayer,
+  getSources,
+  masterApprovals,
+  masterPublication,
+  organizationDisplayName,
+  organizationSlugFor,
+  playerContext,
+  players,
+} from '../../public-data';
+import { schoolmatesOf, schoolsOf } from '../../organization-relations';
 import { CareerGantt } from './CareerGantt';
 import { baseOpenGraph, JsonLd, playerJsonLd, playerPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 
@@ -31,6 +41,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+// 同じ出身校の選手として、1校あたりに表示する人数（残りは学校ページへのリンクで案内する）。
+const SCHOOLMATES_PER_SCHOOL = 6;
+
 function EvidenceLinks({ sourceIds }: { sourceIds: readonly string[] }) {
   const evidence = getSources(sourceIds);
   if (!evidence.length) return null;
@@ -57,6 +70,9 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
     ...player.aliases.flatMap((alias) => alias.sourceIds),
   ])];
   const playerSources = getSources(sourceIds);
+  const schoolmateGroups = schoolsOf(player)
+    .map((school) => ({ school, schoolmates: schoolmatesOf(player, school) }))
+    .filter(({ schoolmates }) => schoolmates.length > 0);
 
   return (
     <main className="jbaListB-page">
@@ -145,6 +161,42 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
           </div>
           <p className="jbaListB-ganttUndated">クラブ名は現在の登録名で表示しています。改称前の名称（例：サンロッカーズ渋谷、西宮ストークス）は、在籍当時の表記と異なる場合があります。</p>
         </section>
+
+        {schoolmateGroups.length > 0 ? (
+          <section className="jbaListB-section">
+            <div className="jbaListB-sectionHead">
+              <p className="jbaListB-eyebrow">Schoolmates</p>
+              <h2>同じ出身校の選手</h2>
+            </div>
+            {schoolmateGroups.map(({ school, schoolmates }) => (
+              <div className="jbaListB-schoolmates" key={school.id}>
+                <h3 className="jbaListB-breakdownTitle">
+                  <a href={`/organizations/${school.slug}`}>{organizationDisplayName(school)}</a>
+                </h3>
+                <div className="jbaListB-rosterList">
+                  {schoolmates.slice(0, SCHOOLMATES_PER_SCHOOL).map((other) => (
+                    <a href={`/players/${other.slug}`} className="jbaListB-rosterRow" key={other.id}>
+                      <span className="jbaListB-rosterNumber">{other.dataStatus === 'master' ? 'M' : '—'}</span>
+                      <div>
+                        <strong className="jbaListB-rosterName">{other.name}</strong>
+                        <p className="jbaListB-rosterMeta">{playerContext(other)}</p>
+                      </div>
+                      <ArrowUpRight size={16} />
+                    </a>
+                  ))}
+                </div>
+                {schoolmates.length > SCHOOLMATES_PER_SCHOOL ? (
+                  <a href={`/organizations/${school.slug}`} className="jbaListB-moreLink">
+                    {school.name}の選手をすべて見る（{schoolmates.length + 1}人）
+                  </a>
+                ) : null}
+              </div>
+            ))}
+            <p className="jbaListB-reviewNote">
+              本サイトに登録済みの選手のうち、同じ学校に在籍記録のある選手です。在籍時期や生年の近い選手から順に表示しています。
+            </p>
+          </section>
+        ) : null}
 
         <section className="jbaListB-section">
           <div className="jbaListB-sectionHead">
