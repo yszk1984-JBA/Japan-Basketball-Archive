@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getHomepagePlayers, playerContext, players, sources, type PublicPlayer } from './public-data';
+import { getHomepagePlayers, getPrimaryCareer, playerContext, players, sources } from './public-data';
 import { JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { clubColor } from './club-colors';
@@ -10,32 +10,18 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
 };
 
-// オールスター選手カードの「現在の所属」を選ぶ。経歴データは必ずしも年代順の末尾が
-// 最新とは限らない（例：外国籍選手で出身大学の経歴が末尾に入っているケース）ため、
-// 終了年が未確定（endYear: null）で開始年が確認できている経歴のうち、開始年が
-// 最も新しいものを優先する。該当がなければ選手一覧と同じ「末尾の経歴」にフォールバックする。
-function currentCareer(player: PublicPlayer) {
-  const ongoing = player.careers.filter(
-    (career): career is typeof career & { startYear: number } =>
-      typeof career.startYear === 'number' && career.endYear === null,
-  );
-  if (ongoing.length > 0) {
-    return ongoing.reduce((latest, career) => (career.startYear > latest.startYear ? career : latest));
-  }
-  return player.careers[player.careers.length - 1];
-}
-
 export default function Home() {
   const homepagePlayers = getHomepagePlayers();
   const organizationCount = new Set(
     players.flatMap((player) => player.careers.map((career) => career.organization).filter(Boolean)),
   ).size;
+  const careerCount = players.reduce((total, player) => total + player.careers.length, 0);
 
   const allStarPlayers = ALL_STAR_2026.entries
     .map((entry) => {
       const player = players.find((candidate) => candidate.id === entry.playerId);
       if (!player) return null;
-      const career = currentCareer(player);
+      const career = getPrimaryCareer(player);
       return { entry, player, org: career?.organization ?? null, orgId: career?.organizationId };
     })
     .filter((row): row is NonNullable<typeof row> => row !== null);
@@ -51,7 +37,7 @@ export default function Home() {
             <p className="jbaListB-eyebrow">日本バスケットボールの記録</p>
             <h1 className="jbaListB-heroTitle">選手と所属を、出典からたどる。</h1>
             <p className="jbaListB-heroLead">
-              承認済みMaster Dataと、公開画面の検証に使う確認中データを区別して掲載しています。
+              すべての経歴に出典つき。承認済みのデータと確認中のデータを区別して表示しています。
             </p>
           </div>
           <div className="jbaListB-heroBadge" aria-hidden="true">JB</div>
@@ -59,20 +45,20 @@ export default function Home() {
 
         <section className="jbaListB-stats" aria-label="収録状況">
           <div className="jbaListB-statItem">
-            <span className="jbaListB-statValue">{players.length}</span>
+            <span className="jbaListB-statValue">{players.length.toLocaleString('ja-JP')}</span>
             <span className="jbaListB-statLabel">人物</span>
           </div>
           <div className="jbaListB-statItem">
-            <span className="jbaListB-statValue">{organizationCount}</span>
+            <span className="jbaListB-statValue">{organizationCount.toLocaleString('ja-JP')}</span>
             <span className="jbaListB-statLabel">掲載組織</span>
           </div>
           <div className="jbaListB-statItem">
-            <span className="jbaListB-statValue">{sources.length}</span>
+            <span className="jbaListB-statValue">{sources.length.toLocaleString('ja-JP')}</span>
             <span className="jbaListB-statLabel">参照資料</span>
           </div>
           <div className="jbaListB-statItem">
-            <span className="jbaListB-statValue">複数</span>
-            <span className="jbaListB-statLabel">対象年度</span>
+            <span className="jbaListB-statValue">{careerCount.toLocaleString('ja-JP')}</span>
+            <span className="jbaListB-statLabel">経歴</span>
           </div>
         </section>
 

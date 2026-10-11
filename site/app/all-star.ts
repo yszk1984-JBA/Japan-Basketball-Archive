@@ -3,9 +3,10 @@
 // 保持する表示専用データ。
 //
 // 注意：
-// - 出典：goal.com「B-League All-Star 2026 players」
-//   https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/b-league-all-star-2026-players/blt6f0cfaf502862228
-//   （B.LEAGUE公式発表に基づく報道記事。team表記は記事に合わせて「B.BLACK」「B.WHITE」とした）。
+// - 出典：B.LEAGUE公式「選手紹介 | B.LEAGUE ALL-STAR GAME WEEKEND 2026 IN NAGASAKI 特設サイト」
+//   https://www.bleague.jp/all-stargame2026/players/
+//   （DATA_POLICYの出典優先順位に合わせ、2026-10-11に報道記事（goal.com）から公式ページへ差し替えた。
+//   チーム・キャプテン・出場選手は差し替え前のリストと一致することを確認済み）。
 // - 出場選手26名のうち、外国籍選手6名（アイザック・フォトゥ、クリストファー・スミス、
 //   セバスチャン・サイズ、ジョシュ・ホーキンソン、ザック・オーガスト、ヴィック・ロー）は
 //   当サイトの収録対象（日本人選手の高校・大学からプロへの経歴を中心に掲載）に含まれて
@@ -32,9 +33,8 @@ export const ALL_STAR_2026: {
   label: 'りそなグループ B.LEAGUE ALL-STAR GAME 2026',
   period: '2026年1月16日〜18日',
   venue: '長崎県 HAPPINESS ARENA',
-  sourceLabel: 'goal.com',
-  sourceUrl:
-    'https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/b-league-all-star-2026-players/blt6f0cfaf502862228',
+  sourceLabel: 'B.LEAGUE公式',
+  sourceUrl: 'https://www.bleague.jp/all-stargame2026/players/',
   entries: [
     { playerId: 'P000084', team: 'B.BLACK', captain: true }, // 比江島慎
     { playerId: 'P000176', team: 'B.BLACK' }, // 篠山竜青

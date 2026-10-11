@@ -197,14 +197,31 @@ export function getOrganizationSourceIds(organizationId: string): string[] {
 // cardContextの表示と矛盾しない組織を選ぶ。
 export function getPrimaryCareer(player: PublicPlayer) {
   if (player.careers.length === 0) return undefined;
-  // Master人物の経歴はbuild_site_master_data.pyが時系列順（学校→クラブの開始年順、期間未確認の
-  // クラブは最後）に並べている。期間未確認のクラブは「開始年が未確認の現在の所属」であることが多いため、
-  // 並び順の最後のクラブを直近とする。ただし同スクリプトは海外の学校（セントメリーズインターナショナル
-  // スクール、Lakeland Senior High School等）を学校と判定できず、期間未確認のクラブとして最後に
-  // 並べてしまうため、学校名と判定できる経歴は除いて選ぶ（学校しか無い選手は最後の1件）。
+  // Master人物の直近（現在）の所属。学校名と判定できる経歴は除いたうえで、次の順で選ぶ。
+  // 1. 終了年のない所属（「2018年〜」＝現所属）。複数あれば開始年の新しいもの。
+  //    海外へのレンタル移籍（例：比江島慎の宇都宮ブレックス2018年〜とブリスベン・ブレッツ2018–2019年）
+  //    のように期間が重なる選手で、並び順の最後の行（レンタル先）を現所属と誤らないため。
+  // 2. 期間未確認のクラブ（並び順の最後のもの）。build_site_master_data.pyの方針どおり、
+  //    「開始年が未確認の現在の所属」とみなす。
+  // 3. 終了年の最も新しいもの（同じなら開始年の新しいもの）。
+  // build_site_master_data.pyは海外の学校を学校と判定できず、期間未確認のクラブとして並べることがあるため、
+  // 学校名の判定（isSchoolName）で除く。学校しか無い選手は最後の1件。
   if (player.dataStatus === 'master') {
-    const latestNonSchool = [...player.careers].reverse().find((career) => !isSchoolName(career.organization ?? ''));
-    return latestNonSchool ?? player.careers[player.careers.length - 1];
+    const indexed = player.careers.map((career, index) => ({ career, index }));
+    const clubs = indexed.filter(({ career }) => !isSchoolName(career.organization ?? ''));
+    const latestBy = <T extends { index: number }>(items: T[], score: (item: T) => number[]) =>
+      items.reduce<T | undefined>((best, item) => {
+        if (!best) return item;
+        const [a, b] = [score(item), score(best)];
+        for (let i = 0; i < a.length; i += 1) if (a[i] !== b[i]) return a[i] > b[i] ? item : best;
+        return item.index > best.index ? item : best;
+      }, undefined);
+    const ongoing = clubs.filter(({ career }) => career.startYear != null && career.endYear == null);
+    if (ongoing.length > 0) return latestBy(ongoing, ({ career }) => [career.startYear ?? 0])?.career;
+    const undated = clubs.filter(({ career }) => career.startYear == null && career.endYear == null);
+    if (undated.length > 0) return undated[undated.length - 1].career;
+    if (clubs.length > 0) return latestBy(clubs, ({ career }) => [career.endYear ?? 0, career.startYear ?? 0])?.career;
+    return player.careers[player.careers.length - 1];
   }
   const sorted = [...player.careers].sort((left, right) => {
     const leftUnknown = left.period === '期間未確認' ? 1 : 0;
