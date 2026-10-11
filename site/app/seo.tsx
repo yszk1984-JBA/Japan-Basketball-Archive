@@ -65,6 +65,7 @@ export function SiteFooter() {
           <a href="/rankings/high-school">出身高校ランキング</a>
           <a href="/rankings/university">出身大学ランキング</a>
           <a href="/about">このサイトについて</a>
+          <a href="/about#corrections">訂正・削除のご依頼</a>
         </div>
       </div>
       <p className="jbaListB-footerDisclaimer">{DISCLAIMER_JA}</p>

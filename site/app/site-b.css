@@ -1487,3 +1487,23 @@ a.jbaListB-timelineOrg:hover {
 .jbaListB-moreLink:hover {
   text-decoration: underline;
 }
+
+/* --- Aboutページ：訂正・削除依頼フォームへのボタン --- */
+.jbaListB-aboutButton {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: #1D5FD6;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.jbaListB-aboutButton:hover {
+  background: #174CAB;
+}
+
+#corrections {
+  scroll-margin-top: 80px;
+}
