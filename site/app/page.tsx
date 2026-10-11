@@ -2,7 +2,7 @@
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getHomepagePlayers, getPrimaryCareer, playerContext, players, sources } from './public-data';
-import { JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
+import { BrandMark, JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { clubColor } from './club-colors';
 
@@ -40,7 +40,7 @@ export default function Home() {
               すべての経歴に出典つき。承認済みのデータと確認中のデータを区別して表示しています。
             </p>
           </div>
-          <div className="jbaListB-heroBadge" aria-hidden="true">JB</div>
+          <BrandMark size={108} className="jbaListB-heroBadge" />
         </section>
 
         <section className="jbaListB-stats" aria-label="収録状況">

@@ -11,11 +11,32 @@ export const baseOpenGraph = { siteName: 'Rosterline', locale: 'ja_JP', type: 'w
 
 // サイト共通ヘッダー（B案）。全ページで同一の見た目・ナビゲーションにするため、
 // /players, /organizations で先行実装していたヘッダーをここに集約する。
+// Rosterlineのロゴマーク（public/favicon.svgと同じ図柄）。Rと、経歴の年表（点の並び。右端の橙は現在の所属）。
+export function BrandMark({ size, className }: { size: number; className?: string }) {
+  return (
+    <svg viewBox="0 0 64 64" width={size} height={size} className={className} aria-hidden="true" focusable="false">
+      <rect width="64" height="64" rx="14" fill="#1D5FD6" />
+      <path
+        d="M23 41V13h10.5a7.5 7.5 0 0 1 0 15H23M32 28l9 13"
+        fill="none"
+        stroke="#FFFFFF"
+        strokeWidth="6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path d="M14 52h36" stroke="#FFFFFF" strokeOpacity="0.45" strokeWidth="2.5" strokeLinecap="round" />
+      <circle cx="18" cy="52" r="3.2" fill="#FFFFFF" />
+      <circle cx="32" cy="52" r="3.2" fill="#FFFFFF" />
+      <circle cx="46" cy="52" r="4" fill="#F5A524" />
+    </svg>
+  );
+}
+
 export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' }) {
   return (
     <header className="jbaListB-header">
       <a href="/" className="jbaListB-brand">
-        <span className="jbaListB-brandMark">R</span>
+        <BrandMark size={28} className="jbaListB-brandMark" />
         <span className="jbaListB-brandName">Rosterline</span>
       </a>
       <nav className="jbaListB-nav">
