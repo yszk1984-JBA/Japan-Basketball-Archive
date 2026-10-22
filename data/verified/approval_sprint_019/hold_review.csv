@@ -1,0 +1,9 @@
+issue_id,person_id,related_id,issue_type,status,description,disposition
+B34W1I0001,P000064,C002686,NBA_ROSTER_CHANGE,HOLD,河村勇輝はNBA公式（stats.nba.com commonteamroster、LAC 2026-27）のクリッパーズのロスターに掲載なし。commonplayerinfoはTEAM_NAME=Bulls、ROSTERSTATUS=Inactive、TO_YEAR=2025。クリッパーズのCareer（C002686、2026〜）は変更しない（2026-10-22 Yuichiの回答は指定なし→保留で進める）。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0002,P000308,C001371,ROSTER_STATUS_UNCLEAR,HOLD,平尾充庸の所属履歴は「2026-27 茨城」まで掲載されているが、茨城の2026-27選手一覧（在籍中・退団済・全選手）のいずれにも載っていない。茨城ロボッツのCareer（C001371、2017〜）は変更しない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0003,P000532,C002515,MID_SEASON_DEPARTURE,HOLD,小寺ハミルトンゲイリーは香川の2026-27選手一覧で「退団済」。期間のルールにより終了年を2027としたが、シーズン途中（開幕前後）の退団で、2026-27の大半は在籍していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0004,P000041,C000129,PROFILE_UNAVAILABLE,HOLD,狩野祐介のB.LEAGUE公式プロフィール（PlayerID=8463）がHTTP 500で読めず、福岡のCareer（C000129、期間なし）の開始年を確認できなかった（2026-10-22、複数回）。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0005,,,PROFILE_UNAVAILABLE,HOLD,開幕後に一覧へ載った岡本飛竜（PlayerID=8839、福井）とファイ パプ月瑠（PlayerID=9400、香川）は、B.LEAGUE公式プロフィールがHTTP 500で読めず、Masterとの照合（既存登録の有無）・生年月日を確認できなかった。登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0006,P000564,P000564,SCHOOL_NOT_LISTED,HOLD,佐野悠星のB.LEAGUE公式プロフィールは出身校の記載なし。学校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0007,P000565,P000565,SCHOOL_NOT_LISTED,HOLD,宮永颯太のB.LEAGUE公式プロフィールは出身校の記載なし。学校のCareerは登録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
+B34W1I0008,P000564,P000564,PRE_BLEAGUE_HISTORY,HOLD,佐野悠星の公式所属履歴は2024-25 奈良、2026-27 岡山のみ（2025-26の記載なし）。記載のない期間は推測せず記録していない。,VERIFIEDへ含めず、追加の公式資料が得られるまで保留
