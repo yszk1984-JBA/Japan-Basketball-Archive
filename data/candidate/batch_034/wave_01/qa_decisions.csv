@@ -1,0 +1,7 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B34W1D0001,Person,P000564,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-10-22
+B34W1D0002,Person,P000565,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-10-22
+B34W1D0003,Career,C002778,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴で確認（2026-27在籍中のため終了年なし）,2026-10-22
+B34W1D0004,Career,C002779,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE公式の所属履歴で確認,2026-10-22
+B34W1D0005,Career,C002780,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴で確認（2026-27在籍中のため終了年なし）,2026-10-22
+B34W1D0006,Career,C002781,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE公式の所属履歴で確認（2026-27在籍中のため終了年なし）,2026-10-22
