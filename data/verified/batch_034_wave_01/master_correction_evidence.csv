@@ -1,0 +1,6 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B34W1E0001,Career,C001269,end,2026,B34W1S0001,クラブ所属履歴 > 「2024-25 宇都宮」「2025-26 宇都宮」、最新行「2026-27 東京Z」,B.LEAGUE公式の所属履歴で宇都宮の最後のシーズンが2025-26（2026-27は東京Z）であることを確認。終了年＝2025-26の終了年,SUPPORTED,2026-10-22,既存MASTER Careerの期間の訂正案
+B34W1E0002,Career,C002515,end,2027,B34W1S0002,クラブ所属履歴 > 「2026-27 香川」／香川の2026-27選手一覧「退団済」に掲載,B.LEAGUE公式で香川の2026-27選手一覧（退団済）に掲載。在籍は2026-27のみのため、終了年＝2026-27の終了年（期間のルールどおり）,SUPPORTED,2026-10-22,既存MASTER Careerの期間の訂正案
+B34W1E0003,Career,C002515,end,2027,B34W1S0003,選手一覧（2026-27、香川、退団済）> 小寺 ハミルトンゲイリー,B.LEAGUE公式の2026-27選手一覧で香川の「退団済」に掲載されていることを確認,SUPPORTED,2026-10-22,既存MASTER Careerの期間の訂正案
+B34W1E0004,Career,C000092,start,2026,B34W1S0004,クラブ所属履歴 > 「2026-27 東京Z」（前行「2025-26 福岡」）,B.LEAGUE公式の所属履歴で東京Zへの在籍開始シーズンを確認（2026-27在籍中のため終了年なし）,SUPPORTED,2026-10-22,既存MASTER Careerの期間の訂正案
+B34W1E0005,Career,C000211,start,2022,B34W1S0005,クラブ所属履歴 > 「2022-23 愛媛」〜「2026-27 愛媛」（前行「2021-22 熊本」）,B.LEAGUE公式の所属履歴で愛媛への在籍開始シーズンを確認（2026-27在籍中のため終了年なし）,SUPPORTED,2026-10-22,既存MASTER Careerの期間の訂正案
