@@ -7,3 +7,6 @@
 # Python bytecode cache
 __pycache__/
 *.pyc
+
+# Transfer bundles between Claude sessions and the Mac (never commit)
+*.bundle
