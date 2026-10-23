@@ -770,6 +770,58 @@
   font-weight: 800;
 }
 
+/* --- トップページ：クラブで探す --- */
+.jbaListB-clubGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jbaListB-clubGroupLabel {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #8A97A3;
+  letter-spacing: 0.04em;
+}
+
+.jbaListB-clubGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.jbaListB-clubCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  text-decoration: none;
+  color: #1A2330;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.jbaListB-clubCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(16, 24, 40, 0.1);
+}
+
+.jbaListB-clubCardDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.jbaListB-clubCardName {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
 /* --- トップページ：3つの特徴 --- */
 .jbaListB-principles {
   display: grid;
@@ -1218,6 +1270,10 @@ a.jbaListB-timelineOrg:hover {
   .jbaListB-principles,
   .jbaListB-factGrid {
     grid-template-columns: 1fr;
+  }
+
+  .jbaListB-clubGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .jbaListB-detailHeader,

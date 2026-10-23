@@ -1,10 +1,10 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getHomepagePlayers, getPrimaryCareer, playerContext, players, sources } from './public-data';
+import { getHomepagePlayers, getOrganizationById, getPrimaryCareer, organizationSlugFor, playerContext, players, sources } from './public-data';
 import { BrandMark, JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
-import { clubColor } from './club-colors';
+import { CLUB_COLORS, clubColor } from './club-colors';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -16,6 +16,17 @@ export default function Home() {
     players.flatMap((player) => player.careers.map((career) => career.organization).filter(Boolean)),
   ).size;
   const careerCount = players.reduce((total, player) => total + player.careers.length, 0);
+
+  const clubs = Object.entries(CLUB_COLORS)
+    .map(([organizationId, meta]) => {
+      const organization = getOrganizationById(organizationId);
+      const slug = organizationSlugFor(organizationId);
+      if (!organization || !slug) return null;
+      return { organizationId, color: meta.color, league: meta.league, name: organization.name, slug };
+    })
+    .filter((club): club is NonNullable<typeof club> => club !== null);
+  const premierClubs = clubs.filter((club) => club.league === 'PREMIER');
+  const bOneClubs = clubs.filter((club) => club.league === 'B.ONE');
 
   const allStarPlayers = ALL_STAR_2026.entries
     .map((entry) => {
@@ -87,6 +98,41 @@ export default function Home() {
                 <ArrowRight size={20} />
               </a>
             ))}
+          </div>
+        </section>
+
+        <section className="jbaListB-featuredSection">
+          <div className="jbaListB-sectionHeading">
+            <div>
+              <p className="jbaListB-eyebrow">Browse by club</p>
+              <h2 className="jbaListB-sectionTitle">クラブで探す</h2>
+            </div>
+            <div className="jbaListB-sectionLinks">
+              <a href="/organizations" className="jbaListB-textLink">組織一覧を見る <ArrowRight size={16} /></a>
+            </div>
+          </div>
+          <p className="jbaListB-lede">選手名が分からなくても、所属クラブから経歴をたどれます。B.LEAGUE全{clubs.length}クラブを掲載。</p>
+          <div className="jbaListB-clubGroup">
+            <p className="jbaListB-clubGroupLabel">B.PREMIER（{premierClubs.length}クラブ）</p>
+            <div className="jbaListB-clubGrid">
+              {premierClubs.map((club) => (
+                <a href={`/organizations/${club.slug}`} className="jbaListB-clubCard" key={club.organizationId}>
+                  <span className="jbaListB-clubCardDot" style={{ background: club.color }} aria-hidden="true" />
+                  <span className="jbaListB-clubCardName">{club.name}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+          <div className="jbaListB-clubGroup">
+            <p className="jbaListB-clubGroupLabel">B.ONE（{bOneClubs.length}クラブ）</p>
+            <div className="jbaListB-clubGrid">
+              {bOneClubs.map((club) => (
+                <a href={`/organizations/${club.slug}`} className="jbaListB-clubCard" key={club.organizationId}>
+                  <span className="jbaListB-clubCardDot" style={{ background: club.color }} aria-hidden="true" />
+                  <span className="jbaListB-clubCardName">{club.name}</span>
+                </a>
+              ))}
+            </div>
           </div>
         </section>
 
