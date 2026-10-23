@@ -1,6 +1,6 @@
 # MASTER反映レポート
 
-作成日：2026-10-11
+作成日：2026-10-23
 
 ## 反映済み承認
 
@@ -15,15 +15,16 @@
 - `APP-AS013-20261011-01`：Approval Sprint 013（B.PREMIER選手18名の出身校（クラブ公式サイト、batch_032 wave_05）、Career 18件）
 - `APP-AS014-20261011-01`：Approval Sprint 014（B.PREMIER選手15名の出身高校（batch_032 wave_06）、Career 15件）
 - `APP-AS017-20261011-01`：Approval Sprint 017（B.ONE選手20名の出身校（batch_033 wave_06、濱田貴流馬の近畿大学を除く）、Career 35件）
+- `APP-AS019-20261023-01`：Approval Sprint 019（開幕後の現所属の更新、batch_034 wave_01、期間訂正4件・Career追加4件・新規2名、Tier 2）
 
 ## MASTER件数
 
-- Person：517件
+- Person：519件
 - Organization：425件
-- Career：2551件
-- Source：1306件
-- Evidence：8561件
-- Approval：20件
+- Career：2555件
+- Source：1313件
+- Evidence：8583件
+- Approval：21件
 
 訂正：2026-10-04 B.PREMIER選手6名の現所属Career期間（`corrections/2026-10-04_premier_current_club_periods.md`）。2026-10-03 河村勇輝のCareer期間（`corrections/2026-10-03_p000064_career_periods.md`）。2026-10-01 重複Organizationの統合（白鷗大学・富田高校、`corrections/2026-10-01_org_merge_hakuoh_tomita.md`）。
 
