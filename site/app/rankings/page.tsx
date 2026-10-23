@@ -2,9 +2,10 @@
 import type { Metadata } from 'next';
 import { baseOpenGraph, SiteBreadcrumb, SiteFooter, SiteHeader } from '../seo';
 import { buildRanking, RANKING_META, type RankingKind } from './ranking-data';
+import { buildRouteRanking, ROUTE_PATH, ROUTE_TITLE } from './route-data';
 
 const title = 'ランキング';
-const description = 'B.LEAGUE（B.PREMIER・B.ONE）でプレーする選手の出身高校・出身大学のランキングです。';
+const description = 'B.LEAGUE（B.PREMIER・B.ONE）でプレーする選手の出身高校・出身大学と、高校→大学の進学ルートのランキングです。';
 
 export const metadata: Metadata = {
   title,
@@ -43,6 +44,15 @@ export default function RankingsIndexPage() {
               </a>
             );
           })}
+          <a href={ROUTE_PATH} className="jbaListB-row jbaListB-rankIndexGrid">
+            <div className="jbaListB-rowName">{ROUTE_TITLE}</div>
+            <div className="jbaListB-rowMuted">
+              {buildRouteRanking()
+                .slice(0, 3)
+                .map((row) => `${row.rank}位 ${row.highSchool.name}→${row.university.name}（${row.players.length}人）`)
+                .join('・')}
+            </div>
+          </a>
         </div>
       </div>
 

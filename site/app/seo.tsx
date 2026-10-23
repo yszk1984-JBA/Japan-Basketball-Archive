@@ -92,6 +92,7 @@ export function SiteFooter() {
           <a href="/organizations">組織一覧</a>
           <a href="/rankings/high-school">出身高校ランキング</a>
           <a href="/rankings/university">出身大学ランキング</a>
+          <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
           <a href="/about">このサイトについて</a>
           <a href="/about#corrections">訂正・削除のご依頼</a>
         </div>
