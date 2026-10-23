@@ -1535,3 +1535,80 @@ a.jbaListB-timelineOrg:hover {
   outline: 2px solid #1A2330;
   outline-offset: 2px;
 }
+
+/* --- 高校→大学の進学ルートランキング --- */
+.jbaListB-routeGrid {
+  grid-template-columns: 48px minmax(0, 1.2fr) 64px minmax(0, 1fr);
+  column-gap: 12px;
+  align-items: start;
+}
+
+.jbaListB-routeName {
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.jbaListB-routeName a,
+.jbaListB-routePlayers a,
+.jbaListB-routePoints a {
+  color: #1D5FD6;
+  text-decoration: none;
+}
+
+.jbaListB-routeName a:hover,
+.jbaListB-routePlayers a:hover,
+.jbaListB-routePoints a:hover {
+  text-decoration: underline;
+}
+
+.jbaListB-routeArrow {
+  margin: 0 6px;
+  color: #F5A524;
+  font-weight: 800;
+}
+
+.jbaListB-routePlayers {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #5B6B7A;
+}
+
+.jbaListB-routePoints {
+  background: #FFFFFF;
+  border: 1px solid #E3E8ED;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.jbaListB-routePoints p {
+  margin: 0 0 4px;
+  font-weight: 800;
+}
+
+.jbaListB-routePoints ul {
+  margin: 0;
+  padding-left: 1.2em;
+  list-style: disc;
+}
+
+@media (max-width: 760px) {
+  .jbaListB-row.jbaListB-routeGrid {
+    display: grid;
+    grid-template-columns: 32px 1fr auto;
+    grid-template-areas: 'pos route count' 'pos players players';
+    column-gap: 10px;
+    row-gap: 4px;
+    padding: 12px 14px;
+  }
+
+  .jbaListB-tableHead.jbaListB-routeGrid {
+    display: none;
+  }
+
+  .jbaListB-routeGrid > :nth-child(1) { grid-area: pos; }
+  .jbaListB-routeGrid > :nth-child(2) { grid-area: route; }
+  .jbaListB-routeGrid > :nth-child(3) { grid-area: count; }
+  .jbaListB-routeGrid > :nth-child(4) { grid-area: players; }
+}
