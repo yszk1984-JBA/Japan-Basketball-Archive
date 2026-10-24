@@ -1,0 +1,21 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B35W1I0001,P000461,C002782,PRE_BLEAGUE_NON_OFFICIAL,HOLD,五十嵐 圭・東京サンロッカーズ：リンク先＝サンロッカーズ渋谷（現・東京サンロッカーズ）。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0002,P000135,C002787,PRE_BLEAGUE_NON_OFFICIAL,HOLD,竹内 公輔・広島ドラゴンフライズ：B.LEAGUE期（宇都宮 2016〜）の前。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0003,P000098,C002789,PRE_BLEAGUE_NON_OFFICIAL,HOLD,安藤誓哉・ハリファックス・レインメン：海外（カナダNBL）。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0004,P000098,C002790,PERIOD_UNCLEAR,HOLD,安藤誓哉・メラルコ・ボルツ：海外（フィリピンPBA）。年は「2015」のみでシーズンが分からないため期間は保留。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0005,P000084,C002792,PRE_BLEAGUE_NON_OFFICIAL,HOLD,比江島慎・シーホース三河：2016〜2018はB.LEAGUE公式どおり既存Career（C001752）。開幕前の部分のみ。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0006,P000176,C002793,PRE_BLEAGUE_NON_OFFICIAL,HOLD,篠山 竜青・川崎ブレイブサンダース：2016〜は既存Career（B.LEAGUE公式）。開幕前の部分のみ。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0007,P000083,C002794,PRE_BLEAGUE_NON_OFFICIAL,HOLD,富樫勇樹・千葉ジェッツ：2016〜は既存Career（B.LEAGUE公式）。開幕前の部分のみ。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0008,P000090,C002795,PRE_BLEAGUE_NON_OFFICIAL,HOLD,金丸晃輔・パナソニックトライアンズ：チームは2013年に休部。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0009,P000090,C002796,PRE_BLEAGUE_NON_OFFICIAL,HOLD,金丸晃輔・シーホース三河：2016〜2021は既存Career（B.LEAGUE公式）。開幕前の部分のみ。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0010,P000289,C002797,PERIOD_UNCLEAR,HOLD,ギャビン・エドワーズ・安養正官庄レッドブースターズ：海外（韓国KBL）。年は「2010」のみ、期間は保留。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0011,P000289,C002798,PERIOD_UNCLEAR,HOLD,ギャビン・エドワーズ・Khimik OPZ：海外（ウクライナ）。年は「2010」のみ、期間は保留。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0012,P000289,C002799,PRE_BLEAGUE_NON_OFFICIAL,HOLD,ギャビン・エドワーズ・グランドラピッズ・ゴールド：海外（NBA Dリーグ）。在籍当時はスプリングフィールド・アーマー、リンク先は移転後の現チーム。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0013,P000289,C002800,PRE_BLEAGUE_NON_OFFICIAL,HOLD,ギャビン・エドワーズ・ペリステリBC：海外（ギリシャ）。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0014,P000289,C002801,PRE_BLEAGUE_NON_OFFICIAL,HOLD,ギャビン・エドワーズ・ウェストポーツKLドラゴンズ：海外（ASEANバスケットボールリーグ）。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0015,P000289,C002802,PRE_BLEAGUE_NON_OFFICIAL,HOLD,ギャビン・エドワーズ・シーホース三河：2016〜2017は既存Career（B.LEAGUE公式）。開幕前の部分のみ。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0016,P000297,C002804,PRE_BLEAGUE_NON_OFFICIAL,HOLD,原 修太・千葉ジェッツ：2016〜は既存Career（B.LEAGUE公式）。開幕前の部分のみ。出典はWikipediaのみ（公式以外）。,クラブ公式の契約発表・当時のリーグ公式記録で確認
+B35W1I0017,P000083,P000083,SOURCE_DIFFERENCE,HOLD,富樫勇樹の秋田ノーザンハピネッツの開始年：Masterは2012（既存の出典）、Wikipediaは2013-2014。Masterを変更していない。,公式資料で確認
+B35W1I0018,P000329,P000329,SOURCE_DIFFERENCE,HOLD,井上宗一郎の東京サンロッカーズ：MasterはB.LEAGUE公式の所属履歴で2021〜2023、Wikipediaは2022-2023。公式を優先しMasterを変更していない。,公式資料で確認
+B35W1I0019,P000302,P000302,SOURCE_DIFFERENCE,HOLD,テーブス海の宇都宮ブレックス：MasterはB.LEAGUE公式の所属履歴で2019〜2022、Wikipediaは2020-2022。公式を優先しMasterを変更していない。,公式資料で確認
+B35W1I0020,P000064,P000064,SOURCE_DIFFERENCE,HOLD,河村勇輝：Wikipediaには「2026 →ウィンディシティ・ブルズ」とあるが、NBA公式（Gリーグの2026-27名簿）は未公開。Batch 034のHOLD（B34W1I0001）のまま、登録していない。,公式資料で確認
