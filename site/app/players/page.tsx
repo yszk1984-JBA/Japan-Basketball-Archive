@@ -55,6 +55,7 @@ function toRow(player: (typeof players)[number]): PlayerRow {
     birthDate: parseBirthDate(player.facts.find((fact) => fact.label === '生年月日')?.value),
     approvedAt: latestApprovedAt(player),
     careerCount: player.careers.length,
+    organizations: [...new Set(player.careers.map((career) => career.organization).filter((name): name is string => Boolean(name)))],
   };
 }
 

@@ -1,7 +1,8 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getHomepagePlayers, getOrganizationById, getPrimaryCareer, organizationSlugFor, playerContext, players, sources } from './public-data';
+import { getHomepagePlayers, getOrganizationById, getOrganizationPlayers, getPrimaryCareer, organizations, organizationSlugFor, playerContext, players, sources } from './public-data';
+import { TopSearch, type TopSearchEntry } from './TopSearch';
 import { BrandMark, JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { CLUB_COLORS, clubColor } from './club-colors';
@@ -37,6 +38,25 @@ export default function Home() {
     })
     .filter((row): row is NonNullable<typeof row> => row !== null);
 
+  // トップページの検索候補（選手・組織）。サーバー側で作り、検索ボックスに渡す。
+  const searchEntries: TopSearchEntry[] = [
+    ...players.map((player) => ({
+      kind: 'player' as const,
+      name: player.name,
+      href: `/players/${player.slug}`,
+      meta: getPrimaryCareer(player)?.organization ?? '',
+    })),
+    ...organizations
+      .map((organization) => ({ organization, count: getOrganizationPlayers(organization.id).length }))
+      .filter(({ count }) => count > 0)
+      .map(({ organization, count }) => ({
+        kind: 'organization' as const,
+        name: organization.name,
+        href: `/organizations/${organization.slug}`,
+        meta: `在籍記録 ${count}人`,
+      })),
+  ];
+
   return (
     <main className="jbaListB-page">
       <JsonLd data={websiteJsonLd()} />
@@ -50,6 +70,7 @@ export default function Home() {
             <p className="jbaListB-heroLead">
               すべての経歴に出典つき。承認済みのデータと確認中のデータを区別して表示しています。
             </p>
+            <TopSearch entries={searchEntries} />
           </div>
           <BrandMark size={108} className="jbaListB-heroBadge" />
         </section>

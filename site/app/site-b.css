@@ -651,6 +651,159 @@
   flex-shrink: 0;
 }
 
+/* --- トップページ：検索ボックス --- */
+.jbaListB-topSearch {
+  position: relative;
+  margin-top: 24px;
+  max-width: 560px;
+}
+
+.jbaListB-topSearchLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #5B6B7A;
+}
+
+.jbaListB-topSearchRow {
+  display: flex;
+  gap: 8px;
+}
+
+.jbaListB-topSearchField {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.jbaListB-topSearchIcon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8A97A3;
+  pointer-events: none;
+}
+
+.jbaListB-topSearchInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 16px 13px 42px;
+  border: 1px solid #DCE1E6;
+  border-radius: 999px;
+  font-size: 15px;
+  font-family: inherit;
+  background: #F7F9FA;
+  color: #1A2330;
+}
+
+.jbaListB-topSearchInput::placeholder {
+  color: #99A5B0;
+}
+
+.jbaListB-topSearchInput:focus {
+  outline: none;
+  border-color: #1D5FD6;
+  background: #FFFFFF;
+}
+
+.jbaListB-topSearchButton {
+  flex-shrink: 0;
+  padding: 0 22px;
+  border: 0;
+  border-radius: 999px;
+  background: #1D5FD6;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.jbaListB-topSearchButton:hover {
+  background: #174DB0;
+}
+
+.jbaListB-topSearchResults {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: calc(100% + 6px);
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  background: #FFFFFF;
+  border: 1px solid #DCE1E6;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.12);
+}
+
+.jbaListB-topSearchResult {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 10px;
+  border-radius: 10px;
+  color: #1A2330;
+  text-decoration: none;
+}
+
+.jbaListB-topSearchResult:hover,
+.jbaListB-topSearchResult:focus {
+  background: #F1F5FB;
+  outline: none;
+}
+
+.jbaListB-topSearchKind {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.jbaListB-topSearchKind-player {
+  background: #E8F0FE;
+  color: #1D5FD6;
+}
+
+.jbaListB-topSearchKind-organization {
+  background: #FEF0E6;
+  color: #B45A1E;
+}
+
+.jbaListB-topSearchName {
+  font-size: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jbaListB-topSearchMeta {
+  font-size: 12px;
+  color: #8A97A3;
+  white-space: nowrap;
+}
+
+.jbaListB-topSearchEmpty {
+  padding: 10px;
+  font-size: 13px;
+  color: #8A97A3;
+}
+
+@media (max-width: 760px) {
+  .jbaListB-topSearchMeta {
+    display: none;
+  }
+
+  .jbaListB-topSearchResult {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+}
+
 /* --- トップページ：統計バー --- */
 .jbaListB-stats {
   display: grid;

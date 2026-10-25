@@ -1,9 +1,10 @@
 'use client';
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { ORGANIZATION_CATEGORY_META, ORGANIZATION_CATEGORY_ORDER, type OrganizationCategory } from '../organization-category';
 import { clubColor } from '../club-colors';
+import { normalizeSearchText } from '../TopSearch';
 
 export type PlayerRow = {
   readonly id: string;
@@ -24,6 +25,8 @@ export type PlayerRow = {
   readonly approvedAt: string | null;
   /** 経歴（Career）の登録件数。 */
   readonly careerCount: number;
+  /** 経歴に登場した組織名（学校・クラブ）。名前検索で、学校名・クラブ名からも絞り込めるようにする。 */
+  readonly organizations: readonly string[];
 };
 
 type StatusFilter = 'all' | 'master' | 'candidate';
@@ -67,6 +70,16 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
   const [sortKey, setSortKey] = useState<SortKey>('default');
   const [selected, setSelected] = useState<ReadonlySet<string>>(new Set());
 
+  // トップページの検索（/players?q=…）から来たときは、その語で絞り込んだ状態で開く。
+  // （サーバー描画との食い違いを避けるため、描画後にURLの値を読み込む）
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      const initial = new URLSearchParams(window.location.search).get('q');
+      if (initial) setSearchQuery(initial);
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
+
   const toggleSelected = (slug: string) => {
     setSelected((prev) => {
       const next = new Set(prev);
@@ -80,12 +93,14 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
   };
 
   const filtered = useMemo(() => {
-    const query = searchQuery.trim().toLowerCase();
+    const query = normalizeSearchText(searchQuery);
     const next = rows.filter(
       (row) =>
         (statusFilter === 'all' || row.status === statusFilter) &&
         (categoryFilter === 'all' || row.categories.includes(categoryFilter)) &&
-        (query === '' || row.name.toLowerCase().includes(query)),
+        (query === '' ||
+          normalizeSearchText(row.name).includes(query) ||
+          row.organizations.some((organization) => normalizeSearchText(organization).includes(query))),
     );
     if (sortKey === 'name') return [...next].sort((left, right) => left.name.localeCompare(right.name, 'ja'));
     if (sortKey === 'sources') return [...next].sort((left, right) => right.sources - left.sources);
@@ -98,7 +113,7 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
   return (
     <>
       <p className="jbaListB-lede">
-        {filtered.length} / {totalCount}人を表示中。名前検索・データステータス・所属カテゴリーで絞り込み、並び替えができます。
+        {filtered.length} / {totalCount}人を表示中。名前（選手・学校・クラブ）検索・データステータス・所属カテゴリーで絞り込み、並び替えができます。
       </p>
 
       <div className="jbaListB-filterCard">
@@ -121,8 +136,8 @@ export function PlayersListView({ rows, totalCount }: { rows: readonly PlayerRow
             <input
               type="search"
               className="jbaListB-searchInput"
-              placeholder="選手名で検索"
-              aria-label="選手名で検索"
+              placeholder="選手名・学校名・クラブ名で検索"
+              aria-label="選手名・学校名・クラブ名で検索"
               value={searchQuery}
               onChange={(event) => setSearchQuery(event.target.value)}
             />
