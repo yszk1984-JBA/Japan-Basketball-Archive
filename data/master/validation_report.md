@@ -7,11 +7,11 @@
 - 検証：PASS
 - エラー：0件
 - Person：519件
-- Organization：425件
-- Career：2555件
-- Source：1313件
-- Evidence：8583件
-- Approval：21件
+- Organization：433件
+- Career：2579件
+- Source：1324件
+- Evidence：8671件
+- Approval：22件
 - Publication：4件
 
 ## エラー
