@@ -208,7 +208,9 @@ def main() -> None:
                     details.append(f"{label}：{' / '.join(values)}")
             public_careers.append({
                 "id": career["career_id"],
-                "period": period(career["start"], career["end"]),
+                "period": period(career["start"], career["end"]) + (
+                    "（生年月日からの推定）" if any(row["field_name"] in ("start", "end") and row["issue_note"].startswith("推定値")
+                                              for row in career_evidence) else ""),
                 "organization": organizations[career["organization_id"]],
                 "startYear": int(career["start"][:4]) if career["start"] else None,
                 "endYear": int(career["end"][:4]) if career["end"] else None,
