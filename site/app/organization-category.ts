@@ -53,6 +53,13 @@ const OVERSEAS_MARKERS: readonly string[] = [
   'ブルーフィールド',
   'ブリガムヤング',
   'ジョージ・ワシントン',
+  'レインメン',
+  'メラルコ',
+  '安養',
+  'Khimik',
+  'グランドラピッズ',
+  'ペリステリ',
+  'KLドラゴンズ',
 ];
 
 // 国内のB.LEAGUE／実業団等のバスケットボールクラブ名（表示分類のためだけの
@@ -122,6 +129,7 @@ const KNOWN_CLUB_NAMES = new Set<string>([
   '岐阜スゥープス',
   'ベルテックス静岡',
   '東京海上日動ビッグブルー',
+  'パナソニックトライアンズ',
 ]);
 
 export function organizationCategory(name: string): OrganizationCategory {
