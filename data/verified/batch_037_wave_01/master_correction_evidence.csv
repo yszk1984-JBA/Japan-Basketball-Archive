@@ -1,0 +1,6 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B37W1E0084,Career,C001371,end,2027,B37W1S0010,クラブ所属履歴 > 「2017-18 茨城」〜「2026-27 茨城」,2026-27シーズンのホーム開幕戦（2026-09-27）で現役を引退。終了年＝最後のシーズン2026-27の終了年,SUPPORTED,2026-10-29,既存MASTER Careerの期間の訂正案
+B37W1E0085,Career,C001371,end,2027,B37W1S0011,本文：「9月27日(日)の三遠ネオフェニックス戦を最後に現役を引退する」,2026-27シーズンのホーム開幕戦（2026-09-27）で現役を引退。終了年＝最後のシーズン2026-27の終了年,SUPPORTED,2026-10-29,既存MASTER Careerの期間の訂正案
+B37W1E0086,Career,C001371,end,2027,B37W1S0012,本文：「9月27日の三遠ネオフェニックス戦をもって…現役を引退しました」,2026-27シーズンのホーム開幕戦（2026-09-27）で現役を引退。終了年＝最後のシーズン2026-27の終了年,SUPPORTED,2026-10-29,既存MASTER Careerの期間の訂正案
+B37W1E0087,Career,C002686,end,2027,B37W1S0006,Yuki Kawamura：Gリーグ2026-27はSan Diego Clippers（TEAM_ABBREVIATION=SDC）,クリッパーズの2026-27ロスター（2026-10-22確認）に掲載なし、Gリーグ傘下チームに所属。終了年＝2026-27の終了年（期間のルールどおり）,SUPPORTED,2026-10-29,既存MASTER Careerの期間の訂正案
+B37W1E0088,Career,C000129,start,2025,B37W1S0013,クラブ所属履歴 > 「2025-26 福岡」〜「2026-27 福岡」（前行「2024-25 佐賀」）,B.LEAGUE公式の所属履歴で福岡への在籍開始シーズンを確認（2026-27在籍中のため終了年なし）,SUPPORTED,2026-10-29,既存MASTER Careerの期間の訂正案
