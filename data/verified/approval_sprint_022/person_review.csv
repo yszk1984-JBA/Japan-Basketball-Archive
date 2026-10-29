@@ -1,0 +1,9 @@
+person_id,name,status,tier_proposal,tier_reasons,added_careers,corrections,verified_commit
+P000308,平尾 充庸,Master既存,Tier 2,既存Masterの値（期間）を変更する訂正を含む,0,1,6e29821
+P000064,河村 勇輝,Master既存,Tier 2,既存Masterの値（期間）を変更する訂正を含む,1,1,6e29821
+P000041,狩野 祐介,Master既存,Tier 2,既存Masterの値（期間）を変更する訂正を含む,0,1,6e29821
+P000566,岡本 飛竜,新規Person,Tier 2,新規Person,9,0,6e29821
+P000567,ファイ パプ月瑠,新規Person,Tier 2,新規Person,9,0,6e29821
+P000495,ジャンバルボ 海斗,Master既存,Tier 2,公式以外の出典（Wikipedia）を含む、または追加のみ,1,0,6e29821
+P000421,長島 蓮,Master既存,Tier 2,公式以外の出典（Wikipedia）を含む、または追加のみ,1,0,6e29821
+P000463,長谷川 智伸,Master既存,Tier 2,公式以外の出典（Wikipedia）を含む、または追加のみ,2,0,6e29821
