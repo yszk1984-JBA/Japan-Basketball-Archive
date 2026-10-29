@@ -1,0 +1,5 @@
+issue_id,person_id,related_id,issue_type,status,description,next_check
+B38W1I0001,P000333,P000333,NOT_CONFIRMED,HOLD,松野遥弥・武富楓太の大学の学年は報道（媒体）のみで、公式資料では未確認。大学の期間・学年は登録していない。,公式資料で確認
+B38W1I0002,P000185,P000185,NOT_CONFIRMED,HOLD,赤間賢人の東海大学の終了年（卒業・退部）は未確認。開始年のみ推定。,公式資料で確認
+B38W1I0003,P000345,P000345,NOT_CONFIRMED,HOLD,山﨑一渉のラドフォード大学の在学期間（進学年・転校年）は記載がなく未確認。,公式資料で確認
+B38W1I0004,P000116,P000116,NOT_CONFIRMED,HOLD,泉登翔・山﨑一渉のプロ契約の期間はクラブ公式で未確認（Careerの期間には影響しない）。,公式資料で確認
