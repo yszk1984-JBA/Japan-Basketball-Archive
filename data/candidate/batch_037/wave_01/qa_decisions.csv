@@ -1,0 +1,26 @@
+decision_id,entity_type,entity_id,decision,eligible_fields,held_fields,reason,reviewed_at
+B37W1D0001,Person,P000566,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-10-29
+B37W1D0002,Person,P000567,READY_FOR_VERIFIED_REVIEW,name|birth_date,,B.LEAGUE公式プロフィールで確認,2026-10-29
+B37W1D0003,Career,C002806,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,バスケットボールキング（公式以外）；Wikipedia日本語版（公式以外）,2026-10-29
+B37W1D0004,Career,C002807,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,バスケットボールキング（公式以外）；Wikipedia日本語版（公式以外）,2026-10-29
+B37W1D0005,Career,C002808,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipedia日本語版（公式以外）,2026-10-29
+B37W1D0006,Career,C002809,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0007,Career,C002810,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0008,Career,C002811,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0009,Career,C002812,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0010,Career,C002813,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0011,Career,C002814,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE,2026-10-29
+B37W1D0012,Career,C002815,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE（MEDIA NEWS）,2026-10-29
+B37W1D0013,Career,C002816,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE（MEDIA NEWS）,2026-10-29
+B37W1D0014,Career,C002817,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0015,Career,C002818,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0016,Career,C002819,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0017,Career,C002820,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0018,Career,C002821,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0019,Career,C002822,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,B.LEAGUE,2026-10-29
+B37W1D0020,Career,C002823,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,B.LEAGUE,2026-10-29
+B37W1D0021,Career,C002824,READY_FOR_VERIFIED_REVIEW,organization_id|role|start,end,NBA（stats.nba.com）,2026-10-29
+B37W1D0022,Career,C002825,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,B.LEAGUE,2026-10-29
+B37W1D0023,Career,C002826,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia日本語版（公式以外）,2026-10-29
+B37W1D0024,Career,C002827,READY_FOR_VERIFIED_REVIEW,organization_id|role,start|end,Wikipedia日本語版（公式以外）,2026-10-29
+B37W1D0025,Career,C002828,READY_FOR_VERIFIED_REVIEW,organization_id|role|start|end,,Wikipedia日本語版（公式以外）,2026-10-29
