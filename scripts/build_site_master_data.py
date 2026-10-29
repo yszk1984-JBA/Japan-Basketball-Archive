@@ -55,6 +55,7 @@ FACT_LABELS = {
     "height_cm": "身長",
     "weight_kg": "体重",
     "position": "ポジション",
+    "draft": "B.LEAGUEドラフト",
 }
 
 CAREER_LABELS = {
@@ -96,6 +97,14 @@ def display_value(field_name: str, value: str) -> str:
     if field_name == "weight_kg":
         return f"{value}kg"
     return value
+
+
+def estimate_label(career_evidence: list[dict[str, str]]) -> str:
+    """Label for periods that are estimates (Evidence issue_note starts with 推定値), not confirmed values."""
+    notes = [row["issue_note"] for row in career_evidence if row["field_name"] in ("start", "end") and row["issue_note"].startswith("推定値")]
+    if not notes:
+        return ""
+    return "（学年からの推定）" if any(note.startswith("推定値（学年表記から）") for note in notes) else "（生年月日からの推定）"
 
 
 def period(start: str, end: str) -> str:
@@ -208,9 +217,7 @@ def main() -> None:
                     details.append(f"{label}：{' / '.join(values)}")
             public_careers.append({
                 "id": career["career_id"],
-                "period": period(career["start"], career["end"]) + (
-                    "（生年月日からの推定）" if any(row["field_name"] in ("start", "end") and row["issue_note"].startswith("推定値")
-                                              for row in career_evidence) else ""),
+                "period": period(career["start"], career["end"]) + estimate_label(career_evidence),
                 "organization": organizations[career["organization_id"]],
                 "startYear": int(career["start"][:4]) if career["start"] else None,
                 "endYear": int(career["end"][:4]) if career["end"] else None,
