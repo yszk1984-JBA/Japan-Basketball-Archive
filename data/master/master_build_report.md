@@ -19,15 +19,16 @@
 - `APP-AS020-20261025-01`：Approval Sprint 020（日本代表経験者の開幕前・初期海外の経歴、batch_035 wave_01、Career 24件・新規Organization 8件、Wikipedia、Tier 2）
 - `APP-AS023-20261029-01`：Approval Sprint 023（B.LEAGUE DRAFT 2026の指名選手、batch_038 wave_01、ドラフト結果・学年・契約区分・大学期間、Tier 2）
 - `APP-AS021-20261030-01`：Approval Sprint 021（日本の高校の在学期間を生年月日から推定、415件、Tier 2）
+- `APP-AS022-20261030-01`：Approval Sprint 022（2026-10-29の更新、batch_037 wave_01、期間訂正3件・Career追加23件・新規2名・新規Organization 2件、Tier 2）
 
 ## MASTER件数
 
-- Person：519件
-- Organization：434件
-- Career：2580件
-- Source：1336件
-- Evidence：9546件
-- Approval：24件
+- Person：521件
+- Organization：436件
+- Career：2603件
+- Source：1349件
+- Evidence：9634件
+- Approval：25件
 
 訂正：2026-10-04 B.PREMIER選手6名の現所属Career期間（`corrections/2026-10-04_premier_current_club_periods.md`）。2026-10-03 河村勇輝のCareer期間（`corrections/2026-10-03_p000064_career_periods.md`）。2026-10-01 重複Organizationの統合（白鷗大学・富田高校、`corrections/2026-10-01_org_merge_hakuoh_tomita.md`）。
 
