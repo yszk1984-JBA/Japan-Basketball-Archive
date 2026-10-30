@@ -158,19 +158,68 @@ export function JsonLd({ data }: { data: object }) {
   );
 }
 
-// 選手ページのtitle・description（SEO_SPEC_V1.0：「選手名（現所属あるいは直近所属）」）。
-// titleは選手名＋現在（直近）の所属に絞り、出身校はdescriptionに入れる。
+// 選手ページのtitle・description。
+// titleは出身校がある選手は「選手名の経歴・出身校｜〇〇高→〇〇大→現所属」のように進路を並べる
+// （「〇〇 出身校」「〇〇 高校」のような検索意図に合わせるため。2026-10-30、Yuichi依頼）。
+// 出身校を2校までに絞るのは、SERP表示でのtitle切れを避けるため（直近2校＝高校・大学を想定）。
+// 出身校の記録が無い選手（海外出身で学校記録が未確認等）は、従来どおり現在（直近）の所属のみで表示する。
 // 「現所属」と断定しないのは、引退した選手や、所属の終了を確認できていない選手がいるため。
 export function playerPageMeta(player: PublicPlayer, sourceCount: number) {
   const latest = getPrimaryCareer(player)?.organization ?? undefined;
-  const schools: string[] = [];
+  const schoolCareers: { name: string; startYear: number | null | undefined }[] = [];
   for (const career of player.careers) {
     const name = career.organization;
-    if (!name || schools.includes(name) || name === latest) continue;
-    if (isSchoolName(name)) schools.push(name);
+    if (!name || name === latest || schoolCareers.some((school) => school.name === name)) continue;
+    if (isSchoolName(name)) schoolCareers.push({ name, startYear: career.startYear });
   }
+  // career配列の並び順は必ずしも年代順ではない（承認スプリントごとに後から追記されるため）。
+  // また、大学の在籍期間は高校よりも未確認（startYearがnull）のことが多く、開始年だけで
+  // 並べ替えると「大学→高校」のように逆順になってしまう。そのため、まず学校の種別
+  // （高校相当→大学相当）で並べ、同じ種別どうしは開始年（未確認の場合は元の並び順）で
+  // 並べ替える。種別は名称のパターンからの表示専用の推定であり、Master/Candidateの
+  // データ自体を変更するものではない（organization-category.tsと同じ考え方）。
+  // 「大阪学院大学高等学校」のように、高校の正式名称自体に「大学」の文字列を含む
+  // 付属校があるため、中学・高校の判定を大学判定より先に見る。中学と高校も混在する
+  // 選手がいるため、別レベルとして分ける（例：富樫勇樹の新発田市立本丸中学校→モントロス・
+  // クリスチャン高等学校）。
+  const schoolSortLevel = (name: string): number => {
+    if (/中学校|中学/.test(name)) return 0;
+    if (/高等学校|高校/.test(name)) return 1;
+    if (/大学|University|College|カレッジ/.test(name)) return 2;
+    return 1.5;
+  };
+  schoolCareers.sort((a, b) => {
+    const levelDiff = schoolSortLevel(a.name) - schoolSortLevel(b.name);
+    if (levelDiff !== 0) return levelDiff;
+    if (a.startYear != null && b.startYear != null && a.startYear !== b.startYear) {
+      return a.startYear - b.startYear;
+    }
+    return 0;
+  });
+  const schools = schoolCareers.map((school) => school.name);
   const englishName = player.facts.find((fact) => fact.label === '英字表記')?.value;
-  const title = latest ? `${player.name}（${latest}）の経歴・所属` : `${player.name}の経歴・所属`;
+  // 英語表記の学校名が混じる留学経験者等は2校だと長くなりすぎるため、
+  // タイトルが目安（55文字）を超える場合は直近1校（プロに近い方）に絞って短くする。
+  // 正確なピクセル幅ではなく簡易な目安（検索結果での表示崩れをできるだけ避けるための安全策）。
+  const MAX_TITLE_LENGTH = 55;
+  const buildPathway = (schoolCount: number) => {
+    const pathwaySchools = schools.slice(-schoolCount);
+    const pathway = [...pathwaySchools, latest].filter((name): name is string => Boolean(name));
+    return { pathwaySchools, pathway };
+  };
+  let { pathwaySchools, pathway } = buildPathway(2);
+  if (
+    pathwaySchools.length > 1 &&
+    `${player.name}の経歴・出身校｜${pathway.join('→')}`.length > MAX_TITLE_LENGTH
+  ) {
+    ({ pathwaySchools, pathway } = buildPathway(1));
+  }
+  const title =
+    pathwaySchools.length > 0
+      ? `${player.name}の経歴・出身校｜${pathway.join('→')}`
+      : latest
+        ? `${player.name}（${latest}）の経歴・所属`
+        : `${player.name}の経歴・所属`;
   const description = [
     `${player.name}${englishName ? `（${englishName}）` : ''}の経歴・所属。`,
     latest ? `直近の所属は${latest}。` : '',
