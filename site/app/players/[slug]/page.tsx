@@ -11,6 +11,7 @@ import {
   organizationSlugFor,
   playerContext,
   players,
+  getCurrentCareer,
 } from '../../public-data';
 import { schoolmatesOf, schoolsOf } from '../../organization-relations';
 import { CareerGantt } from './CareerGantt';
@@ -72,6 +73,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
     ...player.aliases.flatMap((alias) => alias.sourceIds),
   ])];
   const playerSources = getSources(sourceIds);
+  const currentCareer = getCurrentCareer(player);
+  const currentSlug = currentCareer ? organizationSlugFor(currentCareer.organizationId) : undefined;
   const schoolmateGroups = schoolsOf(player)
     .map((school) => ({ school, schoolmates: schoolmatesOf(player, school) }))
     .filter(({ schoolmates }) => schoolmates.length > 0);
@@ -86,6 +89,17 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
         <header className="jbaListB-detailHeader">
           <p className="jbaListB-eyebrow">Person · {player.id}</p>
           <h1 className="jbaListB-detailTitle">{player.name}</h1>
+          {currentCareer?.organization ? (
+            <p className="jbaListB-currentClub">
+              <span className="jbaListB-currentBadge">現所属</span>
+              {currentSlug ? (
+                <a href={`/organizations/${currentSlug}`} className="jbaListB-currentClubName">{currentCareer.organization}</a>
+              ) : (
+                <strong className="jbaListB-currentClubName">{currentCareer.organization}</strong>
+              )}
+              <span className="jbaListB-currentClubPeriod">{currentCareer.period}</span>
+            </p>
+          ) : null}
           <div className="jbaListB-statusRow">
             <span className={`jbaListB-pill ${player.dataStatus === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}>
               {player.dataStatus === 'master' ? `Master・承認済み・${player.approvalId}` : '候補データ・出典あり・正式承認前'}
@@ -140,7 +154,10 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
             {player.careers.map((career) => {
               const organizationSlug = organizationSlugFor(career.organizationId);
               return (
-                <div className="jbaListB-timelineRow" key={`${career.period}-${career.organization ?? career.detail}`}>
+                <div
+                  className={`jbaListB-timelineRow ${career === currentCareer ? 'jbaListB-timelineRowCurrent' : ''}`}
+                  key={`${career.period}-${career.organization ?? career.detail}`}
+                >
                   <span className="jbaListB-timelineYear">{career.period}</span>
                   <div className="jbaListB-timelineDotCol">
                     <span className={`jbaListB-timelineDot ${career.status === 'hold' ? 'jbaListB-timelineDotMuted' : ''}`} />
@@ -155,6 +172,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
                     ) : (
                       <strong className="jbaListB-timelineHold">確認中</strong>
                     )}
+                    {career === currentCareer ? <span className="jbaListB-currentBadge">現所属</span> : null}
                     <p className="jbaListB-timelineDetail">{career.detail}</p>
                     <EvidenceLinks sourceIds={career.sourceIds} />
                   </div>

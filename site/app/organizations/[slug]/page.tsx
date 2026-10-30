@@ -5,6 +5,7 @@ import { notFound, permanentRedirect } from 'next/navigation';
 import {
   getOrganization,
   getOrganizationPlayers,
+  getCurrentCareer,
   getOrganizationSourceIds,
   getSources,
   organizationDisplayName,
@@ -126,7 +127,11 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
   if (slug !== organization.slug) permanentRedirect(`/organizations/${organization.slug}`);
 
   const relatedPlayers = getOrganizationPlayers(organization.id);
-  const masterPlayers = relatedPlayers.filter((player) => player.dataStatus === 'master');
+  const allMasterPlayers = relatedPlayers.filter((player) => player.dataStatus === 'master');
+  // クラブページでは、今このクラブに所属している選手（終了年のない在籍）を先に分けて表示する。
+  const isCurrentHere = (player: PublicPlayer) => getCurrentCareer(player)?.organizationId === organization.id;
+  const currentPlayers = allMasterPlayers.filter(isCurrentHere);
+  const masterPlayers = allMasterPlayers.filter((player) => !isCurrentHere(player));
   const candidatePlayers = relatedPlayers.filter((player) => player.dataStatus === 'candidate');
   const organizationSources = getSources(getOrganizationSourceIds(organization.id));
   const isSchool = isSchoolOrganization(organization);
@@ -192,11 +197,38 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
           </section>
         ) : null}
 
+        {currentPlayers.length > 0 ? (
+          <section className="jbaListB-section">
+            <div className="jbaListB-sectionHeading">
+              <div className="jbaListB-sectionHead">
+                <p className="jbaListB-eyebrow">Current roster</p>
+                <h2>現在の所属選手</h2>
+              </div>
+              <span className="jbaListB-note">{currentPlayers.length}人</span>
+            </div>
+            <div className="jbaListB-rosterList">
+              {currentPlayers.map((player) => (
+                <a href={`/players/${player.slug}`} className="jbaListB-rosterRow jbaListB-rosterRowCurrent" key={player.id}>
+                  <span className="jbaListB-rosterNumber">現</span>
+                  <div>
+                    <strong className="jbaListB-rosterName">{player.name}</strong>
+                    <p className="jbaListB-rosterMeta">{periodsAt(player, organization.id)} · {player.id} · Master</p>
+                    {relationNote(player, organization, isSchool) ? (
+                      <p className="jbaListB-rosterRelation">{relationNote(player, organization, isSchool)}</p>
+                    ) : null}
+                  </div>
+                  <ArrowUpRight size={16} />
+                </a>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
         <section className="jbaListB-section">
           <div className="jbaListB-sectionHeading">
             <div className="jbaListB-sectionHead">
               <p className="jbaListB-eyebrow">Approved Master</p>
-              <h2>承認済み人物</h2>
+              <h2>{currentPlayers.length > 0 ? '過去の在籍者（承認済み）' : '承認済み人物'}</h2>
             </div>
             <span className="jbaListB-note">{masterPlayers.length} records</span>
           </div>

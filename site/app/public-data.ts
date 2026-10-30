@@ -232,6 +232,14 @@ export function getPrimaryCareer(player: PublicPlayer) {
   return sorted[sorted.length - 1];
 }
 
+// 現在の所属（終了年のないクラブの経歴）。期間が分からない所属や終了した所属は「現在」とは言い切れないため返さない。
+export function getCurrentCareer(player: PublicPlayer) {
+  const primary = getPrimaryCareer(player);
+  if (!primary || player.dataStatus !== 'master') return undefined;
+  if (isSchoolName(primary.organization ?? '')) return undefined;
+  return primary.startYear != null && primary.endYear == null ? primary : undefined;
+}
+
 export { masterApprovals, masterPublication };
 
 // Masterデータの承認日（新着順の並び替え・サイトマップのlastmodに使用）。経歴追加の承認
@@ -268,6 +276,8 @@ export function siteDataUpdatedAt(): string {
 // （生成済みのcardContextは並び順の最後の1件から作られており、海外の学校が入ることがあるため）。
 export function playerContext(player: PublicPlayer): string {
   if (player.dataStatus !== 'master') return player.cardContext;
+  const current = getCurrentCareer(player);
+  if (current?.organization) return `現所属 · ${current.organization}（${current.period}）`;
   const primary = getPrimaryCareer(player);
   return primary?.organization ? `${primary.period} · ${primary.organization}` : player.cardContext;
 }

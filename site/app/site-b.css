@@ -1821,3 +1821,55 @@ a.jbaListB-timelineOrg:hover {
   .jbaListB-routeGrid > :nth-child(3) { grid-area: count; }
   .jbaListB-routeGrid > :nth-child(4) { grid-area: players; }
 }
+
+/* --- 現所属の表示（選手ページの見出し・経歴、クラブページの名簿） --- */
+.jbaListB-currentClub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 12px 0;
+  font-size: 15px;
+}
+
+.jbaListB-currentBadge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #1D5FD6;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.jbaListB-timelineBody .jbaListB-currentBadge {
+  margin-left: 8px;
+  vertical-align: 2px;
+}
+
+.jbaListB-currentClubName {
+  font-weight: 800;
+  color: #1A2330;
+  text-decoration: none;
+}
+
+a.jbaListB-currentClubName:hover {
+  color: #1D5FD6;
+}
+
+.jbaListB-currentClubPeriod {
+  font-size: 13px;
+  color: #5B6B7A;
+}
+
+.jbaListB-timelineRowCurrent .jbaListB-timelineDot {
+  background: #1D5FD6;
+  box-shadow: 0 0 0 4px rgba(29, 95, 214, 0.18);
+}
+
+.jbaListB-rosterRowCurrent .jbaListB-rosterNumber {
+  background: #1D5FD6;
+  color: #FFFFFF;
+}
