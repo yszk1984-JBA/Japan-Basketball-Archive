@@ -101,6 +101,11 @@ export const masterApprovals = {
     "approvedAt": "2026-10-30",
     "verifiedCommit": "abc3d37"
   },
+  "APP-AS022-20261030-01": {
+    "approvalId": "APP-AS022-20261030-01",
+    "approvedAt": "2026-10-30",
+    "verifiedCommit": "6e29821"
+  },
   "APP-AS023-20261029-01": {
     "approvalId": "APP-AS023-20261029-01",
     "approvedAt": "2026-10-29",
@@ -9583,6 +9588,123 @@ export const masterSources = [
     "dataStatus": "master"
   },
   {
+    "id": "B37W1S0001",
+    "title": "岡本飛竜 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8839",
+    "location": "基本情報 > 選手名 / 基本情報 > 生年月日：1993年4月20日 / クラブ所属履歴 > 「2016-17 島根」〜「2017-18 島根」 / クラブ所属履歴 > 「2018-19 広島」〜「2020-21 広島」 / クラブ所属履歴 > 「2021-22 新潟」 / クラブ所属履歴 > 「2022-23 A東京」〜「2024-25 A東京」 / クラブ所属履歴 > 「2025-26 島根」 / クラブ所属履歴 > 「2026-27 福井」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0002",
+    "title": "ファイパプ月瑠 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=9400",
+    "location": "基本情報 > 選手名 / 基本情報 > 生年月日：1987年6月22日 / クラブ所属履歴 > 「2016-17 横浜」 / クラブ所属履歴 > 「2017-18 福岡」 / クラブ所属履歴 > 「2018-19 大阪」 / クラブ所属履歴 > 「2019-20 北海道」〜「2020-21 北海道」 / クラブ所属履歴 > 「2021-22 佐賀」〜「2022-23 佐賀」 / クラブ所属履歴 > 「2023-24 新潟」〜「2024-25 新潟」 / クラブ所属履歴 > 「2026-27 香川」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0003",
+    "title": "岡本飛竜、新天地が決定…福井ブローウィンズと契約合意（2026-10-02）",
+    "publisher": "バスケットボールキング（公式以外）",
+    "url": "https://basketballking.jp/news/japan/20261002/635704.html",
+    "location": "本文：「延岡学園高校、拓殖大学を経て、島根スサノオマジックでプロキャリアを始めた」 / 本文：「延岡学園高校、拓殖大学を経て…」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0004",
+    "title": "岡本飛竜（Wikipedia日本語版、版 111544473）",
+    "publisher": "Wikipedia日本語版（公式以外）",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B2%A1%E6%9C%AC%E9%A3%9B%E7%AB%9C&oldid=111544473",
+    "location": "基本情報欄 > |高校=[[延岡学園高等学校・尚学館中学校|延岡学園高等学校]] / 基本情報欄 > |大学=[[拓殖大学オレンジクラッシャーズ|拓殖大学]] / 基本情報欄 > |所属1=[[島根スサノオマジック]] |所属年1=2015-2018",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0005",
+    "title": "香川ファイブアローズが帰化選手のファイパプ月瑠を獲得…2季ぶりにBリーグの舞台へ（2026-10-09）",
+    "publisher": "B.LEAGUE（MEDIA NEWS）",
+    "url": "https://www.bleague.jp/media_news/detail/id=665814",
+    "location": "本文：「延岡学園高校、関東学院大学を経て、当時bjリーグ所属の横浜ビー・コルセアーズでキャリアを始めた」 / 本文：「延岡学園高校、関東学院大学を経て…」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0006",
+    "title": "NBA G League 選手一覧 2026-27（commonallplayers、LeagueID=20）",
+    "publisher": "NBA（stats.nba.com）",
+    "url": "https://stats.nba.com/stats/commonallplayers?LeagueID=20&Season=2026-27&IsOnlyCurrentSeason=1",
+    "location": "Yuki Kawamura（PERSON_ID=1642530）：TEAM_CITY=San Diego、TEAM_NAME=Clippers、ROSTERSTATUS=1 / Yuki Kawamura：Gリーグ2026-27はSan Diego Clippers（TEAM_ABBREVIATION=SDC）",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0007",
+    "title": "ジャンバルボ 海斗（近畿大学）／インカレで好パフォーマンス！（B.MAGAZINE）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/bmagazine/detail/id=544903",
+    "location": "本文：「西海学園高校卒」「高校は地元・長崎県の西海学園高校に進み」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0008",
+    "title": "長島蓮（Wikipedia日本語版、版 111541694）",
+    "publisher": "Wikipedia日本語版（公式以外）",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E9%95%B7%E5%B3%B6%E8%93%AE&oldid=111541694",
+    "location": "基本情報欄 > | 高校 = [[飛龍高等学校]]",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0009",
+    "title": "長谷川智伸（Wikipedia日本語版、版 108143921）",
+    "publisher": "Wikipedia日本語版（公式以外）",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E9%95%B7%E8%B0%B7%E5%B7%9D%E6%99%BA%E4%BC%B8&oldid=108143921",
+    "location": "基本情報欄 > |高校=[[福岡大学附属大濠高等学校]] / 基本情報欄 > |所属1=[[名古屋ダイヤモンドドルフィンズ|三菱電機ダイヤモンドドルフィンズ名古屋]] |所属年1=2013-2016",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0010",
+    "title": "平尾充庸 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8561",
+    "location": "クラブ所属履歴 > 「2017-18 茨城」〜「2026-27 茨城」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0011",
+    "title": "#25 平尾 充庸選手 9/27(日) 三遠戦「LAST GAME」のお知らせ（2026-09-13）",
+    "publisher": "茨城ロボッツ（クラブ公式）",
+    "url": "https://www.ibarakirobots.win/news/20260913_01_team/",
+    "location": "本文：「9月27日(日)の三遠ネオフェニックス戦を最後に現役を引退する」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0012",
+    "title": "平尾 充庸氏 プレーヤーズメンター 兼 クラブリレーションリーダー 就任のご報告（2026-09-30）",
+    "publisher": "茨城ロボッツ（クラブ公式）",
+    "url": "https://www.ibarakirobots.win/news/20260930_03_team/",
+    "location": "本文：「9月27日の三遠ネオフェニックス戦をもって…現役を引退しました」",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B37W1S0013",
+    "title": "狩野祐介 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8463",
+    "location": "クラブ所属履歴 > 「2025-26 福岡」〜「2026-27 福岡」（前行「2024-25 佐賀」）",
+    "accessedAt": "2026-10-29",
+    "dataStatus": "master"
+  },
+  {
     "id": "B38W1S0001",
     "title": "B.LEAGUE DRAFT 2026レポート…SR渋谷が山﨑一渉を1位指名（2026-01-30）",
     "publisher": "B.LEAGUE（B.MAGAZINE）",
@@ -13493,12 +13615,13 @@ export const masterPlayers = [
     "id": "P000041",
     "slug": "p000041",
     "name": "狩野 祐介",
-    "cardContext": "期間未確認 · ライジングゼファー福岡",
+    "cardContext": "2025年〜 · ライジングゼファー福岡",
     "dataStatus": "master",
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS022-20261030-01"
     ],
     "facts": [
       {
@@ -13605,15 +13728,16 @@ export const masterPlayers = [
       },
       {
         "id": "C000129",
-        "period": "期間未確認",
+        "period": "2025年〜",
         "organization": "ライジングゼファー福岡",
-        "startYear": null,
+        "startYear": 2025,
         "endYear": null,
         "organizationId": "ORG000040",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B2S0004"
+          "B2S0004",
+          "B37W1S0013"
         ]
       }
     ],
@@ -13623,6 +13747,7 @@ export const masterPlayers = [
       "B2S0019": "プロバスケットボール選手欄 > 狩野祐介",
       "B2S0020": "バスケットボール部（男子）> 狩野祐介 / 体育学部3年 / 受領者一覧 > 狩野祐介",
       "B2S0023": "東海大学ボックススコア > No.33",
+      "B37W1S0013": "クラブ所属履歴 > 「2025-26 福岡」〜「2026-27 福岡」（前行「2024-25 佐賀」）",
       "B31W1S0023": "クラブ所属履歴 > 「2016-17 滋賀」〜「2019-20 滋賀」 / クラブ所属履歴 > 「2016-17 滋賀」 / クラブ所属履歴 > 「2019-20 滋賀」 / クラブ所属履歴 > 「2020-21 名古屋D」〜「2021-22 名古屋D」 / クラブ所属履歴 > 「2020-21 名古屋D」 / クラブ所属履歴 > 「2021-22 名古屋D」 / クラブ所属履歴 > 「2022-23 滋賀」 / クラブ所属履歴 > 「2023-24 佐賀」〜「2024-25 佐賀」 / クラブ所属履歴 > 「2023-24 佐賀」 / クラブ所属履歴 > 「2024-25 佐賀」",
       "B31W1S0018": "順位表 > クラブ「滋賀レイクスターズ」（略称「滋賀」、club_detail TeamID=698）",
       "B31W1S0002": "順位表 > クラブ「名古屋ダイヤモンドドルフィンズ」（略称「名古屋D」、club_detail TeamID=729）",
@@ -14003,12 +14128,13 @@ export const masterPlayers = [
     "id": "P000064",
     "slug": "yuki-kawamura",
     "name": "河村 勇輝",
-    "cardContext": "2026年〜 · ロサンゼルス・クリッパーズ",
+    "cardContext": "2026年〜 · サンディエゴ・クリッパーズ",
     "dataStatus": "master",
     "approvalId": "APP-AS001-20260921-01",
     "enrichmentApprovalIds": [
       "APP-AS011-20261003-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS022-20261030-01"
     ],
     "facts": [
       {
@@ -14115,16 +14241,30 @@ export const masterPlayers = [
       },
       {
         "id": "C002686",
-        "period": "2026年〜",
+        "period": "2026–2027年",
         "organization": "ロサンゼルス・クリッパーズ",
         "startYear": 2026,
-        "endYear": null,
+        "endYear": 2027,
         "organizationId": "ORG000140",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
+          "B37W1S0006",
           "B4W7S0004",
           "B4W7S0008"
+        ]
+      },
+      {
+        "id": "C002824",
+        "period": "2026年〜",
+        "organization": "サンディエゴ・クリッパーズ",
+        "startYear": 2026,
+        "endYear": null,
+        "organizationId": "ORG000516",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0006"
         ]
       }
     ],
@@ -14139,6 +14279,7 @@ export const masterPlayers = [
       "B4W7S0003": "PLAYER Yuki Kawamura / NUM 8 / HOW_ACQUIRED Signed on 07/19/25 / HOW_ACQUIRED：Signed on 07/19/25",
       "B4W7S0005": "本文：has signed guard Yuki Kawamura … to a two-way contract / 公開日2025-07-19・本文：signed … to a two-way contract",
       "B4W7S0004": "2026-27はLA Clippersのロスター（Signed on 08/08/26） / PLAYER Yuki Kawamura / NUM 8 / HOW_ACQUIRED Signed on 08/08/26 / POSITION G / HOW_ACQUIRED：Signed on 08/08/26",
+      "B37W1S0006": "Yuki Kawamura：Gリーグ2026-27はSan Diego Clippers（TEAM_ABBREVIATION=SDC） / Yuki Kawamura（PERSON_ID=1642530）：TEAM_CITY=San Diego、TEAM_NAME=Clippers、ROSTERSTATUS=1",
       "B4W7S0008": "選手ページ見出し：LA Clippers"
     }
   },
@@ -37835,11 +37976,12 @@ export const masterPlayers = [
     "id": "P000308",
     "slug": "p000308",
     "name": "平尾 充庸",
-    "cardContext": "2017年〜 · 茨城ロボッツ",
+    "cardContext": "2017–2027年 · 茨城ロボッツ",
     "dataStatus": "master",
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS022-20261030-01"
     ],
     "facts": [
       {
@@ -37894,17 +38036,20 @@ export const masterPlayers = [
       },
       {
         "id": "C001371",
-        "period": "2017年〜",
+        "period": "2017–2027年",
         "organization": "茨城ロボッツ",
         "startYear": 2017,
-        "endYear": null,
+        "endYear": 2027,
         "organizationId": "ORG000103",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
           "B32W2S0056",
           "B32W2S0036",
-          "B32W2S0053"
+          "B32W2S0053",
+          "B37W1S0010",
+          "B37W1S0011",
+          "B37W1S0012"
         ]
       }
     ],
@@ -37913,7 +38058,10 @@ export const masterPlayers = [
       "B32W2S0056": "基本情報 > 選手名 / 基本情報 > 生年月日：1989年4月4日 / 基本情報 > 出身校（高）：明徳義塾高等学校 / 生年月日：1989年4月4日（Master Evidence B32W2E0431、B.LEAGUE） / 基本情報 > 出身校（大）：天理大学 / クラブ所属履歴 > 「2016-17 奈良」 / クラブ所属履歴 > 「2017-18 茨城」〜「2026-27 茨城」 / クラブ所属履歴 > 「2017-18 茨城」",
       "B32W2S0035": "順位表 > クラブ「バンビシャス奈良」（略称「奈良」、club_detail TeamID=719）",
       "B32W2S0036": "順位表 > クラブ「茨城ロボッツ」（略称「茨城」、club_detail TeamID=712）",
-      "B32W2S0053": "選手一覧 > 茨城 > 平尾 充庸"
+      "B32W2S0053": "選手一覧 > 茨城 > 平尾 充庸",
+      "B37W1S0010": "クラブ所属履歴 > 「2017-18 茨城」〜「2026-27 茨城」",
+      "B37W1S0011": "本文：「9月27日(日)の三遠ネオフェニックス戦を最後に現役を引退する」",
+      "B37W1S0012": "本文：「9月27日の三遠ネオフェニックス戦をもって…現役を引退しました」"
     }
   },
   {
@@ -49575,7 +49723,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS010-20260930-01",
     "enrichmentApprovalIds": [
-      "APP-AS017-20261011-01"
+      "APP-AS017-20261011-01",
+      "APP-AS022-20261030-01"
     ],
     "facts": [
       {
@@ -49599,6 +49748,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B33W6S0005"
+        ]
+      },
+      {
+        "id": "C002826",
+        "period": "期間未確認",
+        "organization": "飛龍高等学校",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000170",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0008"
         ]
       },
       {
@@ -49697,7 +49859,8 @@ export const masterPlayers = [
       "B33W1S0005": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）",
       "B33W1S0007": "順位表 > クラブ「さいたまブロンコス」（略称「埼玉」、club_detail TeamID=744）",
       "B33W1S0071": "選手一覧 > 埼玉 > 長島 蓮",
-      "B33W6S0005": "プロフィール（出身校）：白鷗大学"
+      "B33W6S0005": "プロフィール（出身校）：白鷗大学",
+      "B37W1S0008": "基本情報欄 > | 高校 = [[飛龍高等学校]]"
     }
   },
   {
@@ -53683,7 +53846,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS010-20260930-01",
     "enrichmentApprovalIds": [
-      "APP-AS017-20261011-01"
+      "APP-AS017-20261011-01",
+      "APP-AS022-20261030-01"
     ],
     "facts": [
       {
@@ -53707,6 +53871,32 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B33W6S0011"
+        ]
+      },
+      {
+        "id": "C002827",
+        "period": "期間未確認",
+        "organization": "福岡大学附属大濠高等学校",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000127",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0009"
+        ]
+      },
+      {
+        "id": "C002828",
+        "period": "2013–2016年",
+        "organization": "名古屋ダイヤモンドドルフィンズ",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000054",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0009"
         ]
       },
       {
@@ -53820,7 +54010,8 @@ export const masterPlayers = [
       "B33W3S0011": "順位表 > クラブ「福井ブローウィンズ」（略称「福井」、club_detail TeamID=2891）",
       "B33W3S0012": "順位表 > クラブ「新潟アルビレックスBB」（略称「新潟」、club_detail TeamID=695）",
       "B33W3S0004": "選手一覧 > 新潟 > 長谷川 智伸",
-      "B33W6S0011": "■出身校：拓殖大学"
+      "B33W6S0011": "■出身校：拓殖大学",
+      "B37W1S0009": "基本情報欄 > |高校=[[福岡大学附属大濠高等学校]] / 基本情報欄 > |所属1=[[名古屋ダイヤモンドドルフィンズ|三菱電機ダイヤモンドドルフィンズ名古屋]] |所属年1=2013-2016"
     }
   },
   {
@@ -57043,7 +57234,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS010-20260930-01",
     "enrichmentApprovalIds": [
-      "APP-AS017-20261011-01"
+      "APP-AS017-20261011-01",
+      "APP-AS022-20261030-01"
     ],
     "facts": [
       {
@@ -57070,6 +57262,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C002825",
+        "period": "期間未確認",
+        "organization": "西海学園高等学校",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000517",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0007"
+        ]
+      },
+      {
         "id": "C002328",
         "period": "2026年〜",
         "organization": "ベルテックス静岡",
@@ -57090,7 +57295,8 @@ export const masterPlayers = [
       "B33W3S0070": "基本情報 > 選手名 / 基本情報 > 生年月日：2003年9月29日 / クラブ所属履歴 > 「2026-27 静岡」",
       "B33W3S0003": "順位表 > クラブ「ベルテックス静岡」（略称「静岡」、club_detail TeamID=1637）",
       "B33W3S0067": "選手一覧 > 静岡 > ジャンバルボ 海斗",
-      "B33W6S0022": "◼︎出身校：近畿大学"
+      "B33W6S0022": "◼︎出身校：近畿大学",
+      "B37W1S0007": "本文：「西海学園高校卒」「高校は地元・長崎県の西海学園高校に進み」"
     }
   },
   {
@@ -64247,6 +64453,295 @@ export const masterPlayers = [
     "aliases": [],
     "sourceLocations": {
       "B34W1S0007": "基本情報 > 選手名 / 基本情報 > 生年月日：2004年3月9日 / クラブ所属履歴 > 「2026-27 東京U」 / 選手プロフィール"
+    }
+  },
+  {
+    "id": "P000566",
+    "slug": "p000566",
+    "name": "岡本 飛竜",
+    "cardContext": "2026年〜 · 福井ブローウィンズ",
+    "dataStatus": "master",
+    "approvalId": "APP-AS022-20261030-01",
+    "enrichmentApprovalIds": [],
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1993年4月20日",
+        "context": "B.LEAGUE公式プロフィールで生年月日を確認",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      }
+    ],
+    "careers": [
+      {
+        "id": "C002806",
+        "period": "期間未確認",
+        "organization": "延岡学園高等学校",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000194",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0003",
+          "B37W1S0004"
+        ]
+      },
+      {
+        "id": "C002807",
+        "period": "期間未確認",
+        "organization": "拓殖大学",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000031",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0003",
+          "B37W1S0004"
+        ]
+      },
+      {
+        "id": "C002808",
+        "period": "2015–2016年",
+        "organization": "島根スサノオマジック",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000155",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0004"
+        ]
+      },
+      {
+        "id": "C002809",
+        "period": "2016–2018年",
+        "organization": "島根スサノオマジック",
+        "startYear": 2016,
+        "endYear": 2018,
+        "organizationId": "ORG000155",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      },
+      {
+        "id": "C002810",
+        "period": "2018–2021年",
+        "organization": "広島ドラゴンフライズ",
+        "startYear": 2018,
+        "endYear": 2021,
+        "organizationId": "ORG000110",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      },
+      {
+        "id": "C002811",
+        "period": "2021–2022年",
+        "organization": "新潟アルビレックスBB",
+        "startYear": 2021,
+        "endYear": 2022,
+        "organizationId": "ORG000052",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      },
+      {
+        "id": "C002812",
+        "period": "2022–2025年",
+        "organization": "アルバルク東京",
+        "startYear": 2022,
+        "endYear": 2025,
+        "organizationId": "ORG000109",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      },
+      {
+        "id": "C002813",
+        "period": "2025–2026年",
+        "organization": "島根スサノオマジック",
+        "startYear": 2025,
+        "endYear": 2026,
+        "organizationId": "ORG000155",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      },
+      {
+        "id": "C002814",
+        "period": "2026年〜",
+        "organization": "福井ブローウィンズ",
+        "startYear": 2026,
+        "endYear": null,
+        "organizationId": "ORG000200",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0001"
+        ]
+      }
+    ],
+    "aliases": [],
+    "sourceLocations": {
+      "B37W1S0001": "基本情報 > 選手名 / 基本情報 > 生年月日：1993年4月20日 / クラブ所属履歴 > 「2016-17 島根」〜「2017-18 島根」 / クラブ所属履歴 > 「2018-19 広島」〜「2020-21 広島」 / クラブ所属履歴 > 「2021-22 新潟」 / クラブ所属履歴 > 「2022-23 A東京」〜「2024-25 A東京」 / クラブ所属履歴 > 「2025-26 島根」 / クラブ所属履歴 > 「2026-27 福井」",
+      "B37W1S0003": "本文：「延岡学園高校、拓殖大学を経て、島根スサノオマジックでプロキャリアを始めた」 / 本文：「延岡学園高校、拓殖大学を経て…」",
+      "B37W1S0004": "基本情報欄 > |高校=[[延岡学園高等学校・尚学館中学校|延岡学園高等学校]] / 基本情報欄 > |大学=[[拓殖大学オレンジクラッシャーズ|拓殖大学]] / 基本情報欄 > |所属1=[[島根スサノオマジック]] |所属年1=2015-2018"
+    }
+  },
+  {
+    "id": "P000567",
+    "slug": "p000567",
+    "name": "ファイ パプ月瑠",
+    "cardContext": "2026年〜 · 香川ファイブアローズ",
+    "dataStatus": "master",
+    "approvalId": "APP-AS022-20261030-01",
+    "enrichmentApprovalIds": [],
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1987年6月22日",
+        "context": "B.LEAGUE公式プロフィールで生年月日を確認",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      }
+    ],
+    "careers": [
+      {
+        "id": "C002815",
+        "period": "期間未確認",
+        "organization": "延岡学園高等学校",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000194",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0005"
+        ]
+      },
+      {
+        "id": "C002816",
+        "period": "期間未確認",
+        "organization": "関東学院大学",
+        "startYear": null,
+        "endYear": null,
+        "organizationId": "ORG000236",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0005"
+        ]
+      },
+      {
+        "id": "C002817",
+        "period": "2016–2017年",
+        "organization": "横浜ビー・コルセアーズ",
+        "startYear": 2016,
+        "endYear": 2017,
+        "organizationId": "ORG000055",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      },
+      {
+        "id": "C002818",
+        "period": "2017–2018年",
+        "organization": "ライジングゼファー福岡",
+        "startYear": 2017,
+        "endYear": 2018,
+        "organizationId": "ORG000040",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      },
+      {
+        "id": "C002819",
+        "period": "2018–2019年",
+        "organization": "大阪エヴェッサ",
+        "startYear": 2018,
+        "endYear": 2019,
+        "organizationId": "ORG000142",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      },
+      {
+        "id": "C002820",
+        "period": "2019–2021年",
+        "organization": "レバンガ北海道",
+        "startYear": 2019,
+        "endYear": 2021,
+        "organizationId": "ORG000092",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      },
+      {
+        "id": "C002821",
+        "period": "2021–2023年",
+        "organization": "佐賀バルーナーズ",
+        "startYear": 2021,
+        "endYear": 2023,
+        "organizationId": "ORG000048",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      },
+      {
+        "id": "C002822",
+        "period": "2023–2025年",
+        "organization": "新潟アルビレックスBB",
+        "startYear": 2023,
+        "endYear": 2025,
+        "organizationId": "ORG000052",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      },
+      {
+        "id": "C002823",
+        "period": "2026年〜",
+        "organization": "香川ファイブアローズ",
+        "startYear": 2026,
+        "endYear": null,
+        "organizationId": "ORG000224",
+        "detail": "選手",
+        "status": "master",
+        "sourceIds": [
+          "B37W1S0002"
+        ]
+      }
+    ],
+    "aliases": [],
+    "sourceLocations": {
+      "B37W1S0002": "基本情報 > 選手名 / 基本情報 > 生年月日：1987年6月22日 / クラブ所属履歴 > 「2016-17 横浜」 / クラブ所属履歴 > 「2017-18 福岡」 / クラブ所属履歴 > 「2018-19 大阪」 / クラブ所属履歴 > 「2019-20 北海道」〜「2020-21 北海道」 / クラブ所属履歴 > 「2021-22 佐賀」〜「2022-23 佐賀」 / クラブ所属履歴 > 「2023-24 新潟」〜「2024-25 新潟」 / クラブ所属履歴 > 「2026-27 香川」",
+      "B37W1S0005": "本文：「延岡学園高校、関東学院大学を経て、当時bjリーグ所属の横浜ビー・コルセアーズでキャリアを始めた」 / 本文：「延岡学園高校、関東学院大学を経て…」"
     }
   }
 ] as const;

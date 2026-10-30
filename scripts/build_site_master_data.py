@@ -31,6 +31,7 @@ APPROVAL_PACKETS = {
     "APP-AS010-20260930-01": ROOT / "data" / "verified" / "approval_sprint_010" / "person_review.csv",
     "APP-AS018-20261008-01": ROOT / "data" / "verified" / "approval_sprint_018" / "person_review_new_only.csv",
     "APP-AS019-20261023-01": ROOT / "data" / "verified" / "approval_sprint_019" / "person_review_new_only.csv",
+    "APP-AS022-20261030-01": ROOT / "data" / "verified" / "approval_sprint_022" / "person_review_new_only.csv",
 }
 # Approvals that only ADDED careers to persons already introduced by one of
 # the packets above (no new persons). They are listed in masterApprovals and
@@ -48,6 +49,7 @@ ENRICHMENT_APPROVALS = {
     "APP-AS020-20261025-01": ROOT / "data" / "verified" / "approval_sprint_020" / "career_review.csv",
     "APP-AS023-20261029-01": ROOT / "data" / "verified" / "approval_sprint_023" / "career_review_enrichment_only.csv",
     "APP-AS021-20261030-01": ROOT / "data" / "verified" / "approval_sprint_021" / "career_review_enrichment_only.csv",
+    "APP-AS022-20261030-01": ROOT / "data" / "verified" / "approval_sprint_022" / "career_review_enrichment_only.csv",
 }
 EDUCATION_MARKERS = ("高等学校", "高校", "大学", "中学校", "中学", "小学校")
 
