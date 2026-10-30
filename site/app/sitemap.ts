@@ -38,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
   return [
-    ...['', '/players', '/organizations', '/rankings', '/rankings/high-school', '/rankings/university', '/rankings/high-school-to-university'].map(
+    ...['', '/players', '/organizations', '/rankings', '/rankings/premier-high-school', '/rankings/high-school', '/rankings/university', '/rankings/high-school-to-university'].map(
       (path) => ({ url: `${baseUrl}${path}`, lastModified: dataUpdatedAt }),
     ),
     { url: `${baseUrl}/about`, lastModified: ABOUT_UPDATED_AT },

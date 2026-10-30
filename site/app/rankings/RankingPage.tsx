@@ -5,7 +5,13 @@ import { ShareButtons } from '../ShareButtons';
 import { activeTopLeaguePlayerCount, buildRanking, RANKING_META, rankingAsOf, type RankingKind, type RankingRow } from './ranking-data';
 
 function texts(kind: RankingKind) {
-  const { label } = RANKING_META[kind];
+  const { label, league } = RANKING_META[kind];
+  if (league === 'PREMIER') {
+    return {
+      title: `B.PREMIER選手の出身${label}ランキング【2026-27】`,
+      description: `2026-27シーズンにB.PREMIER（Bプレミア）の26クラブでプレーする選手が、どの${label}の出身かを人数の多い順にまとめました。学校ごとに選手名と所属クラブも掲載しています。`,
+    };
+  }
   const title = `B.LEAGUE選手の出身${label}ランキング`;
   const description = `現在B.PREMIER・B.ONEでプレーする選手の出身${label}を、人数の多い順に掲載しています。本サイトに登録済みの選手から集計し、各選手の経歴は出典つきで確認できます。`;
   return { title, description };
@@ -36,10 +42,12 @@ function formatDate(isoDate: string): string {
 }
 
 export function RankingPage({ kind }: { kind: RankingKind }) {
-  const { label, path } = RANKING_META[kind];
+  const { label, path, league } = RANKING_META[kind];
   const { title } = texts(kind);
   const rows = buildRanking(kind);
   const otherKind: RankingKind = kind === 'high-school' ? 'university' : 'high-school';
+  const leagueName = league === 'PREMIER' ? 'B.PREMIER' : 'B.PREMIER・B.ONE';
+  const breadcrumbLabel = league === 'PREMIER' ? `B.PREMIERの出身${label}` : `出身${label}`;
   const crumbs = [
     { name: 'ホーム', path: '/' },
     { name: 'ランキング', path: '/rankings' },
@@ -70,7 +78,7 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
       />
       <SiteHeader active="rankings" />
 
-      <SiteBreadcrumb crumbs={[{ label: 'ランキング', href: '/rankings' }, { label: `出身${label}` }]} />
+      <SiteBreadcrumb crumbs={[{ label: 'ランキング', href: '/rankings' }, { label: breadcrumbLabel }]} />
 
       <div className="jbaListB-main">
         <div>
@@ -80,8 +88,9 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
 
         <div>
           <p className="jbaListB-lede">
-            現在B.PREMIER・B.ONEのクラブに所属している選手（本サイトに登録済みの{activeTopLeaguePlayerCount()}
+            現在{leagueName}のクラブに所属している選手（本サイトに登録済みの{activeTopLeaguePlayerCount(league)}
             人）が、どの{label}の出身かを数えました。{rows.length}校を、現役選手の多い順に掲載しています。
+            {league ? '学校名の下に、その学校出身の選手と現在の所属クラブを並べています。' : null}
           </p>
           <ShareButtons url={`${siteUrl}${path}`} text={shareText(kind, rows)} hashtags={['Bリーグ']} />
           <p className="jbaListB-rankOther">
@@ -103,6 +112,11 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
                 <div>
                   <div className="jbaListB-rowName">{row.name}</div>
                   {row.currentNameNote ? <div className="jbaListB-rankCurrent">{row.currentNameNote}</div> : null}
+                  {league ? (
+                    <div className="jbaListB-rankPlayers">
+                      {row.activePlayers.map((player) => `${player.name}（${player.club}）`).join('、')}
+                    </div>
+                  ) : null}
                 </div>
                 <div className="jbaListB-rankNum">
                   <strong>{row.active}</strong>人
@@ -126,7 +140,7 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
           <p>集計の前提（{formatDate(rankingAsOf())}時点の登録データ）</p>
           <ul>
             <li>本サイトに登録済み（確認済みのデータ）の選手だけを数えています。登録されていない選手は含まれないため、実際の人数より少ない場合があります。</li>
-            <li>「現役選手」は、現在の所属が2026-27シーズンのB.PREMIER・B.ONEのクラブである選手です。</li>
+            <li>「現役選手」は、現在の所属が2026-27シーズンの{leagueName}のクラブである選手です。</li>
             <li>「登録出身者」は、その{label}の在籍記録がある選手の人数で、引退した選手やB3・海外などでプレーする選手も含みます。</li>
             <li>改称や統合をした{label}は、資料に書かれた当時の名称で掲載し、現在の名称を書き添えています。</li>
           </ul>

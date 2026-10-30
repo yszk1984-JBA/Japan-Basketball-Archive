@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { ...baseOpenGraph, title, description, url: '/rankings' },
 };
 
-const KINDS: readonly RankingKind[] = ['high-school', 'university'];
+const KINDS: readonly RankingKind[] = ['premier-high-school', 'high-school', 'university'];
 
 export default function RankingsIndexPage() {
   return (
@@ -33,11 +33,13 @@ export default function RankingsIndexPage() {
 
         <div className="jbaListB-table">
           {KINDS.map((kind) => {
-            const { label, path } = RANKING_META[kind];
+            const { label, path, league } = RANKING_META[kind];
             const top = buildRanking(kind).slice(0, 3);
             return (
               <a href={path} key={kind} className="jbaListB-row jbaListB-rankIndexGrid">
-                <div className="jbaListB-rowName">B.LEAGUE選手の出身{label}ランキング</div>
+                <div className="jbaListB-rowName">
+                  {league === 'PREMIER' ? `B.PREMIER選手の出身${label}ランキング【2026-27】` : `B.LEAGUE選手の出身${label}ランキング`}
+                </div>
                 <div className="jbaListB-rowMuted">
                   {top.map((row) => `${row.rank}位 ${row.name}（${row.active}人）`).join('・')}
                 </div>

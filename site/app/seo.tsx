@@ -90,6 +90,7 @@ export function SiteFooter() {
         <div className="jbaListB-footerLinks">
           <a href="/players">選手一覧</a>
           <a href="/organizations">組織一覧</a>
+          <a href="/rankings/premier-high-school">B.PREMIER選手の出身高校</a>
           <a href="/rankings/high-school">出身高校ランキング</a>
           <a href="/rankings/university">出身大学ランキング</a>
           <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
