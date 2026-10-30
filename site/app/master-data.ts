@@ -12344,7 +12344,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000273",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -12456,7 +12456,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000014",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -12615,7 +12615,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000047",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -12654,7 +12654,7 @@ export const masterPlayers = [
     "id": "P000030",
     "slug": "p000030",
     "name": "鷹野 祐磨",
-    "cardContext": "2019–2022年（生年月日からの推定） · 福岡第一高等学校",
+    "cardContext": "2019年4月〜2022年3月（生年月日からの推定） · 福岡第一高等学校",
     "dataStatus": "master",
     "approvalId": "APP-AS001-20260921-01",
     "enrichmentApprovalIds": [
@@ -12681,7 +12681,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000048",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -12918,7 +12918,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000054",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -12932,7 +12932,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000067",
-        "period": "2020–2022年",
+        "period": "2020年4月〜2022年3月",
         "organization": "日本体育大学",
         "startYear": 2020,
         "endYear": 2022,
@@ -13062,7 +13062,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000055",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -13189,7 +13189,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000056",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -13287,7 +13287,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000057",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -13402,7 +13402,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000058",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -13547,7 +13547,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000059",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -13644,7 +13644,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000060",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -13928,7 +13928,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000062",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -14043,7 +14043,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000210",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -14157,7 +14157,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000219",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -14314,7 +14314,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000224",
-        "period": "2021–2024年（生年月日からの推定）",
+        "period": "2021年4月〜2024年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2021,
         "endYear": 2024,
@@ -14457,7 +14457,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000230",
-        "period": "2023–2026年（生年月日からの推定）",
+        "period": "2023年4月〜2026年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2023,
         "endYear": 2026,
@@ -14537,7 +14537,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000232",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -14642,7 +14642,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000236",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -14732,7 +14732,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000242",
-        "period": "2004–2007年（生年月日からの推定）",
+        "period": "2004年4月〜2007年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2004,
         "endYear": 2007,
@@ -14926,7 +14926,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000253",
-        "period": "2019–2022年",
+        "period": "2019年4月〜2022年3月",
         "organization": "福岡第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -15003,7 +15003,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000255",
-        "period": "2019–2022年",
+        "period": "2019年4月〜2022年3月",
         "organization": "福岡第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -15090,7 +15090,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000257",
-        "period": "2021–2024年",
+        "period": "2021年4月〜2024年3月",
         "organization": "福岡第一高等学校",
         "startYear": 2021,
         "endYear": 2024,
@@ -15206,7 +15206,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000261",
-        "period": "2020–2023年（生年月日からの推定）",
+        "period": "2020年4月〜2023年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2020,
         "endYear": 2023,
@@ -15302,7 +15302,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000267",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -15411,7 +15411,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000270",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -15505,7 +15505,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000276",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -15568,7 +15568,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000278",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -15646,7 +15646,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000281",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -15740,7 +15740,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000284",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -15863,7 +15863,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000287",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "福岡第一高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -16133,7 +16133,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000290",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -16259,7 +16259,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000293",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2011,
         "endYear": 2014,
@@ -16459,7 +16459,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000304",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "沖縄県立北中城高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -16550,7 +16550,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000307",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -16654,7 +16654,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000310",
-        "period": "2004–2007年（生年月日からの推定）",
+        "period": "2004年4月〜2007年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2004,
         "endYear": 2007,
@@ -16804,7 +16804,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000313",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "三重県立四日市工業高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -16892,7 +16892,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000316",
-        "period": "2001–2004年（生年月日からの推定）",
+        "period": "2001年4月〜2004年3月（生年月日からの推定）",
         "organization": "仙台市立仙台高等学校",
         "startYear": 2001,
         "endYear": 2004,
@@ -17025,7 +17025,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000319",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -17128,7 +17128,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000322",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -17231,7 +17231,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000331",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "明桜高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -17335,7 +17335,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000334",
-        "period": "2000–2003年（生年月日からの推定）",
+        "period": "2000年4月〜2003年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2000,
         "endYear": 2003,
@@ -17437,7 +17437,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000337",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -17556,7 +17556,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000340",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -17799,7 +17799,7 @@ export const masterPlayers = [
       },
       {
         "id": "C001759",
-        "period": "2003–2006年（生年月日からの推定）",
+        "period": "2003年4月〜2006年3月（生年月日からの推定）",
         "organization": "御影工業高等学校",
         "startYear": 2003,
         "endYear": 2006,
@@ -17918,7 +17918,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000347",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "北海道恵庭南高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -18066,7 +18066,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000350",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "佐賀県立佐賀北高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -18970,7 +18970,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000390",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -19117,7 +19117,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000393",
-        "period": "2002–2005年（生年月日からの推定）",
+        "period": "2002年4月〜2005年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2002,
         "endYear": 2005,
@@ -19249,7 +19249,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000396",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -19368,7 +19368,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000399",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -19500,7 +19500,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000402",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -19578,7 +19578,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000405",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -19592,7 +19592,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000406",
-        "period": "2022–2026年（学年からの推定）",
+        "period": "2022年4月〜2026年3月（学年からの推定）",
         "organization": "日本大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -19665,7 +19665,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000408",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -19733,7 +19733,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000411",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -19802,7 +19802,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000414",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -19902,7 +19902,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000417",
-        "period": "2022–2025年（生年月日からの推定）",
+        "period": "2022年4月〜2025年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2022,
         "endYear": 2025,
@@ -19992,7 +19992,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000420",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -20079,7 +20079,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000423",
-        "period": "2020–2023年（生年月日からの推定）",
+        "period": "2020年4月〜2023年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2020,
         "endYear": 2023,
@@ -20151,7 +20151,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000425",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -20236,7 +20236,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000428",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -20313,7 +20313,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000431",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -20327,7 +20327,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000432",
-        "period": "2022–2026年（学年からの推定）",
+        "period": "2022年4月〜2026年3月（学年からの推定）",
         "organization": "筑波大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -20390,7 +20390,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000434",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -20475,7 +20475,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000437",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -20544,7 +20544,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000440",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -20659,7 +20659,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000443",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -20823,7 +20823,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000449",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -20879,7 +20879,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000451",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -21025,7 +21025,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000454",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -21092,7 +21092,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000457",
-        "period": "2020–2023年（生年月日からの推定）",
+        "period": "2020年4月〜2023年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2020,
         "endYear": 2023,
@@ -21161,7 +21161,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000460",
-        "period": "2000–2003年（生年月日からの推定）",
+        "period": "2000年4月〜2003年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2000,
         "endYear": 2003,
@@ -21270,7 +21270,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000463",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -21417,7 +21417,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000466",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -21510,7 +21510,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000469",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -21524,7 +21524,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000470",
-        "period": "2022–2026年（学年からの推定）",
+        "period": "2022年4月〜2026年3月（学年からの推定）",
         "organization": "早稲田大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -21582,7 +21582,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000472",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -21667,7 +21667,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000475",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -21767,7 +21767,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000478",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -21980,7 +21980,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000484",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -22065,7 +22065,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000487",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -22308,7 +22308,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000493",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -22408,7 +22408,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000496",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -22538,7 +22538,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000499",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -22637,7 +22637,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000502",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -22706,7 +22706,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000505",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -22836,7 +22836,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000508",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -23051,7 +23051,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000514",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "開志国際高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -23120,7 +23120,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000517",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "開志国際高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -23220,7 +23220,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000520",
-        "period": "2022–2025年（生年月日からの推定）",
+        "period": "2022年4月〜2025年3月（生年月日からの推定）",
         "organization": "開志国際高等学校",
         "startYear": 2022,
         "endYear": 2025,
@@ -23292,7 +23292,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000522",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -23392,7 +23392,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000525",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -23504,7 +23504,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000528",
-        "period": "2022–2025年（生年月日からの推定）",
+        "period": "2022年4月〜2025年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2022,
         "endYear": 2025,
@@ -23557,7 +23557,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000530",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -23624,7 +23624,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000533",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -23707,7 +23707,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000536",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -23843,7 +23843,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000539",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -23856,7 +23856,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000540",
-        "period": "2022–2026年（学年からの推定）",
+        "period": "2022年4月〜2026年3月（学年からの推定）",
         "organization": "早稲田大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -23923,7 +23923,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000542",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -23936,7 +23936,7 @@ export const masterPlayers = [
       },
       {
         "id": "C000543",
-        "period": "2022–2026年（学年からの推定）",
+        "period": "2022年4月〜2026年3月（学年からの推定）",
         "organization": "日本体育大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -23993,7 +23993,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000545",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "東山高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -24121,7 +24121,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000548",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -24204,7 +24204,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000551",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -24317,7 +24317,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000554",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -24460,7 +24460,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000557",
-        "period": "2004–2007年（生年月日からの推定）",
+        "period": "2004年4月〜2007年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2004,
         "endYear": 2007,
@@ -24588,7 +24588,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000560",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -24701,7 +24701,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000563",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -24799,7 +24799,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000566",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -24882,7 +24882,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000569",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -24992,7 +24992,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000572",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -25059,7 +25059,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000575",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -25157,7 +25157,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000578",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -25300,7 +25300,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000581",
-        "period": "2004–2007年（生年月日からの推定）",
+        "period": "2004年4月〜2007年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2004,
         "endYear": 2007,
@@ -25381,7 +25381,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000584",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -25478,7 +25478,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000587",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -25545,7 +25545,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000590",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -25627,7 +25627,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000593",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "藤枝明誠高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -25693,7 +25693,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000596",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "藤枝明誠高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -25760,7 +25760,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000599",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "藤枝明誠高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -25843,7 +25843,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000602",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "藤枝明誠高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -26016,7 +26016,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000608",
-        "period": "2021–2024年（生年月日からの推定）",
+        "period": "2021年4月〜2024年3月（生年月日からの推定）",
         "organization": "藤枝明誠高等学校",
         "startYear": 2021,
         "endYear": 2024,
@@ -26086,7 +26086,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000611",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -26169,7 +26169,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000614",
-        "period": "2003–2006年（生年月日からの推定）",
+        "period": "2003年4月〜2006年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2003,
         "endYear": 2006,
@@ -26266,7 +26266,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000617",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -26333,7 +26333,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000620",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -26461,7 +26461,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000623",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -26559,7 +26559,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000626",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -26642,7 +26642,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000629",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "八王子学園八王子高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -26740,7 +26740,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000632",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2018,
         "endYear": 2021,
@@ -26822,7 +26822,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000635",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2019,
         "endYear": 2022,
@@ -26889,7 +26889,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000638",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2015,
         "endYear": 2018,
@@ -26987,7 +26987,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000641",
-        "period": "2001–2004年（生年月日からの推定）",
+        "period": "2001年4月〜2004年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2001,
         "endYear": 2004,
@@ -27085,7 +27085,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000644",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2013,
         "endYear": 2016,
@@ -27168,7 +27168,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000647",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2017,
         "endYear": 2020,
@@ -27281,7 +27281,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000650",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2014,
         "endYear": 2017,
@@ -27379,7 +27379,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000653",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "桐光学園高校",
         "startYear": 2015,
         "endYear": 2018,
@@ -27477,7 +27477,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000656",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -27620,7 +27620,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000659",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -27747,7 +27747,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000662",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -27814,7 +27814,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000665",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -27927,7 +27927,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000668",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -28054,7 +28054,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000671",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -28120,7 +28120,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000674",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -28187,7 +28187,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000677",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "船橋市立船橋高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -28270,7 +28270,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000680",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -28353,7 +28353,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000683",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -28450,7 +28450,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000686",
-        "period": "2020–2023年（生年月日からの推定）",
+        "period": "2020年4月〜2023年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2020,
         "endYear": 2023,
@@ -28517,7 +28517,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000689",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -28630,7 +28630,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000692",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -28713,7 +28713,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000695",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -28811,7 +28811,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000698",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -28891,7 +28891,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000701",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -28957,7 +28957,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000704",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -29024,7 +29024,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000707",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -29122,7 +29122,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000710",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -29220,7 +29220,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000713",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "尽誠学園高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -29303,7 +29303,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000716",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "尽誠学園高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -29386,7 +29386,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000719",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "尽誠学園高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -29469,7 +29469,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000722",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "尽誠学園高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -29612,7 +29612,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000725",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "尽誠学園高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -29697,7 +29697,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000727",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "前橋育英高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -29810,7 +29810,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000730",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "前橋育英高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -29922,7 +29922,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000733",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "前橋育英高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -29989,7 +29989,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000736",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "前橋育英高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -30132,7 +30132,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000739",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "正智深谷高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -30245,7 +30245,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000742",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "正智深谷高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -30358,7 +30358,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000745",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "帝京長岡高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -30439,7 +30439,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000747",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "帝京長岡高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -30552,7 +30552,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000750",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "桜丘高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -30664,7 +30664,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000753",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "秋田県立能代工業高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -30761,7 +30761,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000756",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "秋田県立能代工業高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -30828,7 +30828,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000759",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "報徳学園高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -30926,7 +30926,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000762",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "大阪桐蔭高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -31009,7 +31009,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000765",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "近畿大学附属高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -31130,7 +31130,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001033",
-        "period": "2023–2026年（生年月日からの推定）",
+        "period": "2023年4月〜2026年3月（生年月日からの推定）",
         "organization": "宮城県利府高等学校",
         "startYear": 2023,
         "endYear": 2026,
@@ -31273,7 +31273,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001039",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "日本大学豊山高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -31343,7 +31343,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001042",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "福島県立福島南高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -31473,7 +31473,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001049",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "栃木県立宇都宮工業高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -31641,7 +31641,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001057",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "東海大学付属相模高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -31824,7 +31824,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001066",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "北陸学院高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -31903,7 +31903,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001069",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "沼津中央高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -31916,7 +31916,7 @@ export const masterPlayers = [
       },
       {
         "id": "C001070",
-        "period": "2022–2026年（学年からの推定）",
+        "period": "2022年4月〜2026年3月（学年からの推定）",
         "organization": "日本大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -31976,7 +31976,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001072",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "國學院大學久我山高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -32174,7 +32174,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001082",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -32289,7 +32289,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001088",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -32547,7 +32547,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001102",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "沼津中央高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -32647,7 +32647,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001107",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -32777,7 +32777,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001114",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "埼玉県立越谷西高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -32877,7 +32877,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001119",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡県立北筑高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -32947,7 +32947,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001122",
-        "period": "2002–2005年（生年月日からの推定）",
+        "period": "2002年4月〜2005年3月（生年月日からの推定）",
         "organization": "沖縄県立石川高等学校",
         "startYear": 2002,
         "endYear": 2005,
@@ -33152,7 +33152,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001134",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "つくば秀英高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -33380,7 +33380,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001146",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "実践学園高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -33450,7 +33450,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001149",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "八戸学院光星高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -33806,7 +33806,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001168",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "群馬県立高崎高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -33876,7 +33876,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001171",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "岩手県立盛岡南高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -34119,7 +34119,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001184",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "山形県立山形南高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -34219,7 +34219,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001189",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "福島県立福島南高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -34379,7 +34379,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001198",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "大阪学院大学高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -34464,7 +34464,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001202",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "大阪府立淀川工科高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -34534,7 +34534,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001205",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "私立富田高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -34702,7 +34702,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001213",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -34787,7 +34787,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001217",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "広陵高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -34887,7 +34887,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001222",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "岩手県立盛岡南高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -34974,7 +34974,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001226",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "徳島県立城南高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -35089,7 +35089,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001232",
-        "period": "2022–2025年（生年月日からの推定）",
+        "period": "2022年4月〜2025年3月（生年月日からの推定）",
         "organization": "豊見城高等学校",
         "startYear": 2022,
         "endYear": 2025,
@@ -35146,7 +35146,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001234",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "東海大学付属相模高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -35246,7 +35246,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001239",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "興南高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -35376,7 +35376,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001246",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "岡山商科大学附属高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -35461,7 +35461,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001250",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "柏市立柏高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -35561,7 +35561,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001255",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -35631,7 +35631,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001258",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -35731,7 +35731,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001263",
-        "period": "2021–2024年（生年月日からの推定）",
+        "period": "2021年4月〜2024年3月（生年月日からの推定）",
         "organization": "北海道文教大学附属高等学校",
         "startYear": 2021,
         "endYear": 2024,
@@ -35797,7 +35797,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001265",
-        "period": "2023–2026年（生年月日からの推定）",
+        "period": "2023年4月〜2026年3月（生年月日からの推定）",
         "organization": "北海道文教大学附属高等学校",
         "startYear": 2023,
         "endYear": 2026,
@@ -36306,7 +36306,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001286",
-        "period": "2003–2006年（生年月日からの推定）",
+        "period": "2003年4月〜2006年3月（生年月日からの推定）",
         "organization": "世田谷学園高等学校",
         "startYear": 2003,
         "endYear": 2006,
@@ -36376,7 +36376,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001289",
-        "period": "2002–2005年（生年月日からの推定）",
+        "period": "2002年4月〜2005年3月（生年月日からの推定）",
         "organization": "富山県立泊高等学校",
         "startYear": 2002,
         "endYear": 2005,
@@ -36666,7 +36666,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001305",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "関西大学北陽高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -36736,7 +36736,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001308",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "埼玉県立大宮東高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -36821,7 +36821,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001312",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "岩手県立一関工業高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -36921,7 +36921,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001317",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "東海大学付属浦安高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -37007,7 +37007,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001321",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "習志野市立習志野高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -37133,7 +37133,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001325",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "佐久長聖高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -37263,7 +37263,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001332",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "北陸学院高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -37348,7 +37348,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001336",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "神奈川県立山北高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -37542,7 +37542,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001346",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -37695,7 +37695,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001353",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "つくば秀英高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -37810,7 +37810,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001359",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "山口県立豊浦高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -37895,7 +37895,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001363",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "秋田県立能代工業高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -37996,7 +37996,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001368",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "明徳義塾高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -38087,7 +38087,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001372",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -38202,7 +38202,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001378",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "東北高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -38317,7 +38317,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001384",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "大阪学院大学高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -38543,7 +38543,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001396",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "千葉県立幕張総合高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -38726,7 +38726,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001405",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "岩手県立一関工業高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -39114,7 +39114,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001426",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "昌平高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -39412,7 +39412,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002705",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "大阪学院大学高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -39605,7 +39605,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002707",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -39710,7 +39710,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002708",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "御影工業高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -39785,7 +39785,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002709",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "育英高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -39860,7 +39860,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002710",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "報徳学園高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -39965,7 +39965,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002711",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "正智深谷高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -40085,7 +40085,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001458",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "実践学園高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -40155,7 +40155,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001461",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -40300,7 +40300,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001469",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "光泉高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -40385,7 +40385,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001473",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -40545,7 +40545,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001482",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "盛岡市立高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -40729,7 +40729,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002712",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "桜丘高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -40805,7 +40805,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001493",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "広島皆実高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -41189,7 +41189,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002713",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "如水館高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -41367,7 +41367,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001516",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -41497,7 +41497,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002714",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "佐賀東高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -41632,7 +41632,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002715",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -41795,7 +41795,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002716",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -41968,7 +41968,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001534",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "東北高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -42249,7 +42249,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001548",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -42381,7 +42381,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001555",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "秋田県立能代工業高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -42451,7 +42451,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001558",
-        "period": "2003–2006年（生年月日からの推定）",
+        "period": "2003年4月〜2006年3月（生年月日からの推定）",
         "organization": "千葉県立八千代高等学校",
         "startYear": 2003,
         "endYear": 2006,
@@ -42551,7 +42551,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001563",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "折尾愛真高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -42764,7 +42764,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001574",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "大阪学院大学高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -42924,7 +42924,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001583",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -43054,7 +43054,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001590",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "金沢高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -43139,7 +43139,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001594",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "新潟県立長岡工業高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -43239,7 +43239,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001599",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "東北生活文化大学高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -43339,7 +43339,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001604",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "光泉高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -43569,7 +43569,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001614",
-        "period": "2023–2026年（生年月日からの推定）",
+        "period": "2023年4月〜2026年3月（生年月日からの推定）",
         "organization": "至学館高等学校",
         "startYear": 2023,
         "endYear": 2026,
@@ -43627,7 +43627,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001616",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -43697,7 +43697,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001619",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "鳥取県立鳥取東高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -43797,7 +43797,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001624",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "佐賀県立佐賀北高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -43876,7 +43876,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001627",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "佐賀東高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -43947,7 +43947,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001630",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "兵庫県立淡路三原高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -44017,7 +44017,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001633",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "栃木県立宇都宮工業高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -44522,7 +44522,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001662",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "金沢高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -44622,7 +44622,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001667",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "九州産業大学付属九州産業高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -44737,7 +44737,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001673",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -44807,7 +44807,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001676",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "光泉高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -44892,7 +44892,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001680",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "新潟県立新潟商業高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -45037,7 +45037,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002718",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "茨城県立水戸第一高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -45157,7 +45157,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001692",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "福岡市立福岡西陵高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -45298,7 +45298,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002704",
-        "period": "2022–2026年",
+        "period": "2022年4月〜2026年3月",
         "organization": "大東文化大学",
         "startYear": 2022,
         "endYear": 2026,
@@ -45313,7 +45313,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002719",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -45377,7 +45377,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001700",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "神戸市立葺合高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -45537,7 +45537,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001709",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "長崎東高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -45652,7 +45652,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001715",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "福井県立福井商業高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -45752,7 +45752,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001789",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "柏市立柏高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -45897,7 +45897,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001797",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "國學院大學久我山高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -45982,7 +45982,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001801",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "静岡学園高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -46052,7 +46052,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001804",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "宇都宮短期大学附属高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -46137,7 +46137,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001808",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "桐生第一高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -46290,7 +46290,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001815",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "静岡学園高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -46375,7 +46375,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001819",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "浜松学院高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -46460,7 +46460,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001823",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "松本第一高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -46575,7 +46575,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001829",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "函館大学付属有斗高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -46675,7 +46675,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001834",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -46745,7 +46745,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001837",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "飛龍高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -46830,7 +46830,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001841",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "白樺学園高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -46930,7 +46930,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001846",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -47045,7 +47045,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001852",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "山形県立山形南高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -47130,7 +47130,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001856",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "興南高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -47275,7 +47275,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001864",
-        "period": "2021–2024年（生年月日からの推定）",
+        "period": "2021年4月〜2024年3月（生年月日からの推定）",
         "organization": "麻布高等学校",
         "startYear": 2021,
         "endYear": 2024,
@@ -47347,7 +47347,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001867",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "羽黒高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -47432,7 +47432,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001871",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "西武学園文理高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -47517,7 +47517,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001875",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "宮崎県立小林高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -47670,7 +47670,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001882",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "京北高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -47943,7 +47943,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001897",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "祐誠高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -48043,7 +48043,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001902",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "桜宮高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -48158,7 +48158,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001908",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -48341,7 +48341,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001917",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "関西学院高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -48486,7 +48486,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001925",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "沖縄県立小禄高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -48586,7 +48586,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001930",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "福島県立湯本高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -48784,7 +48784,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001940",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "日本大学豊山高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -48914,7 +48914,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001947",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -49201,7 +49201,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001960",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -49286,7 +49286,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001964",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "高岡工芸高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -49473,7 +49473,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002747",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -49561,7 +49561,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002749",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -49886,7 +49886,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001987",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -49958,7 +49958,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001990",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "飛龍高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -50043,7 +50043,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C001994",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "福島県立若松商業高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -50368,7 +50368,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002011",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "守谷高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -50500,7 +50500,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002018",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "佐賀県立唐津東高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -50615,7 +50615,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002024",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "國學院大學久我山高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -50745,7 +50745,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002031",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "中央学院大学中央高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -50845,7 +50845,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002036",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "柳川高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -50960,7 +50960,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002042",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "光泉高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -51060,7 +51060,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002047",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "山口県立豊浦高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -51145,7 +51145,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002051",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "中村学園三陽高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -51449,7 +51449,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002065",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "岐阜県立岐阜農林高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -51579,7 +51579,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002072",
-        "period": "2022–2025年（生年月日からの推定）",
+        "period": "2022年4月〜2025年3月（生年月日からの推定）",
         "organization": "至学館高等学校",
         "startYear": 2022,
         "endYear": 2025,
@@ -51651,7 +51651,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002075",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "沖縄県立小禄高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -51766,7 +51766,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002081",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "如水館高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -51881,7 +51881,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002087",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "実践学園高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -51966,7 +51966,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002091",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -52081,7 +52081,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002097",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "鹿児島県立川内高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -52166,7 +52166,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002101",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "明成高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -52251,7 +52251,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002105",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "実践学園高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -52453,7 +52453,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002114",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "茨城県立水戸商業高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -52523,7 +52523,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002117",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "沖縄県立小禄高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -52668,7 +52668,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002125",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "八千代松陰高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -52768,7 +52768,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002130",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "新田高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -52854,7 +52854,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002753",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -52926,7 +52926,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002135",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "安城学園高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -53068,7 +53068,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002141",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "日本体育大学柏高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -53153,7 +53153,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002145",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "横浜高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -53253,7 +53253,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002150",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "飛龍高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -53338,7 +53338,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002154",
-        "period": "2021–2024年（生年月日からの推定）",
+        "period": "2021年4月〜2024年3月（生年月日からの推定）",
         "organization": "横浜清風高等学校",
         "startYear": 2021,
         "endYear": 2024,
@@ -53643,7 +53643,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002805",
-        "period": "1996–1999年（生年月日からの推定）",
+        "period": "1996年4月〜1999年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 1996,
         "endYear": 1999,
@@ -53773,7 +53773,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002756",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "宮崎県立小林高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -54038,7 +54038,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002759",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "金沢市立工業高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -54127,7 +54127,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002761",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "尽誠学園高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -54247,7 +54247,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002763",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "帝京長岡高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -54364,7 +54364,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002765",
-        "period": "2014–2017年",
+        "period": "2014年4月〜2017年3月",
         "organization": "高知中央高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -54377,7 +54377,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002766",
-        "period": "2017–2019年",
+        "period": "2017年4月〜2019年3月",
         "organization": "名古屋学院大学",
         "startYear": 2017,
         "endYear": 2019,
@@ -54390,7 +54390,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002767",
-        "period": "2019–2021年",
+        "period": "2019年4月〜2021年3月",
         "organization": "日本経済大学",
         "startYear": 2019,
         "endYear": 2021,
@@ -54624,7 +54624,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002770",
-        "period": "2018–2021年",
+        "period": "2018年4月〜2021年3月",
         "organization": "報徳学園高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -54637,7 +54637,7 @@ export const masterPlayers = [
       },
       {
         "id": "C002771",
-        "period": "2021–2025年",
+        "period": "2021年4月〜2025年3月",
         "organization": "日本大学",
         "startYear": 2021,
         "endYear": 2025,
@@ -54695,7 +54695,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002202",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "宮崎県立小林高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -54780,7 +54780,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002206",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "金沢学院大学附属高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -54976,7 +54976,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002216",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "北陸学院高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -55272,7 +55272,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002231",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "兵庫県立尼崎小田高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -55357,7 +55357,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002235",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "山形県立山形南高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -55517,7 +55517,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002244",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -55617,7 +55617,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002249",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "桜宮高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -55717,7 +55717,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002254",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "京北高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -55817,7 +55817,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002259",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "北陸学院高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -55961,7 +55961,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002773",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "北陸高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -56078,7 +56078,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002268",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "御影工業高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -56193,7 +56193,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002274",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "新潟県立新潟商業高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -56323,7 +56323,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002281",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "桐生第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -56393,7 +56393,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002284",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "高志高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -56568,7 +56568,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002294",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "新潟県立十日町高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -56766,7 +56766,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002304",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "岐阜県立岐阜農林高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -56836,7 +56836,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002307",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "つくば秀英高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -56951,7 +56951,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002313",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "山形県立山形南高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -57081,7 +57081,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002320",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "栃木県立宇都宮工業高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -57392,7 +57392,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002332",
-        "period": "2004–2007年（生年月日からの推定）",
+        "period": "2004年4月〜2007年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2004,
         "endYear": 2007,
@@ -57537,7 +57537,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002340",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "旭川大学高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -57682,7 +57682,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002348",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -57767,7 +57767,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002352",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "飛龍高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -57950,7 +57950,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002361",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "土浦日本大学高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -58065,7 +58065,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002367",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "昌平高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -58190,7 +58190,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002372",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "日本体育大学柏高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -58343,7 +58343,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002379",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "私立富田高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -58413,7 +58413,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002382",
-        "period": "2003–2006年（生年月日からの推定）",
+        "period": "2003年4月〜2006年3月（生年月日からの推定）",
         "organization": "國學院大學久我山高等学校",
         "startYear": 2003,
         "endYear": 2006,
@@ -58543,7 +58543,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002389",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "山口県立豊浦高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -58613,7 +58613,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002392",
-        "period": "2006–2009年（生年月日からの推定）",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "保善高等学校",
         "startYear": 2006,
         "endYear": 2009,
@@ -58728,7 +58728,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002398",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "宮崎県立宮崎工業高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -58888,7 +58888,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002407",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "大阪商業大学高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -58958,7 +58958,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002410",
-        "period": "2004–2007年（生年月日からの推定）",
+        "period": "2004年4月〜2007年3月（生年月日からの推定）",
         "organization": "高岡第一高等学校",
         "startYear": 2004,
         "endYear": 2007,
@@ -59058,7 +59058,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002415",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "甲南高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -59158,7 +59158,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002420",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "東海大学付属浦安高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -59273,7 +59273,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002426",
-        "period": "2022–2025年（生年月日からの推定）",
+        "period": "2022年4月〜2025年3月（生年月日からの推定）",
         "organization": "鳥取城北高等学校",
         "startYear": 2022,
         "endYear": 2025,
@@ -59330,7 +59330,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002428",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "沼津中央高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -59460,7 +59460,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002435",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "中村学園三陽高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -59545,7 +59545,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002439",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "東京都立日野高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -59675,7 +59675,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002446",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "愛媛県立松山工業高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -59732,7 +59732,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002448",
-        "period": "2011–2014年（生年月日からの推定）",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "徳島県立城東高等学校",
         "startYear": 2011,
         "endYear": 2014,
@@ -59817,7 +59817,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002452",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "実践学園高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -59902,7 +59902,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002456",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "宮崎県立小林高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -59972,7 +59972,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002459",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "東海大学付属相模高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -60042,7 +60042,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002462",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "北越高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -60285,7 +60285,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002475",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "大阪学院大学高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -60400,7 +60400,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002481",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -60515,7 +60515,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002487",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "滋賀県立瀬田工業高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -60615,7 +60615,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002492",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "羽黒高等学校",
         "startYear": 2005,
         "endYear": 2008,
@@ -60730,7 +60730,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002498",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "福岡県立宗像高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -61052,7 +61052,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002516",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "村野工業高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -61122,7 +61122,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002519",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "呉港高校",
         "startYear": 2019,
         "endYear": 2022,
@@ -61207,7 +61207,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002523",
-        "period": "2016–2019年（生年月日からの推定）",
+        "period": "2016年4月〜2019年3月（生年月日からの推定）",
         "organization": "桜宮高等学校",
         "startYear": 2016,
         "endYear": 2019,
@@ -61307,7 +61307,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002528",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "札幌日本大学高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -61452,7 +61452,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002536",
-        "period": "2019–2022年（生年月日からの推定）",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "中部大学第一高等学校",
         "startYear": 2019,
         "endYear": 2022,
@@ -61680,7 +61680,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002548",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "福岡県立宗像高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -61825,7 +61825,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002556",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "愛媛県立松山工業高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -61925,7 +61925,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002561",
-        "period": "2012–2015年（生年月日からの推定）",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "北海道札幌旭丘高等学校",
         "startYear": 2012,
         "endYear": 2015,
@@ -62213,7 +62213,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002577",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "今治精華高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -62314,7 +62314,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002582",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -62512,7 +62512,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002592",
-        "period": "2009–2012年（生年月日からの推定）",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "法政大学第二高等学校",
         "startYear": 2009,
         "endYear": 2012,
@@ -62627,7 +62627,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002598",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "大阪商業大学高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -62697,7 +62697,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002601",
-        "period": "2007–2010年（生年月日からの推定）",
+        "period": "2007年4月〜2010年3月（生年月日からの推定）",
         "organization": "東海大学付属札幌高等学校",
         "startYear": 2007,
         "endYear": 2010,
@@ -62857,7 +62857,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002610",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -62942,7 +62942,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002614",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "福岡県立直方高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -63027,7 +63027,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002618",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "東海大学付属諏訪高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -63172,7 +63172,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002626",
-        "period": "2010–2013年（生年月日からの推定）",
+        "period": "2010年4月〜2013年3月（生年月日からの推定）",
         "organization": "九州学院高等学校",
         "startYear": 2010,
         "endYear": 2013,
@@ -63359,7 +63359,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002633",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "飛龍高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -63429,7 +63429,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002636",
-        "period": "2013–2016年（生年月日からの推定）",
+        "period": "2013年4月〜2016年3月（生年月日からの推定）",
         "organization": "鹿児島市立鹿児島商業高等学校",
         "startYear": 2013,
         "endYear": 2016,
@@ -63576,7 +63576,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002644",
-        "period": "2015–2018年（生年月日からの推定）",
+        "period": "2015年4月〜2018年3月（生年月日からの推定）",
         "organization": "日本大学山形高等学校",
         "startYear": 2015,
         "endYear": 2018,
@@ -63759,7 +63759,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002653",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "富山県立富山工業高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -63859,7 +63859,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002658",
-        "period": "2017–2020年（生年月日からの推定）",
+        "period": "2017年4月〜2020年3月（生年月日からの推定）",
         "organization": "静岡学園高等学校",
         "startYear": 2017,
         "endYear": 2020,
@@ -63959,7 +63959,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002663",
-        "period": "2018–2021年（生年月日からの推定）",
+        "period": "2018年4月〜2021年3月（生年月日からの推定）",
         "organization": "高知中央高等学校",
         "startYear": 2018,
         "endYear": 2021,
@@ -64044,7 +64044,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002667",
-        "period": "2008–2011年（生年月日からの推定）",
+        "period": "2008年4月〜2011年3月（生年月日からの推定）",
         "organization": "大分県立大分豊府高等学校",
         "startYear": 2008,
         "endYear": 2011,
@@ -64159,7 +64159,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002673",
-        "period": "2014–2017年（生年月日からの推定）",
+        "period": "2014年4月〜2017年3月（生年月日からの推定）",
         "organization": "育英高等学校",
         "startYear": 2014,
         "endYear": 2017,
@@ -64259,7 +64259,7 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002678",
-        "period": "2005–2008年（生年月日からの推定）",
+        "period": "2005年4月〜2008年3月（生年月日からの推定）",
         "organization": "神奈川県立秦野南が丘高等学校",
         "startYear": 2005,
         "endYear": 2008,

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import re
 import json
 from collections import defaultdict
 from pathlib import Path
@@ -109,6 +110,18 @@ def estimate_label(career_evidence: list[dict[str, str]]) -> str:
     if not notes:
         return ""
     return "（学年からの推定）" if any(note.startswith("推定値（学年表記から）") for note in notes) else "（生年月日からの推定）"
+
+
+JAPANESE_SCHOOL = re.compile(r"^[^A-Za-zァ-ヶ].*(高等学校|高校|大学)$")
+
+
+def school_period(organization_name: str, start: str, end: str) -> str:
+    """Japanese schools run from April to March: show 「2006年4月〜2009年3月」 so a 3-year
+    high-school stay (start 2006, end 2009 in the season convention) does not read as 4 years.
+    Other organizations keep the season style (2016–2018年)."""
+    if start and end and start != end and JAPANESE_SCHOOL.match(organization_name):
+        return f"{start}年4月〜{end}年3月"
+    return period(start, end)
 
 
 def period(start: str, end: str) -> str:
@@ -221,7 +234,7 @@ def main() -> None:
                     details.append(f"{label}：{' / '.join(values)}")
             public_careers.append({
                 "id": career["career_id"],
-                "period": period(career["start"], career["end"]) + estimate_label(career_evidence),
+                "period": school_period(organizations[career["organization_id"]], career["start"], career["end"]) + estimate_label(career_evidence),
                 "organization": organizations[career["organization_id"]],
                 "startYear": int(career["start"][:4]) if career["start"] else None,
                 "endYear": int(career["end"][:4]) if career["end"] else None,
