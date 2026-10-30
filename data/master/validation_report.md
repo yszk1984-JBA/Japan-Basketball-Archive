@@ -10,8 +10,8 @@
 - Organization：434件
 - Career：2580件
 - Source：1336件
-- Evidence：8716件
-- Approval：23件
+- Evidence：9546件
+- Approval：24件
 - Publication：4件
 
 ## エラー
