@@ -51,6 +51,7 @@ ENRICHMENT_APPROVALS = {
     "APP-AS023-20261029-01": ROOT / "data" / "verified" / "approval_sprint_023" / "career_review_enrichment_only.csv",
     "APP-AS021-20261030-01": ROOT / "data" / "verified" / "approval_sprint_021" / "career_review_enrichment_only.csv",
     "APP-AS022-20261030-01": ROOT / "data" / "verified" / "approval_sprint_022" / "career_review_enrichment_only.csv",
+    "APP-AS024-20261102-01": ROOT / "data" / "verified" / "approval_sprint_024" / "career_review_enrichment_only.csv",
 }
 EDUCATION_MARKERS = ("高等学校", "高校", "大学", "中学校", "中学", "小学校")
 
@@ -195,15 +196,18 @@ def main() -> None:
     def career_order(rows: list[dict[str, str]]) -> list[dict[str, str]]:
         """Chronological display order. career.csv is ordered by career_id,
         so careers added later by a deepening wave (older clubs, higher IDs)
-        would otherwise appear after the current club. Schools keep their
-        original relative order and come first; clubs follow, dated ones by
+        would otherwise appear after the current club. Schools come first (junior-high
+        schools before the rest, otherwise original relative order); clubs follow, dated ones by
         start year, undated ones last in original order (in MASTER an undated
         club is usually the current one whose start is not yet confirmed)."""
         def key(item: tuple[int, dict[str, str]]):
             index, row = item
             is_school = any(m in organizations[row["organization_id"]] for m in EDUCATION_MARKERS)
             if is_school:
-                return (0, 0, index)
+                # Junior-high schools (added later, higher IDs) come before high schools and universities.
+                name = organizations[row["organization_id"]]
+                level = 0 if ("中学" in name or "中等部" in name or "小学校" in name) else 1
+                return (0, level, index)
             return (1, int(row["start"]) if row["start"] else 9999, index)
         return [row for _, row in sorted(enumerate(rows), key=key)]
 

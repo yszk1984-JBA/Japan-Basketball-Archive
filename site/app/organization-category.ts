@@ -1,4 +1,4 @@
-// 組織カテゴリー（高校／大学／クラブ／海外／その他）の推定ロジック。
+// 組織カテゴリー（中学／高校／大学／クラブ／海外／その他）の推定ロジック。
 //
 // 重要：これは「表示専用」のヒューリスティックであり、Master/Candidateの
 // データスキーマ（organization_candidates.csv / data/master/organization.csv）
@@ -11,12 +11,13 @@
 // 「その他」に分類される（誤分類ではなく、未登録なだけ）。実際の分類と
 // ズレを見つけたら、下記のリストに追記して調整する。
 
-export type OrganizationCategory = 'hs' | 'univ' | 'club' | 'overseas' | 'other';
+export type OrganizationCategory = 'jhs' | 'hs' | 'univ' | 'club' | 'overseas' | 'other';
 
 export const ORGANIZATION_CATEGORY_META: Record<
   OrganizationCategory,
   { readonly label: string; readonly bg: string; readonly color: string }
 > = {
+  jhs: { label: '中学', bg: '#FDF6E3', color: '#8A6A12' },
   hs: { label: '高校', bg: '#E7F7F5', color: '#1E8577' },
   univ: { label: '大学', bg: '#F1ECFE', color: '#6941C6' },
   club: { label: 'クラブ', bg: '#FEF0E6', color: '#B45A1E' },
@@ -25,6 +26,7 @@ export const ORGANIZATION_CATEGORY_META: Record<
 };
 
 export const ORGANIZATION_CATEGORY_ORDER: readonly OrganizationCategory[] = [
+  'jhs',
   'hs',
   'univ',
   'club',
@@ -136,20 +138,21 @@ const KNOWN_CLUB_NAMES = new Set<string>([
 
 export function organizationCategory(name: string): OrganizationCategory {
   if (OVERSEAS_MARKERS.some((marker) => name.includes(marker))) return 'overseas';
+  if (name.endsWith('中学校') || name.endsWith('中等部')) return 'jhs';
   if (name.endsWith('高等学校') || name.endsWith('高校')) return 'hs';
   if (name.includes('大学')) return 'univ';
   if (KNOWN_CLUB_NAMES.has(name)) return 'club';
   return 'other';
 }
 
-// 名前から学校と判定できるか（高校・大学に加え、海外の学校など区分が「海外」「その他」になるものも含む）。
+// 名前から学校と判定できるか（中学・高校・大学に加え、海外の学校など区分が「海外」「その他」になるものも含む）。
 // 表示用のヒューリスティック。選手の「直近の所属」から学校を除くときや、組織ページの種類判定に使う。
 const SCHOOL_NAME_PATTERN =
   /(大学|大$|高校|高等学校|中学校|学園|学院|専門学校|カレッジ|スクール|ユニバーシティ|アカデミー|College|University|School|Academy|Institute|Prep)/i;
 
 export function isSchoolName(name: string): boolean {
   const category = organizationCategory(name);
-  if (category === 'hs' || category === 'univ') return true;
+  if (category === 'jhs' || category === 'hs' || category === 'univ') return true;
   if (category === 'club') return false;
   return SCHOOL_NAME_PATTERN.test(name);
 }
