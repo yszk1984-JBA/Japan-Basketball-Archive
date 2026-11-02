@@ -8,3 +8,6 @@ export const correctionFormUrl = 'https://docs.google.com/forms/d/1hoHcPwxy_aybM
 // 公式Xアカウントのユーザー名（@なし）。シェア文言の「via @〜」に使う。
 // 2026-10-11にアカウント作成（https://x.com/rosterline_jp）。空文字にすると via を付けない。
 export const xHandle = 'rosterline_jp';
+
+// Google AdSenseのパブリッシャーID。広告コード（layout.tsx）と public/ads.txt で使う。
+export const adsenseClientId = 'ca-pub-7307307996385677';

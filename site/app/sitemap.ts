@@ -14,6 +14,8 @@ const baseUrl = siteUrl;
 
 // /about の本文を最後に更新した日。本文を書き換えたら更新する。
 const ABOUT_UPDATED_AT = '2026-10-06';
+// /privacy の本文を最後に更新した日。本文を書き換えたら更新する。
+const PRIVACY_UPDATED_AT = '2026-11-02';
 
 // lastmodは、各ページの内容の元になったMasterデータの承認日から決める（固定日付にしない）。
 // Googleはlastmodが実際の更新と一致している場合だけ参考にするため、承認日のないページ
@@ -42,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       (path) => ({ url: `${baseUrl}${path}`, lastModified: dataUpdatedAt }),
     ),
     { url: `${baseUrl}/about`, lastModified: ABOUT_UPDATED_AT },
+    { url: `${baseUrl}/privacy`, lastModified: PRIVACY_UPDATED_AT },
     ...organizationPages,
     ...playerPages,
   ];

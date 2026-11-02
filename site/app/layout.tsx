@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import './site-b.css';
 import { defaultOgImage } from './seo';
-import { siteUrl } from './site-url';
+import { adsenseClientId, siteUrl } from './site-url';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -45,6 +45,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               gtag('config', '${googleAnalyticsId}');
             `,
           }}
+        />
+        {/* Google AdSense（サイトの所有確認と広告配信）。自動広告はAdSense管理画面でオフにし、広告枠は個別に配置する。 */}
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
+          crossOrigin="anonymous"
         />
       </head>
       <body>{children}</body>

@@ -1881,3 +1881,11 @@ a.jbaListB-currentClubName:hover {
   line-height: 1.7;
   color: #5B6B7A;
 }
+
+/* About・プライバシーポリシー本文中のリンク */
+.jbaListB-about li a:not(.jbaListB-aboutButton),
+.jbaListB-about p a:not(.jbaListB-aboutButton) {
+  color: #1D5FD6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

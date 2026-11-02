@@ -99,6 +99,7 @@ export function SiteFooter() {
           <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
           <a href="/about">このサイトについて</a>
           <a href="/about#corrections">訂正・削除のご依頼</a>
+          <a href="/privacy">プライバシーポリシー</a>
         </div>
       </div>
       <p className="jbaListB-footerDisclaimer">{DISCLAIMER_JA}</p>
