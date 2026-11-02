@@ -15,7 +15,13 @@ import {
 // - 学校の区分（高校・大学）は組織名からの自動判定（organization-category.ts）を使う。
 // - 改称・統合した学校は資料に書かれた当時の名称で数え、現在の名称（Masterの付随データ）を併記する。
 //   組織データ上で別の組織として登録されていれば別々に数える。
-export type RankingKind = 'high-school' | 'university' | 'premier-high-school';
+export type RankingKind =
+  | 'high-school'
+  | 'university'
+  | 'premier-high-school'
+  | 'premier-university'
+  | 'bone-high-school'
+  | 'bone-university';
 
 export type RankingRow = {
   readonly rank: number;
@@ -45,6 +51,9 @@ export const RANKING_META: Record<
   'high-school': { category: 'hs', label: '高校', path: '/rankings/high-school' },
   university: { category: 'univ', label: '大学', path: '/rankings/university' },
   'premier-high-school': { category: 'hs', label: '高校', path: '/rankings/premier-high-school', league: 'PREMIER' },
+  'premier-university': { category: 'univ', label: '大学', path: '/rankings/premier-university', league: 'PREMIER' },
+  'bone-high-school': { category: 'hs', label: '高校', path: '/rankings/bone-high-school', league: 'B.ONE' },
+  'bone-university': { category: 'univ', label: '大学', path: '/rankings/bone-university', league: 'B.ONE' },
 };
 
 function isActiveTopLeaguePlayer(player: (typeof players)[number], league?: 'PREMIER' | 'B.ONE'): boolean {
@@ -121,4 +130,22 @@ export function rankingAsOf(): string {
 
 export function activeTopLeaguePlayerCount(league?: 'PREMIER' | 'B.ONE'): number {
   return players.filter((player) => player.dataStatus === 'master' && isActiveTopLeaguePlayer(player, league)).length;
+}
+
+// リーグ名の表示（B.PREMIER／B.ONE、指定なしは両方）。
+export function leagueLabel(league?: 'PREMIER' | 'B.ONE'): string {
+  return league === 'PREMIER' ? 'B.PREMIER' : league === 'B.ONE' ? 'B.ONE' : 'B.PREMIER・B.ONE';
+}
+
+// 同じリーグで高校⇔大学を切り替える先。
+export function siblingKind(kind: RankingKind): RankingKind {
+  const pairs: Record<RankingKind, RankingKind> = {
+    'high-school': 'university',
+    university: 'high-school',
+    'premier-high-school': 'premier-university',
+    'premier-university': 'premier-high-school',
+    'bone-high-school': 'bone-university',
+    'bone-university': 'bone-high-school',
+  };
+  return pairs[kind];
 }

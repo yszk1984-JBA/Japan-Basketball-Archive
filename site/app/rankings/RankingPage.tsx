@@ -2,14 +2,26 @@
 import type { Metadata } from 'next';
 import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteBreadcrumb, SiteFooter, SiteHeader, siteUrl } from '../seo';
 import { ShareButtons } from '../ShareButtons';
-import { activeTopLeaguePlayerCount, buildRanking, RANKING_META, rankingAsOf, type RankingKind, type RankingRow } from './ranking-data';
+import {
+  activeTopLeaguePlayerCount,
+  buildRanking,
+  leagueLabel,
+  RANKING_META,
+  rankingAsOf,
+  siblingKind,
+  type RankingKind,
+  type RankingRow,
+} from './ranking-data';
 
 function texts(kind: RankingKind) {
   const { label, league } = RANKING_META[kind];
-  if (league === 'PREMIER') {
+  if (league) {
+    const name = leagueLabel(league);
+    const reading = league === 'PREMIER' ? 'Bプレミア' : 'Bワン';
+    const clubs = league === 'PREMIER' ? 26 : 25;
     return {
-      title: `B.PREMIER選手の出身${label}ランキング【2026-27】`,
-      description: `2026-27シーズンにB.PREMIER（Bプレミア）の26クラブでプレーする選手が、どの${label}の出身かを人数の多い順にまとめました。学校ごとに選手名と所属クラブも掲載しています。`,
+      title: `${name}選手の出身${label}ランキング【2026-27】`,
+      description: `2026-27シーズンに${name}（${reading}）の${clubs}クラブでプレーする選手が、どの${label}の出身かを人数の多い順にまとめました。学校ごとに選手名と所属クラブも掲載しています。`,
     };
   }
   const title = `B.LEAGUE選手の出身${label}ランキング`;
@@ -45,9 +57,9 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
   const { label, path, league } = RANKING_META[kind];
   const { title } = texts(kind);
   const rows = buildRanking(kind);
-  const otherKind: RankingKind = kind === 'high-school' ? 'university' : 'high-school';
-  const leagueName = league === 'PREMIER' ? 'B.PREMIER' : 'B.PREMIER・B.ONE';
-  const breadcrumbLabel = league === 'PREMIER' ? `B.PREMIERの出身${label}` : `出身${label}`;
+  const otherKind = siblingKind(kind);
+  const leagueName = leagueLabel(league);
+  const breadcrumbLabel = league ? `${leagueName}の出身${label}` : `出身${label}`;
   const crumbs = [
     { name: 'ホーム', path: '/' },
     { name: 'ランキング', path: '/rankings' },
@@ -94,7 +106,9 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
           </p>
           <ShareButtons url={`${siteUrl}${path}`} text={shareText(kind, rows)} hashtags={['Bリーグ']} />
           <p className="jbaListB-rankOther">
-            <a href={RANKING_META[otherKind].path}>出身{RANKING_META[otherKind].label}ランキングを見る →</a>
+            <a href={RANKING_META[otherKind].path}>
+              {league ? `${leagueName}選手の` : ''}出身{RANKING_META[otherKind].label}ランキングを見る →
+            </a>
           </p>
         </div>
 

@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import type { Metadata } from 'next';
 import { baseOpenGraph, SiteBreadcrumb, SiteFooter, SiteHeader } from '../seo';
-import { buildRanking, RANKING_META, type RankingKind } from './ranking-data';
+import { buildRanking, leagueLabel, RANKING_META, type RankingKind } from './ranking-data';
 import { buildRouteRanking, ROUTE_PATH, ROUTE_TITLE } from './route-data';
 
 const title = 'ランキング';
@@ -14,7 +14,14 @@ export const metadata: Metadata = {
   openGraph: { ...baseOpenGraph, title, description, url: '/rankings' },
 };
 
-const KINDS: readonly RankingKind[] = ['premier-high-school', 'high-school', 'university'];
+const KINDS: readonly RankingKind[] = [
+  'premier-high-school',
+  'premier-university',
+  'bone-high-school',
+  'bone-university',
+  'high-school',
+  'university',
+];
 
 export default function RankingsIndexPage() {
   return (
@@ -38,7 +45,7 @@ export default function RankingsIndexPage() {
             return (
               <a href={path} key={kind} className="jbaListB-row jbaListB-rankIndexGrid">
                 <div className="jbaListB-rowName">
-                  {league === 'PREMIER' ? `B.PREMIER選手の出身${label}ランキング【2026-27】` : `B.LEAGUE選手の出身${label}ランキング`}
+                  {league ? `${leagueLabel(league)}選手の出身${label}ランキング【2026-27】` : `B.LEAGUE選手の出身${label}ランキング`}
                 </div>
                 <div className="jbaListB-rowMuted">
                   {top.map((row) => `${row.rank}位 ${row.name}（${row.active}人）`).join('・')}

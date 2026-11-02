@@ -91,6 +91,9 @@ export function SiteFooter() {
           <a href="/players">選手一覧</a>
           <a href="/organizations">組織一覧</a>
           <a href="/rankings/premier-high-school">B.PREMIER選手の出身高校</a>
+          <a href="/rankings/premier-university">B.PREMIER選手の出身大学</a>
+          <a href="/rankings/bone-high-school">B.ONE選手の出身高校</a>
+          <a href="/rankings/bone-university">B.ONE選手の出身大学</a>
           <a href="/rankings/high-school">出身高校ランキング</a>
           <a href="/rankings/university">出身大学ランキング</a>
           <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
