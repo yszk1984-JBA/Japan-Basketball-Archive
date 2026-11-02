@@ -106,13 +106,19 @@ def display_value(field_name: str, value: str) -> str:
 
 def estimate_label(career_evidence: list[dict[str, str]]) -> str:
     """Label for periods that are estimates (Evidence issue_note starts with 推定値), not confirmed values."""
-    notes = [row["issue_note"] for row in career_evidence if row["field_name"] in ("start", "end") and row["issue_note"].startswith("推定値")]
+    # A field counts as estimated only when all of its start/end evidence is an estimate;
+    # once an official value is recorded for it (Sprint 024: B.LEAGUE経歴の在学期間), the label goes.
+    notes = []
+    for field in ("start", "end"):
+        rows = [row["issue_note"] for row in career_evidence if row["field_name"] == field]
+        if rows and all(note.startswith("推定値") for note in rows):
+            notes.extend(rows)
     if not notes:
         return ""
     return "（学年からの推定）" if any(note.startswith("推定値（学年表記から）") for note in notes) else "（生年月日からの推定）"
 
 
-JAPANESE_SCHOOL = re.compile(r"^[^A-Za-zァ-ヶ].*(高等学校|高校|大学)$")
+JAPANESE_SCHOOL = re.compile(r"^[^A-Za-zァ-ヶ].*(中学校|中等部|高等学校|高校|大学)$")
 
 
 def school_period(organization_name: str, start: str, end: str) -> str:
