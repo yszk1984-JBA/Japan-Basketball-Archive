@@ -11,10 +11,9 @@ export const metadata: Metadata = {
     template: '%s | Rosterline',
   },
   description: '日本バスケットボールの人物と所属を、出典とともに記録するアーカイブ。',
-  icons: {
-    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
-    shortcut: '/favicon.svg',
-  },
+  // iconsはmetadataで指定しない。vinextがアイコンのlinkタグに内部キー（/players/p000419:13vaz3c など）を
+  // data属性として出力し、GooglebotがそれをURLとして拾って404が大量に記録されたため（2026-11-02）。
+  // ファビコンは下の<head>内に直接書く。
   openGraph: {
     siteName: 'Rosterline',
     locale: 'ja_JP',
@@ -35,6 +34,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ja">
       <head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`} />
         <script
           dangerouslySetInnerHTML={{
