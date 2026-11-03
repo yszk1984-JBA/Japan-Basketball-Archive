@@ -1,0 +1,11 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B40W1E0001,Person,P000568,name,佐藤 武,B40W1S0001,基本情報 > 生年月日2002年3月5日｜24歳,公式プロフィールで氏名を確認,SUPPORTED,2026-11-03,
+B40W1E0002,Person,P000568,birth_date,2002-03-05,B40W1S0001,基本情報 > 生年月日2002年3月5日｜24歳,公式プロフィールで生年月日を確認,SUPPORTED,2026-11-03,
+B40W1E0003,Career,C002886,organization_id,ORG000142,B40W1S0001,クラブ所属履歴 > 2026-27 大阪,B.LEAGUE公式プロフィールのクラブ所属履歴（2026-27 大阪、在籍中）,SUPPORTED,2026-11-03,
+B40W1E0004,Career,C002886,role,Player,B40W1S0001,クラブ所属履歴 > 2026-27 大阪,選手としての所属,SUPPORTED,2026-11-03,
+B40W1E0005,Career,C002886,start,2026,B40W1S0001,クラブ所属履歴 > 2026-27 大阪,B.LEAGUE公式プロフィールのクラブ所属履歴（2026-27 大阪、在籍中）,SUPPORTED,2026-11-03,
+B40W1E0006,Career,C002887,organization_id,ORG000227,B40W1S0001,クラブ所属履歴 > 2024-25 静岡 / 2023-24 静岡,B.LEAGUE公式プロフィールのクラブ所属履歴（2023-24〜2024-25 静岡）,SUPPORTED,2026-11-03,
+B40W1E0007,Career,C002887,role,Player,B40W1S0001,クラブ所属履歴 > 2024-25 静岡 / 2023-24 静岡,選手としての所属,SUPPORTED,2026-11-03,
+B40W1E0008,Career,C002887,start,2023,B40W1S0001,クラブ所属履歴 > 2024-25 静岡 / 2023-24 静岡,B.LEAGUE公式プロフィールのクラブ所属履歴（2023-24〜2024-25 静岡）,SUPPORTED,2026-11-03,
+B40W1E0009,Career,C002887,end,2025,B40W1S0001,クラブ所属履歴 > 2024-25 静岡 / 2023-24 静岡,B.LEAGUE公式プロフィールのクラブ所属履歴（2023-24〜2024-25 静岡）,SUPPORTED,2026-11-03,
+B40W1E0010,Career,C001691,end,2027,B40W1S0002,長崎 2026-27 退団済 > 大友 隆太郎,B.LEAGUE公式の長崎2026-27「退団済」一覧に掲載（2026-27シーズン中に退団）,SUPPORTED,2026-11-03,
