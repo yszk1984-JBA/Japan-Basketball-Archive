@@ -1,0 +1,29 @@
+{
+  "batch": "040",
+  "sprint": "025",
+  "date": "2026-11-03",
+  "prefix": "B40W1",
+  "title": "B.PREMIER週次チェック（2026-11-03）",
+  "tier": "Tier 2",
+  "tier_reason": "既存Masterの期間を変更する訂正と新規Personを含むため",
+  "sources": {
+    "otomo": {"title": "大友隆太郎 選手プロフィール", "publisher": "B.LEAGUE", "url": "https://www.bleague.jp/roster_detail/?PlayerID=10872"},
+    "nagasaki_left": {"title": "長崎ヴェルカ 2026-27 退団済の選手一覧", "publisher": "B.LEAGUE", "url": "https://www.bleague.jp/roster/?tab=1&year=2026&club=2488&e=%E9%80%80%E5%9B%A3%E6%B8%88&o=sort"},
+    "sato": {"title": "佐藤武 選手プロフィール", "publisher": "B.LEAGUE", "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000365"}
+  },
+  "new_persons": [
+    {"person_id": "P000568", "name": "佐藤 武", "birth_date": "2002-03-05", "source": "sato", "locator": "基本情報 > 生年月日2002年3月5日｜24歳"}
+  ],
+  "new_orgs": [],
+  "careers": [
+    {"career_id": "C002886", "person_id": "P000568", "organization_id": "ORG000142", "start": "2026", "end": "", "source": "sato",
+     "locator": "クラブ所属履歴 > 2026-27 大阪", "summary": "B.LEAGUE公式プロフィールのクラブ所属履歴（2026-27 大阪、在籍中）"},
+    {"career_id": "C002887", "person_id": "P000568", "organization_id": "ORG000227", "start": "2023", "end": "2025", "source": "sato",
+     "locator": "クラブ所属履歴 > 2024-25 静岡 / 2023-24 静岡", "summary": "B.LEAGUE公式プロフィールのクラブ所属履歴（2023-24〜2024-25 静岡）"}
+  ],
+  "corrections": [
+    {"career_id": "C001691", "new_start": "2026", "new_end": "2027", "source": "nagasaki_left",
+     "locator": "長崎 2026-27 退団済 > 大友 隆太郎", "reason": "B.LEAGUE公式の長崎2026-27「退団済」一覧に掲載（2026-27シーズン中に退団）"}
+  ],
+  "holds": []
+}

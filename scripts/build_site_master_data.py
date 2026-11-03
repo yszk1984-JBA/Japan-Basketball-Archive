@@ -53,6 +53,14 @@ ENRICHMENT_APPROVALS = {
     "APP-AS022-20261030-01": ROOT / "data" / "verified" / "approval_sprint_022" / "career_review_enrichment_only.csv",
     "APP-AS024-20261102-01": ROOT / "data" / "verified" / "approval_sprint_024" / "career_review_enrichment_only.csv",
 }
+# Approvals applied by scripts/weekly_pipeline.py register themselves with a
+# site_registration.json in their packet folder (new persons -> APPROVAL_PACKETS,
+# added careers / corrections -> ENRICHMENT_APPROVALS).
+for _reg in sorted((ROOT / "data" / "verified").glob("approval_sprint_*/site_registration.json")):
+    _info = json.loads(_reg.read_text(encoding="utf-8"))
+    if _info["new_persons"]:
+        APPROVAL_PACKETS.setdefault(_info["approval_id"], _reg.parent / "person_review_new_only.csv")
+    ENRICHMENT_APPROVALS.setdefault(_info["approval_id"], _reg.parent / "career_review_enrichment_only.csv")
 EDUCATION_MARKERS = ("高等学校", "高校", "大学", "中学校", "中学", "小学校")
 
 FACT_LABELS = {
