@@ -6,7 +6,7 @@
 
 ## 対象
 
-B.PREMIER週次チェック（2026-11-07）（batch_041 wave_01）。VERIFIED snapshot commit：`1ba035a`。
+B.PREMIER週次チェック（2026-11-07）（batch_041 wave_01）。VERIFIED snapshot commit：`811e386`。
 
 ### 新しく登録する選手
 
