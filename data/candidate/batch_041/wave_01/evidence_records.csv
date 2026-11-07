@@ -1,0 +1,10 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B41W1E0001,Person,P000569,name,横地 聖真,B41W1S0001,基本情報 > 生年月日2001年10月3日｜25歳,公式プロフィールで氏名を確認,SUPPORTED,2026-11-07,
+B41W1E0002,Person,P000569,birth_date,2001-10-03,B41W1S0001,基本情報 > 生年月日2001年10月3日｜25歳,公式プロフィールで生年月日を確認,SUPPORTED,2026-11-07,
+B41W1E0003,Career,C002888,organization_id,ORG000155,B41W1S0001,クラブ所属履歴 > 2026-27 島根 / 2025-26 島根 / 2024-25 島根,B.LEAGUE公式プロフィールのクラブ所属履歴（2024-25〜2026-27 島根、在籍中）,SUPPORTED,2026-11-07,
+B41W1E0004,Career,C002888,role,Player,B41W1S0001,クラブ所属履歴 > 2026-27 島根 / 2025-26 島根 / 2024-25 島根,選手としての所属,SUPPORTED,2026-11-07,
+B41W1E0005,Career,C002888,start,2024,B41W1S0001,クラブ所属履歴 > 2026-27 島根 / 2025-26 島根 / 2024-25 島根,B.LEAGUE公式プロフィールのクラブ所属履歴（2024-25〜2026-27 島根、在籍中）,SUPPORTED,2026-11-07,
+B41W1E0006,Career,C002889,organization_id,ORG000103,B41W1S0001,クラブ所属履歴 > 2021-22 茨城,B.LEAGUE公式プロフィールのクラブ所属履歴（2021-22 茨城）,SUPPORTED,2026-11-07,
+B41W1E0007,Career,C002889,role,Player,B41W1S0001,クラブ所属履歴 > 2021-22 茨城,選手としての所属,SUPPORTED,2026-11-07,
+B41W1E0008,Career,C002889,start,2021,B41W1S0001,クラブ所属履歴 > 2021-22 茨城,B.LEAGUE公式プロフィールのクラブ所属履歴（2021-22 茨城）,SUPPORTED,2026-11-07,
+B41W1E0009,Career,C002889,end,2022,B41W1S0001,クラブ所属履歴 > 2021-22 茨城,B.LEAGUE公式プロフィールのクラブ所属履歴（2021-22 茨城）,SUPPORTED,2026-11-07,

@@ -1,0 +1,26 @@
+{
+  "batch": "041",
+  "sprint": "026",
+  "date": "2026-11-07",
+  "prefix": "B41W1",
+  "title": "B.PREMIER週次チェック（2026-11-07）",
+  "tier": "Tier 2",
+  "tier_reason": "新規Personを含むため（Sprint 019・022・025と同じ扱い）",
+  "sources": {
+    "yokochi": {"title": "横地聖真 選手プロフィール", "publisher": "B.LEAGUE", "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000132"}
+  },
+  "new_persons": [
+    {"person_id": "P000569", "name": "横地 聖真", "birth_date": "2001-10-03", "source": "yokochi", "locator": "基本情報 > 生年月日2001年10月3日｜25歳"}
+  ],
+  "new_orgs": [],
+  "careers": [
+    {"career_id": "C002888", "person_id": "P000569", "organization_id": "ORG000155", "start": "2024", "end": "", "source": "yokochi",
+     "locator": "クラブ所属履歴 > 2026-27 島根 / 2025-26 島根 / 2024-25 島根", "summary": "B.LEAGUE公式プロフィールのクラブ所属履歴（2024-25〜2026-27 島根、在籍中）"},
+    {"career_id": "C002889", "person_id": "P000569", "organization_id": "ORG000103", "start": "2021", "end": "2022", "source": "yokochi",
+     "locator": "クラブ所属履歴 > 2021-22 茨城", "summary": "B.LEAGUE公式プロフィールのクラブ所属履歴（2021-22 茨城）"}
+  ],
+  "corrections": [],
+  "holds": [
+    {"name": "横地 聖真", "description": "2022-23・2023-24シーズンの所属と出身校がB.LEAGUE公式プロフィールに記載なし。記録しない", "next_check": "クラブ公式の選手紹介で出身校を確認"}
+  ]
+}

@@ -13,7 +13,7 @@ import {
   players,
   getCurrentCareer,
 } from '../../public-data';
-import { schoolmatesOf, schoolsOf } from '../../organization-relations';
+import { schoolmatesOf, schoolsOf, teammatesOf } from '../../organization-relations';
 import { CareerGantt } from './CareerGantt';
 import { baseOpenGraph, JsonLd, playerJsonLd, playerPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
 import { ShareButtons } from '../../ShareButtons';
@@ -46,6 +46,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 // 同じ出身校の選手として、1校あたりに表示する人数（残りは学校ページへのリンクで案内する）。
 const SCHOOLMATES_PER_SCHOOL = 6;
+// 今のチームメイトとして表示する人数（残りはクラブページへのリンクで案内する）。
+const TEAMMATES_LIMIT = 12;
 
 function EvidenceLinks({ sourceIds }: { sourceIds: readonly string[] }) {
   const evidence = getSources(sourceIds);
@@ -78,6 +80,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
   const schoolmateGroups = schoolsOf(player)
     .map((school) => ({ school, schoolmates: schoolmatesOf(player, school) }))
     .filter(({ schoolmates }) => schoolmates.length > 0);
+  const { club: currentClub, teammates } = teammatesOf(player);
 
   return (
     <main className="jbaListB-page">
@@ -182,6 +185,40 @@ export default async function PlayerPage({ params }: { params: Promise<{ slug: s
           </div>
           <p className="jbaListB-ganttUndated">クラブ名は現在の登録名で表示しています。改称前の名称（例：サンロッカーズ渋谷、西宮ストークス）は、在籍当時の表記と異なる場合があります。</p>
         </section>
+
+        {currentClub && teammates.length > 0 ? (
+          <section className="jbaListB-section">
+            <div className="jbaListB-sectionHead">
+              <p className="jbaListB-eyebrow">Teammates</p>
+              <h2>今のチームメイト</h2>
+            </div>
+            <div className="jbaListB-schoolmates">
+              <h3 className="jbaListB-breakdownTitle">
+                <a href={`/organizations/${currentClub.slug}`}>{organizationDisplayName(currentClub)}</a>
+              </h3>
+              <div className="jbaListB-rosterList">
+                {teammates.slice(0, TEAMMATES_LIMIT).map((other) => (
+                  <a href={`/players/${other.slug}`} className="jbaListB-rosterRow" key={other.id}>
+                    <span className="jbaListB-rosterNumber">{other.dataStatus === 'master' ? 'M' : '—'}</span>
+                    <div>
+                      <strong className="jbaListB-rosterName">{other.name}</strong>
+                      <p className="jbaListB-rosterMeta">{playerContext(other)}</p>
+                    </div>
+                    <ArrowUpRight size={16} />
+                  </a>
+                ))}
+              </div>
+              {teammates.length > TEAMMATES_LIMIT ? (
+                <a href={`/organizations/${currentClub.slug}`} className="jbaListB-moreLink">
+                  {currentClub.name}の選手をすべて見る（{teammates.length + 1}人）
+                </a>
+              ) : null}
+            </div>
+            <p className="jbaListB-reviewNote">
+              本サイトに登録済みの選手のうち、登録データ上の直近の所属が同じクラブで、所属の終了が記録されていない選手です。生年の近い選手から順に表示しています。
+            </p>
+          </section>
+        ) : null}
 
         {schoolmateGroups.length > 0 ? (
           <section className="jbaListB-section">

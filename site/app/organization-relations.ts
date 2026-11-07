@@ -118,3 +118,34 @@ export function schoolmatesOf(player: PublicPlayer, school: PublicOrganization) 
         left.name.localeCompare(right.name, 'ja'),
     );
 }
+
+// 選手の現在の所属クラブ。直近の所属（getPrimaryCareer）がクラブで、終了年が記録されていない場合だけ返す
+// （引退した選手や、所属の終了が分かっている選手には「今のチームメイト」を出さない）。
+export function currentClubOf(player: PublicPlayer): PublicOrganization | undefined {
+  const primary = getPrimaryCareer(player);
+  if (!primary?.organizationId || primary.endYear != null) return undefined;
+  const organization = getOrganizationById(primary.organizationId);
+  if (!organization || organizationKind(organization) !== 'club') return undefined;
+  return organization;
+}
+
+// 現在の所属クラブが同じ他の選手（選手ページの「今のチームメイト」に使う）。
+// 並び順：承認済み（Master）を先に、その中で世代の近い順（生年の差）、最後に名前順。
+export function teammatesOf(player: PublicPlayer) {
+  const club = currentClubOf(player);
+  if (!club) return { club: undefined, teammates: [] as PublicPlayer[] };
+  const ownBirth = birthYearOf(player);
+  const distance = (target: PublicPlayer) => {
+    const birth = birthYearOf(target);
+    return ownBirth != null && birth != null ? Math.abs(birth - ownBirth) : Number.POSITIVE_INFINITY;
+  };
+  const teammates = getOrganizationPlayers(club.id)
+    .filter((other) => other.id !== player.id && currentClubOf(other)?.id === club.id)
+    .sort(
+      (left, right) =>
+        Number(right.dataStatus === 'master') - Number(left.dataStatus === 'master') ||
+        distance(left) - distance(right) ||
+        left.name.localeCompare(right.name, 'ja'),
+    );
+  return { club, teammates };
+}
