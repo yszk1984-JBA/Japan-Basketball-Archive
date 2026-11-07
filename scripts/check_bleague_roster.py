@@ -130,9 +130,18 @@ def main() -> None:
         if line and not line.startswith("#"):
             bid, ename, reason, until = (line.split("\t") + [""] * 4)[:4]
             excluded[bid] = (ename, reason, until)
+    # New persons in Approval Sprint packets that are not yet approved (no master_approval.md).
+    pending = {}
+    for packet in sorted((ROOT / "data/verified").glob("approval_sprint_*/person_review_new_only.csv")):
+        if not (packet.parent / "master_approval.md").exists():
+            for r in read_csv(packet):
+                pending[norm(r["name"])] = f"{packet.parent.name}（承認待ち）の新規Person {r['person_id']}"
     findings = defaultdict(list)
     for pid, (tid, name) in now.items():
         kind, text = master_status(name, tid)
+        if kind == "unregistered" and norm(name) in pending:
+            findings["pending"].append(f"- {name}（PlayerID {pid}、{team(tid)}）：{pending[norm(name)]}")
+            continue
         if kind == "unregistered" and pid in excluded:
             ename, reason, until = excluded[pid]
             due = until and until <= date
@@ -155,6 +164,7 @@ def main() -> None:
     section("前回からクラブが変わった", [f"- {now[p][1]}（PlayerID {p}）：{team(before[p][0])} → {team(now[p][0])}" for p in moved])
     section("Masterの現所属と一覧のクラブが違う", findings["mismatch"])
     section("Masterに未登録", findings["unregistered"])
+    section("承認待ちの資料に入っている選手（新しく調べる必要なし）", findings["pending"])
     section("Masterで同名が複数（人物の特定が必要）", findings["ambiguous"])
     section("登録しない選手の見直し時期（18歳になった等。プロフィールを確認して登録を検討）", findings["review"])
     section("登録しない選手（weekly_check_excluded.tsv、変化なし）", findings["excluded"])
