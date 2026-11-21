@@ -20,7 +20,8 @@ Spec keys: batch, sprint, date, prefix, title, tier, sources{key:{title,publishe
 new_persons[{person_id,name,birth_date?,source,locator}], new_orgs[{organization_id,name}],
 careers[{career_id,person_id,organization_id,start,end,source,locator,summary,note?}]
 (note → Evidence issue_note; 「公式未確認」で始まるとサイトに（公式未確認）と表示),
-corrections[{career_id,new_start,new_end,source,locator,reason}],
+corrections[{career_id,new_start,new_end,source,locator,reason,note?}],
+person_facts[{person_id,field,value,source,locator,summary,note?}] (facts such as birth_date for MASTER persons),
 holds[{name,description,next_check}].
 """
 
@@ -125,6 +126,10 @@ def candidate(spec: Spec) -> None:
         for f in ("start", "end"):
             if c[f]:
                 ev("Career", c["career_id"], f, c[f], c["source"], c["locator"], c["summary"])
+    for f in d.get("person_facts", []):
+        if f["person_id"] not in people:
+            errors.append(f"{f['person_id']}: MasterにないPerson")
+        ev("Person", f["person_id"], f["field"], f["value"], f["source"], f["locator"], f["summary"], f.get("note", ""))
     corrections = []
     for c in d.get("corrections", []):
         m = master.get(c["career_id"])
@@ -136,7 +141,7 @@ def candidate(spec: Spec) -> None:
                             "reason": c["reason"]})
         for f in ("start", "end"):
             if m[f] != c[f"new_{f}"]:
-                ev("Career", c["career_id"], f, c[f"new_{f}"], c["source"], c["locator"], c["reason"])
+                ev("Career", c["career_id"], f, c[f"new_{f}"], c["source"], c["locator"], c["reason"], c.get("note", ""))
     if errors:
         raise SystemExit("; ".join(errors))
     issues = [{"issue_id": f"{p}I{i:04d}", "person_id": "", "related_id": "", "issue_type": "HOLD", "status": "HOLD",
@@ -222,7 +227,8 @@ def packet(spec: Spec, commit: str) -> None:
           [{"person_id": pid, "name": names[pid], "status": "新規Person" if pid in new_p else "Master既存", "tier_proposal": tier,
             "added_careers": sum(c["person_id"] == pid for c in careers), "corrections": sum(c["person_id"] == pid for c in corr),
             "verified_commit": commit}
-           for pid in sorted({c["person_id"] for c in careers} | {c["person_id"] for c in corr} | set(new_p))])
+           for pid in sorted({c["person_id"] for c in careers} | {c["person_id"] for c in corr} | set(new_p)
+                             | {e["entity_id"] for e in ev if e["entity_type"] == "Person"})])
     write(pk / "person_review_new_only.csv", ["person_id", "name"], [{"person_id": k, "name": v} for k, v in new_p.items()])
     write(pk / "career_review.csv", CAREER_H[:2] + ["name", "organization_id", "organization_name", "role", "start", "end"],
           [c | {"name": names[c["person_id"]], "organization_name": onames[c["organization_id"]]} for c in careers])
@@ -248,6 +254,11 @@ def packet(spec: Spec, commit: str) -> None:
         lines += ["### Masterの期間の訂正", "", "| Career | 選手 | 所属 | 今 | 訂正後 | 理由 |", "| --- | --- | --- | --- | --- | --- |"]
         lines += [f"| {c['career_id']} | {names[c['person_id']]} | {c['organization_name']} | {period(c['old_start'], c['old_end'])} | "
                   f"{period(c['new_start'], c['new_end'])} | {c['reason']} |" for c in corr]
+        lines.append("")
+    facts = [e for e in ev if e["entity_type"] == "Person" and e["entity_id"] not in new_p]
+    if facts:
+        lines += ["### Master既存の選手に追加する事実", "", "| Person | 選手 | 項目 | 値 | 出典箇所 |", "| --- | --- | --- | --- | --- |"]
+        lines += [f"| {e['entity_id']} | {names[e['entity_id']]} | {e['field_name']} | {e['candidate_value']} | {e['source_locator']} |" for e in facts]
         lines.append("")
     if new_o:
         lines += ["### 新しく登録する組織", ""] + [f"- {k} {v}" for k, v in new_o.items()] + [""]

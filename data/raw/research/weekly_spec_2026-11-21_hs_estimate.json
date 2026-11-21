@@ -1,0 +1,149 @@
+{
+ "batch": "044",
+ "sprint": "029",
+ "date": "2026-11-21",
+ "prefix": "B44W1",
+ "title": "高校の在学期間（生年月日からの推定、追加分）",
+ "tier": "Tier 2",
+ "tier_reason": "推定値を含むため（Sprint 021と同じ扱い）",
+ "sources": {
+  "okamoto": {
+   "title": "岡本飛竜 選手プロフィール（クラブ所属履歴）",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8839"
+  },
+  "fall": {
+   "title": "ファイパプ月瑠 選手プロフィール（クラブ所属履歴）",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9400"
+  },
+  "nagashima": {
+   "title": "長島蓮 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22395"
+  },
+  "hasegawa": {
+   "title": "長谷川智伸 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8577"
+  },
+  "onishi": {
+   "title": "大西一輝選手 選手詳細",
+   "publisher": "ヴィアティン三重バスケットボール",
+   "url": "https://veertien-basketball.jp/team/players/detail/id=60078?PlayerID=11482"
+  },
+  "baba": {
+   "title": "馬場雄大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12577"
+  },
+  "sasaki": {
+   "title": "佐々木隆成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20037"
+  }
+ },
+ "new_persons": [],
+ "new_orgs": [],
+ "careers": [],
+ "person_facts": [
+  {
+   "person_id": "P000107",
+   "field": "birth_date",
+   "value": "1995-11-07",
+   "source": "baba",
+   "locator": "基本情報 > 生年月日1995年11月7日｜31歳",
+   "summary": "B.LEAGUE公式プロフィールで生年月日を確認"
+  },
+  {
+   "person_id": "P000108",
+   "field": "birth_date",
+   "value": "1996-05-02",
+   "source": "sasaki",
+   "locator": "基本情報 > 生年月日1996年5月2日｜30歳",
+   "summary": "B.LEAGUE公式プロフィールで生年月日を確認"
+  }
+ ],
+ "corrections": [
+  {
+   "career_id": "C002806",
+   "new_start": "2009",
+   "new_end": "2012",
+   "source": "okamoto",
+   "locator": "生年月日：1993年4月20日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2009年4月・卒業2012年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  },
+  {
+   "career_id": "C002815",
+   "new_start": "2003",
+   "new_end": "2006",
+   "source": "fall",
+   "locator": "生年月日：1987年6月22日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2003年4月・卒業2006年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  },
+  {
+   "career_id": "C002826",
+   "new_start": "2012",
+   "new_end": "2015",
+   "source": "nagashima",
+   "locator": "生年月日：1997年3月3日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2012年4月・卒業2015年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  },
+  {
+   "career_id": "C002827",
+   "new_start": "2006",
+   "new_end": "2009",
+   "source": "hasegawa",
+   "locator": "生年月日：1990年11月9日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2006年4月・卒業2009年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  },
+  {
+   "career_id": "C000511",
+   "new_start": "2019",
+   "new_end": "2022",
+   "source": "onishi",
+   "locator": "生年月日：2003年10月25日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2019年4月・卒業2022年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  },
+  {
+   "career_id": "C000369",
+   "new_start": "2011",
+   "new_end": "2014",
+   "source": "baba",
+   "locator": "生年月日：1995年11月7日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2011年4月・卒業2014年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  },
+  {
+   "career_id": "C000372",
+   "new_start": "2012",
+   "new_end": "2015",
+   "source": "sasaki",
+   "locator": "生年月日：1996年5月2日",
+   "reason": "生年月日から日本の学年制（4月2日〜翌年4月1日生まれが同学年）で、高校入学2012年4月・卒業2015年3月と算出した推定値",
+   "note": "推定値：生年月日から日本の学年制で算出（Yuichiの方針 2026-10-25、2026-11-21に再指示）。資料で確認した期間ではない"
+  }
+ ],
+ "holds": [
+  {
+   "name": "渡邊雄太・田臥勇太・富永啓生",
+   "description": "Masterに生年月日がなく、海外の学校（大学）にも在籍しているため、2026-10-25の方針（海外の学校に通った選手は対象外）により推定しない",
+   "next_check": "方針を変える場合に再検討"
+  },
+  {
+   "name": "當山修梧・星賀舞也・岡本汰稀・岩下周介・カマレ ムレマ フランシス",
+   "description": "Masterに生年月日がなく、今回は生年月日を調べていないため推定しない（福岡第一高校パイロットで登録した大学生。B.LEAGUE公式プロフィールがない）",
+   "next_check": "大学公式等で生年月日を確認"
+  },
+  {
+   "name": "海外の学校に通った選手（34名）",
+   "description": "2026-10-25の方針で対象外（今回も維持、2026-11-21 Yuichiの選択）",
+   "next_check": ""
+  }
+ ]
+}
