@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { baseOpenGraph, SiteBreadcrumb, SiteFooter, SiteHeader } from '../seo';
 import { buildRanking, leagueLabel, RANKING_META, type RankingKind } from './ranking-data';
 import { buildRouteRanking, ROUTE_PATH, ROUTE_TITLE } from './route-data';
+import { buildExtraRanking, EXTRA_RANKING_IDS } from './extra-rankings';
 import { buildOneClubRanking, ONE_CLUB_PATH, ONE_CLUB_TITLE, oneClubPlayerCount } from './one-club-data';
 
 const title = 'ランキング';
@@ -72,6 +73,15 @@ export default function RankingsIndexPage() {
                 .join('・')}
             </div>
           </a>
+          {EXTRA_RANKING_IDS.map((id) => {
+            const ranking = buildExtraRanking(id);
+            return (
+              <a href={ranking.path} key={id} className="jbaListB-row jbaListB-rankIndexGrid">
+                <div className="jbaListB-rowName">{ranking.title}</div>
+                <div className="jbaListB-rowMuted">{ranking.indexSummary}</div>
+              </a>
+            );
+          })}
         </div>
       </div>
 

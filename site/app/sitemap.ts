@@ -9,6 +9,7 @@ import {
 } from './public-data';
 import { isOrganizationIndexable } from './seo';
 import { siteUrl } from './site-url';
+import { EXTRA_RANKING_PATHS } from './rankings/extra-rankings';
 
 const baseUrl = siteUrl;
 
@@ -40,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
 
   return [
-    ...['', '/players', '/organizations', '/rankings', '/rankings/premier-high-school', '/rankings/premier-university', '/rankings/bone-high-school', '/rankings/bone-university', '/rankings/high-school', '/rankings/university', '/rankings/high-school-to-university', '/rankings/one-club'].map(
+    ...['', '/players', '/organizations', '/rankings', '/rankings/premier-high-school', '/rankings/premier-university', '/rankings/bone-high-school', '/rankings/bone-university', '/rankings/high-school', '/rankings/university', '/rankings/high-school-to-university', '/rankings/one-club', ...Object.values(EXTRA_RANKING_PATHS)].map(
       (path) => ({ url: `${baseUrl}${path}`, lastModified: dataUpdatedAt }),
     ),
     { url: `${baseUrl}/about`, lastModified: ABOUT_UPDATED_AT },
