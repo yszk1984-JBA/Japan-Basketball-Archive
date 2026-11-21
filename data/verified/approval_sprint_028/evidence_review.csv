@@ -1,0 +1,253 @@
+record_id,entity_type,entity_id,field_name,candidate_value,source_id,source_locator,evidence_summary,assessment,checked_at,issue_note
+B43W1E0001,Career,C002891,organization_id,ORG000569,B43W1S0001,本文 > 「1993年4月、横浜市立大道中学校に入学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0002,Career,C002891,role,Player,B43W1S0001,本文 > 「1993年4月、横浜市立大道中学校に入学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0003,Career,C002892,organization_id,ORG000570,B43W1S0002,本文 > 「|中学校=南砺市立福野中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0004,Career,C002892,role,Player,B43W1S0002,本文 > 「|中学校=南砺市立福野中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0005,Career,C002893,organization_id,ORG000571,B43W1S0003,本文 > 「コザ中学校から福岡第一高校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0006,Career,C002893,role,Player,B43W1S0003,本文 > 「コザ中学校から福岡第一高校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0007,Career,C002894,organization_id,ORG000572,B43W1S0004,本文 > 「|中学校=神戸市立長峰中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0008,Career,C002894,role,Player,B43W1S0004,本文 > 「|中学校=神戸市立長峰中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0009,Career,C002895,organization_id,ORG000573,B43W1S0005,本文 > 「那珂川町立那珂川南中学校（現：那珂川市立那珂川南中学校）」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0010,Career,C002895,role,Player,B43W1S0005,本文 > 「那珂川町立那珂川南中学校（現：那珂川市立那珂川南中学校）」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0011,Career,C002896,organization_id,ORG000574,B43W1S0006,本文 > 「|中学校=仙北市立角館中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0012,Career,C002896,role,Player,B43W1S0006,本文 > 「|中学校=仙北市立角館中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0013,Career,C002897,organization_id,ORG000575,B43W1S0007,本文 > 「|中学校=福岡市立百道中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0014,Career,C002897,role,Player,B43W1S0007,本文 > 「|中学校=福岡市立百道中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0015,Career,C002898,organization_id,ORG000576,B43W1S0008,本文 > 「2005年3月、名護市立屋部中学校2年時に」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0016,Career,C002898,role,Player,B43W1S0008,本文 > 「2005年3月、名護市立屋部中学校2年時に」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0017,Career,C002899,organization_id,ORG000577,B43W1S0009,本文 > 「|中学校=羽曳野市立高鷲中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0018,Career,C002899,role,Player,B43W1S0009,本文 > 「|中学校=羽曳野市立高鷲中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0019,Career,C002900,organization_id,ORG000578,B43W1S0010,本文 > 「| 中学校 = 高松市立牟礼中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0020,Career,C002900,role,Player,B43W1S0010,本文 > 「| 中学校 = 高松市立牟礼中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0021,Career,C002901,organization_id,ORG000579,B43W1S0011,本文 > 「飯塚市立庄内小学校、福岡市立春吉中学校を経て、福岡第一高校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0022,Career,C002901,role,Player,B43W1S0011,本文 > 「飯塚市立庄内小学校、福岡市立春吉中学校を経て、福岡第一高校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0023,Career,C002902,organization_id,ORG000580,B43W1S0012,本文 > 「| 中学校 = 富山市立奥田中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0024,Career,C002902,role,Player,B43W1S0012,本文 > 「| 中学校 = 富山市立奥田中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0025,Career,C002903,organization_id,ORG000581,B43W1S0013,本文 > 「白石町立有明中学校在学中の2006年には」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0026,Career,C002903,role,Player,B43W1S0013,本文 > 「白石町立有明中学校在学中の2006年には」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0027,Career,C002904,organization_id,ORG000580,B43W1S0014,本文 > 「|中学校 = 富山市立奥田中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0028,Career,C002904,role,Player,B43W1S0014,本文 > 「|中学校 = 富山市立奥田中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0029,Career,C002905,organization_id,ORG000582,B43W1S0015,本文 > 「世田谷区立梅丘中学校- 福岡大学附属大濠高等学校 - 筑波大学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0030,Career,C002905,role,Player,B43W1S0015,本文 > 「世田谷区立梅丘中学校- 福岡大学附属大濠高等学校 - 筑波大学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0031,Career,C002906,organization_id,ORG000524,B43W1S0016,本文 > 「沖縄市立コザ中学校 - 福岡第一高校 - 専修大学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0032,Career,C002906,role,Player,B43W1S0016,本文 > 「沖縄市立コザ中学校 - 福岡第一高校 - 専修大学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0033,Career,C002907,organization_id,ORG000583,B43W1S0017,本文 > 「柳井市立新庄小学校、柳井市立柳井中学校卒業」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0034,Career,C002907,role,Player,B43W1S0017,本文 > 「柳井市立新庄小学校、柳井市立柳井中学校卒業」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0035,Career,C002908,organization_id,ORG000584,B43W1S0018,本文 > 「川崎市立白鳥中学校 - 桐光学園 - 明治大学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0036,Career,C002908,role,Player,B43W1S0018,本文 > 「川崎市立白鳥中学校 - 桐光学園 - 明治大学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0037,Career,C002909,organization_id,ORG000585,B43W1S0019,本文 > 「春日井市立岩成台中学校から桜丘高等学校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0038,Career,C002909,role,Player,B43W1S0019,本文 > 「春日井市立岩成台中学校から桜丘高等学校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0039,Career,C002910,organization_id,ORG000586,B43W1S0020,本文 > 「海陽町立海陽中学校では全国大会に縁がなかった」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0040,Career,C002910,role,Player,B43W1S0020,本文 > 「海陽町立海陽中学校では全国大会に縁がなかった」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0041,Career,C002911,organization_id,ORG000525,B43W1S0021,本文 > 「|中学校=福岡市立西福岡中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0042,Career,C002911,role,Player,B43W1S0021,本文 > 「|中学校=福岡市立西福岡中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0043,Career,C002912,organization_id,ORG000525,B43W1S0022,本文 > 「中学校は福岡市立西福岡中学校 (福岡県) に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0044,Career,C002912,role,Player,B43W1S0022,本文 > 「中学校は福岡市立西福岡中学校 (福岡県) に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0045,Career,C002913,organization_id,ORG000571,B43W1S0023,本文 > 「コザ中学校から福岡第一高校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0046,Career,C002913,role,Player,B43W1S0023,本文 > 「コザ中学校から福岡第一高校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0047,Career,C002914,organization_id,ORG000587,B43W1S0024,本文 > 「| 中学校 = 吹田市立佐井寺中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0048,Career,C002914,role,Player,B43W1S0024,本文 > 「| 中学校 = 吹田市立佐井寺中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0049,Career,C002915,organization_id,ORG000588,B43W1S0025,本文 > 「|中学校=福岡市立友泉中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0050,Career,C002915,role,Player,B43W1S0025,本文 > 「|中学校=福岡市立友泉中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0051,Career,C002916,organization_id,ORG000536,B43W1S0026,本文 > 「|中学校=野々市市立布水中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0052,Career,C002916,role,Player,B43W1S0026,本文 > 「|中学校=野々市市立布水中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0053,Career,C002917,organization_id,ORG000589,B43W1S0027,本文 > 「佐世保市立日野中学校 - 東山高等学校 - 日本大学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0054,Career,C002917,role,Player,B43W1S0027,本文 > 「佐世保市立日野中学校 - 東山高等学校 - 日本大学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0055,Career,C002918,organization_id,ORG000590,B43W1S0028,本文 > 「2011年4月、青森山田中学校に入学 / 中学2年時に弘前市立津軽中学校に転校する」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0056,Career,C002918,role,Player,B43W1S0028,本文 > 「2011年4月、青森山田中学校に入学 / 中学2年時に弘前市立津軽中学校に転校する」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0057,Career,C002919,organization_id,ORG000591,B43W1S0028,本文 > 「2011年4月、青森山田中学校に入学 / 中学2年時に弘前市立津軽中学校に転校する」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0058,Career,C002919,role,Player,B43W1S0028,本文 > 「2011年4月、青森山田中学校に入学 / 中学2年時に弘前市立津軽中学校に転校する」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0059,Career,C002920,organization_id,ORG000582,B43W1S0029,本文 > 「世田谷区立梅丘中学校ではキャプテンとして」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0060,Career,C002920,role,Player,B43W1S0029,本文 > 「世田谷区立梅丘中学校ではキャプテンとして」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0061,Career,C002921,organization_id,ORG000592,B43W1S0030,本文 > 「|中学校=枚方市立長尾西中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0062,Career,C002921,role,Player,B43W1S0030,本文 > 「|中学校=枚方市立長尾西中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0063,Career,C002922,organization_id,ORG000593,B43W1S0031,本文 > 「広島市立古田中学校から福岡大学附属大濠高等学校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0064,Career,C002922,role,Player,B43W1S0031,本文 > 「広島市立古田中学校から福岡大学附属大濠高等学校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0065,Career,C002923,organization_id,ORG000594,B43W1S0032,本文 > 「中学校は地元の京都市立山科中学校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0066,Career,C002923,role,Player,B43W1S0032,本文 > 「中学校は地元の京都市立山科中学校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0067,Career,C002924,organization_id,ORG000595,B43W1S0033,本文 > 「八千代松陰中学校に入学し / 柏市立土中学校在学時は千葉ジェッツふなばしのU-15チーム」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0068,Career,C002924,role,Player,B43W1S0033,本文 > 「八千代松陰中学校に入学し / 柏市立土中学校在学時は千葉ジェッツふなばしのU-15チーム」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0069,Career,C002925,organization_id,ORG000596,B43W1S0033,本文 > 「八千代松陰中学校に入学し / 柏市立土中学校在学時は千葉ジェッツふなばしのU-15チーム」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0070,Career,C002925,role,Player,B43W1S0033,本文 > 「八千代松陰中学校に入学し / 柏市立土中学校在学時は千葉ジェッツふなばしのU-15チーム」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0071,Career,C002926,organization_id,ORG000597,B43W1S0034,本文 > 「神戸市立本山南中学校では3年時の2021年に」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0072,Career,C002926,role,Player,B43W1S0034,本文 > 「神戸市立本山南中学校では3年時の2021年に」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0073,Career,C002927,organization_id,ORG000598,B43W1S0035,本文 > 「宇都宮市立鬼怒中学校、洛南高等学校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0074,Career,C002927,role,Player,B43W1S0035,本文 > 「宇都宮市立鬼怒中学校、洛南高等学校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0075,Career,C002928,organization_id,ORG000599,B43W1S0036,本文 > 「那覇市立金城中学校に在籍しながら」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0076,Career,C002928,role,Player,B43W1S0036,本文 > 「那覇市立金城中学校に在籍しながら」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0077,Career,C002929,organization_id,ORG000600,B43W1S0037,本文 > 「菅生中学校、桐光学園高校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0078,Career,C002929,role,Player,B43W1S0037,本文 > 「菅生中学校、桐光学園高校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0079,Career,C002930,organization_id,ORG000601,B43W1S0038,本文 > 「帯広大空中学校、北陸高校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0080,Career,C002930,role,Player,B43W1S0038,本文 > 「帯広大空中学校、北陸高校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0081,Career,C002931,organization_id,ORG000602,B43W1S0039,本文 > 「|中学校=横浜市立旭中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0082,Career,C002931,role,Player,B43W1S0039,本文 > 「|中学校=横浜市立旭中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0083,Career,C002932,organization_id,ORG000603,B43W1S0040,本文 > 「|中学校=習志野市立第五中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0084,Career,C002932,role,Player,B43W1S0040,本文 > 「|中学校=習志野市立第五中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0085,Career,C002933,organization_id,ORG000604,B43W1S0041,本文 > 「朱雀第一小学校、中京中学校、東山高校から」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0086,Career,C002933,role,Player,B43W1S0041,本文 > 「朱雀第一小学校、中京中学校、東山高校から」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0087,Career,C002934,organization_id,ORG000605,B43W1S0042,本文 > 「松江市立湖東中学校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0088,Career,C002934,role,Player,B43W1S0042,本文 > 「松江市立湖東中学校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0089,Career,C002935,organization_id,ORG000606,B43W1S0043,本文 > 「中学は井手町立泉ヶ丘中学校に入学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0090,Career,C002935,role,Player,B43W1S0043,本文 > 「中学は井手町立泉ヶ丘中学校に入学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0091,Career,C002936,organization_id,ORG000607,B43W1S0044,本文 > 「|中学校=七尾市立七尾東部中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0092,Career,C002936,role,Player,B43W1S0044,本文 > 「|中学校=七尾市立七尾東部中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0093,Career,C002937,organization_id,ORG000608,B43W1S0045,本文 > 「|中学校=八街市立八街中央中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0094,Career,C002937,role,Player,B43W1S0045,本文 > 「|中学校=八街市立八街中央中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0095,Career,C002938,organization_id,ORG000609,B43W1S0046,本文 > 「進学した港南中学校の監督が」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0096,Career,C002938,role,Player,B43W1S0046,本文 > 「進学した港南中学校の監督が」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0097,Career,C002939,organization_id,ORG000610,B43W1S0047,本文 > 「|中学校 = 厚木市立厚木中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0098,Career,C002939,role,Player,B43W1S0047,本文 > 「|中学校 = 厚木市立厚木中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0099,Career,C002940,organization_id,ORG000611,B43W1S0048,本文 > 「| 中学校 = 新潟市立舟栄中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0100,Career,C002940,role,Player,B43W1S0048,本文 > 「| 中学校 = 新潟市立舟栄中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0101,Career,C002941,organization_id,ORG000612,B43W1S0049,本文 > 「|中学校=福井市明道中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0102,Career,C002941,role,Player,B43W1S0049,本文 > 「|中学校=福井市明道中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0103,Career,C002942,organization_id,ORG000613,B43W1S0050,本文 > 「北見市立小泉中学校卒業後、藤枝明誠高校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0104,Career,C002942,role,Player,B43W1S0050,本文 > 「北見市立小泉中学校卒業後、藤枝明誠高校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0105,Career,C002943,organization_id,ORG000614,B43W1S0051,本文 > 「|中学校=船橋中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0106,Career,C002943,role,Player,B43W1S0051,本文 > 「|中学校=船橋中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0107,Career,C002944,organization_id,ORG000615,B43W1S0052,本文 > 「|中学校=浜田市立第一中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0108,Career,C002944,role,Player,B43W1S0052,本文 > 「|中学校=浜田市立第一中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0109,Career,C002945,organization_id,ORG000616,B43W1S0053,本文 > 「津軽中学校でバスケットボール部に所属」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0110,Career,C002945,role,Player,B43W1S0053,本文 > 「津軽中学校でバスケットボール部に所属」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0111,Career,C002946,organization_id,ORG000617,B43W1S0054,本文 > 「横浜市立下瀬谷中学校出身」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0112,Career,C002946,role,Player,B43W1S0054,本文 > 「横浜市立下瀬谷中学校出身」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0113,Career,C002947,organization_id,ORG000618,B43W1S0055,本文 > 「|中学校=横浜市立上飯田中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0114,Career,C002947,role,Player,B43W1S0055,本文 > 「|中学校=横浜市立上飯田中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0115,Career,C002948,organization_id,ORG000619,B43W1S0056,本文 > 「|中学校=上尾市立大石中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0116,Career,C002948,role,Player,B43W1S0056,本文 > 「|中学校=上尾市立大石中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0117,Career,C002949,organization_id,ORG000620,B43W1S0057,本文 > 「|中学校=横浜市立岡村中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0118,Career,C002949,role,Player,B43W1S0057,本文 > 「|中学校=横浜市立岡村中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0119,Career,C002950,organization_id,ORG000621,B43W1S0058,本文 > 「|中学校=丸亀市立東中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0120,Career,C002950,role,Player,B43W1S0058,本文 > 「|中学校=丸亀市立東中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0121,Career,C002951,organization_id,ORG000622,B43W1S0059,本文 > 「光風中学校卒業」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0122,Career,C002951,role,Player,B43W1S0059,本文 > 「光風中学校卒業」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0123,Career,C002952,organization_id,ORG000619,B43W1S0060,本文 > 「上尾市立大石中学校卒業後、前橋育英高校へ入学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0124,Career,C002952,role,Player,B43W1S0060,本文 > 「上尾市立大石中学校卒業後、前橋育英高校へ入学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0125,Career,C002953,organization_id,ORG000623,B43W1S0061,本文 > 「浜松学院中学校時代にはいずれも全国大会に出場」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0126,Career,C002953,role,Player,B43W1S0061,本文 > 「浜松学院中学校時代にはいずれも全国大会に出場」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0127,Career,C002954,organization_id,ORG000624,B43W1S0062,本文 > 「朝日町立朝日中学校 - 富山県立泊高等学校 - 青山学院大学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0128,Career,C002954,role,Player,B43W1S0062,本文 > 「朝日町立朝日中学校 - 富山県立泊高等学校 - 青山学院大学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0129,Career,C002955,organization_id,ORG000625,B43W1S0063,本文 > 「|中学校=川崎市立西中原中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0130,Career,C002955,role,Player,B43W1S0063,本文 > 「|中学校=川崎市立西中原中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0131,Career,C002956,organization_id,ORG000626,B43W1S0064,本文 > 「* 山内中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0132,Career,C002956,role,Player,B43W1S0064,本文 > 「* 山内中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0133,Career,C002957,organization_id,ORG000627,B43W1S0065,本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0134,Career,C002957,role,Player,B43W1S0065,本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0135,Career,C002958,organization_id,ORG000628,B43W1S0065,本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0136,Career,C002958,role,Player,B43W1S0065,本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0137,Career,C002959,organization_id,ORG000629,B43W1S0066,本文 > 「|中学校=一関市立萩荘中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0138,Career,C002959,role,Player,B43W1S0066,本文 > 「|中学校=一関市立萩荘中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0139,Career,C002960,organization_id,ORG000630,B43W1S0067,本文 > 「|中学校=船橋市立前原中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0140,Career,C002960,role,Player,B43W1S0067,本文 > 「|中学校=船橋市立前原中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0141,Career,C002961,organization_id,ORG000631,B43W1S0068,本文 > 「|中学校 = 船橋市立高根台中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0142,Career,C002961,role,Player,B43W1S0068,本文 > 「|中学校 = 船橋市立高根台中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0143,Career,C002962,organization_id,ORG000632,B43W1S0069,本文 > 「|中学校=上尾市立原市中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0144,Career,C002962,role,Player,B43W1S0069,本文 > 「|中学校=上尾市立原市中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0145,Career,C002963,organization_id,ORG000633,B43W1S0070,本文 > 「|中学校=広島市立国泰寺中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0146,Career,C002963,role,Player,B43W1S0070,本文 > 「|中学校=広島市立国泰寺中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0147,Career,C002964,organization_id,ORG000634,B43W1S0071,本文 > 「横浜市立本牧中学校を卒業後、横浜清風高等学校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0148,Career,C002964,role,Player,B43W1S0071,本文 > 「横浜市立本牧中学校を卒業後、横浜清風高等学校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0149,Career,C002965,organization_id,ORG000635,B43W1S0072,本文 > 「* 東海大学付属第四高等学校中等部」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0150,Career,C002965,role,Player,B43W1S0072,本文 > 「* 東海大学付属第四高等学校中等部」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0151,Career,C002966,organization_id,ORG000636,B43W1S0073,本文 > 「岡三沢小学校から堀口中学校へ進む」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0152,Career,C002966,role,Player,B43W1S0073,本文 > 「岡三沢小学校から堀口中学校へ進む」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0153,Career,C002967,organization_id,ORG000637,B43W1S0074,本文 > 「熊本市立東町中学校では3年時に主将として」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0154,Career,C002967,role,Player,B43W1S0074,本文 > 「熊本市立東町中学校では3年時に主将として」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0155,Career,C002968,organization_id,ORG000638,B43W1S0075,本文 > 「|中学校=鹿児島市立緑丘中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0156,Career,C002968,role,Player,B43W1S0075,本文 > 「|中学校=鹿児島市立緑丘中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0157,Career,C002969,organization_id,ORG000639,B43W1S0076,本文 > 「| 中学校 = 大津市立南郷中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0158,Career,C002969,role,Player,B43W1S0076,本文 > 「| 中学校 = 大津市立南郷中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0159,Career,C002970,organization_id,ORG000640,B43W1S0077,本文 > 「北谷町立北谷中学校を卒業後、福岡大学附属大濠高校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0160,Career,C002970,role,Player,B43W1S0077,本文 > 「北谷町立北谷中学校を卒業後、福岡大学附属大濠高校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0161,Career,C002971,organization_id,ORG000641,B43W1S0078,本文 > 「|中学校={{Flagicon|JPN}} 筑紫野市立筑紫野中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0162,Career,C002971,role,Player,B43W1S0078,本文 > 「|中学校={{Flagicon|JPN}} 筑紫野市立筑紫野中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0163,Career,C002972,organization_id,ORG000619,B43W1S0079,本文 > 「|中学校=上尾市立大石中学校 / 中2の時、上尾市立大石中学校に転校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0164,Career,C002972,role,Player,B43W1S0079,本文 > 「|中学校=上尾市立大石中学校 / 中2の時、上尾市立大石中学校に転校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0165,Career,C002973,organization_id,ORG000642,B43W1S0080,本文 > 「鹿沼市立西中学校から正智深谷高校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0166,Career,C002973,role,Player,B43W1S0080,本文 > 「鹿沼市立西中学校から正智深谷高校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0167,Career,C002974,organization_id,ORG000643,B43W1S0081,本文 > 「松戸市立第一中学校では千葉ジェッツのユースチームに所属」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0168,Career,C002974,role,Player,B43W1S0081,本文 > 「松戸市立第一中学校では千葉ジェッツのユースチームに所属」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0169,Career,C002975,organization_id,ORG000644,B43W1S0082,本文 > 「|中学校=仙台市立南光台中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0170,Career,C002975,role,Player,B43W1S0082,本文 > 「|中学校=仙台市立南光台中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0171,Career,C002976,organization_id,ORG000645,B43W1S0083,本文 > 「|中学校 = 雫石町立雫石中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0172,Career,C002976,role,Player,B43W1S0083,本文 > 「|中学校 = 雫石町立雫石中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0173,Career,C002977,organization_id,ORG000646,B43W1S0084,本文 > 「花巻市立石鳥谷中学校、能代工業高から拓殖大学に入学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0174,Career,C002977,role,Player,B43W1S0084,本文 > 「花巻市立石鳥谷中学校、能代工業高から拓殖大学に入学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0175,Career,C002978,organization_id,ORG000635,B43W1S0085,本文 > 「* 東海大学付属第四高等学校中等部」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0176,Career,C002978,role,Player,B43W1S0085,本文 > 「* 東海大学付属第四高等学校中等部」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0177,Career,C002979,organization_id,ORG000647,B43W1S0086,本文 > 「|中学校 = 小田原市立城山中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0178,Career,C002979,role,Player,B43W1S0086,本文 > 「|中学校 = 小田原市立城山中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0179,Career,C002980,organization_id,ORG000648,B43W1S0087,本文 > 「|中学校=福井市進明中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0180,Career,C002980,role,Player,B43W1S0087,本文 > 「|中学校=福井市進明中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0181,Career,C002981,organization_id,ORG000649,B43W1S0088,本文 > 「|中学校 = 長岡市立東北中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0182,Career,C002981,role,Player,B43W1S0088,本文 > 「|中学校 = 長岡市立東北中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0183,Career,C002982,organization_id,ORG000650,B43W1S0089,本文 > 「加賀市立錦城中学校 - 金沢高等学校 - 青山学院大学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0184,Career,C002982,role,Player,B43W1S0089,本文 > 「加賀市立錦城中学校 - 金沢高等学校 - 青山学院大学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0185,Career,C002983,organization_id,ORG000651,B43W1S0090,本文 > 「浜脇小学校、浜脇中学校と西宮の地元で育つ」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0186,Career,C002983,role,Player,B43W1S0090,本文 > 「浜脇小学校、浜脇中学校と西宮の地元で育つ」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0187,Career,C002984,organization_id,ORG000652,B43W1S0091,本文 > 「宇都宮市立雀宮中学校へ進学するために、母と共に宇都宮市に転居する」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0188,Career,C002984,role,Player,B43W1S0091,本文 > 「宇都宮市立雀宮中学校へ進学するために、母と共に宇都宮市に転居する」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0189,Career,C002985,organization_id,ORG000653,B43W1S0092,本文 > 「|中学校= 函館市立湯川中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0190,Career,C002985,role,Player,B43W1S0092,本文 > 「|中学校= 函館市立湯川中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0191,Career,C002986,organization_id,ORG000654,B43W1S0093,本文 > 「| 中学校 = 一関市立桜町中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0192,Career,C002986,role,Player,B43W1S0093,本文 > 「| 中学校 = 一関市立桜町中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0193,Career,C002987,organization_id,ORG000655,B43W1S0094,本文 > 「| 中学校 = 静岡市立清水袖師中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0194,Career,C002987,role,Player,B43W1S0094,本文 > 「| 中学校 = 静岡市立清水袖師中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0195,Career,C002988,organization_id,ORG000656,B43W1S0095,本文 > 「|中学校=神谷中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0196,Career,C002988,role,Player,B43W1S0095,本文 > 「|中学校=神谷中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0197,Career,C002989,organization_id,ORG000657,B43W1S0096,本文 > 「|中学校=麻布中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0198,Career,C002989,role,Player,B43W1S0096,本文 > 「|中学校=麻布中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0199,Career,C002990,organization_id,ORG000658,B43W1S0097,本文 > 「上越市立直江津東中学校（1993 - 1995）」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0200,Career,C002990,role,Player,B43W1S0097,本文 > 「上越市立直江津東中学校（1993 - 1995）」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0201,Career,C002991,organization_id,ORG000659,B43W1S0098,本文 > 「常陸太田市立太田中学校、水戸商業高を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0202,Career,C002991,role,Player,B43W1S0098,本文 > 「常陸太田市立太田中学校、水戸商業高を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0203,Career,C002992,organization_id,ORG000660,B43W1S0099,本文 > 「穴水町立穴水中学校、金沢市立工業高等学校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0204,Career,C002992,role,Player,B43W1S0099,本文 > 「穴水町立穴水中学校、金沢市立工業高等学校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0205,Career,C002993,organization_id,ORG000661,B43W1S0100,本文 > 「| 中学校 = 南風原町立南星中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0206,Career,C002993,role,Player,B43W1S0100,本文 > 「| 中学校 = 南風原町立南星中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0207,Career,C002994,organization_id,ORG000662,B43W1S0101,本文 > 「広島市立仁保小学校・広島市立段原中学校・如水館高等学校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0208,Career,C002994,role,Player,B43W1S0101,本文 > 「広島市立仁保小学校・広島市立段原中学校・如水館高等学校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0209,Career,C002995,organization_id,ORG000663,B43W1S0102,本文 > 「糸満市立西崎中学校から沖縄県立小禄高等学校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0210,Career,C002995,role,Player,B43W1S0102,本文 > 「糸満市立西崎中学校から沖縄県立小禄高等学校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0211,Career,C002996,organization_id,ORG000664,B43W1S0103,本文 > 「薩摩川内市立川内中央中学校から鹿児島県立川内高等学校へ進み」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0212,Career,C002996,role,Player,B43W1S0103,本文 > 「薩摩川内市立川内中央中学校から鹿児島県立川内高等学校へ進み」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）
+B43W1E0213,Career,C002997,organization_id,ORG000665,B43W1S0104,本文 > 「|中学校=高知市立西部中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0214,Career,C002997,role,Player,B43W1S0104,本文 > 「|中学校=高知市立西部中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0215,Career,C002998,organization_id,ORG000666,B43W1S0105,本文 > 「|中学校=立教新座中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0216,Career,C002998,role,Player,B43W1S0105,本文 > 「|中学校=立教新座中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0217,Career,C002999,organization_id,ORG000667,B43W1S0106,本文 > 「| 中学校 = 小矢部市立石動中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0218,Career,C002999,role,Player,B43W1S0106,本文 > 「| 中学校 = 小矢部市立石動中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0219,Career,C003000,organization_id,ORG000575,B43W1S0107,本文 > 「* 福岡市立百道中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0220,Career,C003000,role,Player,B43W1S0107,本文 > 「* 福岡市立百道中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0221,Career,C003001,organization_id,ORG000668,B43W1S0108,本文 > 「京北中学校・高校に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0222,Career,C003001,role,Player,B43W1S0108,本文 > 「京北中学校・高校に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0223,Career,C003002,organization_id,ORG000669,B43W1S0109,本文 > 「本郷中学校、宮崎工業高校を経て」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0224,Career,C003002,role,Player,B43W1S0109,本文 > 「本郷中学校、宮崎工業高校を経て」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0225,Career,C003003,organization_id,ORG000670,B43W1S0110,本文 > 「|中学校=越谷市立中央中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0226,Career,C003003,role,Player,B43W1S0110,本文 > 「|中学校=越谷市立中央中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0227,Career,C003004,organization_id,ORG000569,B43W1S0111,本文 > 「横浜市立大道中学校、北陸高校を経て筑波大学に進学」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0228,Career,C003004,role,Player,B43W1S0111,本文 > 「横浜市立大道中学校、北陸高校を経て筑波大学に進学」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0229,Career,C003005,organization_id,ORG000671,B43W1S0112,本文 > 「|中学校=秋田市立山王中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0230,Career,C003005,role,Player,B43W1S0112,本文 > 「|中学校=秋田市立山王中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0231,Career,C003006,organization_id,ORG000672,B43W1S0113,本文 > 「|中学校=渋谷教育学園渋谷中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0232,Career,C003006,role,Player,B43W1S0113,本文 > 「|中学校=渋谷教育学園渋谷中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0233,Career,C003007,organization_id,ORG000673,B43W1S0114,本文 > 「甲南中学校・高等学校を経て、東海大学を卒業」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0234,Career,C003007,role,Player,B43W1S0114,本文 > 「甲南中学校・高等学校を経て、東海大学を卒業」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0235,Career,C003008,organization_id,ORG000674,B43W1S0115,本文 > 「|中学校=寝屋川市立第三中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0236,Career,C003008,role,Player,B43W1S0115,本文 > 「|中学校=寝屋川市立第三中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0237,Career,C003009,organization_id,ORG000675,B43W1S0116,本文 > 「二宮町立二宮西中学校、神奈川県立秦野南が丘高等学校時代は」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0238,Career,C003009,role,Player,B43W1S0116,本文 > 「二宮町立二宮西中学校、神奈川県立秦野南が丘高等学校時代は」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0239,Career,C003010,organization_id,ORG000676,B43W1S0117,本文 > 「|中学校=札幌市立八条中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0240,Career,C003010,role,Player,B43W1S0117,本文 > 「|中学校=札幌市立八条中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0241,Career,C003011,organization_id,ORG000677,B43W1S0118,本文 > 「|中学校=鹿児島市立坂元中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0242,Career,C003011,role,Player,B43W1S0118,本文 > 「|中学校=鹿児島市立坂元中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0243,Career,C003012,organization_id,ORG000678,B43W1S0119,本文 > 「旭川市立北門中学校、札幌日本大学高等学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0244,Career,C003012,role,Player,B43W1S0119,本文 > 「旭川市立北門中学校、札幌日本大学高等学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0245,Career,C003013,organization_id,ORG000679,B43W1S0120,本文 > 「* 北九州市立木屋瀬中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0246,Career,C003013,role,Player,B43W1S0120,本文 > 「* 北九州市立木屋瀬中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0247,Career,C003014,organization_id,ORG000580,B43W1S0121,本文 > 「|中学校=富山市立奥田中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0248,Career,C003014,role,Player,B43W1S0121,本文 > 「|中学校=富山市立奥田中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0249,Career,C003015,organization_id,ORG000680,B43W1S0122,本文 > 「|中学校=東海市立上野中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0250,Career,C003015,role,Player,B43W1S0122,本文 > 「|中学校=東海市立上野中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0251,Career,C003016,organization_id,ORG000681,B43W1S0123,本文 > 「|中学校=米子市立東山中学校」,Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
+B43W1E0252,Career,C003016,role,Player,B43W1S0123,本文 > 「|中学校=米子市立東山中学校」,選手としての所属,SUPPORTED,2026-11-21,公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）
