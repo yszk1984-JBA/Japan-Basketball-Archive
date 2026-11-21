@@ -1,0 +1,25 @@
+{
+  "batch": "042",
+  "sprint": "027",
+  "date": "2026-11-21",
+  "prefix": "B42W1",
+  "title": "B.PREMIER週次チェック（2026-11-21、11-16実施分）",
+  "tier": "Tier 2",
+  "tier_reason": "新規Personを含むため（Sprint 019・022・025・026と同じ扱い）",
+  "sources": {
+    "komatsu": {"title": "小松亮太 選手プロフィール", "publisher": "B.LEAGUE", "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000974"}
+  },
+  "new_persons": [
+    {"person_id": "P000570", "name": "小松 亮太", "birth_date": "2008-11-16", "source": "komatsu", "locator": "基本情報 > 生年月日2008年11月16日｜18歳"}
+  ],
+  "new_orgs": [],
+  "careers": [
+    {"career_id": "C002890", "person_id": "P000570", "organization_id": "ORG000137", "start": "2026", "end": "", "source": "komatsu",
+     "locator": "クラブ所属履歴 > 2026-27 秋田", "summary": "B.LEAGUE公式プロフィールのクラブ所属履歴（2026-27 秋田、在籍中）"}
+  ],
+  "corrections": [],
+  "holds": [
+    {"name": "小松 亮太", "description": "契約区分（ユース育成特別枠・特別指定など）がB.LEAGUE公式プロフィールに記載なし。記録しない", "next_check": "クラブ公式の契約発表で契約区分を確認"},
+    {"name": "小松 亮太", "description": "出身校（秋田中央高等学校／秋田ノーザンハピネッツU18）の在籍期間が記載なし。記録しない", "next_check": "クラブ公式・学校の資料で在籍期間を確認"}
+  ]
+}
