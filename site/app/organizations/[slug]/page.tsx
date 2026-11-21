@@ -38,18 +38,13 @@ function periodsAt(player: PublicPlayer, organizationId: string): string {
 }
 
 // 名簿の1行に添える関係情報。クラブページでは出身校、学校ページでは直近の所属クラブ。
-// クラブページ側は、中学・高校・大学を全部並べると名簿1行が長くなりすぎるため、
-// プロ入り直前の学校（＝schoolsOf()の末尾＝一番直近）だけを常時表示する。
-// 中学・高校を含む全履歴は、選手ページ（CAREER SNAPSHOT・SCHOOLMATES）で確認できる。
 function relationNote(player: PublicPlayer, organization: PublicOrganization, isSchool: boolean): string | null {
   if (isSchool) {
     const club = latestClubOf(player);
     return club && club.id !== organization.id ? `直近の所属：${organizationNames([club])}` : null;
   }
   const schools = schoolsOf(player).filter((school) => school.id !== organization.id);
-  if (schools.length === 0) return null;
-  const latestSchool = schools[schools.length - 1];
-  return `出身：${organizationNames([latestSchool])}`;
+  return schools.length > 0 ? `出身：${organizationNames(schools)}` : null;
 }
 
 // 「福岡第一高等学校（3人）、…」のような上位の要約（descriptionに使う）。
