@@ -9,6 +9,8 @@ export type TopSearchEntry = {
   readonly href: string;
   /** 候補の下に添える補足（選手は直近の所属、組織は在籍記録のある人数など）。 */
   readonly meta: string;
+  /** 英字表記など、日本語名の他に検索で一致させたい別名（任意）。 */
+  readonly altName?: string;
 };
 
 const MAX_RESULTS = 8;
@@ -30,7 +32,10 @@ export function TopSearch({ entries }: { entries: readonly TopSearchEntry[] }) {
     const scored = entries
       .map((entry) => {
         const name = normalizeSearchText(entry.name);
-        const index = name.indexOf(normalized);
+        const nameIndex = name.indexOf(normalized);
+        // 英字表記（例：「Yuki Kawamura」）が登録されている選手は、ローマ字入力でも一致させる。
+        const altIndex = entry.altName ? normalizeSearchText(entry.altName).indexOf(normalized) : -1;
+        const index = nameIndex >= 0 ? nameIndex : altIndex;
         return index < 0 ? null : { entry, rank: index === 0 ? 0 : 1 };
       })
       .filter((item): item is { entry: TopSearchEntry; rank: number } => item !== null);

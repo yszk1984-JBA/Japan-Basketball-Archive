@@ -532,6 +532,24 @@
   font-size: 13px;
 }
 
+/* --- 404ページ --- */
+.jbaListB-notFound {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+  align-items: center;
+}
+
+.jbaListB-notFound .jbaListB-topSearch {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.jbaListB-notFound .jbaListB-sectionLinks {
+  justify-content: center;
+}
+
 .jbaListB-note {
   font-size: 11px;
   color: #99A5B0;
@@ -878,49 +896,62 @@
   text-decoration: underline;
 }
 
-/* --- トップページ：注目選手カード --- */
-.jbaListB-cardGrid {
+/* --- トップページ：注目選手・オールスターのコンパクトカード ---
+   「クラブで探す」の.jbaListB-clubGrid/.jbaListB-clubCardと同じトークン（grid列数・カード
+   のpadding/角丸/影・ホバー演出）を踏襲し、情報密度をクラブカードに揃えている。
+   以前は1カード20pxパディング・縦積みで1枚あたり約230pxあり、モバイルでは注目選手20人分
+   だけで4,000px超のスクロールが必要だった。 */
+.jbaListB-spotlightGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
-.jbaListB-playerCard {
-  background: #FFFFFF;
-  border-radius: 16px;
-  padding: 20px;
-  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+.jbaListB-spotlightCard {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 18px;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
   text-decoration: none;
   color: #1A2330;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.jbaListB-playerCard:hover {
-  transform: translateY(-3px);
+.jbaListB-spotlightCard:hover {
+  transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(16, 24, 40, 0.1);
 }
 
-.jbaListB-cardIndex {
+.jbaListB-spotlightIndex {
+  flex-shrink: 0;
+  width: 18px;
   font-size: 11px;
   font-family: ui-monospace, monospace;
   color: #99A5B0;
 }
 
-.jbaListB-cardMeta {
-  margin: 10px 0 4px 0;
-  font-size: 11px;
-  font-weight: 700;
-  color: #1D5FD6;
+.jbaListB-spotlightBody {
+  min-width: 0;
 }
 
-.jbaListB-cardName {
-  margin: 0 0 8px 0;
-  font-size: 18px;
+.jbaListB-spotlightName {
+  font-size: 14px;
   font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jbaListB-spotlightMeta {
+  margin: 2px 0 0 0;
+  font-size: 11px;
+  color: #5B6B7A;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* --- トップページ：クラブで探す --- */
@@ -1419,13 +1450,13 @@ a.jbaListB-timelineOrg:hover {
     border-bottom: 1px solid #F0F2F4;
   }
 
-  .jbaListB-cardGrid,
   .jbaListB-principles,
   .jbaListB-factGrid {
     grid-template-columns: 1fr;
   }
 
-  .jbaListB-clubGrid {
+  .jbaListB-clubGrid,
+  .jbaListB-spotlightGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1567,8 +1598,25 @@ a.jbaListB-timelineOrg:hover {
 .jbaListB-ganttLegendSwatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
 .jbaListB-ganttLegendNote { margin-left: auto; }
 .jbaListB-ganttUndated { margin: 8px 0 0; font-size: 12px; color: #6B7A89; }
+/* モバイル幅では、ラベル列を狭めて年表自体はそのまま表示する（以前は非表示にし、下の縦の一覧
+   だけで読む仕様だったが、経歴が多い選手ほど「現在どこに所属しているか」の全体像をつかむのに
+   スクロールが必要だったため）。棒の中の期間テキストは幅が足りないため省略し、色分け＋凡例＋
+   下の縦の一覧（正確な年）で補う。 */
 @media (max-width: 640px) {
-  .jbaListB-gantt { display: none; }
+  .jbaListB-gantt {
+    padding: 12px 10px 10px;
+  }
+  .jbaListB-ganttAxis,
+  .jbaListB-ganttRow {
+    grid-template-columns: 84px 1fr;
+    gap: 6px;
+  }
+  .jbaListB-ganttRow { height: 26px; }
+  .jbaListB-ganttLabelCol { font-size: 10px; }
+  .jbaListB-ganttTick { font-size: 9px; }
+  .jbaListB-ganttBarText { display: none; }
+  .jbaListB-ganttLegend { font-size: 11px; gap: 10px; }
+  .jbaListB-ganttLegendNote { margin-left: 0; flex-basis: 100%; }
 }
 
 /* --- ランキング：モバイルでも1行（順位・校名・人数）のまま表示する --- */

@@ -5,7 +5,8 @@ import { organizationSlugFor, type PublicPlayer } from '../../public-data';
 // 選手詳細ページの横軸年表（B案：ガントチャート風、所属区分で色分け）。
 // 年が確認できたCareerだけを棒で描き、期間未確認のCareerは下に名前だけ並べる。
 // 在籍中（終了年なし）の棒は、表示時点のシーズン終了年まで伸ばす。
-// モバイル幅では非表示にし、下の縦の一覧で読む（site-b.css）。
+// モバイル幅ではラベル列を狭め、棒の中の期間テキストを省いたコンパクト表示にする
+// （以前は非表示にしていたが、全体像が掴めないため表示するよう変更。site-b.css参照）。
 
 type Career = PublicPlayer['careers'][number];
 

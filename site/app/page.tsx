@@ -1,11 +1,13 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import { ArrowRight, Database, School, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
-import { getHomepagePlayers, getOrganizationById, getOrganizationPlayers, getPrimaryCareer, organizations, organizationSlugFor, playerContext, players, sources } from './public-data';
+import { getCurrentCareer, getHomepagePlayers, getOrganizationById, getOrganizationPlayers, getPrimaryCareer, organizations, organizationSlugFor, playerContext, players, sources } from './public-data';
 import { TopSearch, type TopSearchEntry } from './TopSearch';
 import { BrandMark, JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { CLUB_COLORS, clubColor } from './club-colors';
+import { buildRanking } from './rankings/ranking-data';
+import { buildRouteRanking, ROUTE_PATH, ROUTE_TITLE } from './rankings/route-data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
@@ -29,12 +31,27 @@ export default function Home() {
   const premierClubs = clubs.filter((club) => club.league === 'PREMIER');
   const bOneClubs = clubs.filter((club) => club.league === 'B.ONE');
 
+  // トップページ用のランキング・ティーザー（出身高校・出身大学・高校→大学ルート、各上位3件）。
+  // 集計ロジック本体は/rankingsと同じbuildRanking/buildRouteRankingを再利用している。
+  const topHighSchools = buildRanking('high-school')
+    .slice(0, 3)
+    .map((row) => `${row.rank}位 ${row.name}（${row.active}人）`)
+    .join('・');
+  const topUniversities = buildRanking('university')
+    .slice(0, 3)
+    .map((row) => `${row.rank}位 ${row.name}（${row.active}人）`)
+    .join('・');
+  const topRoutes = buildRouteRanking()
+    .slice(0, 3)
+    .map((row) => `${row.rank}位 ${row.highSchool.name}→${row.university.name}（${row.players.length}人）`)
+    .join('・');
+
   const allStarPlayers = ALL_STAR_2026.entries
     .map((entry) => {
       const player = players.find((candidate) => candidate.id === entry.playerId);
       if (!player) return null;
       const career = getPrimaryCareer(player);
-      return { entry, player, org: career?.organization ?? null, orgId: career?.organizationId };
+      return { entry, player, orgId: career?.organizationId };
     })
     .filter((row): row is NonNullable<typeof row> => row !== null);
 
@@ -45,6 +62,8 @@ export default function Home() {
       name: player.name,
       href: `/players/${player.slug}`,
       meta: getPrimaryCareer(player)?.organization ?? '',
+      // 英字表記（JBA公式メンバー表などの英語表記）が確認できている選手は、ローマ字検索にも対応させる。
+      altName: player.facts.find((fact) => fact.label === '英字表記')?.value,
     })),
     ...organizations
       .map((organization) => ({ organization, count: getOrganizationPlayers(organization.id).length }))
@@ -105,20 +124,24 @@ export default function Home() {
               <a href="/organizations" className="jbaListB-textLink">組織一覧を見る <ArrowRight size={16} /></a>
             </div>
           </div>
-          <div className="jbaListB-cardGrid">
-            {homepagePlayers.map((player, index) => (
-              <a href={`/players/${player.slug}`} className="jbaListB-playerCard" key={player.id}>
-                <div>
-                  <span className="jbaListB-cardIndex">{String(index + 1).padStart(2, '0')}</span>
-                  <p className="jbaListB-cardMeta">{playerContext(player)}</p>
-                  <h3 className="jbaListB-cardName">{player.name}</h3>
-                  <span className={`jbaListB-pill ${player.dataStatus === 'master' ? 'jbaListB-statusMaster' : 'jbaListB-statusCandidate'}`}>
-                    {player.dataStatus === 'master' ? 'Master・承認済み' : '候補データ・正式承認前'}
+          <div className="jbaListB-spotlightGrid">
+            {homepagePlayers.map((player, index) => {
+              const orgId = getCurrentCareer(player)?.organizationId ?? getPrimaryCareer(player)?.organizationId;
+              return (
+                <a href={`/players/${player.slug}`} className="jbaListB-spotlightCard" key={player.id}>
+                  <span className="jbaListB-spotlightIndex">{String(index + 1).padStart(2, '0')}</span>
+                  <span className="jbaListB-spotlightBody">
+                    <span className="jbaListB-spotlightName">{player.name}</span>
+                    <p className="jbaListB-spotlightMeta">
+                      {clubColor(orgId) ? (
+                        <span className="jbaListB-clubDot" style={{ background: clubColor(orgId) }} aria-hidden="true" />
+                      ) : null}
+                      {playerContext(player)}
+                    </p>
                   </span>
-                </div>
-                <ArrowRight size={20} />
-              </a>
-            ))}
+                </a>
+              );
+            })}
           </div>
         </section>
 
@@ -157,6 +180,33 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="jbaListB-featuredSection">
+          <div className="jbaListB-sectionHeading">
+            <div>
+              <p className="jbaListB-eyebrow">Ranking</p>
+              <h2 className="jbaListB-sectionTitle">ランキングで探す</h2>
+            </div>
+            <div className="jbaListB-sectionLinks">
+              <a href="/rankings" className="jbaListB-textLink">ランキング一覧を見る <ArrowRight size={16} /></a>
+            </div>
+          </div>
+          <p className="jbaListB-lede">出身校や進学ルートなど、切り口別のランキングからも選手を探せます。</p>
+          <div className="jbaListB-table">
+            <a href="/rankings/high-school" className="jbaListB-row jbaListB-rankIndexGrid">
+              <div className="jbaListB-rowName">B.LEAGUE選手の出身高校ランキング</div>
+              <div className="jbaListB-rowMuted">{topHighSchools}</div>
+            </a>
+            <a href="/rankings/university" className="jbaListB-row jbaListB-rankIndexGrid">
+              <div className="jbaListB-rowName">B.LEAGUE選手の出身大学ランキング</div>
+              <div className="jbaListB-rowMuted">{topUniversities}</div>
+            </a>
+            <a href={ROUTE_PATH} className="jbaListB-row jbaListB-rankIndexGrid">
+              <div className="jbaListB-rowName">{ROUTE_TITLE}</div>
+              <div className="jbaListB-rowMuted">{topRoutes}</div>
+            </a>
+          </div>
+        </section>
+
         {allStarPlayers.length > 0 && (
           <section className="jbaListB-featuredSection">
             <div className="jbaListB-sectionHeading">
@@ -178,24 +228,20 @@ export default function Home() {
               </a>
               ）。
             </p>
-            <div className="jbaListB-cardGrid">
-              {allStarPlayers.map(({ entry, player, org, orgId }, index) => (
-                <a href={`/players/${player.slug}`} className="jbaListB-playerCard" key={player.id}>
-                  <div>
-                    <span className="jbaListB-cardIndex">{String(index + 1).padStart(2, '0')}</span>
-                    <p className="jbaListB-cardMeta">
-                      {entry.team}
-                      {entry.captain ? '・キャプテン' : ''}
-                    </p>
-                    <h3 className="jbaListB-cardName">{player.name}</h3>
-                    <span className="jbaListB-rowMuted">
+            <div className="jbaListB-spotlightGrid">
+              {allStarPlayers.map(({ entry, player, orgId }, index) => (
+                <a href={`/players/${player.slug}`} className="jbaListB-spotlightCard" key={player.id}>
+                  <span className="jbaListB-spotlightIndex">{String(index + 1).padStart(2, '0')}</span>
+                  <span className="jbaListB-spotlightBody">
+                    <span className="jbaListB-spotlightName">{player.name}</span>
+                    <p className="jbaListB-spotlightMeta">
                       {clubColor(orgId) ? (
                         <span className="jbaListB-clubDot" style={{ background: clubColor(orgId) }} aria-hidden="true" />
                       ) : null}
-                      {org ?? '所属未確認'}
-                    </span>
-                  </div>
-                  <ArrowRight size={20} />
+                      {entry.team}
+                      {entry.captain ? '・キャプテン' : ''}
+                    </p>
+                  </span>
                 </a>
               ))}
             </div>
