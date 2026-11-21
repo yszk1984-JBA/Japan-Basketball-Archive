@@ -911,6 +911,9 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0; /* グリッドアイテムの既定min-width:autoのままだと、長い選手名でカードが
+                   content幅まで広がり、モバイルで2列グリッド/ページ全体が横に
+                   はみ出す（例：ジャン・ローレンス・ハーパージュニア）。0に固定して防止。 */
   background: #FFFFFF;
   border-radius: 12px;
   padding: 12px 14px;
