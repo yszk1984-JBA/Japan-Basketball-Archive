@@ -18,7 +18,8 @@ infers that approval.
 
 Spec keys: batch, sprint, date, prefix, title, tier, sources{key:{title,publisher,url}},
 new_persons[{person_id,name,birth_date?,source,locator}], new_orgs[{organization_id,name}],
-careers[{career_id,person_id,organization_id,start,end,source,locator,summary}],
+careers[{career_id,person_id,organization_id,start,end,source,locator,summary,note?}]
+(note → Evidence issue_note; 「公式未確認」で始まるとサイトに（公式未確認）と表示),
 corrections[{career_id,new_start,new_end,source,locator,reason}],
 holds[{name,description,next_check}].
 """
@@ -92,10 +93,10 @@ def candidate(spec: Spec) -> None:
                             "url": s["url"], "accessed_at": date}
         return sources[key]["source_id"]
 
-    def ev(etype: str, eid: str, field: str, value: str, src: str, loc: str, summary: str) -> None:
+    def ev(etype: str, eid: str, field: str, value: str, src: str, loc: str, summary: str, note: str = "") -> None:
         evidence.append({"record_id": f"{p}E{len(evidence) + 1:04d}", "entity_type": etype, "entity_id": eid, "field_name": field,
                          "candidate_value": value, "source_id": sid(src), "source_locator": loc, "evidence_summary": summary,
-                         "assessment": "SUPPORTED", "checked_at": date, "issue_note": ""})
+                         "assessment": "SUPPORTED", "checked_at": date, "issue_note": note})
 
     errors = []
     for n in d.get("new_persons", []):
@@ -119,8 +120,8 @@ def candidate(spec: Spec) -> None:
             errors.append(f"{c['career_id']}: 不明なOrganization")
         careers.append({"career_id": c["career_id"], "person_id": c["person_id"], "organization_id": c["organization_id"],
                         "role": "Player", "start": c["start"], "end": c["end"]})
-        ev("Career", c["career_id"], "organization_id", c["organization_id"], c["source"], c["locator"], c["summary"])
-        ev("Career", c["career_id"], "role", "Player", c["source"], c["locator"], "選手としての所属")
+        ev("Career", c["career_id"], "organization_id", c["organization_id"], c["source"], c["locator"], c["summary"], c.get("note", ""))
+        ev("Career", c["career_id"], "role", "Player", c["source"], c["locator"], "選手としての所属", c.get("note", ""))
         for f in ("start", "end"):
             if c[f]:
                 ev("Career", c["career_id"], f, c[f], c["source"], c["locator"], c["summary"])

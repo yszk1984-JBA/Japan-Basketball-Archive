@@ -1,0 +1,2492 @@
+{
+ "batch": "043",
+ "sprint": "028",
+ "date": "2026-11-21",
+ "prefix": "B43W1",
+ "title": "出身中学校（Wikipedia日本語版、公式未確認）",
+ "tier": "Tier 2",
+ "tier_reason": "公式以外の資料（Wikipedia）を使い、サイトでは「公式未確認」と表示するため（Sprint 020と同じ扱い）",
+ "sources": {
+  "wP000105": {
+   "title": "田臥勇太 - Wikipedia（版 111661518）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%94%B0%E8%87%A5%E5%8B%87%E5%A4%AA&oldid=111661518"
+  },
+  "wP000099": {
+   "title": "水戸健史 - Wikipedia（版 106457421）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B0%B4%E6%88%B8%E5%81%A5%E5%8F%B2&oldid=106457421"
+  },
+  "wP000042": {
+   "title": "並里成 - Wikipedia（版 109610435）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%B8%A6%E9%87%8C%E6%88%90&oldid=109610435"
+  },
+  "wP000100": {
+   "title": "古川孝敏 - Wikipedia（版 111548118）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%8F%A4%E5%B7%9D%E5%AD%9D%E6%95%8F&oldid=111548118"
+  },
+  "wP000090": {
+   "title": "金丸晃輔 - Wikipedia（版 111565320）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%87%91%E4%B8%B8%E6%99%83%E8%BC%94&oldid=111565320"
+  },
+  "wP000095": {
+   "title": "田口成浩 - Wikipedia（版 110949305）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%94%B0%E5%8F%A3%E6%88%90%E6%B5%A9&oldid=110949305"
+  },
+  "wP000084": {
+   "title": "比江島慎 - Wikipedia（版 111540370）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%AF%94%E6%B1%9F%E5%B3%B6%E6%85%8E&oldid=111540370"
+  },
+  "wP000088": {
+   "title": "岸本隆一 - Wikipedia（版 111571833）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B2%B8%E6%9C%AC%E9%9A%86%E4%B8%80&oldid=111571833"
+  },
+  "wP000097": {
+   "title": "辻直人 - Wikipedia（版 111704129）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%BE%BB%E7%9B%B4%E4%BA%BA&oldid=111704129"
+  },
+  "wP000103": {
+   "title": "渡邊雄太 - Wikipedia（版 111502276）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B8%A1%E9%82%8A%E9%9B%84%E5%A4%AA&oldid=111502276"
+  },
+  "wP000041": {
+   "title": "狩野祐介 - Wikipedia（版 108696045）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%8B%A9%E9%87%8E%E7%A5%90%E4%BB%8B&oldid=108696045"
+  },
+  "wP000104": {
+   "title": "八村塁 - Wikipedia（版 111646400）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%85%AB%E6%9D%91%E5%A1%81&oldid=111646400"
+  },
+  "wP000102": {
+   "title": "白濱僚祐 - Wikipedia（版 108406993）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%99%BD%E6%BF%B1%E5%83%9A%E7%A5%90&oldid=108406993"
+  },
+  "wP000107": {
+   "title": "馬場雄大 - Wikipedia（版 111561877）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%A6%AC%E5%A0%B4%E9%9B%84%E5%A4%A7&oldid=111561877"
+  },
+  "wP000111": {
+   "title": "杉浦佑成 - Wikipedia（版 111561866）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%9D%89%E6%B5%A6%E4%BD%91%E6%88%90&oldid=111561866"
+  },
+  "wP000039": {
+   "title": "渡辺竜之佑 - Wikipedia（版 111573830）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B8%A1%E8%BE%BA%E7%AB%9C%E4%B9%8B%E4%BD%91&oldid=111573830"
+  },
+  "wP000064": {
+   "title": "河村勇輝 - Wikipedia（版 111771788）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B2%B3%E6%9D%91%E5%8B%87%E8%BC%9D&oldid=111771788"
+  },
+  "wP000086": {
+   "title": "齋藤拓実 - Wikipedia（版 111565434）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%BD%8B%E8%97%A4%E6%8B%93%E5%AE%9F&oldid=111565434"
+  },
+  "wP000106": {
+   "title": "富永啓生 - Wikipedia（版 110991472）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%AF%8C%E6%B0%B8%E5%95%93%E7%94%9F&oldid=110991472"
+  },
+  "wP000089": {
+   "title": "西田優大 - Wikipedia（版 111271674）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%A5%BF%E7%94%B0%E5%84%AA%E5%A4%A7&oldid=111271674"
+  },
+  "wP000093": {
+   "title": "松脇圭志 - Wikipedia（版 111280984）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%9D%BE%E8%84%87%E5%9C%AD%E5%BF%97&oldid=111280984"
+  },
+  "wP000035": {
+   "title": "小川麻斗 - Wikipedia（版 111799565）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B0%8F%E5%B7%9D%E9%BA%BB%E6%96%97&oldid=111799565"
+  },
+  "wP000012": {
+   "title": "ジャン・ローレンス・ハーパージュニア - Wikipedia（版 111338184）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%BB%E3%83%AD%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&oldid=111338184"
+  },
+  "wP000135": {
+   "title": "竹内公輔 - Wikipedia（版 111697731）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%AB%B9%E5%86%85%E5%85%AC%E8%BC%94&oldid=111697731"
+  },
+  "wP000112": {
+   "title": "寒竹隼人 - Wikipedia（版 111572916）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%AF%92%E7%AB%B9%E9%9A%BC%E4%BA%BA&oldid=111572916"
+  },
+  "wP000139": {
+   "title": "森井健太 - Wikipedia（版 111697533）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%A3%AE%E4%BA%95%E5%81%A5%E5%A4%AA&oldid=111697533"
+  },
+  "wP000160": {
+   "title": "米須玲音 - Wikipedia（版 108263964）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%B1%B3%E9%A0%88%E7%8E%B2%E9%9F%B3&oldid=108263964"
+  },
+  "wP000148": {
+   "title": "津屋一球 - Wikipedia（版 111005690）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B4%A5%E5%B1%8B%E4%B8%80%E7%90%83&oldid=111005690"
+  },
+  "wP000143": {
+   "title": "寺嶋良 - Wikipedia（版 110011029）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%AF%BA%E5%B6%8B%E8%89%AF&oldid=110011029"
+  },
+  "wP000146": {
+   "title": "大庭岳輝 - Wikipedia（版 105603533）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%A7%E5%BA%AD%E5%B2%B3%E8%BC%9D&oldid=105603533"
+  },
+  "wP000122": {
+   "title": "湧川颯斗 - Wikipedia（版 110799645）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B9%A7%E5%B7%9D%E9%A2%AF%E6%96%97&oldid=110799645"
+  },
+  "wP000157": {
+   "title": "藤澤尚之 - Wikipedia（版 111274275）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%97%A4%E6%BE%A4%E5%B0%9A%E4%B9%8B&oldid=111274275"
+  },
+  "wP000120": {
+   "title": "渡邉伶音 - Wikipedia（版 108407097）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B8%A1%E9%82%89%E4%BC%B6%E9%9F%B3&oldid=108407097"
+  },
+  "wP000158": {
+   "title": "瀬川琉久 - Wikipedia（版 111588343）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%80%AC%E5%B7%9D%E7%90%89%E4%B9%85&oldid=111588343"
+  },
+  "wP000134": {
+   "title": "星川開聖 - Wikipedia（版 107634516）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%98%9F%E5%B7%9D%E9%96%8B%E8%81%96&oldid=107634516"
+  },
+  "wP000155": {
+   "title": "平良宗龍 - Wikipedia（版 110264726）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B9%B3%E8%89%AF%E5%AE%97%E9%BE%8D&oldid=110264726"
+  },
+  "wP000196": {
+   "title": "喜多川修平 - Wikipedia（版 111573791）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%96%9C%E5%A4%9A%E5%B7%9D%E4%BF%AE%E5%B9%B3&oldid=111573791"
+  },
+  "wP000168": {
+   "title": "多嶋朝飛 - Wikipedia（版 110279063）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%9A%E5%B6%8B%E6%9C%9D%E9%A3%9B&oldid=110279063"
+  },
+  "wP000176": {
+   "title": "篠山竜青 - Wikipedia（版 111513712）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%AF%A0%E5%B1%B1%E7%AB%9C%E9%9D%92&oldid=111513712"
+  },
+  "wP000206": {
+   "title": "遠藤祐亮 - Wikipedia（版 111553011）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%81%A0%E8%97%A4%E7%A5%90%E4%BA%AE&oldid=111553011"
+  },
+  "wP000164": {
+   "title": "川嶋勇人 - Wikipedia（版 110688367）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B7%9D%E5%B6%8B%E5%8B%87%E4%BA%BA&oldid=110688367"
+  },
+  "wP000182": {
+   "title": "藤井祐眞 - Wikipedia（版 111572926）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%97%A4%E4%BA%95%E7%A5%90%E7%9C%9E&oldid=111572926"
+  },
+  "wP000161": {
+   "title": "岡田侑大 - Wikipedia（版 111268248）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B2%A1%E7%94%B0%E4%BE%91%E5%A4%A7&oldid=111268248"
+  },
+  "wP000204": {
+   "title": "赤穂雷太 - Wikipedia（版 111540098）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%B5%A4%E7%A9%82%E9%9B%B7%E5%A4%AA&oldid=111540098"
+  },
+  "wP000202": {
+   "title": "古牧昌也 - Wikipedia（版 111514044）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%8F%A4%E7%89%A7%E6%98%8C%E4%B9%9F&oldid=111514044"
+  },
+  "wP000197": {
+   "title": "須藤昂矢 - Wikipedia（版 108315621）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%A0%88%E8%97%A4%E6%98%82%E7%9F%A2&oldid=108315621"
+  },
+  "wP000184": {
+   "title": "角野亮伍 - Wikipedia（版 108238559）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%A7%92%E9%87%8E%E4%BA%AE%E4%BC%8D&oldid=108238559"
+  },
+  "wP000192": {
+   "title": "多田武史 - Wikipedia（版 111464653）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%9A%E7%94%B0%E6%AD%A6%E5%8F%B2&oldid=111464653"
+  },
+  "wP000171": {
+   "title": "二上耀 - Wikipedia（版 111561953）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BA%8C%E4%B8%8A%E8%80%80&oldid=111561953"
+  },
+  "wP000181": {
+   "title": "菊地広人 - Wikipedia（版 111553003）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8F%8A%E5%9C%B0%E5%BA%83%E4%BA%BA&oldid=111553003"
+  },
+  "wP000201": {
+   "title": "平良彰吾 - Wikipedia（版 110281810）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B9%B3%E8%89%AF%E5%BD%B0%E5%90%BE&oldid=110281810"
+  },
+  "wP000167": {
+   "title": "大﨑翔太 - Wikipedia（版 110386202）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%A7%EF%A8%91%E7%BF%94%E5%A4%AA&oldid=110386202"
+  },
+  "wP000173": {
+   "title": "寺嶋恭之介 - Wikipedia（版 108236271）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%AF%BA%E5%B6%8B%E6%81%AD%E4%B9%8B%E4%BB%8B&oldid=108236271"
+  },
+  "wP000193": {
+   "title": "伊藤治輝 - Wikipedia（版 111565736）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BC%8A%E8%97%A4%E6%B2%BB%E8%BC%9D&oldid=111565736"
+  },
+  "wP000245": {
+   "title": "中山拓哉 - Wikipedia（版 108407724）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%B8%AD%E5%B1%B1%E6%8B%93%E5%93%89&oldid=108407724"
+  },
+  "wP000234": {
+   "title": "盛實海翔 - Wikipedia（版 111573834）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%9B%9B%E5%AF%A6%E6%B5%B7%E7%BF%94&oldid=111573834"
+  },
+  "wP000250": {
+   "title": "キング開 - Wikipedia（版 109509175）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E3%82%AD%E3%83%B3%E3%82%B0%E9%96%8B&oldid=109509175"
+  },
+  "wP000223": {
+   "title": "笠井康平 - Wikipedia（版 110274061）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%AC%A0%E4%BA%95%E5%BA%B7%E5%B9%B3&oldid=110274061"
+  },
+  "wP000212": {
+   "title": "星野京介 - Wikipedia（版 111553098）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%98%9F%E9%87%8E%E4%BA%AC%E4%BB%8B&oldid=111553098"
+  },
+  "wP000226": {
+   "title": "久岡幸太郎 - Wikipedia（版 111572616）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%B9%85%E5%B2%A1%E5%B9%B8%E5%A4%AA%E9%83%8E&oldid=111572616"
+  },
+  "wP000240": {
+   "title": "岡島和真 - Wikipedia（版 111576263）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B2%A1%E5%B3%B6%E5%92%8C%E7%9C%9F&oldid=111576263"
+  },
+  "wP000291": {
+   "title": "荒尾岳 - Wikipedia（版 111540315）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8D%92%E5%B0%BE%E5%B2%B3&oldid=111540315"
+  },
+  "wP000290": {
+   "title": "渡邉裕規 - Wikipedia（版 111540335）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B8%A1%E9%82%89%E8%A3%95%E8%A6%8F&oldid=111540335"
+  },
+  "wP000280": {
+   "title": "山内盛久 - Wikipedia（版 109803018）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B1%B1%E5%86%85%E7%9B%9B%E4%B9%85&oldid=109803018"
+  },
+  "wP000258": {
+   "title": "菅澤紀行 - Wikipedia（版 111118078）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8F%85%E6%BE%A4%E7%B4%80%E8%A1%8C&oldid=111118078"
+  },
+  "wP000276": {
+   "title": "小野寺祥太 - Wikipedia（版 110281669）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B0%8F%E9%87%8E%E5%AF%BA%E7%A5%A5%E5%A4%AA&oldid=110281669"
+  },
+  "wP000296": {
+   "title": "田代直希 - Wikipedia（版 111573826）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%94%B0%E4%BB%A3%E7%9B%B4%E5%B8%8C&oldid=111573826"
+  },
+  "wP000297": {
+   "title": "原修太 - Wikipedia（版 111152930）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%8E%9F%E4%BF%AE%E5%A4%AA&oldid=111152930"
+  },
+  "wP000267": {
+   "title": "ホール百音アレックス - Wikipedia（版 106457778）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E3%83%9B%E3%83%BC%E3%83%AB%E7%99%BE%E9%9F%B3%E3%82%A2%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9&oldid=106457778"
+  },
+  "wP000275": {
+   "title": "大浦颯太 - Wikipedia（版 111509376）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%A7%E6%B5%A6%E9%A2%AF%E5%A4%AA&oldid=111509376"
+  },
+  "wP000264": {
+   "title": "須藤タイレル拓 - Wikipedia（版 109610479）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%A0%88%E8%97%A4%E3%82%BF%E3%82%A4%E3%83%AC%E3%83%AB%E6%8B%93&oldid=109610479"
+  },
+  "wP000283": {
+   "title": "島谷怜 - Wikipedia（版 108407332）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B3%B6%E8%B0%B7%E6%80%9C&oldid=108407332"
+  },
+  "wP000262": {
+   "title": "駒沢颯 - Wikipedia（版 111513877）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%A7%92%E6%B2%A2%E9%A2%AF&oldid=111513877"
+  },
+  "wP000281": {
+   "title": "脇真大 - Wikipedia（版 108406933）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%84%87%E7%9C%9F%E5%A4%A7&oldid=108406933"
+  },
+  "wP000340": {
+   "title": "永吉佑也 - Wikipedia（版 111540512）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B0%B8%E5%90%89%E4%BD%91%E4%B9%9F&oldid=111540512"
+  },
+  "wP000330": {
+   "title": "北川弘 - Wikipedia（版 111509588）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%8C%97%E5%B7%9D%E5%BC%98&oldid=111509588"
+  },
+  "wP000349": {
+   "title": "津山尚大 - Wikipedia（版 109242057）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B4%A5%E5%B1%B1%E5%B0%9A%E5%A4%A7&oldid=109242057"
+  },
+  "wP000342": {
+   "title": "ベンドラメ礼生 - Wikipedia（版 111338191）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E3%83%99%E3%83%B3%E3%83%89%E3%83%A9%E3%83%A1%E7%A4%BC%E7%94%9F&oldid=111338191"
+  },
+  "wP000307": {
+   "title": "長谷川暢 - Wikipedia（版 110931079）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%95%B7%E8%B0%B7%E5%B7%9D%E6%9A%A2&oldid=110931079"
+  },
+  "wP000327": {
+   "title": "山口颯斗 - Wikipedia（版 111562002）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B1%B1%E5%8F%A3%E9%A2%AF%E6%96%97&oldid=111562002"
+  },
+  "wP000345": {
+   "title": "山﨑一渉 - Wikipedia（版 111338281）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B1%B1%EF%A8%91%E4%B8%80%E6%B8%89&oldid=111338281"
+  },
+  "wP000346": {
+   "title": "荒谷裕秀 - Wikipedia（版 110112416）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8D%92%E8%B0%B7%E8%A3%95%E7%A7%80&oldid=110112416"
+  },
+  "wP000315": {
+   "title": "細川一輝 - Wikipedia（版 110011178）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%B4%B0%E5%B7%9D%E4%B8%80%E8%BC%9D&oldid=110011178"
+  },
+  "wP000350": {
+   "title": "長谷川技 - Wikipedia（版 111572922）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%95%B7%E8%B0%B7%E5%B7%9D%E6%8A%80&oldid=111572922"
+  },
+  "wP000355": {
+   "title": "須田侑太郎 - Wikipedia（版 109837604）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%A0%88%E7%94%B0%E4%BE%91%E5%A4%AA%E9%83%8E&oldid=109837604"
+  },
+  "wP000363": {
+   "title": "井上諒汰 - Wikipedia（版 105418486）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BA%95%E4%B8%8A%E8%AB%92%E6%B1%B0&oldid=105418486"
+  },
+  "wP000381": {
+   "title": "森川正明 - Wikipedia（版 111695204）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%A3%AE%E5%B7%9D%E6%AD%A3%E6%98%8E&oldid=111695204"
+  },
+  "wP000357": {
+   "title": "今村佳太 - Wikipedia（版 110281526）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BB%8A%E6%9D%91%E4%BD%B3%E5%A4%AA&oldid=110281526"
+  },
+  "wP000371": {
+   "title": "木田貴明 - Wikipedia（版 111540399）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%9C%A8%E7%94%B0%E8%B2%B4%E6%98%8E&oldid=111540399"
+  },
+  "wP000379": {
+   "title": "土屋アリスター時生 - Wikipedia（版 111418322）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%9C%9F%E5%B1%8B%E3%82%A2%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%BC%E6%99%82%E7%94%9F&oldid=111418322"
+  },
+  "wP000385": {
+   "title": "小室昂大 - Wikipedia（版 111542165）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B0%8F%E5%AE%A4%E6%98%82%E5%A4%A7&oldid=111542165"
+  },
+  "wP000391": {
+   "title": "後藤翔平 - Wikipedia（版 110346597）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%BE%8C%E8%97%A4%E7%BF%94%E5%B9%B3&oldid=110346597"
+  },
+  "wP000414": {
+   "title": "菅原暉 - Wikipedia（版 111561858）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8F%85%E5%8E%9F%E6%9A%89&oldid=111561858"
+  },
+  "wP000421": {
+   "title": "長島蓮 - Wikipedia（版 111541694）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%95%B7%E5%B3%B6%E8%93%AE&oldid=111541694"
+  },
+  "wP000429": {
+   "title": "東宏輝 - Wikipedia（版 111573421）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%9D%B1%E5%AE%8F%E8%BC%9D&oldid=111573421"
+  },
+  "wP000398": {
+   "title": "大森康瑛 - Wikipedia（版 111589367）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%A7%E6%A3%AE%E5%BA%B7%E7%91%9B&oldid=111589367"
+  },
+  "wP000461": {
+   "title": "五十嵐圭 - Wikipedia（版 111572512）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BA%94%E5%8D%81%E5%B5%90%E5%9C%AD&oldid=111572512"
+  },
+  "wP000448": {
+   "title": "大金広弥 - Wikipedia（版 105962329）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%A7%E9%87%91%E5%BA%83%E5%BC%A5&oldid=105962329"
+  },
+  "wP000464": {
+   "title": "濵高康明 - Wikipedia（版 106479075）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%BF%B5%E9%AB%98%E5%BA%B7%E6%98%8E&oldid=106479075"
+  },
+  "wP000449": {
+   "title": "神里和 - Wikipedia（版 109242101）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%A5%9E%E9%87%8C%E5%92%8C&oldid=109242101"
+  },
+  "wP000441": {
+   "title": "奥田雄伍 - Wikipedia（版 110346564）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A5%A5%E7%94%B0%E9%9B%84%E4%BC%8D&oldid=110346564"
+  },
+  "wP000440": {
+   "title": "上良潤起 - Wikipedia（版 109241995）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%B8%8A%E8%89%AF%E6%BD%A4%E8%B5%B7&oldid=109241995"
+  },
+  "wP000444": {
+   "title": "野口侑真 - Wikipedia（版 106490263）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%87%8E%E5%8F%A3%E4%BE%91%E7%9C%9F&oldid=106490263"
+  },
+  "wP000467": {
+   "title": "堀内星夜 - Wikipedia（版 111286472）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A0%80%E5%86%85%E6%98%9F%E5%A4%9C&oldid=111286472"
+  },
+  "wP000508": {
+   "title": "小野龍猛 - Wikipedia（版 111572556）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B0%8F%E9%87%8E%E9%BE%8D%E7%8C%9B&oldid=111572556"
+  },
+  "wP000513": {
+   "title": "本多純平 - Wikipedia（版 106887820）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%9C%AC%E5%A4%9A%E7%B4%94%E5%B9%B3&oldid=106887820"
+  },
+  "wP000497": {
+   "title": "橋本竜馬 - Wikipedia（版 111540352）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%A9%8B%E6%9C%AC%E7%AB%9C%E9%A6%AC&oldid=111540352"
+  },
+  "wP000480": {
+   "title": "田渡修人 - Wikipedia（版 111561741）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%94%B0%E6%B8%A1%E4%BF%AE%E4%BA%BA&oldid=111561741"
+  },
+  "wP000511": {
+   "title": "相馬卓弥 - Wikipedia（版 107441351）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%9B%B8%E9%A6%AC%E5%8D%93%E5%BC%A5&oldid=107441351"
+  },
+  "wP000505": {
+   "title": "保岡龍斗 - Wikipedia（版 108802221）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BF%9D%E5%B2%A1%E9%BE%8D%E6%96%97&oldid=108802221"
+  },
+  "wP000483": {
+   "title": "満田丈太郎 - Wikipedia（版 111561815）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%BA%80%E7%94%B0%E4%B8%88%E5%A4%AA%E9%83%8E&oldid=111561815"
+  },
+  "wP000502": {
+   "title": "杉本天昇 - Wikipedia（版 111513760）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E6%9D%89%E6%9C%AC%E5%A4%A9%E6%98%87&oldid=111513760"
+  },
+  "wP000501": {
+   "title": "鍵冨太雅 - Wikipedia（版 110113076）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%8D%B5%E5%86%A8%E5%A4%AA%E9%9B%85&oldid=110113076"
+  },
+  "wP000514": {
+   "title": "元澤誠 - Wikipedia（版 110606420）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%85%83%E6%BE%A4%E8%AA%A0&oldid=110606420"
+  },
+  "wP000479": {
+   "title": "高橋育実 - Wikipedia（版 111282858）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%AB%98%E6%A9%8B%E8%82%B2%E5%AE%9F&oldid=111282858"
+  },
+  "wP000563": {
+   "title": "細谷将司 - Wikipedia（版 109609878）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%B4%B0%E8%B0%B7%E5%B0%86%E5%8F%B8&oldid=109609878"
+  },
+  "wP000548": {
+   "title": "西川貴之 - Wikipedia（版 111565386）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E8%A5%BF%E5%B7%9D%E8%B2%B4%E4%B9%8B&oldid=111565386"
+  },
+  "wP000555": {
+   "title": "山田安斗夢 - Wikipedia（版 108363236）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B1%B1%E7%94%B0%E5%AE%89%E6%96%97%E5%A4%A2&oldid=108363236"
+  },
+  "wP000536": {
+   "title": "高橋耕陽 - Wikipedia（版 111513949）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E9%AB%98%E6%A9%8B%E8%80%95%E9%99%BD&oldid=111513949"
+  },
+  "wP000550": {
+   "title": "磯野寛晃 - Wikipedia（版 106478785）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%A3%AF%E9%87%8E%E5%AF%9B%E6%99%83&oldid=106478785"
+  },
+  "wP000551": {
+   "title": "笹倉怜寿 - Wikipedia（版 110028979）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E7%AC%B9%E5%80%89%E6%80%9C%E5%AF%BF&oldid=110028979"
+  },
+  "wP000554": {
+   "title": "保坂晃毅 - Wikipedia（版 107619612）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E4%BF%9D%E5%9D%82%E6%99%83%E6%AF%85&oldid=107619612"
+  },
+  "wP000566": {
+   "title": "岡本飛竜 - Wikipedia（版 111572932）",
+   "publisher": "Wikipedia日本語版",
+   "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B2%A1%E6%9C%AC%E9%A3%9B%E7%AB%9C&oldid=111572932"
+  }
+ },
+ "new_persons": [],
+ "new_orgs": [
+  {
+   "organization_id": "ORG000569",
+   "name": "横浜市立大道中学校"
+  },
+  {
+   "organization_id": "ORG000570",
+   "name": "南砺市立福野中学校"
+  },
+  {
+   "organization_id": "ORG000571",
+   "name": "コザ中学校"
+  },
+  {
+   "organization_id": "ORG000572",
+   "name": "神戸市立長峰中学校"
+  },
+  {
+   "organization_id": "ORG000573",
+   "name": "那珂川町立那珂川南中学校"
+  },
+  {
+   "organization_id": "ORG000574",
+   "name": "仙北市立角館中学校"
+  },
+  {
+   "organization_id": "ORG000575",
+   "name": "福岡市立百道中学校"
+  },
+  {
+   "organization_id": "ORG000576",
+   "name": "名護市立屋部中学校"
+  },
+  {
+   "organization_id": "ORG000577",
+   "name": "羽曳野市立高鷲中学校"
+  },
+  {
+   "organization_id": "ORG000578",
+   "name": "高松市立牟礼中学校"
+  },
+  {
+   "organization_id": "ORG000579",
+   "name": "福岡市立春吉中学校"
+  },
+  {
+   "organization_id": "ORG000580",
+   "name": "富山市立奥田中学校"
+  },
+  {
+   "organization_id": "ORG000581",
+   "name": "白石町立有明中学校"
+  },
+  {
+   "organization_id": "ORG000582",
+   "name": "世田谷区立梅丘中学校"
+  },
+  {
+   "organization_id": "ORG000583",
+   "name": "柳井市立柳井中学校"
+  },
+  {
+   "organization_id": "ORG000584",
+   "name": "川崎市立白鳥中学校"
+  },
+  {
+   "organization_id": "ORG000585",
+   "name": "春日井市立岩成台中学校"
+  },
+  {
+   "organization_id": "ORG000586",
+   "name": "海陽町立海陽中学校"
+  },
+  {
+   "organization_id": "ORG000587",
+   "name": "吹田市立佐井寺中学校"
+  },
+  {
+   "organization_id": "ORG000588",
+   "name": "福岡市立友泉中学校"
+  },
+  {
+   "organization_id": "ORG000589",
+   "name": "佐世保市立日野中学校"
+  },
+  {
+   "organization_id": "ORG000590",
+   "name": "青森山田中学校"
+  },
+  {
+   "organization_id": "ORG000591",
+   "name": "弘前市立津軽中学校"
+  },
+  {
+   "organization_id": "ORG000592",
+   "name": "枚方市立長尾西中学校"
+  },
+  {
+   "organization_id": "ORG000593",
+   "name": "広島市立古田中学校"
+  },
+  {
+   "organization_id": "ORG000594",
+   "name": "京都市立山科中学校"
+  },
+  {
+   "organization_id": "ORG000595",
+   "name": "八千代松陰中学校"
+  },
+  {
+   "organization_id": "ORG000596",
+   "name": "柏市立土中学校"
+  },
+  {
+   "organization_id": "ORG000597",
+   "name": "神戸市立本山南中学校"
+  },
+  {
+   "organization_id": "ORG000598",
+   "name": "宇都宮市立鬼怒中学校"
+  },
+  {
+   "organization_id": "ORG000599",
+   "name": "那覇市立金城中学校"
+  },
+  {
+   "organization_id": "ORG000600",
+   "name": "菅生中学校"
+  },
+  {
+   "organization_id": "ORG000601",
+   "name": "帯広大空中学校"
+  },
+  {
+   "organization_id": "ORG000602",
+   "name": "横浜市立旭中学校"
+  },
+  {
+   "organization_id": "ORG000603",
+   "name": "習志野市立第五中学校"
+  },
+  {
+   "organization_id": "ORG000604",
+   "name": "中京中学校"
+  },
+  {
+   "organization_id": "ORG000605",
+   "name": "松江市立湖東中学校"
+  },
+  {
+   "organization_id": "ORG000606",
+   "name": "井手町立泉ヶ丘中学校"
+  },
+  {
+   "organization_id": "ORG000607",
+   "name": "七尾市立七尾東部中学校"
+  },
+  {
+   "organization_id": "ORG000608",
+   "name": "八街市立八街中央中学校"
+  },
+  {
+   "organization_id": "ORG000609",
+   "name": "港南中学校"
+  },
+  {
+   "organization_id": "ORG000610",
+   "name": "厚木市立厚木中学校"
+  },
+  {
+   "organization_id": "ORG000611",
+   "name": "新潟市立舟栄中学校"
+  },
+  {
+   "organization_id": "ORG000612",
+   "name": "福井市明道中学校"
+  },
+  {
+   "organization_id": "ORG000613",
+   "name": "北見市立小泉中学校"
+  },
+  {
+   "organization_id": "ORG000614",
+   "name": "船橋中学校"
+  },
+  {
+   "organization_id": "ORG000615",
+   "name": "浜田市立第一中学校"
+  },
+  {
+   "organization_id": "ORG000616",
+   "name": "津軽中学校"
+  },
+  {
+   "organization_id": "ORG000617",
+   "name": "横浜市立下瀬谷中学校"
+  },
+  {
+   "organization_id": "ORG000618",
+   "name": "横浜市立上飯田中学校"
+  },
+  {
+   "organization_id": "ORG000619",
+   "name": "上尾市立大石中学校"
+  },
+  {
+   "organization_id": "ORG000620",
+   "name": "横浜市立岡村中学校"
+  },
+  {
+   "organization_id": "ORG000621",
+   "name": "丸亀市立東中学校"
+  },
+  {
+   "organization_id": "ORG000622",
+   "name": "光風中学校"
+  },
+  {
+   "organization_id": "ORG000623",
+   "name": "浜松学院中学校"
+  },
+  {
+   "organization_id": "ORG000624",
+   "name": "朝日町立朝日中学校"
+  },
+  {
+   "organization_id": "ORG000625",
+   "name": "川崎市立西中原中学校"
+  },
+  {
+   "organization_id": "ORG000626",
+   "name": "山内中学校"
+  },
+  {
+   "organization_id": "ORG000627",
+   "name": "土浦第一中学校"
+  },
+  {
+   "organization_id": "ORG000628",
+   "name": "仲泊中学校"
+  },
+  {
+   "organization_id": "ORG000629",
+   "name": "一関市立萩荘中学校"
+  },
+  {
+   "organization_id": "ORG000630",
+   "name": "船橋市立前原中学校"
+  },
+  {
+   "organization_id": "ORG000631",
+   "name": "船橋市立高根台中学校"
+  },
+  {
+   "organization_id": "ORG000632",
+   "name": "上尾市立原市中学校"
+  },
+  {
+   "organization_id": "ORG000633",
+   "name": "広島市立国泰寺中学校"
+  },
+  {
+   "organization_id": "ORG000634",
+   "name": "横浜市立本牧中学校"
+  },
+  {
+   "organization_id": "ORG000635",
+   "name": "東海大学付属第四高等学校中等部"
+  },
+  {
+   "organization_id": "ORG000636",
+   "name": "堀口中学校"
+  },
+  {
+   "organization_id": "ORG000637",
+   "name": "熊本市立東町中学校"
+  },
+  {
+   "organization_id": "ORG000638",
+   "name": "鹿児島市立緑丘中学校"
+  },
+  {
+   "organization_id": "ORG000639",
+   "name": "大津市立南郷中学校"
+  },
+  {
+   "organization_id": "ORG000640",
+   "name": "北谷町立北谷中学校"
+  },
+  {
+   "organization_id": "ORG000641",
+   "name": "筑紫野市立筑紫野中学校"
+  },
+  {
+   "organization_id": "ORG000642",
+   "name": "鹿沼市立西中学校"
+  },
+  {
+   "organization_id": "ORG000643",
+   "name": "松戸市立第一中学校"
+  },
+  {
+   "organization_id": "ORG000644",
+   "name": "仙台市立南光台中学校"
+  },
+  {
+   "organization_id": "ORG000645",
+   "name": "雫石町立雫石中学校"
+  },
+  {
+   "organization_id": "ORG000646",
+   "name": "花巻市立石鳥谷中学校"
+  },
+  {
+   "organization_id": "ORG000647",
+   "name": "小田原市立城山中学校"
+  },
+  {
+   "organization_id": "ORG000648",
+   "name": "福井市進明中学校"
+  },
+  {
+   "organization_id": "ORG000649",
+   "name": "長岡市立東北中学校"
+  },
+  {
+   "organization_id": "ORG000650",
+   "name": "加賀市立錦城中学校"
+  },
+  {
+   "organization_id": "ORG000651",
+   "name": "浜脇中学校"
+  },
+  {
+   "organization_id": "ORG000652",
+   "name": "宇都宮市立雀宮中学校"
+  },
+  {
+   "organization_id": "ORG000653",
+   "name": "函館市立湯川中学校"
+  },
+  {
+   "organization_id": "ORG000654",
+   "name": "一関市立桜町中学校"
+  },
+  {
+   "organization_id": "ORG000655",
+   "name": "静岡市立清水袖師中学校"
+  },
+  {
+   "organization_id": "ORG000656",
+   "name": "神谷中学校"
+  },
+  {
+   "organization_id": "ORG000657",
+   "name": "麻布中学校"
+  },
+  {
+   "organization_id": "ORG000658",
+   "name": "上越市立直江津東中学校"
+  },
+  {
+   "organization_id": "ORG000659",
+   "name": "常陸太田市立太田中学校"
+  },
+  {
+   "organization_id": "ORG000660",
+   "name": "穴水町立穴水中学校"
+  },
+  {
+   "organization_id": "ORG000661",
+   "name": "南風原町立南星中学校"
+  },
+  {
+   "organization_id": "ORG000662",
+   "name": "広島市立段原中学校"
+  },
+  {
+   "organization_id": "ORG000663",
+   "name": "糸満市立西崎中学校"
+  },
+  {
+   "organization_id": "ORG000664",
+   "name": "薩摩川内市立川内中央中学校"
+  },
+  {
+   "organization_id": "ORG000665",
+   "name": "高知市立西部中学校"
+  },
+  {
+   "organization_id": "ORG000666",
+   "name": "立教新座中学校"
+  },
+  {
+   "organization_id": "ORG000667",
+   "name": "小矢部市立石動中学校"
+  },
+  {
+   "organization_id": "ORG000668",
+   "name": "京北中学校"
+  },
+  {
+   "organization_id": "ORG000669",
+   "name": "本郷中学校"
+  },
+  {
+   "organization_id": "ORG000670",
+   "name": "越谷市立中央中学校"
+  },
+  {
+   "organization_id": "ORG000671",
+   "name": "秋田市立山王中学校"
+  },
+  {
+   "organization_id": "ORG000672",
+   "name": "渋谷教育学園渋谷中学校"
+  },
+  {
+   "organization_id": "ORG000673",
+   "name": "甲南中学校"
+  },
+  {
+   "organization_id": "ORG000674",
+   "name": "寝屋川市立第三中学校"
+  },
+  {
+   "organization_id": "ORG000675",
+   "name": "二宮町立二宮西中学校"
+  },
+  {
+   "organization_id": "ORG000676",
+   "name": "札幌市立八条中学校"
+  },
+  {
+   "organization_id": "ORG000677",
+   "name": "鹿児島市立坂元中学校"
+  },
+  {
+   "organization_id": "ORG000678",
+   "name": "旭川市立北門中学校"
+  },
+  {
+   "organization_id": "ORG000679",
+   "name": "北九州市立木屋瀬中学校"
+  },
+  {
+   "organization_id": "ORG000680",
+   "name": "東海市立上野中学校"
+  },
+  {
+   "organization_id": "ORG000681",
+   "name": "米子市立東山中学校"
+  }
+ ],
+ "careers": [
+  {
+   "career_id": "C002891",
+   "person_id": "P000105",
+   "organization_id": "ORG000569",
+   "start": "",
+   "end": "",
+   "source": "wP000105",
+   "locator": "本文 > 「1993年4月、横浜市立大道中学校に入学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）"
+  },
+  {
+   "career_id": "C002892",
+   "person_id": "P000099",
+   "organization_id": "ORG000570",
+   "start": "",
+   "end": "",
+   "source": "wP000099",
+   "locator": "本文 > 「|中学校=南砺市立福野中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002893",
+   "person_id": "P000042",
+   "organization_id": "ORG000571",
+   "start": "",
+   "end": "",
+   "source": "wP000042",
+   "locator": "本文 > 「コザ中学校から福岡第一高校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002894",
+   "person_id": "P000100",
+   "organization_id": "ORG000572",
+   "start": "",
+   "end": "",
+   "source": "wP000100",
+   "locator": "本文 > 「|中学校=神戸市立長峰中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002895",
+   "person_id": "P000090",
+   "organization_id": "ORG000573",
+   "start": "",
+   "end": "",
+   "source": "wP000090",
+   "locator": "本文 > 「那珂川町立那珂川南中学校（現：那珂川市立那珂川南中学校）」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002896",
+   "person_id": "P000095",
+   "organization_id": "ORG000574",
+   "start": "",
+   "end": "",
+   "source": "wP000095",
+   "locator": "本文 > 「|中学校=仙北市立角館中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002897",
+   "person_id": "P000084",
+   "organization_id": "ORG000575",
+   "start": "",
+   "end": "",
+   "source": "wP000084",
+   "locator": "本文 > 「|中学校=福岡市立百道中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002898",
+   "person_id": "P000088",
+   "organization_id": "ORG000576",
+   "start": "",
+   "end": "",
+   "source": "wP000088",
+   "locator": "本文 > 「2005年3月、名護市立屋部中学校2年時に」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002899",
+   "person_id": "P000097",
+   "organization_id": "ORG000577",
+   "start": "",
+   "end": "",
+   "source": "wP000097",
+   "locator": "本文 > 「|中学校=羽曳野市立高鷲中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002900",
+   "person_id": "P000103",
+   "organization_id": "ORG000578",
+   "start": "",
+   "end": "",
+   "source": "wP000103",
+   "locator": "本文 > 「| 中学校 = 高松市立牟礼中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）"
+  },
+  {
+   "career_id": "C002901",
+   "person_id": "P000041",
+   "organization_id": "ORG000579",
+   "start": "",
+   "end": "",
+   "source": "wP000041",
+   "locator": "本文 > 「飯塚市立庄内小学校、福岡市立春吉中学校を経て、福岡第一高校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002902",
+   "person_id": "P000104",
+   "organization_id": "ORG000580",
+   "start": "",
+   "end": "",
+   "source": "wP000104",
+   "locator": "本文 > 「| 中学校 = 富山市立奥田中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002903",
+   "person_id": "P000102",
+   "organization_id": "ORG000581",
+   "start": "",
+   "end": "",
+   "source": "wP000102",
+   "locator": "本文 > 「白石町立有明中学校在学中の2006年には」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002904",
+   "person_id": "P000107",
+   "organization_id": "ORG000580",
+   "start": "",
+   "end": "",
+   "source": "wP000107",
+   "locator": "本文 > 「|中学校 = 富山市立奥田中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）"
+  },
+  {
+   "career_id": "C002905",
+   "person_id": "P000111",
+   "organization_id": "ORG000582",
+   "start": "",
+   "end": "",
+   "source": "wP000111",
+   "locator": "本文 > 「世田谷区立梅丘中学校- 福岡大学附属大濠高等学校 - 筑波大学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002906",
+   "person_id": "P000039",
+   "organization_id": "ORG000524",
+   "start": "",
+   "end": "",
+   "source": "wP000039",
+   "locator": "本文 > 「沖縄市立コザ中学校 - 福岡第一高校 - 専修大学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002907",
+   "person_id": "P000064",
+   "organization_id": "ORG000583",
+   "start": "",
+   "end": "",
+   "source": "wP000064",
+   "locator": "本文 > 「柳井市立新庄小学校、柳井市立柳井中学校卒業」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002908",
+   "person_id": "P000086",
+   "organization_id": "ORG000584",
+   "start": "",
+   "end": "",
+   "source": "wP000086",
+   "locator": "本文 > 「川崎市立白鳥中学校 - 桐光学園 - 明治大学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002909",
+   "person_id": "P000106",
+   "organization_id": "ORG000585",
+   "start": "",
+   "end": "",
+   "source": "wP000106",
+   "locator": "本文 > 「春日井市立岩成台中学校から桜丘高等学校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）"
+  },
+  {
+   "career_id": "C002910",
+   "person_id": "P000089",
+   "organization_id": "ORG000586",
+   "start": "",
+   "end": "",
+   "source": "wP000089",
+   "locator": "本文 > 「海陽町立海陽中学校では全国大会に縁がなかった」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002911",
+   "person_id": "P000093",
+   "organization_id": "ORG000525",
+   "start": "",
+   "end": "",
+   "source": "wP000093",
+   "locator": "本文 > 「|中学校=福岡市立西福岡中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002912",
+   "person_id": "P000035",
+   "organization_id": "ORG000525",
+   "start": "",
+   "end": "",
+   "source": "wP000035",
+   "locator": "本文 > 「中学校は福岡市立西福岡中学校 (福岡県) に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002913",
+   "person_id": "P000012",
+   "organization_id": "ORG000571",
+   "start": "",
+   "end": "",
+   "source": "wP000012",
+   "locator": "本文 > 「コザ中学校から福岡第一高校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002914",
+   "person_id": "P000135",
+   "organization_id": "ORG000587",
+   "start": "",
+   "end": "",
+   "source": "wP000135",
+   "locator": "本文 > 「| 中学校 = 吹田市立佐井寺中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002915",
+   "person_id": "P000112",
+   "organization_id": "ORG000588",
+   "start": "",
+   "end": "",
+   "source": "wP000112",
+   "locator": "本文 > 「|中学校=福岡市立友泉中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002916",
+   "person_id": "P000139",
+   "organization_id": "ORG000536",
+   "start": "",
+   "end": "",
+   "source": "wP000139",
+   "locator": "本文 > 「|中学校=野々市市立布水中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002917",
+   "person_id": "P000160",
+   "organization_id": "ORG000589",
+   "start": "",
+   "end": "",
+   "source": "wP000160",
+   "locator": "本文 > 「佐世保市立日野中学校 - 東山高等学校 - 日本大学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002918",
+   "person_id": "P000148",
+   "organization_id": "ORG000590",
+   "start": "",
+   "end": "",
+   "source": "wP000148",
+   "locator": "本文 > 「2011年4月、青森山田中学校に入学 / 中学2年時に弘前市立津軽中学校に転校する」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002919",
+   "person_id": "P000148",
+   "organization_id": "ORG000591",
+   "start": "",
+   "end": "",
+   "source": "wP000148",
+   "locator": "本文 > 「2011年4月、青森山田中学校に入学 / 中学2年時に弘前市立津軽中学校に転校する」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002920",
+   "person_id": "P000143",
+   "organization_id": "ORG000582",
+   "start": "",
+   "end": "",
+   "source": "wP000143",
+   "locator": "本文 > 「世田谷区立梅丘中学校ではキャプテンとして」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002921",
+   "person_id": "P000146",
+   "organization_id": "ORG000592",
+   "start": "",
+   "end": "",
+   "source": "wP000146",
+   "locator": "本文 > 「|中学校=枚方市立長尾西中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002922",
+   "person_id": "P000122",
+   "organization_id": "ORG000593",
+   "start": "",
+   "end": "",
+   "source": "wP000122",
+   "locator": "本文 > 「広島市立古田中学校から福岡大学附属大濠高等学校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002923",
+   "person_id": "P000157",
+   "organization_id": "ORG000594",
+   "start": "",
+   "end": "",
+   "source": "wP000157",
+   "locator": "本文 > 「中学校は地元の京都市立山科中学校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002924",
+   "person_id": "P000120",
+   "organization_id": "ORG000595",
+   "start": "",
+   "end": "",
+   "source": "wP000120",
+   "locator": "本文 > 「八千代松陰中学校に入学し / 柏市立土中学校在学時は千葉ジェッツふなばしのU-15チーム」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002925",
+   "person_id": "P000120",
+   "organization_id": "ORG000596",
+   "start": "",
+   "end": "",
+   "source": "wP000120",
+   "locator": "本文 > 「八千代松陰中学校に入学し / 柏市立土中学校在学時は千葉ジェッツふなばしのU-15チーム」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002926",
+   "person_id": "P000158",
+   "organization_id": "ORG000597",
+   "start": "",
+   "end": "",
+   "source": "wP000158",
+   "locator": "本文 > 「神戸市立本山南中学校では3年時の2021年に」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002927",
+   "person_id": "P000134",
+   "organization_id": "ORG000598",
+   "start": "",
+   "end": "",
+   "source": "wP000134",
+   "locator": "本文 > 「宇都宮市立鬼怒中学校、洛南高等学校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002928",
+   "person_id": "P000155",
+   "organization_id": "ORG000599",
+   "start": "",
+   "end": "",
+   "source": "wP000155",
+   "locator": "本文 > 「那覇市立金城中学校に在籍しながら」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002929",
+   "person_id": "P000196",
+   "organization_id": "ORG000600",
+   "start": "",
+   "end": "",
+   "source": "wP000196",
+   "locator": "本文 > 「菅生中学校、桐光学園高校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002930",
+   "person_id": "P000168",
+   "organization_id": "ORG000601",
+   "start": "",
+   "end": "",
+   "source": "wP000168",
+   "locator": "本文 > 「帯広大空中学校、北陸高校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002931",
+   "person_id": "P000176",
+   "organization_id": "ORG000602",
+   "start": "",
+   "end": "",
+   "source": "wP000176",
+   "locator": "本文 > 「|中学校=横浜市立旭中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002932",
+   "person_id": "P000206",
+   "organization_id": "ORG000603",
+   "start": "",
+   "end": "",
+   "source": "wP000206",
+   "locator": "本文 > 「|中学校=習志野市立第五中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002933",
+   "person_id": "P000164",
+   "organization_id": "ORG000604",
+   "start": "",
+   "end": "",
+   "source": "wP000164",
+   "locator": "本文 > 「朱雀第一小学校、中京中学校、東山高校から」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002934",
+   "person_id": "P000182",
+   "organization_id": "ORG000605",
+   "start": "",
+   "end": "",
+   "source": "wP000182",
+   "locator": "本文 > 「松江市立湖東中学校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002935",
+   "person_id": "P000161",
+   "organization_id": "ORG000606",
+   "start": "",
+   "end": "",
+   "source": "wP000161",
+   "locator": "本文 > 「中学は井手町立泉ヶ丘中学校に入学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002936",
+   "person_id": "P000204",
+   "organization_id": "ORG000607",
+   "start": "",
+   "end": "",
+   "source": "wP000204",
+   "locator": "本文 > 「|中学校=七尾市立七尾東部中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002937",
+   "person_id": "P000202",
+   "organization_id": "ORG000608",
+   "start": "",
+   "end": "",
+   "source": "wP000202",
+   "locator": "本文 > 「|中学校=八街市立八街中央中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002938",
+   "person_id": "P000197",
+   "organization_id": "ORG000609",
+   "start": "",
+   "end": "",
+   "source": "wP000197",
+   "locator": "本文 > 「進学した港南中学校の監督が」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002939",
+   "person_id": "P000184",
+   "organization_id": "ORG000610",
+   "start": "",
+   "end": "",
+   "source": "wP000184",
+   "locator": "本文 > 「|中学校 = 厚木市立厚木中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002940",
+   "person_id": "P000192",
+   "organization_id": "ORG000611",
+   "start": "",
+   "end": "",
+   "source": "wP000192",
+   "locator": "本文 > 「| 中学校 = 新潟市立舟栄中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002941",
+   "person_id": "P000171",
+   "organization_id": "ORG000612",
+   "start": "",
+   "end": "",
+   "source": "wP000171",
+   "locator": "本文 > 「|中学校=福井市明道中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002942",
+   "person_id": "P000181",
+   "organization_id": "ORG000613",
+   "start": "",
+   "end": "",
+   "source": "wP000181",
+   "locator": "本文 > 「北見市立小泉中学校卒業後、藤枝明誠高校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002943",
+   "person_id": "P000201",
+   "organization_id": "ORG000614",
+   "start": "",
+   "end": "",
+   "source": "wP000201",
+   "locator": "本文 > 「|中学校=船橋中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002944",
+   "person_id": "P000167",
+   "organization_id": "ORG000615",
+   "start": "",
+   "end": "",
+   "source": "wP000167",
+   "locator": "本文 > 「|中学校=浜田市立第一中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002945",
+   "person_id": "P000173",
+   "organization_id": "ORG000616",
+   "start": "",
+   "end": "",
+   "source": "wP000173",
+   "locator": "本文 > 「津軽中学校でバスケットボール部に所属」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）"
+  },
+  {
+   "career_id": "C002946",
+   "person_id": "P000193",
+   "organization_id": "ORG000617",
+   "start": "",
+   "end": "",
+   "source": "wP000193",
+   "locator": "本文 > 「横浜市立下瀬谷中学校出身」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002947",
+   "person_id": "P000245",
+   "organization_id": "ORG000618",
+   "start": "",
+   "end": "",
+   "source": "wP000245",
+   "locator": "本文 > 「|中学校=横浜市立上飯田中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002948",
+   "person_id": "P000234",
+   "organization_id": "ORG000619",
+   "start": "",
+   "end": "",
+   "source": "wP000234",
+   "locator": "本文 > 「|中学校=上尾市立大石中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002949",
+   "person_id": "P000250",
+   "organization_id": "ORG000620",
+   "start": "",
+   "end": "",
+   "source": "wP000250",
+   "locator": "本文 > 「|中学校=横浜市立岡村中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002950",
+   "person_id": "P000223",
+   "organization_id": "ORG000621",
+   "start": "",
+   "end": "",
+   "source": "wP000223",
+   "locator": "本文 > 「|中学校=丸亀市立東中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002951",
+   "person_id": "P000212",
+   "organization_id": "ORG000622",
+   "start": "",
+   "end": "",
+   "source": "wP000212",
+   "locator": "本文 > 「光風中学校卒業」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002952",
+   "person_id": "P000226",
+   "organization_id": "ORG000619",
+   "start": "",
+   "end": "",
+   "source": "wP000226",
+   "locator": "本文 > 「上尾市立大石中学校卒業後、前橋育英高校へ入学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002953",
+   "person_id": "P000240",
+   "organization_id": "ORG000623",
+   "start": "",
+   "end": "",
+   "source": "wP000240",
+   "locator": "本文 > 「浜松学院中学校時代にはいずれも全国大会に出場」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002954",
+   "person_id": "P000291",
+   "organization_id": "ORG000624",
+   "start": "",
+   "end": "",
+   "source": "wP000291",
+   "locator": "本文 > 「朝日町立朝日中学校 - 富山県立泊高等学校 - 青山学院大学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002955",
+   "person_id": "P000290",
+   "organization_id": "ORG000625",
+   "start": "",
+   "end": "",
+   "source": "wP000290",
+   "locator": "本文 > 「|中学校=川崎市立西中原中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002956",
+   "person_id": "P000280",
+   "organization_id": "ORG000626",
+   "start": "",
+   "end": "",
+   "source": "wP000280",
+   "locator": "本文 > 「* 山内中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002957",
+   "person_id": "P000258",
+   "organization_id": "ORG000627",
+   "start": "",
+   "end": "",
+   "source": "wP000258",
+   "locator": "本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002958",
+   "person_id": "P000258",
+   "organization_id": "ORG000628",
+   "start": "",
+   "end": "",
+   "source": "wP000258",
+   "locator": "本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002959",
+   "person_id": "P000276",
+   "organization_id": "ORG000629",
+   "start": "",
+   "end": "",
+   "source": "wP000276",
+   "locator": "本文 > 「|中学校=一関市立萩荘中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002960",
+   "person_id": "P000296",
+   "organization_id": "ORG000630",
+   "start": "",
+   "end": "",
+   "source": "wP000296",
+   "locator": "本文 > 「|中学校=船橋市立前原中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002961",
+   "person_id": "P000297",
+   "organization_id": "ORG000631",
+   "start": "",
+   "end": "",
+   "source": "wP000297",
+   "locator": "本文 > 「|中学校 = 船橋市立高根台中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002962",
+   "person_id": "P000267",
+   "organization_id": "ORG000632",
+   "start": "",
+   "end": "",
+   "source": "wP000267",
+   "locator": "本文 > 「|中学校=上尾市立原市中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002963",
+   "person_id": "P000275",
+   "organization_id": "ORG000633",
+   "start": "",
+   "end": "",
+   "source": "wP000275",
+   "locator": "本文 > 「|中学校=広島市立国泰寺中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002964",
+   "person_id": "P000264",
+   "organization_id": "ORG000634",
+   "start": "",
+   "end": "",
+   "source": "wP000264",
+   "locator": "本文 > 「横浜市立本牧中学校を卒業後、横浜清風高等学校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002965",
+   "person_id": "P000283",
+   "organization_id": "ORG000635",
+   "start": "",
+   "end": "",
+   "source": "wP000283",
+   "locator": "本文 > 「* 東海大学付属第四高等学校中等部」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002966",
+   "person_id": "P000262",
+   "organization_id": "ORG000636",
+   "start": "",
+   "end": "",
+   "source": "wP000262",
+   "locator": "本文 > 「岡三沢小学校から堀口中学校へ進む」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002967",
+   "person_id": "P000281",
+   "organization_id": "ORG000637",
+   "start": "",
+   "end": "",
+   "source": "wP000281",
+   "locator": "本文 > 「熊本市立東町中学校では3年時に主将として」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002968",
+   "person_id": "P000340",
+   "organization_id": "ORG000638",
+   "start": "",
+   "end": "",
+   "source": "wP000340",
+   "locator": "本文 > 「|中学校=鹿児島市立緑丘中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002969",
+   "person_id": "P000330",
+   "organization_id": "ORG000639",
+   "start": "",
+   "end": "",
+   "source": "wP000330",
+   "locator": "本文 > 「| 中学校 = 大津市立南郷中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002970",
+   "person_id": "P000349",
+   "organization_id": "ORG000640",
+   "start": "",
+   "end": "",
+   "source": "wP000349",
+   "locator": "本文 > 「北谷町立北谷中学校を卒業後、福岡大学附属大濠高校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002971",
+   "person_id": "P000342",
+   "organization_id": "ORG000641",
+   "start": "",
+   "end": "",
+   "source": "wP000342",
+   "locator": "本文 > 「|中学校={{Flagicon|JPN}} 筑紫野市立筑紫野中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002972",
+   "person_id": "P000307",
+   "organization_id": "ORG000619",
+   "start": "",
+   "end": "",
+   "source": "wP000307",
+   "locator": "本文 > 「|中学校=上尾市立大石中学校 / 中2の時、上尾市立大石中学校に転校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002973",
+   "person_id": "P000327",
+   "organization_id": "ORG000642",
+   "start": "",
+   "end": "",
+   "source": "wP000327",
+   "locator": "本文 > 「鹿沼市立西中学校から正智深谷高校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002974",
+   "person_id": "P000345",
+   "organization_id": "ORG000643",
+   "start": "",
+   "end": "",
+   "source": "wP000345",
+   "locator": "本文 > 「松戸市立第一中学校では千葉ジェッツのユースチームに所属」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002975",
+   "person_id": "P000346",
+   "organization_id": "ORG000644",
+   "start": "",
+   "end": "",
+   "source": "wP000346",
+   "locator": "本文 > 「|中学校=仙台市立南光台中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002976",
+   "person_id": "P000315",
+   "organization_id": "ORG000645",
+   "start": "",
+   "end": "",
+   "source": "wP000315",
+   "locator": "本文 > 「|中学校 = 雫石町立雫石中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002977",
+   "person_id": "P000350",
+   "organization_id": "ORG000646",
+   "start": "",
+   "end": "",
+   "source": "wP000350",
+   "locator": "本文 > 「花巻市立石鳥谷中学校、能代工業高から拓殖大学に入学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002978",
+   "person_id": "P000355",
+   "organization_id": "ORG000635",
+   "start": "",
+   "end": "",
+   "source": "wP000355",
+   "locator": "本文 > 「* 東海大学付属第四高等学校中等部」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002979",
+   "person_id": "P000363",
+   "organization_id": "ORG000647",
+   "start": "",
+   "end": "",
+   "source": "wP000363",
+   "locator": "本文 > 「|中学校 = 小田原市立城山中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002980",
+   "person_id": "P000381",
+   "organization_id": "ORG000648",
+   "start": "",
+   "end": "",
+   "source": "wP000381",
+   "locator": "本文 > 「|中学校=福井市進明中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002981",
+   "person_id": "P000357",
+   "organization_id": "ORG000649",
+   "start": "",
+   "end": "",
+   "source": "wP000357",
+   "locator": "本文 > 「|中学校 = 長岡市立東北中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002982",
+   "person_id": "P000371",
+   "organization_id": "ORG000650",
+   "start": "",
+   "end": "",
+   "source": "wP000371",
+   "locator": "本文 > 「加賀市立錦城中学校 - 金沢高等学校 - 青山学院大学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002983",
+   "person_id": "P000379",
+   "organization_id": "ORG000651",
+   "start": "",
+   "end": "",
+   "source": "wP000379",
+   "locator": "本文 > 「浜脇小学校、浜脇中学校と西宮の地元で育つ」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002984",
+   "person_id": "P000385",
+   "organization_id": "ORG000652",
+   "start": "",
+   "end": "",
+   "source": "wP000385",
+   "locator": "本文 > 「宇都宮市立雀宮中学校へ進学するために、母と共に宇都宮市に転居する」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002985",
+   "person_id": "P000391",
+   "organization_id": "ORG000653",
+   "start": "",
+   "end": "",
+   "source": "wP000391",
+   "locator": "本文 > 「|中学校= 函館市立湯川中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002986",
+   "person_id": "P000414",
+   "organization_id": "ORG000654",
+   "start": "",
+   "end": "",
+   "source": "wP000414",
+   "locator": "本文 > 「| 中学校 = 一関市立桜町中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002987",
+   "person_id": "P000421",
+   "organization_id": "ORG000655",
+   "start": "",
+   "end": "",
+   "source": "wP000421",
+   "locator": "本文 > 「| 中学校 = 静岡市立清水袖師中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002988",
+   "person_id": "P000429",
+   "organization_id": "ORG000656",
+   "start": "",
+   "end": "",
+   "source": "wP000429",
+   "locator": "本文 > 「|中学校=神谷中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002989",
+   "person_id": "P000398",
+   "organization_id": "ORG000657",
+   "start": "",
+   "end": "",
+   "source": "wP000398",
+   "locator": "本文 > 「|中学校=麻布中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002990",
+   "person_id": "P000461",
+   "organization_id": "ORG000658",
+   "start": "",
+   "end": "",
+   "source": "wP000461",
+   "locator": "本文 > 「上越市立直江津東中学校（1993 - 1995）」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002991",
+   "person_id": "P000448",
+   "organization_id": "ORG000659",
+   "start": "",
+   "end": "",
+   "source": "wP000448",
+   "locator": "本文 > 「常陸太田市立太田中学校、水戸商業高を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002992",
+   "person_id": "P000464",
+   "organization_id": "ORG000660",
+   "start": "",
+   "end": "",
+   "source": "wP000464",
+   "locator": "本文 > 「穴水町立穴水中学校、金沢市立工業高等学校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002993",
+   "person_id": "P000449",
+   "organization_id": "ORG000661",
+   "start": "",
+   "end": "",
+   "source": "wP000449",
+   "locator": "本文 > 「| 中学校 = 南風原町立南星中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002994",
+   "person_id": "P000441",
+   "organization_id": "ORG000662",
+   "start": "",
+   "end": "",
+   "source": "wP000441",
+   "locator": "本文 > 「広島市立仁保小学校・広島市立段原中学校・如水館高等学校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002995",
+   "person_id": "P000440",
+   "organization_id": "ORG000663",
+   "start": "",
+   "end": "",
+   "source": "wP000440",
+   "locator": "本文 > 「糸満市立西崎中学校から沖縄県立小禄高等学校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002996",
+   "person_id": "P000444",
+   "organization_id": "ORG000664",
+   "start": "",
+   "end": "",
+   "source": "wP000444",
+   "locator": "本文 > 「薩摩川内市立川内中央中学校から鹿児島県立川内高等学校へ進み」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：高校・大学が一致）"
+  },
+  {
+   "career_id": "C002997",
+   "person_id": "P000467",
+   "organization_id": "ORG000665",
+   "start": "",
+   "end": "",
+   "source": "wP000467",
+   "locator": "本文 > 「|中学校=高知市立西部中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002998",
+   "person_id": "P000508",
+   "organization_id": "ORG000666",
+   "start": "",
+   "end": "",
+   "source": "wP000508",
+   "locator": "本文 > 「|中学校=立教新座中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C002999",
+   "person_id": "P000513",
+   "organization_id": "ORG000667",
+   "start": "",
+   "end": "",
+   "source": "wP000513",
+   "locator": "本文 > 「| 中学校 = 小矢部市立石動中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003000",
+   "person_id": "P000497",
+   "organization_id": "ORG000575",
+   "start": "",
+   "end": "",
+   "source": "wP000497",
+   "locator": "本文 > 「* 福岡市立百道中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003001",
+   "person_id": "P000480",
+   "organization_id": "ORG000668",
+   "start": "",
+   "end": "",
+   "source": "wP000480",
+   "locator": "本文 > 「京北中学校・高校に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003002",
+   "person_id": "P000511",
+   "organization_id": "ORG000669",
+   "start": "",
+   "end": "",
+   "source": "wP000511",
+   "locator": "本文 > 「本郷中学校、宮崎工業高校を経て」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003003",
+   "person_id": "P000505",
+   "organization_id": "ORG000670",
+   "start": "",
+   "end": "",
+   "source": "wP000505",
+   "locator": "本文 > 「|中学校=越谷市立中央中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003004",
+   "person_id": "P000483",
+   "organization_id": "ORG000569",
+   "start": "",
+   "end": "",
+   "source": "wP000483",
+   "locator": "本文 > 「横浜市立大道中学校、北陸高校を経て筑波大学に進学」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003005",
+   "person_id": "P000502",
+   "organization_id": "ORG000671",
+   "start": "",
+   "end": "",
+   "source": "wP000502",
+   "locator": "本文 > 「|中学校=秋田市立山王中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003006",
+   "person_id": "P000501",
+   "organization_id": "ORG000672",
+   "start": "",
+   "end": "",
+   "source": "wP000501",
+   "locator": "本文 > 「|中学校=渋谷教育学園渋谷中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003007",
+   "person_id": "P000514",
+   "organization_id": "ORG000673",
+   "start": "",
+   "end": "",
+   "source": "wP000514",
+   "locator": "本文 > 「甲南中学校・高等学校を経て、東海大学を卒業」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003008",
+   "person_id": "P000479",
+   "organization_id": "ORG000674",
+   "start": "",
+   "end": "",
+   "source": "wP000479",
+   "locator": "本文 > 「|中学校=寝屋川市立第三中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003009",
+   "person_id": "P000563",
+   "organization_id": "ORG000675",
+   "start": "",
+   "end": "",
+   "source": "wP000563",
+   "locator": "本文 > 「二宮町立二宮西中学校、神奈川県立秦野南が丘高等学校時代は」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003010",
+   "person_id": "P000548",
+   "organization_id": "ORG000676",
+   "start": "",
+   "end": "",
+   "source": "wP000548",
+   "locator": "本文 > 「|中学校=札幌市立八条中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003011",
+   "person_id": "P000555",
+   "organization_id": "ORG000677",
+   "start": "",
+   "end": "",
+   "source": "wP000555",
+   "locator": "本文 > 「|中学校=鹿児島市立坂元中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003012",
+   "person_id": "P000536",
+   "organization_id": "ORG000678",
+   "start": "",
+   "end": "",
+   "source": "wP000536",
+   "locator": "本文 > 「旭川市立北門中学校、札幌日本大学高等学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003013",
+   "person_id": "P000550",
+   "organization_id": "ORG000679",
+   "start": "",
+   "end": "",
+   "source": "wP000550",
+   "locator": "本文 > 「* 北九州市立木屋瀬中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003014",
+   "person_id": "P000551",
+   "organization_id": "ORG000580",
+   "start": "",
+   "end": "",
+   "source": "wP000551",
+   "locator": "本文 > 「|中学校=富山市立奥田中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003015",
+   "person_id": "P000554",
+   "organization_id": "ORG000680",
+   "start": "",
+   "end": "",
+   "source": "wP000554",
+   "locator": "本文 > 「|中学校=東海市立上野中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  },
+  {
+   "career_id": "C003016",
+   "person_id": "P000566",
+   "organization_id": "ORG000681",
+   "start": "",
+   "end": "",
+   "source": "wP000566",
+   "locator": "本文 > 「|中学校=米子市立東山中学校」",
+   "summary": "Wikipedia日本語版の記事で出身中学校を確認（公式資料では未確認）",
+   "note": "公式未確認：Wikipedia日本語版（同一人物の確認：生年月日が一致）"
+  }
+ ],
+ "corrections": [],
+ "holds": [
+  {
+   "name": "五十嵐 貴志",
+   "description": "Wikipediaの中学校名「鶴岡市立鶴岡第一第一中学校」は「第一」が重なっており表記の誤りの可能性。記録しない",
+   "next_check": "クラブ公式・記事で正しい校名を確認"
+  },
+  {
+   "name": "（組織）",
+   "description": "市町村名なしの表記で新しく登録する中学校のうち、既存の組織と同じ学校の可能性があるもの：コザ中学校（既存：沖縄市立コザ中学校）。統合はしていない",
+   "next_check": "同じ学校か確認し、必要なら組織の統合を検討"
+  },
+  {
+   "name": "田渡 凌",
+   "description": "Wikipediaの記載は「京北中学3年の時」の略記のみで正式な校名がない。記録しない",
+   "next_check": "正式な校名の記載がある資料で確認"
+  },
+  {
+   "name": "晴山 ケビン",
+   "description": "中学校名（八幡平市立西根第一中学校）がWikipediaの要出典範囲の中にしかない。記録しない",
+   "next_check": "出典のある資料で確認"
+  }
+ ]
+}

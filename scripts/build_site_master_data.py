@@ -250,6 +250,12 @@ def main() -> None:
                 ])
                 if values:
                     details.append(f"{label}：{' / '.join(values)}")
+            # Careers recorded only from non-official sources (Sprint 028〜: Wikipedia etc.,
+            # Yuichi 2026-11-21「使って良いもののソースから引用するに限って掲載する」).
+            unofficial = [row["issue_note"] for row in career_evidence
+                          if row["field_name"] == "organization_id" and row["issue_note"].startswith("公式未確認")]
+            if unofficial and len(unofficial) == len([r for r in career_evidence if r["field_name"] == "organization_id"]):
+                details.append("公式未確認")
             public_careers.append({
                 "id": career["career_id"],
                 "period": school_period(organizations[career["organization_id"]], career["start"], career["end"]) + estimate_label(career_evidence),
