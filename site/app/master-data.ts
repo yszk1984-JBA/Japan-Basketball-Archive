@@ -136,6 +136,16 @@ export const masterApprovals = {
     "approvedAt": "2026-11-21",
     "verifiedCommit": "48aa44f"
   },
+  "APP-AS029-20261121-01": {
+    "approvalId": "APP-AS029-20261121-01",
+    "approvedAt": "2026-11-21",
+    "verifiedCommit": "5201c11"
+  },
+  "APP-AS030-20261121-01": {
+    "approvalId": "APP-AS030-20261121-01",
+    "approvedAt": "2026-11-21",
+    "verifiedCommit": "8427e44"
+  },
   "APP-B005-20260921-01": {
     "approvalId": "APP-B005-20260921-01",
     "approvedAt": "2026-09-21",
@@ -11422,6 +11432,339 @@ export const masterSources = [
     "dataStatus": "master"
   },
   {
+    "id": "B44W1S0001",
+    "title": "馬場雄大 選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=12577",
+    "location": "基本情報 > 生年月日1995年11月7日｜31歳 / 生年月日：1995年11月7日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B44W1S0002",
+    "title": "佐々木隆成 選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=20037",
+    "location": "基本情報 > 生年月日1996年5月2日｜30歳 / 生年月日：1996年5月2日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B44W1S0003",
+    "title": "岡本飛竜 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8839",
+    "location": "生年月日：1993年4月20日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B44W1S0004",
+    "title": "ファイパプ月瑠 選手プロフィール（クラブ所属履歴）",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=9400",
+    "location": "生年月日：1987年6月22日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B44W1S0005",
+    "title": "長島蓮 選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=22395",
+    "location": "生年月日：1997年3月3日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B44W1S0006",
+    "title": "長谷川智伸 選手プロフィール",
+    "publisher": "B.LEAGUE",
+    "url": "https://www.bleague.jp/roster_detail/?PlayerID=8577",
+    "location": "生年月日：1990年11月9日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B44W1S0007",
+    "title": "大西一輝選手 選手詳細",
+    "publisher": "ヴィアティン三重バスケットボール",
+    "url": "https://veertien-basketball.jp/team/players/detail/id=60078?PlayerID=11482",
+    "location": "生年月日：2003年10月25日",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0001",
+    "title": "竹内譲次 - Wikipedia（版 108407442）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E7%AB%B9%E5%86%85%E8%AD%B2%E6%AC%A1&oldid=108407442",
+    "location": "基本情報欄 > |所属年=2007-2016 |所属=[[サンロッカーズ渋谷|日立サンロッカーズ東京]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0002",
+    "title": "水戸健史 - Wikipedia（版 106457421）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E6%B0%B4%E6%88%B8%E5%81%A5%E5%8F%B2&oldid=106457421",
+    "location": "基本情報欄 > |所属年=2008- |所属=[[富山グラウジーズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0003",
+    "title": "並里成 - Wikipedia（版 109610435）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E4%B8%A6%E9%87%8C%E6%88%90&oldid=109610435",
+    "location": "基本情報欄 > |所属年=2009-2011 |所属=[[宇都宮ブレックス|リンク栃木ブレックス]] / 基本情報欄 > |所属年=2011-2015 |所属=[[琉球ゴールデンキングス]] / 基本情報欄 > |所属年=2015-2016 |所属=[[大阪エヴェッサ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0004",
+    "title": "寒竹隼人 - Wikipedia（版 111572916）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%AF%92%E7%AB%B9%E9%9A%BC%E4%BA%BA&oldid=111572916",
+    "location": "基本情報欄 > |所属年=2009-2011 |所属=[[アルバルク東京|トヨタ自動車アルバルク]] / 基本情報欄 > |所属年=2011-2012 |所属=[[岩手ビッグブルズ]] / 基本情報欄 > |所属年=2012-2014 |所属=[[京都ハンナリーズ]] / 基本情報欄 > |所属年=2014-2016 |所属=岩手ビッグブルズ",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0005",
+    "title": "古川孝敏 - Wikipedia（版 111548118）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%8F%A4%E5%B7%9D%E5%AD%9D%E6%95%8F&oldid=111548118",
+    "location": "基本情報欄 > |所属年=2010-2013 |所属=[[シーホース三河|アイシンシーホース]] / 基本情報欄 > |所属年=2013-2017 |所属=[[宇都宮ブレックス|栃木ブレックス]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0006",
+    "title": "田口成浩 - Wikipedia（版 110949305）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E7%94%B0%E5%8F%A3%E6%88%90%E6%B5%A9&oldid=110949305",
+    "location": "基本情報欄 > |所属年=2012-2018 |所属=[[秋田ノーザンハピネッツ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0007",
+    "title": "岸本隆一 - Wikipedia（版 111571833）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B2%B8%E6%9C%AC%E9%9A%86%E4%B8%80&oldid=111571833",
+    "location": "基本情報欄 > |所属年=2012-2026 |所属=[[琉球ゴールデンキングス]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0008",
+    "title": "辻直人 - Wikipedia（版 111704129）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%BE%BB%E7%9B%B4%E4%BA%BA&oldid=111704129",
+    "location": "基本情報欄 > |所属年=2012-2021 |所属=[[川崎ブレイブサンダース]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0009",
+    "title": "石川海斗 - Wikipedia（版 111513786）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E7%9F%B3%E5%B7%9D%E6%B5%B7%E6%96%97&oldid=111513786",
+    "location": "基本情報欄 > |所属年=2013-2015 |所属=[[サンロッカーズ渋谷]] / 基本情報欄 > |所属年=2015-2016 |所属=[[岩手ビッグブルズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0010",
+    "title": "狩野祐介 - Wikipedia（版 108696045）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E7%8B%A9%E9%87%8E%E7%A5%90%E4%BB%8B&oldid=108696045",
+    "location": "基本情報欄 > |所属年=2013-2016 |所属=[[東京エクセレンス]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0011",
+    "title": "笹山貴哉 - Wikipedia（版 111561854）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E7%AC%B9%E5%B1%B1%E8%B2%B4%E5%93%89&oldid=111561854",
+    "location": "基本情報欄 > |所属年=2015-2021 |所属=[[名古屋ダイヤモンドドルフィンズ|三菱電機ダイヤモンドドルフィンズ名古屋<br>名古屋ダイヤモンドドルフィンズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0012",
+    "title": "谷口大智 - Wikipedia（版 111701974）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%B0%B7%E5%8F%A3%E5%A4%A7%E6%99%BA&oldid=111701974",
+    "location": "基本情報欄 > |所属年=2015-2019 |所属=[[秋田ノーザンハピネッツ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0013",
+    "title": "白濱僚祐 - Wikipedia（版 108406993）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E7%99%BD%E6%BF%B1%E5%83%9A%E7%A5%90&oldid=108406993",
+    "location": "基本情報欄 > |所属年=2014-2016 |所属=[[シーホース三河|アイシンシーホース三河]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0014",
+    "title": "谷口光貴 - Wikipedia（版 111572565）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%B0%B7%E5%8F%A3%E5%85%89%E8%B2%B4&oldid=111572565",
+    "location": "基本情報欄 > |所属年=2014-2016 |所属=[[川崎ブレイブサンダース|東芝ブレイブサンダース神奈川]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0015",
+    "title": "小林遥太 - Wikipedia（版 111540468）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B0%8F%E6%9E%97%E9%81%A5%E5%A4%AA&oldid=111540468",
+    "location": "基本情報欄 > |所属年=2014-2018 |所属=[[滋賀レイクスターズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0016",
+    "title": "古野拓巳 - Wikipedia（版 106478708）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%8F%A4%E9%87%8E%E6%8B%93%E5%B7%B3&oldid=106478708",
+    "location": "基本情報欄 > |所属年=2014-2019 |所属=[[熊本ヴォルターズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0017",
+    "title": "喜多川修平 - Wikipedia（版 111573791）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%96%9C%E5%A4%9A%E5%B7%9D%E4%BF%AE%E5%B9%B3&oldid=111573791",
+    "location": "基本情報欄 > |所属年=2008-2015 |所属=[[シーホース三河|アイシンシーホース三河]] / 基本情報欄 > |所属年=2015-2017 |所属=[[琉球ゴールデンキングス]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0018",
+    "title": "荒尾岳 - Wikipedia（版 111540315）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8D%92%E5%B0%BE%E5%B2%B3&oldid=111540315",
+    "location": "基本情報欄 > |所属年=2009-2013 |所属=[[アルバルク東京|トヨタ自動車アルバルク]] / 基本情報欄 > |所属年=2013-2018 |所属=[[千葉ジェッツふなばし]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0019",
+    "title": "市岡ショーン - Wikipedia（版 110313330）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B8%82%E5%B2%A1%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%B3&oldid=110313330",
+    "location": "基本情報欄 > |所属年=2010-2012 |所属=[[宇都宮ブレックス|リンク栃木ブレックス]] / 基本情報欄 > |所属年=2012-2013 |所属=[[アルバルク東京|トヨタ自動車アルバルク]] / 基本情報欄 > |所属年=2013-2014 |所属=[[シーホース三河|アイシン シーホース三河]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0020",
+    "title": "多嶋朝飛 - Wikipedia（版 110279063）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%A4%9A%E5%B6%8B%E6%9C%9D%E9%A3%9B&oldid=110279063",
+    "location": "基本情報欄 > |所属年=2011-2012 |所属=[[宇都宮ブレックス|リンク栃木ブレックス]] / 基本情報欄 > |所属年=2012-2013 |所属=[[TGI D-RISE]] / 基本情報欄 > |所属年=2013-2021 |所属=[[レバンガ北海道]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0021",
+    "title": "山内盛久 - Wikipedia（版 109803018）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B1%B1%E5%86%85%E7%9B%9B%E4%B9%85&oldid=109803018",
+    "location": "基本情報欄 > |所属年=2011-2017 |所属=[[琉球ゴールデンキングス]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0022",
+    "title": "菅澤紀行 - Wikipedia（版 111118078）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%8F%85%E6%BE%A4%E7%B4%80%E8%A1%8C&oldid=111118078",
+    "location": "基本情報欄 > |所属年=2010-2012 |所属=[[TGI D-RISE]] / 基本情報欄 > |所属年=2012-2013 |所属=[[群馬クレインサンダーズ]] / 基本情報欄 > |所属年=2013-2017 |所属=[[秋田ノーザンハピネッツ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0023",
+    "title": "橋本拓哉 - Wikipedia（版 110536233）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E6%A9%8B%E6%9C%AC%E6%8B%93%E5%93%89&oldid=110536233",
+    "location": "基本情報欄 > |所属年=2012-2013 |所属=[[大阪エヴェッサ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0024",
+    "title": "遠藤祐亮 - Wikipedia（版 111553011）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E9%81%A0%E8%97%A4%E7%A5%90%E4%BA%AE&oldid=111553011",
+    "location": "基本情報欄 > |所属年=2012- |所属=[[リンク栃木ブレックス]]/[[宇都宮ブレックス]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0025",
+    "title": "川嶋勇人 - Wikipedia（版 110688367）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B7%9D%E5%B6%8B%E5%8B%87%E4%BA%BA&oldid=110688367",
+    "location": "基本情報欄 > |所属年=2013-2016 |所属=[[サンロッカーズ渋谷|日立サンロッカーズ東京]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0026",
+    "title": "小野寺祥太 - Wikipedia（版 110281669）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%B0%8F%E9%87%8E%E5%AF%BA%E7%A5%A5%E5%A4%AA&oldid=110281669",
+    "location": "基本情報欄 > |所属年=2013-2017 |所属=[[岩手ビッグブルズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0027",
+    "title": "落合知也 - Wikipedia（版 111573545）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%90%BD%E5%90%88%E7%9F%A5%E4%B9%9F&oldid=111573545",
+    "location": "基本情報欄 > |所属年=2013-2016 |所属=[[越谷アルファーズ|大塚商会アルファーズ]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0028",
+    "title": "宇都直輝 - Wikipedia（版 111573816）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E5%AE%87%E9%83%BD%E7%9B%B4%E8%BC%9D&oldid=111573816",
+    "location": "基本情報欄 > |所属年=2013-2016 |所属=[[アルバルク東京|トヨタ自動車アルバルク]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0029",
+    "title": "藤井祐眞 - Wikipedia（版 111572926）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E8%97%A4%E4%BA%95%E7%A5%90%E7%9C%9E&oldid=111572926",
+    "location": "基本情報欄 > |所属年=2014-2024 |所属=[[川崎ブレイブサンダース]]",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
+    "id": "B45W1S0030",
+    "title": "ジョシュ・ハレルソン - Wikipedia（版 110286334）",
+    "publisher": "Wikipedia日本語版",
+    "url": "https://ja.wikipedia.org/w/index.php?title=%E3%82%B8%E3%83%A7%E3%82%B7%E3%83%A5%E3%83%BB%E3%83%8F%E3%83%AC%E3%83%AB%E3%82%BD%E3%83%B3&oldid=110286334",
+    "location": "基本情報欄 > |所属年=2011-2012 |所属=[[ニューヨーク・ニックス]] / 基本情報欄 > |所属年=2012-2013 |所属=[[マイアミ・ヒート]] / 基本情報欄 > |所属年=2013-2014 |所属=[[デトロイト・ピストンズ]] / 基本情報欄 > |所属年=2015-2016 |所属=VEFリガ",
+    "accessedAt": "2026-11-21",
+    "dataStatus": "master"
+  },
+  {
     "id": "B4W1S0001",
     "title": "平成29年度 バスケットボール男子U16日本代表チーム メンバー表",
     "publisher": "日本バスケットボール協会",
@@ -15076,7 +15419,8 @@ export const masterPlayers = [
       "APP-AS008-20260929-01",
       "APP-AS021-20261030-01",
       "APP-AS022-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -15136,6 +15480,19 @@ export const masterPlayers = [
         "sourceIds": [
           "B2S0020",
           "B2S0023"
+        ]
+      },
+      {
+        "id": "C003033",
+        "period": "2013–2016年",
+        "organization": "横浜エクセレンス",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000090",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0010"
         ]
       },
       {
@@ -15221,7 +15578,8 @@ export const masterPlayers = [
       "B31W1S0002": "順位表 > クラブ「名古屋ダイヤモンドドルフィンズ」（略称「名古屋D」、club_detail TeamID=729）",
       "B31W1S0003": "順位表 > クラブ「滋賀レイクス」（略称「滋賀」、club_detail TeamID=698）",
       "B31W1S0015": "順位表 > クラブ「佐賀バルーナーズ」（略称「佐賀」、club_detail TeamID=1638）",
-      "B43W1S0011": "本文 > 「飯塚市立庄内小学校、福岡市立春吉中学校を経て、福岡第一高校」"
+      "B43W1S0011": "本文 > 「飯塚市立庄内小学校、福岡市立春吉中学校を経て、福岡第一高校」",
+      "B45W1S0010": "基本情報欄 > |所属年=2013-2016 |所属=[[東京エクセレンス]]"
     }
   },
   {
@@ -15233,7 +15591,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS003-20260921-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -15292,6 +15651,45 @@ export const masterPlayers = [
         "sourceIds": [
           "B2S0021",
           "B2S0022"
+        ]
+      },
+      {
+        "id": "C003019",
+        "period": "2009–2011年",
+        "organization": "宇都宮ブレックス",
+        "startYear": 2009,
+        "endYear": 2011,
+        "organizationId": "ORG000047",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0003"
+        ]
+      },
+      {
+        "id": "C003020",
+        "period": "2011–2015年",
+        "organization": "琉球ゴールデンキングス",
+        "startYear": 2011,
+        "endYear": 2015,
+        "organizationId": "ORG000106",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0003"
+        ]
+      },
+      {
+        "id": "C003021",
+        "period": "2015–2016年",
+        "organization": "大阪エヴェッサ",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000142",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0003"
         ]
       },
       {
@@ -15377,7 +15775,8 @@ export const masterPlayers = [
       "B31W1S0019": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B31W1S0003": "順位表 > クラブ「群馬クレインサンダーズ」（略称「群馬」、club_detail TeamID=713）",
       "B31W1S0016": "順位表 > クラブ「ファイティングイーグルス名古屋」（略称「FE名古屋」、club_detail TeamID=717）",
-      "B43W1S0003": "本文 > 「コザ中学校から福岡第一高校に進学」"
+      "B43W1S0003": "本文 > 「コザ中学校から福岡第一高校に進学」",
+      "B45W1S0003": "基本情報欄 > |所属年=2009-2011 |所属=[[宇都宮ブレックス|リンク栃木ブレックス]] / 基本情報欄 > |所属年=2011-2015 |所属=[[琉球ゴールデンキングス]] / 基本情報欄 > |所属年=2015-2016 |所属=[[大阪エヴェッサ]]"
     }
   },
   {
@@ -15490,7 +15889,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
       "APP-AS019-20261023-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -15537,6 +15937,19 @@ export const masterPlayers = [
         "sourceIds": [
           "B2S0037",
           "B2S0001"
+        ]
+      },
+      {
+        "id": "C003039",
+        "period": "2014–2016年",
+        "organization": "熊本ヴォルターズ",
+        "startYear": 2014,
+        "endYear": 2016,
+        "organizationId": "ORG000067",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0016"
         ]
       },
       {
@@ -15605,7 +16018,8 @@ export const masterPlayers = [
       "B31W1S0026": "クラブ所属履歴 > 「2016-17 熊本」〜「2018-19 熊本」 / クラブ所属履歴 > 「2016-17 熊本」 / クラブ所属履歴 > 「2018-19 熊本」 / クラブ所属履歴 > 「2019-20 広島」〜「2020-21 広島」 / クラブ所属履歴 > 「2019-20 広島」 / クラブ所属履歴 > 「2020-21 広島」 / クラブ所属履歴 > 「2021-22 熊本」",
       "B31W1S0013": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）",
       "B31W1S0027": "順位表 > クラブ「広島ドラゴンフライズ」（略称「広島」、club_detail TeamID=721）",
-      "B31W1S0028": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）"
+      "B31W1S0028": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）",
+      "B45W1S0016": "基本情報欄 > |所属年=2014-2019 |所属=[[熊本ヴォルターズ]]"
     }
   },
   {
@@ -18008,7 +18422,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -18064,6 +18479,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003029",
+        "period": "2012–2016年",
+        "organization": "琉球ゴールデンキングス",
+        "startYear": 2012,
+        "endYear": 2016,
+        "organizationId": "ORG000106",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0007"
+        ]
+      },
+      {
         "id": "C001743",
         "period": "2016–2026年",
         "organization": "琉球ゴールデンキングス",
@@ -18102,7 +18530,8 @@ export const masterPlayers = [
       "B7W11S0002": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B7W11S0006": "順位表 > クラブ「京都ハンナリーズ」（略称「京都」、club_detail TeamID=699）",
       "B7W11S0026": "選手一覧 > 京都 > 岸本 隆一",
-      "B43W1S0008": "本文 > 「2005年3月、名護市立屋部中学校2年時に」"
+      "B43W1S0008": "本文 > 「2005年3月、名護市立屋部中学校2年時に」",
+      "B45W1S0007": "基本情報欄 > |所属年=2012-2026 |所属=[[琉球ゴールデンキングス]]"
     }
   },
   {
@@ -18855,7 +19284,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -18910,6 +19340,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003028",
+        "period": "2012–2016年",
+        "organization": "秋田ノーザンハピネッツ",
+        "startYear": 2012,
+        "endYear": 2016,
+        "organizationId": "ORG000137",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0006"
+        ]
+      },
+      {
         "id": "C001730",
         "period": "2016–2018年",
         "organization": "秋田ノーザンハピネッツ",
@@ -18961,7 +19404,8 @@ export const masterPlayers = [
       "B7W11S0009": "順位表 > クラブ「千葉ジェッツ」（略称「千葉」、club_detail TeamID=704）",
       "B7W11S0013": "順位表 > クラブ「秋田ノーザンハピネッツ」（略称「秋田」、club_detail TeamID=693）",
       "B7W11S0014": "選手一覧 > 秋田 > 田口 成浩",
-      "B43W1S0006": "本文 > 「|中学校=仙北市立角館中学校」"
+      "B43W1S0006": "本文 > 「|中学校=仙北市立角館中学校」",
+      "B45W1S0006": "基本情報欄 > |所属年=2012-2018 |所属=[[秋田ノーザンハピネッツ]]"
     }
   },
   {
@@ -18974,7 +19418,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS020-20261025-01",
       "APP-AS021-20261030-01",
-      "APP-AS024-20261102-01"
+      "APP-AS024-20261102-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -19042,6 +19487,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003017",
+        "period": "2007–2016年",
+        "organization": "東京サンロッカーズ",
+        "startYear": 2007,
+        "endYear": 2016,
+        "organizationId": "ORG000114",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0001"
+        ]
+      },
+      {
         "id": "C001745",
         "period": "2016–2021年",
         "organization": "アルバルク東京",
@@ -19079,7 +19537,8 @@ export const masterPlayers = [
       "B7W11S0013": "順位表 > クラブ「大阪エヴェッサ」（略称「大阪」、club_detail TeamID=700）",
       "B7W11S0028": "選手一覧 > 大阪 > 竹内 譲次",
       "B35W1S0003": "基本情報欄 > |所属年1= 2007-2016 / |所属1=[[サンロッカーズ渋谷|日立サンロッカーズ東京]]",
-      "B39W1S0018": "Q出身校（中）A東佐井寺中学校"
+      "B39W1S0018": "Q出身校（中）A東佐井寺中学校",
+      "B45W1S0001": "基本情報欄 > |所属年=2007-2016 |所属=[[サンロッカーズ渋谷|日立サンロッカーズ東京]]"
     }
   },
   {
@@ -19091,7 +19550,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -19159,6 +19619,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003030",
+        "period": "2012–2016年",
+        "organization": "川崎ブレイブサンダース",
+        "startYear": 2012,
+        "endYear": 2016,
+        "organizationId": "ORG000122",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0008"
+        ]
+      },
+      {
         "id": "C000367",
         "period": "2016–2021年",
         "organization": "川崎ブレイブサンダース",
@@ -19212,7 +19685,8 @@ export const masterPlayers = [
       "B7S0055": "SEASON別CLUB一覧 > 2016-2017〜2020-2021：川崎",
       "B7W11S0044": "順位表 > クラブ「群馬クレインサンダーズ」（略称「群馬」、club_detail TeamID=713）",
       "B7W11S0045": "選手一覧 > 群馬 > 辻 直人",
-      "B43W1S0009": "本文 > 「|中学校=羽曳野市立高鷲中学校」"
+      "B43W1S0009": "本文 > 「|中学校=羽曳野市立高鷲中学校」",
+      "B45W1S0008": "基本情報欄 > |所属年=2012-2021 |所属=[[川崎ブレイブサンダース]]"
     }
   },
   {
@@ -19397,7 +19871,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -19437,6 +19912,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003018",
+        "period": "2008–2016年",
+        "organization": "富山グラウジーズ",
+        "startYear": 2008,
+        "endYear": 2016,
+        "organizationId": "ORG000149",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0002"
+        ]
+      },
+      {
         "id": "C001733",
         "period": "2016年〜",
         "organization": "富山グラウジーズ",
@@ -19458,7 +19946,8 @@ export const masterPlayers = [
       "B7W11S0015": "クラブ所属履歴 > 「2016-17 富山」〜「2026-27 富山」 / クラブ所属履歴 > 「2016-17 富山」",
       "B7W11S0002": "順位表 > クラブ「富山グラウジーズ」（略称「富山」、club_detail TeamID=696）",
       "B7W11S0016": "選手一覧 > 富山 > 水戸 健史",
-      "B43W1S0002": "本文 > 「|中学校=南砺市立福野中学校」"
+      "B43W1S0002": "本文 > 「|中学校=南砺市立福野中学校」",
+      "B45W1S0002": "基本情報欄 > |所属年=2008- |所属=[[富山グラウジーズ]]"
     }
   },
   {
@@ -19470,7 +19959,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -19522,6 +20012,32 @@ export const masterPlayers = [
         "sourceIds": [
           "B7S0044",
           "B7W11S0046"
+        ]
+      },
+      {
+        "id": "C003026",
+        "period": "2010–2013年",
+        "organization": "シーホース三河",
+        "startYear": 2010,
+        "endYear": 2013,
+        "organizationId": "ORG000130",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0005"
+        ]
+      },
+      {
+        "id": "C003027",
+        "period": "2013–2016年",
+        "organization": "宇都宮ブレックス",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000047",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0005"
         ]
       },
       {
@@ -19606,7 +20122,8 @@ export const masterPlayers = [
       "B7W11S0040": "順位表 > クラブ「京都ハンナリーズ」（略称「京都」、club_detail TeamID=699）",
       "B7W11S0006": "順位表 > クラブ「信州ブレイブウォリアーズ」（略称「信州」、club_detail TeamID=716）",
       "B7W11S0047": "選手一覧 > 信州 > 古川 孝敏",
-      "B43W1S0004": "本文 > 「|中学校=神戸市立長峰中学校」"
+      "B43W1S0004": "本文 > 「|中学校=神戸市立長峰中学校」",
+      "B45W1S0005": "基本情報欄 > |所属年=2010-2013 |所属=[[シーホース三河|アイシンシーホース]] / 基本情報欄 > |所属年=2013-2017 |所属=[[宇都宮ブレックス|栃木ブレックス]]"
     }
   },
   {
@@ -19766,7 +20283,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -19821,6 +20339,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003036",
+        "period": "2014–2016年",
+        "organization": "シーホース三河",
+        "startYear": 2014,
+        "endYear": 2016,
+        "organizationId": "ORG000130",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0013"
+        ]
+      },
+      {
         "id": "C001765",
         "period": "2016–2020年",
         "organization": "秋田ノーザンハピネッツ",
@@ -19857,7 +20388,8 @@ export const masterPlayers = [
       "B7W11S0002": "順位表 > クラブ「秋田ノーザンハピネッツ」（略称「秋田」、club_detail TeamID=693）",
       "B7W11S0011": "順位表 > クラブ「島根スサノオマジック」（略称「島根」、club_detail TeamID=720）",
       "B7W11S0049": "選手一覧 > 島根 > 白濱 僚祐",
-      "B43W1S0013": "本文 > 「白石町立有明中学校在学中の2006年には」"
+      "B43W1S0013": "本文 > 「白石町立有明中学校在学中の2006年には」",
+      "B45W1S0013": "基本情報欄 > |所属年=2014-2016 |所属=[[シーホース三河|アイシンシーホース三河]]"
     }
   },
   {
@@ -20392,9 +20924,19 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS018-20261008-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS029-20261121-01"
     ],
-    "facts": [],
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1995年11月7日",
+        "context": "B.LEAGUE公式プロフィールで生年月日を確認",
+        "sourceIds": [
+          "B44W1S0001"
+        ]
+      }
+    ],
     "careers": [
       {
         "id": "C002904",
@@ -20411,14 +20953,15 @@ export const masterPlayers = [
       },
       {
         "id": "C000369",
-        "period": "期間未確認",
+        "period": "2011年4月〜2014年3月（生年月日からの推定）",
         "organization": "富山第一高校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2011,
+        "endYear": 2014,
         "organizationId": "ORG000165",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
+          "B44W1S0001",
           "B7S0057",
           "B7W11S0060"
         ]
@@ -20536,6 +21079,7 @@ export const masterPlayers = [
     ],
     "aliases": [],
     "sourceLocations": {
+      "B44W1S0001": "基本情報 > 生年月日1995年11月7日｜31歳 / 生年月日：1995年11月7日",
       "B7S0057": "選手名 / 生年月日 > 1995年11月7日 / 出身校 > 富山第一高校 / 出身校 > 筑波大学",
       "B7W11S0060": "基本情報 > 出身校（高）：富山第一高校 / 基本情報 > 出身校（大）：筑波大学 / クラブ所属履歴 > 「2017-18 A東京」〜「2018-19 A東京」 / クラブ所属履歴 > 「2017-18 A東京」 / クラブ所属履歴 > 「2018-19 A東京」 / クラブ所属履歴 > 「2023-24 長崎」〜「2026-27 長崎」 / クラブ所属履歴 > 「2023-24 長崎」",
       "B7W11S0003": "順位表 > クラブ「アルバルク東京」（略称「A東京」、club_detail TeamID=706）",
@@ -20554,19 +21098,31 @@ export const masterPlayers = [
     "cardContext": "2022年〜 · 三遠ネオフェニックス",
     "dataStatus": "master",
     "approvalId": "APP-AS009-20260930-01",
-    "enrichmentApprovalIds": [],
-    "facts": [],
+    "enrichmentApprovalIds": [
+      "APP-AS029-20261121-01"
+    ],
+    "facts": [
+      {
+        "label": "生年月日",
+        "value": "1996年5月2日",
+        "context": "B.LEAGUE公式プロフィールで生年月日を確認",
+        "sourceIds": [
+          "B44W1S0002"
+        ]
+      }
+    ],
     "careers": [
       {
         "id": "C000372",
-        "period": "期間未確認",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "山口県立豊浦高等学校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2012,
+        "endYear": 2015,
         "organizationId": "ORG000167",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
+          "B44W1S0002",
           "B7S0058",
           "B7W11S0017"
         ]
@@ -20632,6 +21188,7 @@ export const masterPlayers = [
     ],
     "aliases": [],
     "sourceLocations": {
+      "B44W1S0002": "基本情報 > 生年月日1996年5月2日｜30歳 / 生年月日：1996年5月2日",
       "B7S0059": "選手名 / 生年月日 > 1996年5月2日",
       "B7S0058": "本文 > 「山口県立豊浦高等学校から天理大学へ進学」 / 本文 > 「天理大学へ進学」",
       "B7W11S0017": "基本情報 > 出身校（高）：山口県立豊浦高等学校 / 基本情報 > 出身校（大）：天理大学 / クラブ所属履歴 > 「2018-19 大阪」 / クラブ所属履歴 > 「2019-20 熊本」〜「2021-22 熊本」 / クラブ所属履歴 > 「2019-20 熊本」 / クラブ所属履歴 > 「2021-22 熊本」 / クラブ所属履歴 > 「2022-23 三遠」〜「2026-27 三遠」 / クラブ所属履歴 > 「2022-23 三遠」",
@@ -20923,7 +21480,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -20975,6 +21533,58 @@ export const masterPlayers = [
         "sourceIds": [
           "B8W1S0003",
           "B8W1S0006"
+        ]
+      },
+      {
+        "id": "C003022",
+        "period": "2009–2011年",
+        "organization": "アルバルク東京",
+        "startYear": 2009,
+        "endYear": 2011,
+        "organizationId": "ORG000109",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0004"
+        ]
+      },
+      {
+        "id": "C003023",
+        "period": "2011–2012年",
+        "organization": "岩手ビッグブルズ",
+        "startYear": 2011,
+        "endYear": 2012,
+        "organizationId": "ORG000173",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0004"
+        ]
+      },
+      {
+        "id": "C003024",
+        "period": "2012–2014年",
+        "organization": "京都ハンナリーズ",
+        "startYear": 2012,
+        "endYear": 2014,
+        "organizationId": "ORG000042",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0004"
+        ]
+      },
+      {
+        "id": "C003025",
+        "period": "2014–2016年",
+        "organization": "岩手ビッグブルズ",
+        "startYear": 2014,
+        "endYear": 2016,
+        "organizationId": "ORG000173",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0004"
         ]
       },
       {
@@ -21057,7 +21667,8 @@ export const masterPlayers = [
       "B31W1S0051": "順位表 > クラブ「大阪エヴェッサ」（略称「大阪」、club_detail TeamID=700）",
       "B31W1S0019": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B31W1S0007": "順位表 > クラブ「仙台89ERS」（略称「仙台」、club_detail TeamID=692）",
-      "B43W1S0025": "本文 > 「|中学校=福岡市立友泉中学校」"
+      "B43W1S0025": "本文 > 「|中学校=福岡市立友泉中学校」",
+      "B45W1S0004": "基本情報欄 > |所属年=2009-2011 |所属=[[アルバルク東京|トヨタ自動車アルバルク]] / 基本情報欄 > |所属年=2011-2012 |所属=[[岩手ビッグブルズ]] / 基本情報欄 > |所属年=2012-2014 |所属=[[京都ハンナリーズ]] / 基本情報欄 > |所属年=2014-2016 |所属=岩手ビッグブルズ"
     }
   },
   {
@@ -22820,7 +23431,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS006-20260925-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -22859,6 +23471,32 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B9W1S0010"
+        ]
+      },
+      {
+        "id": "C003031",
+        "period": "2013–2015年",
+        "organization": "東京サンロッカーズ",
+        "startYear": 2013,
+        "endYear": 2015,
+        "organizationId": "ORG000114",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0009"
+        ]
+      },
+      {
+        "id": "C003032",
+        "period": "2015–2016年",
+        "organization": "岩手ビッグブルズ",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000173",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0009"
         ]
       },
       {
@@ -22955,7 +23593,8 @@ export const masterPlayers = [
       "B31W2S0018": "順位表 > クラブ「信州ブレイブウォリアーズ」（略称「信州」、club_detail TeamID=716）",
       "B31W2S0019": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）",
       "B31W2S0020": "順位表 > クラブ「ファイティングイーグルス名古屋」（略称「FE名古屋」、club_detail TeamID=717）",
-      "B31W2S0021": "順位表 > クラブ「信州ブレイブウォリアーズ」（略称「信州」、club_detail TeamID=716）"
+      "B31W2S0021": "順位表 > クラブ「信州ブレイブウォリアーズ」（略称「信州」、club_detail TeamID=716）",
+      "B45W1S0009": "基本情報欄 > |所属年=2013-2015 |所属=[[サンロッカーズ渋谷]] / 基本情報欄 > |所属年=2015-2016 |所属=[[岩手ビッグブルズ]]"
     }
   },
   {
@@ -23403,7 +24042,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS006-20260925-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -23444,6 +24084,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003034",
+        "period": "2015–2016年",
+        "organization": "名古屋ダイヤモンドドルフィンズ",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000054",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0011"
+        ]
+      },
+      {
         "id": "C000850",
         "period": "2016–2021年",
         "organization": "名古屋ダイヤモンドドルフィンズ",
@@ -23476,7 +24129,8 @@ export const masterPlayers = [
       "B10W1S0005": "基本情報 > 選手名 / 基本情報 > 生年月日 / 生年月日：1993年2月15日（Master Evidence B10W1E0020、B.LEAGUE） / クラブ経歴 > 「2021-22以降：FE名古屋」 / クラブ経歴 > 「2021-22：FE名古屋」が初出（前年は名古屋D、別クラブ）",
       "B10W1S0001": "TagID=35（洛南高等学校）掲載選手一覧 / 選手カード > 出身校：筑波大学",
       "B31W2S0026": "クラブ所属履歴 > 「2016-17 名古屋D」〜「2020-21 名古屋D」 / クラブ所属履歴 > 「2016-17 名古屋D」 / クラブ所属履歴 > 「2020-21 名古屋D」",
-      "B31W2S0017": "順位表 > クラブ「名古屋ダイヤモンドドルフィンズ」（略称「名古屋D」、club_detail TeamID=729）"
+      "B31W2S0017": "順位表 > クラブ「名古屋ダイヤモンドドルフィンズ」（略称「名古屋D」、club_detail TeamID=729）",
+      "B45W1S0011": "基本情報欄 > |所属年=2015-2021 |所属=[[名古屋ダイヤモンドドルフィンズ|三菱電機ダイヤモンドドルフィンズ名古屋<br>名古屋ダイヤモンドドルフィンズ]]"
     }
   },
   {
@@ -23868,7 +24522,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS006-20260925-01",
     "enrichmentApprovalIds": [
-      "APP-AS008-20260929-01"
+      "APP-AS008-20260929-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -23905,6 +24560,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B10W2S0001"
+        ]
+      },
+      {
+        "id": "C003035",
+        "period": "2015–2016年",
+        "organization": "秋田ノーザンハピネッツ",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000137",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0012"
         ]
       },
       {
@@ -23985,7 +24653,8 @@ export const masterPlayers = [
       "B31W2S0017": "順位表 > クラブ「秋田ノーザンハピネッツ」（略称「秋田」、club_detail TeamID=693）",
       "B31W2S0019": "順位表 > クラブ「広島ドラゴンフライズ」（略称「広島」、club_detail TeamID=721）",
       "B31W2S0031": "順位表 > クラブ「茨城ロボッツ」（略称「茨城」、club_detail TeamID=712）",
-      "B31W2S0006": "順位表 > クラブ「島根スサノオマジック」（略称「島根」、club_detail TeamID=720）"
+      "B31W2S0006": "順位表 > クラブ「島根スサノオマジック」（略称「島根」、club_detail TeamID=720）",
+      "B45W1S0012": "基本情報欄 > |所属年=2015-2019 |所属=[[秋田ノーザンハピネッツ]]"
     }
   },
   {
@@ -24097,7 +24766,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS006-20260925-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -24135,6 +24805,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B10W2S0001"
+        ]
+      },
+      {
+        "id": "C003037",
+        "period": "2014–2016年",
+        "organization": "川崎ブレイブサンダース",
+        "startYear": 2014,
+        "endYear": 2016,
+        "organizationId": "ORG000122",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0014"
         ]
       },
       {
@@ -24245,7 +24928,8 @@ export const masterPlayers = [
       "B31W2S0013": "順位表 > クラブ「香川ファイブアローズ」（略称「香川」、club_detail TeamID=722）",
       "B31W2S0002": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）",
       "B31W2S0035": "順位表 > クラブ「ライジングゼファー福岡」（略称「福岡」、club_detail TeamID=753）",
-      "B31W2S0036": "順位表 > クラブ「横浜ビー・コルセアーズ」（略称「横浜BC」、club_detail TeamID=694）"
+      "B31W2S0036": "順位表 > クラブ「横浜ビー・コルセアーズ」（略称「横浜BC」、club_detail TeamID=694）",
+      "B45W1S0014": "基本情報欄 > |所属年=2014-2016 |所属=[[川崎ブレイブサンダース|東芝ブレイブサンダース神奈川]]"
     }
   },
   {
@@ -24781,7 +25465,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS006-20260925-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -24819,6 +25504,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B10W3S0001"
+        ]
+      },
+      {
+        "id": "C003038",
+        "period": "2014–2016年",
+        "organization": "滋賀レイクス",
+        "startYear": 2014,
+        "endYear": 2016,
+        "organizationId": "ORG000153",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0015"
         ]
       },
       {
@@ -24899,7 +25597,8 @@ export const masterPlayers = [
       "B31W2S0017": "順位表 > クラブ「滋賀レイクスターズ」（略称「滋賀」、club_detail TeamID=698）",
       "B31W2S0045": "順位表 > クラブ「名古屋ダイヤモンドドルフィンズ」（略称「名古屋D」、club_detail TeamID=729）",
       "B31W2S0006": "順位表 > クラブ「仙台89ERS」（略称「仙台」、club_detail TeamID=692）",
-      "B31W2S0046": "順位表 > クラブ「バンビシャス奈良」（略称「奈良」、club_detail TeamID=719）"
+      "B31W2S0046": "順位表 > クラブ「バンビシャス奈良」（略称「奈良」、club_detail TeamID=719）",
+      "B45W1S0015": "基本情報欄 > |所属年=2014-2018 |所属=[[滋賀レイクスターズ]]"
     }
   },
   {
@@ -25054,7 +25753,9 @@ export const masterPlayers = [
     "cardContext": "期間未確認 · ヴィアティン三重",
     "dataStatus": "master",
     "approvalId": "APP-AS006-20260925-01",
-    "enrichmentApprovalIds": [],
+    "enrichmentApprovalIds": [
+      "APP-AS029-20261121-01"
+    ],
     "facts": [
       {
         "label": "生年月日",
@@ -25069,16 +25770,17 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C000511",
-        "period": "期間未確認",
+        "period": "2019年4月〜2022年3月（生年月日からの推定）",
         "organization": "洛南高等学校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2019,
+        "endYear": 2022,
         "organizationId": "ORG000119",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
           "B10W4S0001",
-          "B10W4S0004"
+          "B10W4S0004",
+          "B44W1S0007"
         ]
       },
       {
@@ -25115,6 +25817,7 @@ export const masterPlayers = [
       "B10W4S0002": "基本情報 > 氏名 / 基本情報 > 生年月日 / 基本情報 > 出身大学 / 基本情報 > 現所属",
       "B10W4S0004": "基本情報 / 経歴 > 高校 / 経歴 > 大学",
       "B10W4S0001": "洛南高等学校タグ一覧内の選手カード",
+      "B44W1S0007": "生年月日：2003年10月25日",
       "B10W4S0003": "選手一覧ロスター"
     }
   },
@@ -26191,7 +26894,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -26241,6 +26945,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B13W2S0004"
+        ]
+      },
+      {
+        "id": "C003056",
+        "period": "2013–2016年",
+        "organization": "東京サンロッカーズ",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000114",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0025"
         ]
       },
       {
@@ -26321,7 +27038,8 @@ export const masterPlayers = [
       "B31W3S0003": "順位表 > クラブ「三遠ネオフェニックス」（略称「三遠」、club_detail TeamID=697）",
       "B31W3S0004": "順位表 > クラブ「秋田ノーザンハピネッツ」（略称「秋田」、club_detail TeamID=693）",
       "B31W3S0005": "順位表 > クラブ「ファイティングイーグルス名古屋」（略称「FE名古屋」、club_detail TeamID=717）",
-      "B43W1S0041": "本文 > 「朱雀第一小学校、中京中学校、東山高校から」"
+      "B43W1S0041": "本文 > 「朱雀第一小学校、中京中学校、東山高校から」",
+      "B45W1S0025": "基本情報欄 > |所属年=2013-2016 |所属=[[サンロッカーズ渋谷|日立サンロッカーズ東京]]"
     }
   },
   {
@@ -26688,7 +27406,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -26738,6 +27457,45 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B14W1S0005"
+        ]
+      },
+      {
+        "id": "C003047",
+        "period": "2011–2012年",
+        "organization": "宇都宮ブレックス",
+        "startYear": 2011,
+        "endYear": 2012,
+        "organizationId": "ORG000047",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0020"
+        ]
+      },
+      {
+        "id": "C003048",
+        "period": "2012–2013年",
+        "organization": "TGI D-RISE",
+        "startYear": 2012,
+        "endYear": 2013,
+        "organizationId": "ORG000682",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0020"
+        ]
+      },
+      {
+        "id": "C003049",
+        "period": "2013–2016年",
+        "organization": "レバンガ北海道",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000092",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0020"
         ]
       },
       {
@@ -26818,7 +27576,8 @@ export const masterPlayers = [
       "B31W3S0004": "順位表 > クラブ「茨城ロボッツ」（略称「茨城」、club_detail TeamID=712）",
       "B31W3S0005": "順位表 > クラブ「大阪エヴェッサ」（略称「大阪」、club_detail TeamID=700）",
       "B31W3S0017": "順位表 > クラブ「仙台89ERS」（略称「仙台」、club_detail TeamID=692）",
-      "B43W1S0038": "本文 > 「帯広大空中学校、北陸高校を経て」"
+      "B43W1S0038": "本文 > 「帯広大空中学校、北陸高校を経て」",
+      "B45W1S0020": "基本情報欄 > |所属年=2011-2012 |所属=[[宇都宮ブレックス|リンク栃木ブレックス]] / 基本情報欄 > |所属年=2012-2013 |所属=[[TGI D-RISE]] / 基本情報欄 > |所属年=2013-2021 |所属=[[レバンガ北海道]]"
     }
   },
   {
@@ -28063,7 +28822,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -28116,6 +28876,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003060",
+        "period": "2014–2016年",
+        "organization": "川崎ブレイブサンダース",
+        "startYear": 2014,
+        "endYear": 2016,
+        "organizationId": "ORG000122",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0029"
+        ]
+      },
+      {
         "id": "C000933",
         "period": "2016–2024年",
         "organization": "川崎ブレイブサンダース",
@@ -28148,7 +28921,8 @@ export const masterPlayers = [
       "B15W1S0004": "基本情報 > 選手名 / 基本情報 > 生年月日 / 基本情報 > 出身校（高）：藤枝明誠高等学校 / 生年月日：1991年12月23日（Master Evidence B15W1E0014、B.LEAGUE） / 基本情報 > 出身校（大）：拓殖大学 / クラブ経歴 > 「2024-25：群馬」が最新（新規加入） / クラブ経歴 > 「2024-25：群馬」が最新",
       "B31W3S0039": "クラブ所属履歴 > 「2016-17 川崎」〜「2023-24 川崎」 / クラブ所属履歴 > 「2016-17 川崎」 / クラブ所属履歴 > 「2023-24 川崎」",
       "B31W3S0002": "順位表 > クラブ「川崎ブレイブサンダース」（略称「川崎」、club_detail TeamID=727）",
-      "B43W1S0042": "本文 > 「松江市立湖東中学校に進学」"
+      "B43W1S0042": "本文 > 「松江市立湖東中学校に進学」",
+      "B45W1S0029": "基本情報欄 > |所属年=2014-2024 |所属=[[川崎ブレイブサンダース]]"
     }
   },
   {
@@ -28516,7 +29290,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS006-20260925-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -28553,6 +29328,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B17W1S0003"
+        ]
+      },
+      {
+        "id": "C003058",
+        "period": "2013–2016年",
+        "organization": "越谷アルファーズ",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000190",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0027"
         ]
       },
       {
@@ -28602,7 +29390,8 @@ export const masterPlayers = [
       "B17W1S0003": "基本情報 > 選手名 / 基本情報 > 生年月日 / 基本情報 > 出身校（高）：土浦日本大学高等学校 / 生年月日：1987年6月18日（Master Evidence B17W1E0008、B.LEAGUE） / 基本情報 > 出身校（大）：法政大学 / クラブ経歴 > 「2024-25：品川」が初出（現所属への新規加入） / クラブ経歴 > 「2024-25：品川」が初出",
       "B31W3S0045": "クラブ所属履歴 > 「2016-17 栃木」〜「2017-18 栃木」 / クラブ所属履歴 > 「2016-17 栃木」 / クラブ所属履歴 > 「2017-18 栃木」 / クラブ所属履歴 > 「2018-19 越谷」〜「2022-23 越谷」 / クラブ所属履歴 > 「2018-19 越谷」 / クラブ所属履歴 > 「2022-23 越谷」",
       "B31W3S0002": "順位表 > クラブ「栃木ブレックス」（略称「栃木」、club_detail TeamID=703）",
-      "B31W3S0046": "順位表 > クラブ「大塚商会越谷アルファーズ」（略称「越谷」、club_detail TeamID=745）"
+      "B31W3S0046": "順位表 > クラブ「大塚商会越谷アルファーズ」（略称「越谷」、club_detail TeamID=745）",
+      "B45W1S0027": "基本情報欄 > |所属年=2013-2016 |所属=[[越谷アルファーズ|大塚商会アルファーズ]]"
     }
   },
   {
@@ -29395,7 +30184,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -29448,6 +30238,32 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003040",
+        "period": "2008–2015年",
+        "organization": "シーホース三河",
+        "startYear": 2008,
+        "endYear": 2015,
+        "organizationId": "ORG000130",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0017"
+        ]
+      },
+      {
+        "id": "C003041",
+        "period": "2015–2016年",
+        "organization": "琉球ゴールデンキングス",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000106",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0017"
+        ]
+      },
+      {
         "id": "C000951",
         "period": "2016–2017年",
         "organization": "琉球ゴールデンキングス",
@@ -29495,7 +30311,8 @@ export const masterPlayers = [
       "B31W3S0057": "クラブ所属履歴 > 「2016-17 琉球」 / クラブ所属履歴 > 「2017-18 栃木」〜「2022-23 宇都宮」 / クラブ所属履歴 > 「2017-18 栃木」 / クラブ所属履歴 > 「2022-23 宇都宮」",
       "B31W3S0002": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B31W3S0003": "順位表 > クラブ「栃木ブレックス」（略称「栃木」、club_detail TeamID=703）",
-      "B43W1S0037": "本文 > 「菅生中学校、桐光学園高校を経て」"
+      "B43W1S0037": "本文 > 「菅生中学校、桐光学園高校を経て」",
+      "B45W1S0017": "基本情報欄 > |所属年=2008-2015 |所属=[[シーホース三河|アイシンシーホース三河]] / 基本情報欄 > |所属年=2015-2017 |所属=[[琉球ゴールデンキングス]]"
     }
   },
   {
@@ -30552,7 +31369,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS007-20260926-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -30605,6 +31423,19 @@ export const masterPlayers = [
         ]
       },
       {
+        "id": "C003055",
+        "period": "2012–2016年",
+        "organization": "宇都宮ブレックス",
+        "startYear": 2012,
+        "endYear": 2016,
+        "organizationId": "ORG000047",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0024"
+        ]
+      },
+      {
         "id": "C000673",
         "period": "2016年〜",
         "organization": "宇都宮ブレックス",
@@ -30621,7 +31452,8 @@ export const masterPlayers = [
     "aliases": [],
     "sourceLocations": {
       "B20W2S0003": "基本情報 > 選手名 / 基本情報 > 生年月日 / 基本情報 > 出身校（高）：船橋市立船橋高等学校 / 生年月日：1989年10月19日（Master Evidence B20W2E0008、B.LEAGUE） / 基本情報 > 出身校（大）：大東文化大学 / クラブ所属履歴 > 「2026-27 宇都宮」〜「2019-20 宇都宮」「2018-19 栃木」〜「2016-17 栃木」（連続在籍）",
-      "B43W1S0040": "本文 > 「|中学校=習志野市立第五中学校」"
+      "B43W1S0040": "本文 > 「|中学校=習志野市立第五中学校」",
+      "B45W1S0024": "基本情報欄 > |所属年=2012- |所属=[[リンク栃木ブレックス]]/[[宇都宮ブレックス]]"
     }
   },
   {
@@ -31270,7 +32102,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS007-20260926-01",
     "enrichmentApprovalIds": [
       "APP-AS008-20260929-01",
-      "APP-AS021-20261030-01"
+      "APP-AS021-20261030-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -31307,6 +32140,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B21W2S0003"
+        ]
+      },
+      {
+        "id": "C003059",
+        "period": "2013–2016年",
+        "organization": "アルバルク東京",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000109",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0028"
         ]
       },
       {
@@ -31356,7 +32202,8 @@ export const masterPlayers = [
       "B21W2S0003": "基本情報 > 選手名 / 基本情報 > 生年月日 / 基本情報 > 出身校（高）：中部大学第一高等学校 / 生年月日：1991年6月11日（Master Evidence B21W2E0008、B.LEAGUE） / 基本情報 > 出身校（大）：専修大学 / クラブ所属履歴 > 「2026-27 富山」〜「2023-24 富山」（直前は「2022-23 奈良」）",
       "B31W4S0019": "クラブ所属履歴 > 「2016-17 富山」〜「2021-22 富山」 / クラブ所属履歴 > 「2016-17 富山」 / クラブ所属履歴 > 「2021-22 富山」 / クラブ所属履歴 > 「2022-23 奈良」",
       "B31W4S0020": "順位表 > クラブ「富山グラウジーズ」（略称「富山」、club_detail TeamID=696）",
-      "B31W4S0021": "順位表 > クラブ「バンビシャス奈良」（略称「奈良」、club_detail TeamID=719）"
+      "B31W4S0021": "順位表 > クラブ「バンビシャス奈良」（略称「奈良」、club_detail TeamID=719）",
+      "B45W1S0028": "基本情報欄 > |所属年=2013-2016 |所属=[[アルバルク東京|トヨタ自動車アルバルク]]"
     }
   },
   {
@@ -35660,7 +36507,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -35723,6 +36571,45 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W1S0046"
+        ]
+      },
+      {
+        "id": "C003051",
+        "period": "2010–2012年",
+        "organization": "TGI D-RISE",
+        "startYear": 2010,
+        "endYear": 2012,
+        "organizationId": "ORG000682",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0022"
+        ]
+      },
+      {
+        "id": "C003052",
+        "period": "2012–2013年",
+        "organization": "群馬クレインサンダーズ",
+        "startYear": 2012,
+        "endYear": 2013,
+        "organizationId": "ORG000143",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0022"
+        ]
+      },
+      {
+        "id": "C003053",
+        "period": "2013–2016年",
+        "organization": "秋田ノーザンハピネッツ",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000137",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0022"
         ]
       },
       {
@@ -35881,7 +36768,8 @@ export const masterPlayers = [
       "B32W1S0007": "順位表 > クラブ「長崎ヴェルカ」（略称「長崎」、club_detail TeamID=2488）",
       "B32W1S0022": "順位表 > クラブ「三遠ネオフェニックス」（略称「三遠」、club_detail TeamID=697）",
       "B32W1S0045": "選手一覧 > 三遠 > 菅澤 紀行",
-      "B43W1S0065": "本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」"
+      "B43W1S0065": "本文 > 「土浦第一中学校から家庭の都合で沖縄県恩納村に移住し、仲泊中学校（現・うんな中学校）に転校」",
+      "B45W1S0022": "基本情報欄 > |所属年=2010-2012 |所属=[[TGI D-RISE]] / 基本情報欄 > |所属年=2012-2013 |所属=[[群馬クレインサンダーズ]] / 基本情報欄 > |所属年=2013-2017 |所属=[[秋田ノーザンハピネッツ]]"
     }
   },
   {
@@ -35961,7 +36849,9 @@ export const masterPlayers = [
     "cardContext": "2026年〜 · 三遠ネオフェニックス",
     "dataStatus": "master",
     "approvalId": "APP-AS009-20260930-01",
-    "enrichmentApprovalIds": [],
+    "enrichmentApprovalIds": [
+      "APP-AS030-20261121-01"
+    ],
     "facts": [
       {
         "label": "生年月日",
@@ -35997,6 +36887,58 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W1S0050"
+        ]
+      },
+      {
+        "id": "C003061",
+        "period": "2011–2012年",
+        "organization": "ニューヨーク・ニックス",
+        "startYear": 2011,
+        "endYear": 2012,
+        "organizationId": "ORG000683",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0030"
+        ]
+      },
+      {
+        "id": "C003062",
+        "period": "2012–2013年",
+        "organization": "マイアミ・ヒート",
+        "startYear": 2012,
+        "endYear": 2013,
+        "organizationId": "ORG000684",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0030"
+        ]
+      },
+      {
+        "id": "C003063",
+        "period": "2013–2014年",
+        "organization": "デトロイト・ピストンズ",
+        "startYear": 2013,
+        "endYear": 2014,
+        "organizationId": "ORG000685",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0030"
+        ]
+      },
+      {
+        "id": "C003064",
+        "period": "2015–2016年",
+        "organization": "VEFリガ",
+        "startYear": 2015,
+        "endYear": 2016,
+        "organizationId": "ORG000686",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0030"
         ]
       },
       {
@@ -36109,7 +37051,8 @@ export const masterPlayers = [
       "B32W1S0021": "順位表 > クラブ「福島ファイヤーボンズ」（略称「福島」、club_detail TeamID=711）",
       "B32W1S0002": "順位表 > クラブ「佐賀バルーナーズ」（略称「佐賀」、club_detail TeamID=1638）",
       "B32W1S0022": "順位表 > クラブ「三遠ネオフェニックス」（略称「三遠」、club_detail TeamID=697）",
-      "B32W1S0045": "選手一覧 > 三遠 > ジョシュ・ハレルソン"
+      "B32W1S0045": "選手一覧 > 三遠 > ジョシュ・ハレルソン",
+      "B45W1S0030": "基本情報欄 > |所属年=2011-2012 |所属=[[ニューヨーク・ニックス]] / 基本情報欄 > |所属年=2012-2013 |所属=[[マイアミ・ヒート]] / 基本情報欄 > |所属年=2013-2014 |所属=[[デトロイト・ピストンズ]] / 基本情報欄 > |所属年=2015-2016 |所属=VEFリガ"
     }
   },
   {
@@ -37451,7 +38394,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
-      "APP-AS024-20261102-01"
+      "APP-AS024-20261102-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -37488,6 +38432,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W1S0069"
+        ]
+      },
+      {
+        "id": "C003054",
+        "period": "2012–2013年",
+        "organization": "大阪エヴェッサ",
+        "startYear": 2012,
+        "endYear": 2013,
+        "organizationId": "ORG000142",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0023"
         ]
       },
       {
@@ -37539,7 +38496,8 @@ export const masterPlayers = [
       "B32W1S0019": "順位表 > クラブ「大阪エヴェッサ」（略称「大阪」、club_detail TeamID=700）",
       "B32W1S0022": "順位表 > クラブ「大阪エヴェッサ」（略称「大阪」、club_detail TeamID=700）",
       "B32W1S0066": "選手一覧 > 大阪 > 橋本 拓哉",
-      "B39W1S0017": "Q出身校（中）A大阪市立松虫中学校"
+      "B39W1S0017": "Q出身校（中）A大阪市立松虫中学校",
+      "B45W1S0023": "基本情報欄 > |所属年=2012-2013 |所属=[[大阪エヴェッサ]]"
     }
   },
   {
@@ -37766,7 +38724,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -37803,6 +38762,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W1S0073"
+        ]
+      },
+      {
+        "id": "C003057",
+        "period": "2013–2016年",
+        "organization": "岩手ビッグブルズ",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000173",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0026"
         ]
       },
       {
@@ -37856,7 +38828,8 @@ export const masterPlayers = [
       "B32W1S0011": "順位表 > クラブ「秋田ノーザンハピネッツ」（略称「秋田」、club_detail TeamID=693）",
       "B32W1S0043": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B32W1S0072": "選手一覧 > 琉球 > 小野寺 祥太",
-      "B43W1S0066": "本文 > 「|中学校=一関市立萩荘中学校」"
+      "B43W1S0066": "本文 > 「|中学校=一関市立萩荘中学校」",
+      "B45W1S0026": "基本情報欄 > |所属年=2013-2017 |所属=[[岩手ビッグブルズ]]"
     }
   },
   {
@@ -38140,7 +39113,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -38177,6 +39151,19 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W2S0006"
+        ]
+      },
+      {
+        "id": "C003050",
+        "period": "2011–2016年",
+        "organization": "琉球ゴールデンキングス",
+        "startYear": 2011,
+        "endYear": 2016,
+        "organizationId": "ORG000106",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0021"
         ]
       },
       {
@@ -38273,7 +39260,8 @@ export const masterPlayers = [
       "B32W2S0004": "順位表 > クラブ「サンロッカーズ渋谷」（略称「SR渋谷」、club_detail TeamID=726）",
       "B32W2S0010": "順位表 > クラブ「琉球ゴールデンキングス」（略称「琉球」、club_detail TeamID=701）",
       "B32W2S0005": "選手一覧 > 琉球 > 山内 盛久",
-      "B43W1S0064": "本文 > 「* 山内中学校」"
+      "B43W1S0064": "本文 > 「* 山内中学校」",
+      "B45W1S0021": "基本情報欄 > |所属年=2011-2017 |所属=[[琉球ゴールデンキングス]]"
     }
   },
   {
@@ -38906,7 +39894,9 @@ export const masterPlayers = [
     "cardContext": "2026年〜 · 宇都宮ブレックス",
     "dataStatus": "master",
     "approvalId": "APP-AS009-20260930-01",
-    "enrichmentApprovalIds": [],
+    "enrichmentApprovalIds": [
+      "APP-AS030-20261121-01"
+    ],
     "facts": [
       {
         "label": "生年月日",
@@ -38942,6 +39932,45 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W2S0026"
+        ]
+      },
+      {
+        "id": "C003044",
+        "period": "2010–2012年",
+        "organization": "宇都宮ブレックス",
+        "startYear": 2010,
+        "endYear": 2012,
+        "organizationId": "ORG000047",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0019"
+        ]
+      },
+      {
+        "id": "C003045",
+        "period": "2012–2013年",
+        "organization": "アルバルク東京",
+        "startYear": 2012,
+        "endYear": 2013,
+        "organizationId": "ORG000109",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0019"
+        ]
+      },
+      {
+        "id": "C003046",
+        "period": "2013–2014年",
+        "organization": "シーホース三河",
+        "startYear": 2013,
+        "endYear": 2014,
+        "organizationId": "ORG000130",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0019"
         ]
       },
       {
@@ -39054,7 +40083,8 @@ export const masterPlayers = [
       "B32W2S0029": "順位表 > クラブ「熊本ヴォルターズ」（略称「熊本」、club_detail TeamID=724）",
       "B32W2S0023": "順位表 > クラブ「滋賀レイクス」（略称「滋賀」、club_detail TeamID=698）",
       "B32W2S0010": "順位表 > クラブ「宇都宮ブレックス」（略称「宇都宮」、club_detail TeamID=703）",
-      "B32W2S0024": "選手一覧 > 宇都宮 > 市岡 ショーン"
+      "B32W2S0024": "選手一覧 > 宇都宮 > 市岡 ショーン",
+      "B45W1S0019": "基本情報欄 > |所属年=2010-2012 |所属=[[宇都宮ブレックス|リンク栃木ブレックス]] / 基本情報欄 > |所属年=2012-2013 |所属=[[アルバルク東京|トヨタ自動車アルバルク]] / 基本情報欄 > |所属年=2013-2014 |所属=[[シーホース三河|アイシン シーホース三河]]"
     }
   },
   {
@@ -39330,7 +40360,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS009-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS021-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS030-20261121-01"
     ],
     "facts": [
       {
@@ -39380,6 +40411,32 @@ export const masterPlayers = [
         "status": "master",
         "sourceIds": [
           "B32W2S0032"
+        ]
+      },
+      {
+        "id": "C003042",
+        "period": "2009–2013年",
+        "organization": "アルバルク東京",
+        "startYear": 2009,
+        "endYear": 2013,
+        "organizationId": "ORG000109",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0018"
+        ]
+      },
+      {
+        "id": "C003043",
+        "period": "2013–2016年",
+        "organization": "千葉ジェッツ",
+        "startYear": 2013,
+        "endYear": 2016,
+        "organizationId": "ORG000118",
+        "detail": "選手 · 公式未確認",
+        "status": "master",
+        "sourceIds": [
+          "B45W1S0018"
         ]
       },
       {
@@ -39463,7 +40520,8 @@ export const masterPlayers = [
       "B32W2S0028": "順位表 > クラブ「仙台89ERS」（略称「仙台」、club_detail TeamID=692）",
       "B32W2S0017": "順位表 > クラブ「千葉ジェッツ」（略称「千葉J」、club_detail TeamID=704）",
       "B32W2S0033": "選手一覧 > 千葉J > 荒尾 岳",
-      "B43W1S0062": "本文 > 「朝日町立朝日中学校 - 富山県立泊高等学校 - 青山学院大学」"
+      "B43W1S0062": "本文 > 「朝日町立朝日中学校 - 富山県立泊高等学校 - 青山学院大学」",
+      "B45W1S0018": "基本情報欄 > |所属年=2009-2013 |所属=[[アルバルク東京|トヨタ自動車アルバルク]] / 基本情報欄 > |所属年=2013-2018 |所属=[[千葉ジェッツふなばし]]"
     }
   },
   {
@@ -53223,7 +54281,8 @@ export const masterPlayers = [
     "enrichmentApprovalIds": [
       "APP-AS017-20261011-01",
       "APP-AS022-20261030-01",
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS029-20261121-01"
     ],
     "facts": [
       {
@@ -53264,15 +54323,16 @@ export const masterPlayers = [
       },
       {
         "id": "C002826",
-        "period": "期間未確認",
+        "period": "2012年4月〜2015年3月（生年月日からの推定）",
         "organization": "飛龍高等学校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2012,
+        "endYear": 2015,
         "organizationId": "ORG000170",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B37W1S0008"
+          "B37W1S0008",
+          "B44W1S0005"
         ]
       },
       {
@@ -53373,6 +54433,7 @@ export const masterPlayers = [
       "B33W1S0071": "選手一覧 > 埼玉 > 長島 蓮",
       "B33W6S0005": "プロフィール（出身校）：白鷗大学",
       "B37W1S0008": "基本情報欄 > | 高校 = [[飛龍高等学校]]",
+      "B44W1S0005": "生年月日：1997年3月3日",
       "B43W1S0094": "本文 > 「| 中学校 = 静岡市立清水袖師中学校」"
     }
   },
@@ -57481,7 +58542,8 @@ export const masterPlayers = [
     "approvalId": "APP-AS010-20260930-01",
     "enrichmentApprovalIds": [
       "APP-AS017-20261011-01",
-      "APP-AS022-20261030-01"
+      "APP-AS022-20261030-01",
+      "APP-AS029-20261121-01"
     ],
     "facts": [
       {
@@ -57509,15 +58571,16 @@ export const masterPlayers = [
       },
       {
         "id": "C002827",
-        "period": "期間未確認",
+        "period": "2006年4月〜2009年3月（生年月日からの推定）",
         "organization": "福岡大学附属大濠高等学校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2006,
+        "endYear": 2009,
         "organizationId": "ORG000127",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B37W1S0009"
+          "B37W1S0009",
+          "B44W1S0006"
         ]
       },
       {
@@ -57645,7 +58708,8 @@ export const masterPlayers = [
       "B33W3S0012": "順位表 > クラブ「新潟アルビレックスBB」（略称「新潟」、club_detail TeamID=695）",
       "B33W3S0004": "選手一覧 > 新潟 > 長谷川 智伸",
       "B33W6S0011": "■出身校：拓殖大学",
-      "B37W1S0009": "基本情報欄 > |高校=[[福岡大学附属大濠高等学校]] / 基本情報欄 > |所属1=[[名古屋ダイヤモンドドルフィンズ|三菱電機ダイヤモンドドルフィンズ名古屋]] |所属年1=2013-2016"
+      "B37W1S0009": "基本情報欄 > |高校=[[福岡大学附属大濠高等学校]] / 基本情報欄 > |所属1=[[名古屋ダイヤモンドドルフィンズ|三菱電機ダイヤモンドドルフィンズ名古屋]] |所属年1=2013-2016",
+      "B44W1S0006": "生年月日：1990年11月9日"
     }
   },
   {
@@ -68603,7 +69667,8 @@ export const masterPlayers = [
     "dataStatus": "master",
     "approvalId": "APP-AS022-20261030-01",
     "enrichmentApprovalIds": [
-      "APP-AS028-20261121-01"
+      "APP-AS028-20261121-01",
+      "APP-AS029-20261121-01"
     ],
     "facts": [
       {
@@ -68631,16 +69696,17 @@ export const masterPlayers = [
       },
       {
         "id": "C002806",
-        "period": "期間未確認",
+        "period": "2009年4月〜2012年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2009,
+        "endYear": 2012,
         "organizationId": "ORG000194",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
           "B37W1S0003",
-          "B37W1S0004"
+          "B37W1S0004",
+          "B44W1S0003"
         ]
       },
       {
@@ -68754,6 +69820,7 @@ export const masterPlayers = [
       "B37W1S0001": "基本情報 > 選手名 / 基本情報 > 生年月日：1993年4月20日 / クラブ所属履歴 > 「2016-17 島根」〜「2017-18 島根」 / クラブ所属履歴 > 「2018-19 広島」〜「2020-21 広島」 / クラブ所属履歴 > 「2021-22 新潟」 / クラブ所属履歴 > 「2022-23 A東京」〜「2024-25 A東京」 / クラブ所属履歴 > 「2025-26 島根」 / クラブ所属履歴 > 「2026-27 福井」",
       "B37W1S0003": "本文：「延岡学園高校、拓殖大学を経て、島根スサノオマジックでプロキャリアを始めた」 / 本文：「延岡学園高校、拓殖大学を経て…」",
       "B37W1S0004": "基本情報欄 > |高校=[[延岡学園高等学校・尚学館中学校|延岡学園高等学校]] / 基本情報欄 > |大学=[[拓殖大学オレンジクラッシャーズ|拓殖大学]] / 基本情報欄 > |所属1=[[島根スサノオマジック]] |所属年1=2015-2018",
+      "B44W1S0003": "生年月日：1993年4月20日",
       "B43W1S0123": "本文 > 「|中学校=米子市立東山中学校」"
     }
   },
@@ -68764,7 +69831,9 @@ export const masterPlayers = [
     "cardContext": "2026年〜 · 香川ファイブアローズ",
     "dataStatus": "master",
     "approvalId": "APP-AS022-20261030-01",
-    "enrichmentApprovalIds": [],
+    "enrichmentApprovalIds": [
+      "APP-AS029-20261121-01"
+    ],
     "facts": [
       {
         "label": "生年月日",
@@ -68778,15 +69847,16 @@ export const masterPlayers = [
     "careers": [
       {
         "id": "C002815",
-        "period": "期間未確認",
+        "period": "2003年4月〜2006年3月（生年月日からの推定）",
         "organization": "延岡学園高等学校",
-        "startYear": null,
-        "endYear": null,
+        "startYear": 2003,
+        "endYear": 2006,
         "organizationId": "ORG000194",
         "detail": "選手",
         "status": "master",
         "sourceIds": [
-          "B37W1S0005"
+          "B37W1S0005",
+          "B44W1S0004"
         ]
       },
       {
@@ -68897,7 +69967,8 @@ export const masterPlayers = [
     "aliases": [],
     "sourceLocations": {
       "B37W1S0002": "基本情報 > 選手名 / 基本情報 > 生年月日：1987年6月22日 / クラブ所属履歴 > 「2016-17 横浜」 / クラブ所属履歴 > 「2017-18 福岡」 / クラブ所属履歴 > 「2018-19 大阪」 / クラブ所属履歴 > 「2019-20 北海道」〜「2020-21 北海道」 / クラブ所属履歴 > 「2021-22 佐賀」〜「2022-23 佐賀」 / クラブ所属履歴 > 「2023-24 新潟」〜「2024-25 新潟」 / クラブ所属履歴 > 「2026-27 香川」",
-      "B37W1S0005": "本文：「延岡学園高校、関東学院大学を経て、当時bjリーグ所属の横浜ビー・コルセアーズでキャリアを始めた」 / 本文：「延岡学園高校、関東学院大学を経て…」"
+      "B37W1S0005": "本文：「延岡学園高校、関東学院大学を経て、当時bjリーグ所属の横浜ビー・コルセアーズでキャリアを始めた」 / 本文：「延岡学園高校、関東学院大学を経て…」",
+      "B44W1S0004": "生年月日：1987年6月22日"
     }
   },
   {
