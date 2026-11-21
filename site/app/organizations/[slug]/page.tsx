@@ -109,7 +109,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   const relatedPlayers = getOrganizationPlayers(organization.id);
   const playerCount = relatedPlayers.length;
-  const { title, description } = organizationPageMeta(organization, playerCount, pageHighlights(organization, relatedPlayers));
+  const currentCount = relatedPlayers.filter(
+    (player) => player.dataStatus === 'master' && getCurrentCareer(player)?.organizationId === organization.id,
+  ).length;
+  const { title, description } = organizationPageMeta(
+    organization,
+    playerCount,
+    pageHighlights(organization, relatedPlayers),
+    currentCount,
+  );
 
   return {
     title,

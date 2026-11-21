@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { baseOpenGraph, SiteBreadcrumb, SiteFooter, SiteHeader } from '../seo';
 import { buildRanking, leagueLabel, RANKING_META, type RankingKind } from './ranking-data';
 import { buildRouteRanking, ROUTE_PATH, ROUTE_TITLE } from './route-data';
+import { buildOneClubRanking, ONE_CLUB_PATH, ONE_CLUB_TITLE, oneClubPlayerCount } from './one-club-data';
 
 const title = 'ランキング';
 const description = 'B.LEAGUE（B.PREMIER・B.ONE）でプレーする選手の出身高校・出身大学と、高校→大学の進学ルートのランキングです。';
@@ -59,6 +60,15 @@ export default function RankingsIndexPage() {
               {buildRouteRanking()
                 .slice(0, 3)
                 .map((row) => `${row.rank}位 ${row.highSchool.name}→${row.university.name}（${row.players.length}人）`)
+                .join('・')}
+            </div>
+          </a>
+          <a href={ONE_CLUB_PATH} className="jbaListB-row jbaListB-rankIndexGrid">
+            <div className="jbaListB-rowName">{ONE_CLUB_TITLE}（{oneClubPlayerCount()}人）</div>
+            <div className="jbaListB-rowMuted">
+              {buildOneClubRanking()
+                .slice(0, 3)
+                .map((row) => `${row.rank}位 ${row.clubName}（${row.players.length}人）`)
                 .join('・')}
             </div>
           </a>

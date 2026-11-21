@@ -97,6 +97,7 @@ export function SiteFooter() {
           <a href="/rankings/high-school">出身高校ランキング</a>
           <a href="/rankings/university">出身大学ランキング</a>
           <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
+          <a href="/rankings/one-club">開幕から同じクラブ一筋の選手</a>
           <a href="/about">このサイトについて</a>
           <a href="/about#corrections">訂正・削除のご依頼</a>
           <a href="/privacy">プライバシーポリシー</a>
@@ -133,18 +134,28 @@ export function isOrganizationIndexable(playerCount: number): boolean {
 // クラブ等は「所属選手」とする。網羅していると誤解されないよう「記録のある」「確認できた」と書き、
 // 「歴代」「全員」などの表現は使わない。
 // highlights：「主な出身高校：〇〇（3人）、…」のような、ページ固有の要約（descriptionの末尾に付ける）。
-export function organizationPageMeta(organization: PublicOrganization, playerCount: number, highlights?: string) {
+// クラブは「〇〇 選手」「〇〇 選手一覧」「〇〇 過去 選手」の検索が多い（Search Console 2026-11）ため、
+// タイトルに「選手一覧（現在・過去）」を入れる。学校は「〇〇 バスケ 有名 選手」型の検索が多いため「OB」を入れる。
+// currentCount はクラブの現在の所属選手数（Master Dataで終了年のない所属）。descriptionの冒頭に使う。
+export function organizationPageMeta(
+  organization: PublicOrganization,
+  playerCount: number,
+  highlights?: string,
+  currentCount?: number,
+) {
   const kind = organizationKind(organization);
   const group = kind === 'club' ? 'club' : kind === 'unknown' ? 'unknown' : 'school';
   const name = organizationDisplayName(organization);
   const titles = {
-    school: `${name}出身のバスケ選手一覧（${playerCount}人）`,
-    club: `${name}の所属選手と出身校一覧（${playerCount}人）`,
+    school: `${name}出身のバスケ選手・OB一覧（${playerCount}人）`,
+    club: `${name}の選手一覧（現在・過去）と出身校`,
     unknown: `${name}の在籍選手一覧（${playerCount}人）`,
   };
   const descriptions = {
     school: `${organization.name}に在籍記録のある選手${playerCount}人の進路（大学・クラブ）と経歴を、出典とともに掲載しています。`,
-    club: `${organization.name}に所属記録のある選手${playerCount}人の出身校・経歴を、出典とともに掲載しています。`,
+    club: currentCount
+      ? `${organization.name}の現在の所属選手${currentCount}人と、過去に所属した選手を含む計${playerCount}人の出身校・経歴を、出典とともに掲載しています。`
+      : `${organization.name}に所属記録のある選手${playerCount}人の出身校・経歴を、出典とともに掲載しています。`,
     unknown: `${organization.name}に在籍記録のある選手${playerCount}人の経歴を、出典とともに掲載しています。`,
   };
   const summary = highlights ? `${highlights}。` : '';
