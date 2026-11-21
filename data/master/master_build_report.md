@@ -25,15 +25,17 @@
 - `APP-AS026-20261121-01`：Approval Sprint 026（B.PREMIER週次チェック（2026-11-07）、batch_041 wave_01、新規1名・Career追加2件・期間訂正0件・新規Organization 0件、Tier 2）
 - `APP-AS027-20261121-01`：Approval Sprint 027（B.PREMIER週次チェック（2026-11-21、11-16実施分）、batch_042 wave_01、新規1名・Career追加1件・期間訂正0件・新規Organization 0件、Tier 2）
 - `APP-AS028-20261121-01`：Approval Sprint 028（出身中学校（Wikipedia日本語版、公式未確認）、batch_043 wave_01、新規0名・Career追加126件・期間訂正0件・新規Organization 113件、Tier 2）
+- `APP-AS029-20261121-01`：Approval Sprint 029（高校の在学期間（生年月日からの推定、追加分）、batch_044 wave_01、新規0名・Career追加0件・期間訂正7件・新規Organization 0件、Tier 2）
+- `APP-AS030-20261121-01`：Approval Sprint 030（B.LEAGUE開幕前の経歴（第1段階・1回目、Wikipedia日本語版、公式未確認）、batch_045 wave_01、新規0名・Career追加48件・期間訂正0件・新規Organization 5件、Tier 2）
 
 ## MASTER件数
 
 - Person：524件
-- Organization：599件
-- Career：2790件
-- Source：1501件
-- Evidence：10126件
-- Approval：30件
+- Organization：604件
+- Career：2838件
+- Source：1538件
+- Evidence：10334件
+- Approval：32件
 
 訂正：2026-10-04 B.PREMIER選手6名の現所属Career期間（`corrections/2026-10-04_premier_current_club_periods.md`）。2026-10-03 河村勇輝のCareer期間（`corrections/2026-10-03_p000064_career_periods.md`）。2026-10-01 重複Organizationの統合（白鷗大学・富田高校、`corrections/2026-10-01_org_merge_hakuoh_tomita.md`）。
 
