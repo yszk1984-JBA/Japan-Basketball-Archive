@@ -22,6 +22,7 @@ careers[{career_id,person_id,organization_id,start,end,source,locator,summary,no
 (note → Evidence issue_note; 「公式未確認」で始まるとサイトに（公式未確認）と表示),
 corrections[{career_id,new_start,new_end,source,locator,reason,note?}],
 person_facts[{person_id,field,value,source,locator,summary,note?}] (facts such as birth_date for MASTER persons),
+career_facts[{career_id,field,value,source,locator,summary,note?}] (more evidence for MASTER careers, e.g. an official source),
 holds[{name,description,next_check}].
 """
 
@@ -126,6 +127,12 @@ def candidate(spec: Spec) -> None:
         for f in ("start", "end"):
             if c[f]:
                 ev("Career", c["career_id"], f, c[f], c["source"], c["locator"], c["summary"])
+    for f in d.get("career_facts", []):
+        if f["career_id"] not in master:
+            errors.append(f"{f['career_id']}: MasterにないCareer")
+        elif f["field"] == "organization_id" and master[f["career_id"]]["organization_id"] != f["value"]:
+            errors.append(f"{f['career_id']}: 組織がMasterと違う")
+        ev("Career", f["career_id"], f["field"], f["value"], f["source"], f["locator"], f["summary"], f.get("note", ""))
     for f in d.get("person_facts", []):
         if f["person_id"] not in people:
             errors.append(f"{f['person_id']}: MasterにないPerson")
@@ -228,7 +235,8 @@ def packet(spec: Spec, commit: str) -> None:
             "added_careers": sum(c["person_id"] == pid for c in careers), "corrections": sum(c["person_id"] == pid for c in corr),
             "verified_commit": commit}
            for pid in sorted({c["person_id"] for c in careers} | {c["person_id"] for c in corr} | set(new_p)
-                             | {e["entity_id"] for e in ev if e["entity_type"] == "Person"})])
+                             | {e["entity_id"] for e in ev if e["entity_type"] == "Person"}
+                             | {r["person_id"] for r in read(MASTER / "career.csv") if r["career_id"] in {e["entity_id"] for e in ev if e["entity_type"] == "Career"}})])
     write(pk / "person_review_new_only.csv", ["person_id", "name"], [{"person_id": k, "name": v} for k, v in new_p.items()])
     write(pk / "career_review.csv", CAREER_H[:2] + ["name", "organization_id", "organization_name", "role", "start", "end"],
           [c | {"name": names[c["person_id"]], "organization_name": onames[c["organization_id"]]} for c in careers])
@@ -259,6 +267,13 @@ def packet(spec: Spec, commit: str) -> None:
     if facts:
         lines += ["### Master既存の選手に追加する事実", "", "| Person | 選手 | 項目 | 値 | 出典箇所 |", "| --- | --- | --- | --- | --- |"]
         lines += [f"| {e['entity_id']} | {names[e['entity_id']]} | {e['field_name']} | {e['candidate_value']} | {e['source_locator']} |" for e in facts]
+        lines.append("")
+    new_cids = {c["career_id"] for c in careers} | {c["career_id"] for c in corr}
+    cfacts = [e for e in ev if e["entity_type"] == "Career" and e["entity_id"] not in new_cids]
+    if cfacts:
+        mcareer = {r["career_id"]: r for r in read(MASTER / "career.csv")}
+        lines += ["### Master既存のCareerに追加する根拠", "", "| Career | 選手 | 所属 | 項目 | 出典箇所 |", "| --- | --- | --- | --- | --- |"]
+        lines += [f"| {e['entity_id']} | {names[mcareer[e['entity_id']]['person_id']]} | {onames[mcareer[e['entity_id']]['organization_id']]} | {e['field_name']} | {e['source_locator']} |" for e in cfacts]
         lines.append("")
     if new_o:
         lines += ["### 新しく登録する組織", ""] + [f"- {k} {v}" for k, v in new_o.items()] + [""]
@@ -330,7 +345,10 @@ def apply(spec: Spec, packet_commit: str, approval_id: str, verified_commit: str
     new_ids = {p["person_id"] for p in new_p}
     write(pk / "career_review_enrichment_only.csv", ["person_id", "career_id"],
           [{"person_id": c["person_id"], "career_id": c["career_id"]} for c in careers if c["person_id"] not in new_ids] +
-          [{"person_id": c["person_id"], "career_id": c["career_id"]} for c in corr])
+          [{"person_id": c["person_id"], "career_id": c["career_id"]} for c in corr] +
+          [{"person_id": by_id[e["entity_id"]]["person_id"], "career_id": e["entity_id"]} for e in ev
+           if e["entity_type"] == "Career" and e["entity_id"] in by_id and e["entity_id"] not in {c["career_id"] for c in careers}
+           and e["entity_id"] not in {c["career_id"] for c in corr}])
     # Registers this approval for scripts/build_site_master_data.py (read from site_registration.json).
     (pk / "site_registration.json").write_text(json.dumps({"approval_id": approval_id, "new_persons": bool(new_p)}, ensure_ascii=False) + "\n", encoding="utf-8")
     report = MASTER / "master_build_report.md"
