@@ -11,6 +11,14 @@ export type Column = {
 
 export const COLUMNS: readonly Column[] = [
   {
+    slug: 'one-club',
+    title: 'B.LEAGUE開幕から同じクラブ一筋：11シーズンを1つのクラブで過ごす17人',
+    description:
+      '移籍が当たり前のB.LEAGUEで、開幕から同じクラブに所属し続ける登録選手は17人。開幕シーズンから現役を続ける129人のうち13%です。クラブ別の内訳、開幕前からの在籍、ほかのクラブから来て根付いた選手を、確認済みデータから見ていきます。',
+    publishedAt: '2026-11-28',
+    dataAsOf: '2026-11-26',
+  },
+  {
     slug: 'high-school-to-pro',
     title: '高校から大学を経ずにプロへ：その道は増えているのか',
     description:
