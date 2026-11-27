@@ -39,7 +39,7 @@ export function BrandMark({ size, className }: { size: number; className?: strin
   );
 }
 
-export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' }) {
+export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' | 'columns' }) {
   return (
     <header className="jbaListB-header">
       <a href="/" className="jbaListB-brand">
@@ -50,6 +50,7 @@ export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 
         <a href="/players" aria-current={active === 'players' ? 'page' : undefined}>選手</a>
         <a href="/organizations" aria-current={active === 'organizations' ? 'page' : undefined}>組織</a>
         <a href="/rankings" aria-current={active === 'rankings' ? 'page' : undefined}>ランキング</a>
+        <a href="/columns" aria-current={active === 'columns' ? 'page' : undefined}>コラム</a>
       </nav>
     </header>
   );
@@ -98,7 +99,10 @@ export function SiteFooter() {
           <a href="/rankings/university">出身大学ランキング</a>
           <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
           <a href="/rankings/one-club">開幕から同じクラブ一筋の選手</a>
+          <a href="/columns">コラム</a>
           <a href="/about">このサイトについて</a>
+          <a href="/updates">更新履歴</a>
+          <a href="/contact">お問い合わせ</a>
           <a href="/about#corrections">訂正・削除のご依頼</a>
           <a href="/privacy">プライバシーポリシー</a>
         </div>
@@ -127,6 +131,16 @@ export const ORGANIZATION_INDEX_MIN_PLAYERS = 3;
 
 export function isOrganizationIndexable(playerCount: number): boolean {
   return playerCount >= ORGANIZATION_INDEX_MIN_PLAYERS;
+}
+
+// 選手ページをindexする条件（AdSense「有用性の低いコンテンツ」対応、2026-11）。
+// 確認済み（Master）で、経歴が2件以上ある選手だけをindexする。確認中（Candidate）や経歴が1件だけの
+// ページはnoindex（リンクはたどらせる）にし、サイトマップにも載せない。データが増えれば自動でindexに戻る。
+// 経歴2件のページには検索流入のあるもの（例：當山修梧、Search Console 2026-11でCTR 15%）があるため、3件以上にはしない。
+export const PLAYER_INDEX_MIN_CAREERS = 2;
+
+export function isPlayerIndexable(player: { dataStatus: string; careers: readonly unknown[] }): boolean {
+  return player.dataStatus === 'master' && player.careers.length >= PLAYER_INDEX_MIN_CAREERS;
 }
 
 // 組織ページのtitle・description。

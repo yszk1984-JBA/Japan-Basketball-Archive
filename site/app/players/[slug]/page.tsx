@@ -15,7 +15,7 @@ import {
 } from '../../public-data';
 import { schoolmatesOf, schoolsOf, teammatesOf } from '../../organization-relations';
 import { CareerGantt } from './CareerGantt';
-import { baseOpenGraph, JsonLd, playerJsonLd, playerPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader } from '../../seo';
+import { baseOpenGraph, JsonLd, playerJsonLd, playerPageMeta, SiteBreadcrumb, SiteFooter, SiteHeader, isPlayerIndexable } from '../../seo';
 import { ShareButtons } from '../../ShareButtons';
 import { siteUrl } from '../../site-url';
 
@@ -40,6 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title,
     description,
     alternates: { canonical: `/players/${player.slug}` },
+    ...(isPlayerIndexable(player) ? {} : { robots: { index: false, follow: true } }),
     openGraph: { ...baseOpenGraph, title, description, url: `/players/${player.slug}`, type: 'profile' },
   };
 }

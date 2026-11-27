@@ -1940,3 +1940,43 @@ a.jbaListB-currentClubName:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* コラム（解説記事） */
+.jbaListB-article h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+.jbaListB-article p + p,
+.jbaListB-article p + ul,
+.jbaListB-article ul + p,
+.jbaListB-article table + p,
+.jbaListB-article p + table {
+  margin-top: 12px;
+}
+.jbaListB-article a {
+  color: #1D5FD6;
+}
+.jbaListB-articleTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.jbaListB-articleTable th,
+.jbaListB-articleTable td {
+  border-bottom: 1px solid #E3E8ED;
+  padding: 8px 6px;
+  text-align: left;
+}
+.jbaListB-articleTable th {
+  color: #5B6B7A;
+  font-weight: 700;
+}
+.jbaListB-articleTable td.num {
+  text-align: right;
+  white-space: nowrap;
+}
+.jbaListB-articleMeta {
+  font-size: 12px;
+  color: #5B6B7A;
+  margin-top: 8px;
+}
