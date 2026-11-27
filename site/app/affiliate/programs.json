@@ -1,0 +1,62 @@
+[
+  {
+    "id": "AFF000001",
+    "name": "スーパースポーツゼビオ",
+    "asp": "a8",
+    "aspProgramId": "s00000020001001",
+    "partnershipStatus": "pending",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "reward": { "rate": "6.5%", "epc": "4.63円", "approvalRate": "87.09%", "note": "A8.net表示値（2026-11-28確認）。即時提携・商品リンク対応" },
+    "categories": ["ball", "shoes", "club-gear"],
+    "restrictions": [],
+    "requiredDisclosure": null,
+    "notes": "提携状況・広告素材・掲載規約は運営者がA8.net管理画面で確認する"
+  },
+  {
+    "id": "AFF000002",
+    "name": "アルペン・スポーツデポ",
+    "asp": "a8",
+    "aspProgramId": "s00000017210001",
+    "partnershipStatus": "pending",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "reward": { "rate": "税抜購入額の3.8%", "epc": "7.59円", "approvalRate": "88.99%", "note": "A8.net表示値（2026-11-28確認）。即時提携・商品リンク対応" },
+    "categories": ["ball", "shoes", "club-gear"],
+    "restrictions": [],
+    "requiredDisclosure": null,
+    "notes": "提携状況・広告素材・掲載規約は運営者がA8.net管理画面で確認する"
+  },
+  {
+    "id": "AFF000003",
+    "name": "楽天市場",
+    "asp": "rakuten",
+    "partnershipStatus": "pending",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "categories": ["ball", "shoes", "club-gear", "books", "goods"],
+    "restrictions": [],
+    "requiredDisclosure": null,
+    "notes": "対象：バスケットボール用品・書籍・グッズ。リンク先（個別商品か検索結果か）は運営者が決める"
+  },
+  {
+    "id": "AFF000004",
+    "name": "楽天トラベル",
+    "asp": "rakuten",
+    "partnershipStatus": "pending",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "categories": ["travel"],
+    "restrictions": [],
+    "requiredDisclosure": null,
+    "notes": "対象：観戦・大会遠征時の宿泊。v0.1では表示する枠がない（将来の観戦・遠征ガイド用）"
+  }
+]

@@ -118,6 +118,28 @@ export default function AboutPage() {
 
         <section className="jbaListB-section jbaListB-about">
           <div className="jbaListB-sectionHead">
+            <h2>運営と収益化の方針</h2>
+          </div>
+          <ul>
+            <li>Rosterlineは個人が運営しています。サイトの運営費をまかなうため、一部のページに広告（アフィリエイト広告を含む）を掲載しています。</li>
+            <li>
+              広告は、選手の経歴などの掲載データとは分けて表示し、「PR」「広告」と明示します。選手・学校・クラブのページには広告を掲載していません。
+            </li>
+            <li>
+              広告主は、掲載データの内容、ランキング、選手・学校の表示順、記事の内容に関与しません。選手・学校・クラブが特定の商品やサービスを推奨しているものではありません。
+            </li>
+            <li>
+              <a href="/guide">ガイド</a>
+              （用品・観戦の実用記事）は、競技規則やメーカーの公開情報など確かめられる情報をもとに書いています。実際に使っていない商品の使用感やレビューは書きません。
+            </li>
+            <li>
+              詳しくは<a href="/privacy">プライバシーポリシー</a>をご覧ください。
+            </li>
+          </ul>
+        </section>
+
+        <section className="jbaListB-section jbaListB-about">
+          <div className="jbaListB-sectionHead">
             <h2>運営者</h2>
           </div>
           <p>

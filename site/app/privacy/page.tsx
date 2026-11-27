@@ -5,9 +5,9 @@ import { correctionFormUrl } from '../site-url';
 
 const title = 'プライバシーポリシー';
 const description =
-  'Rosterlineにおける、アクセス解析（Google Analytics）、広告配信（Google AdSense）とCookieの利用、お問い合わせフォームで受け取る情報の取り扱いについて説明します。';
+  'Rosterlineにおける、アクセス解析（Google Analytics）、広告配信（Google AdSense）、アフィリエイトプログラム（A8.net・楽天アフィリエイト）とCookieの利用、お問い合わせフォームで受け取る情報の取り扱いについて説明します。';
 // 本文を変更したら更新する（sitemap.tsのPRIVACY_UPDATED_ATも合わせる）。
-const UPDATED_AT = '2026年11月2日';
+const UPDATED_AT = '2026年11月28日';
 
 export const metadata: Metadata = {
   title,
@@ -80,6 +80,30 @@ export default function PrivacyPage() {
               をご覧ください。
             </li>
             <li>広告は、掲載データとは区別して表示します。広告主が、掲載するデータの内容や選手・学校の表示順に関与することはありません。</li>
+          </ul>
+        </section>
+
+        <section className="jbaListB-section jbaListB-about">
+          <div className="jbaListB-sectionHead">
+            <h2>アフィリエイトプログラムについて</h2>
+          </div>
+          <ul>
+            <li>
+              本サイトは、株式会社ファンコミュニケーションズが運営する「A8.net」、楽天グループ株式会社が運営する「楽天アフィリエイト」のアフィリエイトプログラムに参加しています。
+            </li>
+            <li>
+              広告を含むページには「PR」「広告（アフィリエイト）」と表示します。掲載リンクを通じて商品・サービスを購入・予約された場合、当サイトが報酬を受け取ることがあります。
+            </li>
+            <li>
+              成果の計測のため、各アフィリエイトサービスや広告主がCookie等の技術を使って、広告リンクのクリックや購入の情報を取得することがあります。取得される情報の取り扱いは、各社のプライバシーポリシーをご覧ください。本サイトが、購入者の氏名・連絡先などの個人情報を受け取ることはありません。
+            </li>
+            <li>
+              本サイトは、広告の表示回数とクリック数を、どの広告がどのページで表示・クリックされたかの単位でGoogle Analyticsにより計測しています。この計測に個人を特定する情報は含めません。
+            </li>
+            <li>
+              広告主・アフィリエイトサービスは、掲載するデータの内容、選手・学校の表示順、ランキング、記事の内容に関与しません。選手・学校・クラブが特定の商品やサービスを推奨しているものではありません。
+            </li>
+            <li>商品の仕様・価格・在庫、購入後のお問い合わせは、リンク先のショップにご確認ください。</li>
           </ul>
         </section>
 

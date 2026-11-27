@@ -1,6 +1,7 @@
 /* oxlint-disable next/no-html-link-for-pages -- Hosted Vinext navigation requires full-page links for reliable route changes. */
 import type { Metadata } from 'next';
 import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteBreadcrumb, SiteFooter, SiteHeader, siteUrl } from '../seo';
+import { AffiliateNotice, AffiliateSlot } from '../affiliate/AffiliateSlot';
 import { ShareButtons } from '../ShareButtons';
 import {
   activeTopLeaguePlayerCount,
@@ -112,6 +113,8 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
           </p>
         </div>
 
+        <AffiliateNotice pageType="ranking" pageKey={kind} />
+
         <div className="jbaListB-table">
           <div className="jbaListB-tableHead jbaListB-rankGrid">
             <div>順位</div>
@@ -159,6 +162,8 @@ export function RankingPage({ kind }: { kind: RankingKind }) {
             <li>改称や統合をした{label}は、資料に書かれた当時の名称で掲載し、現在の名称を書き添えています。</li>
           </ul>
         </div>
+
+        <AffiliateSlot slot="ranking-end" pageType="ranking" pageKey={kind} />
       </div>
 
       <SiteFooter />

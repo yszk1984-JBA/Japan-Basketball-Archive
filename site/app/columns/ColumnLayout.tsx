@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { baseOpenGraph, breadcrumbJsonLd, JsonLd, SiteBreadcrumb, SiteFooter, SiteHeader, siteUrl } from '../seo';
+import { AffiliateNotice, AffiliateSlot } from '../affiliate/AffiliateSlot';
 import { ShareButtons } from '../ShareButtons';
 import { columnPath, getColumn } from './columns-data';
 
@@ -71,6 +72,8 @@ export function ColumnLayout({
           <ShareButtons url={`${siteUrl}${path}`} text={column.title} hashtags={['Bリーグ']} />
         </div>
 
+        <AffiliateNotice pageType="column" pageKey={slug} />
+
         <article className="jbaListB-about jbaListB-article" style={{ display: 'grid', gap: 18 }}>
           {children}
         </article>
@@ -83,6 +86,8 @@ export function ColumnLayout({
             <li>学校・クラブの名称は、選手が在籍していた当時の名称です。</li>
           </ul>
         </div>
+
+        <AffiliateSlot slot="column-end" pageType="column" pageKey={slug} />
 
         <div className="jbaListB-routePoints">
           <p>この記事で使ったデータ</p>

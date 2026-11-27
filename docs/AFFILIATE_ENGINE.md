@@ -1,7 +1,9 @@
 # Rosterline Affiliate Engine v0.1 — 設計案
 
 作成日：2026-11-28
-状態：**設計案（Yuichiの承認待ち）**。実装・広告の有効化・mainへのマージは承認後に行う。この文書のcommitは広告掲載の承認ではない。
+状態：**基本設計を承認（2026-11-28、Yuichi）→ `feature/affiliate-engine-v0.1`で実装済み（全案件無効）**。mainへのマージ・本番公開・広告の有効化は、実装結果を確認したうえでYuichiが最終承認する。この文書のcommitは広告掲載の承認ではない。
+
+運用（広告の追加・停止・期限）は「13. 運用手順」、テスト結果は「16. テスト結果」を参照。
 
 関連：[MONETIZATION_DRAFT_V0.1](MONETIZATION_DRAFT_V0.1.md)（Phase 2「関連商品のアフィリエイトを必要最小限で試験」の具体化）、[ROADMAP](ROADMAP.md)
 
@@ -96,7 +98,7 @@ Placement（表示ルール）── 「どのページ種別・どの枠に・�
 ```
 
 - `slot`：コンポーネントを置く位置の名前。ページ側は「枠」を置くだけで、何を出すかはルールが決める。
-- `pageTypes`：`column` / `ranking` / `guide` / `organization` / `player` / `home`
+- `pageTypes`：`column` / `ranking` / `guide` / `archive`（選手・組織ページ。v0.1では使わない）
 - `pageKeys`：特定ページに限定（パイロット用）。省略時は`pageTypes`の全ページ。
 - `categories`：出してよいLinkのカテゴリ。
 - 同じLinkを同じページに2回出さない。`maxItems`の上限を超えない。
@@ -134,17 +136,19 @@ Placement（表示ルール）── 「どのページ種別・どの枠に・�
 
 ```ts
 window.gtag?.('event', 'affiliate_click', {
-  program_id: 'AFF000001',
+  affiliate_id: 'AFF000001',
   link_id: 'LNK000001',
-  placement_id: 'PLC-column-end',
-  page_type: 'column',
-  page_key: 'high-school-trends',
-  asp: 'a8',
+  asp_name: 'a8',
+  page_type: 'guide',
+  placement_id: 'PLC003',
+  transport_type: 'beacon',
 });
 ```
 
+（実装では表示回数の`affiliate_impression`も送る。15.1参照）
+
 - 成果（購入・確定）はASP側の管理画面で見る。GA4では「どのページ・枠がクリックされたか」だけを見る。
-- GA4側で上記パラメータをカスタムディメンションに登録するのは運営者の作業（F参照）。
+- GA4側で上記パラメータをカスタムディメンションに登録するのは運営者の作業（15.1参照）。
 - 計測の失敗はリンク遷移に影響させない（`try/catch`）。
 
 ### 2.5 規約表示（Compliance）
@@ -184,7 +188,9 @@ window.gtag?.('event', 'affiliate_click', {
 | `docs/ROADMAP.md` | 収益化ワークストリームを追加 |
 | `README.md` | 文書一覧に本文書を追加 |
 
-**変更しない**：`data/`配下すべて、`site/app/master-data.ts`、`scripts/build_*`、`seo.tsx`、`sitemap.ts`、`proxy.ts`、`layout.tsx`、選手・組織ページ、URL構成。
+**変更しない**：`data/`配下すべて、`site/app/master-data.ts`、`scripts/build_*`、`proxy.ts`、`layout.tsx`、選手・組織ページ、既存のURL。
+
+（実装時の追加：Guideの新設に伴い`seo.tsx`（ヘッダー・フッターに「ガイド」）と`sitemap.ts`（`/guide`を追加、about・privacyの更新日）を変更した。実際の変更ファイルは「15. 実装したファイル」。）
 
 ---
 
@@ -227,7 +233,7 @@ window.gtag?.('event', 'affiliate_click', {
 3. **掲載規約**：禁止事項（掲載不可のサイト・ページの種類、リスティング・SNSの扱い、未成年向けの扱い、比較・ランキング表現、価格表記など）
 4. **報酬条件の確認日**と、条件変更の通知を受け取る方法
 5. **掲載開始日・終了日**（期間限定キャンペーン素材の場合）
-6. **GA4**：管理画面で`affiliate_click`のパラメータ（`program_id`、`placement_id`、`page_type`、`page_key`）をカスタムディメンションに登録
+6. **GA4**：管理画面で`affiliate_impression`／`affiliate_click`のパラメータ（`affiliate_id`、`link_id`、`asp_name`、`page_type`、`placement_id`）をカスタムディメンションに登録
 7. **楽天の対象商品の方針**：「バスケットボール用品・書籍・グッズ」のうち、どの商品・検索結果ページにリンクするか（個別商品は在庫切れ・終売でリンク切れになりやすい）
 8. **パイロットページの承認**（G）
 
@@ -314,10 +320,142 @@ window.gtag?.('event', 'affiliate_click', {
 
 ---
 
-## 12. 承認してほしいこと
+## 12. 承認記録
 
-- [ ] 本設計（JSON3層・選手/組織ページに出さない・パイロット2ページ）で`feature/affiliate-engine-v0.1`に実装してよいか
-- [ ] パイロットページ（`/columns/high-school-trends`、`/rankings/high-school`）
-- [ ] PR表記の文言（「PR｜広告（アフィリエイト）」＋報酬の一文）
-- [ ] privacy・aboutの追記
-- [ ] Guide最初の1本を「ボールのサイズ（号数）の選び方」にするか
+2026-11-28、Yuichiが基本設計を承認（Program／Link／Placementの3JSON、`site/app/affiliate/`、data・master-data不変更、未提携・無効・期限切れ・素材未登録は非表示、初期は全案件無効、広告なしなら枠ごと非表示、GA4 `affiliate_click`、Privacy・About追記、選手・組織ページはv0.1で見送り）。パイロットは`/columns/high-school-trends`、`/rankings/high-school`に、**Rosterline Guide第1弾（`/guide/basketball-ball-size`）を追加**し、Archive系とGuideのクリック率を比較できるようにする。mainへのマージ・本番公開・広告有効化は実装結果の確認後に最終承認。
+
+---
+
+## 13. 運用手順（広告の追加・停止）
+
+すべて`site/app/affiliate/`のJSONを編集してcommit・pushするだけで反映される（mainへのpushでCloudflareが自動デプロイ）。ページのコードは触らない。
+
+### 13.1 案件を有効にする（例：ゼビオ）
+
+1. A8.netで提携が「提携中」になっていることを確認する。
+2. 使う広告素材のコードをA8.netからコピーする。**書き換えない。**
+3. `links.json`に1件追加する（IDは連番）。
+
+   ASPのコードをそのまま貼る場合（バナー・商品リンク）：
+
+   ```json
+   {
+     "id": "LNK000001",
+     "programId": "AFF000001",
+     "kind": "banner",
+     "mode": "rawHtml",
+     "rawHtml": "（A8.netのコードを全文そのまま。\" はJSONのエスケープ）",
+     "categories": ["ball", "shoes", "club-gear"],
+     "enabled": true,
+     "validUntil": null,
+     "issuedAt": "2026-12-01"
+   }
+   ```
+
+   リンクURLと計測用画像を分けて使ってよい素材（文言を変えてよいテキスト素材）の場合は`"mode": "fields"`にし、`href`・`impressionPixel`・`label`を入れる。どちらが許されるかは素材ごとのASPの規約で確認する。
+4. `programs.json`の該当案件を`"partnershipStatus": "approved"`、`"enabled": true`にし、`termsCheckedAt`を確認日にする。広告主・ASPから指定の表記があれば`requiredDisclosure`に入れる（広告枠に表示される）。
+5. 確認する：
+   ```
+   python3 scripts/check_affiliate_data.py
+   cd site && node --test scripts/affiliate.test.mjs && pnpm build
+   ```
+   `check_affiliate_data.py`が`ERROR`を出したら、その素材は表示されない（許可していないタグ・属性・ドメインを含む等）。
+6. commit・push（GitHub Desktop）。
+
+### 13.2 案件を止める（通常）
+
+`programs.json`の該当案件を`"enabled": false`にしてcommit・push。素材単位なら`links.json`の`enabled`を`false`にする。
+
+### 13.3 緊急停止（すぐに全広告を止める）
+
+1. `placements.json`の全ルールを`"enabled": false`にしてcommit・push（GitHubのWeb画面でファイルを直接編集してもよい）。
+2. Cloudflareのダッシュボード（Workers & Pages → 対象のWorker → Deployments）でビルドが完了したことを確認する。数分かかる。
+3. それでも急ぐ場合は、Cloudflareのダッシュボードで直前のデプロイにロールバックする（広告を有効にする前の版に戻る）。
+
+### 13.4 表示ルールを変える
+
+`placements.json`で、出すページ（`pageKeys`）・カテゴリー・件数（`maxItems`は1〜3）を変える。新しいページに枠を置くときだけ、ページに`<AffiliateSlot>`（記事なら上部に`<AffiliateNotice>`も）を1行追加する。
+
+### 13.5 ASPの許可ドメインを増やす
+
+広告素材の画像やリンクが`a8.net`／`rakuten.co.jp`／`r10s.jp`以外のドメインを使っている場合、その素材は表示されない。素材が正式なものであることを確認したうえで、`select.ts`の`ASP_ALLOWED_HOSTS`と`check_affiliate_data.py`の`ASP_ALLOWED_HOSTS`を同じ内容に変更する。
+
+---
+
+## 14. 有効期限の管理
+
+ページはビルド時に作られるため、期限切れの広告が次のデプロイまで残るリスクがある。v0.1では次の4段で防ぐ。
+
+| 段 | 仕組み | いつ効くか |
+| --- | --- | --- |
+| 1. ビルド時の除外 | `select.ts`がビルド時点（日本時間）の日付で期限切れ・開始前を除外 | デプロイのたび |
+| 2. 閲覧時の非表示 | 広告ごとに`data-aff-until`（最終表示日）を埋め込み、閲覧者のブラウザで日付を過ぎた広告を隠す。全件切れたら枠・PR表記も隠す | 期限の翌日0時（日本時間、閲覧者の端末時刻）から |
+| 3. 毎日の検証 | GitHub Actions（`.github/workflows/affiliate-check.yml`）が毎日0:05（日本時間）に`check_affiliate_data.py`を実行。表示中の案件の期限切れ・不正な素材があれば失敗し、GitHubの通知メールが届く。14日以内に切れる案件は警告 | 毎日 |
+| 4. 毎日の再ビルド（任意） | 期限を設定した表示中の案件があるときだけ、同じワークフローがCloudflareのDeploy Hookを呼んでサイトを作り直す | Secretsを登録した場合のみ |
+
+- 段2は、JavaScriptが無効な環境では効かない。また、期限切れの広告のHTMLが一瞬表示され、計測用画像が読み込まれる可能性がある。保証の本体は段1＋段4（毎日の再ビルド）で、段2は再ビルドまでの間を埋める安全策。
+- 段4を使うには、運営者が(1) CloudflareでDeploy Hookを作成（Workers & Pages → 対象のWorker → Settings → Builds → Deploy Hooks、ブランチは`main`）、(2) GitHubのリポジトリ設定（Settings → Secrets and variables → Actions）に`CLOUDFLARE_DEPLOY_HOOK_URL`として登録する。現在のデプロイがCloudflare Workers Buildsで行われていることは未確認（READMEの「GitHubへのpushでCloudflareが自動デプロイ」から推定）。
+- スケジュール実行はmainブランチのワークフローだけが動く。mainへのマージ後から有効になる。
+- **失敗時の対応**：通知メールが届いたら、Actionsのログで`ERROR`の行を確認し、該当案件を`enabled: false`にしてpushする（13.2）。段4が動いていれば、期限切れの広告はその日の再ビルドで既に消えている。
+
+---
+
+## 15. 実装したファイル
+
+| ファイル | 内容 |
+| --- | --- |
+| `site/app/affiliate/types.ts` | 型 |
+| `site/app/affiliate/programs.json` / `links.json` / `placements.json` | 広告データ（初期：全案件`pending`・`enabled: false`、素材0件） |
+| `site/app/affiliate/data.ts` | JSONの読み込み |
+| `site/app/affiliate/select.ts` | 表示判定・rawHtmlの検査・期限判定（純粋関数） |
+| `site/app/affiliate/AffiliateSlot.tsx` | 広告枠と記事上部のPR表記（Server Component） |
+| `site/app/affiliate/AffiliateClient.tsx` | 計測（click／impression）と期限切れの非表示（Client Component） |
+| `site/app/guide/guide-data.ts` / `GuideLayout.tsx` / `page.tsx` | Rosterline Guide（`/guide`）。コラムとは別セクション |
+| `site/app/guide/basketball-ball-size/page.tsx` | Guide第1弾 |
+| `site/scripts/affiliate.test.mjs` | 表示判定のテスト（12件） |
+| `scripts/check_affiliate_data.py` | データ検証 |
+| `.github/workflows/affiliate-check.yml` | 毎日の検証・任意の再ビルド |
+| 変更：`columns/ColumnLayout.tsx`、`rankings/RankingPage.tsx` | PR表記と広告枠を1行ずつ（表示はPlacementで制御） |
+| 変更：`seo.tsx`、`sitemap.ts` | ヘッダー・フッターに「ガイド」、サイトマップに`/guide` |
+| 変更：`privacy/page.tsx`、`about/page.tsx` | アフィリエイト、運営と収益化の方針 |
+| 変更：`site-b.css` | 広告枠・PR表記・Guideの表、モバイルのナビ間隔 |
+
+### 15.1 GA4計測
+
+| イベント | 送るタイミング | パラメータ |
+| --- | --- | --- |
+| `affiliate_impression` | 各広告が画面に50%以上入ったとき（ページ表示ごとに1回） | `affiliate_id`、`link_id`、`asp_name`、`page_type`、`placement_id` |
+| `affiliate_click` | 広告内のリンクのクリック・中クリック（`transport_type: beacon`） | 同上 |
+
+- 送るのは広告の識別子だけ。個人情報・入力内容は送らない。ページのURLはGA4が通常どおり`page_location`として記録する。
+- クリックは成約・売上ではない。成果（発生・確定）はASPの管理画面で見る。
+- **比較の見方（運営者のGA4設定）**：管理 → カスタム定義で、上の5つをイベントスコープのカスタムディメンションに登録する。探索（自由形式）で、行＝`page_type`（または`affiliate_id`）、値＝イベント数、フィルタ＝イベント名が`affiliate_impression`／`affiliate_click`の2つを作れば、Archive／Ranking／Column／Guide別の表示回数・クリック数を比べられる。クリック率＝クリック数÷表示回数（探索の表をエクスポートして計算）。
+- クリックは枠でまとめて受け取り（イベント委譲）、`preventDefault`しないため、リンクの遷移とASP側の計測を妨げない。
+
+### 15.2 セキュリティ
+
+- `rawHtml`は運営者がJSONに登録したものだけ。表示前に許可リストで検査し、通らない素材は表示しない（コードは書き換えない）。
+  - 許可するタグ：`a`、`img`、`br`、`span`、`div`、`p`、`table`、`tbody`、`tr`、`td`、`strong`、`b`
+  - 許可する属性：`href`、`src`、`alt`、`title`、`width`、`height`、`border`、`style`、`target`、`rel`、`class`
+  - `href`・`src`はhttpsで、案件のASPの許可ドメインのみ。`script`・`iframe`・`style`要素、`on…`イベント属性、`javascript:`、styleの`url()`等は拒否
+- 外部スクリプトは読み込まない（楽天のウィジェット等、`<script>`を含む素材はv0.1では使えない）。
+- CSP（Content-Security-Policy）は現在サイトに設定されていない。将来CSPを入れる場合は、`img-src`にASPの画像ドメイン（`*.a8.net`、`*.rakuten.co.jp`、`*.r10s.jp`）を加える必要がある。
+- `fields`の広告リンクには`rel="sponsored noopener"`を付ける。`rawHtml`はASPのコードのまま（A8.netの`rel="nofollow"`等）。
+
+---
+
+## 16. テスト結果（2026-11-28、`feature/affiliate-engine-v0.1`）
+
+| 確認 | 結果 |
+| --- | --- |
+| 表示判定のテスト（`node --test scripts/affiliate.test.mjs`） | 12件すべて成功（初期データで広告が出ない／承認済み・有効・期限内・正式素材ありだけ表示／未提携・否認・終了・無効・期限切れ・開始前・素材なし・不正URL・カテゴリー不一致は非表示／maxItems・重複／A8・楽天の標準形のrawHtmlを通し、script・iframe・onclick・javascript:・許可外ドメインを拒否） |
+| データ検証（`check_affiliate_data.py`） | 初期データでOK。表示中案件の期限切れ・`<script>`入り素材でERROR、14日以内の期限でWARNINGを確認 |
+| 型チェック（`tsc --noEmit`） | エラーなし |
+| Lint（`oxlint`） | 追加・変更したファイルにエラーなし（`components/ui`等の既存の19件はmainと同数） |
+| ビルド（`vinext build`） | 成功（`/guide`、`/guide/basketball-ball-size`を含む） |
+| 初期データでの表示 | 3つのパイロットページ・選手ページとも、広告枠・PR表記なし。全ページ200、サイトマップに`/guide`2件、コラム一覧にGuideは出ない |
+| テスト用の素材を一時的に有効にした表示（確認後に元に戻した） | 3ページで記事上部のPR表記と広告枠が表示。`onclick`入りの素材は除外。モバイル幅（375px）で表示崩れなし |
+| GA4イベント（ブラウザでの確認。GA4本番には送らず、ページ内の送信内容を記録） | `affiliate_impression`が広告ごとに1回、`affiliate_click`がクリック時に送られ、パラメータ5項目が正しいことを確認。クリックで新しいタブが開く（遷移を止めていない） |
+| 期限切れの閲覧時非表示 | ブラウザの日付を期限の翌日にすると、該当の広告だけが隠れ、計測も送られないことを確認 |
+
+未確認：本番環境（Cloudflare）での動作、実際のASP素材での表示とASP側のクリック計上、GA4管理画面での受信、Deploy Hookの動作。
