@@ -11,6 +11,14 @@ export type Column = {
 
 export const COLUMNS: readonly Column[] = [
   {
+    slug: 'high-school-to-pro',
+    title: '高校から大学を経ずにプロへ：その道は増えているのか',
+    description:
+      '高校から大学に進まずにB.LEAGUEのクラブに所属した登録選手14人のうち12人は2022年以降。多くは高校在学中に所属が始まっています。それでも主流は大学経由であることも含めて、確認済みデータから読み解きます。',
+    publishedAt: '2026-11-28',
+    dataAsOf: '2026-11-26',
+  },
+  {
     slug: 'high-school-trends',
     title: 'B.LEAGUE選手を多く輩出する高校の共通点：登録データで見る3つの傾向',
     description:
