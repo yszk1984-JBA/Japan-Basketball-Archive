@@ -1,6 +1,8 @@
 import { masterApprovals, masterOrganizationCurrentNames, masterPlayers, masterPublication, masterSources } from './master-data';
 import { candidatePlayers, candidateSources } from './candidate-data';
 import { isSchoolName } from './organization-category';
+import { ALL_STAR_2026 } from './all-star';
+import { NATIONAL_TEAM_2026 } from './national-team';
 
 export type DataStatus = 'master' | 'candidate';
 
@@ -99,6 +101,23 @@ const FEATURED_PLAYER_IDS: readonly string[] = [
 
 const HOMEPAGE_FEATURED_COUNT = 20;
 
+// 自動枠の並び替え優先度（2026-11-28、Yuichiと検討の上「今年のBリーグでの活躍度合い」の
+// 代理指標として採用）。公式スタッツ（得点・出場試合数等）はデータとして持っていないため、
+// 日本代表・オールスター選出という「今季の実績が外部から確認できる事実」を優先度に使う。
+// 両方選出 > 日本代表のみ > オールスターのみ > どちらでもない、の4段階。各段階の中では
+// 従来どおり承認日が新しい順（データが増えるほど新着選手が自然に反映される）。
+const nationalTeamIds = new Set(NATIONAL_TEAM_2026.playerIds);
+const allStarIds = new Set(ALL_STAR_2026.entries.map((entry) => entry.playerId));
+
+function activityRank(playerId: string): number {
+  const inNationalTeam = nationalTeamIds.has(playerId);
+  const inAllStar = allStarIds.has(playerId);
+  if (inNationalTeam && inAllStar) return 3;
+  if (inNationalTeam) return 2;
+  if (inAllStar) return 1;
+  return 0;
+}
+
 export function getHomepagePlayers() {
   const featuredIds = new Set(FEATURED_PLAYER_IDS);
   const fixed = FEATURED_PLAYER_IDS.map((id) => players.find((player) => player.id === id)).filter(
@@ -106,10 +125,14 @@ export function getHomepagePlayers() {
   );
 
   const remainingSlots = Math.max(HOMEPAGE_FEATURED_COUNT - fixed.length, 0);
-  // 承認日の新しい順（latestApprovedAtは本ファイル下部で定義、サイトマップのlastmod計算と共通。候補データはnullのため対象外）。
   const autoFilled = players
     .filter((player) => player.dataStatus === 'master' && !featuredIds.has(player.id))
-    .sort((left, right) => (latestApprovedAt(right) ?? '').localeCompare(latestApprovedAt(left) ?? ''))
+    .sort((left, right) => {
+      const rankDiff = activityRank(right.id) - activityRank(left.id);
+      if (rankDiff !== 0) return rankDiff;
+      // 承認日の新しい順（latestApprovedAtは本ファイル下部で定義、サイトマップのlastmod計算と共通。候補データはnullのため対象外）。
+      return (latestApprovedAt(right) ?? '').localeCompare(latestApprovedAt(left) ?? '');
+    })
     .slice(0, remainingSlots);
 
   return [...fixed, ...autoFilled];
