@@ -11,6 +11,14 @@ export type Column = {
 
 export const COLUMNS: readonly Column[] = [
   {
+    slug: 'how-to-research-careers',
+    title: 'B.LEAGUE選手の経歴の調べ方：情報源の使い分けと、つまずきやすいポイント',
+    description:
+      '500人以上の選手の経歴を出典つきで記録してきた経験から、B.LEAGUE公式サイト、クラブ公式サイト、JBA・大会の記録の使い分けと、学校やクラブの改称、表記ゆれなど、調べるときにつまずきやすいポイントをまとめました。',
+    publishedAt: '2026-11-28',
+    dataAsOf: '2026-11-26',
+  },
+  {
     slug: 'one-club',
     title: 'B.LEAGUE開幕から同じクラブ一筋：11シーズンを1つのクラブで過ごす17人',
     description:
