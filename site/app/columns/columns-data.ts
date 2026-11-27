@@ -11,6 +11,22 @@ export type Column = {
 
 export const COLUMNS: readonly Column[] = [
   {
+    slug: 'draft-first-year',
+    title: 'B.LEAGUEドラフト元年：選べない入口と、新しい保護',
+    description:
+      '2026年1月に初めて行われたB.LEAGUEドラフトでは、指名は11人。指名されたら行き先を選べず、指名直後に別のクラブへ期限付移籍した選手もいます。一方で、引退後3年間の雇用保障という新しい保護も生まれました。制度と登録データから、選手の立場で整理します。',
+    publishedAt: '2026-11-28',
+    dataAsOf: '2026-11-26',
+  },
+  {
+    slug: 'salary-cap-first-year-moves',
+    title: 'サラリーキャップ元年、選手はどう動いたか：B.PREMIERへの移籍は約2割減',
+    description:
+      '2026-27シーズンから、B.PREMIERに上限8億円・下限5億円のサラリーキャップが導入されました。登録データで選手の移籍を集計すると、B.PREMIERのクラブへの移籍は約2割減り、B.ONEのクラブへの移籍が増えています。制度の狙いと、選手の立場から見た影響を整理します。',
+    publishedAt: '2026-11-28',
+    dataAsOf: '2026-11-26',
+  },
+  {
     slug: 'how-to-research-careers',
     title: 'B.LEAGUE選手の経歴の調べ方：情報源の使い分けと、つまずきやすいポイント',
     description:

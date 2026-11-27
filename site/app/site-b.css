@@ -1980,3 +1980,9 @@ a.jbaListB-currentClubName:hover {
   color: #5B6B7A;
   margin-top: 8px;
 }
+
+/* コラムの表がスマホで横にはみ出さないように（グリッドの子要素の最小幅を0にして、表だけ横スクロール） */
+.jbaListB-article > section {
+  min-width: 0;
+  overflow-x: auto;
+}
