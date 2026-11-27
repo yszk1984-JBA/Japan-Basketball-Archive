@@ -6,6 +6,7 @@ import { TopSearch, type TopSearchEntry } from './TopSearch';
 import { BrandMark, JsonLd, SiteFooter, SiteHeader, websiteJsonLd } from './seo';
 import { ALL_STAR_2026 } from './all-star';
 import { CLUB_COLORS, clubColor } from './club-colors';
+import { standingsRank } from './club-standings';
 import { buildRanking } from './rankings/ranking-data';
 import { buildRouteRanking, ROUTE_PATH, ROUTE_TITLE } from './rankings/route-data';
 
@@ -28,8 +29,16 @@ export default function Home() {
       return { organizationId, color: meta.color, league: meta.league, name: organization.name, slug };
     })
     .filter((club): club is NonNullable<typeof club> => club !== null);
-  const premierClubs = clubs.filter((club) => club.league === 'PREMIER');
-  const bOneClubs = clubs.filter((club) => club.league === 'B.ONE');
+  // クラブの並び順は、2026-11-28時点のB.LEAGUE公式「順位表」（勝率順、同率は得失点差順。
+  // 地区をまたいだ単一の公式順位はリーグが発表していないため、横断比較のための編集上の
+  // 簡略化。詳細はclub-standings.tsのコメント参照）に合わせている。1回限りのスナップショット
+  // であり、以降の試合結果は自動反映されない。
+  const premierClubs = clubs
+    .filter((club) => club.league === 'PREMIER')
+    .sort((left, right) => standingsRank(left.organizationId) - standingsRank(right.organizationId));
+  const bOneClubs = clubs
+    .filter((club) => club.league === 'B.ONE')
+    .sort((left, right) => standingsRank(left.organizationId) - standingsRank(right.organizationId));
 
   // トップページ用のランキング・ティーザー（出身高校・出身大学・高校→大学ルート、各上位3件）。
   // 集計ロジック本体は/rankingsと同じbuildRanking/buildRouteRankingを再利用している。
