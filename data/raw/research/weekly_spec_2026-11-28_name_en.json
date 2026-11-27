@@ -1,0 +1,6246 @@
+{
+ "batch": "047",
+ "sprint": "032",
+ "date": "2026-11-28",
+ "prefix": "B47W1",
+ "title": "英語表記（B.LEAGUE公式プロフィール）",
+ "tier": "Tier 1",
+ "tier_reason": "B.LEAGUE公式プロフィールの表記をそのまま記録（変換・推定なし）。同一人物の確認は選手IDまたは氏名の一致による",
+ "sources": {
+  "51000446": {
+   "title": "市場 脩斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000446"
+  },
+  "51000349": {
+   "title": "木林 優 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000349"
+  },
+  "18429": {
+   "title": "大崎 裕太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18429"
+  },
+  "19755": {
+   "title": "富永 啓生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=19755"
+  },
+  "51000350": {
+   "title": "菊地 広人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000350"
+  },
+  "51000234": {
+   "title": "島谷 怜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000234"
+  },
+  "10850": {
+   "title": "関野 剛平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10850"
+  },
+  "55000589": {
+   "title": "西村 優真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000589"
+  },
+  "51000342": {
+   "title": "阿部 真冴橙 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000342"
+  },
+  "51000202": {
+   "title": "内藤 耀悠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000202"
+  },
+  "51000133": {
+   "title": "岡島 和真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000133"
+  },
+  "8481": {
+   "title": "片岡 大晴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8481"
+  },
+  "19956": {
+   "title": "シェーファー アヴィ幸樹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=19956"
+  },
+  "10820": {
+   "title": "杉浦 佑成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10820"
+  },
+  "51000445": {
+   "title": "新沼 康生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000445"
+  },
+  "8737": {
+   "title": "船生 誠也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8737"
+  },
+  "15834": {
+   "title": "半澤 凌太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15834"
+  },
+  "51000600": {
+   "title": "岩屋 頼 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000600"
+  },
+  "30526": {
+   "title": "渡辺 翔太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30526"
+  },
+  "30397": {
+   "title": "栗原 翼 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30397"
+  },
+  "30465": {
+   "title": "赤穂 雷太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30465"
+  },
+  "55000974": {
+   "title": "小松 亮太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000974"
+  },
+  "51000599": {
+   "title": "堀田 尚秀 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000599"
+  },
+  "51000180": {
+   "title": "トロイ・マーフィージュニア 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000180"
+  },
+  "10848": {
+   "title": "中山 拓哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10848"
+  },
+  "8468": {
+   "title": "田口 成浩 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8468"
+  },
+  "51000361": {
+   "title": "元田 大陽 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000361"
+  },
+  "51000583": {
+   "title": "赤間 賢人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000583"
+  },
+  "8456": {
+   "title": "小島 元基 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8456"
+  },
+  "15829": {
+   "title": "長谷川 暢 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15829"
+  },
+  "18845": {
+   "title": "中村 功平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18845"
+  },
+  "51000479": {
+   "title": "陳岡 流羽 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000479"
+  },
+  "20021": {
+   "title": "吉井 裕鷹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20021"
+  },
+  "30458": {
+   "title": "荒川 颯 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30458"
+  },
+  "5100000049": {
+   "title": "渡邉 飛勇 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000049"
+  },
+  "18478": {
+   "title": "久岡 幸太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18478"
+  },
+  "9044": {
+   "title": "福澤 晃平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9044"
+  },
+  "30402": {
+   "title": "前田 怜緒 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30402"
+  },
+  "8597": {
+   "title": "市岡 ショーン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8597"
+  },
+  "8593": {
+   "title": "ギャビン・エドワーズ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8593"
+  },
+  "51000228": {
+   "title": "小川 敦也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000228"
+  },
+  "5100000036": {
+   "title": "高島 紳司 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000036"
+  },
+  "8726": {
+   "title": "竹内 公輔 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8726"
+  },
+  "8497": {
+   "title": "遠藤 祐亮 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8497"
+  },
+  "51000461": {
+   "title": "星川 開聖 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000461"
+  },
+  "8650": {
+   "title": "田臥 勇太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8650"
+  },
+  "8499": {
+   "title": "渡邉 裕規 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8499"
+  },
+  "51000232": {
+   "title": "淺野 ケニー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000232"
+  },
+  "5100000023": {
+   "title": "中村 拓人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000023"
+  },
+  "8487": {
+   "title": "辻 直人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8487"
+  },
+  "8482": {
+   "title": "藤井 祐眞 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8482"
+  },
+  "22405": {
+   "title": "鶴巻 啓太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22405"
+  },
+  "8470": {
+   "title": "谷口 大智 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8470"
+  },
+  "22497": {
+   "title": "コー・フリッピン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22497"
+  },
+  "9418": {
+   "title": "エヴァンス ルーク 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9418"
+  },
+  "10885": {
+   "title": "青木 ブレイク 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10885"
+  },
+  "8467": {
+   "title": "安藤 誓哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8467"
+  },
+  "30519": {
+   "title": "細川 一輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30519"
+  },
+  "15750": {
+   "title": "木田 貴明 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15750"
+  },
+  "51000359": {
+   "title": "黒川 虎徹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000359"
+  },
+  "8520": {
+   "title": "杉本 慶 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8520"
+  },
+  "51000352": {
+   "title": "渡邉 伶音 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000352"
+  },
+  "8594": {
+   "title": "長谷川 智也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8594"
+  },
+  "8498": {
+   "title": "熊谷 尚也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8498"
+  },
+  "8582": {
+   "title": "荒尾 岳 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8582"
+  },
+  "9345": {
+   "title": "ウィリアムス ニカ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9345"
+  },
+  "51000431": {
+   "title": "菅野 ブルース 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000431"
+  },
+  "51000383": {
+   "title": "佐藤 巧 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000383"
+  },
+  "51000345": {
+   "title": "菅原 佳依 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000345"
+  },
+  "51000267": {
+   "title": "金近 廉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000267"
+  },
+  "51000467": {
+   "title": "瀬川 琉久 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000467"
+  },
+  "8584": {
+   "title": "原 修太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8584"
+  },
+  "51000564": {
+   "title": "深水 虎太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000564"
+  },
+  "8656": {
+   "title": "田代 直希 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8656"
+  },
+  "10815": {
+   "title": "安藤 周人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10815"
+  },
+  "51000428": {
+   "title": "渡邊 雄太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000428"
+  },
+  "15826": {
+   "title": "飯田 遼 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15826"
+  },
+  "30348": {
+   "title": "小酒部 泰暉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30348"
+  },
+  "30351": {
+   "title": "大倉 颯太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30351"
+  },
+  "30438": {
+   "title": "テーブス 海 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30438"
+  },
+  "9031": {
+   "title": "ザック・バランスキー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9031"
+  },
+  "30349": {
+   "title": "中村 浩陸 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30349"
+  },
+  "15838": {
+   "title": "平岩 玄 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15838"
+  },
+  "8649": {
+   "title": "ライアン・ロシター 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8649"
+  },
+  "51000311": {
+   "title": "大庭 圭太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000311"
+  },
+  "42616": {
+   "title": "狩野 富成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=42616"
+  },
+  "9037": {
+   "title": "田中 大貴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9037"
+  },
+  "8493": {
+   "title": "永吉 佑也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8493"
+  },
+  "49493": {
+   "title": "山際 爽吾 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49493"
+  },
+  "11309": {
+   "title": "山﨑 一渉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=11309"
+  },
+  "15853": {
+   "title": "野﨑 零也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15853"
+  },
+  "12598": {
+   "title": "ジョシュ・ホーキンソン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12598"
+  },
+  "8447": {
+   "title": "ベンドラメ 礼生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8447"
+  },
+  "5100000012": {
+   "title": "荒谷 裕秀 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000012"
+  },
+  "12582": {
+   "title": "アレックス・カーク 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12582"
+  },
+  "8654": {
+   "title": "津山 尚大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8654"
+  },
+  "51000491": {
+   "title": "伊久江 ロイ英輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000491"
+  },
+  "8484": {
+   "title": "篠山 竜青 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8484"
+  },
+  "8486": {
+   "title": "野本 建吾 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8486"
+  },
+  "8492": {
+   "title": "長谷川 技 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8492"
+  },
+  "5100000022": {
+   "title": "米須 玲音 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000022"
+  },
+  "20023": {
+   "title": "松山 駿 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20023"
+  },
+  "51000441": {
+   "title": "山内 ジャヘル琉人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000441"
+  },
+  "51000591": {
+   "title": "新井 楽人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000591"
+  },
+  "30443": {
+   "title": "ウィタカ ケンタ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30443"
+  },
+  "5100000024": {
+   "title": "キング 開 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000024"
+  },
+  "15811": {
+   "title": "佐藤 卓磨 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15811"
+  },
+  "32956": {
+   "title": "須藤 昂矢 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32956"
+  },
+  "51000468": {
+   "title": "前野 幹太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000468"
+  },
+  "10851": {
+   "title": "森井 健太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10851"
+  },
+  "9435": {
+   "title": "カイル・リチャードソン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9435"
+  },
+  "15818": {
+   "title": "葛原 大智 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15818"
+  },
+  "8503": {
+   "title": "宇都 直輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8503"
+  },
+  "51000464": {
+   "title": "泉 登翔 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000464"
+  },
+  "15752": {
+   "title": "岡田 雄三 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15752"
+  },
+  "51000118": {
+   "title": "宮本 一樹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000118"
+  },
+  "30521": {
+   "title": "ラシード ファラーズ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30521"
+  },
+  "19998": {
+   "title": "盛實 海翔 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=19998"
+  },
+  "8501": {
+   "title": "水戸 健史 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8501"
+  },
+  "42539": {
+   "title": "小栗 瑛哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=42539"
+  },
+  "51000435": {
+   "title": "田中 晴瑛 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000435"
+  },
+  "51000136": {
+   "title": "野﨑 由之 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000136"
+  },
+  "32984": {
+   "title": "エリエット・ドンリー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32984"
+  },
+  "5100000017": {
+   "title": "土家 大輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000017"
+  },
+  "51000239": {
+   "title": "東海林 奨 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000239"
+  },
+  "5100000087": {
+   "title": "トビン マーカス海舟 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000087"
+  },
+  "51000518": {
+   "title": "加藤 ダニエル 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000518"
+  },
+  "9369": {
+   "title": "河田 チリジ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9369"
+  },
+  "5100000011": {
+   "title": "津屋 一球 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000011"
+  },
+  "20037": {
+   "title": "佐々木 隆成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20037"
+  },
+  "8469": {
+   "title": "菅澤 紀行 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8469"
+  },
+  "51000481": {
+   "title": "浅井 英矢 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000481"
+  },
+  "51000108": {
+   "title": "星野 京介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000108"
+  },
+  "8500": {
+   "title": "古川 孝敏 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8500"
+  },
+  "9063": {
+   "title": "ジョシュ・ハレルソン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9063"
+  },
+  "51000236": {
+   "title": "湧川 颯斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000236"
+  },
+  "5100000025": {
+   "title": "兪 龍海 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000025"
+  },
+  "51000454": {
+   "title": "根本 大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000454"
+  },
+  "51000112": {
+   "title": "二上 耀 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000112"
+  },
+  "30469": {
+   "title": "久保田 義章 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30469"
+  },
+  "8608": {
+   "title": "トーマス・ケネディ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8608"
+  },
+  "8494": {
+   "title": "須田 侑太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8494"
+  },
+  "8583": {
+   "title": "石井 講祐 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8583"
+  },
+  "9283": {
+   "title": "小阪 彰久 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9283"
+  },
+  "30403": {
+   "title": "西田 優大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30403"
+  },
+  "18399": {
+   "title": "長野 誠史 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18399"
+  },
+  "14302": {
+   "title": "今村 佳太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=14302"
+  },
+  "51000498": {
+   "title": "小澤 飛悠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000498"
+  },
+  "32982": {
+   "title": "角野 亮伍 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32982"
+  },
+  "30459": {
+   "title": "平良 彰吾 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30459"
+  },
+  "51000119": {
+   "title": "加藤 嵩都 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000119"
+  },
+  "8738": {
+   "title": "張本 天傑 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8738"
+  },
+  "51000499": {
+   "title": "ジェイク幸輝・ホルツ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000499"
+  },
+  "32995": {
+   "title": "アイザイア・マーフィー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32995"
+  },
+  "8516": {
+   "title": "中東 泰斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8516"
+  },
+  "51000343": {
+   "title": "江原 信太朗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000343"
+  },
+  "51000586": {
+   "title": "岩下 准平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000586"
+  },
+  "51000305": {
+   "title": "若野 瑛太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000305"
+  },
+  "22401": {
+   "title": "岡田 泰希 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22401"
+  },
+  "5100000032": {
+   "title": "駒沢 颯 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000032"
+  },
+  "32983": {
+   "title": "駒水 大雅 ジャック 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32983"
+  },
+  "51000502": {
+   "title": "須藤 タイレル拓 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000502"
+  },
+  "10297": {
+   "title": "田原 隆徳 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10297"
+  },
+  "51000470": {
+   "title": "西田 陽成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000470"
+  },
+  "5100000028": {
+   "title": "野本 大智 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000028"
+  },
+  "8655": {
+   "title": "岸本 隆一 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8655"
+  },
+  "10832": {
+   "title": "澁田 怜音 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10832"
+  },
+  "51000585": {
+   "title": "西部 秀馬 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000585"
+  },
+  "8727": {
+   "title": "川嶋 勇人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8727"
+  },
+  "26926": {
+   "title": "ホール 百音 アレックス 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=26926"
+  },
+  "20024": {
+   "title": "前田 悟 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20024"
+  },
+  "10852": {
+   "title": "水野 幹太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10852"
+  },
+  "15817": {
+   "title": "青木 保憲 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15817"
+  },
+  "51000365": {
+   "title": "佐藤 武 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000365"
+  },
+  "5100000030": {
+   "title": "植松 義也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000030"
+  },
+  "20034": {
+   "title": "木下 誠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20034"
+  },
+  "5100000027": {
+   "title": "坂本 聖芽 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000027"
+  },
+  "9033": {
+   "title": "竹内 譲次 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9033"
+  },
+  "8690": {
+   "title": "合田 怜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8690"
+  },
+  "51000188": {
+   "title": "高橋 快成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000188"
+  },
+  "8701": {
+   "title": "橋本 拓哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8701"
+  },
+  "30398": {
+   "title": "牧 隼利 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30398"
+  },
+  "5100000066": {
+   "title": "木村 圭吾 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000066"
+  },
+  "5100000031": {
+   "title": "金田 龍弥 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000031"
+  },
+  "51000547": {
+   "title": "中島 三千哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000547"
+  },
+  "20031": {
+   "title": "中野 司 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20031"
+  },
+  "18148": {
+   "title": "寺園 脩斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18148"
+  },
+  "8538": {
+   "title": "道原 紀晃 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8538"
+  },
+  "5100000016": {
+   "title": "八村 阿蓮 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000016"
+  },
+  "30437": {
+   "title": "山口 颯斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30437"
+  },
+  "51000603": {
+   "title": "新井 翔太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000603"
+  },
+  "51000132": {
+   "title": "横地 聖真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000132"
+  },
+  "8532": {
+   "title": "北川 弘 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8532"
+  },
+  "15815": {
+   "title": "井上 宗一郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15815"
+  },
+  "18475": {
+   "title": "岡田 侑大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18475"
+  },
+  "51000113": {
+   "title": "飯尾 文哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000113"
+  },
+  "51000137": {
+   "title": "上田 隼輔 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000137"
+  },
+  "51000458": {
+   "title": "介川 アンソニー翔 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000458"
+  },
+  "10821": {
+   "title": "中村 太地 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10821"
+  },
+  "30399": {
+   "title": "納見 悠仁 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30399"
+  },
+  "8734": {
+   "title": "白濱 僚祐 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8734"
+  },
+  "10849": {
+   "title": "伊藤 達哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10849"
+  },
+  "30400": {
+   "title": "寺嶋 良 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30400"
+  },
+  "5100000039": {
+   "title": "上澤 俊喜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000039"
+  },
+  "8483": {
+   "title": "晴山 ケビン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8483"
+  },
+  "51000563": {
+   "title": "松野 遥弥 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000563"
+  },
+  "26890": {
+   "title": "メイヨ ニック 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=26890"
+  },
+  "30396": {
+   "title": "三谷 桂司朗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30396"
+  },
+  "15756": {
+   "title": "阿部 諒 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15756"
+  },
+  "26888": {
+   "title": "井上 諒汰 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=26888"
+  },
+  "5100000035": {
+   "title": "渡部 琉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000035"
+  },
+  "33040": {
+   "title": "ロバーツ ケイン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=33040"
+  },
+  "8504": {
+   "title": "山崎 稜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8504"
+  },
+  "51000111": {
+   "title": "角田 太輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000111"
+  },
+  "51000440": {
+   "title": "富山 仁貴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000440"
+  },
+  "8592": {
+   "title": "金丸 晃輔 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8592"
+  },
+  "18461": {
+   "title": "岸田 篤生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18461"
+  },
+  "51000604": {
+   "title": "武富 楓太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000604"
+  },
+  "8496": {
+   "title": "橋本 晃佑 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8496"
+  },
+  "51000590": {
+   "title": "田中 流嘉州 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000590"
+  },
+  "10258": {
+   "title": "土屋 アリスター時生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10258"
+  },
+  "51000344": {
+   "title": "永野 威旺 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000344"
+  },
+  "12605": {
+   "title": "髙比良 寛治 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12605"
+  },
+  "19957": {
+   "title": "熊谷 航 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=19957"
+  },
+  "12577": {
+   "title": "馬場 雄大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12577"
+  },
+  "9405": {
+   "title": "森川 正明 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9405"
+  },
+  "5100000021": {
+   "title": "星川 堅信 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000021"
+  },
+  "10893": {
+   "title": "松本 健児リオン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10893"
+  },
+  "5100000015": {
+   "title": "川真田 紘也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000015"
+  },
+  "5100000014": {
+   "title": "佐土原 遼 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000014"
+  },
+  "51000252": {
+   "title": "小針 幸也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000252"
+  },
+  "55000567": {
+   "title": "佐取 龍之介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000567"
+  },
+  "30513": {
+   "title": "大浦 颯太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30513"
+  },
+  "8756": {
+   "title": "小野寺 祥太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8756"
+  },
+  "8658": {
+   "title": "山内 盛久 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8658"
+  },
+  "51000116": {
+   "title": "脇 真大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000116"
+  },
+  "10824": {
+   "title": "會田 圭佑 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10824"
+  },
+  "51000235": {
+   "title": "浅井 修伍 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000235"
+  },
+  "30434": {
+   "title": "松脇 圭志 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30434"
+  },
+  "51000614": {
+   "title": "小川 大新 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000614"
+  },
+  "51000253": {
+   "title": "佐藤 大介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000253"
+  },
+  "32985": {
+   "title": "寺嶋 恭之介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32985"
+  },
+  "51000388": {
+   "title": "岡部 雅大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000388"
+  },
+  "51000109": {
+   "title": "小室 昂大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000109"
+  },
+  "51000613": {
+   "title": "高橋 昌也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000613"
+  },
+  "51000375": {
+   "title": "鍋田 隆征 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000375"
+  },
+  "5100000041": {
+   "title": "ワン ウェイジャ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000041"
+  },
+  "18170": {
+   "title": "臼井 弘樹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18170"
+  },
+  "51000594": {
+   "title": "佐伯 崚介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000594"
+  },
+  "39533": {
+   "title": "石川 晴道 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=39533"
+  },
+  "9264": {
+   "title": "後藤 翔平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9264"
+  },
+  "55000079": {
+   "title": "平良 宗龍 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000079"
+  },
+  "51000330": {
+   "title": "関屋 心 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000330"
+  },
+  "51000190": {
+   "title": "山崎 凜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000190"
+  },
+  "34704": {
+   "title": "久岡 賢太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=34704"
+  },
+  "30510": {
+   "title": "中村 ジャズ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30510"
+  },
+  "10877": {
+   "title": "門馬 圭二郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10877"
+  },
+  "51000097": {
+   "title": "阿部 龍星 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000097"
+  },
+  "55000162": {
+   "title": "大森 康瑛 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000162"
+  },
+  "18174": {
+   "title": "伊集 貴也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18174"
+  },
+  "15832": {
+   "title": "白戸 大聖 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15832"
+  },
+  "46255": {
+   "title": "樋口 蒼生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=46255"
+  },
+  "51000246": {
+   "title": "中田 嵩基 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000246"
+  },
+  "8674": {
+   "title": "村上 慎也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8674"
+  },
+  "49519": {
+   "title": "広瀬 翔一 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49519"
+  },
+  "51000373": {
+   "title": "陳岡 燈生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000373"
+  },
+  "49607": {
+   "title": "小川 翔矢 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49607"
+  },
+  "8448": {
+   "title": "アキ・チェンバース 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8448"
+  },
+  "15824": {
+   "title": "新川 敬大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15824"
+  },
+  "51000233": {
+   "title": "益子 拓己 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000233"
+  },
+  "51000507": {
+   "title": "大久保 友貴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000507"
+  },
+  "33026": {
+   "title": "森田 雄次 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=33026"
+  },
+  "5100000006": {
+   "title": "池田 祐一 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000006"
+  },
+  "51000275": {
+   "title": "ワイリー 光希スカイ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000275"
+  },
+  "51000251": {
+   "title": "米山 ジャバ 偉生 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000251"
+  },
+  "8552": {
+   "title": "渡邊 翔太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8552"
+  },
+  "30401": {
+   "title": "大庭 岳輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30401"
+  },
+  "27048": {
+   "title": "ダマ ムッサ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=27048"
+  },
+  "32953": {
+   "title": "菅原 暉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32953"
+  },
+  "8657": {
+   "title": "喜多川 修平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8657"
+  },
+  "8489": {
+   "title": "鎌田 裕也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8489"
+  },
+  "30463": {
+   "title": "ジャワラ ジョゼフ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30463"
+  },
+  "51000285": {
+   "title": "四家 魁人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000285"
+  },
+  "10842": {
+   "title": "三ツ井 利也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10842"
+  },
+  "12500": {
+   "title": "古牧 昌也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12500"
+  },
+  "51000117": {
+   "title": "小西 聖也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000117"
+  },
+  "51000588": {
+   "title": "堀 陽稀 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000588"
+  },
+  "18428": {
+   "title": "栗原 ルイス 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18428"
+  },
+  "10880": {
+   "title": "川邉 亮平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10880"
+  },
+  "34423": {
+   "title": "島﨑 輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=34423"
+  },
+  "8507": {
+   "title": "多嶋 朝飛 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8507"
+  },
+  "22395": {
+   "title": "長島 蓮 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22395"
+  },
+  "49520": {
+   "title": "ポーグ 健 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49520"
+  },
+  "30522": {
+   "title": "鈴木 悠介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30522"
+  },
+  "40138": {
+   "title": "川島 蓮 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=40138"
+  },
+  "51000720": {
+   "title": "宮永 颯太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000720"
+  },
+  "33083": {
+   "title": "ストックマンJr. ケドリック 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=33083"
+  },
+  "51000123": {
+   "title": "松下 裕汰 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000123"
+  },
+  "9365": {
+   "title": "田口 暖 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9365"
+  },
+  "15841": {
+   "title": "東 宏輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15841"
+  },
+  "39442": {
+   "title": "古河 ウェスリー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=39442"
+  },
+  "39532": {
+   "title": "ブラ ブサナ グロリダ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=39532"
+  },
+  "18412": {
+   "title": "田中 幸之介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18412"
+  },
+  "8666": {
+   "title": "德川 慎之介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8666"
+  },
+  "51000122": {
+   "title": "石橋 侑磨 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000122"
+  },
+  "51000425": {
+   "title": "石川 裕大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000425"
+  },
+  "49610": {
+   "title": "木下 大南帆 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49610"
+  },
+  "51000221": {
+   "title": "金本 一真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000221"
+  },
+  "51000243": {
+   "title": "喜志永 修斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000243"
+  },
+  "49613": {
+   "title": "田中 晴大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49613"
+  },
+  "51000222": {
+   "title": "今西 優斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000222"
+  },
+  "30444": {
+   "title": "上良 潤起 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30444"
+  },
+  "47100": {
+   "title": "ジュウ イーサン龍英 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=47100"
+  },
+  "22393": {
+   "title": "吉田 健太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22393"
+  },
+  "51000548": {
+   "title": "福島 ハリス慈音ウチェ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000548"
+  },
+  "51000323": {
+   "title": "小玉 大智 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000323"
+  },
+  "51000364": {
+   "title": "野口 侑真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000364"
+  },
+  "30516": {
+   "title": "大﨑 翔太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30516"
+  },
+  "40134": {
+   "title": "長尾 光輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=40134"
+  },
+  "30350": {
+   "title": "奥田 雄伍 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30350"
+  },
+  "51000346": {
+   "title": "蒔苗 勇人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000346"
+  },
+  "9259": {
+   "title": "エドワード・モリス 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9259"
+  },
+  "51000249": {
+   "title": "工藤 貴哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000249"
+  },
+  "40145": {
+   "title": "町井 丈太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=40145"
+  },
+  "15855": {
+   "title": "神里 和 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15855"
+  },
+  "52462": {
+   "title": "石橋 永遠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=52462"
+  },
+  "9262": {
+   "title": "大金 広弥 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9262"
+  },
+  "51000129": {
+   "title": "髙岡 圭汰朗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000129"
+  },
+  "51000322": {
+   "title": "山本 楓己 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000322"
+  },
+  "51000550": {
+   "title": "松村 竜吾 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000550"
+  },
+  "34615": {
+   "title": "宮本 龍世 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=34615"
+  },
+  "51000434": {
+   "title": "平 凌輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000434"
+  },
+  "55000957": {
+   "title": "クーリバリ セリンムルタラ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000957"
+  },
+  "51000663": {
+   "title": "オドゲレル トルガ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000663"
+  },
+  "51000274": {
+   "title": "大橋 大空 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000274"
+  },
+  "46082": {
+   "title": "シェイク・ケイタ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=46082"
+  },
+  "51000452": {
+   "title": "長谷川 比源 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000452"
+  },
+  "51000255": {
+   "title": "杉山 裕介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000255"
+  },
+  "36857": {
+   "title": "古賀 森人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=36857"
+  },
+  "5100000063": {
+   "title": "ザック・モーア 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000063"
+  },
+  "8645": {
+   "title": "五十嵐 圭 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8645"
+  },
+  "51000449": {
+   "title": "大森 尊之 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000449"
+  },
+  "51000664": {
+   "title": "アロン・レーガン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000664"
+  },
+  "8577": {
+   "title": "長谷川 智伸 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8577"
+  },
+  "9034": {
+   "title": "松井 啓十郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9034"
+  },
+  "30436": {
+   "title": "星野 曹樹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30436"
+  },
+  "30395": {
+   "title": "濱田 貴流馬 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30395"
+  },
+  "40140": {
+   "title": "堀内 星夜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=40140"
+  },
+  "20027": {
+   "title": "濵高 康明 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20027"
+  },
+  "42546": {
+   "title": "請田 祐哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=42546"
+  },
+  "51000596": {
+   "title": "金友 蓮 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000596"
+  },
+  "54145": {
+   "title": "清水 愛葉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=54145"
+  },
+  "11501": {
+   "title": "丸山 賢人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=11501"
+  },
+  "46249": {
+   "title": "酒井 達晶 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=46249"
+  },
+  "51000606": {
+   "title": "石川 響太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000606"
+  },
+  "15828": {
+   "title": "バローン マーテル 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15828"
+  },
+  "5100000090": {
+   "title": "マーク・バートン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000090"
+  },
+  "8615": {
+   "title": "村上 駿斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8615"
+  },
+  "36969": {
+   "title": "富田 一成 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=36969"
+  },
+  "51000367": {
+   "title": "松尾 河秋 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000367"
+  },
+  "51000217": {
+   "title": "満尾 竜次 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000217"
+  },
+  "51000471": {
+   "title": "内藤 英真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000471"
+  },
+  "40142": {
+   "title": "高橋 育実 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=40142"
+  },
+  "51000115": {
+   "title": "川島 聖那 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000115"
+  },
+  "51000439": {
+   "title": "塚本 智裕 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000439"
+  },
+  "5100000040": {
+   "title": "常田 耕平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000040"
+  },
+  "8839": {
+   "title": "岡本 飛竜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8839"
+  },
+  "8571": {
+   "title": "田渡 修人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8571"
+  },
+  "30468": {
+   "title": "西野 曜 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30468"
+  },
+  "10844": {
+   "title": "満田 丈太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10844"
+  },
+  "15835": {
+   "title": "卜部 兼慎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15835"
+  },
+  "8736": {
+   "title": "藤永 佳昭 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8736"
+  },
+  "32978": {
+   "title": "大矢 孝太朗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32978"
+  },
+  "52471": {
+   "title": "髙木 涼 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=52471"
+  },
+  "9246": {
+   "title": "髙橋 幸大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9246"
+  },
+  "20022": {
+   "title": "髙橋 浩平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20022"
+  },
+  "51000684": {
+   "title": "タイガ・フォースター 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000684"
+  },
+  "30470": {
+   "title": "増本 優太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30470"
+  },
+  "39518": {
+   "title": "山崎 玲緒 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=39518"
+  },
+  "10894": {
+   "title": "柏倉 哲平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10894"
+  },
+  "51000609": {
+   "title": "君座 武志 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000609"
+  },
+  "55000578": {
+   "title": "関谷 間 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=55000578"
+  },
+  "15816": {
+   "title": "林 翔太郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15816"
+  },
+  "37809": {
+   "title": "ジャンバルボ 海斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=37809"
+  },
+  "20018": {
+   "title": "増田 啓介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20018"
+  },
+  "51000174": {
+   "title": "サイモン 拓海 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000174"
+  },
+  "8587": {
+   "title": "橋本 竜馬 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8587"
+  },
+  "51000444": {
+   "title": "山本 愛哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000444"
+  },
+  "51000124": {
+   "title": "宇都宮 陸 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000124"
+  },
+  "49518": {
+   "title": "伊藤 治輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49518"
+  },
+  "8517": {
+   "title": "笹山 貴哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8517"
+  },
+  "51000167": {
+   "title": "鍵冨 太雅 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000167"
+  },
+  "30512": {
+   "title": "杉本 天昇 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30512"
+  },
+  "51000593": {
+   "title": "月岡 熙 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000593"
+  },
+  "51000443": {
+   "title": "平松 克樹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000443"
+  },
+  "51000592": {
+   "title": "針間 大知 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000592"
+  },
+  "51000501": {
+   "title": "マイロ・マーフィー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000501"
+  },
+  "51000423": {
+   "title": "イデムディア オサセレ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000423"
+  },
+  "51000570": {
+   "title": "植田 碧羽 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000570"
+  },
+  "51000477": {
+   "title": "坂口 竜也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000477"
+  },
+  "8585": {
+   "title": "小野 龍猛 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8585"
+  },
+  "10878": {
+   "title": "保岡 龍斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10878"
+  },
+  "8568": {
+   "title": "鈴木 達也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8568"
+  },
+  "8683": {
+   "title": "相馬 卓弥 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8683"
+  },
+  "51000484": {
+   "title": "間山 柊 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000484"
+  },
+  "51000483": {
+   "title": "佐野 悠星 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000483"
+  },
+  "51000377": {
+   "title": "中谷 衿夢 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000377"
+  },
+  "8558": {
+   "title": "本多 純平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8558"
+  },
+  "42537": {
+   "title": "元澤 誠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=42537"
+  },
+  "54143": {
+   "title": "内山 晴輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=54143"
+  },
+  "18167": {
+   "title": "笠井 康平 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=18167"
+  },
+  "49611": {
+   "title": "中村 瑞稀 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49611"
+  },
+  "8522": {
+   "title": "ソウ シェリフ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8522"
+  },
+  "15839": {
+   "title": "秋山 熙 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=15839"
+  },
+  "12613": {
+   "title": "フォファナ ママドゥ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12613"
+  },
+  "25272": {
+   "title": "若狭 功希 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=25272"
+  },
+  "51000549": {
+   "title": "横山 悠人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000549"
+  },
+  "42617": {
+   "title": "青山 晃也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=42617"
+  },
+  "54142": {
+   "title": "河野 圭佑 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=54142"
+  },
+  "32975": {
+   "title": "横川 俊樹 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=32975"
+  },
+  "25275": {
+   "title": "向井 祐介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=25275"
+  },
+  "30466": {
+   "title": "佐藤 誠人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30466"
+  },
+  "22403": {
+   "title": "塚本 雄貴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22403"
+  },
+  "20019": {
+   "title": "鶴田 美勇士 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20019"
+  },
+  "51000362": {
+   "title": "西田 公陽 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000362"
+  },
+  "20000": {
+   "title": "綱井 勇介 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20000"
+  },
+  "22491": {
+   "title": "森山 修斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=22491"
+  },
+  "9400": {
+   "title": "ファイ パプ月瑠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9400"
+  },
+  "49593": {
+   "title": "小林 巧 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=49593"
+  },
+  "9279": {
+   "title": "五十嵐 貴志 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9279"
+  },
+  "51000140": {
+   "title": "今林 萌 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000140"
+  },
+  "51000589": {
+   "title": "佐古 竜誠 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000589"
+  },
+  "51000231": {
+   "title": "高橋 克実 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000231"
+  },
+  "10818": {
+   "title": "高橋 耕陽 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10818"
+  },
+  "26876": {
+   "title": "青木 龍史 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=26876"
+  },
+  "54098": {
+   "title": "福田 健人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=54098"
+  },
+  "9218": {
+   "title": "兒玉 貴通 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9218"
+  },
+  "51000230": {
+   "title": "武内 理貴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000230"
+  },
+  "12454": {
+   "title": "田渡 凌 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=12454"
+  },
+  "8579": {
+   "title": "マイケル・パーカー 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8579"
+  },
+  "20003": {
+   "title": "玉木 祥護 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20003"
+  },
+  "20004": {
+   "title": "林 瑛司 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=20004"
+  },
+  "8599": {
+   "title": "俊野 佳彦 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8599"
+  },
+  "8595": {
+   "title": "加藤 寿一 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8595"
+  },
+  "8840": {
+   "title": "寒竹 隼人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8840"
+  },
+  "8510": {
+   "title": "西川 貴之 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8510"
+  },
+  "8462": {
+   "title": "小林 遥太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8462"
+  },
+  "51000448": {
+   "title": "野溝 利一 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000448"
+  },
+  "51000559": {
+   "title": "中谷 麻登 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000559"
+  },
+  "8488": {
+   "title": "谷口 光貴 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8488"
+  },
+  "30347": {
+   "title": "笹倉 怜寿 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30347"
+  },
+  "8722": {
+   "title": "石川 海斗 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8722"
+  },
+  "10263": {
+   "title": "澤邉 圭太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10263"
+  },
+  "51000320": {
+   "title": "ニモ 正義 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000320"
+  },
+  "30462": {
+   "title": "磯野 寛晃 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30462"
+  },
+  "5100000019": {
+   "title": "藤澤 尚之 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000019"
+  },
+  "30404": {
+   "title": "飴谷 由毅 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30404"
+  },
+  "51000450": {
+   "title": "保坂 晃毅 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000450"
+  },
+  "30405": {
+   "title": "モッチ ラミン 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30405"
+  },
+  "9399": {
+   "title": "山田 安斗夢 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9399"
+  },
+  "51000156": {
+   "title": "山本 翔太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000156"
+  },
+  "51000104": {
+   "title": "マシュー・アキノ 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000104"
+  },
+  "51000307": {
+   "title": "市川 真人 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000307"
+  },
+  "5100000044": {
+   "title": "遠藤 善 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000044"
+  },
+  "5100000010": {
+   "title": "藤本 巧太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=5100000010"
+  },
+  "51000436": {
+   "title": "佐藤 星来 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000436"
+  },
+  "30457": {
+   "title": "多田 武史 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30457"
+  },
+  "9402": {
+   "title": "藤田 浩司 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9402"
+  },
+  "8712": {
+   "title": "細谷 将司 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8712"
+  },
+  "8648": {
+   "title": "落合 知也 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=8648"
+  },
+  "52466": {
+   "title": "下地 秀一郎 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=52466"
+  },
+  "9234": {
+   "title": "伊藤 良太 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=9234"
+  },
+  "11482": {
+   "title": "大西 一輝 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=11482"
+  },
+  "30441": {
+   "title": "髙木 慎哉 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=30441"
+  },
+  "10892": {
+   "title": "中野 広大 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=10892"
+  },
+  "16023": {
+   "title": "中嶋 正尭 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=16023"
+  },
+  "34792": {
+   "title": "中村 瀬那 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=34792"
+  },
+  "7482": {
+   "title": "吉本 大心 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=7482"
+  },
+  "51000177": {
+   "title": "榎田 拓真 選手プロフィール",
+   "publisher": "B.LEAGUE",
+   "url": "https://www.bleague.jp/roster_detail/?PlayerID=51000177"
+  }
+ },
+ "new_persons": [],
+ "new_orgs": [],
+ "careers": [],
+ "corrections": [],
+ "person_facts": [
+  {
+   "person_id": "P000208",
+   "field": "name_en",
+   "value": "Shuto Ichiba",
+   "source": "51000446",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000121",
+   "field": "name_en",
+   "value": "Yu Kibayashi",
+   "source": "51000349",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000282",
+   "field": "name_en",
+   "value": "Yuta Osaki",
+   "source": "18429",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000106",
+   "field": "name_en",
+   "value": "Keisei Tominaga",
+   "source": "19755",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記（同一人物の確認：一覧上の氏名がMasterと一致。Masterの既存出典にPlayerIDの記録なし）"
+  },
+  {
+   "person_id": "P000181",
+   "field": "name_en",
+   "value": "Hiroto Kikuchi",
+   "source": "51000350",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000283",
+   "field": "name_en",
+   "value": "Ren Shimatani",
+   "source": "51000234",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000284",
+   "field": "name_en",
+   "value": "Kohei Sekino",
+   "source": "10850",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000286",
+   "field": "name_en",
+   "value": "Yuma Nishimura",
+   "source": "55000589",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000239",
+   "field": "name_en",
+   "value": "Masato Abe",
+   "source": "51000342",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000285",
+   "field": "name_en",
+   "value": "Teruchika Naito",
+   "source": "51000202",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000240",
+   "field": "name_en",
+   "value": "Kazuma Okajima",
+   "source": "51000133",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000092",
+   "field": "name_en",
+   "value": "Masaharu Kataoka",
+   "source": "8481",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000109",
+   "field": "name_en",
+   "value": "Avi Koki Schafer",
+   "source": "19956",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000111",
+   "field": "name_en",
+   "value": "Yusei Sugiura",
+   "source": "10820",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000241",
+   "field": "name_en",
+   "value": "Kosei Niinuma",
+   "source": "51000445",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000228",
+   "field": "name_en",
+   "value": "Seiya Funyu",
+   "source": "8737",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000242",
+   "field": "name_en",
+   "value": "Ryota Hanzawa",
+   "source": "15834",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000138",
+   "field": "name_en",
+   "value": "Yori Iwaya",
+   "source": "51000600",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000243",
+   "field": "name_en",
+   "value": "Shota Watanabe",
+   "source": "30526",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000244",
+   "field": "name_en",
+   "value": "Tsubasa Kurihara",
+   "source": "30397",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000204",
+   "field": "name_en",
+   "value": "Raita Akaho",
+   "source": "30465",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000570",
+   "field": "name_en",
+   "value": "Ryota Komatsu",
+   "source": "55000974",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000162",
+   "field": "name_en",
+   "value": "Naohide Hotta",
+   "source": "51000599",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000246",
+   "field": "name_en",
+   "value": "Troy Murphy Jr.",
+   "source": "51000180",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000245",
+   "field": "name_en",
+   "value": "Takuya Nakayama",
+   "source": "10848",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000095",
+   "field": "name_en",
+   "value": "Shigehiro Taguchi",
+   "source": "8468",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000247",
+   "field": "name_en",
+   "value": "Taiyo Motoda",
+   "source": "51000361",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000185",
+   "field": "name_en",
+   "value": "Kento Akama",
+   "source": "51000583",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000305",
+   "field": "name_en",
+   "value": "Genki Kojima",
+   "source": "8456",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000307",
+   "field": "name_en",
+   "value": "Noboru Hasegawa",
+   "source": "15829",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000306",
+   "field": "name_en",
+   "value": "Kohei Nakamura",
+   "source": "18845",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000188",
+   "field": "name_en",
+   "value": "Ru Jingaoka",
+   "source": "51000479",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000311",
+   "field": "name_en",
+   "value": "Hirotaka Yoshii",
+   "source": "20021",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000136",
+   "field": "name_en",
+   "value": "Hayate Arakawa",
+   "source": "30458",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000312",
+   "field": "name_en",
+   "value": "Hugh Watanabe",
+   "source": "5100000049",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000226",
+   "field": "name_en",
+   "value": "Kotaro Hisaoka",
+   "source": "18478",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000309",
+   "field": "name_en",
+   "value": "Kohei Fukuzawa",
+   "source": "9044",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000310",
+   "field": "name_en",
+   "value": "Reo Maeda",
+   "source": "30402",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000288",
+   "field": "name_en",
+   "value": "Sean Ichioka",
+   "source": "8597",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000289",
+   "field": "name_en",
+   "value": "Gavin Edwards",
+   "source": "8593",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000149",
+   "field": "name_en",
+   "value": "Atsuya Ogawa",
+   "source": "51000228",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000165",
+   "field": "name_en",
+   "value": "Shinji Takashima",
+   "source": "5100000036",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000135",
+   "field": "name_en",
+   "value": "Kosuke Takeuchi",
+   "source": "8726",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000206",
+   "field": "name_en",
+   "value": "Yusuke Endo",
+   "source": "8497",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000134",
+   "field": "name_en",
+   "value": "Kaisei Hoshikawa",
+   "source": "51000461",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000105",
+   "field": "name_en",
+   "value": "Yuta Tabuse",
+   "source": "8650",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記（同一人物の確認：一覧上の氏名がMasterと一致。Masterの既存出典にPlayerIDの記録なし）"
+  },
+  {
+   "person_id": "P000290",
+   "field": "name_en",
+   "value": "Hironori Watanabe",
+   "source": "8499",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000140",
+   "field": "name_en",
+   "value": "Kenny Asano",
+   "source": "51000232",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000219",
+   "field": "name_en",
+   "value": "Takuto Nakamura",
+   "source": "5100000023",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000097",
+   "field": "name_en",
+   "value": "Naoto Tsuji",
+   "source": "8487",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000182",
+   "field": "name_en",
+   "value": "Yuma Fujii",
+   "source": "8482",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000313",
+   "field": "name_en",
+   "value": "Keita Tsurumaki",
+   "source": "22405",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000142",
+   "field": "name_en",
+   "value": "Daichi Taniguchi",
+   "source": "8470",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000314",
+   "field": "name_en",
+   "value": "Koh Flippin",
+   "source": "22497",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000370",
+   "field": "name_en",
+   "value": "Luke Evans",
+   "source": "9418",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000369",
+   "field": "name_en",
+   "value": "Blake Aoki",
+   "source": "10885",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000098",
+   "field": "name_en",
+   "value": "Seiya Ando",
+   "source": "8467",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000315",
+   "field": "name_en",
+   "value": "Kazuki Hosokawa",
+   "source": "30519",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000371",
+   "field": "name_en",
+   "value": "Takaaki Kida",
+   "source": "15750",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000373",
+   "field": "name_en",
+   "value": "Kotetsu Kurokawa",
+   "source": "51000359",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000374",
+   "field": "name_en",
+   "value": "Kei Sugimoto",
+   "source": "8520",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000120",
+   "field": "name_en",
+   "value": "Leon Watanabe",
+   "source": "51000352",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000375",
+   "field": "name_en",
+   "value": "Tomoya Hasegawa",
+   "source": "8594",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000372",
+   "field": "name_en",
+   "value": "Naoya Kumagae",
+   "source": "8498",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000291",
+   "field": "name_en",
+   "value": "Gaku Arao",
+   "source": "8582",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000292",
+   "field": "name_en",
+   "value": "Nyika Williams",
+   "source": "9345",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000130",
+   "field": "name_en",
+   "value": "Bruce Kanno",
+   "source": "51000431",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000294",
+   "field": "name_en",
+   "value": "Takumi Sato",
+   "source": "51000383",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000295",
+   "field": "name_en",
+   "value": "Kai Sugawara",
+   "source": "51000345",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000293",
+   "field": "name_en",
+   "value": "Ren Kanechika",
+   "source": "51000267",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000158",
+   "field": "name_en",
+   "value": "Riku Segawa",
+   "source": "51000467",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000297",
+   "field": "name_en",
+   "value": "Shuta Hara",
+   "source": "8584",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000298",
+   "field": "name_en",
+   "value": "Kotaro Fukami",
+   "source": "51000564",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000296",
+   "field": "name_en",
+   "value": "Naoki Tashiro",
+   "source": "8656",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000091",
+   "field": "name_en",
+   "value": "Shuto Ando",
+   "source": "10815",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000103",
+   "field": "name_en",
+   "value": "Yuta Watanabe",
+   "source": "51000428",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記（同一人物の確認：一覧上の氏名がMasterと一致。Masterの既存出典にPlayerIDの記録なし）"
+  },
+  {
+   "person_id": "P000299",
+   "field": "name_en",
+   "value": "Ryo Iida",
+   "source": "15826",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000301",
+   "field": "name_en",
+   "value": "Taiki Osakabe",
+   "source": "30348",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000300",
+   "field": "name_en",
+   "value": "Sota Okura",
+   "source": "30351",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000302",
+   "field": "name_en",
+   "value": "Kai Toews",
+   "source": "30438",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000303",
+   "field": "name_en",
+   "value": "Zack Baranski",
+   "source": "9031",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000210",
+   "field": "name_en",
+   "value": "Hiromu Nakamura",
+   "source": "30349",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000191",
+   "field": "name_en",
+   "value": "Gen Hiraiwa",
+   "source": "15838",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000304",
+   "field": "name_en",
+   "value": "Ryan Rossiter",
+   "source": "8649",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000338",
+   "field": "name_en",
+   "value": "Keitaro Ohba",
+   "source": "51000311",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000339",
+   "field": "name_en",
+   "value": "Toyoshige Kano",
+   "source": "42616",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000087",
+   "field": "name_en",
+   "value": "Daiki Tanaka",
+   "source": "9037",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000340",
+   "field": "name_en",
+   "value": "Yuya Nagayoshi",
+   "source": "8493",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000344",
+   "field": "name_en",
+   "value": "Sogo Yamagiwa",
+   "source": "49493",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000345",
+   "field": "name_en",
+   "value": "Ibu Yamazaki",
+   "source": "11309",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000341",
+   "field": "name_en",
+   "value": "Reiya Nozaki",
+   "source": "15853",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000343",
+   "field": "name_en",
+   "value": "Josh Hawkinson",
+   "source": "12598",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000342",
+   "field": "name_en",
+   "value": "Leo Vendrame",
+   "source": "8447",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000346",
+   "field": "name_en",
+   "value": "Hirohide Araya",
+   "source": "5100000012",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000348",
+   "field": "name_en",
+   "value": "Alex Kirk",
+   "source": "12582",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000349",
+   "field": "name_en",
+   "value": "Shota Tsuyama",
+   "source": "8654",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000347",
+   "field": "name_en",
+   "value": "Roy Hideki Igwe",
+   "source": "51000491",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000176",
+   "field": "name_en",
+   "value": "Ryusei Shinoyama",
+   "source": "8484",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000166",
+   "field": "name_en",
+   "value": "Kengo Nomoto",
+   "source": "8486",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000350",
+   "field": "name_en",
+   "value": "Takumi Hasegawa",
+   "source": "8492",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000160",
+   "field": "name_en",
+   "value": "Reoto Yonesu",
+   "source": "5100000022",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000169",
+   "field": "name_en",
+   "value": "Shun Matsuyama",
+   "source": "20023",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000131",
+   "field": "name_en",
+   "value": "Jaheru Ryuto Yamauchi",
+   "source": "51000441",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000248",
+   "field": "name_en",
+   "value": "Gakuto Arai",
+   "source": "51000591",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000249",
+   "field": "name_en",
+   "value": "Kenta Whitaker",
+   "source": "30443",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000250",
+   "field": "name_en",
+   "value": "Kai King",
+   "source": "5100000024",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000251",
+   "field": "name_en",
+   "value": "Takuma Sato",
+   "source": "15811",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000197",
+   "field": "name_en",
+   "value": "Koya Sudo",
+   "source": "32956",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000252",
+   "field": "name_en",
+   "value": "Kanta Maeno",
+   "source": "51000468",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000139",
+   "field": "name_en",
+   "value": "Kenta Morii",
+   "source": "10851",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000253",
+   "field": "name_en",
+   "value": "Kyle Richardson",
+   "source": "9435",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000255",
+   "field": "name_en",
+   "value": "Daichi Kuzuhara",
+   "source": "15818",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000214",
+   "field": "name_en",
+   "value": "Naoki Uto",
+   "source": "8503",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000116",
+   "field": "name_en",
+   "value": "Towa Izumi",
+   "source": "51000464",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000254",
+   "field": "name_en",
+   "value": "Yuzo Okada",
+   "source": "15752",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000200",
+   "field": "name_en",
+   "value": "Kazuki Miyamoto",
+   "source": "51000118",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000256",
+   "field": "name_en",
+   "value": "Faraz Rashid",
+   "source": "30521",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000234",
+   "field": "name_en",
+   "value": "Kaito Morizane",
+   "source": "19998",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000099",
+   "field": "name_en",
+   "value": "Takeshi Mito",
+   "source": "8501",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000154",
+   "field": "name_en",
+   "value": "Akitoshi Oguri",
+   "source": "42539",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000207",
+   "field": "name_en",
+   "value": "Haruaki Tanaka",
+   "source": "51000435",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000203",
+   "field": "name_en",
+   "value": "Yoshiyuki Nozaki",
+   "source": "51000136",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000320",
+   "field": "name_en",
+   "value": "Eliet Donley",
+   "source": "32984",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000114",
+   "field": "name_en",
+   "value": "Daiki Tsuchiya",
+   "source": "5100000017",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000318",
+   "field": "name_en",
+   "value": "Susumu Tokairin",
+   "source": "51000239",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000319",
+   "field": "name_en",
+   "value": "Marcus Kaishu Tobin",
+   "source": "5100000087",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000316",
+   "field": "name_en",
+   "value": "Daniel Kato",
+   "source": "51000518",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000317",
+   "field": "name_en",
+   "value": "Tshilidzi Kawata",
+   "source": "9369",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000148",
+   "field": "name_en",
+   "value": "Kazuma Tsuya",
+   "source": "5100000011",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000108",
+   "field": "name_en",
+   "value": "Ryusei Sasaki",
+   "source": "20037",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000258",
+   "field": "name_en",
+   "value": "Noriyuki Sugasawa",
+   "source": "8469",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000257",
+   "field": "name_en",
+   "value": "Hideya Asai",
+   "source": "51000481",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000212",
+   "field": "name_en",
+   "value": "Kyosuke Hoshino",
+   "source": "51000108",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000100",
+   "field": "name_en",
+   "value": "Takatoshi Furukawa",
+   "source": "8500",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000260",
+   "field": "name_en",
+   "value": "Josh Harrellson",
+   "source": "9063",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000122",
+   "field": "name_en",
+   "value": "Hayato Wakugawa",
+   "source": "51000236",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000198",
+   "field": "name_en",
+   "value": "Tatsumi Yu",
+   "source": "5100000025",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000259",
+   "field": "name_en",
+   "value": "Dai Nemoto",
+   "source": "51000454",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000171",
+   "field": "name_en",
+   "value": "Hikaru Futagami",
+   "source": "51000112",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000352",
+   "field": "name_en",
+   "value": "Yoshiaki Kubota",
+   "source": "30469",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000353",
+   "field": "name_en",
+   "value": "Thomas Kennedy",
+   "source": "8608",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000355",
+   "field": "name_en",
+   "value": "Yutaro Suda",
+   "source": "8494",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000351",
+   "field": "name_en",
+   "value": "Kosuke Ishii",
+   "source": "8583",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000354",
+   "field": "name_en",
+   "value": "Akihisa Kosaka",
+   "source": "9283",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000089",
+   "field": "name_en",
+   "value": "Yudai Nishida",
+   "source": "30403",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000356",
+   "field": "name_en",
+   "value": "Satoshi Nagano",
+   "source": "18399",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000357",
+   "field": "name_en",
+   "value": "Keita Imamura",
+   "source": "14302",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000211",
+   "field": "name_en",
+   "value": "Hiyuu Ozawa",
+   "source": "51000498",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000184",
+   "field": "name_en",
+   "value": "Ryogo Sumino",
+   "source": "32982",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000201",
+   "field": "name_en",
+   "value": "Shogo Taira",
+   "source": "30459",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000358",
+   "field": "name_en",
+   "value": "Taketo Kato",
+   "source": "51000119",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000215",
+   "field": "name_en",
+   "value": "Tenketsu Harimoto",
+   "source": "8738",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000360",
+   "field": "name_en",
+   "value": "Jake koki Holtz",
+   "source": "51000499",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000361",
+   "field": "name_en",
+   "value": "Isaiah Murphy",
+   "source": "32995",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000359",
+   "field": "name_en",
+   "value": "Taito Nakahigashi",
+   "source": "8516",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000261",
+   "field": "name_en",
+   "value": "Shintaro Ehara",
+   "source": "51000343",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000125",
+   "field": "name_en",
+   "value": "Junpei Iwashita",
+   "source": "51000586",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000362",
+   "field": "name_en",
+   "value": "Eita Wakano",
+   "source": "51000305",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000174",
+   "field": "name_en",
+   "value": "Taiki Okada",
+   "source": "22401",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000262",
+   "field": "name_en",
+   "value": "Hayate Komasawa",
+   "source": "5100000032",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000263",
+   "field": "name_en",
+   "value": "Taiga Jack Komamizu",
+   "source": "32983",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000264",
+   "field": "name_en",
+   "value": "Tyrell Taku Sudo",
+   "source": "51000502",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000101",
+   "field": "name_en",
+   "value": "Takanori Tahara",
+   "source": "10297",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000115",
+   "field": "name_en",
+   "value": "Yosei Nishida",
+   "source": "51000470",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000265",
+   "field": "name_en",
+   "value": "Daichi Nomoto",
+   "source": "5100000028",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000088",
+   "field": "name_en",
+   "value": "Ryuichi Kishimoto",
+   "source": "8655",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000266",
+   "field": "name_en",
+   "value": "Leon Shibuta",
+   "source": "10832",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000163",
+   "field": "name_en",
+   "value": "Shuma Nishibe",
+   "source": "51000585",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000164",
+   "field": "name_en",
+   "value": "Hayato Kawashima",
+   "source": "8727",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000267",
+   "field": "name_en",
+   "value": "Mone Alex Hall",
+   "source": "26926",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000268",
+   "field": "name_en",
+   "value": "Satoru Maeta",
+   "source": "20024",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000269",
+   "field": "name_en",
+   "value": "Kanta Mizuno",
+   "source": "10852",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000113",
+   "field": "name_en",
+   "value": "Yasunori Aoki",
+   "source": "15817",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000568",
+   "field": "name_en",
+   "value": "Takeshi Sato",
+   "source": "51000365",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000199",
+   "field": "name_en",
+   "value": "Yoshiya Uematsu",
+   "source": "5100000030",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000270",
+   "field": "name_en",
+   "value": "Makoto Kinoshita",
+   "source": "20034",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000213",
+   "field": "name_en",
+   "value": "Seiga Sakamoto",
+   "source": "5100000027",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000096",
+   "field": "name_en",
+   "value": "Joji Takeuchi",
+   "source": "9033",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000271",
+   "field": "name_en",
+   "value": "Rei Goda",
+   "source": "8690",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000272",
+   "field": "name_en",
+   "value": "Kaisei Takahashi",
+   "source": "51000188",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000273",
+   "field": "name_en",
+   "value": "Takuya Hashimoto",
+   "source": "8701",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000274",
+   "field": "name_en",
+   "value": "Hayato Maki",
+   "source": "30398",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000322",
+   "field": "name_en",
+   "value": "Keigo Kimura",
+   "source": "5100000066",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000321",
+   "field": "name_en",
+   "value": "Ryuya Kaneda",
+   "source": "5100000031",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000325",
+   "field": "name_en",
+   "value": "Michiya Nakajima",
+   "source": "51000547",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000326",
+   "field": "name_en",
+   "value": "Tsukasa Nakano",
+   "source": "20031",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000323",
+   "field": "name_en",
+   "value": "Shuto Terazono",
+   "source": "18148",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000324",
+   "field": "name_en",
+   "value": "Noriaki Dohara",
+   "source": "8538",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000133",
+   "field": "name_en",
+   "value": "Allen Hachimura",
+   "source": "5100000016",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記（同一人物の確認：一覧上の氏名がMasterと一致。Masterの既存出典にPlayerIDの記録なし）"
+  },
+  {
+   "person_id": "P000327",
+   "field": "name_en",
+   "value": "Hayato Yamaguchi",
+   "source": "30437",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000328",
+   "field": "name_en",
+   "value": "Shota Arai",
+   "source": "51000603",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000569",
+   "field": "name_en",
+   "value": "Seishin Yokochi",
+   "source": "51000132",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000330",
+   "field": "name_en",
+   "value": "Hiromu Kitagawa",
+   "source": "8532",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000329",
+   "field": "name_en",
+   "value": "Soichiro Inoue",
+   "source": "15815",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000161",
+   "field": "name_en",
+   "value": "Yuta Okada",
+   "source": "18475",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000141",
+   "field": "name_en",
+   "value": "Fumiya Iio",
+   "source": "51000113",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000222",
+   "field": "name_en",
+   "value": "Shunsuke Ueda",
+   "source": "51000137",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000153",
+   "field": "name_en",
+   "value": "Anthony Sho Sukegawa",
+   "source": "51000458",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000331",
+   "field": "name_en",
+   "value": "Taichi Nakamura",
+   "source": "10821",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000128",
+   "field": "name_en",
+   "value": "Yuto Nohmi",
+   "source": "30399",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000102",
+   "field": "name_en",
+   "value": "Ryosuke Shirahama",
+   "source": "8734",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000147",
+   "field": "name_en",
+   "value": "Tatsuya Ito",
+   "source": "10849",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000143",
+   "field": "name_en",
+   "value": "Ryo Terashima",
+   "source": "30400",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000209",
+   "field": "name_en",
+   "value": "Toshiki Kamisawa",
+   "source": "5100000039",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000332",
+   "field": "name_en",
+   "value": "Kevin Hareyama",
+   "source": "8483",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000333",
+   "field": "name_en",
+   "value": "Haruya Matsuno",
+   "source": "51000563",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000335",
+   "field": "name_en",
+   "value": "Nick Mayo",
+   "source": "26890",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000334",
+   "field": "name_en",
+   "value": "Keijiro Mitani",
+   "source": "30396",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000205",
+   "field": "name_en",
+   "value": "Ryo Abe",
+   "source": "15756",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000363",
+   "field": "name_en",
+   "value": "Ryota Inoue",
+   "source": "26888",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000229",
+   "field": "name_en",
+   "value": "Ryu Watanabe",
+   "source": "5100000035",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000337",
+   "field": "name_en",
+   "value": "Kaine Roberts",
+   "source": "33040",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000336",
+   "field": "name_en",
+   "value": "Ryo Yamazaki",
+   "source": "8504",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000365",
+   "field": "name_en",
+   "value": "Taiki Sumida",
+   "source": "51000111",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000367",
+   "field": "name_en",
+   "value": "Toshiki Tomiyama",
+   "source": "51000440",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000090",
+   "field": "name_en",
+   "value": "Kosuke Kanamaru",
+   "source": "8592",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000364",
+   "field": "name_en",
+   "value": "Atsuki Kishida",
+   "source": "18461",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000366",
+   "field": "name_en",
+   "value": "Futa Takedomi",
+   "source": "51000604",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000368",
+   "field": "name_en",
+   "value": "Kosuke Hashimoto",
+   "source": "8496",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000378",
+   "field": "name_en",
+   "value": "Lucas Tanaka",
+   "source": "51000590",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000379",
+   "field": "name_en",
+   "value": "Alistair Tokio Tsuchiya",
+   "source": "10258",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000380",
+   "field": "name_en",
+   "value": "Io Nagano",
+   "source": "51000344",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000377",
+   "field": "name_en",
+   "value": "Kanji Takahira",
+   "source": "12605",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000225",
+   "field": "name_en",
+   "value": "Ko Kumagai",
+   "source": "19957",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000107",
+   "field": "name_en",
+   "value": "Yudai Baba",
+   "source": "12577",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000381",
+   "field": "name_en",
+   "value": "Masaaki Morikawa",
+   "source": "9405",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000094",
+   "field": "name_en",
+   "value": "Kenshin Hoshikawa",
+   "source": "5100000021",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000170",
+   "field": "name_en",
+   "value": "Kenji leon Matsumoto",
+   "source": "10893",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000277",
+   "field": "name_en",
+   "value": "Koya Kawamata",
+   "source": "5100000015",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000279",
+   "field": "name_en",
+   "value": "Ryo Sadohara",
+   "source": "5100000014",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000195",
+   "field": "name_en",
+   "value": "Koya Kobari",
+   "source": "51000252",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000278",
+   "field": "name_en",
+   "value": "Ryunosuke Satori",
+   "source": "55000567",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000275",
+   "field": "name_en",
+   "value": "Sota Oura",
+   "source": "30513",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000276",
+   "field": "name_en",
+   "value": "Shota Onodera",
+   "source": "8756",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000280",
+   "field": "name_en",
+   "value": "Morihisa Yamauchi",
+   "source": "8658",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000281",
+   "field": "name_en",
+   "value": "Masahiro Waki",
+   "source": "51000116",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000382",
+   "field": "name_en",
+   "value": "Keisuke Aita",
+   "source": "10824",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000126",
+   "field": "name_en",
+   "value": "Shugo Asai",
+   "source": "51000235",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000093",
+   "field": "name_en",
+   "value": "Yoshiyuki Matsuwaki",
+   "source": "30434",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000384",
+   "field": "name_en",
+   "value": "Daishin Ogawa",
+   "source": "51000614",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000386",
+   "field": "name_en",
+   "value": "Daisuke Sato",
+   "source": "51000253",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000173",
+   "field": "name_en",
+   "value": "Kyonosuke Terashima",
+   "source": "32985",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000383",
+   "field": "name_en",
+   "value": "Masahiro Okabe",
+   "source": "51000388",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000385",
+   "field": "name_en",
+   "value": "Takahiro Komuro",
+   "source": "51000109",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000387",
+   "field": "name_en",
+   "value": "Masaya Takahashi",
+   "source": "51000613",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000388",
+   "field": "name_en",
+   "value": "Ryusei Nabeta",
+   "source": "51000375",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000218",
+   "field": "name_en",
+   "value": "Weijia Wang",
+   "source": "5100000041",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000390",
+   "field": "name_en",
+   "value": "Hiroki Usui",
+   "source": "18170",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000392",
+   "field": "name_en",
+   "value": "Ryosuke Saeki",
+   "source": "51000594",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000389",
+   "field": "name_en",
+   "value": "Harumichi Ishikawa",
+   "source": "39533",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000391",
+   "field": "name_en",
+   "value": "Shohei Goto",
+   "source": "9264",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000155",
+   "field": "name_en",
+   "value": "Shutatsu Taira",
+   "source": "55000079",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000393",
+   "field": "name_en",
+   "value": "Kokoro Sekiya",
+   "source": "51000330",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000395",
+   "field": "name_en",
+   "value": "Rin Yamazaki",
+   "source": "51000190",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000227",
+   "field": "name_en",
+   "value": "Kentaro Hisaoka",
+   "source": "34704",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000172",
+   "field": "name_en",
+   "value": "Jazz Nakamura",
+   "source": "30510",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000394",
+   "field": "name_en",
+   "value": "Keijiro Monma",
+   "source": "10877",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000396",
+   "field": "name_en",
+   "value": "Ryusei Abe",
+   "source": "51000097",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000398",
+   "field": "name_en",
+   "value": "Kouei Omori",
+   "source": "55000162",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000397",
+   "field": "name_en",
+   "value": "Takaya Iju",
+   "source": "18174",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000129",
+   "field": "name_en",
+   "value": "Taisei Shirato",
+   "source": "15832",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000399",
+   "field": "name_en",
+   "value": "Aoi Higuchi",
+   "source": "46255",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000123",
+   "field": "name_en",
+   "value": "Shuki Nakata",
+   "source": "51000246",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000401",
+   "field": "name_en",
+   "value": "Shinya Murakami",
+   "source": "8674",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000400",
+   "field": "name_en",
+   "value": "Shoichi Hirose",
+   "source": "49519",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000190",
+   "field": "name_en",
+   "value": "Toi Jingaoka",
+   "source": "51000373",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000179",
+   "field": "name_en",
+   "value": "Shoya Ogawa",
+   "source": "49607",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000404",
+   "field": "name_en",
+   "value": "Aki Chambers",
+   "source": "8448",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000403",
+   "field": "name_en",
+   "value": "Keita Shinkawa",
+   "source": "15824",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000405",
+   "field": "name_en",
+   "value": "Takumi Masuko",
+   "source": "51000233",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000402",
+   "field": "name_en",
+   "value": "Yuuki Okubo",
+   "source": "51000507",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000406",
+   "field": "name_en",
+   "value": "Yuji Morita",
+   "source": "33026",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000410",
+   "field": "name_en",
+   "value": "Yuichi Ikeda",
+   "source": "5100000006",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000408",
+   "field": "name_en",
+   "value": "Koki sky Wiley",
+   "source": "51000275",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000407",
+   "field": "name_en",
+   "value": "Java Eo Yoneyama",
+   "source": "51000251",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000409",
+   "field": "name_en",
+   "value": "Shota Watanabe",
+   "source": "8552",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000146",
+   "field": "name_en",
+   "value": "Takeru Oba",
+   "source": "30401",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000415",
+   "field": "name_en",
+   "value": "Muusa Dama",
+   "source": "27048",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000414",
+   "field": "name_en",
+   "value": "Teru Sugawara",
+   "source": "32953",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000196",
+   "field": "name_en",
+   "value": "Shuhei Kitagawa",
+   "source": "8657",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000411",
+   "field": "name_en",
+   "value": "Yuya Kamata",
+   "source": "8489",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000413",
+   "field": "name_en",
+   "value": "Joseph Diawara",
+   "source": "30463",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000412",
+   "field": "name_en",
+   "value": "Kaito Shike",
+   "source": "51000285",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000416",
+   "field": "name_en",
+   "value": "Kazuya Mitsui",
+   "source": "10842",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000202",
+   "field": "name_en",
+   "value": "Masaya Komaki",
+   "source": "12500",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000419",
+   "field": "name_en",
+   "value": "Seiya Konishi",
+   "source": "51000117",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000159",
+   "field": "name_en",
+   "value": "Haruki Hori",
+   "source": "51000588",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000418",
+   "field": "name_en",
+   "value": "Louis Kurihara",
+   "source": "18428",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000417",
+   "field": "name_en",
+   "value": "Ryohei Kawabe",
+   "source": "10880",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000127",
+   "field": "name_en",
+   "value": "Hikaru Shimazaki",
+   "source": "34423",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000168",
+   "field": "name_en",
+   "value": "Asahi Tajima",
+   "source": "8507",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000421",
+   "field": "name_en",
+   "value": "Ren Nagashima",
+   "source": "22395",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000422",
+   "field": "name_en",
+   "value": "Ken Pogue",
+   "source": "49520",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000420",
+   "field": "name_en",
+   "value": "Yusuke Suzuki",
+   "source": "30522",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000424",
+   "field": "name_en",
+   "value": "Ren Kawashima",
+   "source": "40138",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000565",
+   "field": "name_en",
+   "value": "Sota Miyanaga",
+   "source": "51000720",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000425",
+   "field": "name_en",
+   "value": "Kedrick Stockman Jr.",
+   "source": "33083",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000423",
+   "field": "name_en",
+   "value": "Yuta Matsushita",
+   "source": "51000123",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000426",
+   "field": "name_en",
+   "value": "Dan Taguchi",
+   "source": "9365",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000429",
+   "field": "name_en",
+   "value": "Hiroki Higashi",
+   "source": "15841",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000430",
+   "field": "name_en",
+   "value": "Wesley Furukawa",
+   "source": "39442",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000231",
+   "field": "name_en",
+   "value": "Busana Glorida Bula",
+   "source": "39532",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000427",
+   "field": "name_en",
+   "value": "Konosuke Tanaka",
+   "source": "18412",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000428",
+   "field": "name_en",
+   "value": "Shinnosuke Tokugawa",
+   "source": "8666",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000431",
+   "field": "name_en",
+   "value": "Yuma Ishibashi",
+   "source": "51000122",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000287",
+   "field": "name_en",
+   "value": "Yudai Ishikawa",
+   "source": "51000425",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000434",
+   "field": "name_en",
+   "value": "Hironao Kinoshita",
+   "source": "49610",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000432",
+   "field": "name_en",
+   "value": "Kazuma Kanemoto",
+   "source": "51000221",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000433",
+   "field": "name_en",
+   "value": "Shuto Kishinaga",
+   "source": "51000243",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000436",
+   "field": "name_en",
+   "value": "Haruta Tanaka",
+   "source": "49613",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000439",
+   "field": "name_en",
+   "value": "Yuto Imanishi",
+   "source": "51000222",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000440",
+   "field": "name_en",
+   "value": "Junki Uera",
+   "source": "30444",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000435",
+   "field": "name_en",
+   "value": "EthanRyuEi Jew",
+   "source": "47100",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000438",
+   "field": "name_en",
+   "value": "Kentaro Yoshida",
+   "source": "22393",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000437",
+   "field": "name_en",
+   "value": "HarrisJionUche Fukushima",
+   "source": "51000548",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000442",
+   "field": "name_en",
+   "value": "Taichi Kodama",
+   "source": "51000323",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000444",
+   "field": "name_en",
+   "value": "Yuma Noguchi",
+   "source": "51000364",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000167",
+   "field": "name_en",
+   "value": "Shota Osaki",
+   "source": "30516",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000443",
+   "field": "name_en",
+   "value": "Mitsuki Nagao",
+   "source": "40134",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000441",
+   "field": "name_en",
+   "value": "Yugo Okuda",
+   "source": "30350",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000445",
+   "field": "name_en",
+   "value": "Yuto Makanae",
+   "source": "51000346",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000447",
+   "field": "name_en",
+   "value": "Edward Morris",
+   "source": "9259",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000450",
+   "field": "name_en",
+   "value": "Takaya Kudo",
+   "source": "51000249",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000446",
+   "field": "name_en",
+   "value": "Johta Machii",
+   "source": "40145",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000449",
+   "field": "name_en",
+   "value": "Nagomu Kamizato",
+   "source": "15855",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000180",
+   "field": "name_en",
+   "value": "Towa Ishibashi",
+   "source": "52462",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000448",
+   "field": "name_en",
+   "value": "Hiroya Ogane",
+   "source": "9262",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000221",
+   "field": "name_en",
+   "value": "Keitaro Takaoka",
+   "source": "51000129",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000453",
+   "field": "name_en",
+   "value": "Fuki Yamamoto",
+   "source": "51000322",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000186",
+   "field": "name_en",
+   "value": "Ryugo Matsumura",
+   "source": "51000550",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000452",
+   "field": "name_en",
+   "value": "Ryusei Miyamoto",
+   "source": "34615",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000451",
+   "field": "name_en",
+   "value": "Ryoki Taira",
+   "source": "51000434",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000454",
+   "field": "name_en",
+   "value": "Serignemourtalla Coulibaly",
+   "source": "55000957",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000194",
+   "field": "name_en",
+   "value": "Tulga Odgerel",
+   "source": "51000663",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000145",
+   "field": "name_en",
+   "value": "Hirotaka Ohashi",
+   "source": "51000274",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000455",
+   "field": "name_en",
+   "value": "Cheick Keita",
+   "source": "46082",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000458",
+   "field": "name_en",
+   "value": "Higen Hasegawa",
+   "source": "51000452",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000457",
+   "field": "name_en",
+   "value": "Yusuke Sugiyama",
+   "source": "51000255",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000456",
+   "field": "name_en",
+   "value": "Morito Koga",
+   "source": "36857",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000459",
+   "field": "name_en",
+   "value": "Zack Moore",
+   "source": "5100000063",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000461",
+   "field": "name_en",
+   "value": "Kei Igarashi",
+   "source": "8645",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000462",
+   "field": "name_en",
+   "value": "Takayuki Omori",
+   "source": "51000449",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000460",
+   "field": "name_en",
+   "value": "Aaron Ragen",
+   "source": "51000664",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000463",
+   "field": "name_en",
+   "value": "Tomonobu Hasegawa",
+   "source": "8577",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000468",
+   "field": "name_en",
+   "value": "Keijuro Matsui",
+   "source": "9034",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000466",
+   "field": "name_en",
+   "value": "Tomoki Hoshino",
+   "source": "30436",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000465",
+   "field": "name_en",
+   "value": "Aruma Hamada",
+   "source": "30395",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000467",
+   "field": "name_en",
+   "value": "Seiya Horiuchi",
+   "source": "40140",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000464",
+   "field": "name_en",
+   "value": "Yasuaki Hamataka",
+   "source": "20027",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000471",
+   "field": "name_en",
+   "value": "Yuya Ukeda",
+   "source": "42546",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000237",
+   "field": "name_en",
+   "value": "Ren Kanetomo",
+   "source": "51000596",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000473",
+   "field": "name_en",
+   "value": "Aiha Shimizu",
+   "source": "54145",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000469",
+   "field": "name_en",
+   "value": "Kento Maruyama",
+   "source": "11501",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000472",
+   "field": "name_en",
+   "value": "Tatsuaki Sakai",
+   "source": "46249",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000470",
+   "field": "name_en",
+   "value": "Shotaro Ishikawa",
+   "source": "51000606",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000474",
+   "field": "name_en",
+   "value": "Martel Barone",
+   "source": "15828",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000475",
+   "field": "name_en",
+   "value": "Mark Burton",
+   "source": "5100000090",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000477",
+   "field": "name_en",
+   "value": "Shunto Murakami",
+   "source": "8615",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000183",
+   "field": "name_en",
+   "value": "Issei Tomida",
+   "source": "36969",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000220",
+   "field": "name_en",
+   "value": "Gashu Matsuo",
+   "source": "51000367",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000476",
+   "field": "name_en",
+   "value": "Ryuji Mitsuo",
+   "source": "51000217",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000482",
+   "field": "name_en",
+   "value": "Eishin Naito",
+   "source": "51000471",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000479",
+   "field": "name_en",
+   "value": "Ikumi Takahashi",
+   "source": "40142",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000478",
+   "field": "name_en",
+   "value": "Sena Kawashima",
+   "source": "51000115",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000481",
+   "field": "name_en",
+   "value": "Tomohiro Tsukamoto",
+   "source": "51000439",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000230",
+   "field": "name_en",
+   "value": "Kohei Tsuneta",
+   "source": "5100000040",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000566",
+   "field": "name_en",
+   "value": "Hiryu Okamoto",
+   "source": "8839",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000480",
+   "field": "name_en",
+   "value": "Shuto Tawatari",
+   "source": "8571",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000238",
+   "field": "name_en",
+   "value": "Yo Nishino",
+   "source": "30468",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000483",
+   "field": "name_en",
+   "value": "Jotaro Mitsuda",
+   "source": "10844",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000484",
+   "field": "name_en",
+   "value": "Kenshin Urabe",
+   "source": "15835",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000175",
+   "field": "name_en",
+   "value": "Yoshiaki Fujinaga",
+   "source": "8736",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000485",
+   "field": "name_en",
+   "value": "Kotaro Ohya",
+   "source": "32978",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000486",
+   "field": "name_en",
+   "value": "Ryo Takagi",
+   "source": "52471",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000487",
+   "field": "name_en",
+   "value": "Kodai Takahashi",
+   "source": "9246",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000488",
+   "field": "name_en",
+   "value": "Kohei Takahashi",
+   "source": "20022",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000489",
+   "field": "name_en",
+   "value": "Taiga Forster",
+   "source": "51000684",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000490",
+   "field": "name_en",
+   "value": "Yuta Masumoto",
+   "source": "30470",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000491",
+   "field": "name_en",
+   "value": "Reo Yamazaki",
+   "source": "39518",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000492",
+   "field": "name_en",
+   "value": "Teppei Kashiwagura",
+   "source": "10894",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000493",
+   "field": "name_en",
+   "value": "Takeshi Kunza",
+   "source": "51000609",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000496",
+   "field": "name_en",
+   "value": "Aima Sekiya",
+   "source": "55000578",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000498",
+   "field": "name_en",
+   "value": "Shotaro Hayashi",
+   "source": "15816",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000495",
+   "field": "name_en",
+   "value": "Kaito Giambalvo",
+   "source": "37809",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000499",
+   "field": "name_en",
+   "value": "Keisuke Masuda",
+   "source": "20018",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000494",
+   "field": "name_en",
+   "value": "Takumi Simon",
+   "source": "51000174",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000497",
+   "field": "name_en",
+   "value": "Ryoma Hashimoto",
+   "source": "8587",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000500",
+   "field": "name_en",
+   "value": "Manaya Yamamoto",
+   "source": "51000444",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000236",
+   "field": "name_en",
+   "value": "Riku Utsunomiya",
+   "source": "51000124",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000193",
+   "field": "name_en",
+   "value": "Haruki Ito",
+   "source": "49518",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000137",
+   "field": "name_en",
+   "value": "Takaya Sasayama",
+   "source": "8517",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000501",
+   "field": "name_en",
+   "value": "Taiga Kagitomi",
+   "source": "51000167",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000502",
+   "field": "name_en",
+   "value": "Tensho Sugimoto",
+   "source": "30512",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000503",
+   "field": "name_en",
+   "value": "Hikaru Tsukioka",
+   "source": "51000593",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000124",
+   "field": "name_en",
+   "value": "Katsuki Hiramatsu",
+   "source": "51000443",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000118",
+   "field": "name_en",
+   "value": "Daichi Harima",
+   "source": "51000592",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000504",
+   "field": "name_en",
+   "value": "Mylo Murphy",
+   "source": "51000501",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000506",
+   "field": "name_en",
+   "value": "Osasere Idemudia",
+   "source": "51000423",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000507",
+   "field": "name_en",
+   "value": "Aoba Ueda",
+   "source": "51000570",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000509",
+   "field": "name_en",
+   "value": "Tatsuya Sakaguchi",
+   "source": "51000477",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000508",
+   "field": "name_en",
+   "value": "Ryumo Ono",
+   "source": "8585",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000505",
+   "field": "name_en",
+   "value": "Ryuto Yasuoka",
+   "source": "10878",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000510",
+   "field": "name_en",
+   "value": "Tatsuya Suzuki",
+   "source": "8568",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000511",
+   "field": "name_en",
+   "value": "Takuya Soma",
+   "source": "8683",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000117",
+   "field": "name_en",
+   "value": "Shu Mayama",
+   "source": "51000484",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000564",
+   "field": "name_en",
+   "value": "Yusei Sano",
+   "source": "51000483",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000512",
+   "field": "name_en",
+   "value": "Erimu Nakatani",
+   "source": "51000377",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000513",
+   "field": "name_en",
+   "value": "Jumpei Honda",
+   "source": "8558",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000514",
+   "field": "name_en",
+   "value": "Sei Motozawa",
+   "source": "42537",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000516",
+   "field": "name_en",
+   "value": "Haruki Uchiyama",
+   "source": "54143",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000223",
+   "field": "name_en",
+   "value": "Kohei Kasai",
+   "source": "18167",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000518",
+   "field": "name_en",
+   "value": "Mizuki Nakamura",
+   "source": "49611",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000517",
+   "field": "name_en",
+   "value": "Cherif Sow",
+   "source": "8522",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000515",
+   "field": "name_en",
+   "value": "Hikaru Akiyama",
+   "source": "15839",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000519",
+   "field": "name_en",
+   "value": "Mamadou Fofana",
+   "source": "12613",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000224",
+   "field": "name_en",
+   "value": "Koki Wakasa",
+   "source": "25272",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000522",
+   "field": "name_en",
+   "value": "Haruto Yokoyama",
+   "source": "51000549",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000523",
+   "field": "name_en",
+   "value": "Teruya Aoyama",
+   "source": "42617",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000524",
+   "field": "name_en",
+   "value": "Keisuke Kono",
+   "source": "54142",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000521",
+   "field": "name_en",
+   "value": "Toshiki Yokogawa",
+   "source": "32975",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000520",
+   "field": "name_en",
+   "value": "Yusuke Mukai",
+   "source": "25275",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000525",
+   "field": "name_en",
+   "value": "Makoto Sato",
+   "source": "30466",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000526",
+   "field": "name_en",
+   "value": "Yutaka Tsukamoto",
+   "source": "22403",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000528",
+   "field": "name_en",
+   "value": "Myuji Tsuruta",
+   "source": "20019",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000119",
+   "field": "name_en",
+   "value": "Koyo Nishida",
+   "source": "51000362",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000527",
+   "field": "name_en",
+   "value": "Yusuke Tsunai",
+   "source": "20000",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000529",
+   "field": "name_en",
+   "value": "Naoto Moriyama",
+   "source": "22491",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000567",
+   "field": "name_en",
+   "value": "PapeMour Faye",
+   "source": "9400",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000533",
+   "field": "name_en",
+   "value": "Takumi Kobayashi",
+   "source": "49593",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000530",
+   "field": "name_en",
+   "value": "Takashi Igarashi",
+   "source": "9279",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000531",
+   "field": "name_en",
+   "value": "Hajime Imabayashi",
+   "source": "51000140",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000534",
+   "field": "name_en",
+   "value": "Ryusei Sako",
+   "source": "51000589",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000535",
+   "field": "name_en",
+   "value": "Katsumi Takahashi",
+   "source": "51000231",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000536",
+   "field": "name_en",
+   "value": "Koyo Takahashi",
+   "source": "10818",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000538",
+   "field": "name_en",
+   "value": "Ryuji Aoki",
+   "source": "26876",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000537",
+   "field": "name_en",
+   "value": "Kento Fukuda",
+   "source": "54098",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000539",
+   "field": "name_en",
+   "value": "Takayuki Kodama",
+   "source": "9218",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000540",
+   "field": "name_en",
+   "value": "Riki Takeuchi",
+   "source": "51000230",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000542",
+   "field": "name_en",
+   "value": "Ryo Tawatari",
+   "source": "12454",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000545",
+   "field": "name_en",
+   "value": "Michael Parker",
+   "source": "8579",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000541",
+   "field": "name_en",
+   "value": "Shogo Tamaki",
+   "source": "20003",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000544",
+   "field": "name_en",
+   "value": "Eiji Hayashi",
+   "source": "20004",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000543",
+   "field": "name_en",
+   "value": "Yoshihiko Toshino",
+   "source": "8599",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000546",
+   "field": "name_en",
+   "value": "Toshikazu Kato",
+   "source": "8595",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000112",
+   "field": "name_en",
+   "value": "Hayato Kantake",
+   "source": "8840",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000548",
+   "field": "name_en",
+   "value": "Takanobu Nishikawa",
+   "source": "8510",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000150",
+   "field": "name_en",
+   "value": "Ryota Kobayashi",
+   "source": "8462",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000549",
+   "field": "name_en",
+   "value": "Riichi Nomizo",
+   "source": "51000448",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000547",
+   "field": "name_en",
+   "value": "Mato Nakatani",
+   "source": "51000559",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000144",
+   "field": "name_en",
+   "value": "Hiroki Taniguchi",
+   "source": "8488",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000551",
+   "field": "name_en",
+   "value": "Reiju Sasakura",
+   "source": "30347",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000132",
+   "field": "name_en",
+   "value": "Kaito Ishikawa",
+   "source": "8722",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000552",
+   "field": "name_en",
+   "value": "Keita Sawabe",
+   "source": "10263",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000553",
+   "field": "name_en",
+   "value": "Masayoshi Nimmo",
+   "source": "51000320",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000550",
+   "field": "name_en",
+   "value": "Hiroaki Isono",
+   "source": "30462",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000157",
+   "field": "name_en",
+   "value": "Naoyuki Fujisawa",
+   "source": "5100000019",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000558",
+   "field": "name_en",
+   "value": "Yoshiki Ametani",
+   "source": "30404",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000554",
+   "field": "name_en",
+   "value": "Koki Hosaka",
+   "source": "51000450",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000233",
+   "field": "name_en",
+   "value": "Lamine Mbodj",
+   "source": "30405",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000555",
+   "field": "name_en",
+   "value": "Atomu Yamada",
+   "source": "9399",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000556",
+   "field": "name_en",
+   "value": "Shota Yamamoto",
+   "source": "51000156",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000557",
+   "field": "name_en",
+   "value": "Matthew Aquino",
+   "source": "51000104",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000559",
+   "field": "name_en",
+   "value": "Masato Ichikawa",
+   "source": "51000307",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000232",
+   "field": "name_en",
+   "value": "Zen Endo",
+   "source": "5100000044",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000562",
+   "field": "name_en",
+   "value": "Kota Fujimoto",
+   "source": "5100000010",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000560",
+   "field": "name_en",
+   "value": "Sera Sato",
+   "source": "51000436",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000192",
+   "field": "name_en",
+   "value": "Takeshi Tada",
+   "source": "30457",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000561",
+   "field": "name_en",
+   "value": "Hiroshi Fujita",
+   "source": "9402",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000563",
+   "field": "name_en",
+   "value": "Masashi Hosoya",
+   "source": "8712",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000187",
+   "field": "name_en",
+   "value": "Tomoya Ochiai",
+   "source": "8648",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000178",
+   "field": "name_en",
+   "value": "Shuichiro Shimoji",
+   "source": "52466",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000151",
+   "field": "name_en",
+   "value": "Ryota Ito",
+   "source": "9234",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000152",
+   "field": "name_en",
+   "value": "Itsuki Onishi",
+   "source": "11482",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000177",
+   "field": "name_en",
+   "value": "Shinya Takagi",
+   "source": "30441",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000189",
+   "field": "name_en",
+   "value": "Koudai Nakano",
+   "source": "10892",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000235",
+   "field": "name_en",
+   "value": "Masataka Nakajima",
+   "source": "16023",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000216",
+   "field": "name_en",
+   "value": "Sena Nakamura",
+   "source": "34792",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000217",
+   "field": "name_en",
+   "value": "Taishin Yoshimoto",
+   "source": "7482",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  },
+  {
+   "person_id": "P000156",
+   "field": "name_en",
+   "value": "Takuma Enokida",
+   "source": "51000177",
+   "locator": "基本情報 > 英語表記",
+   "summary": "B.LEAGUE公式プロフィールの英語表記"
+  }
+ ],
+ "career_facts": [],
+ "holds": []
+}
