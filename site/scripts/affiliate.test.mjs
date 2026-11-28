@@ -49,15 +49,27 @@ const placement = (overrides = {}) => ({
 const query = { slot: 'guide-shopping', pageType: 'guide', pageKey: 'basketball-ball-size', today: TODAY };
 const data = (p = [program()], l = [fieldsLink()], pl = [placement()]) => ({ programs: p, links: l, placements: pl });
 
-test('実データ：初期状態は全案件が無効で、どのパイロットページにも広告が出ない', () => {
+test('実データ：有効な案件は提携承認済みのものだけ。選手・組織ページとパイロット以外のページには広告が出ない', () => {
   assert.ok(real.programs.length >= 4);
-  for (const item of real.programs) assert.equal(item.enabled, false, `${item.id} は無効のはず`);
+  for (const item of real.programs) {
+    if (item.enabled) assert.equal(item.partnershipStatus, 'approved', `${item.id} は承認済みのはず`);
+  }
+  for (const [pageType, pageKey] of [
+    ['archive', 'p000001'],
+    ['column', 'one-club'],
+    ['ranking', 'university'],
+    ['guide', 'basketball-ball-size'],
+  ]) {
+    assert.deepEqual(selectPage(real, pageType, pageKey, TODAY), [], `${pageType}/${pageKey}`);
+  }
   for (const [pageType, pageKey] of [
     ['column', 'high-school-trends'],
     ['ranking', 'high-school'],
-    ['guide', 'basketball-ball-size'],
   ]) {
-    assert.deepEqual(selectPage(real, pageType, pageKey, TODAY), []);
+    for (const slot of selectPage(real, pageType, pageKey, TODAY)) {
+      assert.ok(slot.items.length <= slot.placement.maxItems);
+      for (const item of slot.items) assert.equal(item.program.partnershipStatus, 'approved');
+    }
   }
 });
 
