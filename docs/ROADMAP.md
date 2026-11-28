@@ -28,3 +28,24 @@ Person / Career / Organization / Sourceを超えるスキーマ拡張や大規�
 将来の検索・JSON/API・Data Factoryは[FUTURE_ARCHITECTURE](FUTURE_ARCHITECTURE.md)を設計上の方向性とする。実施順は固定日程ではなく、パイロットで得た品質・処理時間・未解決事項を確認して決める。
 
 収益化は広告PVを先に最大化する方式ではなく、B.LEAGUE現役・経験者から大学、高校、中学へ経路をつなぐ **Japanese Basketball Talent Pipeline** を最初の商用テーマ候補とする。無料Archive、独自分析、レポート、Sponsor / B2B / APIの順に小さく検証する。詳細は[MONETIZATION_DRAFT_V0.1](MONETIZATION_DRAFT_V0.1.md)に記録する。この検討案だけで商品、価格、スポンサー条件、スキーマ拡張を承認したものとは扱わない。
+
+## 収益化ワークストリーム（2026-11-28追加）
+
+データ拡充・SEO・サイト開発と並行する開発ワークストリームとして収益化を正式に開始する。Google AdSenseは審査不承認（2026-11-25）のため、AdSenseに依存しない収益基盤を先に作る。Rosterlineを次の4機能で捉える。
+
+| 機能 | 役割 | 状態 |
+| --- | --- | --- |
+| Rosterline Archive | 無料データベース・SEO集客 | 運用中 |
+| Rosterline Guide | 観戦・用品情報・アフィリエイト | 未着手（記事は今後追加） |
+| Rosterline Insights | 独自データ分析・有料レポート | 未着手（コラムが無料版の試作に相当） |
+| Rosterline Data | B2Bデータ提供・API | 将来（段階8・12） |
+
+| 段階 | 内容 | 完了条件 |
+| --- | --- | --- |
+| M1：Affiliate Engine v0.1 | 広告案件の一元管理、表示ルール、共通枠、GA4計測（表示・クリック）、PR表記、期限管理、パイロット2ページ（コラム1本・出身高校ランキング） | 基本設計を承認（2026-11-28）→ `feature/affiliate-engine-v0.1`で実装済み → 全案件無効の状態でマージ → 1案件ずつ有効化（[AFFILIATE_ENGINE](AFFILIATE_ENGINE.md)） |
+| M2：Guide第1弾（保留） | `/guide`（コラムとは別セクション）と「バスケットボールのサイズ（号数）の選び方」 | 実装済みだが、2026-11-28の判断で今回のリリースから外した（別パッチで保管）。公開時に、Archive系（コラム・ランキング）とGuideの広告クリック率を比較 |
+| M3：案件拡充 | 動画配信（U-NEXT、DAZN、バスケットLIVE、J SPORTS等）、楽天トラベル（観戦・遠征） | 各ASPの提携・掲載規約を運営者が確認 |
+| M4：Insights試作（将来構想） | 段階9・10の無料分析サンプル／小規模レポート | MONETIZATION_DRAFTの判断ポイントを満たす。今回は開発しない |
+| M5：Data（将来構想） | B2Bデータ提供・API・データ販売（段階8・12） | 利用規約・ライセンス・個人情報の確認後。今回は開発しない |
+
+収益化の作業は、Master Data・URL・検索機能を変更しない。広告データは`data/`に置かず、バスケットボールデータと分離する。本番公開・広告の有効化・mainへのマージはYuichiの承認後に行う。

@@ -1,0 +1,70 @@
+# 広告データ（site/app/affiliate/*.json）の定期検証と、期限の切り替えに合わせた再ビルド。
+# 詳細は docs/AFFILIATE_ENGINE.md「有効期限の管理」。
+# - 毎日 日本時間0:05 に実行（スケジュール実行はmainブランチのファイルだけが対象。mainへのマージ後に動き始める）
+# - 広告データやテストを変更したpush・プルリクエストでも実行
+# - 失敗（期限切れの表示中案件・不正な素材など）は、GitHubの通知（メール）で運営者に届く
+name: Affiliate data check
+
+on:
+  schedule:
+    - cron: '5 15 * * *' # 15:05 UTC = 0:05 JST
+  push:
+    paths:
+      - 'site/app/affiliate/**'
+      - 'scripts/check_affiliate_data.py'
+      - 'site/scripts/affiliate.test.mjs'
+  pull_request:
+    paths:
+      - 'site/app/affiliate/**'
+      - 'scripts/check_affiliate_data.py'
+      - 'site/scripts/affiliate.test.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 期限（validFrom / validUntil）を設定した表示中の案件・素材があるときだけ、毎日再ビルドする。
+      # ページはビルド時に作られるため、日付が変わったら作り直して期限切れを除外・開始日を反映する。
+      # Cloudflare の Deploy Hook URL を、リポジトリの Secrets に CLOUDFLARE_DEPLOY_HOOK_URL として登録した場合だけ動く。
+      - name: Rebuild site for date-bound ads (scheduled run only)
+        if: github.event_name == 'schedule'
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}
+        run: |
+          needs=$(python3 - <<'PY'
+          import json
+          base = 'site/app/affiliate/'
+          programs = json.load(open(base + 'programs.json', encoding='utf-8'))
+          links = json.load(open(base + 'links.json', encoding='utf-8'))
+          active = {p['id']: p for p in programs if p.get('enabled') is True and p.get('partnershipStatus') == 'approved'}
+          dated = any(p.get('validFrom') or p.get('validUntil') for p in active.values())
+          dated = dated or any(l.get('enabled') is True and l.get('programId') in active and l.get('validUntil') for l in links)
+          print('yes' if dated else 'no')
+          PY
+          )
+          echo "date-bound active ads: $needs"
+          if [ "$needs" = "yes" ]; then
+            if [ -z "$DEPLOY_HOOK_URL" ]; then
+              echo "::warning::期限付きの広告がありますが、CLOUDFLARE_DEPLOY_HOOK_URL が未登録のため再ビルドしません"
+            else
+              curl -fsS -X POST "$DEPLOY_HOOK_URL" > /dev/null && echo "rebuild triggered"
+            fi
+          fi
+
+      - name: Validate affiliate data
+        run: python3 scripts/check_affiliate_data.py
+
+      - name: Unit tests (selection rules)
+        working-directory: site
+        run: node --test scripts/affiliate.test.mjs

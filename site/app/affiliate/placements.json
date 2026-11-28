@@ -1,0 +1,45 @@
+[
+  {
+    "id": "PLC001",
+    "slot": "column-end",
+    "pageTypes": [
+      "column"
+    ],
+    "pageKeys": [
+      "high-school-trends"
+    ],
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear"
+    ],
+    "programIds": [
+      "AFF000001"
+    ],
+    "maxItems": 1,
+    "enabled": true,
+    "heading": "部活の用品を探す"
+  },
+  {
+    "id": "PLC002",
+    "slot": "ranking-end",
+    "pageTypes": [
+      "ranking"
+    ],
+    "pageKeys": [
+      "high-school"
+    ],
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear",
+      "books"
+    ],
+    "programIds": [
+      "AFF000002"
+    ],
+    "maxItems": 1,
+    "enabled": true,
+    "heading": "部活の用品を探す"
+  }
+]

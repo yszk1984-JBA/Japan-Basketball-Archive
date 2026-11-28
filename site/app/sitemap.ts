@@ -15,9 +15,9 @@ import { columnPath, COLUMNS } from './columns/columns-data';
 const baseUrl = siteUrl;
 
 // /about の本文を最後に更新した日。本文を書き換えたら更新する。
-const ABOUT_UPDATED_AT = '2026-11-25';
+const ABOUT_UPDATED_AT = '2026-11-28';
 // /privacy の本文を最後に更新した日。本文を書き換えたら更新する。
-const PRIVACY_UPDATED_AT = '2026-11-02';
+const PRIVACY_UPDATED_AT = '2026-11-28';
 
 // lastmodは、各ページの内容の元になったMasterデータの承認日から決める（固定日付にしない）。
 // Googleはlastmodが実際の更新と一致している場合だけ参考にするため、承認日のないページ

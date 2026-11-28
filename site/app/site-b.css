@@ -1986,3 +1986,134 @@ a.jbaListB-currentClubName:hover {
   min-width: 0;
   overflow-x: auto;
 }
+
+/* --- 広告枠（Affiliate Engine v0.1）。本文・データと見分けがつくよう、枠線と背景を変える --- */
+.jbaAff-slot {
+  max-width: 760px;
+  border: 1px solid #D9DEE4;
+  border-radius: 12px;
+  background: #FAFAF7;
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #1A2330;
+}
+
+.jbaAff-slot[hidden],
+.jbaAff-notice[hidden],
+.jbaAff-item[hidden] {
+  display: none;
+}
+
+.jbaAff-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: #5B6B7A;
+}
+
+.jbaAff-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border: 1px solid #8A97A3;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #5B6B7A;
+  margin-right: 6px;
+}
+
+.jbaAff-head .jbaAff-badge {
+  margin-right: 0;
+}
+
+.jbaAff-heading {
+  margin: 8px 0 0;
+  font-weight: 700;
+}
+
+.jbaAff-items,
+.jbaListB-about .jbaAff-items {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.jbaAff-item,
+.jbaListB-about .jbaAff-item + .jbaAff-item {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+}
+
+.jbaAff-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 48px;
+  padding: 8px 14px;
+  border: 1px solid #1D5FD6;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #1D5FD6;
+  text-decoration: none;
+}
+
+.jbaAff-button:hover {
+  background: #F0F5FF;
+}
+
+.jbaAff-buttonLabel {
+  font-weight: 700;
+}
+
+.jbaAff-buttonShop {
+  font-size: 11px;
+  color: #5B6B7A;
+}
+
+.jbaAff-raw {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.jbaAff-raw a {
+  color: #1D5FD6;
+  font-weight: 700;
+}
+
+.jbaAff-raw img {
+  max-width: 100%;
+  height: auto;
+}
+
+.jbaAff-pixel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.jbaAff-note,
+.jbaListB-about .jbaAff-note {
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: #5B6B7A;
+}
+
+.jbaAff-notice {
+  max-width: 760px;
+  margin: 0;
+  padding: 8px 12px;
+  border-left: 3px solid #8A97A3;
+  background: #FFFFFF;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #5B6B7A;
+}

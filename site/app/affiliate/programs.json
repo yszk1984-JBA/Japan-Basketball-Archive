@@ -1,0 +1,114 @@
+[
+  {
+    "id": "AFF000001",
+    "name": "スーパースポーツゼビオ",
+    "displayName": null,
+    "asp": "a8",
+    "aspProgramId": "s00000020001001",
+    "partnershipStatus": "approved",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "reward": {
+      "rate": "6.5%",
+      "epc": "4.63円",
+      "approvalRate": "87.09%",
+      "note": "A8.net表示値（2026-11-28確認）。商品リンク・即時提携・セルフバック・スマホ最適化・ITP対応"
+    },
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear"
+    ],
+    "allowedDestinations": [
+      "https://www.supersports.com/ja-jp/xebio/"
+    ],
+    "restrictions": [
+      "提携中（提携日2026-11-28、終了日未定）",
+      "商品リンク・自由テキストの飛び先は https://www.supersports.com/ja-jp/xebio/ 内のみ",
+      "生成されたリンクは変更しない（計測用パラメーター付き）",
+      "社名（ゼビオ株式会社／株式会社ヴィクトリア）・コピーライト・商標の記載・転載不可 → 広告枠にショップ名を出さない（displayName: null）。リンクテキストにも店名・社名を入れない",
+      "画像加工不可（画面キャプチャーは当社媒体名がわかる形でのみ可）",
+      "サイト名・ページタイトル・コンテンツがゼビオと誤解されるような構成は禁止",
+      "広告とわかる表示をファーストビュー等わかりやすい位置に（記事上部のPR表記で対応）",
+      "否認：抽選販売・予約販売・先行販売商品、Nike Mind 001 等"
+    ],
+    "requiredDisclosure": null,
+    "notes": "成果条件：WEB注文後30日の入金確認。再訪問期間90日、成果確定目安約30日。リスティングNGワードあり（当サイトはリスティング広告を出さない）"
+  },
+  {
+    "id": "AFF000002",
+    "name": "アルペン・スポーツデポ",
+    "displayName": null,
+    "asp": "a8",
+    "aspProgramId": "s00000017210001",
+    "partnershipStatus": "approved",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "reward": {
+      "rate": "税抜購入額の3.8%",
+      "epc": "7.59円",
+      "approvalRate": "88.99%",
+      "note": "A8.net表示値（2026-11-28確認）。商品リンク・即時提携・セルフバック・スマホ最適化・ITP対応"
+    },
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear"
+    ],
+    "allowedDestinations": [
+      "https://store.alpen-group.jp/"
+    ],
+    "restrictions": [
+      "提携中（提携日2026-11-28、終了日未定）",
+      "商品リンク・自由テキストの飛び先は https://store.alpen-group.jp/ 内のみ",
+      "生成されたリンクは変更しない（計測用パラメーター付き）",
+      "広告とわかる表示をファーストビュー等わかりやすい位置に（表示がないと提携解除の可能性）",
+      "社名・商標の記載禁止の定めはなし（リスティングNGワードのみ）。ただしショップ名は当面表示しない（displayName: null）",
+      "否認：店舗支払い・店舗取り置き、1回11点以上、クーポン・自社ポイント利用分、福袋 等"
+    ],
+    "requiredDisclosure": null,
+    "notes": "成果条件：WEB注文後30日以内の入金確認。再訪問期間90日、成果確定目安約30日。リスティングNGワード：商標・ブランド名（スポーツデポ、ゴルフ5、アルペン等）。当サイトはリスティング広告を出さない"
+  },
+  {
+    "id": "AFF000003",
+    "name": "楽天市場",
+    "displayName": null,
+    "asp": "rakuten",
+    "partnershipStatus": "pending",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear",
+      "books",
+      "goods"
+    ],
+    "restrictions": [],
+    "requiredDisclosure": null,
+    "notes": "対象：バスケットボール用品・書籍・グッズ。リンク先（個別商品か検索結果か）は運営者が決める"
+  },
+  {
+    "id": "AFF000004",
+    "name": "楽天トラベル",
+    "displayName": null,
+    "asp": "rakuten",
+    "partnershipStatus": "pending",
+    "enabled": false,
+    "validFrom": null,
+    "validUntil": null,
+    "termsCheckedAt": "2026-11-28",
+    "categories": [
+      "travel"
+    ],
+    "restrictions": [],
+    "requiredDisclosure": null,
+    "notes": "対象：観戦・大会遠征時の宿泊。v0.1では表示する枠がない（将来の観戦・遠征ガイド用）"
+  }
+]
