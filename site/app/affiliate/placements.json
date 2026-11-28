@@ -2,9 +2,17 @@
   {
     "id": "PLC001",
     "slot": "column-end",
-    "pageTypes": ["column"],
-    "pageKeys": ["high-school-trends"],
-    "categories": ["ball", "shoes", "club-gear"],
+    "pageTypes": [
+      "column"
+    ],
+    "pageKeys": [
+      "high-school-trends"
+    ],
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear"
+    ],
     "maxItems": 2,
     "enabled": true,
     "heading": "部活の用品を探す"
@@ -12,21 +20,20 @@
   {
     "id": "PLC002",
     "slot": "ranking-end",
-    "pageTypes": ["ranking"],
-    "pageKeys": ["high-school"],
-    "categories": ["ball", "shoes", "club-gear", "books"],
+    "pageTypes": [
+      "ranking"
+    ],
+    "pageKeys": [
+      "high-school"
+    ],
+    "categories": [
+      "ball",
+      "shoes",
+      "club-gear",
+      "books"
+    ],
     "maxItems": 2,
     "enabled": true,
     "heading": "部活の用品を探す"
-  },
-  {
-    "id": "PLC003",
-    "slot": "guide-shopping",
-    "pageTypes": ["guide"],
-    "pageKeys": ["basketball-ball-size"],
-    "categories": ["ball"],
-    "maxItems": 3,
-    "enabled": true,
-    "heading": "号数を確かめてボールを探す"
   }
 ]

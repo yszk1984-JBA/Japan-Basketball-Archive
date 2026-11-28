@@ -11,7 +11,6 @@ import { isOrganizationIndexable, isPlayerIndexable } from './seo';
 import { siteUrl } from './site-url';
 import { EXTRA_RANKING_PATHS } from './rankings/extra-rankings';
 import { columnPath, COLUMNS } from './columns/columns-data';
-import { guidePath, GUIDES } from './guide/guide-data';
 
 const baseUrl = siteUrl;
 
@@ -46,9 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...['', '/players', '/organizations', '/rankings', '/updates', '/contact', '/columns', ...COLUMNS.map((column) => columnPath(column.slug)), '/rankings/premier-high-school', '/rankings/premier-university', '/rankings/bone-high-school', '/rankings/bone-university', '/rankings/high-school', '/rankings/university', '/rankings/high-school-to-university', '/rankings/one-club', ...Object.values(EXTRA_RANKING_PATHS)].map(
       (path) => ({ url: `${baseUrl}${path}`, lastModified: dataUpdatedAt }),
     ),
-    // Guide（実用ガイド）は承認済みデータとは無関係のため、記事ごとの更新日を使う。
-    { url: `${baseUrl}/guide`, lastModified: GUIDES.map((guide) => guide.updatedAt ?? guide.publishedAt).sort().at(-1) },
-    ...GUIDES.map((guide) => ({ url: `${baseUrl}${guidePath(guide.slug)}`, lastModified: guide.updatedAt ?? guide.publishedAt })),
     { url: `${baseUrl}/about`, lastModified: ABOUT_UPDATED_AT },
     { url: `${baseUrl}/privacy`, lastModified: PRIVACY_UPDATED_AT },
     ...organizationPages,

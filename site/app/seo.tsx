@@ -39,7 +39,7 @@ export function BrandMark({ size, className }: { size: number; className?: strin
   );
 }
 
-export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' | 'columns' | 'guide' }) {
+export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 'rankings' | 'columns' }) {
   return (
     <header className="jbaListB-header">
       <a href="/" className="jbaListB-brand">
@@ -51,7 +51,6 @@ export function SiteHeader({ active }: { active?: 'players' | 'organizations' | 
         <a href="/organizations" aria-current={active === 'organizations' ? 'page' : undefined}>組織</a>
         <a href="/rankings" aria-current={active === 'rankings' ? 'page' : undefined}>ランキング</a>
         <a href="/columns" aria-current={active === 'columns' ? 'page' : undefined}>コラム</a>
-        <a href="/guide" aria-current={active === 'guide' ? 'page' : undefined}>ガイド</a>
       </nav>
     </header>
   );
@@ -101,7 +100,6 @@ export function SiteFooter() {
           <a href="/rankings/high-school-to-university">高校→大学の進学ルート</a>
           <a href="/rankings/one-club">開幕から同じクラブ一筋の選手</a>
           <a href="/columns">コラム</a>
-          <a href="/guide">ガイド（用品・観戦）</a>
           <a href="/about">このサイトについて</a>
           <a href="/updates">更新履歴</a>
           <a href="/contact">お問い合わせ</a>

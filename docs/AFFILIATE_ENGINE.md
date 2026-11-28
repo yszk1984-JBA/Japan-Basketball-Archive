@@ -5,6 +5,8 @@
 
 運用（広告の追加・停止・期限）は「13. 運用手順」、テスト結果は「16. テスト結果」を参照。
 
+**2026-11-28 変更（Yuichiの判断）：今回のリリースはアフィリエイト広告のみとし、Rosterline Guide（`/guide`、第1弾「バスケットボールのサイズ（号数）の選び方」）は外した。** 広告を出すのは`/columns/high-school-trends`と`/rankings/high-school`の2ページ。Guideの実装一式は別パッチ（`guide-later.patch`）として保管し、公開を決めたときに取り込む（取り込むとGuideページ・ヘッダーの「ガイド」・サイトマップ・Aboutの一文・表示ルールPLC003が戻る）。以下の本文のうちGuideに関する記述は、その時点の参考として残す。
+
 関連：[MONETIZATION_DRAFT_V0.1](MONETIZATION_DRAFT_V0.1.md)（Phase 2「関連商品のアフィリエイトを必要最小限で試験」の具体化）、[ROADMAP](ROADMAP.md)
 
 ---
