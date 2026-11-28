@@ -59,6 +59,8 @@ export type AffiliatePlacement = {
   readonly pageTypes: readonly PageType[];
   readonly pageKeys?: readonly string[]; // 指定したページだけに出す（パイロット用）。省略時は pageTypes の全ページ
   readonly categories: readonly string[];
+  // 出す案件を限定する（省略時はカテゴリーが合う全案件）。ページごとに別のショップを出して比べるときに使う
+  readonly programIds?: readonly string[];
   readonly maxItems: number;
   readonly enabled: boolean;
   readonly heading?: string;

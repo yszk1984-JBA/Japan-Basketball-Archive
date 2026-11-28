@@ -229,6 +229,9 @@ def main() -> int:
             errors.append(f"{where}: pageTypes は {sorted(PAGE_TYPES)} から選んでください")
         if "archive" in types:
             warnings.append(f"{where}: archive（選手・組織ページ）はv0.1では広告を置かない方針です")
+        for pid in item.get("programIds") or []:
+            if pid not in program_by_id:
+                errors.append(f"{where}: programIds の {pid} が programs.json にありません")
         if not isinstance(item.get("maxItems"), int) or item.get("maxItems", 0) < 1 or item.get("maxItems", 0) > 3:
             errors.append(f"{where}: maxItems は 1〜3（過剰な広告表示を避けるため）")
 

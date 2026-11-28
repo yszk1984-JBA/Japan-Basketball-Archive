@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "LNK000002",
+    "programId": "AFF000001",
+    "kind": "text",
+    "mode": "rawHtml",
+    "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BGVY0+B6H39E+4ABU+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.supersports.com%2Fja-jp%2Fxebio%2Fcampaigns%2F665ed26686e10fae08006123%2F\" rel=\"nofollow\">バスケットボール用品を見る</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www16.a8.net/0.gif?a8mat=4BGVY0+B6H39E+4ABU+BW8O2\" alt=\"\">",
+    "categories": [
+      "club-gear",
+      "shoes",
+      "ball"
+    ],
+    "enabled": true,
+    "validUntil": null,
+    "issuedAt": "2026-11-28",
+    "notes": "A8.net自由テキストで作成（飛び先：https://www.supersports.com/ja-jp/xebio/campaigns/665ed26686e10fae08006123/ ＝バスケットボール用品の特集ページ。campaigns配下のため、ページが終了していないか定期的に確認する）。コードは無加工"
+  },
+  {
+    "id": "LNK000001",
+    "programId": "AFF000002",
+    "kind": "text",
+    "mode": "rawHtml",
+    "rawHtml": "<a href=\"https://px.a8.net/svt/ejp?a8mat=4BGVY0+B5VNNM+3OSK+BW8O2&a8ejpredirect=https%3A%2F%2Fstore.alpen-group.jp%2FPage%2F203.aspx\" rel=\"nofollow\">バスケットボール用品を見る</a>\n<img border=\"0\" width=\"1\" height=\"1\" src=\"https://www18.a8.net/0.gif?a8mat=4BGVY0+B5VNNM+3OSK+BW8O2\" alt=\"\">",
+    "categories": [
+      "club-gear",
+      "shoes",
+      "ball"
+    ],
+    "enabled": true,
+    "validUntil": null,
+    "issuedAt": "2026-11-28",
+    "notes": "A8.net自由テキストで作成（飛び先：アルペン公式オンラインストア https://store.alpen-group.jp/Page/203.aspx、バスケットボール用品）。コードは無加工"
+  }
+]

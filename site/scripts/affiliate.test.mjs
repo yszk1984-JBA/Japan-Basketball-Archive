@@ -165,3 +165,10 @@ test('広告主が指定した飛び先（allowedDestinations）の範囲外は�
   assert.equal(selectSlot(data([program(allowed)], [fieldsLink({ mode: 'rawHtml', rawHtml: raw })]), query), null);
   assert.ok(selectSlot(data([program(allowed)], [fieldsLink()]), query), '飛び先の指定が無い標準リンクは表示');
 });
+
+test('programIdsで、ルールごとに出す案件を限定できる', () => {
+  const other = program({ id: 'AFF900002' });
+  const links = [fieldsLink(), fieldsLink({ id: 'LNK900002', programId: 'AFF900002' })];
+  const slot = selectSlot(data([program(), other], links, [placement({ programIds: ['AFF900002'] })]), query);
+  assert.deepEqual(slot.items.map((item) => item.link.id), ['LNK900002']);
+});

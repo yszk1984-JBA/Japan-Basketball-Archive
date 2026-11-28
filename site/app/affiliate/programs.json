@@ -43,7 +43,7 @@
     "displayName": null,
     "asp": "a8",
     "aspProgramId": "s00000017210001",
-    "partnershipStatus": "pending",
+    "partnershipStatus": "approved",
     "enabled": false,
     "validFrom": null,
     "validUntil": null,
@@ -59,7 +59,9 @@
       "shoes",
       "club-gear"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "A8.netでリンクを作成できた＝提携中と判断（2026-11-28）。提携情報画面（飛び先URLの条件・社名や商標の記載ルール）は未確認 → 確認するまでショップ名は出さない"
+    ],
     "requiredDisclosure": null,
     "notes": "提携状況・広告素材・掲載規約は運営者がA8.net管理画面で確認する"
   },

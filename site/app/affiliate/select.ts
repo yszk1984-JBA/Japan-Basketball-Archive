@@ -175,6 +175,7 @@ export function selectSlot(data: AffiliateData, query: SlotQuery): SelectedSlot 
     if (seen.has(link.id)) continue;
     const program = programs.get(link.programId);
     if (!programIsActive(program, query.today)) continue;
+    if (placement.programIds && placement.programIds.length > 0 && !placement.programIds.includes(program.id)) continue;
     if (!link.enabled || !isWithinPeriod(query.today, null, link.validUntil)) continue;
     if (!link.categories.some((category) => placement.categories.includes(category))) continue;
     if (!checkLinkMaterial(link, program).ok) continue;

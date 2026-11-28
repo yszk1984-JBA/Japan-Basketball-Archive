@@ -13,7 +13,10 @@
       "shoes",
       "club-gear"
     ],
-    "maxItems": 2,
+    "programIds": [
+      "AFF000001"
+    ],
+    "maxItems": 1,
     "enabled": true,
     "heading": "部活の用品を探す"
   },
@@ -32,7 +35,10 @@
       "club-gear",
       "books"
     ],
-    "maxItems": 2,
+    "programIds": [
+      "AFF000002"
+    ],
+    "maxItems": 1,
     "enabled": true,
     "heading": "部活の用品を探す"
   }

@@ -378,6 +378,15 @@ window.gtag?.('event', 'affiliate_click', {
 
 `placements.json`で、出すページ（`pageKeys`）・カテゴリー・件数（`maxItems`は1〜3）を変える。新しいページに枠を置くときだけ、ページに`<AffiliateSlot>`（記事なら上部に`<AffiliateNotice>`も）を1行追加する。
 
+### 13.4.1 現在の配置（2026-11-28）
+
+| ページ | 表示ルール | 出す案件 | 素材 |
+| --- | --- | --- | --- |
+| `/columns/high-school-trends` | PLC001（1件） | AFF000001 ゼビオ | LNK000002「バスケットボール用品を見る」（飛び先：ゼビオのバスケットボール用品特集ページ） |
+| `/rankings/high-school` | PLC002（1件） | AFF000002 アルペン | LNK000001「バスケットボール用品を見る」（飛び先：アルペン公式オンラインストアのバスケットボール用品ページ） |
+
+ショップ名を表示できない（ゼビオの規約、アルペンは未確認）ため、同じ文言のリンクが並ぶと区別できない。そこで1ページ1件とし、ページごとにショップを分けた（`programIds`）。どちらもまだ`enabled: false`。
+
 ### 13.5 ショップ名の表示と、リンクの飛び先の制限
 
 - 広告枠のボタンにショップ名を出すのは、`programs.json`の`displayName`を設定した案件だけ。広告主の規約で社名・商標の記載が制限されていることがあるため、規約を確認して表示してよいと分かった場合だけ設定する（初期値はすべて`null`＝表示しない）。
@@ -436,7 +445,7 @@ window.gtag?.('event', 'affiliate_click', {
 | `site/app/affiliate/AffiliateClient.tsx` | 計測（click／impression）と期限切れの非表示（Client Component） |
 | `site/app/guide/guide-data.ts` / `GuideLayout.tsx` / `page.tsx` | Rosterline Guide（`/guide`）。コラムとは別セクション |
 | `site/app/guide/basketball-ball-size/page.tsx` | Guide第1弾 |
-| `site/scripts/affiliate.test.mjs` | 表示判定のテスト（13件） |
+| `site/scripts/affiliate.test.mjs` | 表示判定のテスト（14件） |
 | `scripts/check_affiliate_data.py` | データ検証 |
 | `.github/workflows/affiliate-check.yml` | 毎日の検証・任意の再ビルド |
 | 変更：`columns/ColumnLayout.tsx`、`rankings/RankingPage.tsx` | PR表記と広告枠を1行ずつ（表示はPlacementで制御） |
@@ -472,7 +481,7 @@ window.gtag?.('event', 'affiliate_click', {
 
 | 確認 | 結果 |
 | --- | --- |
-| 表示判定のテスト（`node --test scripts/affiliate.test.mjs`） | 13件すべて成功（2026-11-28追加：広告主指定の飛び先の範囲外は非表示）（初期データで広告が出ない／承認済み・有効・期限内・正式素材ありだけ表示／未提携・否認・終了・無効・期限切れ・開始前・素材なし・不正URL・カテゴリー不一致は非表示／maxItems・重複／A8・楽天の標準形のrawHtmlを通し、script・iframe・onclick・javascript:・許可外ドメインを拒否） |
+| 表示判定のテスト（`node --test scripts/affiliate.test.mjs`） | 14件すべて成功（2026-11-28追加：広告主指定の飛び先の範囲外は非表示、programIdsによる案件の限定）（初期データで広告が出ない／承認済み・有効・期限内・正式素材ありだけ表示／未提携・否認・終了・無効・期限切れ・開始前・素材なし・不正URL・カテゴリー不一致は非表示／maxItems・重複／A8・楽天の標準形のrawHtmlを通し、script・iframe・onclick・javascript:・許可外ドメインを拒否） |
 | データ検証（`check_affiliate_data.py`） | 初期データでOK。表示中案件の期限切れ・`<script>`入り素材でERROR、14日以内の期限でWARNINGを確認 |
 | 型チェック（`tsc --noEmit`） | エラーなし |
 | Lint（`oxlint`） | 追加・変更したファイルにエラーなし（`components/ui`等の既存の19件はmainと同数） |
