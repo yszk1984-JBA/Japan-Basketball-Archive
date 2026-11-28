@@ -20,7 +20,7 @@
     ],
     "maxItems": 2,
     "enabled": true,
-    "heading": "部活の用品を探す"
+    "heading": "バスケ用品・関連本"
   },
   {
     "id": "PLC002",
@@ -43,6 +43,6 @@
     ],
     "maxItems": 2,
     "enabled": true,
-    "heading": "部活の用品を探す"
+    "heading": "バスケ用品・関連本"
   }
 ]
