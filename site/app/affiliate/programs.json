@@ -78,8 +78,8 @@
     "name": "楽天市場",
     "displayName": null,
     "asp": "rakuten",
-    "partnershipStatus": "pending",
-    "enabled": false,
+    "partnershipStatus": "approved",
+    "enabled": true,
     "validFrom": null,
     "validUntil": null,
     "termsCheckedAt": "2026-11-28",
@@ -90,7 +90,10 @@
       "books",
       "goods"
     ],
-    "restrictions": [],
+    "restrictions": [
+      "楽天アフィリエイトはショップごとの提携申請なしでリンク作成可（2026-11-28、リンク作成済み）",
+      "画像付き・ウィジェット型の素材は幅固定（504px）や<script>を含むため使わない。テキストのみの素材を使う"
+    ],
     "requiredDisclosure": null,
     "notes": "対象：バスケットボール用品・書籍・グッズ。リンク先（個別商品か検索結果か）は運営者が決める"
   },

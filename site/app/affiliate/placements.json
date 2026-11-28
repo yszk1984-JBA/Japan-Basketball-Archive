@@ -11,12 +11,14 @@
     "categories": [
       "ball",
       "shoes",
-      "club-gear"
+      "club-gear",
+      "books"
     ],
     "programIds": [
-      "AFF000001"
+      "AFF000001",
+      "AFF000003"
     ],
-    "maxItems": 1,
+    "maxItems": 2,
     "enabled": true,
     "heading": "部活の用品を探す"
   },
@@ -36,9 +38,10 @@
       "books"
     ],
     "programIds": [
-      "AFF000002"
+      "AFF000002",
+      "AFF000003"
     ],
-    "maxItems": 1,
+    "maxItems": 2,
     "enabled": true,
     "heading": "部活の用品を探す"
   }
