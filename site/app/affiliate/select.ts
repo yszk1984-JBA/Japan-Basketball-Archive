@@ -93,10 +93,41 @@ export function checkRawHtml(html: string | null | undefined, asp: AspName): Htm
   return { ok: true };
 }
 
-// 素材が表示できる状態か（ASPの許可ドメイン・必須項目）。
-export function checkLinkMaterial(link: AffiliateLink, asp: AspName): HtmlCheck {
-  if (link.mode === 'rawHtml') return checkRawHtml(link.rawHtml, asp);
+// A8.netのリンクの飛び先（a8ejpredirect）を取り出す。無ければ null（広告主が設定した標準の飛び先）。
+export function a8Destination(href: string): string | null {
+  try {
+    return new URL(href.replace(/&amp;/g, '&')).searchParams.get('a8ejpredirect');
+  } catch {
+    return null;
+  }
+}
+
+// 飛び先が広告主の指定範囲（allowedDestinations）に入っているか。指定が無い案件は確認しない。
+export function checkDestinations(hrefs: readonly string[], program: AffiliateProgram): HtmlCheck {
+  const allowed = program.allowedDestinations;
+  if (!allowed || allowed.length === 0) return { ok: true };
+  for (const href of hrefs) {
+    const destination = program.asp === 'a8' ? a8Destination(href) : null;
+    if (destination && !allowed.some((prefix) => destination.startsWith(prefix)))
+      return { ok: false, reason: `飛び先が広告主の指定範囲外です: ${destination.slice(0, 80)}` };
+  }
+  return { ok: true };
+}
+
+function rawHtmlHrefs(html: string): string[] {
+  return [...html.matchAll(/href\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+))/gi)].map((m) => m[1] ?? m[2] ?? m[3] ?? '');
+}
+
+// 素材が表示できる状態か（ASPの許可ドメイン・必須項目・広告主の指定する飛び先）。
+export function checkLinkMaterial(link: AffiliateLink, program: AffiliateProgram): HtmlCheck {
+  const asp = program.asp;
+  if (link.mode === 'rawHtml') {
+    const html = checkRawHtml(link.rawHtml, asp);
+    return html.ok ? checkDestinations(rawHtmlHrefs(link.rawHtml ?? ''), program) : html;
+  }
   if (!isAllowedUrl(link.href, asp)) return { ok: false, reason: 'hrefがASPの許可ドメインのhttps URLではありません' };
+  const destination = checkDestinations([link.href ?? ''], program);
+  if (!destination.ok) return destination;
   if (link.impressionPixel && !isAllowedUrl(link.impressionPixel, asp))
     return { ok: false, reason: 'impressionPixelがASPの許可ドメインのhttps URLではありません' };
   if (!link.label || !link.label.trim()) return { ok: false, reason: 'labelがありません' };
@@ -146,7 +177,7 @@ export function selectSlot(data: AffiliateData, query: SlotQuery): SelectedSlot 
     if (!programIsActive(program, query.today)) continue;
     if (!link.enabled || !isWithinPeriod(query.today, null, link.validUntil)) continue;
     if (!link.categories.some((category) => placement.categories.includes(category))) continue;
-    if (!checkLinkMaterial(link, program.asp).ok) continue;
+    if (!checkLinkMaterial(link, program).ok) continue;
     seen.add(link.id);
     items.push({ program, link, until: earlier(earlier(null, program.validUntil), link.validUntil) });
   }

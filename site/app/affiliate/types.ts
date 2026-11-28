@@ -11,7 +11,10 @@ export type PageType = 'archive' | 'ranking' | 'column' | 'guide';
 // 案件（Affiliate Master）。ASPとの提携単位。
 export type AffiliateProgram = {
   readonly id: string; // AFF000001 形式。変更しない
-  readonly name: string;
+  readonly name: string; // 管理用の名前（サイトには表示しない）
+  // 広告枠に表示するショップ名。広告主の規約で社名・商標の記載が制限される場合があるため、
+  // 掲載条件を確認して表示してよいと分かった場合だけ設定する。null・省略なら表示しない
+  readonly displayName?: string | null;
   readonly asp: AspName;
   readonly aspProgramId?: string; // ASP側のID（記録用。表示しない）
   // ASPの管理画面で運営者が確認した提携状況。approved 以外は表示しない。
@@ -22,6 +25,8 @@ export type AffiliateProgram = {
   readonly termsCheckedAt?: string | null; // 報酬条件・掲載規約を最後に確認した日
   readonly reward?: { readonly rate?: string; readonly epc?: string; readonly approvalRate?: string; readonly note?: string };
   readonly categories: readonly string[];
+  // 広告主が指定したリンク先（URLの前方一致）。A8.netの自由テキスト・商品リンクの飛び先（a8ejpredirect）がこの範囲外なら表示しない
+  readonly allowedDestinations?: readonly string[];
   readonly restrictions?: readonly string[]; // 掲載規約上の制約メモ
   // ASP・広告主から指定された表記がある場合に、広告枠に表示する文言
   readonly requiredDisclosure?: string | null;

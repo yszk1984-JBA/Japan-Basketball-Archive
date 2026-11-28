@@ -28,7 +28,7 @@ function ItemBody({ item }: { item: SelectedItem }) {
     <>
       <a className="jbaAff-button" href={link.href} target="_blank" rel="sponsored noopener">
         <span className="jbaAff-buttonLabel">{link.label}</span>
-        <span className="jbaAff-buttonShop">{program.name}</span>
+        {program.displayName ? <span className="jbaAff-buttonShop">{program.displayName}</span> : null}
       </a>
       {link.impressionPixel ? (
         // ASPの計測用画像（1×1）。ASPのURLをそのまま読み込むため、画像最適化（next/image）は通さない

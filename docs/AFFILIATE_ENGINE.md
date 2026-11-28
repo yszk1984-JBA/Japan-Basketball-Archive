@@ -376,7 +376,29 @@ window.gtag?.('event', 'affiliate_click', {
 
 `placements.json`で、出すページ（`pageKeys`）・カテゴリー・件数（`maxItems`は1〜3）を変える。新しいページに枠を置くときだけ、ページに`<AffiliateSlot>`（記事なら上部に`<AffiliateNotice>`も）を1行追加する。
 
-### 13.5 ASPの許可ドメインを増やす
+### 13.5 ショップ名の表示と、リンクの飛び先の制限
+
+- 広告枠のボタンにショップ名を出すのは、`programs.json`の`displayName`を設定した案件だけ。広告主の規約で社名・商標の記載が制限されていることがあるため、規約を確認して表示してよいと分かった場合だけ設定する（初期値はすべて`null`＝表示しない）。
+- `allowedDestinations`を設定した案件は、A8.netの自由テキスト・商品リンクの飛び先（`a8ejpredirect`）がその範囲外なら表示しない（検証スクリプトもERRORにする）。
+
+### 13.6 案件ごとの掲載条件（確認済みのもの）
+
+**AFF000001 スーパースポーツゼビオ**（A8.net、2026-11-28確認、提携中・提携日2026-11-28・終了日未定）
+
+| 条件 | Rosterlineでの対応 |
+| --- | --- |
+| 商品リンク・自由テキストの飛び先は`https://www.supersports.com/ja-jp/xebio/`内 | `allowedDestinations`に設定。範囲外の素材は表示しない |
+| 生成されたリンクは変更しない（計測用パラメーター付き） | コードをそのまま登録する |
+| 社名（ゼビオ株式会社／株式会社ヴィクトリア）・コピーライト・商標の記載・転載不可 | `displayName: null`（ボタンにショップ名を出さない）。リンクテキストにも店名・社名を入れない |
+| 画像加工不可 | バナーはASPのコードのまま使う |
+| サイト名・ページタイトル・コンテンツがゼビオと誤解されるような構成は禁止 | 記事タイトル・見出しに店名を使わない |
+| 広告とわかる表示をファーストビュー等わかりやすい位置に | 記事上部のPR表記＋広告枠の「PR｜広告（アフィリエイト）」 |
+| 成果条件：WEB注文後30日の入金確認。否認：抽選・予約・先行販売商品、Nike Mind 001等 | 記録のみ |
+| 「ゼビオ」等のリスティング広告は禁止 | 当サイトはリスティング広告を出さない |
+
+未確認：店名を含まないリンクテキストでの運用で問題がないか（例：「バスケットボールを通販で探す」）。店名入りのテキストにしたい場合は、A8.netの「広告主お問い合わせ」で確認してから`displayName`・テキストを変える。
+
+### 13.7 ASPの許可ドメインを増やす
 
 広告素材の画像やリンクが`a8.net`／`rakuten.co.jp`／`r10s.jp`以外のドメインを使っている場合、その素材は表示されない。素材が正式なものであることを確認したうえで、`select.ts`の`ASP_ALLOWED_HOSTS`と`check_affiliate_data.py`の`ASP_ALLOWED_HOSTS`を同じ内容に変更する。
 
@@ -412,7 +434,7 @@ window.gtag?.('event', 'affiliate_click', {
 | `site/app/affiliate/AffiliateClient.tsx` | 計測（click／impression）と期限切れの非表示（Client Component） |
 | `site/app/guide/guide-data.ts` / `GuideLayout.tsx` / `page.tsx` | Rosterline Guide（`/guide`）。コラムとは別セクション |
 | `site/app/guide/basketball-ball-size/page.tsx` | Guide第1弾 |
-| `site/scripts/affiliate.test.mjs` | 表示判定のテスト（12件） |
+| `site/scripts/affiliate.test.mjs` | 表示判定のテスト（13件） |
 | `scripts/check_affiliate_data.py` | データ検証 |
 | `.github/workflows/affiliate-check.yml` | 毎日の検証・任意の再ビルド |
 | 変更：`columns/ColumnLayout.tsx`、`rankings/RankingPage.tsx` | PR表記と広告枠を1行ずつ（表示はPlacementで制御） |
@@ -448,7 +470,7 @@ window.gtag?.('event', 'affiliate_click', {
 
 | 確認 | 結果 |
 | --- | --- |
-| 表示判定のテスト（`node --test scripts/affiliate.test.mjs`） | 12件すべて成功（初期データで広告が出ない／承認済み・有効・期限内・正式素材ありだけ表示／未提携・否認・終了・無効・期限切れ・開始前・素材なし・不正URL・カテゴリー不一致は非表示／maxItems・重複／A8・楽天の標準形のrawHtmlを通し、script・iframe・onclick・javascript:・許可外ドメインを拒否） |
+| 表示判定のテスト（`node --test scripts/affiliate.test.mjs`） | 13件すべて成功（2026-11-28追加：広告主指定の飛び先の範囲外は非表示）（初期データで広告が出ない／承認済み・有効・期限内・正式素材ありだけ表示／未提携・否認・終了・無効・期限切れ・開始前・素材なし・不正URL・カテゴリー不一致は非表示／maxItems・重複／A8・楽天の標準形のrawHtmlを通し、script・iframe・onclick・javascript:・許可外ドメインを拒否） |
 | データ検証（`check_affiliate_data.py`） | 初期データでOK。表示中案件の期限切れ・`<script>`入り素材でERROR、14日以内の期限でWARNINGを確認 |
 | 型チェック（`tsc --noEmit`） | エラーなし |
 | Lint（`oxlint`） | 追加・変更したファイルにエラーなし（`components/ui`等の既存の19件はmainと同数） |

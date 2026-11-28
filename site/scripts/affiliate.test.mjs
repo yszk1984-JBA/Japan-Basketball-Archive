@@ -3,7 +3,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
-import { checkRawHtml, isAllowedUrl, latestUntil, selectPage, selectSlot, todayJst } from '../app/affiliate/select.ts';
+import { a8Destination, checkRawHtml, isAllowedUrl, latestUntil, selectPage, selectSlot, todayJst } from '../app/affiliate/select.ts';
 
 const readJson = (name) => JSON.parse(readFileSync(new URL(`../app/affiliate/${name}`, import.meta.url), 'utf8'));
 const real = { programs: readJson('programs.json'), links: readJson('links.json'), placements: readJson('placements.json') };
@@ -151,4 +151,17 @@ test('補助関数', () => {
   assert.equal(latestUntil(['2026-12-01', '2026-12-31']), '2026-12-31');
   assert.equal(latestUntil(['2026-12-01', null]), null);
   assert.equal(todayJst(new Date('2026-11-30T15:30:00Z')), '2026-12-01', 'UTC 15:30は日本時間の翌日');
+});
+
+test('広告主が指定した飛び先（allowedDestinations）の範囲外は表示しない', () => {
+  const allowed = { allowedDestinations: ['https://www.supersports.com/ja-jp/xebio/'] };
+  const inside =
+    'https://px.a8.net/svt/ejp?a8mat=TEST&a8ejpredirect=https%3A%2F%2Fwww.supersports.com%2Fja-jp%2Fxebio%2Fbasketball%2F';
+  const outside = 'https://px.a8.net/svt/ejp?a8mat=TEST&a8ejpredirect=https%3A%2F%2Fexample.com%2F';
+  assert.equal(a8Destination(inside), 'https://www.supersports.com/ja-jp/xebio/basketball/');
+  assert.ok(selectSlot(data([program(allowed)], [fieldsLink({ href: inside })]), query));
+  assert.equal(selectSlot(data([program(allowed)], [fieldsLink({ href: outside })]), query), null);
+  const raw = `<a href="${outside.replace(/&/g, '&amp;')}">x</a>`;
+  assert.equal(selectSlot(data([program(allowed)], [fieldsLink({ mode: 'rawHtml', rawHtml: raw })]), query), null);
+  assert.ok(selectSlot(data([program(allowed)], [fieldsLink()]), query), '飛び先の指定が無い標準リンクは表示');
 });

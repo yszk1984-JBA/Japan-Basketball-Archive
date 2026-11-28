@@ -21,7 +21,7 @@ import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "site" / "app" / "affiliate"
@@ -103,6 +103,18 @@ def check_raw_html(html: str | None, asp: str) -> str | None:
     return None
 
 
+def destination_error(hrefs: list[str], program: dict) -> str | None:
+    """A8.netのリンクの飛び先（a8ejpredirect）が、広告主の指定範囲（allowedDestinations）に入っているか。"""
+    allowed = program.get("allowedDestinations") or []
+    if not allowed or program.get("asp") != "a8":
+        return None
+    for href in hrefs:
+        values = parse_qs(urlparse(href.replace("&amp;", "&")).query).get("a8ejpredirect")
+        if values and not any(values[0].startswith(prefix) for prefix in allowed):
+            return f"飛び先が広告主の指定範囲外です: {values[0][:80]}"
+    return None
+
+
 def check_date(where: str, field: str, value) -> str | None:
     if value in (None, ""):
         return None
@@ -172,11 +184,16 @@ def main() -> int:
         mode = item.get("mode")
         if mode == "rawHtml":
             reason = check_raw_html(item.get("rawHtml"), asp)
+            if not reason:
+                hrefs = [m[0] or m[1] or m[2] for m in re.findall(r"href\s*=\s*(?:\"([^\"]*)\"|'([^']*)'|([^\s\"'=<>`]+))", item.get("rawHtml") or "", re.I)]
+                reason = destination_error(hrefs, program)
             if reason:
                 errors.append(f"{where}: rawHtml を表示できません（{reason}）")
         elif mode == "fields":
             if not allowed_url(item.get("href"), asp):
                 errors.append(f"{where}: href が {asp} の許可ドメインの https URL ではありません")
+            elif destination_error([item.get("href")], program):
+                errors.append(f"{where}: {destination_error([item.get('href')], program)}")
             if item.get("impressionPixel") and not allowed_url(item.get("impressionPixel"), asp):
                 errors.append(f"{where}: impressionPixel が {asp} の許可ドメインの https URL ではありません")
             if not (item.get("label") or "").strip():
